@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'setting.ui'
 **
-** Created: Sun Mar 10 01:47:45 2013
-**      by: Qt User Interface Compiler version 4.8.3
+** Created: Wed Jan 15 15:43:49 2014
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -153,7 +153,7 @@ public:
         mh = setting_dialog->height();
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
-        setting_dialog->setGeometry(QRect(cw, ch, 473, 808));        
+        setting_dialog->setGeometry(QRect(cw, ch, 473, 808));            
 	setting_dialog->setWindowTitle(QApplication::translate("setting_dialog", "Basic settings", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("setting_dialog", "Number of processors\n"
 "cores, for fsarchiver\n"
@@ -173,7 +173,7 @@ public:
         cmd_cancel->setText(QApplication::translate("setting_dialog", "Exit", 0, QApplication::UnicodeUTF8));
         chk_pbr->setText(QApplication::translate("setting_dialog", "Safe PBR by default", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("setting_dialog", "Network protocol:", 0, QApplication::UnicodeUTF8));
-        chk_ssh->setText(QApplication::translate("setting_dialog", "Show Note for accessing network computer show", 0, QApplication::UnicodeUTF8));
+        chk_ssh->setText(QApplication::translate("setting_dialog", "Show Note for accessing network computer", 0, QApplication::UnicodeUTF8));
         chk_sshfs->setText(QApplication::translate("setting_dialog", "Show  Note to mount the network computer", 0, QApplication::UnicodeUTF8));
         chk_prg->setText(QApplication::translate("setting_dialog", "Show  Note about the programm qt4-fsarchiver", 0, QApplication::UnicodeUTF8));
     } // retranslateUi

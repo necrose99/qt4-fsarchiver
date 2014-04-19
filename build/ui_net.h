@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'net.ui'
 **
-** Created: Sun May 19 18:20:42 2013
+** Created: Wed Jan 15 15:43:49 2014
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -363,6 +363,9 @@ public:
         label_2->setText(QApplication::translate("Dialog_Net", "Network computer  name:", 0, QApplication::UnicodeUTF8));
         label_folder->setText(QApplication::translate("Dialog_Net", "Restore file name:", 0, QApplication::UnicodeUTF8));
         pushButton_partition->setText(QApplication::translate("Dialog_Net", "S", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        label_Partition->setToolTip(QApplication::translate("Dialog_Net", "Select the partition to be backed up or restored.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         label_Partition->setText(QApplication::translate("Dialog_Net", "Existing partitions:", 0, QApplication::UnicodeUTF8));
         groupBox->setTitle(QApplication::translate("Dialog_Net", "Proposed action:", 0, QApplication::UnicodeUTF8));
         rdBt_saveFsArchiv->setText(QApplication::translate("Dialog_Net", "Partition save \n"
@@ -370,10 +373,16 @@ public:
         rdBt_restoreFsArchiv->setText(QApplication::translate("Dialog_Net", "Restore partition \n"
 "with fsarchiver", 0, QApplication::UnicodeUTF8));
         pushButton_folder_free->setText(QApplication::translate("Dialog_Net", "n", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        pushButton_save->setToolTip(QApplication::translate("Dialog_Net", "Start the backup of a partition.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         pushButton_save->setText(QApplication::translate("Dialog_Net", "save partition", 0, QApplication::UnicodeUTF8));
         bt_net_art->setText(QString());
         label_4->setText(QApplication::translate("Dialog_Net", "Name the backup file:", 0, QApplication::UnicodeUTF8));
         pushButton_end->setText(QApplication::translate("Dialog_Net", "Exit", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        pushButton_restore->setToolTip(QApplication::translate("Dialog_Net", "Start restore a partition.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         pushButton_restore->setText(QApplication::translate("Dialog_Net", "Partition restore", 0, QApplication::UnicodeUTF8));
         label_5->setText(QApplication::translate("Dialog_Net", "elapsed time:", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("Dialog_Net", "On the number saved\n"
@@ -387,16 +396,28 @@ public:
         label_11->setText(QApplication::translate("Dialog_Net", "seconds", 0, QApplication::UnicodeUTF8));
         pushButton_break->setText(QString());
         pushButton_break->setShortcut(QString());
+#ifndef QT_NO_TOOLTIP
+        label_folder_free->setToolTip(QApplication::translate("Dialog_Net", "Directory in which the partition is backed up or from the recovery file is removed.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         label_folder_free->setText(QApplication::translate("Dialog_Net", "Please select the folder.", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("Dialog_Net", "Number of processors\n"
 "cores for to be used fsarchiver:", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("Dialog_Net", "Compression\n"
 "setting:", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_Beschreibung->setToolTip(QApplication::translate("Dialog_Net", "Notes to the backup is written to a file.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_Beschreibung->setText(QApplication::translate("Dialog_Net", "Notes to  the backup", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_overwrite->setToolTip(QApplication::translate("Dialog_Net", "Same backup files are overwritten without prior consultation.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_overwrite->setText(QApplication::translate("Dialog_Net", "available backup overwrite", 0, QApplication::UnicodeUTF8));
         chk_split->setText(QApplication::translate("Dialog_Net", "Stock Split on DVD size", 0, QApplication::UnicodeUTF8));
         chk_key->setText(QApplication::translate("Dialog_Net", "Encrypt \n"
 "backup key", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_pbr->setToolTip(QApplication::translate("Dialog_Net", "PBR is first block of any bootable partition.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_pbr->setText(QApplication::translate("Dialog_Net", "Save PBR", 0, QApplication::UnicodeUTF8));
         label_13->setText(QApplication::translate("Dialog_Net", "<html><head/><body><p>Protocol for network transmission:</p></body></html>", 0, QApplication::UnicodeUTF8));
         bt_toParent->setText(QString());

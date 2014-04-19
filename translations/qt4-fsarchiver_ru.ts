@@ -132,6 +132,16 @@
 </comment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>alredy saved</source>
+        <comment>bereits gesichert</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>alredy restored</source>
+        <comment>bereits zurückgeschrieben</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DialogClone_net</name>
@@ -1612,6 +1622,34 @@ files/directories:</source>
         <extracomment>Bitte wählen Sie einen freigegebene Ordner aus:</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Select the partition to be backed up or restored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start the backup of a partition.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start restore a partition.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notes to the backup is written to a file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Same backup files are overwritten without prior consultation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PBR is first block of any bootable partition.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Eingabe_Net</name>
@@ -1645,7 +1683,7 @@ files/directories:</source>
     <message>
         <source>Achievable in the network computer:</source>
         <extracomment>Im Netz erreichbare Rechner:</extracomment>
-        <translation>Доступны компьютеры в сети:</translation>
+        <translation type="obsolete">Доступны компьютеры в сети:</translation>
     </message>
     <message>
         <source>n</source>
@@ -1661,6 +1699,15 @@ files/directories:</source>
         <source>Cancel</source>
         <extracomment>Abbrechen</extracomment>
         <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Username and password are stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Achievable network computer:</source>
+        <extracomment>Im Netz erreichbare Rechner:</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2554,13 +2601,26 @@ von Partitionen, Verzeichnissen und MBR
 Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
 All rights reserved.
 Version 0.6.17-4, 1. Juni 2013</comment>
-        <translation type="unfinished">Сохранение и восстановление
+        <translation type="obsolete">Сохранение и восстановление
 разделов, каталогов и MBR
 версия  0.6.17-2, от 1 июнь 2013
 
 Copyright (C) 2008-2013 Francois Dupoux, Hihin Ruslan, Dieter Baum
 Охраняется законом об авторских правах
 Программа распространяется на условиях GPL 2.0 и выше</translation>
+    </message>
+    <message>
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.17-5, December 20, 2013</source>
+        <comment>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.17-5, 20. Dezember 2013</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2991,6 +3051,34 @@ back to the original location</source>
         <source>Clone HD, HD-Image built and restore</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Select the partition to be backed up or restored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start the backup of a partition.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start restore a partition.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notes to the backup is written to a file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Same backup files are overwritten without prior consultation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PBR is first block of any bootable partition</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>NetEin</name>
@@ -3101,7 +3189,7 @@ back to the original location</source>
     <message>
         <source>Save / restore MBR</source>
         <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation type="unfinished">Работа с MBR</translation>
+        <translation type="obsolete">Работа с MBR</translation>
     </message>
     <message>
         <source>Exist harddrive:</source>
@@ -3165,10 +3253,6 @@ back to the original location</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>already saved:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Image of a hard disk to create</source>
         <extracomment>sdb</extracomment>
         <translation type="unfinished"></translation>
@@ -3181,6 +3265,27 @@ back to the original location</source>
         <source>Exit</source>
         <extracomment>Abbrechen</extracomment>
         <translation type="unfinished">Выход</translation>
+    </message>
+    <message>
+        <source>Save / Restore MBR</source>
+        <extracomment>MBR sichern/zurückschreiben</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Directory in which the image is written</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MB/sec</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>already saved:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transmission speed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3355,6 +3460,26 @@ for to be used fsarchiver:</source>
         <extracomment>noch zu erwartende Zeit:</extracomment>
         <translation>оставшиеся время:</translation>
     </message>
+    <message>
+        <source>Start the backup or the restore of a folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the folder to be backed up or restored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Directory in which the folder is backed up or from the recovery file is removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Same backup files are overwritten without prior consultation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The directory will be written back to the original path</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>mbr_dialog</name>
@@ -3428,6 +3553,10 @@ Backup / restore:</source>
     <message>
         <source>MBR/GPT backup directory:</source>
         <extracomment>MBR Sicherungsverzeichnis:</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Directory in which the MBR/GPT is written.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3516,11 +3645,6 @@ compression:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show Note for accessing network computer show</source>
-        <extracomment>Hinweis  für den Zugriff auf Netzwerkrechner anzeigen</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Show  Note to mount the network computer</source>
         <extracomment>Hinweis über das Mounten des Netzwerkrechners anzeigen</extracomment>
         <translation type="unfinished"></translation>
@@ -3528,6 +3652,11 @@ compression:</source>
     <message>
         <source>Show  Note about the programm qt4-fsarchiver</source>
         <extracomment>Hinweise zum Gebrauch des Programms anzeigen</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show Note for accessing network computer</source>
+        <extracomment>Hinweis  für den Zugriff auf Netzwerkrechner anzeigen</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

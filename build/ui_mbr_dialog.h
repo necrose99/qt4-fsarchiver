@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mbr_dialog.ui'
 **
-** Created: Sat Sep 1 20:02:50 2012
-**      by: Qt User Interface Compiler version 4.8.1
+** Created: Wed Jan 15 15:43:49 2014
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -82,7 +82,7 @@ public:
 
     void retranslateUi(QWidget *mbr_dialog)
     {
-        int w,h, mw, mh, cw, ch;
+	 int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width
         h=d->height();                  // returns screen height
@@ -93,7 +93,7 @@ public:
         mh = mbr_dialog->height();
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
-        mbr_dialog->setGeometry(QRect(cw, ch, 469, 505));
+        mbr_dialog->setGeometry(QRect(cw, ch, 469, 505));        
 	mbr_dialog->setWindowTitle(QApplication::translate("mbr_dialog", "Save / Restore MBR/GPT", 0, QApplication::UnicodeUTF8));
         cmb_mbr->clear();
         cmb_mbr->insertItems(0, QStringList()
@@ -105,6 +105,9 @@ public:
         );
         bt_end->setText(QApplication::translate("mbr_dialog", "Cancel", 0, QApplication::UnicodeUTF8));
         bt_save->setText(QApplication::translate("mbr_dialog", "Save / restore MBR", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        label->setToolTip(QApplication::translate("mbr_dialog", "Directory in which the MBR/GPT is written.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         label->setText(QApplication::translate("mbr_dialog", "MBR/GPT backup directory:", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("mbr_dialog", "MBR of that drive this\n"
 "Backup / restore:", 0, QApplication::UnicodeUTF8));

@@ -20,6 +20,7 @@ sudo apt-get install libzip-dev libbz2-dev liblzma-dev liblzo2-2 liblzo2-dev lib
  
 The command for Suse: (you must be an administrator su) zypper in libqt4-devel make libzip-devel libbz2-devel xz-devel lzo-devel libgcrypt-devel e2fsprogs-devel libblkid-devel libattr-devel btrfsprogs gdisk sshfs nmap samba nfs-kernel-server
 If you use ssh (secure shell) want to access other computers in the network, you still need to install individually sshpass.
+Use the KDE desktop, you must change the properties in the file /usr/share/applications/qt4-fsarchiver.desktop from sudo qt4-fsarchiver in kdesu qt4-fsarchiver.
 
 The command for Fedora: (you must be an administrator su -) yum install  gcc gcc-c++ zlib-devel bzip2-devel xz-devel lzo-devel libgcrypt-devel   e2fsprogs-devel libblkid-devel libattr-devel qt4-devel gdisk sshfs sshpass nmap samba samba-client nfs-utils
 

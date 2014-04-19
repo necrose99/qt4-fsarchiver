@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'clone_dialog.ui'
 **
-** Created: Fri Feb 1 17:04:31 2013
-**      by: Qt User Interface Compiler version 4.8.3
+** Created: Wed Jan 15 15:43:49 2014
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -57,12 +57,15 @@ public:
     QProgressBar *progressBar;
     QPushButton *pushButton_break;
     QLineEdit *savedBytes;
-    QLabel *label_4;
+    QLabel *lbl_save;
     QLabel *lbl_hd_size;
     QLabel *label_11;
     QLineEdit *HourElapsed;
     QLabel *label_12;
     QLineEdit *HourRemaining;
+    QLabel *label;
+    QLineEdit *bytes_sec;
+    QLabel *label_2;
     QPushButton *pushButton_folder;
     QLabel *label_folder;
     QFrame *frame;
@@ -155,7 +158,7 @@ public:
         label_6->setWordWrap(true);
         progressBar = new QProgressBar(frame_2);
         progressBar->setObjectName(QString::fromUtf8("progressBar"));
-        progressBar->setGeometry(QRect(10, 120, 411, 25));
+        progressBar->setGeometry(QRect(10, 125, 411, 25));
         progressBar->setMaximum(100);
         progressBar->setValue(0);
         pushButton_break = new QPushButton(frame_2);
@@ -174,18 +177,19 @@ public:
         pushButton_break->setFlat(false);
         savedBytes = new QLineEdit(frame_2);
         savedBytes->setObjectName(QString::fromUtf8("savedBytes"));
-        savedBytes->setGeometry(QRect(320, 80, 71, 27));
+        savedBytes->setGeometry(QRect(340, 85, 71, 27));
         savedBytes->setAlignment(Qt::AlignCenter);
-        label_4 = new QLabel(frame_2);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(140, 80, 171, 21));
-        label_4->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        lbl_save = new QLabel(frame_2);
+        lbl_save->setObjectName(QString::fromUtf8("lbl_save"));
+        lbl_save->setGeometry(QRect(270, 80, 71, 41));
+        lbl_save->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        lbl_save->setWordWrap(true);
         lbl_hd_size = new QLabel(frame_2);
         lbl_hd_size->setObjectName(QString::fromUtf8("lbl_hd_size"));
-        lbl_hd_size->setGeometry(QRect(400, 80, 31, 17));
+        lbl_hd_size->setGeometry(QRect(420, 90, 31, 17));
         label_11 = new QLabel(frame_2);
         label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setGeometry(QRect(175, 15, 61, 17));
+        label_11->setGeometry(QRect(170, 15, 61, 20));
         label_11->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         HourElapsed = new QLineEdit(frame_2);
         HourElapsed->setObjectName(QString::fromUtf8("HourElapsed"));
@@ -193,12 +197,23 @@ public:
         HourElapsed->setAlignment(Qt::AlignCenter);
         label_12 = new QLabel(frame_2);
         label_12->setObjectName(QString::fromUtf8("label_12"));
-        label_12->setGeometry(QRect(175, 45, 61, 17));
+        label_12->setGeometry(QRect(170, 45, 61, 20));
         label_12->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         HourRemaining = new QLineEdit(frame_2);
         HourRemaining->setObjectName(QString::fromUtf8("HourRemaining"));
         HourRemaining->setGeometry(QRect(130, 40, 41, 27));
         HourRemaining->setAlignment(Qt::AlignCenter);
+        label = new QLabel(frame_2);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(10, 80, 111, 41));
+        label->setWordWrap(true);
+        bytes_sec = new QLineEdit(frame_2);
+        bytes_sec->setObjectName(QString::fromUtf8("bytes_sec"));
+        bytes_sec->setGeometry(QRect(130, 85, 71, 27));
+        bytes_sec->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        label_2 = new QLabel(frame_2);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(205, 90, 51, 17));
         pushButton_folder = new QPushButton(clone_dialog);
         pushButton_folder->setObjectName(QString::fromUtf8("pushButton_folder"));
         pushButton_folder->setGeometry(QRect(80, 650, 16, 21));
@@ -251,21 +266,9 @@ public:
 
     void retranslateUi(QWidget *clone_dialog)
     {
-	int w,h, mw, mh, cw, ch;
-        QWidget *d = QApplication::desktop();
-        w=d->width();                   // returns screen width
-        h=d->height();                  // returns screen height
-        //qDebug() << "Bildschrimbreite";
-        //qDebug() << h;
-        //Center position calculation
-        mw = clone_dialog->width();
-        mh = clone_dialog->height();
-        cw = (w/2) - (mw/2);
-        ch = (h/2) - (mh/2); 
-        clone_dialog->setGeometry(QRect(cw, ch, 516, 700));        
-	clone_dialog->setWindowTitle(QApplication::translate("clone_dialog", "Clone hard drive", 0, QApplication::UnicodeUTF8));
+        clone_dialog->setWindowTitle(QApplication::translate("clone_dialog", "Clone hard drive", 0, QApplication::UnicodeUTF8));
         bt_end->setText(QApplication::translate("clone_dialog", "Exit", 0, QApplication::UnicodeUTF8));
-        bt_save->setText(QApplication::translate("clone_dialog", "Save / restore MBR", 0, QApplication::UnicodeUTF8));
+        bt_save->setText(QApplication::translate("clone_dialog", "Save / Restore MBR", 0, QApplication::UnicodeUTF8));
         lbl_hd->setText(QApplication::translate("clone_dialog", "Exist harddrive:", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("clone_dialog", "New harddrive:", 0, QApplication::UnicodeUTF8));
         commandLinkButton->setText(QApplication::translate("clone_dialog", "CommandLinkButton", 0, QApplication::UnicodeUTF8));
@@ -278,11 +281,16 @@ public:
         label_6->setText(QApplication::translate("clone_dialog", "remaining time:", 0, QApplication::UnicodeUTF8));
         pushButton_break->setText(QString());
         pushButton_break->setShortcut(QString());
-        label_4->setText(QApplication::translate("clone_dialog", "already saved:", 0, QApplication::UnicodeUTF8));
+        lbl_save->setText(QApplication::translate("clone_dialog", "already saved:", 0, QApplication::UnicodeUTF8));
         lbl_hd_size->setText(QApplication::translate("clone_dialog", "MB", 0, QApplication::UnicodeUTF8));
         label_11->setText(QApplication::translate("clone_dialog", "hours", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("clone_dialog", "hours", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("clone_dialog", "Transmission speed", 0, QApplication::UnicodeUTF8));
+        label_2->setText(QApplication::translate("clone_dialog", "MB/sec", 0, QApplication::UnicodeUTF8));
         pushButton_folder->setText(QApplication::translate("clone_dialog", "f", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        label_folder->setToolTip(QApplication::translate("clone_dialog", "Directory in which the image is written", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         label_folder->setText(QApplication::translate("clone_dialog", "Backup directory:", 0, QApplication::UnicodeUTF8));
         rdbt_image_restore->setText(QApplication::translate("clone_dialog", "Image of a hard disk write back", 0, QApplication::UnicodeUTF8));
         rdbt_clone->setText(QApplication::translate("clone_dialog", "Clone hard disk", 0, QApplication::UnicodeUTF8));

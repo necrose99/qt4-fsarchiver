@@ -67,6 +67,9 @@
      <height>18</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Select the partition to be backed up or restored.</string>
+   </property>
    <property name="text">
     <string extracomment="vorhandene Partitionen:">Existing partitions:</string>
    </property>
@@ -161,6 +164,9 @@ with fsarchiver</string>
      <height>41</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Start the backup of a partition.</string>
+   </property>
    <property name="text">
     <string extracomment="Partition sichern">save partition</string>
    </property>
@@ -232,6 +238,9 @@ with fsarchiver</string>
      <width>351</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Start restore a partition.</string>
    </property>
    <property name="text">
     <string extracomment="Partition wiederherstellen">Partition restore</string>
@@ -427,6 +436,9 @@ files/directories:</string>
      <height>17</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Directory in which the partition is backed up or from the recovery file is removed.</string>
+   </property>
    <property name="text">
     <string extracomment="Bitte wählen Sie einen freigegebene Ordner aus:">Please select the folder.</string>
    </property>
@@ -526,6 +538,9 @@ setting:</string>
       <height>23</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>Notes to the backup is written to a file.</string>
+    </property>
     <property name="text">
      <string>Notes to  the backup</string>
     </property>
@@ -548,6 +563,9 @@ setting:</string>
       <width>341</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Same backup files are overwritten without prior consultation.</string>
     </property>
     <property name="text">
      <string>available backup overwrite</string>
@@ -588,6 +606,9 @@ backup key</string>
       <width>261</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>PBR is first block of any bootable partition.</string>
     </property>
     <property name="text">
      <string extracomment="PBR sichern">Save PBR</string>

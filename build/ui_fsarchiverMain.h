@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'fsarchiverMain.ui'
 **
-** Created: Tue Feb 19 09:53:59 2013
-**      by: Qt User Interface Compiler version 4.8.3
+** Created: Wed Jan 15 15:43:49 2014
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -459,7 +459,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-	int w,h, mw, mh, cw, ch;
+       int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width
         h=d->height();                  // returns screen height
@@ -488,12 +488,24 @@ public:
         action_CloneDrive->setText(QApplication::translate("MainWindow", "Clone Drive HD-Image save/restore ", 0, QApplication::UnicodeUTF8));
         action_CloneDrive_net->setText(QApplication::translate("MainWindow", "HD-Image save/restore on network", 0, QApplication::UnicodeUTF8));
         actionClone_HD->setText(QApplication::translate("MainWindow", "Clone HD, HD-Image built and restore", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        label_Partition->setToolTip(QApplication::translate("MainWindow", "Select the partition to be backed up or restored.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         label_Partition->setText(QApplication::translate("MainWindow", "Existing partitions:", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        label_folder->setToolTip(QApplication::translate("MainWindow", "Directory in which the partition is backed up or from the recovery file is removed.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         label_folder->setText(QApplication::translate("MainWindow", "Backup directory:", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        pushButton_save->setToolTip(QApplication::translate("MainWindow", "Start the backup of a partition.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         pushButton_save->setText(QApplication::translate("MainWindow", "Stored partitions", 0, QApplication::UnicodeUTF8));
         pushButton_end->setText(QApplication::translate("MainWindow", "Exit", 0, QApplication::UnicodeUTF8));
         pushButton_partition->setText(QApplication::translate("MainWindow", "S", 0, QApplication::UnicodeUTF8));
         pushButton_folder->setText(QString());
+#ifndef QT_NO_TOOLTIP
+        pushButton_restore->setToolTip(QApplication::translate("MainWindow", "Start restore a partition.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         pushButton_restore->setText(QApplication::translate("MainWindow", "Partition restore", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("MainWindow", "Name the backup file:", 0, QApplication::UnicodeUTF8));
         label_5->setText(QApplication::translate("MainWindow", "elapsed time:", 0, QApplication::UnicodeUTF8));
@@ -512,18 +524,36 @@ public:
 "cores for to be used fsarchiver:", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("MainWindow", "Compression\n"
 "setting:", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_Beschreibung->setToolTip(QApplication::translate("MainWindow", "Notes to the backup is written to a file", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_Beschreibung->setText(QApplication::translate("MainWindow", "Notes to  the backup", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_overwrite->setToolTip(QApplication::translate("MainWindow", "Same backup files are overwritten without prior consultation", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_overwrite->setText(QApplication::translate("MainWindow", "available backup overwrite", 0, QApplication::UnicodeUTF8));
         chk_split->setText(QApplication::translate("MainWindow", "Stock Split on size:", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_key->setToolTip(QString());
+#endif // QT_NO_TOOLTIP
         chk_key->setText(QApplication::translate("MainWindow", "Encrypt \n"
 "backup key", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_pbr->setToolTip(QApplication::translate("MainWindow", "PBR is first block of any bootable partition", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_pbr->setText(QApplication::translate("MainWindow", "Save PBR", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("MainWindow", "GB", 0, QApplication::UnicodeUTF8));
         groupBox->setTitle(QApplication::translate("MainWindow", "Proposed action:", 0, QApplication::UnicodeUTF8));
         rdBt_saveFsArchiv->setText(QApplication::translate("MainWindow", "Partition save \n"
 "with fsarchiver", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        rdBt_restoreFsArchiv->setToolTip(QString());
+#endif // QT_NO_TOOLTIP
         rdBt_restoreFsArchiv->setText(QApplication::translate("MainWindow", "Restore partition\n"
 "with fsarchiver", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        toolBar->setToolTip(QString());
+#endif // QT_NO_TOOLTIP
         menuAktionen->setTitle(QApplication::translate("MainWindow", "Actions", 0, QApplication::UnicodeUTF8));
         menu_Einstellungen->setTitle(QApplication::translate("MainWindow", "Settings", 0, QApplication::UnicodeUTF8));
         menuInformation->setTitle(QApplication::translate("MainWindow", "Information", 0, QApplication::UnicodeUTF8));

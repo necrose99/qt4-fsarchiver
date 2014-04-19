@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'treeview.ui'
 **
-** Created: Sun Jun 3 22:21:56 2012
-**      by: Qt User Interface Compiler version 4.8.1
+** Created: Wed Jan 15 15:43:49 2014
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -35,7 +35,7 @@ public:
 
     void setupUi(QDialog *treeview_dialog)
     {
-	if (treeview_dialog->objectName().isEmpty())
+        if (treeview_dialog->objectName().isEmpty())
             treeview_dialog->setObjectName(QString::fromUtf8("treeview_dialog"));
         treeview_dialog->resize(473, 415);
         frame = new QFrame(treeview_dialog);
@@ -89,7 +89,7 @@ public:
         mh = treeview_dialog->height();
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
-        treeview_dialog->setGeometry(QRect(cw, ch, 473, 415));            
+        treeview_dialog->setGeometry(QRect(cw, ch, 473, 415));          
 	treeview_dialog->setWindowTitle(QApplication::translate("treeview_dialog", "Select restore file", 0, QApplication::UnicodeUTF8));
         cmd_cancel->setText(QApplication::translate("treeview_dialog", "Cancel", 0, QApplication::UnicodeUTF8));
         cmd_save->setText(QApplication::translate("treeview_dialog", "Next", 0, QApplication::UnicodeUTF8));

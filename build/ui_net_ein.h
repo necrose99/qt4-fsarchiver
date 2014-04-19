@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'net_ein.ui'
 **
-** Created: Sun Jun 3 22:21:56 2012
-**      by: Qt User Interface Compiler version 4.8.1
+** Created: Wed Jan 15 15:43:49 2014
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -41,7 +41,7 @@ public:
 
     void setupUi(QDialog *Eingabe_Net)
     {
-	if (Eingabe_Net->objectName().isEmpty())
+        if (Eingabe_Net->objectName().isEmpty())
             Eingabe_Net->setObjectName(QString::fromUtf8("Eingabe_Net"));
         Eingabe_Net->resize(353, 383);
         label_2 = new QLabel(Eingabe_Net);
@@ -117,13 +117,16 @@ public:
         mh = Eingabe_Net->height();
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
-        Eingabe_Net->setGeometry(QRect(cw, ch, 353, 383));          
+        Eingabe_Net->setGeometry(QRect(cw, ch, 353, 383));         
 	Eingabe_Net->setWindowTitle(QApplication::translate("Eingabe_Net", "Data network", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("Eingabe_Net", "Username:", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("Eingabe_Net", "Password:", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_datesave->setToolTip(QApplication::translate("Eingabe_Net", "Username and password are stored.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_datesave->setText(QApplication::translate("Eingabe_Net", "Save data", 0, QApplication::UnicodeUTF8));
         pushButton_go->setText(QApplication::translate("Eingabe_Net", "Next", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("Eingabe_Net", "Achievable in the network computer:", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("Eingabe_Net", "Achievable network computer:", 0, QApplication::UnicodeUTF8));
         pushButton_net->setText(QApplication::translate("Eingabe_Net", "n", 0, QApplication::UnicodeUTF8));
         chk_password->setText(QApplication::translate("Eingabe_Net", "Show Password", 0, QApplication::UnicodeUTF8));
         pushButton_end->setText(QApplication::translate("Eingabe_Net", "Cancel", 0, QApplication::UnicodeUTF8));

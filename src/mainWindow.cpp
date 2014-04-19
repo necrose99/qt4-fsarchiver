@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2013 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -1029,13 +1029,13 @@ void MWindow::info() {
          "partitions, directory and MBR\n"
          "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.17-4, June 1, 2013",
+         "Version 0.6.17-5, December 20, 2013",
 
 	 "Sichern und Wiederherstellen\n"
          "von Partitionen, Verzeichnissen und MBR\n"
          "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.17-4, 1. Juni 2013"));
+         "Version 0.6.17-5, 20. Dezember 2013"));
 }
 
 int MWindow::Root_Auswertung(){
@@ -1884,5 +1884,8 @@ void MWindow::del_mediafolder()
            close ();
            
 }
+
+
+
 
 

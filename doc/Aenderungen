@@ -1,7 +1,11 @@
 ==================================================================================================
 * qt4-fsarchiver: Grafische Oberfläche für fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
-* qt4-fsarchiver-6-7-3 1.06.2013
+* qt4-fsarchiver-6-7-5 20.12.2013
+    - Tooltips wurden hinzugefügt.
+    - USB-Sticks können ebenfalls geklont, Images können gebildet und zurückgeschrieben werden.
+    - Fehlerbehebung bei der Fortschrittsanzeige.
+* qt4-fsarchiver-6-7-4 1.06.2013
     - Anpassung an Debian 7
 * qt4-fsarchiver-6-7-3 14.04.2013
     - Fehlerkorrektur

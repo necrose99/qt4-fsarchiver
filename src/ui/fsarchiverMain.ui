@@ -23,6 +23,9 @@
       <height>18</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>Select the partition to be backed up or restored.</string>
+    </property>
     <property name="locale">
      <locale language="English" country="UnitedStates"/>
     </property>
@@ -39,6 +42,9 @@
       <height>18</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>Directory in which the partition is backed up or from the recovery file is removed.</string>
+    </property>
     <property name="locale">
      <locale language="English" country="UnitedStates"/>
     </property>
@@ -54,6 +60,9 @@
       <width>351</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Start the backup of a partition.</string>
     </property>
     <property name="text">
      <string>Stored partitions</string>
@@ -148,6 +157,9 @@
       <width>351</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Start restore a partition.</string>
     </property>
     <property name="text">
      <string>Partition restore</string>
@@ -425,6 +437,9 @@ setting:</string>
        <height>23</height>
       </rect>
      </property>
+     <property name="toolTip">
+      <string>Notes to the backup is written to a file</string>
+     </property>
      <property name="text">
       <string>Notes to  the backup</string>
      </property>
@@ -447,6 +462,9 @@ setting:</string>
        <width>341</width>
        <height>23</height>
       </rect>
+     </property>
+     <property name="toolTip">
+      <string>Same backup files are overwritten without prior consultation</string>
      </property>
      <property name="text">
       <string>available backup overwrite</string>
@@ -474,6 +492,9 @@ setting:</string>
        <height>41</height>
       </rect>
      </property>
+     <property name="toolTip">
+      <string/>
+     </property>
      <property name="text">
       <string>Encrypt 
 backup key</string>
@@ -487,6 +508,9 @@ backup key</string>
        <width>261</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="toolTip">
+      <string>PBR is first block of any bootable partition</string>
      </property>
      <property name="text">
       <string extracomment="PBR sichern">Save PBR</string>
@@ -563,6 +587,9 @@ with fsarchiver</string>
        <height>40</height>
       </rect>
      </property>
+     <property name="toolTip">
+      <string/>
+     </property>
      <property name="text">
       <string extracomment="Partition mit fs-Archiver * zurückschreiben">Restore partition
 with fsarchiver</string>
@@ -586,6 +613,9 @@ with fsarchiver</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QToolBar" name="toolBar">
+   <property name="toolTip">
+    <string/>
+   </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
    </property>

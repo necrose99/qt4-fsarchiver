@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2013 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -244,8 +244,8 @@ int efi= 0;
         // fdisk -lu , mit diesem Befehl Startsektor von sda1 ermitteln.
         // derzeit für Ubuntu:  Startsektor sda1 = 63*512 = 32256 
 	// Sektornummer in Datei abspeichern
-        Dateiname = homepath + "/.sektornummer.txt";
-        befehl = "fdisk -lu | grep " + partition + "1 > " + homepath + "/.sektornummer.txt";
+        Dateiname = homepath + "/.config/qt4-fsarchiver/sektornummer.txt";
+        befehl = "fdisk -lu | grep " + partition + "1 > " + homepath + "/.config/qt4-fsarchiver/sektornummer.txt";
         int i = system (befehl.toAscii().data());
         QFile file(Dateiname);
         //Datei auslesen
@@ -258,7 +258,7 @@ int efi= 0;
             sektor_ = text.toInt();
           }
        //Datei löschen
-   //   befehl = "rm "  + homepath + "/.sektornummer.txt";
+       befehl = "rm "  + homepath + "/.config/qt4-fsarchiver/sektornummer.txt";;
        system (befehl.toAscii().data()); 
        if (sektor_ < 2 && efiflag == 0) {
 	    QMessageBox::about(this, tr("Note", "Hinweis"), tr("The end of hidden area of the 1st Partition could not be read. Only 512 bytes are saved.", "Das Ende des verborgenen Bereiches der 1. Partition konnte nicht ausgelesen werden. Es werden nur 512 Bytes gesichert.\n"));
@@ -492,4 +492,7 @@ int efi=0;
 	if (efi == 0 &&  (dialog_auswertung == 5))
 	     cmb_mbr->setEnabled(true);
 }
+
+
+
 

@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
  * 
- * Copyright (C) 2008-2013 Francois Dupoux.  All rights reserved.
+ * Copyright (C) 2008-2014 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -621,5 +621,8 @@ int get_path_to_volume(char *newvolbuf, int bufsize, char *basepath, long curvol
     
     return 0;
 }
+
+
+
 
 

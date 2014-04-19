@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2013 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -165,5 +165,8 @@ void DialogSetting:: setting_save()
      QMessageBox::about(this,tr("Note", "Hinweis"),
          tr("The settings have been saved. Be restarted, the program modified the language setting.","Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.\n"));
 }
+
+
+
 
 

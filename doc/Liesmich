@@ -19,7 +19,7 @@ Dies erreichen Sie, bei auf Debian aufbauenden Distributionen, mit folgendem Bef
 sudo apt-get install libzip-dev libbz2-dev liblzma-dev liblzo2-2 liblzo2-dev libgcrypt11-dev e2fslibs-dev libblkid-dev libattr1-dev build-essential libqt4-core libqt4-dev btrfs-tools gdisk sshfs sshpass nmap samba nfs-kernel-server 
 
 In Suse werden die Abhängigkeiten mit Root-Rechten (su ) mit diesem Befehl installiert: zypper in libqt4-devel make libzip-devel libbz2-devel xz-devel lzo-devel libgcrypt-devel e2fsprogs-devel libblkid-devel libattr-devel btrfsprogs gdisk sshfs nmap samba nfs-kernel-server
-Wenn Sie ssh (secureshell) für den Zugriff auf weitere Rechner im Netzwerk nutzen wollen, müssen Sie noch sshpass individuell installieren.
+Wenn Sie ssh (secureshell) für den Zugriff auf weitere Rechner im Netzwerk nutzen wollen, müssen Sie noch sshpass individuell installieren.Verwenden Sie die KDE-Oberfläche müssen Sie nach der Installation in der datei /usr/share/applications/qt4-fsarchiver.desktop die Eigenschaften von sudo qt4-fsarchiver in kdesu qt4-fsarchiver ändern. 
 
 In Fedora werden die Abhängigkeiten mit Root-Rechten (su -) mit diesem Befehl installiert: yum install  gcc gcc-c++ zlib-devel bzip2-devel xz-devel lzo-devel libgcrypt-devel e2fsprogs-devel libblkid-devel libattr-devel qt4-devel gdisk sshfs sshpass nmap samba samba-client nfs-utils
 

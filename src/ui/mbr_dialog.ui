@@ -96,6 +96,9 @@
      <height>18</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Directory in which the MBR/GPT is written.</string>
+   </property>
    <property name="text">
     <string extracomment="MBR Sicherungsverzeichnis:">MBR/GPT backup directory:</string>
    </property>

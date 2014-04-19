@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'dir_dialog.ui'
 **
-** Created: Sun Jun 3 22:21:56 2012
-**      by: Qt User Interface Compiler version 4.8.1
+** Created: Wed Jan 15 15:43:49 2014
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -66,7 +66,7 @@ public:
 
     void setupUi(QWidget *dir_dialog)
     {
-	if (dir_dialog->objectName().isEmpty())
+        if (dir_dialog->objectName().isEmpty())
             dir_dialog->setObjectName(QString::fromUtf8("dir_dialog"));
         dir_dialog->resize(714, 654);
         bt_end = new QPushButton(dir_dialog);
@@ -198,22 +198,19 @@ public:
 
     void retranslateUi(QWidget *dir_dialog)
     {
-	int w,h, mw, mh, cw, ch;
-        QWidget *d = QApplication::desktop();
-        w=d->width();                   // returns screen width
-        h=d->height();                  // returns screen height
-        //qDebug() << "Bildschrimbreite";
-        //qDebug() << h;
-        //Center position calculation
-        mw = dir_dialog->width();
-        mh = dir_dialog->height();
-        cw = (w/2) - (mw/2);
-        ch = (h/2) - (mh/2); 
-        dir_dialog->setGeometry(QRect(cw, ch, 714, 654));        
-	dir_dialog->setWindowTitle(QApplication::translate("dir_dialog", "Save/restore directory", 0, QApplication::UnicodeUTF8));
+        dir_dialog->setWindowTitle(QApplication::translate("dir_dialog", "Save/restore directory", 0, QApplication::UnicodeUTF8));
         bt_end->setText(QApplication::translate("dir_dialog", "Exit", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        bt_save->setToolTip(QApplication::translate("dir_dialog", "Start the backup or the restore of a folder.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         bt_save->setText(QApplication::translate("dir_dialog", "Save/restore directory", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        label->setToolTip(QApplication::translate("dir_dialog", "Select the folder to be backed up or restored.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         label->setText(QApplication::translate("dir_dialog", "Saved directory", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        label_2->setToolTip(QApplication::translate("dir_dialog", "Directory in which the folder is backed up or from the recovery file is removed.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         label_2->setText(QApplication::translate("dir_dialog", "Location (path) of backup:", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("dir_dialog", "On the number of\n"
 "captive Files/directories:", 0, QApplication::UnicodeUTF8));
@@ -232,7 +229,13 @@ public:
         label_3->setText(QApplication::translate("dir_dialog", "Compression setting:", 0, QApplication::UnicodeUTF8));
         chk_key->setText(QApplication::translate("dir_dialog", "Encrypt\n"
 "backup key", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_overwrite->setToolTip(QApplication::translate("dir_dialog", "Same backup files are overwritten without prior consultation.", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_overwrite->setText(QApplication::translate("dir_dialog", "Overwrite existing backup", 0, QApplication::UnicodeUTF8));
+#ifndef QT_NO_TOOLTIP
+        chk_path->setToolTip(QApplication::translate("dir_dialog", "The directory will be written back to the original path", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
         chk_path->setText(QApplication::translate("dir_dialog", "Backup restore to the Origin", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 

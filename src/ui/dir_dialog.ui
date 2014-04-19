@@ -35,6 +35,9 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Start the backup or the restore of a folder.</string>
+   </property>
    <property name="text">
     <string extracomment="Verzeichnis sichern/zurückschreiben">Save/restore directory</string>
    </property>
@@ -61,6 +64,9 @@
      <height>18</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Select the folder to be backed up or restored.</string>
+   </property>
    <property name="text">
     <string extracomment="zu sicherndes Verzeichnis:">Saved directory</string>
    </property>
@@ -86,6 +92,9 @@
      <width>291</width>
      <height>18</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Directory in which the folder is backed up or from the recovery file is removed.</string>
    </property>
    <property name="text">
     <string extracomment="Ort (Pfad) der Sicherung:">Location (path) of backup:</string>
@@ -458,6 +467,9 @@ backup key</string>
       <height>23</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>Same backup files are overwritten without prior consultation.</string>
+    </property>
     <property name="text">
      <string extracomment="vorhandene Sicherung überschreiben">Overwrite existing backup</string>
     </property>
@@ -470,6 +482,9 @@ backup key</string>
       <width>231</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>The directory will be written back to the original path</string>
     </property>
     <property name="text">
      <string extracomment="Sicherung an den Ursprungsort zurückschreiben">Backup restore to the Origin</string>

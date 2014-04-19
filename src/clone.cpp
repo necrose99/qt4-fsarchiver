@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2013 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -44,6 +44,7 @@ QString homepath = QDir::homePath();
 float partition_exist_size_int;
 int dummy_prozent_clone;
 float size_clone_dummy;
+QString read_write_space_sec;
 
 DialogClone::DialogClone(QWidget *parent)
 {
@@ -77,30 +78,38 @@ DialogClone::DialogClone(QWidget *parent)
  }
 
 void DialogClone::format_Disk() {
-QString disk_clone[50];
+QString disk_part_name = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
+QStringList disk_part_name_list;
+QString disk_part_name_1;
 QString teilstring, space1;
 QString befehl;
+QString disk_clone[50];
 QStringList disk_kurz;
-int  i = 0, j=0 ,k;
+int  i = 0, j=0 ,k=0, m=0;
 int pos;
-        befehl = "fdisk -l | grep 'Disk /dev' 1> " +  homepath + "/.config/qt4-fsarchiver/disk.txt";
-        system (befehl.toAscii().data());
-	QString filename = homepath + "/.config/qt4-fsarchiver/disk.txt";
+        QString filename = homepath + "/.config/qt4-fsarchiver/disk.txt";
 	QFile file(filename);
-        if (file.open(QIODevice::ReadOnly|QIODevice::Text)) {
-           QTextStream ds(&file);
-          while (!ds.atEnd()){
-           	disk_clone[i] = ds.readLine();
-                disk_kurz = disk_clone[i].split(" ") ;
+        disk_part_name_list = disk_part_name.split(" ") ;
+        for (m=0; m< 26; m++){
+             befehl = "fdisk -l | grep ' /dev/sd" + disk_part_name_list[m] + "': 1> " +  homepath + "/.config/qt4-fsarchiver/disk.txt"; //Festplatten auslesen
+             system (befehl.toAscii().data());
+             if (file.open(QIODevice::ReadOnly|QIODevice::Text)) {
+                QTextStream ds(&file);
+                disk_clone[m] = ds.readLine();
+                if (disk_clone[m] != ""){
+                disk_kurz = disk_clone[m].split(" ") ;
                 part_clone[i][0] = disk_kurz[1];
                 part_clone[i][1] = disk_kurz[2];
-                i = i + 1;
+		i = i + 1;
                 }
-           j = i ;
-           }
-        file.close();
-        befehl = "rm " + filename;
-        system (befehl.toAscii().data());
+		}
+		file.close();
+	}
+		
+                befehl = "rm " + filename;
+                system (befehl.toAscii().data());
+	        j = i;
+
         for (i=0; i< j; i++)
        {
            teilstring = part_clone[i][1];
@@ -108,7 +117,6 @@ int pos;
            teilstring = part_clone[i][0];
            pos = teilstring.indexOf("/sd");
            space1.fill (' ',12 - k);
-	   //space1.fill (' ',20 );
 	   disk_clone[i] = teilstring.right(pos) + space1 + part_clone[i][1] + " GB";
            listWidget_clone->addItem (disk_clone[i]);
            listWidget_exist->addItem (disk_clone[i]);
@@ -136,7 +144,11 @@ QString partition_exist_size;
 QString partition_clone;
 QString partition_clone_size;
 int partition_clone_size_int;
-
+lbl_save->setText (tr("alredy saved", "bereits gesichert"));
+QFile file(homepath + "/.config/qt4-fsarchiver/disk.txt");
+      befehl = "rm "  + homepath + "/.config/qt4-fsarchiver/disk.txt";	
+      if (file.exists()) 
+	  system (befehl.toAscii().data()); 
       flag_clone =1;
       row = listWidget_exist->currentRow();
       if (row > -1){
@@ -174,14 +186,13 @@ int partition_clone_size_int;
 	return 0;
 }
        befehl = "dd if=" + partition_exist + " of=" + partition_clone + " bs=1M 2>" + homepath + "/.config/qt4-fsarchiver/disk.txt"; 
-	int ret = questionMessage(tr(" Do you want really clone the hard drive? All dates on  ", " Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte ")   + partition_clone + tr(" are deleted!", " werden gelöscht!") );
+       int ret = questionMessage(tr(" Do you want really clone the hard drive? All dates on  ", " Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte ")   + partition_clone + tr(" are deleted!", " werden gelöscht!") );
               if (ret == 2)
                  return 0;
               thread1.setValues( 0,befehl);
     	      ViewProzent();
               this->setCursor(Qt::WaitCursor);
               startThread1(0);
-              qDebug() << "The hard drive is cloned";
     return 0;
 }
 
@@ -193,6 +204,7 @@ int pos;
 QString partition_exist;
 QString partition_exist_size;
 Qt::CheckState state;
+      lbl_save->setText (tr("alredy saved", "bereits gesichert"));
       state = chk_zip->checkState();
       flag_clone =2;
       row = listWidget_exist->currentRow();
@@ -239,7 +251,7 @@ Qt::CheckState state;
 			startThread1(1);}
                 else 
                 	startThread1(0);
-                qDebug() << "Das Image wird erstellt";
+                qDebug() << "The image is created";
     		
               }
     return 0;
@@ -254,6 +266,7 @@ int pos;
 QString partition_exist;
 QString partition_exist_size;
 Qt::CheckState state;
+      lbl_save->setText (tr("alredy restored", "bereits zurückgeschrieben"));
       state = chk_zip->checkState();
       flag_clone =2;
       row = listWidget_exist->currentRow();
@@ -429,23 +442,26 @@ QString mb_sec;
        	QTimer::singleShot(1000, this, SLOT(ViewProzent()));
                 // Prüfen, nach wieviel Sekunden ViewProzent erneut aufgerufen wird
         diff = sekunde_summe_clone - sekunde_summe_clone_1;
-	size_clone = read_write_space_sum * sekunde_summe_clone / 10.0;
+	size_clone = read_write_space_sum * sekunde_summe_clone; 
         if (size_clone_dummy > size_clone)
 		size_clone=size_clone_dummy; //Verhindert, dass die bereits angezeigten gespeicherten Daten nicht reduziert werden
         size_clone_dummy = size_clone; 
         lbl_hd_size ->setText("MB");
-	prozent = size_clone/(partition_exist_size_int);
+	prozent = 100 * size_clone/(partition_exist_size_int);
         if (prozent > 100)
             prozent = 100;
-       // prozent = size_clone/ 12 ;  // 12 GB;
         sekunde_summe_clone_1 = sekunde_summe_clone;
         savedBytes->setText("");
-        size_1 = 10 * (int) size_clone;
-        if (size_clone > 1000) { 
+        size_1 = (int) size_clone;
+        if (size_clone > 10000) { 
             size_1 = size_1 / 1000;
             lbl_hd_size ->setText("GB");}
         size = QString::number(size_1);
-       // mb_sec = QString::number(read_write_space_sec, 'f',1);
+        mb_sec = QString::number(read_write_space_sum, 'f',1);
+        if (read_write_space_sum > 0)
+        	bytes_sec ->setText(mb_sec);
+        if (read_write_space_sec != "")
+        	bytes_sec ->setText(read_write_space_sec);
         if (size_clone > 0) 
         	savedBytes->setText(size);
         // verhindert dass mehr gesicherte Bytes angezeigt werden als Festplattengröße
@@ -454,8 +470,9 @@ QString mb_sec;
         this->repaint();
         elapsedTime();
        	progressBar->setValue(prozent);
-	      if (dummy_prozent_clone != prozent)
-     			remainingTime(prozent);
+        if (dummy_prozent_clone != prozent)
+     		remainingTime(prozent);
+                       
  	else {
         	if (prozent >= 1)
        		{
@@ -492,7 +509,7 @@ QString mb_sec;
         sekunde = QString::number(sekunde_); 
         SekundeRemaining ->setText(sekunde);
 	    } 
-    }   
+    } 
  dummy_prozent_clone = prozent;  
         }
  } 
@@ -507,13 +524,9 @@ QString befehl;
    thread1.start();
    bt_end->setEnabled(false);
    bt_save->setEnabled(false);
-   // flag=0: Platte klonen/*
-if (flag == 0){
-   // pid von dd ermitteln
-   while(pid_dd == "")
-	pid_dd = pid_ermitteln("dd");
-   read_write_hd_1();}
-
+   // flag=0: Platte klonen, Image ohne zip schreiben
+if (flag == 0)
+   read_write_hd_1();
 }
 
 void DialogClone::startThread2(int flag) {
@@ -524,11 +537,9 @@ void DialogClone::startThread2(int flag) {
    thread2.start();
    bt_end->setEnabled(false);
    bt_save->setEnabled(false);
-   if (flag == 0){
-   // pid von dd ermitteln
-      while(pid_dd == "")
-	pid_dd = pid_ermitteln("dd");
-       read_write_hd_1();}
+   // flag = 0: ungezipptes Image zurückschreiben
+   if (flag == 0)
+      read_write_hd_1();
 }
 
 void DialogClone::closeEvent(QCloseEvent *event) {
@@ -649,8 +660,10 @@ pid_dd = pid_ermitteln("dd");
     int ret = questionMessage(tr("Do you want really break clone, save or restore an image from the partition?", "Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?"));
       if (thread_run_clone  == 1 && ret == 1 or thread_run_clone == 2 && ret == 1)
         {
-	befehl = "rm "  + folder_clone +  partition_name + ".gz.fsa";	
-        system (befehl.toAscii().data()); 
+        befehl = "rm "  + folder_clone +  partition_name + ".gz.fsa";	
+        QFile file(folder_clone +  partition_name + ".gz.fsa");
+      if (file.exists()) 
+	  system (befehl.toAscii().data()); 
      	befehl = "kill -15 " + pid_dd;  //dd abbrechen
      	system (befehl.toAscii().data());
         flag_clone =0;
@@ -762,11 +775,16 @@ QString bytes_;
 QStringList bytes;
 	if (endeThread_clone !=0)
             return;
+        if (pid_dd == " ") 
+           pid_dd = pid_ermitteln("dd"); 
         QTimer::singleShot(10000, this, SLOT(read_write_hd_1()));  //1 sekunden
         befehl = "kill -USR1 " + pid_dd;
+        //  befehl = "sudo kill -USR1 " + pid_dd + " 2>" + homepath + "/.config/qt4-fsarchiver/disk.txt";
         system (befehl.toAscii().data());
 	QString filename = homepath + "/.config/qt4-fsarchiver/disk.txt";
 	QFile file(filename);
+        if(file.size() == 0)
+           return;
         if (file.open(QIODevice::ReadOnly|QIODevice::Text)) {
            QTextStream ds(&file);
           while (!ds.atEnd())
@@ -774,15 +792,21 @@ QStringList bytes;
 	     bytes_ = ds.readLine();
       	} }
    	file.close();
-        bytes = bytes_.split(" ") ;
-        bytes_ = bytes[0];
-        bytes_ =  bytes_.left( bytes_.size() -6);
-        read_write_space_sum = (bytes_.toInt()/ sekunde_summe_clone);
+        if (bytes_ != ""){
+           bytes = bytes_.split(" ") ;
+           bytes_ = bytes[0];
+           bytes_ =  bytes_.left( bytes_.size() -6);
+           read_write_space_sum = (bytes_.toInt()/ sekunde_summe_clone);}
+        if (bytes_ != "")
+           read_write_space_sec= bytes[7];
 }
 
 
 
 
         
+
+
+
 
 

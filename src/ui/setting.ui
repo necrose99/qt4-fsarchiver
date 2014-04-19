@@ -264,7 +264,7 @@ back to the original location</string>
      </rect>
     </property>
     <property name="text">
-     <string extracomment="Hinweis  für den Zugriff auf Netzwerkrechner anzeigen">Show Note for accessing network computer show</string>
+     <string extracomment="Hinweis  für den Zugriff auf Netzwerkrechner anzeigen">Show Note for accessing network computer</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="chk_sshfs">
