@@ -1,5 +1,8 @@
 qt4-fsarchiver
 ==============
+Brought to you by: <a
+href="http://sourceforge.net/users/dieterbaum" itemprop="url"><span
+itemprop="name">dieterbaum</span></a>
  <div style="visibility: visible; opacity: 1;" class="strip"> <a
 rel="section" class="thumbnail"
 href="http://a.fsdn.com/con/app/proj/qt4-fsarchiver/screenshots/330027.jpg"
