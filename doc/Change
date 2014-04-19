@@ -1,0 +1,53 @@
+==================================================================================================
+* qt4-fsarchiver: Graphical interface for fsarchiver fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
+==================================================================================================
+* qt4-fsarchiver-6-17-3 June 1, 2013
+    - Adaptation to Debian 7
+* qt4-fsarchiver-6-17-3 April 14, 2013
+    - Error correction
+* qt4-fsarchiver-6-17-2 01.04.2013
+    - Network communication with NFS (Network File System) possible.
+* qt4-fsarchiver-6-17-1 15.03.2013
+    - Adaptation to the version 0.6.17 fsarchiver.
+    - Network communication with SSH (Secure Shell) possible.
+* qt4-fsarchiver-6-15-3 10.02.2013
+    - Program expansion: HD cloning, image HD write and restore.
+* qt4-fsarchiver-6-15-2 25.10.2012
+    - btrfs partitions are mounted automatically.
+When partitions from qt4-fsarchiver are mounted in /media, partitions are unmounted, if you close the program
+    - When partitions from qt4-fsarchiver are mounted in /media, partitions are unmounted, if you close the program.
+    - Troubleshooting: MBR backup in directories with spaces in the name now possible.
+* qt4-fsarchiver-6-15-1 September 25, 2012
+   - Added support for recent ext4 and btrfs features.
+* qt4-fsarchiver-6-13-5 August 10, 2012
+   - Backup and restore the GUID partition table.
+* qt4-fsarchiver-6-13-4 June 20, 2012
+   - The Windows swap file pagefiles.sys is no longer secured. The backup is unnecessary and avoids an error message when backing. 
+* qt4-fsarchiver-6-13-3 May 27, 2012
+   - Critical Error correction: With the use of Ubuntu 12.04, precise pangolin and the same time back the root and home 
+     partitions (partitions are mounted), it could crash and the destruction the system.
+* qt4-fsarchiver-6-13-2 May 10, 2012
+   - The size of the splitting of an archive can be chosen between 2GB, 4GB and 4,7 GB.
+* qt4-fsarchiver-6-13-1 April 15, 2012
+   - Adaptation to the version 0.6.13 of fsarchiver
+   - Fixed detection of the root filesystem using "/proc/self/mountinfo" instead of "/proc/mounts" 
+* qt4-fsarchiver-6-12-11 January 26, 2012
+   - When restoring a btrfs partition it is posible to choose between format and not format the partition.
+* qt4-fsarchiver-6-12-10 December 10, 2011
+   - Backup and restore the partition boot sector.
+* qt4-fsarchiver-6-12-9 November 30, 2011
+   - All existing shared folder can be selected for backup / restore over the network.
+* qt4-fsarchiver-6-12-8 November 8, 2011
+   - If the backup to a FAT partition written, the backup file is splitted and limits individual file size to 4GB.
+* qt4-fsarchiver-6-12-8 November 1, 2011
+   - for the restoration of btrfs-partitions, the installation of btrfs-tools is also required. 
+   - Corrected errors in the translation file.
+   - Note, if the 4GB limit is exceeded during the backup to a FAT partition.
+* qt4-fsarchiver-6.12.8 (July 1, 2011
+   - Data for gpl license gpl-2 and-3 added.
+   - Number of correctly secured data corrected in the final display.
+* qt4-fsarchiver-6.12.7 (June 26, 2011
+   - English translation is added.
+   - Button to cancel a backup/recovery added.
+   - Display the progress bar in the one-second interval.
+
