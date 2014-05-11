@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
- *
- * Copyright (C) 2008-2012 Francois Dupoux.  All rights reserved.
+ * 
+ * Copyright (C) 2008-2014 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -62,7 +62,7 @@ int btrfs_mkfs(cdico *d, char *partition, char *fsoptions)
     int exitst;
     u64 temp64;
     int i = btrfs_flag_uebergeben(); 
-    	if (i == 1) 
+    if (i == 1) 
 		return 0; 
     
     // ---- get original filesystem features (if the original filesystem was a btrfs)
@@ -80,6 +80,7 @@ int btrfs_mkfs(cdico *d, char *partition, char *fsoptions)
     {   errprintf("this filesystem has features which are not supported by this fsarchiver version.\n");
         return -1;
     }
+    
     // ---- there is no option that just displays the version and return 0 in mkfs.btrfs-0.16
     if (exec_command(command, sizeof(command), NULL, NULL, 0, NULL, 0, "mkfs.btrfs")!=0)
     {   errprintf("mkfs.btrfs not found. please install btrfs-progs on your system or check the PATH.\n");
@@ -96,6 +97,7 @@ int btrfs_mkfs(cdico *d, char *partition, char *fsoptions)
     
     if (dico_get_u64(d, 0, FSYSHEADKEY_FSBTRFSSECTORSIZE, &temp64)==0)
         strlcatf(options, sizeof(options), " -s %ld ", (long)temp64);
+    
     if (exec_command(command, sizeof(command), &exitst, NULL, 0, NULL, 0, "mkfs.btrfs -f %s %s", partition, options)!=0 || exitst!=0)
     {   errprintf("command [%s] failed\n", command);
         return -1;
@@ -216,3 +218,4 @@ int btrfs_get_reqmntopt(char *partition, cstrlist *reqopt, cstrlist *badopt)
     strlist_add(badopt, "noacl");
     return 0;
 }
+

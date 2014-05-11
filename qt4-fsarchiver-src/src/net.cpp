@@ -604,6 +604,8 @@ QFile file(folder_net);
 				  // Windows Auslagerungsdatei pagefile.sys von der Sicherung immer ausschließen
                                   parameter[indizierung] = "--exclude=pagefile.*";
                                   indizierung = indizierung + 1;
+                                  parameter[indizierung] = "--exclude=hyberfil.sys";
+                                  indizierung = indizierung + 1;
                                   parameter[indizierung] = (folder_net + "/" + DateiName_net + "-" + _Datum_net + ".fsa");
 				// Vorbereitung für psb
 				QString befehl = ("dd if=/dev/" + partition_net_ + " of=" + folder_net + "/" + DateiName_net + "-" + _Datum_net + ".pbr" + " bs=512 count=1");
@@ -1651,6 +1653,7 @@ void DialogNet::listWidget_base()
 	treeWidget->addTopLevelItems( items1 );
         treeWidget->setRootIsDecorated(false);  // Pfeil wird nicht angezeigt
 }
+
 
 
 

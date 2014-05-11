@@ -457,8 +457,20 @@ public:
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
 
-    void retranslateUi(QMainWindow *MainWindow)
+   void retranslateUi(QMainWindow *MainWindow)
     {
+	int w,h, mw, mh, cw, ch;
+        QWidget *d = QApplication::desktop();
+        w=d->width();                   // returns screen width
+        h=d->height();                  // returns screen height
+        //qDebug() << "Bildschrimbreite";
+        //qDebug() << h;
+        //Center position calculation
+        mw = MainWindow->width();
+        mh = MainWindow->height();
+        cw = (w/2) - (mw/2);
+        ch = (h/2) - (mh/2); 
+        MainWindow->setGeometry(QRect(cw, ch, 770, 710)); 
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Save/restore partition ", 0, QApplication::UnicodeUTF8));
         actionPfad_fuer_die_Sicherung_festlegen->setText(QApplication::translate("MainWindow", "Basic Settings", 0, QApplication::UnicodeUTF8));
         action_partition_save->setText(QApplication::translate("MainWindow", "Backup partition", 0, QApplication::UnicodeUTF8));

@@ -76,10 +76,9 @@ typedef struct s_devinfo
     bool        mountedbyfsa;
     int         fstype;
 } cdevinfo;
-
- int meldeflag = 0; 
+   int meldeflag = 0; 
 	long long anzahlfile = 0; 
-	float progress = 0; 
+	float progress = 0;
 
 int createar_obj_regfile_multi(csavear *save, cdico *header, char *relpath, char *fullpath, u64 filesize)
 {
@@ -418,7 +417,6 @@ int createar_item_stdattr(csavear *save, char *root, char *relpath, struct stat6
     *objtype=OBJTYPE_NULL;
     *filecost=FSA_COST_PER_FILE; // fixed cost per file
     concatenate_paths(fullpath, sizeof(fullpath), root, relpath);
-    
     if (meldeflag  == 0) { 
            // Anzeige im Terminal 
            msgprintf(MSG_FORCE, "Es müssen insgesamt %.5lld  Verzeichnisse bzw. Dateien gesichert werden.\r", (long long)save->objectid);
@@ -434,7 +432,8 @@ int createar_item_stdattr(csavear *save, char *root, char *relpath, struct stat6
            werte_uebergeben(progress,1); 
            anzahlfile = save->objectid; 
            werte_uebergeben(anzahlfile,3); 
-           }
+         }
+    
     msgprintf(MSG_DEBUG2, "Adding [%.5lld]=[%s]\n", (long long)save->objectid, relpath);
     if (dico_add_u64(d, DICO_OBJ_SECTION_STDATTR, DISKITEMKEY_OBJECTID, (u64)(save->objectid)++)!=0)
     {   errprintf("dico_add_u64(DICO_OBJ_SECTION_STDATTR) failed\n");
@@ -1296,8 +1295,8 @@ int oper_save(char *archive, int argc, char **argv, int archtype)
     save.objectid=0;
     meldeflag = 1;
 	// Anzeige im Terminal 
-			msgprintf(MSG_FORCE, "\n"); 
-			msgprintf(MSG_FORCE, "[ Anzahl Dateien  prozentualer Anteil ]  \n");
+	msgprintf(MSG_FORCE, "\n"); 
+	msgprintf(MSG_FORCE, "[ Anzahl Dateien  prozentualer Anteil ]  \n");
     
     // copy contents to archive
     switch (archtype)
@@ -1393,8 +1392,4 @@ do_create_success:
     archwriter_destroy(&save.ai);
     return ret;
 }
-
-
-
-
 

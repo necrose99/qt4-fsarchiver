@@ -60,3 +60,4 @@ if (qdummy != "0" && pos > -1) {  //thread Festplatte klonen, Image erstellen
 
 
 
+

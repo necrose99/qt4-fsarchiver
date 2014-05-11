@@ -68,6 +68,7 @@ int sekunde_summe;
 QStringList items_kerne_;
 QStringList items_GB;
 QString partition_typ_;
+QString partition_typ;
 
 QString part_art;
 QString zip_[10];
@@ -83,6 +84,7 @@ pid_t getppid(void);
 QString pid, pid1;
 QString befehl_pbr;
 int stopFlag;
+int row_1;
 
 extern "C"
 {
@@ -117,7 +119,7 @@ int fsarchiver_aufruf(int argc, char *anlage0=NULL, char *anlage1=NULL, char *an
 MWindow::MWindow()
 {
    questionLabel = new QLabel;
-   QString partition_typ;
+   
    QStringList dummy;
    QStringList partition_kurz;
    QString partition1_;
@@ -302,7 +304,7 @@ MWindow::MWindow()
                 pos1 = partition_typ.indexOf("ext4");
                 if (pos > -1 || pos1 > -1)
 		    partition_typ = "ext";
-		partition_ = "/dev/"+ partition_; 
+                partition_ = "/dev/"+ partition_; 
                 //Prüfen ob System oder Home Partition
                 part_art = mtab_einlesen(partition_); // Partition übergeben
                 if (!is_mounted(partition_.toAscii().data()))
@@ -601,9 +603,17 @@ int MWindow::savePartition()
 	    			      parameter[indizierung + 1] = "-a";
                                       indizierung = indizierung + 2; 
                                       }
-				  // Windows Auslagerungsdatei pagefile.sys von der Sicherung immer ausschließen
-                                  parameter[indizierung] = "--exclude=pagefile.*";
+                                 QString partitionsart = part[row_1][1];
+                                 QString partitionsart_ = widget[row_1];
+       				 int pos_a = partitionsart_.indexOf("ntfs");
+                		 if (pos_a > -1)
+		                    {
+				  // Windows Auslagerungsdatei pagefile.sys  und hiberfil.sys von der Sicherung immer ausschließen
+                                  parameter[indizierung] = "--exclude=pagefile.sys";
                                   indizierung = indizierung + 1;
+                                  parameter[indizierung] = "--exclude=hyberfil.sys";
+                                  indizierung = indizierung + 1;
+				     }
                                   parameter[indizierung] = (folder + "/" + DateiName + "-" + _Datum + ".fsa");
 				// Vorbereitung für psb
 				QString befehl = ("dd if=/dev/" + partition_ + " of=" + folder + "/" + DateiName + "-" + _Datum + ".pbr" + " bs=512 count=1");
@@ -645,6 +655,8 @@ int MWindow::savePartition()
 					befehl = "rm -r -f /tmp/fsa 2>/dev/null"; 
    					system (befehl.toAscii().data());
    				}}
+//qDebug() << "Befehl" << parameter[0] << parameter[1] << parameter[2] << parameter[3] << parameter[4] << parameter[5] << parameter[6] << parameter[7] << parameter[8] << indizierung + 2;
+
 				thread1.setValues(indizierung + 2,"0"); 
                                 pushButton_end->setEnabled(false);  
                                 pushButton_save->setEnabled(false); 
@@ -999,12 +1011,14 @@ void MWindow::listWidget_auslesen() {
 //QModelIndexList QItemSelectionModel::selectedIndexes () const
     int row;
     row = listWidget->currentRow();
+    row_1 = row;
     partition_ = widget[row];
     int pos = partition_.indexOf("btrfs");
     if (pos > 0)
        partition_typ_ = "btrfs";
     partition_ = part[row][0]; // z.B. sda1
     UUID = part[row][3];
+    
 }
 
 QString MWindow::UUID_auslesen(int row){
@@ -1030,13 +1044,13 @@ void MWindow::info() {
          "partitions, directory and MBR\n"
          "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-1, March 15, 2014",
+         "Version 0.6.19-2, April 27, 2014",
 
 	 "Sichern und Wiederherstellen\n"
          "von Partitionen, Verzeichnissen und MBR\n"
          "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-1, 20. März 2014"));
+         "Version 0.6.19-2, 27. April 2014"));
 }
 
 int MWindow::Root_Auswertung(){
@@ -1885,6 +1899,7 @@ void MWindow::del_mediafolder()
            close ();
            
 }
+
 
 
 

@@ -1,11 +1,13 @@
 ==================================================================================================
 * qt4-fsarchiver: Grafische Oberfläche für fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
+* qt4-fsarchiver-6.19-2 27.4.2014
+    - kleinere Fehlerbehebungen
 * qt4-fsarchiver-6.19-1 17.3.2014
-      Änderungen bei fsarchiver:
-      Zurückname "Anzahl der Inode-Blöcke pro Gruppe". 
+    - Änderungen bei fsarchiver:
+    - Zurückname "Anzahl der Inode-Blöcke pro Gruppe". 
 * qt4-fsarchiver-6.18-1 15.3.2014
-      Änderungen bei fsarchiver:
+    - Änderungen bei fsarchiver:
     - Patch von Berix, die Zahl der Inode-Blöcke pro Gruppe auf ext-Dateisystemen bleiben erhalten. 
     - Zusätzliche Unterstützung für die neuesten btrfs Funktionen.(bis zu linux-3.14) 	
 * qt4-fsarchiver-6.17-5 20.12.2013

@@ -106,6 +106,18 @@ public:
 
     void retranslateUi(QDialog *Eingabe_Net)
     {
+	int w,h, mw, mh, cw, ch;
+        QWidget *d = QApplication::desktop();
+        w=d->width();                   // returns screen width
+        h=d->height();                  // returns screen height
+        //qDebug() << "Bildschrimbreite";
+        //qDebug() << h;
+        //Center position calculation
+        mw = Eingabe_Net->width();
+        mh = Eingabe_Net->height();
+        cw = (w/2) - (mw/2);
+        ch = (h/2) - (mh/2); 
+        Eingabe_Net->setGeometry(QRect(cw, ch, 353, 383)); 
         Eingabe_Net->setWindowTitle(QApplication::translate("Eingabe_Net", "Data network", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("Eingabe_Net", "Username:", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("Eingabe_Net", "Password:", 0, QApplication::UnicodeUTF8));

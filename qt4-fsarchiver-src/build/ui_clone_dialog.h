@@ -266,6 +266,18 @@ public:
 
     void retranslateUi(QWidget *clone_dialog)
     {
+	int w,h, mw, mh, cw, ch;
+        QWidget *d = QApplication::desktop();
+        w=d->width();                   // returns screen width
+        h=d->height();                  // returns screen height
+        //qDebug() << "Bildschrimbreite";
+        //qDebug() << h;
+        //Center position calculation
+        mw = clone_dialog->width();
+        mh = clone_dialog->height();
+        cw = (w/2) - (mw/2);
+        ch = (h/2) - (mh/2); 
+        clone_dialog->setGeometry(QRect(cw, ch, 516, 700));
         clone_dialog->setWindowTitle(QApplication::translate("clone_dialog", "Clone hard drive", 0, QApplication::UnicodeUTF8));
         bt_end->setText(QApplication::translate("clone_dialog", "Exit", 0, QApplication::UnicodeUTF8));
         bt_save->setText(QApplication::translate("clone_dialog", "Save / Restore MBR", 0, QApplication::UnicodeUTF8));

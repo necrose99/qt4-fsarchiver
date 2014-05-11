@@ -139,6 +139,7 @@ int archinfo_show_fshead(cdico *dicofshead, int fsid)
     msgprintf(MSG_FORCE, "Space used in filesystem: \t%s (%lld bytes)\n", format_size(fsbytesused, buffer, sizeof(buffer), 'h'), (long long)fsbytesused);
     msgprintf(MSG_FORCE, "\n");
     meldungen_uebergeben(fsorigdev,2);
+    
     return 0;
 }
 
