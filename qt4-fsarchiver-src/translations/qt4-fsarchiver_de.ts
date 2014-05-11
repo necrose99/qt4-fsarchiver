@@ -1196,45 +1196,45 @@ wiederherzustellende verborgene Bereich hat eine Größe von</translation>
         <translation>lzma best</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="300"/>
-        <location filename="../src/net.cpp" line="342"/>
-        <location filename="../src/net.cpp" line="461"/>
-        <location filename="../src/net.cpp" line="467"/>
-        <location filename="../src/net.cpp" line="474"/>
-        <location filename="../src/net.cpp" line="480"/>
-        <location filename="../src/net.cpp" line="496"/>
-        <location filename="../src/net.cpp" line="546"/>
-        <location filename="../src/net.cpp" line="587"/>
-        <location filename="../src/net.cpp" line="617"/>
-        <location filename="../src/net.cpp" line="633"/>
-        <location filename="../src/net.cpp" line="679"/>
-        <location filename="../src/net.cpp" line="685"/>
-        <location filename="../src/net.cpp" line="691"/>
-        <location filename="../src/net.cpp" line="701"/>
-        <location filename="../src/net.cpp" line="722"/>
-        <location filename="../src/net.cpp" line="731"/>
-        <location filename="../src/net.cpp" line="738"/>
-        <location filename="../src/net.cpp" line="782"/>
-        <location filename="../src/net.cpp" line="807"/>
-        <location filename="../src/net.cpp" line="814"/>
-        <location filename="../src/net.cpp" line="826"/>
-        <location filename="../src/net.cpp" line="874"/>
-        <location filename="../src/net.cpp" line="1008"/>
-        <location filename="../src/net.cpp" line="1075"/>
-        <location filename="../src/net.cpp" line="1091"/>
-        <location filename="../src/net.cpp" line="1097"/>
-        <location filename="../src/net.cpp" line="1108"/>
-        <location filename="../src/net.cpp" line="1137"/>
-        <location filename="../src/net.cpp" line="1163"/>
-        <location filename="../src/net.cpp" line="1166"/>
-        <location filename="../src/net.cpp" line="1171"/>
-        <location filename="../src/net.cpp" line="1185"/>
-        <location filename="../src/net.cpp" line="1191"/>
+        <location filename="../src/net.cpp" line="302"/>
+        <location filename="../src/net.cpp" line="344"/>
+        <location filename="../src/net.cpp" line="463"/>
+        <location filename="../src/net.cpp" line="469"/>
+        <location filename="../src/net.cpp" line="476"/>
+        <location filename="../src/net.cpp" line="482"/>
+        <location filename="../src/net.cpp" line="498"/>
+        <location filename="../src/net.cpp" line="548"/>
+        <location filename="../src/net.cpp" line="589"/>
+        <location filename="../src/net.cpp" line="621"/>
+        <location filename="../src/net.cpp" line="637"/>
+        <location filename="../src/net.cpp" line="683"/>
+        <location filename="../src/net.cpp" line="689"/>
+        <location filename="../src/net.cpp" line="695"/>
+        <location filename="../src/net.cpp" line="705"/>
+        <location filename="../src/net.cpp" line="726"/>
+        <location filename="../src/net.cpp" line="735"/>
+        <location filename="../src/net.cpp" line="742"/>
+        <location filename="../src/net.cpp" line="786"/>
+        <location filename="../src/net.cpp" line="811"/>
+        <location filename="../src/net.cpp" line="818"/>
+        <location filename="../src/net.cpp" line="830"/>
+        <location filename="../src/net.cpp" line="878"/>
+        <location filename="../src/net.cpp" line="1012"/>
+        <location filename="../src/net.cpp" line="1079"/>
+        <location filename="../src/net.cpp" line="1095"/>
+        <location filename="../src/net.cpp" line="1101"/>
+        <location filename="../src/net.cpp" line="1112"/>
+        <location filename="../src/net.cpp" line="1141"/>
+        <location filename="../src/net.cpp" line="1167"/>
+        <location filename="../src/net.cpp" line="1170"/>
+        <location filename="../src/net.cpp" line="1175"/>
+        <location filename="../src/net.cpp" line="1189"/>
         <location filename="../src/net.cpp" line="1195"/>
-        <location filename="../src/net.cpp" line="1358"/>
-        <location filename="../src/net.cpp" line="1489"/>
-        <location filename="../src/net.cpp" line="1507"/>
-        <location filename="../src/net.cpp" line="1547"/>
+        <location filename="../src/net.cpp" line="1199"/>
+        <location filename="../src/net.cpp" line="1362"/>
+        <location filename="../src/net.cpp" line="1493"/>
+        <location filename="../src/net.cpp" line="1511"/>
+        <location filename="../src/net.cpp" line="1551"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Hinweis</translation>
@@ -1261,15 +1261,15 @@ wiederherzustellende verborgene Bereich hat eine Größe von</translation>
         <translation type="obsolete">Bitte wählen Sie einen freigegebenen Ordner aus.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="497"/>
-        <location filename="../src/net.cpp" line="1009"/>
+        <location filename="../src/net.cpp" line="499"/>
+        <location filename="../src/net.cpp" line="1013"/>
         <source>The network computer </source>
         <comment>Der Netzwerkrechner </comment>
         <translation type="unfinished">Der Netzwerkrechner </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="497"/>
-        <location filename="../src/net.cpp" line="1009"/>
+        <location filename="../src/net.cpp" line="499"/>
+        <location filename="../src/net.cpp" line="1013"/>
         <source> could not be integrated. The program is aborted
 </source>
         <comment> konnte nicht eingebunden werden. Das Programm wird abgebrochen
@@ -1285,7 +1285,7 @@ Das Programm wird abgebrochen</translation>
         <translation type="obsolete">Bitte wählen Sie das Sicherungsverzeichnis aus.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="301"/>
+        <location filename="../src/net.cpp" line="303"/>
         <source>Can not find a shared directory with the NFS Protokoll.
 </source>
         <comment>Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis gefunden.
@@ -1293,7 +1293,7 @@ Das Programm wird abgebrochen</translation>
         <translation type="unfinished">Für das NFS-Protokoll wurde kein freigegebenes Verzeuichnis gefunden.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="343"/>
+        <location filename="../src/net.cpp" line="345"/>
         <source>Can not find a shared directory with the Samba Protokoll.
 </source>
         <comment>Mit Samba wurde kein freigegebenes Verzeichnis gefunden.
@@ -1301,7 +1301,7 @@ Das Programm wird abgebrochen</translation>
         <translation type="unfinished">Für das Samba Protokoll wurde kein freigegebenes Verzeichnis gefunden.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="462"/>
+        <location filename="../src/net.cpp" line="464"/>
         <source>Please, select a folder.
 </source>
         <comment>Bitte wählen Sie einen Ordner aus.
@@ -1309,7 +1309,7 @@ Das Programm wird abgebrochen</translation>
         <translation type="unfinished">Bitte wählen Sie einen Ordner aus.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="468"/>
+        <location filename="../src/net.cpp" line="470"/>
         <source>Please, select the partition to be saved.
 </source>
         <comment>Bitte wählen Sie die zu sichernde Partition aus.
@@ -1317,8 +1317,8 @@ Das Programm wird abgebrochen</translation>
         <translation>Bitte wählen Sie die zu sichernde Partition aus.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="475"/>
-        <location filename="../src/net.cpp" line="686"/>
+        <location filename="../src/net.cpp" line="477"/>
+        <location filename="../src/net.cpp" line="690"/>
         <source>Please, select the filename of the backup.
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
@@ -1327,7 +1327,7 @@ Das Programm wird abgebrochen</translation>
 der Sicherung aus.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="481"/>
+        <location filename="../src/net.cpp" line="483"/>
         <source>You have selected a file. You must select a directory
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
@@ -1336,26 +1336,26 @@ der Sicherung aus.</translation>
 ein Verzeichnis auswählen</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="524"/>
+        <location filename="../src/net.cpp" line="526"/>
         <source>The system partition to be saved is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
         <translation>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="532"/>
+        <location filename="../src/net.cpp" line="534"/>
         <source>The home partition to be saved is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
         <translation>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="547"/>
+        <location filename="../src/net.cpp" line="549"/>
         <source>The partition </source>
         <comment>Die Partition </comment>
         <translation>Die Partition </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="548"/>
-        <location filename="../src/net.cpp" line="828"/>
+        <location filename="../src/net.cpp" line="550"/>
+        <location filename="../src/net.cpp" line="832"/>
         <source>can not be unmounted. The program is terminated
 </source>
         <comment> kann nicht ausgehängt werden. Das Programm wird abgebrochen
@@ -1364,9 +1364,9 @@ ein Verzeichnis auswählen</translation>
 Das Programm wird abgebrochen</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="588"/>
-        <location filename="../src/net.cpp" line="732"/>
-        <location filename="../src/net.cpp" line="875"/>
+        <location filename="../src/net.cpp" line="590"/>
+        <location filename="../src/net.cpp" line="736"/>
+        <location filename="../src/net.cpp" line="879"/>
         <source>The key length must be between 6 and 64 characters
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
@@ -1375,13 +1375,13 @@ Das Programm wird abgebrochen</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="618"/>
+        <location filename="../src/net.cpp" line="622"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
         <translation>Die Partitionsdatei </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="618"/>
+        <location filename="../src/net.cpp" line="622"/>
         <source>already exists. The backup is not performed
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
@@ -1390,7 +1390,7 @@ Das Programm wird abgebrochen</translation>
 Die Sicherung wird nicht durchgeführt</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="634"/>
+        <location filename="../src/net.cpp" line="638"/>
         <source>The backup was aborted by the user
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
@@ -1399,7 +1399,7 @@ Die Sicherung wird nicht durchgeführt</translation>
 abgebrochen</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="680"/>
+        <location filename="../src/net.cpp" line="684"/>
         <source>No key was given for the decryption
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
@@ -1408,7 +1408,7 @@ abgebrochen</translation>
 die Entschlüsselung angegeben</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="692"/>
+        <location filename="../src/net.cpp" line="696"/>
         <source>Please, select the partition to be written back.
 </source>
         <comment>Bitte wählen Sie die zurück zu schreibende Partition aus.
@@ -1416,7 +1416,7 @@ die Entschlüsselung angegeben</translation>
         <translation>Bitte wählen Sie die zurück zu schreibende Partition aus.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="702"/>
+        <location filename="../src/net.cpp" line="706"/>
         <source>You have chosen the wrong recovery file selected.
 The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
@@ -1425,58 +1425,58 @@ Die Dateiendung muss .fsa sein</comment>
  ausgesucht Die Dateiendung muss .fsa sein</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="795"/>
+        <location filename="../src/net.cpp" line="799"/>
         <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source>
         <comment>Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</comment>
         <translation type="unfinished">Es ist eine Datei mit dem Inhalt des Partition-Boot-Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="837"/>
+        <location filename="../src/net.cpp" line="841"/>
         <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
         <comment>Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</comment>
         <translation type="unfinished">Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie nein wählen, bleibt die UUID erhalten.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1076"/>
-        <location filename="../src/net.cpp" line="1163"/>
+        <location filename="../src/net.cpp" line="1080"/>
         <location filename="../src/net.cpp" line="1167"/>
+        <location filename="../src/net.cpp" line="1171"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
         <translation> Verzeichnisse, </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1076"/>
-        <location filename="../src/net.cpp" line="1163"/>
+        <location filename="../src/net.cpp" line="1080"/>
+        <location filename="../src/net.cpp" line="1167"/>
         <source> links and </source>
         <comment> Links und </comment>
         <translation> Links und </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1076"/>
+        <location filename="../src/net.cpp" line="1080"/>
         <source> specials have been backed.</source>
         <comment> spezielle Daten wurden gesichert.</comment>
         <translation> spezielle Dateien wurden gesichert.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1167"/>
+        <location filename="../src/net.cpp" line="1171"/>
         <source> links </source>
         <comment> Links </comment>
         <translation type="unfinished"> Links </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1167"/>
+        <location filename="../src/net.cpp" line="1171"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
         <translation type="unfinished"> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1474"/>
+        <location filename="../src/net.cpp" line="1478"/>
         <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source>
         <comment>Wenn Sie keine SSH-Authentifizierung eingerichtet haben, müssen Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern</comment>
         <translation type="unfinished">Wenn Sie keine SSH-Authentifierung eingegeben haben, müssen Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1508"/>
+        <location filename="../src/net.cpp" line="1512"/>
         <source>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.
 </source>
         <comment>Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten Terminal müssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie das Passwort für den Zugriff auf den Server ein  und 3.verlassen Sie den Server mit dem Befehl exit.
@@ -1484,8 +1484,8 @@ Die Dateiendung muss .fsa sein</comment>
         <translation type="unfinished">Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten Terminal mÃ¼ssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie das Passwort für den Zugriff auf den Server ein und 3.verlassen Sie den Server mit dem Befehl exit.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1489"/>
-        <location filename="../src/net.cpp" line="1547"/>
+        <location filename="../src/net.cpp" line="1493"/>
+        <location filename="../src/net.cpp" line="1551"/>
         <source>The SSH server is not reachable. Try again or with another network protocol.
 </source>
         <comment>Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals oder mit einem anderen Netzwerkprotokoll.
@@ -1502,7 +1502,7 @@ Die Dateiendung muss .fsa sein</comment>
         <translation type="obsolete">Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1646"/>
+        <location filename="../src/net.cpp" line="1650"/>
         <source>Name</source>
         <translation type="unfinished">Name</translation>
     </message>
@@ -1515,7 +1515,7 @@ Die Dateiendung muss .fsa sein</comment>
 Sie müssen eine Datei auswählen</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="723"/>
+        <location filename="../src/net.cpp" line="727"/>
         <source>The partition is encrypted. Please enter the key
 </source>
         <comment>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
@@ -1523,7 +1523,7 @@ Sie müssen eine Datei auswählen</translation>
         <translation>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="738"/>
+        <location filename="../src/net.cpp" line="742"/>
         <source>They have entered a wrong password.
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
@@ -1531,25 +1531,25 @@ Sie müssen eine Datei auswählen</translation>
         <translation>Sie haben ein falsches Passwort eingegeben.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="756"/>
+        <location filename="../src/net.cpp" line="760"/>
         <source>Partition to restore the </source>
         <comment>Die wiederherzustellende Partition </comment>
         <translation>Die wiederherzustellende Partition </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="757"/>
+        <location filename="../src/net.cpp" line="761"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
         <translation> stimmt nicht mit der gesicherten </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="757"/>
+        <location filename="../src/net.cpp" line="761"/>
         <source>Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
         <translation> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="783"/>
+        <location filename="../src/net.cpp" line="787"/>
         <source>The restore was canceled by user
 </source>
         <comment>Das Zurückschreiben wurde vom Benutzer abgebrochen
@@ -1562,7 +1562,7 @@ Sie müssen eine Datei auswählen</translation>
         <translation type="obsolete">Es ist eine Datei mit dem Inhalt des Partition-Boot-Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="808"/>
+        <location filename="../src/net.cpp" line="812"/>
         <source>To restore system partition is mounted and can not be restored. Please use a live CD
 </source>
         <comment>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
@@ -1571,7 +1571,7 @@ Sie müssen eine Datei auswählen</translation>
 kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="815"/>
+        <location filename="../src/net.cpp" line="819"/>
         <source>The restored home partition is mounted and can not be restored. Please use a live CD
 </source>
         <comment>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
@@ -1580,7 +1580,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
 kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="827"/>
+        <location filename="../src/net.cpp" line="831"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
         <translation>Die Partition </translation>
@@ -1591,14 +1591,14 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation type="obsolete">Sicherungsverzeichnis</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="905"/>
+        <location filename="../src/net.cpp" line="909"/>
         <source>Save partition</source>
         <comment>Partition sichern</comment>
         <translation>Partition sichern </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1163"/>
-        <location filename="../src/net.cpp" line="1166"/>
+        <location filename="../src/net.cpp" line="1167"/>
+        <location filename="../src/net.cpp" line="1170"/>
         <source>The partition is successful back.
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
@@ -1606,7 +1606,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation>Die Partition wurde erfolgreich wieder hergestellt.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1163"/>
+        <location filename="../src/net.cpp" line="1167"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
         <translation> spezielle Daten wurden wieder hergestellt.</translation>
@@ -1617,7 +1617,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation type="obsolete"> Links wurden gesichert.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1092"/>
+        <location filename="../src/net.cpp" line="1096"/>
         <source>The backup of the partition was aborted by the user!
 </source>
         <comment>Die Sicherung der Partition wurde vom Benutzer abgebrochen!
@@ -1625,7 +1625,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation>Die Sicherung der Partition wurde vom Benutzer abgebrochen!</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1137"/>
+        <location filename="../src/net.cpp" line="1141"/>
         <source>cannot restore an archive to a partition which is mounted, unmount it first 
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
@@ -1638,7 +1638,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation type="obsolete">.Links wurden wiederhergestellt.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1172"/>
+        <location filename="../src/net.cpp" line="1176"/>
         <source>The restore of the partition was break by user!
 </source>
         <comment>Die Wiederherstellung der Partition wurde vom Benutzer abgebrochen!
@@ -1646,7 +1646,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation>Die Wiederherstellung der Partition wurde vom Benutzer abgebrochen!</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1188"/>
+        <location filename="../src/net.cpp" line="1192"/>
         <source> links were not recovered correctly. The recovery of the partition was only partly successful.
 </source>
         <comment> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.
@@ -1654,7 +1654,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teileise erfolgreich.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1192"/>
+        <location filename="../src/net.cpp" line="1196"/>
         <source>You tried to restore a partition. The selected file can only restore directories. Please restart the program.
 </source>
         <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
@@ -1662,7 +1662,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation>Sie haben versucht eine Partiiton wieder herzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1373"/>
+        <location filename="../src/net.cpp" line="1377"/>
         <source>Do you want really break the save or restore from the partition?</source>
         <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</comment>
         <translation>Wollen Sie wirklich die Sicherung oder die Wiederherstellung der Partition beenden?</translation>
@@ -1673,13 +1673,13 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation type="obsolete">Wollen Sie das Programm wirklich beenden?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1359"/>
+        <location filename="../src/net.cpp" line="1363"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>Ja</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1360"/>
+        <location filename="../src/net.cpp" line="1364"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>Nein</translation>
@@ -1690,7 +1690,7 @@ kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</translati
         <translation type="obsolete">Sicherungsdatei</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="915"/>
+        <location filename="../src/net.cpp" line="919"/>
         <source>Encrypt
 backup. key:</source>
         <comment>Sicherung
@@ -1699,13 +1699,13 @@ verschlüsseln. Schlüssel:</comment>
 verschlüsseln. Schlüssel:</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="930"/>
+        <location filename="../src/net.cpp" line="934"/>
         <source>Partition restore</source>
         <comment>Partition zurückschreiben</comment>
         <translation>Partition wiederherstellen</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="940"/>
+        <location filename="../src/net.cpp" line="944"/>
         <source>Decrypt
 backup. key:</source>
         <comment>Sicherung
@@ -1714,7 +1714,7 @@ entschlüsseln. Schlüssel</comment>
 entschlüsseln. Schlüssel:</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1075"/>
+        <location filename="../src/net.cpp" line="1079"/>
         <source>The partition has been backed up successfully.
 </source>
         <comment>Die Partition wurde erfolgreich gesichert.
@@ -1723,9 +1723,9 @@ entschlüsseln. Schlüssel:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1076"/>
-        <location filename="../src/net.cpp" line="1163"/>
+        <location filename="../src/net.cpp" line="1080"/>
         <location filename="../src/net.cpp" line="1167"/>
+        <location filename="../src/net.cpp" line="1171"/>
         <source> files, </source>
         <comment> Dateien, </comment>
         <translation> Dateien, </translation>
@@ -1746,7 +1746,7 @@ entschlüsseln. Schlüssel:</translation>
         <translation type="obsolete">spezielle Daten wurden gesichert.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1098"/>
+        <location filename="../src/net.cpp" line="1102"/>
         <source>The partition type is not supported. Maybe the partition is encrypted?
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
@@ -1755,14 +1755,14 @@ entschlüsseln. Schlüssel:</translation>
 Vielleicht ist die Partition verschlüsselt?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1109"/>
-        <location filename="../src/net.cpp" line="1186"/>
+        <location filename="../src/net.cpp" line="1113"/>
+        <location filename="../src/net.cpp" line="1190"/>
         <source> files</source>
         <comment> Dateien, </comment>
         <translation> Dateien, </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1111"/>
+        <location filename="../src/net.cpp" line="1115"/>
         <source> links were not saved properly. The backup of the partition was only partially successful
 </source>
         <comment> Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich
@@ -1770,8 +1770,8 @@ Vielleicht ist die Partition verschlüsselt?</translation>
         <translation> Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1110"/>
-        <location filename="../src/net.cpp" line="1187"/>
+        <location filename="../src/net.cpp" line="1114"/>
+        <location filename="../src/net.cpp" line="1191"/>
         <source> directories and </source>
         <comment> Verzeichnisse und </comment>
         <translation> Verzeichnisse und </translation>
@@ -1782,7 +1782,7 @@ Vielleicht ist die Partition verschlüsselt?</translation>
         <translation type="obsolete">spezielle Daten wurden wieder hergestellt.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1195"/>
+        <location filename="../src/net.cpp" line="1199"/>
         <source>You have entered an incorrect password.
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
@@ -2655,13 +2655,30 @@ Sie müssen eine Datei auswählen</translation>
 partitions, directory and MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
+Version 0.6.19-3, May 8, 2014</source>
+        <comment>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-3, 8. Mai 2014</comment>
+        <translation type="unfinished">Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR.
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-3, 8. Mai 2014</translation>
+    </message>
+    <message>
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
 Version 0.6.19-2, April 27, 2014</source>
         <comment>Sichern und Wiederherstellen
 von Partitionen, Verzeichnissen und MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
 Version 0.6.19-2, 27. April 2014</comment>
-        <translation type="unfinished">Sichern und Wiederherstellen
+        <translation type="obsolete">Sichern und Wiederherstellen
 von Partitionen, Verzeichnissen und MBR.
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
@@ -4086,10 +4103,10 @@ ursprünglichen Ort zurückschreiben</translation>
     <name>NetEin</name>
     <message>
         <location filename="../src/net_ein.cpp" line="257"/>
-        <location filename="../src/net_ein.cpp" line="463"/>
-        <location filename="../src/net_ein.cpp" line="469"/>
-        <location filename="../src/net_ein.cpp" line="475"/>
-        <location filename="../src/net_ein.cpp" line="684"/>
+        <location filename="../src/net_ein.cpp" line="433"/>
+        <location filename="../src/net_ein.cpp" line="439"/>
+        <location filename="../src/net_ein.cpp" line="445"/>
+        <location filename="../src/net_ein.cpp" line="654"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Hinweis</translation>
@@ -4139,7 +4156,7 @@ Das Programm wird abgebrochen</translation>
         <translation type="unfinished">Es ist derzeit kein Netzwerkrechner erreichbar.</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="464"/>
+        <location filename="../src/net_ein.cpp" line="434"/>
         <source>You must select the computer on which the backup data to be written
 </source>
         <comment>Sie müssen den Rechner auswählen, auf den die Sicherungsdaten geschrieben werden sollen
@@ -4148,7 +4165,7 @@ Das Programm wird abgebrochen</translation>
 ie Sicherungsdaten geschrieben werden sollen</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="470"/>
+        <location filename="../src/net_ein.cpp" line="440"/>
         <source>You must select your computer from which the backup data to be written back
 </source>
         <comment>Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück geschrieben werden sollen
@@ -4157,7 +4174,7 @@ ie Sicherungsdaten geschrieben werden sollen</translation>
 Sicherungsdaten zurück geschrieben werden sollen</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="476"/>
+        <location filename="../src/net_ein.cpp" line="446"/>
         <source>You must enter the user name. Can not otherwise be accessible to network computers
 </source>
         <comment>Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf Netzrechner zugegriffen werden
@@ -4166,7 +4183,7 @@ Sicherungsdaten zurück geschrieben werden sollen</translation>
 Sonst kann nicht auf Netzrechner zugegriffen werden</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="480"/>
+        <location filename="../src/net_ein.cpp" line="450"/>
         <source>Is it true that you have entered a key? (NFS dont need a key)</source>
         <comment>Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</comment>
         <translation type="unfinished">Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</translation>
@@ -4178,13 +4195,13 @@ Sonst kann nicht auf Netzrechner zugegriffen werden</translation>
 Schlüssel eingegeben haben?</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="685"/>
+        <location filename="../src/net_ein.cpp" line="655"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>Ja</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="686"/>
+        <location filename="../src/net_ein.cpp" line="656"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>Nein</translation>

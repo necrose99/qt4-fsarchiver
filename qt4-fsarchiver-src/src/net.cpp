@@ -176,7 +176,7 @@ QStringList items_kerne_;
    	chk_Beschreibung->setChecked(Qt::Checked);
    	rdButton_auslesen();
    	addWidget();
-        if (rdBt_saveFsArchiv->isChecked())
+ /*       if (rdBt_saveFsArchiv->isChecked())
 	   {
  	   label_folder->setEnabled(true);
 	   restore_file_name_txt ->setEnabled(true);
@@ -186,6 +186,8 @@ QStringList items_kerne_;
  	   label_folder->setEnabled(false);
 	   restore_file_name_txt ->setEnabled(false);
            }
+*/
+          
   QFile file(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
     QTextStream ds(&file);
     int a = 0;
@@ -917,8 +919,8 @@ void DialogNet::starteinstellung(){
             chk_key->setText (tr("Encrypt\nbackup. key:", "Sicherung\nverschlüsseln. Schlüssel:"));
             chk_split->setEnabled(true);
             chk_pbr->setEnabled(true); 
-            restore_file_name_txt ->setEnabled(true); 
-            label_folder->setEnabled(true);
+            restore_file_name_txt ->setEnabled(false); 
+            label_folder->setEnabled(false);
             }
 
 void DialogNet::rdButton_auslesen()
@@ -942,8 +944,8 @@ void DialogNet::rdButton_auslesen()
                 chk_key->setText (tr("Decrypt\nbackup. key:", "Sicherung\nentschlüsseln. Schlüssel"));
                 chk_split->setEnabled(false);
 		chk_pbr->setEnabled(false);
-                restore_file_name_txt ->setEnabled(false);
-                label_folder->setEnabled(false);
+                //restore_file_name_txt ->setEnabled(false);
+               // label_folder->setEnabled(false);
          }
      } 
 

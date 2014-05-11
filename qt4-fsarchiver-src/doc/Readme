@@ -16,7 +16,7 @@ For Debian,Ubuntu and Linux Mint deb packages are available.
 Installing the program from the source files:
 To install qt4-fsarchiver the necessary dependencies for fsarchiver and the qt4 development environment must be installed.
 Of Debian based distributions: This is the command:
-sudo apt-get install libzip-dev libbz2-dev liblzma-dev liblzo2-2 liblzo2-dev libgcrypt11-dev e2fslibs-dev libblkid-dev libattr1-dev build-essential libqt4-core libqt4-dev btrfs-tools gdisk sshfs sshpass nmap samba nfs-kernel-server
+sudo apt-get install libzip-dev libbz2-dev liblzma-dev liblzo2-2 liblzo2-dev libgcrypt11-dev e2fslibs-dev libblkid-dev libattr1-dev build-essential libqt4-core libqt4-dev btrfs-tools gdisk sshfs sshpass nmap samba nfs-kernel-server nfs-common smbclient
  
 The command for Suse: (you must be an administrator su -l) zypper in libqt4-devel make libzip-devel libbz2-devel xz-devel lzo-devel libgcrypt-devel e2fsprogs-devel libblkid-devel libattr-devel btrfsprogs gdisk sshfs nmap samba nfs-kernel-server
 If you use ssh (secure shell) want to access other computers in the network, you still need to install individually sshpass.

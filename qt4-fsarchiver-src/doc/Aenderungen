@@ -1,6 +1,8 @@
 ==================================================================================================
 * qt4-fsarchiver: Grafische Oberfläche für fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
+* qt4-fsarchiver-6.19-3 8.Mai.2014
+    - Erkennung von Netzwerkrechner korrigiert
 * qt4-fsarchiver-6.19-2 27.4.2014
     - kleinere Fehlerbehebungen
 * qt4-fsarchiver-6.19-1 17.3.2014

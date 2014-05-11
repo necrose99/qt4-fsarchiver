@@ -1,6 +1,8 @@
 ==================================================================================================
 * qt4-fsarchiver: Graphical interface for fsarchiver fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
+* qt4-fsarchiver-0.6.19-3 May 8, 2014
+     - Corrected detection of network computer
 * qt4-fsarchiver-0.6.19-2 April 27, 2014
      - minor bug fixes
 * qt4-fsarchiver-0.6.19-1 March 17, 2014

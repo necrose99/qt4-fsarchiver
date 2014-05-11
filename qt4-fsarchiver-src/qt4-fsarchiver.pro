@@ -140,6 +140,8 @@ RESOURCES += src/icon.qrc
  autostart.path = /usr/share/applications
  doc.files = doc
  doc.path = /usr/share/doc/qt4-fsarchiver
+ smbfind.files = src/sbin
+ smbfind.path = /usr
 
 TRANSLATIONS += translations/qt4-fsarchiver_de.ts \
                 translations/qt4-fsarchiver_ru.ts
@@ -152,6 +154,6 @@ translations.files = translations/qt4-fsarchiver_de.qm \
                       translations/qt4-fsarchiver_ru.qm
 translations.path = /usr/share/qt4/translations
  
- INSTALLS = target icon autostart translations doc
+ INSTALLS = target icon autostart translations doc smbfind
  #QMAKE_CXXFLAGS_RELEASE = -pipe -Wall -g -O2
  #QMAKE_CFLAGS_RELEASE = -pipe -Wall -g -O2

@@ -144,7 +144,7 @@ int i = 0;
 			k = Array_pruefen(adresse);
     		if (k == 2) {
          	     		//listWidget_net->addItem (adresse);
-                     		widget_net[i]= adresse;
+                   		widget_net[i]= adresse;
                      		i++;
                		 }
 			}}
@@ -205,10 +205,10 @@ QString hostname_;
              }} 
         } 
 	file.close();
-//Auswertung findsmbs Windows-Rechner werden erkannt
-        befehl = "findsmb 1> " +  homepath + "/.config/qt4-fsarchiver/findsmb.txt";
+//Auswertung findsmb-qts Windows-Rechner werden erkannt
+        befehl = "findsmb-qt 1> " +  homepath + "/.config/qt4-fsarchiver/findsmb-qt.txt";
 	system (befehl.toAscii().data()); 
-        QFile file1(homepath + "/.config/qt4-fsarchiver/findsmb.txt");
+        QFile file1(homepath + "/.config/qt4-fsarchiver/findsmb-qt.txt");
     	QTextStream ds1(&file1);
         QString adresse = ds1.readLine();
         QString adresse1; 
@@ -248,7 +248,7 @@ QString hostname_;
 	file1.close();
         // Dateien entfernen 
   	if (file1.exists()){
-     		befehl = "rm ~/.config/qt4-fsarchiver/findsmb.txt";
+     		befehl = "rm ~/.config/qt4-fsarchiver/findsmb-qt.txt";
 		system (befehl.toAscii().data());
        } 	
         list_net_ssh(" ");
@@ -348,11 +348,12 @@ QString homepath = QDir::homePath();
 QFile file(homepath + "/.config/qt4-fsarchiver/ip.txt");
 QTextStream ds(&file);
 QString text; 
-	befehl = "nmblookup -T " + adresse + " 1> " +  homepath + "/.config/qt4-fsarchiver/ip.txt";
+	befehl = "nmblookup -R " + adresse + " 1> " +  homepath + "/.config/qt4-fsarchiver/ip.txt";
 	system (befehl.toAscii().data()); 
         // IP-Adresse auslesen
         int i = 0;
         // Anzahl Zeilen der Datei /.config/qt4-fsarchiver/ip.txt ermitteln
+        // Ausgabe nmblookup manchmal mit einer aber auch mit 2 Zeilen
         if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
      	     do {
                  i = i + 1;
@@ -367,39 +368,11 @@ QString text;
 	     text = ds.readLine();   
               }
              file.close();
-          pos = text.indexOf("<00>");
+          }
+          pos = text.indexOf("<");
           text = text.left(pos);
-          pos1 = text.size();
-          pos = text.indexOf("local,");
-          text = text.right(pos1 - pos - 6);
-          text = text.trimmed();
           text = text.toLower();
           return text;
-    }
-    // nmblookup -T funktioniert nicht!!
-    // nmblookup " + adresse  gibt teilweise 2 Zeilen oder auch nur eine Zeile aus
-     befehl = "nmblookup " + adresse + " 1> " +  homepath + "/.config/qt4-fsarchiver/ip.txt";
-     system (befehl.toAscii().data()); 
-     // Anzahl Zeilen der Datei /.config/qt4-fsarchiver/ip.txt ermitteln
-     i = 0;
-     if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
-     	     do {
-                 i = i + 1;
-                text = ds.readLine();
-	        } while (!ds.atEnd());
-              }
-             file.close(); 
-        // IP-Adresse auslesen
-        if (file.open(QIODevice::ReadWrite | QIODevice::Text)){ 
-     	     text = ds.readLine();
-             if (i ==2)  
-                 text = ds.readLine();
-        }
-        file.close();
-        pos = text.indexOf("<00>");
-        text = text.left(pos);
-        pos1 = text.size();
-     return text;
 }
 
 void NetEin:: listWidget_show()
