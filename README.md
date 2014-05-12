@@ -6,6 +6,14 @@ I've been trying to work it into a Sabayon Linux Live DVD.
 Feal Free to Fork it And contribute back. to Dieterbaum or put a pull request in. 
 and or email him from SF.net pages. 
 
+Spanish translation up
+Italian (although rusty) I will give it a go. 
+にほんご　Japanese　さびてる "Rusty" 　although rusty and only had some training i'll give least a Alpha Translation.
+then try to clean up. hard to keep Italian & Japanese sharp ( a Perfect excuse to hone em up) . Spanish is often used in the area. 
+HTML out. 
+Anybugs or corections to SPANISH/ITALIAN/JAPANESE I'll take em via the ticket box. 
+anyother languages just fork this and email the origianl author. 
+
 
 Brought to you by: <a
 href="http://sourceforge.net/users/dieterbaum" itemprop="url"><span
