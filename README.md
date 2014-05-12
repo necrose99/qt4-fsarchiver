@@ -1,9 +1,10 @@
 qt4-fsarchiver
 ==============
-I brought it to GITHUB Manually , as the author has no RVCS of anyking on SF 
-as well Adding say po (translations)  files or other niceities or Gentoo Ebuilds or anything to help the Project. 
+I brought it to GITHUB Manually (mirror), as the author has no RVCS ie cvs or GIT of anykinnd on SF 
+as well Adding say po/etc (translations)  files or other niceities or Gentoo Ebuilds or Gentoo patches anything to help the Project along as it has been a fine tool to have for the last few years. 
 I've been trying to work it into a Sabayon Linux Live DVD. 
-Feal Free to Fork it And contribute back.
+Feal Free to Fork it And contribute back. to Dieterbaum or put a pull request in. 
+and or email him from SF.net pages. 
 
 
 Brought to you by: <a
