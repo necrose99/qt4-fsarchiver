@@ -1,0 +1,66 @@
+================================================== ================================================
+* Qt4 - FSArchiver : Interfaz gráfica para FSArchiver FSArchiver [ http://wiki.ubuntuusers.de/qt4-fsarchiver ]
+================================================== ================================================
+* Qt4 - FSArchiver - 0.6.19 -3 08 de mayo 2014
+     - Detección corregido del equipo de red
+* Qt4 - FSArchiver - 0.6.19 -2 27 de abril 2014
+     - Correcciones de errores menores
+* Qt4 - FSArchiver - 0.6.19 -1 17 de marzo 2014
+     - Revertidos " número de bloques de inodos por grupo " parche que provocó una regresión en la versión 0.6.18
+* Qt4 - FSArchiver - 6,18-1 15 de marzo 2014
+     - Preparado fuentes de liberación usando autoconf - 2.69 añadir soporte para nuevas arquitecturas ( Rhbz # 925370 )
+     - Patch aplica desde Berix para conservar el número de bloques de inodos por grupo en sistemas de ficheros ext
+     - Añadido soporte para las últimas características btrfs (hasta linux- 3.14)
+* Qt4 - FSArchiver - 6,17-5 20 de diciembre 2013
+    - Se añaden información sobre herramientas .
+    - Sticks USB también se pueden clonar , las imágenes se pueden formar y escribir de nuevo .
+    - Problemas en el indicador de progreso.
+* Qt4 - FSArchiver - 6,17-4 01 de junio 2013
+    - La adaptación a Debian 7
+* Qt4 - FSArchiver - 6,17-3 14 de abril 2013
+    - Corrección de errores
+* Qt4 - FSArchiver - 6,17-2 01.04.2013
+    - La comunicación en red con NFS ( Network File System ) es posible.
+* Qt4 - FSArchiver - 6,17-1 15.03.2013
+    - Adaptación a la versión 0.6.17 FSArchiver .
+    - La comunicación en red con SSH (Secure Shell) es posible.
+* Qt4 - FSArchiver - 6,15-3 10.02.2013
+    - La expansión del programa: HD clonación, la imagen de alta definición de grabación y restauración.
+* Qt4 - FSArchiver - 6,15-2 25.10.2012
+    - Las particiones btrfs se montan automáticamente .
+Cuando las particiones del qt4 - FSArchiver se montan en / media , las particiones son sin montar, si cierra el programa
+    - Cuando las particiones del qt4 - FSArchiver se montan en / media , las particiones son sin montar, si se cierra el programa.
+    - Solución de problemas: copia de seguridad de MBR en directorios con espacios en el nombre ahora posibles .
+* Qt4 - FSArchiver - 6,15-1 25 de septiembre 2012
+   - Añadido soporte para ext4 y btrfs reciente características.
+* Qt4 - FSArchiver - 6,13-5 10 de agosto 2012
+   - Copia de seguridad y restaurar la tabla de particiones GUID.
+* Qt4 - FSArchiver - 6,13-4 20 de junio 2012
+   - Los pagefiles.sys archivo de intercambio de Windows ya no está asegurado . La copia de seguridad es necesario y evita un mensaje de error al realizar la copia .
+* Qt4 - FSArchiver - 6,13-3 27 de mayo 2012
+   - Corrección de error crítico: Con el uso de Ubuntu 12.04 , pangolín precisa y al mismo tiempo hacia atrás la raíz y el hogar
+     particiones ( se montan las particiones ) , que podrían chocar y la destrucción del sistema.
+* Qt4 - FSArchiver - 6,13-2 10 de mayo 2012
+   - El tamaño de la división de un archivo se puede elegir entre 2 GB, 4 GB y 4,7 GB.
+* Qt4 - FSArchiver - 6,13-1 15 de abril 2012
+   - Adaptación a la versión 0.6.13 de FSArchiver
+   - Detección fija del sistema de archivos raíz usando "/ proc / self / mountinfo " en lugar de " / proc / mounts "
+* Qt4 - FSArchiver - 6,12-11 26 de enero 2012
+   - Cuando se restaura una partición btrfs es Posible que elegir entre formato y no formatear la partición .
+* Qt4 - FSArchiver - 6,12-10 10 de diciembre 2011
+   - Copia de seguridad y restaurar el sector de arranque de la partición .
+* Qt4 - FSArchiver - 6,12-9 30 de noviembre 2011
+   - Todo carpeta compartida existente puede ser seleccionado para la copia de seguridad / restaurar a través de la red.
+* Qt4 - FSArchiver - 6,12-8 08 de noviembre 2011
+   - Si la copia de seguridad en una partición FAT escrito , el archivo de copia de seguridad está dividido y limita el tamaño de archivo individual de 4 GB.
+* Qt4 - FSArchiver - 6,12-8 01 de noviembre 2011
+   - Para la restauración de btrfs -particiones , también se requiere la instalación de btrfs -tools.
+   - Errores corregidos en el archivo de traducción .
+   - Tenga en cuenta, si se supera el límite de 4 GB durante la copia de seguridad en una partición FAT.
+* Qt4 - FSArchiver - 6.12.8 ( 01 de julio 2011
+   - Los datos de la licencia GPL GPL -2 y - 3 añadido .
+   - Número de los datos protegidos correctamente corregidas en la pantalla final.
+* Qt4 - FSArchiver - 6.12.7 ( 26 de junio 2011
+   - Se añade la traducción Inglés .
+   - Botón para cancelar la copia de seguridad / recuperación agregó.
+   - Mostrar la barra de progreso en el intervalo de un segundo .
