@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
-<defaultcodec>UTF-8</defaultcodec>
+<TS version="2.1" language="ru_RU">
 <context>
     <name>DialogClone</name>
     <message>
@@ -3457,9 +3456,7 @@ back to the original location</source>
     <name>dir_dialog</name>
     <message>
         <source>Save/restore directory</source>
-        <extracomment>Verzeichnis sichern/zurückschreiben
-----------
-Verzeichnis sichern/zurückschreiben</extracomment>
+        <extracomment>Verzeichnis sichern/zurückschreiben</extracomment>
         <translation>Работа с каталогами</translation>
     </message>
     <message>
@@ -3513,16 +3510,12 @@ Files/directories:</source>
     </message>
     <message>
         <source>minutes</source>
-        <extracomment>Minuten
-----------
-Minuten</extracomment>
+        <extracomment>Minuten</extracomment>
         <translation>минут</translation>
     </message>
     <message>
         <source>seconds</source>
-        <extracomment>Sekunden
-----------
-Sekunden</extracomment>
+        <extracomment>Sekunden</extracomment>
         <translation>секунд</translation>
     </message>
     <message>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de_DE" sourcelanguage="de">
-<defaultcodec>UTF-8</defaultcodec>
+<TS version="2.1" language="de_DE" sourcelanguage="de">
 <context>
     <name>DialogClone</name>
     <message>
@@ -4103,10 +4102,10 @@ ursprünglichen Ort zurückschreiben</translation>
     <name>NetEin</name>
     <message>
         <location filename="../src/net_ein.cpp" line="257"/>
-        <location filename="../src/net_ein.cpp" line="433"/>
-        <location filename="../src/net_ein.cpp" line="439"/>
-        <location filename="../src/net_ein.cpp" line="445"/>
-        <location filename="../src/net_ein.cpp" line="654"/>
+        <location filename="../src/net_ein.cpp" line="436"/>
+        <location filename="../src/net_ein.cpp" line="442"/>
+        <location filename="../src/net_ein.cpp" line="448"/>
+        <location filename="../src/net_ein.cpp" line="657"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Hinweis</translation>
@@ -4156,7 +4155,7 @@ Das Programm wird abgebrochen</translation>
         <translation type="unfinished">Es ist derzeit kein Netzwerkrechner erreichbar.</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="434"/>
+        <location filename="../src/net_ein.cpp" line="437"/>
         <source>You must select the computer on which the backup data to be written
 </source>
         <comment>Sie müssen den Rechner auswählen, auf den die Sicherungsdaten geschrieben werden sollen
@@ -4165,7 +4164,7 @@ Das Programm wird abgebrochen</translation>
 ie Sicherungsdaten geschrieben werden sollen</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="440"/>
+        <location filename="../src/net_ein.cpp" line="443"/>
         <source>You must select your computer from which the backup data to be written back
 </source>
         <comment>Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück geschrieben werden sollen
@@ -4174,7 +4173,7 @@ ie Sicherungsdaten geschrieben werden sollen</translation>
 Sicherungsdaten zurück geschrieben werden sollen</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="446"/>
+        <location filename="../src/net_ein.cpp" line="449"/>
         <source>You must enter the user name. Can not otherwise be accessible to network computers
 </source>
         <comment>Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf Netzrechner zugegriffen werden
@@ -4183,7 +4182,7 @@ Sicherungsdaten zurück geschrieben werden sollen</translation>
 Sonst kann nicht auf Netzrechner zugegriffen werden</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="450"/>
+        <location filename="../src/net_ein.cpp" line="453"/>
         <source>Is it true that you have entered a key? (NFS dont need a key)</source>
         <comment>Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</comment>
         <translation type="unfinished">Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</translation>
@@ -4195,13 +4194,13 @@ Sonst kann nicht auf Netzrechner zugegriffen werden</translation>
 Schlüssel eingegeben haben?</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="655"/>
+        <location filename="../src/net_ein.cpp" line="658"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>Ja</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="656"/>
+        <location filename="../src/net_ein.cpp" line="659"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>Nein</translation>
@@ -4485,9 +4484,7 @@ Schlüssel eingegeben haben?</translation>
         <location filename="../src/ui/dir_dialog.ui" line="14"/>
         <location filename="../src/ui/dir_dialog.ui" line="42"/>
         <source>Save/restore directory</source>
-        <extracomment>Verzeichnis sichern/zurückschreiben
-----------
-Verzeichnis sichern/zurückschreiben</extracomment>
+        <extracomment>Verzeichnis sichern/zurückschreiben</extracomment>
         <translation>Verzeichnis sichern/zurückschreiben</translation>
     </message>
     <message>
@@ -4580,9 +4577,7 @@ Zeit:</translation>
         <location filename="../src/ui/dir_dialog.ui" line="224"/>
         <location filename="../src/ui/dir_dialog.ui" line="302"/>
         <source>minutes</source>
-        <extracomment>Minuten
-----------
-Minuten</extracomment>
+        <extracomment>Minuten</extracomment>
         <translatorcomment>Minuten</translatorcomment>
         <translation>Minuten</translation>
     </message>
@@ -4611,9 +4606,7 @@ Minuten</extracomment>
         <location filename="../src/ui/dir_dialog.ui" line="250"/>
         <location filename="../src/ui/dir_dialog.ui" line="315"/>
         <source>seconds</source>
-        <extracomment>Sekunden
-----------
-Sekunden</extracomment>
+        <extracomment>Sekunden</extracomment>
         <translatorcomment>Sekunden</translatorcomment>
         <translation>Sekunden</translation>
     </message>
