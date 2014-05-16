@@ -27,7 +27,7 @@ SLOT="0"
     >=sys-fs/e2fsprogs-1.41.4
     x11-libs/qt-core:4
     x11-libs/qt-gui:4"
-    sys-fs/sshfs-fuse
+    
           RDEPEND="${DEPEND}
           btrfs? ( sys-fs/btrfs-progs )
           jfs? ( sys-fs/jfsutils )
