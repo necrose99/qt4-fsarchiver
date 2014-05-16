@@ -1,6 +1,7 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+# ssh-fs & cifs are highly recomened for network backups and LIVE disk
 
 EAPI="5"
 
@@ -16,7 +17,7 @@ https://github.com/necrose99/qt4-fsarchiver/blob/master/qt4-fsarchiver-src/Gento
   LICENSE="GPL-2"
 SLOT="0"
     KEYWORDS="~amd64 ~x86"
-    IUSE="+btrfs +jfs +ntfs reiser4 +reiserfs +xfss +sshfs"
+    IUSE="+onbydefault +btrfs +jfs +ntfs reiser4 +reiserfs +xfss +sshfs"
 
   DEPEND="app-arch/xz-utils
     app-backup/fsarchiver[lzma,lzo]
