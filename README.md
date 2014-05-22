@@ -1,19 +1,16 @@
 qt4-fsarchiver
 ==============
 I brought it to GITHUB Manually (mirror), as the author has no RVCS ie cvs or GIT of anykinnd on SF 
-as well Adding say po/etc (translations)  files or other niceities or Gentoo Ebuilds or Gentoo patches anything to help the Project along as it has been a fine tool to have for the last few years. 
+as well Adding say po/etc (translations)  files or other niceities or Gentoo Ebuilds or Gentoo patches anything to help the Project along as it has been a fine tool to have for the last few years. :-) 
 I've been trying to work it into a Sabayon Linux Live DVD. 
 Feal Free to Fork it And contribute back. to Dieterbaum or put a pull request in. 
 and or email him from SF.net pages. 
 
-Spanish translation up
-Italian (although rusty) I will give it a go. 
-にほんご　Japanese　さびてる "Rusty" 　although rusty and only had some training i'll give least a Alpha Translation.
-then try to clean up. hard to keep Italian & Japanese sharp ( a Perfect excuse to hone em up) . Spanish is often used in the area. 
-HTML out. 
-Anybugs or corections to SPANISH/ITALIAN/JAPANESE I'll take em via the ticket box. 
-anyother languages just fork this and email the origianl author. 
-
+Spanish translation up colaberative -- 
+Italian (although rusty) I will give it a go. Japanese need to do 
+any others 
+https://www.transifex.com/organization/qt4-fsarchiver/
+feal like adding a translation , feal free to notfy 	 Dieter Baum dieterbaum at t-online.de
 
 Brought to you by: <a
 href="http://sourceforge.net/users/dieterbaum" itemprop="url"><span
