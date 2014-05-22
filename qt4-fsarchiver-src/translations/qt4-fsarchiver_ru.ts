@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<TS version="2.0" language="ru_RU">
+<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>DialogClone</name>
     <message>
@@ -132,12 +133,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>alredy saved</source>
+        <source>already saved</source>
         <comment>bereits gesichert</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>alredy restored</source>
+        <source>already restored</source>
         <comment>bereits zurückgeschrieben</comment>
         <translation type="unfinished"></translation>
     </message>
@@ -1454,6 +1455,11 @@ entschlüsseln. Schlüssel</comment>
         <source>NFS</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Español</source>
+        <comment>Spanisch</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Dialog_Net</name>
@@ -1737,7 +1743,7 @@ files/directories:</source>
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        <translation type="obsolete">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
@@ -1770,6 +1776,14 @@ p, li { white-space: pre-wrap; }
         <source>hello</source>
         <comment>hallo</comment>
         <translation>Привет</translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans&apos;; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2695,13 +2709,32 @@ von Partitionen, Verzeichnissen und MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
 Version 0.6.19-3, 8. Mai 2014</comment>
-        <translation type="unfinished">Сохранение и восстановление
+        <translation type="obsolete">Сохранение и восстановление
 разделов, каталогов и MBR
 версия  0.6.19-3, от 8 май 2014
 
 Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum
 Охраняется законом об авторских правах
 Программа распространяется на условиях GPL 2.0 и выше</translation>
+    </message>
+    <message>
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-4, May 28, 2014</source>
+        <comment>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-4, 28. Mai 2014</comment>
+        <translation type="unfinished">Сохранение и восстановление
+разделов, каталогов и MBR
+версия  0.6.19-3, от 8 май 2014
+
+Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum
+Охраняется законом об авторских правах
+Программа распространяется на условиях GPL 2.0 и выше {2008-2014 ?} {0.6.19-4,?} {28, 2014?}</translation>
     </message>
 </context>
 <context>
@@ -3456,7 +3489,9 @@ back to the original location</source>
     <name>dir_dialog</name>
     <message>
         <source>Save/restore directory</source>
-        <extracomment>Verzeichnis sichern/zurückschreiben</extracomment>
+        <extracomment>Verzeichnis sichern/zurückschreiben
+----------
+Verzeichnis sichern/zurückschreiben</extracomment>
         <translation>Работа с каталогами</translation>
     </message>
     <message>
@@ -3510,12 +3545,16 @@ Files/directories:</source>
     </message>
     <message>
         <source>minutes</source>
-        <extracomment>Minuten</extracomment>
+        <extracomment>Minuten
+----------
+Minuten</extracomment>
         <translation>минут</translation>
     </message>
     <message>
         <source>seconds</source>
-        <extracomment>Sekunden</extracomment>
+        <extracomment>Sekunden
+----------
+Sekunden</extracomment>
         <translation>секунд</translation>
     </message>
     <message>

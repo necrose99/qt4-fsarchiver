@@ -62,7 +62,8 @@ void FileDialog::file_save()
         if (filename.isEmpty())
    		return;
 	QFile file(filename);
-        if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) 
+        //if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) 
+        if (!file.open(QIODevice::ReadWrite | QIODevice::Text)) 
            {
              QMessageBox::about(this,tr("Note", "Hinweis"),
               tr("Instructions for partition were not recorded written to the file.\n", "Die Hinweise zur Partition wurden nicht in eine Datei geschrieben.\n"));

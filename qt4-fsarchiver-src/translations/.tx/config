@@ -1,0 +1,4 @@
+[main]
+host = https://www.transifex.com/organization/qt4-fsarchiver/dashboard/Qt4-fsarchiver-translations
+type = ts
+type = po

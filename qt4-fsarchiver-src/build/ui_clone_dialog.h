@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'clone_dialog.ui'
 **
-** Created: Sun Mar 2 08:09:16 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -136,7 +135,7 @@ public:
         MinuteElapsed->setAlignment(Qt::AlignCenter);
         label_5 = new QLabel(frame_2);
         label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setGeometry(QRect(10, 10, 121, 34));
+        label_5->setGeometry(QRect(10, 10, 135, 34));
         label_10 = new QLabel(frame_2);
         label_10->setObjectName(QString::fromUtf8("label_10"));
         label_10->setGeometry(QRect(397, 35, 71, 34));
@@ -154,7 +153,7 @@ public:
         MinuteRemaining->setAlignment(Qt::AlignCenter);
         label_6 = new QLabel(frame_2);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(10, 40, 121, 31));
+        label_6->setGeometry(QRect(10, 40, 135, 31));
         label_6->setWordWrap(true);
         progressBar = new QProgressBar(frame_2);
         progressBar->setObjectName(QString::fromUtf8("progressBar"));
@@ -182,7 +181,6 @@ public:
         lbl_save = new QLabel(frame_2);
         lbl_save->setObjectName(QString::fromUtf8("lbl_save"));
         lbl_save->setGeometry(QRect(270, 80, 71, 41));
-        lbl_save->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lbl_save->setWordWrap(true);
         lbl_hd_size = new QLabel(frame_2);
         lbl_hd_size->setObjectName(QString::fromUtf8("lbl_hd_size"));
@@ -193,7 +191,7 @@ public:
         label_11->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         HourElapsed = new QLineEdit(frame_2);
         HourElapsed->setObjectName(QString::fromUtf8("HourElapsed"));
-        HourElapsed->setGeometry(QRect(130, 10, 41, 27));
+        HourElapsed->setGeometry(QRect(150, 10, 41, 27));
         HourElapsed->setAlignment(Qt::AlignCenter);
         label_12 = new QLabel(frame_2);
         label_12->setObjectName(QString::fromUtf8("label_12"));
@@ -201,7 +199,7 @@ public:
         label_12->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         HourRemaining = new QLineEdit(frame_2);
         HourRemaining->setObjectName(QString::fromUtf8("HourRemaining"));
-        HourRemaining->setGeometry(QRect(130, 40, 41, 27));
+        HourRemaining->setGeometry(QRect(150, 40, 41, 27));
         HourRemaining->setAlignment(Qt::AlignCenter);
         label = new QLabel(frame_2);
         label->setObjectName(QString::fromUtf8("label"));
@@ -209,7 +207,7 @@ public:
         label->setWordWrap(true);
         bytes_sec = new QLineEdit(frame_2);
         bytes_sec->setObjectName(QString::fromUtf8("bytes_sec"));
-        bytes_sec->setGeometry(QRect(130, 85, 71, 27));
+        bytes_sec->setGeometry(QRect(150, 85, 51, 27));
         bytes_sec->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_2 = new QLabel(frame_2);
         label_2->setObjectName(QString::fromUtf8("label_2"));

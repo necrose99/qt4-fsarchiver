@@ -78,11 +78,12 @@ int listwidgetrow = 0;
 
 DialogNet::DialogNet(QWidget *parent)
 {
+QString homepath = QDir::homePath(); 	
 QString befehl; 
 QStringList items;
 QStringList items_kerne_; 
 	setupUi(this); // this sets up GUI
-        folder_net = "/mnt/qt4-fs-client";
+        folder_net = homepath + "/.qt4-fs-client";
         if ( dialog_auswertung == 6)
         	rdBt_saveFsArchiv->setChecked(Qt::Checked);
         else
@@ -132,7 +133,6 @@ QStringList items_kerne_;
         chkkey();
         pid_ermitteln();
         // Ini-Datei auslesen
-   	QString homepath = QDir::homePath();
    	QFile file1(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
         cmb_Net -> setCurrentIndex(0);
         treeWidget->setHidden(true);
@@ -188,7 +188,7 @@ QStringList items_kerne_;
            }
 */
           
-  QFile file(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
+    QFile file(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
     QTextStream ds(&file);
     int a = 0;
     int b = 0;
@@ -258,7 +258,7 @@ void DialogNet:: end()
 QString befehl;
 QString filename;
 QString homepath = QDir::homePath();
-        befehl = "umount /mnt/qt4-fs-client 2>/dev/null";
+        befehl = "umount " + homepath + "/.qt4-fs-client 2>/dev/null";
 	system (befehl.toAscii().data()); // Dateien entfernen   
 
  	QFile file1(homepath + "/.config/qt4-fsarchiver/ip.txt");
@@ -444,6 +444,7 @@ int DialogNet::savePartition() {
 MWindow window;
 FileDialog filedialog;
 QFile file(folder_net);
+QString homepath = QDir::homePath();
      QString Befehl;
      QString text;
      Qt::CheckState state;
@@ -484,16 +485,18 @@ QFile file(folder_net);
 		file.close();
 		return 0 ;
  	        }
+this->setCursor(Qt::WaitCursor);
        if (net_art == 1) //SSH
          folder_free_mounten();
        if (net_art == 0){  //Samba
-         QString befehl = "mount -t cifs -o username=" + user_net + ",password=" + key_net + ",uid=0,gid=0 //" + rechner_IP + "/" + folder_free + " /mnt/qt4-fs-client" ;
+         QString befehl = "mount -t cifs -o username=" + user_net + ",password=" + key_net + ",uid=0,gid=0 //" + rechner_IP + "/" + folder_free + " " + homepath + "/.qt4-fs-client";
          k = system (befehl.toAscii().data()); 
 	}
        if (net_art == 2){ //NFS
-           QString befehl = "mount " + rechner_IP + ":" + folder_free + " /mnt/qt4-fs-client" ;
+           QString befehl = "mount " + rechner_IP + ":" + folder_free +  " " + homepath + "/.qt4-fs-client" ;
            k = system (befehl.toAscii().data()); 
-	}    
+	}  
+this->setCursor(Qt::ArrowCursor); 
 	 if (k != 0){
    	QMessageBox::about(this, tr("Note", "Hinweis"),
       	tr("The network computer ",  "Der Netzwerkrechner ") + rechner_IP + tr(" could not be integrated. The program is aborted\n", " konnte nicht eingebunden werden. Das Programm wird abgebrochen\n"));
@@ -604,7 +607,7 @@ QFile file(folder_net);
                                       indizierung = indizierung + 2; 
                                       }
 				  // Windows Auslagerungsdatei pagefile.sys von der Sicherung immer ausschließen
-                                  parameter[indizierung] = "--exclude=pagefile.*";
+                                  parameter[indizierung] = "--exclude=pagefile.sys";
                                   indizierung = indizierung + 1;
                                   parameter[indizierung] = "--exclude=hyberfil.sys";
                                   indizierung = indizierung + 1;
@@ -632,7 +635,7 @@ QFile file(folder_net);
      	     			  FileDialog *dlg = new FileDialog;
      	     			 // dlg->show(); nicht modal
              			  int wert = dlg->exec();
-             			  if (wert == 0 && dialog_auswertung == 2)
+             			 if (wert == 0 && dialog_auswertung == 2)
                 		      {
                 		      QMessageBox::about(this, tr("Note", "Hinweis"),
          			      tr("The backup was aborted by the user\n", "Die Sicherung wurde vom Benutzer abgebrochen\n"));
@@ -709,7 +712,9 @@ int cmp;
              	}
           if (net_art == 1)
               folder_free_mounten();
+          this->setCursor(Qt::WaitCursor);  
                state = chk_Beschreibung->checkState();
+              this->setCursor(Qt::ArrowCursor); 
 		// Archinfo einholen um Originalpartition einzulesen und um Verschlüsselung zu überprüfen
             // Annahme zunächst kein Schlüssel
                char * optionkey;
@@ -856,7 +861,7 @@ int cmp;
 				//tmp/btrfs wird gelöscht
 				befehl = "rm -r -f /tmp/btrfs";
  				y =  system (befehl.toAscii().data());
-		       } }                  
+		       } }   
                QString keyText = lineKey->text();
                state1 = chk_key->checkState(); 
 	       parameter[0] = "fsarchiver";
@@ -984,6 +989,7 @@ MWindow window;
 }
 
 int DialogNet::listWidget_folder_free_auslesen() {
+	QString homepath = QDir::homePath();
 QString befehl;
 int k = 0;
 int net_art = cmb_Net->currentIndex();
@@ -996,17 +1002,21 @@ int net_art = cmb_Net->currentIndex();
     if (rdBt_restoreFsArchiv->isChecked() && net_art == 0) //Samba
        {
        //Verzeichnis mounten
-       befehl = "umount /mnt/qt4-fs-client";
+       this->setCursor(Qt::WaitCursor); 
+       befehl = "umount " + homepath + "/.qt4-fs-client";
        k = system (befehl.toAscii().data()); 
-       befehl = "mount -t cifs -o username=" + user_net + ",password=" + key_net + ",uid=0,gid=0 //" + rechner_IP + "/" + folder_free + " /mnt/qt4-fs-client" ;
+       befehl = "mount -t cifs -o username=" + user_net + ",password=" + key_net + ",uid=0,gid=0 //" + rechner_IP + "/" + folder_free + " " + homepath + "/.qt4-fs-client" ;
        k = system (befehl.toAscii().data()); 
+       this->setCursor(Qt::ArrowCursor); 
        }
     if (rdBt_restoreFsArchiv->isChecked() && net_art == 2) //NFS
        {
        //Verzeichnis mounten
+       this->setCursor(Qt::WaitCursor);
        k = system (befehl.toAscii().data()); 
-       befehl = "mount " + rechner_IP + ":" + folder_free + " /mnt/qt4-fs-client" ;
+       befehl = "mount " + rechner_IP + ":" + folder_free + " " + homepath + "/.qt4-fs-client" ;
        k = system (befehl.toAscii().data());
+       this->setCursor(Qt::ArrowCursor); 
        }
     if (k != 0){
    	QMessageBox::about(this, tr("Note", "Hinweis"),
@@ -1052,6 +1062,7 @@ void DialogNet::closeEvent(QCloseEvent *event) {
 }
 
 void DialogNet::thread1Ready()  {
+	QString homepath = QDir::homePath();
    endeThread_net = endeThread_net + 1;
    extern int dialog_auswertung;
    this->setCursor(Qt::ArrowCursor);
@@ -1121,9 +1132,9 @@ void DialogNet::thread1Ready()  {
   int net_art = cmb_Net->currentIndex();   
   if (net_art == 1) //SSH
      //befehl = "/etc/init.d/ssh restart";
-     befehl = "fusermount -u /mnt/qt4-fs-client";
+     befehl = "fusermount -u " + homepath + "/.qt4-fs-client";
   if (net_art == 0) //Samba
-       befehl = "umount -f /mnt/qt4-fs-client";
+       befehl = "umount -f " + homepath + "/.qt4-fs-client";
   if (net_art == 2) //NFS
        befehl = "/etc/init.d/nfs-kernel-server restart";
   system (befehl.toAscii().data());
@@ -1132,6 +1143,7 @@ void DialogNet::thread1Ready()  {
 }
 
 void DialogNet::thread2Ready()  {
+	QString homepath = QDir::homePath();
    QString befehl;
    endeThread_net = endeThread_net + 1;
    this->setCursor(Qt::ArrowCursor);
@@ -1204,9 +1216,9 @@ void DialogNet::thread2Ready()  {
     int net_art = cmb_Net->currentIndex();
     if (net_art == 1) //SSH
        //befehl = "/etc/init.d/ssh restart";
-       befehl = "fusermount -u /mnt/qt4-fs-client";
+       befehl = "fusermount -u " + homepath + "/.qt4-fs-client";
     if (net_art == 0) //Samba
-       befehl = "umount -f /mnt/qt4-fs-client";
+       befehl = "umount -f " + homepath + "/.qt4-fs-client";
     if (net_art == 2) //NFS
        befehl = "/etc/init.d/nfs-kernel-server restart";
     system (befehl.toAscii().data());
@@ -1455,6 +1467,7 @@ QString rechner;
 
 void DialogNet::treeWidget_auslesen()
 {
+	QString homepath = QDir::homePath();
 	QTreeWidgetItem *current = treeWidget->currentItem();
 	QString currentFile = current->text(0);
 	//Verzeichnis, in dem gesichert oder zurückgeschrieben wird
@@ -1464,10 +1477,11 @@ void DialogNet::treeWidget_auslesen()
         if (folder_free.indexOf ("/", 1) == 1)
 		folder_free.replace(1,1,"");
         if (rdBt_restoreFsArchiv->isChecked())
-            file_net = "/mnt/qt4-fs-client/" + currentFile;
+            file_net = homepath + "/.qt4-fs-client/" + currentFile;
 }
 
 void DialogNet::folder_free_mounten(){  //ssh mounten
+QString homepath = QDir::homePath();
 QString befehl;
 int i = 0;
         QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
@@ -1485,15 +1499,15 @@ int i = 0;
                 }
         }
         if (folder_free != "" && rdBt_saveFsArchiv->isChecked() )
-		befehl = "sshfs " + user_net+ "@" + rechner_IP + ":" + folder_free + " /mnt/qt4-fs-client";
+		befehl = "sshfs " + user_net+ "@" + rechner_IP + ":" + folder_free + " " +  homepath + "/.qt4-fs-client";
         if (folder_free != "" && rdBt_restoreFsArchiv->isChecked() )
-		befehl = "sshfs " + user_net+ "@" + rechner_IP + ":" + pfad_forward + " /mnt/qt4-fs-client";
+		befehl = "sshfs " + user_net+ "@" + rechner_IP + ":" + pfad_forward + " " + homepath + "/.qt4-fs-client";
         i =system (befehl.toAscii().data()); 
         if ( i==1){
             QMessageBox::about(this, tr("Note", "Hinweis"), tr("The SSH server is not reachable. Try again or with another network protocol.\n", "Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals oder mit einem anderen Netzwerkprotokoll.\n"));
         return;
         }
-// unmounten sudo fusermount -u /mnt/qt4-fs-client"
+// unmounten sudo fusermount -u + homepath + "/.qt4-fs-client"
 }
 
 

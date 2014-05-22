@@ -272,6 +272,7 @@ Qt::CheckState state1;
 	+ tr("already exists. The backup is not performed\n", " ist bereits vorhanden. Die Sicherung wird nicht durchgeführt\n"));
                 return 0 ; 
             }
+qDebug() << "befehle" << parameter[0] << parameter[1] << parameter[2] << parameter[3] << parameter[4] << parameter[5] << parameter[6] << parameter[7];
         thread1.setValues(indizierung + 2,"0");
             indicator_reset();
             werte_reset();

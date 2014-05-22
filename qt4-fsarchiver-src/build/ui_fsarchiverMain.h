@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'fsarchiverMain.ui'
 **
-** Created: Sun Mar 2 08:09:16 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -341,11 +340,11 @@ public:
         cmb_zip->setGeometry(QRect(180, 185, 161, 27));
         label_11 = new QLabel(frame_2);
         label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setGeometry(QRect(10, 137, 271, 41));
+        label_11->setGeometry(QRect(10, 137, 301, 41));
         label_11->setLocale(QLocale(QLocale::English, QLocale::UnitedStates));
         cmb_kerne = new QComboBox(frame_2);
         cmb_kerne->setObjectName(QString::fromUtf8("cmb_kerne"));
-        cmb_kerne->setGeometry(QRect(290, 145, 51, 27));
+        cmb_kerne->setGeometry(QRect(310, 145, 31, 27));
         label = new QLabel(frame_2);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(10, 175, 161, 41));
@@ -363,7 +362,7 @@ public:
         chk_split->setGeometry(QRect(0, 88, 251, 23));
         chk_key = new QCheckBox(frame_2);
         chk_key->setObjectName(QString::fromUtf8("chk_key"));
-        chk_key->setGeometry(QRect(0, 48, 221, 41));
+        chk_key->setGeometry(QRect(0, 51, 221, 35));
         chk_pbr = new QCheckBox(frame_2);
         chk_pbr->setObjectName(QString::fromUtf8("chk_pbr"));
         chk_pbr->setGeometry(QRect(0, 114, 261, 22));
@@ -457,8 +456,8 @@ public:
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
 
-   void retranslateUi(QMainWindow *MainWindow)
-    {
+    void retranslateUi(QMainWindow *MainWindow)
+   {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width

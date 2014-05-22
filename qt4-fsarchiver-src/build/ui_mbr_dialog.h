@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mbr_dialog.ui'
 **
-** Created: Sun Mar 2 08:09:16 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -51,7 +50,7 @@ public:
         bt_end->setGeometry(QRect(20, 460, 201, 28));
         bt_save = new QPushButton(mbr_dialog);
         bt_save->setObjectName(QString::fromUtf8("bt_save"));
-        bt_save->setGeometry(QRect(250, 460, 201, 28));
+        bt_save->setGeometry(QRect(230, 460, 221, 28));
         treeView = new QTreeView(mbr_dialog);
         treeView->setObjectName(QString::fromUtf8("treeView"));
         treeView->setGeometry(QRect(20, 60, 431, 301));

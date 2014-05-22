@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'dir_dialog.ui'
 **
-** Created: Sun Mar 2 08:09:16 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -189,15 +188,15 @@ public:
         chk_overwrite->setGeometry(QRect(0, 75, 330, 23));
         chk_path = new QCheckBox(frame_2);
         chk_path->setObjectName(QString::fromUtf8("chk_path"));
-        chk_path->setGeometry(QRect(0, 100, 231, 41));
+        chk_path->setGeometry(QRect(0, 105, 321, 31));
 
         retranslateUi(dir_dialog);
 
         QMetaObject::connectSlotsByName(dir_dialog);
     } // setupUi
 
-   void retranslateUi(QWidget *dir_dialog)
-    {
+    void retranslateUi(QWidget *dir_dialog)
+   {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width

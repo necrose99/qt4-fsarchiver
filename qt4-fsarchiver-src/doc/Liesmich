@@ -4,7 +4,7 @@ qt4-fsarchiver: Sichern und Wiederherstellen von Partitionen Debian, Ubuntu, Lin
 
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.  All rights reserved.
 Kopieren der Dateien, mit und ohne Änderung ist erlaubt. Der Code ist ohne jegliche Garantie. Die Benutzung erfolgt auf eigene Gefahr.
-Francois Dupoux entwickelte das Basisprogramm fsarchiver, Hihin Ruslan hat das Programm verbessert und nach Englisch und Russisch übersetzt. Dieter Baum erstellte die GUI.
+Francois Dupoux entwickelte das Basisprogramm fsarchiver, Hihin Ruslan hat das Programm verbessert und nach Englisch und Russisch übersetzt. Michael R. Lawrence und sein Team übersetzte nach Spanisch, Dieter Baum erstellte die GUI.
 
 qt4-fsarchiver ist ein Programm mit einer grafischen Oberfläche zur einfachen Bedienung des Archivierungsprogramms fsarchiver.
 Qt4-fsarchiver wurde mit diesen Programmpunkten erweiter:
@@ -58,7 +58,7 @@ Vorausetzungen für die Arbeit mit dem Netzwerk:
 
 Mit Netzwerprotokoll Samba:
 Im Linux-Bereich müssen auf dem Rechner, der die Sicherung durchführt/wiederherstellt(Client) und auf dem Rechner, auf dem die Daten abgelegt werden (Server), Samba installiert sein. Das Einbinden des virtuellen Dateisystem "cifs-vfs" auf dem Linux-Rechner muss möglich sein. Sie hierzu den Ubuntu-Wiki Artikel "http://wiki.ubuntuusers.de/Samba_Client_cifs".
-Mit diesem Befehl können Sie überprüfen, ob ein freigegebener Ordner angesprochen werden kann: sudo mount -t cifs -o username=ABCD,password=xyz,uid=0,gid=0 //192.168.2.5/Name des freigegebenen Verzeichnisses /mnt/qt4-fs-client. Der Username, das Passwort, die IP-Adresse und der Name des freigegebenen Verzeichnisses ist den bestehenden Verhältnissen anzupassen.
+Mit diesem Befehl können Sie überprüfen, ob ein freigegebener Ordner angesprochen werden kann: sudo mount -t cifs -o username=ABCD,password=xyz,uid=0,gid=0 //192.168.2.5/Name des freigegebenen Verzeichnisses /home/username/.qt4-fs-client. Der Username, das Passwort, die IP-Adresse und der Name des freigegebenen Verzeichnisses ist den bestehenden Verhältnissen anzupassen.
 Für den Zugriff auf eine Windows7 Freigabe ist es erforderlich, dem Ordner unter Eigenschaften > Freigabe > Erweiterte Freigabe >  Berechtigungen der Gruppen- oder Benutzername „Jeder“ hinzuzufügen. Als Berechtigungen für „Jeder“ sollten der „Vollzugriff“, „Ändern“ und „Lesen“ aktiviert werden. 
 
 Mit Netzwerprotokoll SSH (secure shell): 

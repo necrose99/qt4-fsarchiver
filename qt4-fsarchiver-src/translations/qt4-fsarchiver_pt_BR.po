@@ -1,0 +1,2984 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Language: pt_BR\n"
+"X-Source-Language: en_GB\n"
+"X-Qt-Contexts: true\n"
+
+#: ../src/clone.cpp:68 ../src/clone.cpp:327
+#, fuzzy
+msgctxt "DialogClone|Festplatte klonen"
+msgid "Clone Harddrive"
+msgstr "Clonar disco rígido"
+
+#: ../src/clone.cpp:162 ../src/clone.cpp:167 ../src/clone.cpp:173
+#: ../src/clone.cpp:209 ../src/clone.cpp:213 ../src/clone.cpp:219
+#: ../src/clone.cpp:270 ../src/clone.cpp:274 ../src/clone.cpp:282
+#: ../src/clone.cpp:315 ../src/clone.cpp:402 ../src/clone.cpp:551
+#: ../src/clone.cpp:553 ../src/clone.cpp:555 ../src/clone.cpp:557
+#: ../src/clone.cpp:580 ../src/clone.cpp:582
+#, fuzzy
+msgctxt "DialogClone|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/clone.cpp:162 ../src/clone.cpp:209 ../src/clone.cpp:270
+msgctxt "DialogClone|Sie müssen eine Festplatte auswählen.\n"
+msgid "You must select a hard drive."
+msgstr "Você deve selecionar um disco."
+
+#: ../src/clone.cpp:167
+msgctxt "DialogClone|Die gewählte Festplatte ist zu klein.\n"
+msgid "The selected hard drive is too small."
+msgstr ""
+
+#: ../src/clone.cpp:173 ../src/clone.cpp:219 ../src/clone.cpp:282
+msgctxt ""
+"DialogClone|Auf der Festplatte ist eine root- oder home Partition. Sie "
+"müssen eine Live-CD benutzen.\n"
+msgid ""
+"On the hard drive exist a root or a home partition. You must need a live-CD."
+msgstr ""
+
+#: ../src/clone.cpp:177
+msgctxt ""
+"DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der "
+"Festplatte "
+msgid " Do you want really clone the hard drive? All dates on  "
+msgstr ""
+
+#: ../src/clone.cpp:177
+msgctxt "DialogClone| werden gelöscht!"
+msgid " are deleted!"
+msgstr ""
+
+#: ../src/clone.cpp:213
+msgctxt "DialogClone|Sie müssen ein Verzeichnis auswählen.\n"
+msgid "You must select a folder."
+msgstr ""
+
+#: ../src/clone.cpp:229
+msgctxt ""
+"DialogClone| Wollen Sie wirklich ein Abbild der Festplatte erstellen? "
+msgid " Do you want really built a image from the hard drive? "
+msgstr ""
+
+#: ../src/clone.cpp:274
+msgctxt ""
+"DialogClone|Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.\n"
+msgid "You must select a gz.fsa file or an img.fsa file."
+msgstr ""
+
+#: ../src/clone.cpp:291
+msgctxt ""
+"DialogClone| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? "
+msgid " Do you want really restore the image of the hard drive? "
+msgstr ""
+
+#: ../src/clone.cpp:316
+msgctxt "DialogClone|Ja"
+msgid "Yes"
+msgstr ""
+
+#: ../src/clone.cpp:317
+msgctxt "DialogClone|Nein"
+msgid "No"
+msgstr ""
+
+#: ../src/clone.cpp:337
+msgctxt "DialogClone|Festplatten Abbild erstellen"
+msgid "Save Harddrive Image"
+msgstr ""
+
+#: ../src/clone.cpp:347
+msgctxt "DialogClone|Festplatten Abbild zurückschreiben"
+msgid "Restore Harddrive Image"
+msgstr ""
+
+#: ../src/clone.cpp:403
+msgctxt ""
+"DialogClone|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa "
+"Datei auswählen\n"
+msgid "You have selected a folder. You must select a gz.fsa file.\n"
+msgstr ""
+
+#: ../src/clone.cpp:551
+msgctxt "DialogClone|Das Klonen der Festplatte war erfolgreich.\n"
+msgid "The clone of the hard drive was successfully."
+msgstr ""
+
+#: ../src/clone.cpp:553
+msgctxt "DialogClone|Die Sichern des Abbildes war erfolgreich.\n"
+msgid "The backup of the image was successfully."
+msgstr ""
+
+#: ../src/clone.cpp:555
+msgctxt "DialogClone|Das Klonen der Festplatte war nicht erfolgreich.\n"
+msgid "The clone of the hard drive was not successfully."
+msgstr ""
+
+#: ../src/clone.cpp:557
+msgctxt "DialogClone|Die Sichern des Abbildes war nicht erfolgreich.\n"
+msgid "The backup of the image was not successfully."
+msgstr ""
+
+#: ../src/clone.cpp:580
+msgctxt "DialogClone|Die Wiederherstellung des Abbildes war erfolgreich.\n"
+msgid "The restore from the image was successfully."
+msgstr ""
+
+#: ../src/clone.cpp:582
+msgctxt ""
+"DialogClone|Die Wiederherstellung des Abbildes war nicht erfolgreich.\n"
+msgid "The restore from the image was not successfully."
+msgstr ""
+
+#: ../src/clone.cpp:649
+msgctxt ""
+"DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung "
+"oder die Wiederherstellung eines Images der Festplatte beenden?"
+msgid ""
+"Do you want really break clone, save or restore an image from the partition?"
+msgstr ""
+
+#: ../src/clone_net.cpp:71 ../src/clone_net.cpp:353
+msgctxt "DialogClone_net|Festplatten Abbild erstellen"
+msgid "Save Harddrive Image"
+msgstr ""
+
+#: ../src/clone_net.cpp:152 ../src/clone_net.cpp:156 ../src/clone_net.cpp:162
+#: ../src/clone_net.cpp:170 ../src/clone_net.cpp:237 ../src/clone_net.cpp:241
+#: ../src/clone_net.cpp:250 ../src/clone_net.cpp:290 ../src/clone_net.cpp:341
+#: ../src/clone_net.cpp:408 ../src/clone_net.cpp:523 ../src/clone_net.cpp:525
+#: ../src/clone_net.cpp:542 ../src/clone_net.cpp:544 ../src/clone_net.cpp:775
+#, fuzzy
+msgctxt "DialogClone_net|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/clone_net.cpp:152 ../src/clone_net.cpp:237
+#, fuzzy
+msgctxt "DialogClone_net|Sie müssen eine Festplatte auswählen.\n"
+msgid "You must select a hard drive."
+msgstr "Você deve selecionar um disco."
+
+#: ../src/clone_net.cpp:156
+msgctxt "DialogClone_net|Sie müssen ein Verzeichnis auswählen.\n"
+msgid "You must select a folder."
+msgstr ""
+
+#: ../src/clone_net.cpp:163
+msgctxt "DialogClone_net|Bitte wählen Sie den Dateinamen der Sicherung aus.\n"
+msgid "Please, select the filename of the backup.\n"
+msgstr ""
+
+#: ../src/clone_net.cpp:170 ../src/clone_net.cpp:250
+msgctxt ""
+"DialogClone_net|Auf der Festplatte ist eine root- oder home Partition. Sie "
+"müssen eine Live-CD benutzen.\n"
+msgid ""
+"On the hard drive exist a root or a home partition. You must need a live-CD."
+msgstr ""
+
+#: ../src/clone_net.cpp:182
+msgctxt ""
+"DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte erstellen? "
+msgid " Do you want really built a image from the hard drive? "
+msgstr ""
+
+#: ../src/clone_net.cpp:241
+msgctxt "DialogClone_net|Sie müssen eine fsa.gz Datei auswählen.\n"
+msgid "You must select a fsa.gz file."
+msgstr ""
+
+#: ../src/clone_net.cpp:258
+msgctxt ""
+"DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte "
+"zurückschreiben? "
+msgid " Do you want really restore the image of the hard drive? "
+msgstr ""
+
+#: ../src/clone_net.cpp:291
+msgctxt ""
+"DialogClone_net|Es wurde kein freigegebenes Verzeichnis gefunden. Das "
+"Programm kann nicht fortgesetzt werden.\n"
+msgid "Can not find a shared directory. The program is terminated.\n"
+msgstr ""
+
+#: ../src/clone_net.cpp:342
+msgctxt "DialogClone_net|Ja"
+msgid "Yes"
+msgstr ""
+
+#: ../src/clone_net.cpp:343
+msgctxt "DialogClone_net|Nein"
+msgid "No"
+msgstr ""
+
+#: ../src/clone_net.cpp:362
+msgctxt "DialogClone_net|Festplatten Abbild zurückschreiben"
+msgid "Restore Harddrive Image"
+msgstr ""
+
+#: ../src/clone_net.cpp:409
+msgctxt ""
+"DialogClone_net|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz "
+"Datei auswählen\n"
+msgid "You have selected a folder. You must select a fsa.gz file.\n"
+msgstr ""
+
+#: ../src/clone_net.cpp:523
+msgctxt "DialogClone_net|Die Sichern des Abbildes war erfolgreich.\n"
+msgid "The backup of the image was successfully."
+msgstr ""
+
+#: ../src/clone_net.cpp:525
+msgctxt "DialogClone_net|Die Sichern des Abbildes war nicht erfolgreich.\n"
+msgid "The backup of the image was not successfully."
+msgstr ""
+
+#: ../src/clone_net.cpp:542
+msgctxt "DialogClone_net|Die Wiederherstellung des Abbildes war erfolgreich.\n"
+msgid "The restore from the image was successfully."
+msgstr ""
+
+#: ../src/clone_net.cpp:544
+msgctxt ""
+"DialogClone_net|Die Wiederherstellung des Abbildes war nicht erfolgreich.\n"
+msgid "The restore from the image was not successfully."
+msgstr ""
+
+#: ../src/clone_net.cpp:602
+msgctxt ""
+"DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben "
+"eines Images der Festplatte beenden?"
+msgid "Do you want really break save or restore an image from the partition?"
+msgstr ""
+
+#: ../src/clone_net.cpp:776
+msgctxt "DialogClone_net|Der Netzwerkrechner "
+msgid "The network computer "
+msgstr ""
+
+#: ../src/clone_net.cpp:776
+msgctxt ""
+"DialogClone_net| konnte nicht eingebunden werden. Das Programm wird "
+"abgebrochen\n"
+msgid " could not be integrated. The program is aborted\n"
+msgstr ""
+
+#: ../src/dir.cpp:87
+msgctxt "DialogDIR|"
+msgid "gzip fast"
+msgstr ""
+
+#: ../src/dir.cpp:87
+msgctxt "DialogDIR|"
+msgid "gzip standard"
+msgstr ""
+
+#: ../src/dir.cpp:87
+msgctxt "DialogDIR|"
+msgid "qzip best"
+msgstr ""
+
+#: ../src/dir.cpp:87
+msgctxt "DialogDIR|"
+msgid "bzip2 fast"
+msgstr ""
+
+#: ../src/dir.cpp:90
+msgctxt "DialogDIR|"
+msgid "bzip2 good"
+msgstr ""
+
+#: ../src/dir.cpp:90
+msgctxt "DialogDIR|"
+msgid "lzma fast"
+msgstr ""
+
+#: ../src/dir.cpp:90
+msgctxt "DialogDIR|"
+msgid "lzma medium"
+msgstr ""
+
+#: ../src/dir.cpp:90
+msgctxt "DialogDIR|"
+msgid "lzma best"
+msgstr ""
+
+#: ../src/dir.cpp:127
+msgctxt ""
+"DialogDIR|Sicherung\n"
+"verschlüsseln. Schlüssel:"
+msgid ""
+"Encrypt\n"
+"backup. key:"
+msgstr ""
+
+#: ../src/dir.cpp:128
+msgctxt "DialogDIR|Verzeichnis sichern"
+msgid "Directory save"
+msgstr ""
+
+#: ../src/dir.cpp:129
+msgctxt "DialogDIR|zu sicherndes Verzeichnis"
+msgid "to saved Directory"
+msgstr ""
+
+#: ../src/dir.cpp:130
+msgctxt "DialogDIR|Ort (Pfad) der Sicherung"
+msgid "Location (path) of the backup"
+msgstr ""
+
+#: ../src/dir.cpp:147
+msgctxt ""
+"DialogDIR|Sicherung\n"
+"entschlüsseln. Schlüssel:"
+msgid ""
+"Decrypt\n"
+"backup. key:"
+msgstr ""
+
+#: ../src/dir.cpp:148
+msgctxt "DialogDIR|Verzeichnis zurückschreiben"
+msgid "Directory restore"
+msgstr ""
+
+#: ../src/dir.cpp:149
+msgctxt "DialogDIR|zurück zu schreibende Sicherungsdatei"
+msgid "back to write backup file"
+msgstr ""
+
+#: ../src/dir.cpp:150
+msgctxt "DialogDIR|Ort (Pfad) der Wiederherstellung"
+msgid "Location (path) of the restore"
+msgstr ""
+
+#: ../src/dir.cpp:204 ../src/dir.cpp:210 ../src/dir.cpp:216 ../src/dir.cpp:252
+#: ../src/dir.cpp:270 ../src/dir.cpp:290 ../src/dir.cpp:297 ../src/dir.cpp:303
+#: ../src/dir.cpp:309 ../src/dir.cpp:330 ../src/dir.cpp:339 ../src/dir.cpp:346
+#: ../src/dir.cpp:437 ../src/dir.cpp:442 ../src/dir.cpp:455 ../src/dir.cpp:487
+#: ../src/dir.cpp:491 ../src/dir.cpp:504 ../src/dir.cpp:510 ../src/dir.cpp:516
+#: ../src/dir.cpp:520 ../src/dir.cpp:524 ../src/dir.cpp:667
+#, fuzzy
+msgctxt "DialogDIR|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/dir.cpp:205
+msgctxt ""
+"DialogDIR|Es wurde kein Schlüssel für die Verschlüsselung angegeben.\n"
+msgid "There was no key for encryption specified.\n"
+msgstr ""
+
+#: ../src/dir.cpp:211
+msgctxt ""
+"DialogDIR|Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde "
+"Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.\n"
+msgid ""
+"Please select the directory in which the to the directory or file to be "
+"saved is to be written.\n"
+msgstr ""
+
+#: ../src/dir.cpp:217
+msgctxt ""
+"DialogDIR|Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu "
+"sichernde Datei aus.\n"
+msgid "Please select the to be directory or file to be saved.\n"
+msgstr ""
+
+#: ../src/dir.cpp:222 ../src/dir.cpp:316
+msgctxt "DialogDIR|"
+msgid "Hinweis"
+msgstr ""
+
+#: ../src/dir.cpp:223
+msgctxt ""
+"DialogDIR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis "
+"auswählen\n"
+msgid "You have selected a file. You must select a directory\n"
+msgstr ""
+
+#: ../src/dir.cpp:253 ../src/dir.cpp:340
+msgctxt "DialogDIR|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein\n"
+msgid "The key length must be between 6 and 64 characters\n"
+msgstr ""
+
+#: ../src/dir.cpp:271
+msgctxt "DialogDIR|Die Partitionsdatei "
+msgid "The partition file "
+msgstr ""
+
+#: ../src/dir.cpp:272
+msgctxt ""
+"DialogDIR| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt\n"
+msgid "already exists. The backup is not performed\n"
+msgstr ""
+
+#: ../src/dir.cpp:291
+msgctxt ""
+"DialogDIR|Es wurde kein Schlüssel für die Entschlüsselung angegeben.\n"
+msgid "There was no key to decrypt specified.\n"
+msgstr ""
+
+#: ../src/dir.cpp:298
+msgctxt ""
+"DialogDIR|Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte "
+"Verzeichnis zurück geschrieben werden soll.\n"
+msgid "Select the directory in which the saved image will be recovered.\n"
+msgstr ""
+
+#: ../src/dir.cpp:304
+msgctxt "DialogDIR|Bitte wählen Sie die vorhandene Sicherungsdatei aus.\n"
+msgid "Please select the existing backup file.\n"
+msgstr ""
+
+#: ../src/dir.cpp:310
+msgctxt ""
+"DialogDIR|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine "
+"Sicherungsdatei mit der Dateiendung .fsa auswählen\n"
+msgid ""
+"You have selected a directory. You need a backup file with the extension "
+".fsa select\n"
+msgstr ""
+
+#: ../src/dir.cpp:317
+msgctxt ""
+"DialogDIR|Sie haben eine falsche Wiederherstellungsdatei ausgesucht "
+"ausgesucht \n"
+"Die Dateiendung muss .fsa sein"
+msgid ""
+"You have chosen the wrong recovery file selected.\n"
+" The files should end with. fsa be"
+msgstr ""
+
+#: ../src/dir.cpp:331
+msgctxt ""
+"DialogDIR|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel "
+"ein\n"
+msgid "The partition is encrypted. Please enter the key"
+msgstr ""
+
+#: ../src/dir.cpp:346
+msgctxt "DialogDIR|Sie haben ein falsches Passwort eingegeben. \n"
+msgid "You have entered an incorrect password."
+msgstr ""
+
+#: ../src/dir.cpp:437
+msgctxt "DialogDIR|Die Sicherung des Verzeichnisses war erfolgreich.\n"
+msgid "The backup of the directory was successful.\n"
+msgstr ""
+
+#: ../src/dir.cpp:438 ../src/dir.cpp:488
+msgctxt "DialogDIR| Dateien, "
+msgid " files, "
+msgstr ""
+
+#: ../src/dir.cpp:438
+msgctxt "DialogDIR| Verzeichnisse, "
+msgid "  directories, "
+msgstr ""
+
+#: ../src/dir.cpp:438
+msgctxt "DialogDIR| Links und "
+msgid "  links and "
+msgstr ""
+
+#: ../src/dir.cpp:438
+msgctxt "DialogDIR| spezielle Daten wurden gesichert."
+msgid " specials have been backed."
+msgstr ""
+
+#: ../src/dir.cpp:443
+msgctxt ""
+"DialogDIR|Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!\n"
+msgid "The backup of the folder was aborted by the user!\n"
+msgstr ""
+
+#: ../src/dir.cpp:456
+msgctxt "DialogDIR| Dateien, "
+msgid " Files, "
+msgstr ""
+
+#: ../src/dir.cpp:457 ../src/dir.cpp:506
+msgctxt "DialogDIR| Verzeichnisse und "
+msgid " directories, and "
+msgstr ""
+
+#: ../src/dir.cpp:458
+msgctxt ""
+"DialogDIR| Links wurden nicht korrekt gesichert. Die Sicherung der "
+"Verzeichnisse war nur teilweise erfolgreich\n"
+msgid ""
+" Links were not backed properly. The backup of the directories was only "
+"partially successful\n"
+msgstr ""
+
+#: ../src/dir.cpp:487
+msgctxt "DialogDIR|Die Wiederherstellung des Verzeichnisses war erfolgreich.\n"
+msgid "The restoring of the directory was successful.\n"
+msgstr ""
+
+#: ../src/dir.cpp:488
+msgctxt "DialogDIR| Verzeichnisse, "
+msgid " directories, "
+msgstr ""
+
+#: ../src/dir.cpp:488
+msgctxt "DialogDIR| Links und "
+msgid " links and "
+msgstr ""
+
+#: ../src/dir.cpp:488
+msgctxt "DialogDIR| spezielle Daten wurden wieder hergestellt."
+msgid " specials have been restored."
+msgstr ""
+
+#: ../src/dir.cpp:492
+msgctxt ""
+"DialogDIR|Die Wiederherstellung des Verzeichnisses wurde vom Benutzer "
+"abgebrochen!\n"
+msgid "The restore of the folder was break by user!\n"
+msgstr ""
+
+#: ../src/dir.cpp:505
+msgctxt "DialogDIR| Dateien, "
+msgid " files,"
+msgstr ""
+
+#: ../src/dir.cpp:507
+msgctxt ""
+"DialogDIR| Links wurden nicht korrekt wiederhergestellt. Die "
+"Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich\n"
+msgid ""
+" links were not correctly restored. The restoring of the lists was only "
+"partially successful"
+msgstr ""
+
+#: ../src/dir.cpp:510
+msgctxt "DialogDIR|Sie haben ein falsches Passwort eingegeben.\n"
+msgid "You have entered an incorrect password.\n"
+msgstr ""
+
+#: ../src/dir.cpp:517
+msgctxt ""
+"DialogDIR|Sie haben versucht ein Verzeichnis wiederherzustellen. Die "
+"gewählte Datei kann nur Partitionen wiederherstellen.\n"
+msgid ""
+"You have tried to restore a directory. The selected file can only restore "
+"partitions.\n"
+msgstr ""
+
+#: ../src/dir.cpp:520
+msgctxt ""
+"DialogDIR|Fehler in fsarchiver. Das Verzeichnis kann nicht wiederhergestellt "
+"werden!!\n"
+msgid "Error in fsarchiver. The directory can not be restored!"
+msgstr ""
+
+#: ../src/dir.cpp:524
+msgctxt ""
+"DialogDIR|Fehler! Das Verzeichnis wurde nur teilweise wiederhergestellt. \n"
+msgid "Error!  The restoring of the folder was only partially successful!"
+msgstr ""
+
+#: ../src/dir.cpp:668
+msgctxt "DialogDIR|Ja"
+msgid "Yes"
+msgstr ""
+
+#: ../src/dir.cpp:669
+msgctxt "DialogDIR|Nein"
+msgid "No"
+msgstr ""
+
+#: ../src/dir.cpp:682
+msgctxt ""
+"DialogDIR|Wollen Sie wirklich die Sicherung oder Wiederherstellung der "
+"Verzeichnisse beenden?"
+msgid "Do you want really break the save or restore from the folder?"
+msgstr ""
+
+#: ../src/mbr.cpp:68
+msgctxt "DialogMBR|MBR/GPT sichern"
+msgid "MBR/GPT save"
+msgstr ""
+
+#: ../src/mbr.cpp:74
+msgctxt "DialogMBR|MBR/GPT zurückschreiben"
+msgid "MBR/GPT restore"
+msgstr ""
+
+#: ../src/mbr.cpp:114 ../src/mbr.cpp:116 ../src/mbr.cpp:133 ../src/mbr.cpp:135
+#: ../src/mbr.cpp:156 ../src/mbr.cpp:158 ../src/mbr.cpp:171 ../src/mbr.cpp:173
+#: ../src/mbr.cpp:179 ../src/mbr.cpp:181 ../src/mbr.cpp:207 ../src/mbr.cpp:209
+#: ../src/mbr.cpp:264 ../src/mbr.cpp:325 ../src/mbr.cpp:331 ../src/mbr.cpp:337
+#: ../src/mbr.cpp:343 ../src/mbr.cpp:349 ../src/mbr.cpp:355 ../src/mbr.cpp:405
+#, fuzzy
+msgctxt "DialogMBR|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/mbr.cpp:114
+msgctxt "DialogMBR|MBR/GPT wurde erfolgreich gesichert.\n"
+msgid "MBR/GPT was successfully backed up.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:116
+msgctxt "DialogMBR|MBR/GPT wurde nicht gesichert.\n"
+msgid "MBR/GPT has not been backeed.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:125
+msgctxt ""
+"DialogMBR|Vorsicht: Wollen Sie wirklich die GUID Partitionstabelle "
+"zurückschreiben?\n"
+msgid ""
+"Caution: If you really want to to write back the GUID partition table?\n"
+msgstr ""
+
+#: ../src/mbr.cpp:133
+msgctxt ""
+"DialogMBR|Die GUID Partitionstabelle wurde erfolgreich wieder hergestellt.\n"
+msgid "The GUID partition table is successful return.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:135
+msgctxt ""
+"DialogMBR|Die GUID Partitionstabelle wurde nicht wieder hergestellt.\n"
+msgid "The GUID partition table was not restored.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:147
+msgctxt ""
+"DialogMBR|Vorsicht: Wollen Sie wirklich den MBR komplett beziehungsweise "
+"teilweise zurückschreiben?\n"
+msgid ""
+"Caution: If you really want to to write back the MBR completely or "
+"partially?\n"
+msgstr ""
+
+#: ../src/mbr.cpp:156
+msgctxt ""
+"DialogMBR|Der Bootloaderbereich wurde erfolgreich wieder hergestellt.\n"
+msgid "The Boot Loader section is successful return.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:158
+msgctxt "DialogMBR|Der Bootloaderbereich wurde nicht wieder hergestellt.\n"
+msgid "The boot loader area was not restored.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:171
+msgctxt ""
+"DialogMBR|Die Partitionstabelle wurde erfolgreich wieder hergestellt.\n"
+msgid "The partition table is successful return."
+msgstr ""
+
+#: ../src/mbr.cpp:173
+msgctxt "DialogMBR|Die Partitionstabelle wurde nicht wieder hergestellt.\n"
+msgid "The partition table was not restored.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:179
+msgctxt "DialogMBR|Der MBR wurde erfolgreich wieder hergestellt.\n"
+msgid "The MBR is successful return.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:181
+msgctxt "DialogMBR|Der MBR wurde nicht wieder hergestellt.\n"
+msgid "The MBR is not restored.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:192
+msgctxt ""
+"DialogMBR|Vorsicht: Wollen Sie wirklich den verborgenen Bereich "
+"zurückschreiben? \n"
+msgid "Caution: If you really want to to write back the secret field?\n"
+msgstr ""
+
+#: ../src/mbr.cpp:207
+msgctxt ""
+"DialogMBR|Der verborgene Bereich wurde erfolgreich wieder hergestellt.\n"
+msgid "The hidden area is successful return.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:209
+msgctxt "DialogMBR|Der verborgene Bereich wurde nicht wieder hergestellt.\n"
+msgid "The hidden area was not restored.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:264
+msgctxt ""
+"DialogMBR|Das Ende des verborgenen Bereiches der 1. Partition konnte nicht "
+"ausgelesen werden. Es werden nur 512 Bytes gesichert.\n"
+msgid ""
+"The end of hidden area of the 1st Partition could not be read. Only 512 "
+"bytes are saved."
+msgstr ""
+
+#: ../src/mbr.cpp:326
+msgctxt "DialogMBR|Sie müssen ein Verzeichnis auswählen\n"
+msgid "You must select a directory"
+msgstr ""
+
+#: ../src/mbr.cpp:332
+msgctxt ""
+"DialogMBR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis "
+"auswählen\n"
+msgid "You have selected a file. You must select a directory.\n"
+msgstr ""
+
+#: ../src/mbr.cpp:338
+msgctxt "DialogMBR|Sie müssen die MBR/GPT Sicherungsdatei auswählen.\n"
+msgid "You must choose the MBR/GPT file\n"
+msgstr ""
+
+#: ../src/mbr.cpp:344
+msgctxt ""
+"DialogMBR|Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR/GPT "
+"Sicherungsdatei auswählen\n"
+msgid ""
+"You have selected a directory. You must select the MBR/GPT backup file\n"
+msgstr ""
+
+#: ../src/mbr.cpp:350
+msgctxt "DialogMBR|Sie müssen eine MBR Sicherungsdatei auswählen.\n"
+msgid "You must choose the MBR file\n"
+msgstr ""
+
+#: ../src/mbr.cpp:356
+msgctxt "DialogMBR|Sie müssen eine GPT Sicherungsdatei auswählen.\n"
+msgid "You must choose the GPT file\n"
+msgstr ""
+
+#: ../src/mbr.cpp:382
+msgctxt ""
+"DialogMBR|Sie haben eventuell eine falsche Festplatte ausgewählt. Die "
+"wiederherzustellende Festplatte ist "
+msgid "You may have the wrong disk is selected. The restore disk is "
+msgstr ""
+
+#: ../src/mbr.cpp:382
+msgctxt "DialogMBR|,  die gesicherte Festplatte ist aber "
+msgid ", the saved hard drive is "
+msgstr ""
+
+#: ../src/mbr.cpp:382
+msgctxt "DialogMBR| Wollen Sie fortfahren?"
+msgid " Are you sure?"
+msgstr ""
+
+#: ../src/mbr.cpp:390
+msgctxt ""
+"DialogMBR|Sie haben eventuell eine falsche Datei ausgewählt. Der "
+"wiederherzustellende verborgene Bereich hat eine Größe von"
+msgid ""
+"You may have a wrong file selected. Restore the hidden field has a size of "
+msgstr ""
+
+#: ../src/mbr.cpp:391
+msgctxt "DialogMBR| Byte. Der verborgene Bereich von der Festplatte "
+msgid " bytes. The hidden area of the disk "
+msgstr ""
+
+#: ../src/mbr.cpp:391
+msgctxt "DialogMBR| hat eine Größe von "
+msgid " has a size of "
+msgstr ""
+
+#: ../src/mbr.cpp:391
+msgctxt "DialogMBR| Byte. Wollen Sie fortfahren?"
+msgid " bytes. Are you sure?"
+msgstr ""
+
+#: ../src/mbr.cpp:406
+msgctxt "DialogMBR|Ja"
+msgid "Yes"
+msgstr ""
+
+#: ../src/mbr.cpp:407
+msgctxt "DialogMBR|Nein"
+msgid "No"
+msgstr ""
+
+#: ../src/net.cpp:117
+msgctxt "DialogNet|"
+msgid "lzo"
+msgstr ""
+
+#: ../src/net.cpp:118
+msgctxt "DialogNet|"
+msgid "gzip fast"
+msgstr ""
+
+#: ../src/net.cpp:119
+msgctxt "DialogNet|"
+msgid "gzip standard"
+msgstr ""
+
+#: ../src/net.cpp:120
+msgctxt "DialogNet|"
+msgid "qzip best"
+msgstr ""
+
+#: ../src/net.cpp:121
+msgctxt "DialogNet|"
+msgid "bzip2 fast"
+msgstr ""
+
+#: ../src/net.cpp:122
+msgctxt "DialogNet|"
+msgid "bzip2 good"
+msgstr ""
+
+#: ../src/net.cpp:123
+msgctxt "DialogNet|"
+msgid "lzma fast"
+msgstr ""
+
+#: ../src/net.cpp:124
+msgctxt "DialogNet|"
+msgid "lzma medium"
+msgstr ""
+
+#: ../src/net.cpp:125
+msgctxt "DialogNet|"
+msgid "lzma best"
+msgstr ""
+
+#: ../src/net.cpp:300 ../src/net.cpp:342 ../src/net.cpp:461 ../src/net.cpp:467
+#: ../src/net.cpp:474 ../src/net.cpp:480 ../src/net.cpp:496 ../src/net.cpp:546
+#: ../src/net.cpp:587 ../src/net.cpp:617 ../src/net.cpp:633 ../src/net.cpp:679
+#: ../src/net.cpp:685 ../src/net.cpp:691 ../src/net.cpp:701 ../src/net.cpp:722
+#: ../src/net.cpp:731 ../src/net.cpp:738 ../src/net.cpp:782 ../src/net.cpp:807
+#: ../src/net.cpp:814 ../src/net.cpp:826 ../src/net.cpp:874 ../src/net.cpp:1008
+#: ../src/net.cpp:1075 ../src/net.cpp:1091 ../src/net.cpp:1097
+#: ../src/net.cpp:1108 ../src/net.cpp:1137 ../src/net.cpp:1163
+#: ../src/net.cpp:1166 ../src/net.cpp:1171 ../src/net.cpp:1185
+#: ../src/net.cpp:1191 ../src/net.cpp:1195 ../src/net.cpp:1358
+#: ../src/net.cpp:1489 ../src/net.cpp:1507 ../src/net.cpp:1547
+#, fuzzy
+msgctxt "DialogNet|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/net.cpp:301
+msgctxt ""
+"DialogNet|Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis "
+"gefunden.\n"
+msgid "Can not find a shared directory with the NFS Protokoll.\n"
+msgstr ""
+
+#: ../src/net.cpp:343
+msgctxt "DialogNet|Mit Samba wurde kein freigegebenes Verzeichnis gefunden.\n"
+msgid "Can not find a shared directory with the Samba Protokoll.\n"
+msgstr ""
+
+#: ../src/net.cpp:462
+msgctxt "DialogNet|Bitte wählen Sie einen Ordner aus.\n"
+msgid "Please, select a folder.\n"
+msgstr ""
+
+#: ../src/net.cpp:468
+msgctxt "DialogNet|Bitte wählen Sie die zu sichernde Partition aus.\n"
+msgid "Please, select the partition to be saved.\n"
+msgstr ""
+
+#: ../src/net.cpp:475 ../src/net.cpp:686
+msgctxt "DialogNet|Bitte wählen Sie den Dateinamen der Sicherung aus.\n"
+msgid "Please, select the filename of the backup.\n"
+msgstr ""
+
+#: ../src/net.cpp:481
+msgctxt ""
+"DialogNet|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis "
+"auswählen\n"
+msgid "You have selected a file. You must select a directory\n"
+msgstr ""
+
+#: ../src/net.cpp:497 ../src/net.cpp:1009
+msgctxt "DialogNet|Der Netzwerkrechner "
+msgid "The network computer "
+msgstr ""
+
+#: ../src/net.cpp:497 ../src/net.cpp:1009
+msgctxt ""
+"DialogNet| konnte nicht eingebunden werden. Das Programm wird abgebrochen\n"
+msgid " could not be integrated. The program is aborted\n"
+msgstr ""
+
+#: ../src/net.cpp:524
+msgctxt ""
+"DialogNet|Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine "
+"Live-Sicherung durchführen?"
+msgid ""
+"The system partition to be saved is mounted. Do you want to do a live backup?"
+msgstr ""
+
+#: ../src/net.cpp:532
+msgctxt ""
+"DialogNet|Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine "
+"Live-Sicherung durchführen?"
+msgid ""
+"The home partition to be saved is mounted. Do you want to do a live backup?"
+msgstr ""
+
+#: ../src/net.cpp:547
+msgctxt "DialogNet|Die Partition "
+msgid "The partition "
+msgstr ""
+
+#: ../src/net.cpp:548 ../src/net.cpp:828
+msgctxt ""
+"DialogNet| kann nicht ausgehängt werden. Das Programm wird abgebrochen\n"
+msgid "can not be unmounted. The program is terminated\n"
+msgstr ""
+
+#: ../src/net.cpp:588 ../src/net.cpp:732 ../src/net.cpp:875
+msgctxt "DialogNet|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein\n"
+msgid "The key length must be between 6 and 64 characters\n"
+msgstr ""
+
+#: ../src/net.cpp:618
+msgctxt "DialogNet|Die Partitionsdatei "
+msgid "The partition file "
+msgstr ""
+
+#: ../src/net.cpp:618
+msgctxt ""
+"DialogNet| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt\n"
+msgid "already exists. The backup is not performed\n"
+msgstr ""
+
+#: ../src/net.cpp:634
+msgctxt "DialogNet|Die Sicherung wurde vom Benutzer abgebrochen\n"
+msgid "The backup was aborted by the user\n"
+msgstr ""
+
+#: ../src/net.cpp:680
+msgctxt ""
+"DialogNet|Es wurde kein Schlüssel für die Entschlüsselung angegeben.\n"
+msgid "No key was given for the decryption\n"
+msgstr ""
+
+#: ../src/net.cpp:692
+msgctxt "DialogNet|Bitte wählen Sie die zurück zu schreibende Partition aus.\n"
+msgid "Please, select the partition to be written back.\n"
+msgstr ""
+
+#: ../src/net.cpp:702
+msgctxt ""
+"DialogNet|Sie haben eine falsche Wiederherstellungsdatei ausgesucht "
+"ausgesucht \n"
+"Die Dateiendung muss .fsa sein"
+msgid ""
+"You have chosen the wrong recovery file selected.\n"
+"The files should end with. fsa be"
+msgstr ""
+
+#: ../src/net.cpp:723
+msgctxt ""
+"DialogNet|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel "
+"ein\n"
+msgid "The partition is encrypted. Please enter the key\n"
+msgstr ""
+
+#: ../src/net.cpp:738
+msgctxt "DialogNet|Sie haben ein falsches Passwort eingegeben. \n"
+msgid "They have entered a wrong password.\n"
+msgstr ""
+
+#: ../src/net.cpp:756
+msgctxt "DialogNet|Die wiederherzustellende Partition "
+msgid "Partition to restore the "
+msgstr ""
+
+#: ../src/net.cpp:757
+msgctxt "DialogNet| stimmt nicht mit der gesicherten "
+msgid " does not coincide with the saved  "
+msgstr ""
+
+#: ../src/net.cpp:757
+msgctxt ""
+"DialogNet| überein. Wollen Sie trotzdem die Wiederherstellung durchführen?"
+msgid "Do you want to continue restore?"
+msgstr ""
+
+#: ../src/net.cpp:783
+msgctxt "DialogNet|Das Zurückschreiben wurde vom Benutzer abgebrochen\n"
+msgid "The restore was canceled by user\n"
+msgstr ""
+
+#: ../src/net.cpp:795
+msgctxt ""
+"DialogNet|Es ist eine Datei mit dem Inhalt des Partition Boot Sektors "
+"vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?"
+msgid ""
+"There is a file with the contents of the partition boot sector present. Do "
+"you want to perform the restoration of the PBR?"
+msgstr ""
+
+#: ../src/net.cpp:808
+msgctxt ""
+"DialogNet|Die wiederherzustellende Systempartition ist eingehängt und kann "
+"nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD\n"
+msgid ""
+"To restore system partition is mounted and can not be restored. Please use a "
+"live CD\n"
+msgstr ""
+
+#: ../src/net.cpp:815
+msgctxt ""
+"DialogNet|Die wiederherzustellende Homepartition ist eingehängt und kann "
+"nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD\n"
+msgid ""
+"The restored home partition is mounted and can not be restored. Please use a "
+"live CD\n"
+msgstr ""
+
+#: ../src/net.cpp:827
+msgctxt "DialogNet|Die Partition "
+msgid "The partition"
+msgstr ""
+
+#: ../src/net.cpp:837
+msgctxt ""
+"DialogNet|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID "
+"wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten."
+msgid ""
+"If the existing btrfs partition to be formatted? The new UUID is defined "
+"here. If you choose <no>, the UUID remains preserved."
+msgstr ""
+
+#: ../src/net.cpp:905
+msgctxt "DialogNet|Partition sichern"
+msgid "Save partition"
+msgstr ""
+
+#: ../src/net.cpp:915
+msgctxt ""
+"DialogNet|Sicherung\n"
+"verschlüsseln. Schlüssel:"
+msgid ""
+"Encrypt\n"
+"backup. key:"
+msgstr ""
+
+#: ../src/net.cpp:930
+msgctxt "DialogNet|Partition zurückschreiben"
+msgid "Partition restore"
+msgstr ""
+
+#: ../src/net.cpp:940
+msgctxt ""
+"DialogNet|Sicherung\n"
+"entschlüsseln. Schlüssel"
+msgid ""
+"Decrypt\n"
+"backup. key:"
+msgstr ""
+
+#: ../src/net.cpp:1075
+msgctxt "DialogNet|Die Partition wurde erfolgreich gesichert.\n"
+msgid "The partition has been backed up successfully.\n"
+msgstr ""
+
+#: ../src/net.cpp:1076 ../src/net.cpp:1163 ../src/net.cpp:1167
+msgctxt "DialogNet| Dateien, "
+msgid " files, "
+msgstr ""
+
+#: ../src/net.cpp:1076 ../src/net.cpp:1163 ../src/net.cpp:1167
+msgctxt "DialogNet| Verzeichnisse, "
+msgid " directories, "
+msgstr ""
+
+#: ../src/net.cpp:1076 ../src/net.cpp:1163
+msgctxt "DialogNet| Links und "
+msgid " links and "
+msgstr ""
+
+#: ../src/net.cpp:1076
+msgctxt "DialogNet| spezielle Daten wurden gesichert."
+msgid " specials have been backed."
+msgstr ""
+
+#: ../src/net.cpp:1092
+msgctxt ""
+"DialogNet|Die Sicherung der Partition wurde vom Benutzer abgebrochen!\n"
+msgid "The backup of the partition was aborted by the user!\n"
+msgstr ""
+
+#: ../src/net.cpp:1098
+msgctxt ""
+"DialogNet|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die "
+"Partition verschlüsselt?\n"
+msgid ""
+"The partition type is not supported. Maybe the partition is encrypted?\n"
+msgstr ""
+
+#: ../src/net.cpp:1109 ../src/net.cpp:1186
+msgctxt "DialogNet| Dateien, "
+msgid " files"
+msgstr ""
+
+#: ../src/net.cpp:1110 ../src/net.cpp:1187
+msgctxt "DialogNet| Verzeichnisse und "
+msgid " directories and "
+msgstr ""
+
+#: ../src/net.cpp:1111
+msgctxt ""
+"DialogNet| Links wurden nicht korrekt gesichert. Die Sicherung der Partition "
+"war nur teilweise erfolgreich\n"
+msgid ""
+" links were not saved properly. The backup of the partition was only "
+"partially successful\n"
+msgstr ""
+
+#: ../src/net.cpp:1137
+msgctxt ""
+"DialogNet|Die Partition die wiederhergestellt werden soll, ist eingehängt. "
+"Sie muss zunächst ausgehängt werden!\n"
+msgid ""
+"cannot restore an archive to a partition which is mounted, unmount it first "
+"\n"
+msgstr ""
+
+#: ../src/net.cpp:1163 ../src/net.cpp:1166
+msgctxt "DialogNet|Die Partition wurde erfolgreich wieder hergestellt.\n"
+msgid "The partition is successful back.\n"
+msgstr ""
+
+#: ../src/net.cpp:1163
+msgctxt "DialogNet| spezielle Daten wurden wieder hergestellt."
+msgid " specials have been restored."
+msgstr ""
+
+#: ../src/net.cpp:1167
+msgctxt "DialogNet| Links "
+msgid " links "
+msgstr ""
+
+#: ../src/net.cpp:1167
+msgctxt ""
+"DialogNet| spezielle Daten und der Partition Boot Sektor wurden wieder "
+"hergestellt."
+msgid " specials and the Partition Boot Record have been restored."
+msgstr ""
+
+#: ../src/net.cpp:1172
+msgctxt ""
+"DialogNet|Die Wiederherstellung der Partition wurde vom Benutzer "
+"abgebrochen!\n"
+msgid "The restore of the partition was break by user!\n"
+msgstr ""
+
+#: ../src/net.cpp:1188
+msgctxt ""
+"DialogNet| Links wurden nicht korrekt wiederhergestellt. Die "
+"Wiederherstellung der Partition war nur teilweise erfolgreich.\n"
+msgid ""
+" links were not recovered correctly. The recovery of the partition was only "
+"partly successful.\n"
+msgstr ""
+
+#: ../src/net.cpp:1192
+msgctxt ""
+"DialogNet|Sie haben versucht eine Partition wiederherzustellen. Die gewählte "
+"Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das "
+"Programm neu.\n"
+msgid ""
+"You tried to restore a partition. The selected file can only restore "
+"directories. Please restart the program.\n"
+msgstr ""
+
+#: ../src/net.cpp:1195
+msgctxt "DialogNet|Sie haben ein falsches Passwort eingegeben. \n"
+msgid "You have entered an incorrect password.\n"
+msgstr ""
+
+#: ../src/net.cpp:1359
+msgctxt "DialogNet|Ja"
+msgid "Yes"
+msgstr ""
+
+#: ../src/net.cpp:1360
+msgctxt "DialogNet|Nein"
+msgid "No"
+msgstr ""
+
+#: ../src/net.cpp:1373
+msgctxt ""
+"DialogNet|Wollen Sie wirklich die Sicherung oder Wiederherstellung der "
+"Partition beenden?"
+msgid "Do you want really break the save or restore from the partition?"
+msgstr ""
+
+#: ../src/net.cpp:1474
+msgctxt ""
+"DialogNet|Wenn Sie keine SSH-Authentifizierung eingerichtet haben, müssen "
+"Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis "
+"weiterhin sehen? Sie können dies in den Basiseinstellungen ändern"
+msgid ""
+"If you have not set up SSH authentication, you must now enter the password "
+"in the terminal. Should this continue to be displayed? You can change this "
+"in the basic settings."
+msgstr ""
+
+#: ../src/net.cpp:1489 ../src/net.cpp:1547
+msgctxt ""
+"DialogNet|Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals "
+"oder mit einem anderen Netzwerkprotokoll.\n"
+msgid ""
+"The SSH server is not reachable. Try again or with another network "
+"protocol.\n"
+msgstr ""
+
+#: ../src/net.cpp:1508
+msgctxt ""
+"DialogNet|Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) "
+"zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten "
+"Terminal müssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie "
+"das Passwort für den Zugriff auf den Server ein  und 3.verlassen Sie den "
+"Server mit dem Befehl exit.\n"
+msgid ""
+"When you first contact the computer with ssh, you must do the following:  In "
+"a terminal enter these commands: 1.In the open terminal you must confirm the "
+"RSA key fingerprint with yes. 2.Enter the password for accessing the server "
+"and 3.leave the server with the command exit.\n"
+msgstr ""
+
+#: ../src/net.cpp:1646
+msgctxt "DialogNet|"
+msgid "Name"
+msgstr ""
+
+#: ../src/setting.cpp:32
+msgctxt "DialogSetting|Deutsch"
+msgid "German"
+msgstr ""
+
+#: ../src/setting.cpp:32
+msgctxt "DialogSetting|Englisch"
+msgid "English"
+msgstr ""
+
+#: ../src/setting.cpp:32
+msgctxt "DialogSetting|Russisch"
+msgid "Russia"
+msgstr ""
+
+#: ../src/setting.cpp:32
+msgctxt "DialogSetting|Portugiesisch"
+msgid "Portuguese"
+msgstr ""
+
+#: ../src/setting.cpp:38
+msgctxt "DialogSetting|"
+msgid "lzo"
+msgstr ""
+
+#: ../src/setting.cpp:38
+msgctxt "DialogSetting|"
+msgid "gzip fast"
+msgstr ""
+
+#: ../src/setting.cpp:38
+msgctxt "DialogSetting|"
+msgid "gzip standard"
+msgstr ""
+
+#: ../src/setting.cpp:38
+msgctxt "DialogSetting|"
+msgid "qzip best"
+msgstr ""
+
+#: ../src/setting.cpp:38
+msgctxt "DialogSetting|"
+msgid "bzip2 fast"
+msgstr ""
+
+#: ../src/setting.cpp:41
+msgctxt "DialogSetting|"
+msgid "bzip2 good"
+msgstr ""
+
+#: ../src/setting.cpp:41
+msgctxt "DialogSetting|"
+msgid "lzma fast"
+msgstr ""
+
+#: ../src/setting.cpp:41
+msgctxt "DialogSetting|"
+msgid "lzma medium"
+msgstr ""
+
+#: ../src/setting.cpp:41
+msgctxt "DialogSetting|"
+msgid "lzma best"
+msgstr ""
+
+#: ../src/setting.cpp:44
+msgctxt "DialogSetting|"
+msgid "Samba"
+msgstr ""
+
+#: ../src/setting.cpp:44
+msgctxt "DialogSetting|"
+msgid "SSH"
+msgstr ""
+
+#: ../src/setting.cpp:44
+msgctxt "DialogSetting|"
+msgid "NFS"
+msgstr ""
+
+#: ../src/setting.cpp:165
+#, fuzzy
+msgctxt "DialogSetting|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/setting.cpp:166
+msgctxt ""
+"DialogSetting|Die Einstellungen wurden gespeichert. Bei geänderter "
+"Spracheinstellung muss das Programm neu gestartet werden.\n"
+msgid ""
+"The settings have been saved. Be restarted, the program modified the "
+"language setting."
+msgstr ""
+
+#. Partitionen über ein Netzwerk sichern/zurückschreiben
+#: ../src/ui/net.ui:14
+msgctxt "Dialog_Net|"
+msgid "Backup/restore partition over network"
+msgstr ""
+
+#. Netzrechnername:
+#: ../src/ui/net.ui:26
+msgctxt "Dialog_Net|"
+msgid "Network computer  name:"
+msgstr ""
+
+#. Name der Sicherungsdatei:
+#: ../src/ui/net.ui:39
+msgctxt "Dialog_Net|"
+msgid "Restore file name:"
+msgstr ""
+
+#: ../src/ui/net.ui:58
+msgctxt "Dialog_Net|"
+msgid "S"
+msgstr ""
+
+#. vorhandene Partitionen:
+#: ../src/ui/net.ui:71
+#, fuzzy
+msgctxt "Dialog_Net|"
+msgid "Existing partitions:"
+msgstr "Partições existentes:"
+
+#. vorgesehene Aktion:
+#: ../src/ui/net.ui:90
+msgctxt "Dialog_Net|"
+msgid "Proposed action:"
+msgstr ""
+
+#. Partition mit * fsArchiver sichern:
+#: ../src/ui/net.ui:108
+msgctxt "Dialog_Net|"
+msgid ""
+"Partition save \n"
+"with fsarchiver"
+msgstr ""
+
+#. Partition mit fs-Archiver * zurückschreiben
+#: ../src/ui/net.ui:122
+msgctxt "Dialog_Net|"
+msgid ""
+"Restore partition \n"
+"with fsarchiver"
+msgstr ""
+
+#: ../src/ui/net.ui:152
+msgctxt "Dialog_Net|"
+msgid "n"
+msgstr ""
+
+#. Partition sichern
+#: ../src/ui/net.ui:165
+msgctxt "Dialog_Net|"
+msgid "save partition"
+msgstr ""
+
+#. Dateiname der Sicherung:
+#: ../src/ui/net.ui:211
+msgctxt "Dialog_Net|"
+msgid "Name the backup file:"
+msgstr ""
+
+#. Beenden
+#: ../src/ui/net.ui:224
+msgctxt "Dialog_Net|"
+msgid "Exit"
+msgstr ""
+
+#. Partition wiederherstellen
+#: ../src/ui/net.ui:237
+msgctxt "Dialog_Net|"
+msgid "Partition restore"
+msgstr ""
+
+#: ../src/ui/net.ui:269
+msgctxt "Dialog_Net|"
+msgid "elapsed time:"
+msgstr ""
+
+#: ../src/ui/net.ui:279
+msgctxt "Dialog_Net|"
+msgid ""
+"On the number saved\n"
+"Files/directories:"
+msgstr ""
+
+#: ../src/ui/net.ui:294
+msgctxt "Dialog_Net|"
+msgid ""
+"already saved \n"
+"files/directories:"
+msgstr ""
+
+#: ../src/ui/net.ui:316 ../src/ui/net.ui:365
+msgctxt "Dialog_Net|"
+msgid "seconds"
+msgstr ""
+
+#: ../src/ui/net.ui:330 ../src/ui/net.ui:351
+msgctxt "Dialog_Net|"
+msgid "minutes"
+msgstr ""
+
+#: ../src/ui/net.ui:344
+msgctxt "Dialog_Net|"
+msgid "remaining time"
+msgstr ""
+
+#. Bitte wählen Sie einen freigegebene Ordner aus:
+#: ../src/ui/net.ui:431
+msgctxt "Dialog_Net|"
+msgid "Please select the folder."
+msgstr ""
+
+#: ../src/ui/net.ui:492
+msgctxt "Dialog_Net|"
+msgid ""
+"Number of processors\n"
+"cores for to be used fsarchiver:"
+msgstr ""
+
+#: ../src/ui/net.ui:516
+msgctxt "Dialog_Net|"
+msgid ""
+"Compression\n"
+"setting:"
+msgstr ""
+
+#: ../src/ui/net.ui:530
+msgctxt "Dialog_Net|"
+msgid "Notes to  the backup"
+msgstr ""
+
+#: ../src/ui/net.ui:553
+msgctxt "Dialog_Net|"
+msgid "available backup overwrite"
+msgstr ""
+
+#: ../src/ui/net.ui:566
+msgctxt "Dialog_Net|"
+msgid "Stock Split on DVD size"
+msgstr ""
+
+#: ../src/ui/net.ui:579
+msgctxt "Dialog_Net|"
+msgid ""
+"Encrypt \n"
+"backup key"
+msgstr ""
+
+#. PBR sichern
+#: ../src/ui/net.ui:593
+msgctxt "Dialog_Net|"
+msgid "Save PBR"
+msgstr ""
+
+#: ../src/ui/net.ui:617
+msgctxt "Dialog_Net|"
+msgid ""
+"<html><head/><body><p>Protocol for network transmission:</p></body></html>"
+msgstr ""
+
+#. Daten Netzwerk
+#: ../src/ui/net_ein.ui:14
+msgctxt "Eingabe_Net|"
+msgid "Data network"
+msgstr ""
+
+#. Benutzername:
+#: ../src/ui/net_ein.ui:26
+msgctxt "Eingabe_Net|"
+msgid "Username:"
+msgstr ""
+
+#. Kennwort:
+#: ../src/ui/net_ein.ui:39
+msgctxt "Eingabe_Net|"
+msgid "Password:"
+msgstr ""
+
+#. Daten speichern
+#: ../src/ui/net_ein.ui:52
+msgctxt "Eingabe_Net|"
+msgid "Save data"
+msgstr ""
+
+#. Weiter
+#: ../src/ui/net_ein.ui:91
+msgctxt "Eingabe_Net|"
+msgid "Next"
+msgstr ""
+
+#. Im Netz erreichbare Rechner:
+#: ../src/ui/net_ein.ui:114
+msgctxt "Eingabe_Net|"
+msgid "Achievable in the network computer:"
+msgstr ""
+
+#: ../src/ui/net_ein.ui:127
+msgctxt "Eingabe_Net|"
+msgid "n"
+msgstr ""
+
+#. Kennwort anzeigen
+#: ../src/ui/net_ein.ui:140
+msgctxt "Eingabe_Net|"
+msgid "Show Password"
+msgstr ""
+
+#. Abbrechen
+#: ../src/ui/net_ein.ui:153
+msgctxt "Eingabe_Net|"
+msgid "Cancel"
+msgstr ""
+
+#. Beschreibung der Sicherung
+#: ../src/ui/filedialog.ui:14
+msgctxt "FileDialog|"
+msgid "Description of the backup"
+msgstr ""
+
+#. Abbrechen
+#: ../src/ui/filedialog.ui:26
+msgctxt "FileDialog|"
+msgid "Cancel"
+msgstr ""
+
+#. Beschreibung der Sicherung:
+#: ../src/ui/filedialog.ui:39
+msgctxt "FileDialog|"
+msgid "Description of the backup:"
+msgstr ""
+
+#. Partition sichern
+#: ../src/ui/filedialog.ui:52
+msgctxt "FileDialog|"
+msgid "Back partition"
+msgstr ""
+
+#: ../src/ui/filedialog.ui:80
+msgctxt "FileDialog|"
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"></p></body></html>"
+msgstr ""
+
+#: ../src/filedialog.cpp:41
+msgctxt "FileDialog|Partition zurückschreiben"
+msgid "Partition restore"
+msgstr ""
+
+#: ../src/filedialog.cpp:50
+msgctxt "FileDialog|Partition sichern"
+msgid "Save partition"
+msgstr ""
+
+#: ../src/filedialog.cpp:67
+#, fuzzy
+msgctxt "FileDialog|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/filedialog.cpp:68
+msgctxt ""
+"FileDialog|Die Hinweise zur Partition wurden nicht in eine Datei "
+"geschrieben.\n"
+msgid "Instructions for partition were not recorded written to the file.\n"
+msgstr ""
+
+#: ../src/filedialog.cpp:93
+msgctxt "FileDialog|hallo"
+msgid "hello"
+msgstr ""
+
+#: ../src/mainWindow.cpp:337
+msgctxt ""
+"MWindow|In der Datei /usr/share/doc/qt4-fsarchiver/Liesmich sind Hinweise "
+"zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin "
+"sehen? Sie können dies in den Basiseinstellungen ändern."
+msgid ""
+"In the file /usr/share/doc/qt4-fsarchiver/Readme are instructions included "
+"on the use of the program. Should this continue to be displayed? You can "
+"change this in the basic settings."
+msgstr ""
+
+#: ../src/mainWindow.cpp:385
+msgctxt "MWindow|Sicherungsdatei"
+msgid "Backup File"
+msgstr ""
+
+#: ../src/mainWindow.cpp:386
+msgctxt "MWindow|Partition zurückschreiben"
+msgid "Partition restore"
+msgstr ""
+
+#: ../src/mainWindow.cpp:399
+msgctxt ""
+"MWindow|Sicherung\n"
+"entschlüsseln. Schlüssel"
+msgid ""
+"Decrypt\n"
+"backup. key:"
+msgstr ""
+
+#: ../src/mainWindow.cpp:412
+msgctxt "MWindow|Sicherungsverzeichnis"
+msgid "Backup directory"
+msgstr ""
+
+#: ../src/mainWindow.cpp:413
+msgctxt "MWindow|Partition sichern"
+msgid "Save partition"
+msgstr ""
+
+#: ../src/mainWindow.cpp:426
+msgctxt ""
+"MWindow|Sicherung\n"
+"verschlüsseln. Schlüssel"
+msgid ""
+"Encrypt\n"
+"backup. key:"
+msgstr ""
+
+#: ../src/mainWindow.cpp:454 ../src/mainWindow.cpp:460
+#: ../src/mainWindow.cpp:467 ../src/mainWindow.cpp:474
+#: ../src/mainWindow.cpp:528 ../src/mainWindow.cpp:568
+#: ../src/mainWindow.cpp:617 ../src/mainWindow.cpp:633
+#: ../src/mainWindow.cpp:754 ../src/mainWindow.cpp:760
+#: ../src/mainWindow.cpp:766 ../src/mainWindow.cpp:777
+#: ../src/mainWindow.cpp:786 ../src/mainWindow.cpp:804
+#: ../src/mainWindow.cpp:813 ../src/mainWindow.cpp:820
+#: ../src/mainWindow.cpp:863 ../src/mainWindow.cpp:887
+#: ../src/mainWindow.cpp:894 ../src/mainWindow.cpp:906
+#: ../src/mainWindow.cpp:954 ../src/mainWindow.cpp:1044
+#: ../src/mainWindow.cpp:1119 ../src/mainWindow.cpp:1293
+#: ../src/mainWindow.cpp:1312 ../src/mainWindow.cpp:1318
+#: ../src/mainWindow.cpp:1322 ../src/mainWindow.cpp:1333
+#: ../src/mainWindow.cpp:1349 ../src/mainWindow.cpp:1375
+#: ../src/mainWindow.cpp:1379 ../src/mainWindow.cpp:1384
+#: ../src/mainWindow.cpp:1398 ../src/mainWindow.cpp:1402
+#: ../src/mainWindow.cpp:1405
+#, fuzzy
+msgctxt "MWindow|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/mainWindow.cpp:455
+msgctxt "MWindow|Bitte wählen Sie das Sicherungsverzeichnis aus.\n"
+msgid "Please select from the backup directory.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:461
+msgctxt "MWindow|Bitte wählen Sie die zu sichernde Partition aus.\n"
+msgid "Please select the partition to be"
+msgstr ""
+
+#: ../src/mainWindow.cpp:468 ../src/mainWindow.cpp:761
+msgctxt "MWindow|Bitte wählen Sie den Dateinamen der Sicherung aus.\n"
+msgid "Please select the file name of the backup.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:475
+msgctxt ""
+"MWindow|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis "
+"auswählen\n"
+msgid "You have selected a file. You must select a directory\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:503
+msgctxt ""
+"MWindow|Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine "
+"Live-Sicherung durchführen?"
+msgid ""
+"To back up the system partition is mounted. Do you want to do a live backup?"
+msgstr ""
+
+#: ../src/mainWindow.cpp:511
+msgctxt ""
+"MWindow|Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine "
+"Live-Sicherung durchführen?"
+msgid "To back up home partition is mounted. Do you want to do a live backup?"
+msgstr ""
+
+#: ../src/mainWindow.cpp:529
+msgctxt "MWindow|Die Partition "
+msgid "The partition"
+msgstr ""
+
+#: ../src/mainWindow.cpp:529
+msgctxt ""
+"MWindow| kann nicht ausgehängt werden. Das Programm wird abgebrochen\n"
+msgid "can not be unmounted. The program is terminated\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:569 ../src/mainWindow.cpp:814
+msgctxt "MWindow|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein\n"
+msgid "The key length must be between 6 and 64 characters\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:618
+msgctxt "MWindow|Die Partitionsdatei"
+msgid "The partition file"
+msgstr ""
+
+#: ../src/mainWindow.cpp:618
+msgctxt ""
+"MWindow| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt\n"
+msgid " already exists. The backup is not performed\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:634
+msgctxt "MWindow|Die Sicherung wurde vom Benutzer abgebrochen\n"
+msgid "The backup was aborted by the user\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:657
+msgctxt "MWindow|Die Sicherung wird durchgeführt"
+msgid "The backup is performed"
+msgstr ""
+
+#: ../src/mainWindow.cpp:755
+msgctxt "MWindow|Es wurde kein Schlüssel für die Entschlüsselung angegeben.\n"
+msgid "There was no key to decrypt specified."
+msgstr ""
+
+#: ../src/mainWindow.cpp:767
+msgctxt "MWindow|Bitte wählen Sie die zurück zu schreibende Partition aus.\n"
+msgid "Please select from the writing back to partition.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:778
+msgctxt ""
+"MWindow|Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht "
+"\n"
+"Die Dateiendung muss .fsa sein"
+msgid ""
+"You have chosen the wrong recovery file selected. \n"
+"The files should end with. fsa be"
+msgstr ""
+
+#: ../src/mainWindow.cpp:787
+msgctxt ""
+"MWindow|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei "
+"auswählen\n"
+msgid "You have selected a directory. You must select a file\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:805
+msgctxt ""
+"MWindow|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein\n"
+msgid "The partition is encrypted. Please enter the key"
+msgstr ""
+
+#: ../src/mainWindow.cpp:820
+msgctxt "MWindow|Sie haben ein falsches Passwort eingegeben. \n"
+msgid "You have entered an incorrect password."
+msgstr ""
+
+#: ../src/mainWindow.cpp:838
+msgctxt "MWindow|Die wiederherzustellende Partition "
+msgid "Partition to restore the "
+msgstr ""
+
+#: ../src/mainWindow.cpp:839
+msgctxt "MWindow| stimmt nicht mit der gesicherten "
+msgid " does not coincide with the saved  "
+msgstr ""
+
+#: ../src/mainWindow.cpp:839
+msgctxt ""
+"MWindow| überein. Wollen Sie trotzdem die Wiederherstellung durchführen?"
+msgid "Do you want to continue restore?"
+msgstr ""
+
+#: ../src/mainWindow.cpp:864
+msgctxt "MWindow|Das Zurückschreiben wurde vom Benutzer abgebrochen\n"
+msgid "The restore was aborted by the user"
+msgstr ""
+
+#: ../src/mainWindow.cpp:876
+msgctxt ""
+"MWindow|Es ist eine Datei mit dem Inhalt des Partition Boot Sektors "
+"vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?"
+msgid ""
+"There is a file with the contents of the partition boot sector present. Do "
+"you want to perform the restoration of the PBR?"
+msgstr ""
+
+#: ../src/mainWindow.cpp:888
+msgctxt ""
+"MWindow|Die wiederherzustellende Systempartition ist eingehängt und kann "
+"nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD\n"
+msgid ""
+"Restore the system partition is mounted and can not be written back. Please "
+"use a live CD."
+msgstr ""
+
+#: ../src/mainWindow.cpp:895
+msgctxt ""
+"MWindow|Die wiederherzustellende Homepartition ist eingehängt und kann nicht "
+"zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD\n"
+msgid ""
+"Restore the home partition is mounted and can not be written back. Please "
+"use a live CD."
+msgstr ""
+
+#: ../src/mainWindow.cpp:907
+msgctxt "MWindow|Die Partition "
+msgid "The partition "
+msgstr ""
+
+#: ../src/mainWindow.cpp:907
+msgctxt ""
+"MWindow| kann nicht ausgehängt werden. Das Programm wird abgebrochen\n"
+msgid " can not be unmounted. The program is terminated"
+msgstr ""
+
+#: ../src/mainWindow.cpp:917
+msgctxt ""
+"MWindow|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird "
+"dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten."
+msgid ""
+"If the existing btrfs partition to be formatted? The new UUID is defined "
+"here. If you choose <no>, the UUID remains preserved."
+msgstr ""
+
+#: ../src/mainWindow.cpp:955
+msgctxt "MWindow|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein.\n"
+msgid "The key length must be between 6 and 64 characters."
+msgstr ""
+
+#: ../src/mainWindow.cpp:969
+msgctxt "MWindow|Die Wiederherstellung wird durchgeführt"
+msgid "The restoring is performed"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1027
+msgctxt "MWindow|"
+msgid "qt4-fsarchiver"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1028
+msgctxt ""
+"MWindow|Sichern und Wiederherstellen\n"
+"von Partitionen, Verzeichnissen und MBR\n"
+"Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+"All rights reserved.\n"
+"Version 0.6.17-4, 1. Juni 2013"
+msgid ""
+"Backup and restore\n"
+"partitions, directory and MBR\n"
+"Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+"All rights reserved.\n"
+"Version 0.6.17-4, June 1, 2013"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1045
+msgctxt ""
+"MWindow|Das Programm muss mit Root-Rechten gestartet werden. Das Programm "
+"wird beendet.\n"
+msgid ""
+"The program must be run with root privileges. The program is terminated.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1120
+msgctxt "MWindow|Ja"
+msgid "Yes"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1121
+msgctxt "MWindow|Nein"
+msgid "No"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1293
+msgctxt "MWindow|Die Partition wurde erfolgreich gesichert.\n"
+msgid "The partition has been backed up successfully.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1294 ../src/mainWindow.cpp:1334
+#: ../src/mainWindow.cpp:1376 ../src/mainWindow.cpp:1380
+#: ../src/mainWindow.cpp:1399
+msgctxt "MWindow| Dateien, "
+msgid " files, "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1294 ../src/mainWindow.cpp:1376
+#: ../src/mainWindow.cpp:1380
+msgctxt "MWindow| Verzeichnisse, "
+msgid " directories, "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1294 ../src/mainWindow.cpp:1376
+msgctxt "MWindow| Links und "
+msgid " links and "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1294
+msgctxt "MWindow| spezielle Daten wurden gesichert."
+msgid " specials have been backed."
+msgstr ""
+
+#: ../src/mainWindow.cpp:1313
+msgctxt ""
+"MWindow|Die Sicherung der Partition  wurde vom Benutzer abgebrochen!\n"
+msgid "The backup of the partition was aborted by the user!\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1319
+msgctxt ""
+"MWindow|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die "
+"Partition verschlüsselt?\n"
+msgid ""
+"The partition type is not supported. Maybe the partition is encrypted?\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1323
+msgctxt ""
+"MWindow|Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu "
+"groß. Nutzen Sie eine FAT-Partition?\n"
+msgid "Error saving partition. File too large. Use is FAT-partition?\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1334 ../src/mainWindow.cpp:1399
+msgctxt "MWindow| Verzeichnisse und "
+msgid " directories and "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1334
+msgctxt ""
+"MWindow| Links wurden nicht korrekt gesichert. Die Sicherung der Partition "
+"war nur teilweise erfolgreich.\n"
+msgid ""
+" links were not properly backed. The backup of the partition was only "
+"partially successful.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1349
+msgctxt ""
+"MWindow|Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie "
+"muss zunächst ausgehängt werden!\n"
+msgid ""
+"cannot restore an archive to a partition which is mounted, unmount it first "
+"\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1375 ../src/mainWindow.cpp:1379
+msgctxt "MWindow|Die Partition wurde erfolgreich wieder hergestellt.\n"
+msgid "The partition is successful back.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1376
+msgctxt "MWindow| spezielle Daten wurden wieder hergestellt."
+msgid " specials have been restored."
+msgstr ""
+
+#: ../src/mainWindow.cpp:1380
+msgctxt "MWindow| Links "
+msgid " links "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1380
+msgctxt ""
+"MWindow| spezielle Daten und der Partition Boot Sektor wurden wieder "
+"hergestellt."
+msgid " specials and the Partition Boot Record have been restored."
+msgstr ""
+
+#: ../src/mainWindow.cpp:1385
+msgctxt ""
+"MWindow|Die Wiederherstellung der Partition  wurde vom Benutzer "
+"abgebrochen!\n"
+msgid "The restore of the partition was break by user!\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1399
+msgctxt ""
+"MWindow| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung "
+"der Partition war nur teilweise erfolgreich.\n"
+msgid ""
+" Links were not correctly restored. The recovery of the volume was only "
+"partially successful."
+msgstr ""
+
+#: ../src/mainWindow.cpp:1402
+msgctxt ""
+"MWindow|Sie haben versucht eine Partition wiederherzustellen. Die gewählte "
+"Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das "
+"Programm neu.\n"
+msgid ""
+"You have tried restore a partition. The selected file can only restore "
+"directories. Please restart the program.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1405
+msgctxt "MWindow|Sie haben ein falsches Passwort eingegeben.\n"
+msgid "You have entered an incorrect password.\n"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1511
+msgctxt "MWindow|Sicherungsdateiname: "
+msgid "Backup file name: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1512
+msgctxt "MWindow|Partitionsname: "
+msgid "Partition  name: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1513
+msgctxt "MWindow|Partitionsart: "
+msgid "Partition type: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1514
+msgctxt "MWindow|"
+msgid "UUID: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1514
+msgctxt "MWindow|Bezeichnung: "
+msgid "Description: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1515
+msgctxt "MWindow|Partitionsgröße: "
+msgid "Partition size: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1515 ../src/mainWindow.cpp:1516
+msgctxt "MWindow|Belegung der Partition: "
+msgid "Assignment of the partition: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1516
+msgctxt "MWindow|Kompression: "
+msgid "Compression: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1517
+msgctxt "MWindow|ungefähre Sicherungsdateigröße: "
+msgid "Approximate image file sizes: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1517
+msgctxt "MWindow|weitere Hinweise:"
+msgid "Other notes: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1518
+msgctxt ""
+"MWindow|zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) "
+msgid "to be protected/secured partition: / (root system directory) "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1523 ../src/mainWindow.cpp:1529
+msgctxt "MWindow|Betriebsystem: "
+msgid "Operating system: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1523 ../src/mainWindow.cpp:1529
+msgctxt "MWindow|"
+msgid "Kernel: "
+msgstr ""
+
+#: ../src/mainWindow.cpp:1525
+msgctxt "MWindow|zu sichernde/gesicherte Partition: /home"
+msgid "to be protected/secured partition: /home"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1546
+msgctxt "MWindow|"
+msgid " MB"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1557
+msgctxt "MWindow|"
+msgid " TB"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1568
+msgctxt "MWindow|"
+msgid " GB"
+msgstr ""
+
+#: ../src/mainWindow.cpp:1759
+msgctxt ""
+"MWindow|Wollen Sie wirklich die Sicherung oder Wiederherstellung der "
+"Partition beenden?"
+msgid "Do you really want to break the save or restore from the partition?"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:14
+#, fuzzy
+msgctxt "MainWindow|"
+msgid "Save/restore partition "
+msgstr "Salvar/restaurar partilha  "
+
+#: ../src/ui/fsarchiverMain.ui:30
+#, fuzzy
+msgctxt "MainWindow|"
+msgid "Existing partitions:"
+msgstr "Partições existentes:"
+
+#: ../src/ui/fsarchiverMain.ui:46
+#, fuzzy
+msgctxt "MainWindow|"
+msgid "Backup directory:"
+msgstr "Diretório de backup:"
+
+#: ../src/ui/fsarchiverMain.ui:59
+msgctxt "MainWindow|"
+msgid "Stored partitions"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:72 ../src/ui/fsarchiverMain.ui:649
+msgctxt "MainWindow|"
+msgid "Exit"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:117
+msgctxt "MainWindow|"
+msgid "S"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:153
+msgctxt "MainWindow|"
+msgid "Partition restore"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:169
+msgctxt "MainWindow|"
+msgid "Name the backup file:"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:201
+msgctxt "MainWindow|"
+msgid "elapsed time:"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:211
+msgctxt "MainWindow|"
+msgid ""
+"On the number saved\n"
+"Files/directories:"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:226
+msgctxt "MainWindow|"
+msgid ""
+"already saved \n"
+"files/directories:"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:248 ../src/ui/fsarchiverMain.ui:297
+msgctxt "MainWindow|"
+msgid "seconds"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:262 ../src/ui/fsarchiverMain.ui:283
+msgctxt "MainWindow|"
+msgid "minutes"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:276
+msgctxt "MainWindow|"
+msgid "remaining time:"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:391
+msgctxt "MainWindow|"
+msgid ""
+"Number of processors\n"
+"cores for to be used fsarchiver:"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:415
+msgctxt "MainWindow|"
+msgid ""
+"Compression\n"
+"setting:"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:429
+msgctxt "MainWindow|"
+msgid "Notes to  the backup"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:452
+msgctxt "MainWindow|"
+msgid "available backup overwrite"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:465
+msgctxt "MainWindow|"
+msgid "Stock Split on size:"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:478
+msgctxt "MainWindow|"
+msgid ""
+"Encrypt \n"
+"backup key"
+msgstr ""
+
+#. PBR sichern
+#: ../src/ui/fsarchiverMain.ui:492
+msgctxt "MainWindow|"
+msgid "Save PBR"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:515
+msgctxt "MainWindow|"
+msgid "GB"
+msgstr ""
+
+#. vorgesehene Aktion:
+#: ../src/ui/fsarchiverMain.ui:535
+msgctxt "MainWindow|"
+msgid "Proposed action:"
+msgstr ""
+
+#. Partition mit * fsArchiver sichern:
+#: ../src/ui/fsarchiverMain.ui:553
+msgctxt "MainWindow|"
+msgid ""
+"Partition save \n"
+"with fsarchiver"
+msgstr ""
+
+#. Partition mit fs-Archiver * zurückschreiben
+#: ../src/ui/fsarchiverMain.ui:567
+msgctxt "MainWindow|"
+msgid ""
+"Restore partition\n"
+"with fsarchiver"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:619
+msgctxt "MainWindow|"
+msgid "Actions"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:637
+msgctxt "MainWindow|"
+msgid "Settings"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:643
+msgctxt "MainWindow|"
+msgid "Information"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:660 ../src/ui/fsarchiverMain.ui:687
+msgctxt "MainWindow|"
+msgid "Basic Settings"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:669
+msgctxt "MainWindow|"
+msgid "Backup partition"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:678
+msgctxt "MainWindow|"
+msgid "Restore partition"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:696
+msgctxt "MainWindow|"
+msgid "Information fsarchiver"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:705
+msgctxt "MainWindow|"
+msgid "Save MBR/GPT"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:714
+msgctxt "MainWindow|"
+msgid "Restore MBR/GPT"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:723
+msgctxt "MainWindow|"
+msgid "Restore directory "
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:732
+msgctxt "MainWindow|"
+msgid "Save directory "
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:741
+msgctxt "MainWindow|"
+msgid "Exit program"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:750
+msgctxt "MainWindow|"
+msgid "Save a partition on network"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:759
+msgctxt "MainWindow|"
+msgid "Restore a partition on network"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:768
+msgctxt "MainWindow|"
+msgid "breakprocess"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:777
+msgctxt "MainWindow|"
+msgid "Clone Drive HD-Image save/restore "
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:782
+msgctxt "MainWindow|"
+msgid "HD-Image save/restore on network"
+msgstr ""
+
+#: ../src/ui/fsarchiverMain.ui:791
+msgctxt "MainWindow|"
+msgid "Clone HD, HD-Image built and restore"
+msgstr ""
+
+#: ../src/net_ein.cpp:257 ../src/net_ein.cpp:463 ../src/net_ein.cpp:469
+#: ../src/net_ein.cpp:475 ../src/net_ein.cpp:684
+#, fuzzy
+msgctxt "NetEin|Hinweis"
+msgid "Note"
+msgstr "referência"
+
+#: ../src/net_ein.cpp:258
+msgctxt "NetEin|Es ist derzeit kein Netzwerkrechner.\n"
+msgid "There is currently no available network computer.\n"
+msgstr ""
+
+#: ../src/net_ein.cpp:464
+msgctxt ""
+"NetEin|Sie müssen den Rechner auswählen, auf den die Sicherungsdaten "
+"geschrieben werden sollen\n"
+msgid "You must select the computer on which the backup data to be written\n"
+msgstr ""
+
+#: ../src/net_ein.cpp:470
+msgctxt ""
+"NetEin|Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück "
+"geschrieben werden sollen\n"
+msgid ""
+"You must select your computer from which the backup data to be written back\n"
+msgstr ""
+
+#: ../src/net_ein.cpp:476
+msgctxt ""
+"NetEin|Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf "
+"Netzrechner zugegriffen werden\n"
+msgid ""
+"You must enter the user name. Can not otherwise be accessible to network "
+"computers\n"
+msgstr ""
+
+#: ../src/net_ein.cpp:480
+msgctxt ""
+"NetEin|Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS "
+"benötigt keinen Schlüssel)"
+msgid "Is it true that you have entered a key? (NFS dont need a key)"
+msgstr ""
+
+#: ../src/net_ein.cpp:685
+msgctxt "NetEin|Ja"
+msgid "Yes"
+msgstr ""
+
+#: ../src/net_ein.cpp:686
+msgctxt "NetEin|Nein"
+msgid "No"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+#: ../src/ui/clone_dialog.ui:14
+msgctxt "clone_dialog|"
+msgid "Clone hard drive"
+msgstr ""
+
+#. Abbrechen
+#: ../src/ui/clone_dialog.ui:26
+msgctxt "clone_dialog|"
+msgid "Exit"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+#: ../src/ui/clone_dialog.ui:39
+msgctxt "clone_dialog|"
+msgid "Save / restore MBR"
+msgstr ""
+
+#. MBR Sicherungsverzeichnis:
+#: ../src/ui/clone_dialog.ui:65
+msgctxt "clone_dialog|"
+msgid "Exist harddrive:"
+msgstr ""
+
+#. MBR Sicherungsverzeichnis:
+#: ../src/ui/clone_dialog.ui:112
+msgctxt "clone_dialog|"
+msgid "New harddrive:"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:125 ../src/ui/clone_dialog.ui:138
+msgctxt "clone_dialog|"
+msgid "CommandLinkButton"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:166 ../src/ui/clone_dialog.ui:234
+msgctxt "clone_dialog|"
+msgid "seconds"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:192 ../src/ui/clone_dialog.ui:260
+msgctxt "clone_dialog|"
+msgid "minutes"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:221
+msgctxt "clone_dialog|"
+msgid "elapsed time:"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:289
+msgctxt "clone_dialog|"
+msgid "remaining time:"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:390
+msgctxt "clone_dialog|"
+msgid "already saved:"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:406
+msgctxt "clone_dialog|"
+msgid "MB"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:419 ../src/ui/clone_dialog.ui:448
+msgctxt "clone_dialog|"
+msgid "hours"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:478
+msgctxt "clone_dialog|"
+msgid "f"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:494
+#, fuzzy
+msgctxt "clone_dialog|"
+msgid "Backup directory:"
+msgstr "Diretório de backup:"
+
+#. sdc
+#: ../src/ui/clone_dialog.ui:522
+msgctxt "clone_dialog|"
+msgid "Image of a hard disk write back"
+msgstr ""
+
+#. sda
+#: ../src/ui/clone_dialog.ui:535
+msgctxt "clone_dialog|"
+msgid "Clone hard disk"
+msgstr ""
+
+#. vorgesehene Aktion:
+#: ../src/ui/clone_dialog.ui:554
+msgctxt "clone_dialog|"
+msgid "Proposed action:"
+msgstr ""
+
+#. sdb
+#: ../src/ui/clone_dialog.ui:573
+msgctxt "clone_dialog|"
+msgid "Image of a hard disk to create"
+msgstr ""
+
+#: ../src/ui/clone_dialog.ui:586
+msgctxt "clone_dialog|"
+msgid "Use gzip"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+#: ../src/ui/clone_dialog_net.ui:14
+msgctxt "clone_dialog_net|"
+msgid "Clone hard drive"
+msgstr ""
+
+#. Abbrechen
+#: ../src/ui/clone_dialog_net.ui:26
+msgctxt "clone_dialog_net|"
+msgid "Cancel"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+#: ../src/ui/clone_dialog_net.ui:39
+msgctxt "clone_dialog_net|"
+msgid "Save / restore MBR"
+msgstr ""
+
+#. MBR Sicherungsverzeichnis:
+#: ../src/ui/clone_dialog_net.ui:52
+msgctxt "clone_dialog_net|"
+msgid "Exist harddrive:"
+msgstr ""
+
+#. sdb
+#: ../src/ui/clone_dialog_net.ui:65
+msgctxt "clone_dialog_net|"
+msgid "Image einer Festplatte erstellen:"
+msgstr ""
+
+#. sdc
+#: ../src/ui/clone_dialog_net.ui:78
+msgctxt "clone_dialog_net|"
+msgid "Image einer Festplatte zurückschreiben:"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:123 ../src/ui/clone_dialog_net.ui:188
+msgctxt "clone_dialog_net|"
+msgid "seconds"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:149 ../src/ui/clone_dialog_net.ui:214
+msgctxt "clone_dialog_net|"
+msgid "minutes"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:175
+msgctxt "clone_dialog_net|"
+msgid "elapsed time:"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:240
+msgctxt "clone_dialog_net|"
+msgid "remaining time:"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:338
+msgctxt "clone_dialog_net|"
+msgid "<html><head/><body><p>already saved:</p></body></html>"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:351
+msgctxt "clone_dialog_net|"
+msgid "MB"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:364 ../src/ui/clone_dialog_net.ui:387
+msgctxt "clone_dialog_net|"
+msgid "hours"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:411
+msgctxt "clone_dialog_net|"
+msgid "f"
+msgstr ""
+
+#. Name der Sicherungsdatei:
+#: ../src/ui/clone_dialog_net.ui:434
+msgctxt "clone_dialog_net|"
+msgid "Image name:"
+msgstr ""
+
+#. Netzrechnername:
+#: ../src/ui/clone_dialog_net.ui:467
+msgctxt "clone_dialog_net|"
+msgid "Network computer  name:"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:480
+msgctxt "clone_dialog_net|"
+msgid "Exist Image:"
+msgstr ""
+
+#: ../src/ui/clone_dialog_net.ui:493
+msgctxt "clone_dialog_net|"
+msgid "l"
+msgstr ""
+
+#. Verzeichnis sichern/zurückschreiben
+#. ----------
+#. Verzeichnis sichern/zurückschreiben
+#: ../src/ui/dir_dialog.ui:14 ../src/ui/dir_dialog.ui:39
+msgctxt "dir_dialog|"
+msgid "Save/restore directory"
+msgstr ""
+
+#. Schließen
+#: ../src/ui/dir_dialog.ui:26
+msgctxt "dir_dialog|"
+msgid "Exit"
+msgstr ""
+
+#. zu sicherndes Verzeichnis:
+#: ../src/ui/dir_dialog.ui:65
+msgctxt "dir_dialog|"
+msgid "Saved directory"
+msgstr ""
+
+#. Ort (Pfad) der Sicherung:
+#: ../src/ui/dir_dialog.ui:91
+msgctxt "dir_dialog|"
+msgid "Location (path) of backup:"
+msgstr ""
+
+#. Anzahl der zu sichernden Dateien/Verzeichnisse:
+#: ../src/ui/dir_dialog.ui:119
+msgctxt "dir_dialog|"
+msgid ""
+"On the number of\n"
+"captive Files/directories:"
+msgstr ""
+
+#. bereits gesicherte Datein/Verzeichnisse:
+#: ../src/ui/dir_dialog.ui:146
+msgctxt "dir_dialog|"
+msgid ""
+"Already backed\n"
+"Files/directories:"
+msgstr ""
+
+#. vergangene Zeit:
+#: ../src/ui/dir_dialog.ui:189
+msgctxt "dir_dialog|"
+msgid "elapsed time:"
+msgstr ""
+
+#. Minuten
+#. ----------
+#. Minuten
+#: ../src/ui/dir_dialog.ui:215 ../src/ui/dir_dialog.ui:293
+msgctxt "dir_dialog|"
+msgid "minutes"
+msgstr ""
+
+#. Sekunden
+#. ----------
+#. Sekunden
+#: ../src/ui/dir_dialog.ui:241 ../src/ui/dir_dialog.ui:306
+msgctxt "dir_dialog|"
+msgid "seconds"
+msgstr ""
+
+#. noch zu erwartende Zeit:
+#: ../src/ui/dir_dialog.ui:254
+msgctxt "dir_dialog|"
+msgid "remaining  time:"
+msgstr ""
+
+#. Anzahl der Prozessorkerne, die für fsarchiver verwendet werden sollen:
+#: ../src/ui/dir_dialog.ui:386
+msgctxt "dir_dialog|"
+msgid ""
+"Number of processor cores\n"
+"for to be used fsarchiver:"
+msgstr ""
+
+#. Kompressioneinstellung:
+#: ../src/ui/dir_dialog.ui:415
+msgctxt "dir_dialog|"
+msgid "Compression setting:"
+msgstr ""
+
+#: ../src/ui/dir_dialog.ui:438
+msgctxt "dir_dialog|"
+msgid ""
+"Encrypt\n"
+"backup key"
+msgstr ""
+
+#. vorhandene Sicherung überschreiben
+#: ../src/ui/dir_dialog.ui:462
+msgctxt "dir_dialog|"
+msgid "Overwrite existing backup"
+msgstr ""
+
+#. Sicherung an den Ursprungsort zurückschreiben
+#: ../src/ui/dir_dialog.ui:475
+msgctxt "dir_dialog|"
+msgid "Backup restore to the Origin"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+#: ../src/ui/mbr_dialog.ui:14
+msgctxt "mbr_dialog|"
+msgid "Save / Restore MBR/GPT"
+msgstr ""
+
+#. nur den Bootloaderbereich wieder herstellen
+#: ../src/ui/mbr_dialog.ui:27
+msgctxt "mbr_dialog|"
+msgid "Only the boot loader area to restore"
+msgstr ""
+
+#. Bootloaderbereich und die Partitionstabelle wieder herstellen
+#: ../src/ui/mbr_dialog.ui:32
+msgctxt "mbr_dialog|"
+msgid "Bootloader area and restore the partition table"
+msgstr ""
+
+#. Partitionstabelle wiederherstellen
+#: ../src/ui/mbr_dialog.ui:37
+msgctxt "mbr_dialog|"
+msgid "Restore partition table"
+msgstr ""
+
+#. Verborgenen Bereich  wieder herstellen. (Ohne  Bootloader und ohne Partitionstabelle).
+#: ../src/ui/mbr_dialog.ui:42
+msgctxt "mbr_dialog|"
+msgid ""
+"Secretly area to restore. (Without Boot Loader and without partition table)."
+msgstr ""
+
+#. Abbrechen
+#: ../src/ui/mbr_dialog.ui:61
+msgctxt "mbr_dialog|"
+msgid "Cancel"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+#: ../src/ui/mbr_dialog.ui:74
+msgctxt "mbr_dialog|"
+msgid "Save / restore MBR"
+msgstr ""
+
+#. MBR Sicherungsverzeichnis:
+#: ../src/ui/mbr_dialog.ui:100
+msgctxt "mbr_dialog|"
+msgid "MBR/GPT backup directory:"
+msgstr ""
+
+#. MBR von dieser dieser Festplatte sichern / wiederherstellen:
+#: ../src/ui/mbr_dialog.ui:113
+msgctxt "mbr_dialog|"
+msgid ""
+"MBR of that drive this\n"
+"Backup / restore:"
+msgstr ""
+
+#. sda
+#: ../src/ui/mbr_dialog.ui:127
+msgctxt "mbr_dialog|"
+msgid "sda"
+msgstr ""
+
+#. sdb
+#: ../src/ui/mbr_dialog.ui:140
+msgctxt "mbr_dialog|"
+msgid "sdb"
+msgstr ""
+
+#. sdc
+#: ../src/ui/mbr_dialog.ui:153
+msgctxt "mbr_dialog|"
+msgid "sdc"
+msgstr ""
+
+#. sdd
+#: ../src/ui/mbr_dialog.ui:166
+msgctxt "mbr_dialog|"
+msgid "sdd"
+msgstr ""
+
+#: ../src/ui/setting.ui:14
+msgctxt "setting_dialog|"
+msgid "Basic settings"
+msgstr ""
+
+#. Anzahl Prozessorenkerne, * die für fsarchiver * verwendet werden sollen:
+#: ../src/ui/setting.ui:41
+msgctxt "setting_dialog|"
+msgid ""
+"Number of processors\n"
+"cores, for fsarchiver\n"
+"should be used:"
+msgstr ""
+
+#. Standard*kompression:
+#: ../src/ui/setting.ui:66
+msgctxt "setting_dialog|"
+msgid ""
+"Standard\n"
+"compression:"
+msgstr ""
+
+#: ../src/ui/setting.ui:90
+msgctxt "setting_dialog|"
+msgid "Language:"
+msgstr ""
+
+#. vorhandene Dateien * standardmäßig überschreiben
+#: ../src/ui/setting.ui:113
+msgctxt "setting_dialog|"
+msgid "Existing files by default override"
+msgstr ""
+
+#. Hinweise zur Sicherung * standardmäßig aktivieren
+#: ../src/ui/setting.ui:126
+msgctxt "setting_dialog|"
+msgid "Backup note enable by default"
+msgstr ""
+
+#. Verzeichnisse * standardmäßig an * den ursprünglichen * Ort zurückschreiben
+#: ../src/ui/setting.ui:139
+msgctxt "setting_dialog|"
+msgid ""
+"Directories by default write \n"
+"back to the original location"
+msgstr ""
+
+#. Verschlüsselung * standardmäßig aktivieren
+#: ../src/ui/setting.ui:153
+msgctxt "setting_dialog|"
+msgid "Enable encryption by default"
+msgstr ""
+
+#. Archiv-Datei auf DVD * Größe aufteilen
+#: ../src/ui/setting.ui:166
+msgctxt "setting_dialog|"
+msgid "Archive file size divided on DVD"
+msgstr ""
+
+#. Passwort für Netzwerk * anzeigen
+#: ../src/ui/setting.ui:179
+msgctxt "setting_dialog|"
+msgid "Password for network's view"
+msgstr ""
+
+#. Netzwerkeingabedaten * speichern
+#: ../src/ui/setting.ui:192
+msgctxt "setting_dialog|"
+msgid "Network input data save"
+msgstr ""
+
+#. Einstellungen speichern
+#: ../src/ui/setting.ui:205
+msgctxt "setting_dialog|"
+msgid "Save Settings"
+msgstr ""
+
+#. Beenden
+#: ../src/ui/setting.ui:218
+msgctxt "setting_dialog|"
+msgid "Exit"
+msgstr ""
+
+#. PBR standradmäßig sichern
+#: ../src/ui/setting.ui:231
+msgctxt "setting_dialog|"
+msgid "Safe PBR by default"
+msgstr ""
+
+#: ../src/ui/setting.ui:254
+msgctxt "setting_dialog|"
+msgid "Network protocol:"
+msgstr ""
+
+#. Hinweis  für den Zugriff auf Netzwerkrechner anzeigen
+#: ../src/ui/setting.ui:267
+msgctxt "setting_dialog|"
+msgid "Show Note for accessing network computer show"
+msgstr ""
+
+#. Hinweis über das Mounten des Netzwerkrechners anzeigen
+#: ../src/ui/setting.ui:280
+msgctxt "setting_dialog|"
+msgid "Show  Note to mount the network computer"
+msgstr ""
+
+#. Hinweise zum Gebrauch des Programms anzeigen
+#: ../src/ui/setting.ui:293
+msgctxt "setting_dialog|"
+msgid "Show  Note about the programm qt4-fsarchiver"
+msgstr ""
+
+#. Wiederherstellungsdatei auswählen
+#: ../src/ui/treeview.ui:14
+msgctxt "treeview_dialog|"
+msgid "Select restore file"
+msgstr ""
+
+#. Abbrechen
+#: ../src/ui/treeview.ui:41
+msgctxt "treeview_dialog|"
+msgid "Cancel"
+msgstr ""
+
+#. Mit der Wiederherstellung fortfahren
+#: ../src/ui/treeview.ui:60
+msgctxt "treeview_dialog|"
+msgid "Next"
+msgstr ""
+
+#. Vorhandene Wiederherstellungsdateien:
+#: ../src/ui/treeview.ui:92
+msgctxt "treeview_dialog|"
+msgid "Existing restore files:"
+msgstr ""
+
+#: ../src/ui/treeview.ui:105
+msgctxt "treeview_dialog|"
+msgid "a"
+msgstr ""

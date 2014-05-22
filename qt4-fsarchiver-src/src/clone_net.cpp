@@ -65,7 +65,7 @@ DialogClone_net::DialogClone_net(QWidget *parent)
         connect( pushButton_break, SIGNAL( clicked() ), this, SLOT(esc_end()));
         connect( bt_end, SIGNAL( clicked() ), this, SLOT(close()));
         connect( pushButton_folder_free, SIGNAL( clicked() ), this, SLOT(listWidget_folder_free_auslesen()));
-       dirModel = new QDirModel;
+        dirModel = new QDirModel;
   	selModel = new QItemSelectionModel(dirModel);
   	QModelIndex cwdIndex = dirModel->index(QDir::rootPath());
         button_save->setText (tr("Save Harddrive Image", "Festplatten Abbild erstellen"));
@@ -760,6 +760,7 @@ qDebug() << "rw_[read_write_zaehler1]" <<read_write_zaehler_net << rrw_net[read_
 
 int DialogClone_net::listWidget_folder_free_auslesen() {
     TreeviewRead treeviewread;
+    QString homepath = QDir::homePath();
     int row;
     row = listWidget_free_folder->currentRow();
     if (row > -1)
@@ -767,9 +768,9 @@ int DialogClone_net::listWidget_folder_free_auslesen() {
     if (rdbt_image_restore->isChecked()) 
        {
        //Verzeichnis mounten
-       QString befehl = "umount /mnt/qt4-fs-client";
+       QString befehl = "umount " + homepath + " /.qt4-fs-client";
        int k = system (befehl.toAscii().data()); 
-       befehl = "mount -t cifs -o username=" + user_net_clone + ",password=" + key_net_clone + ",uid=0,gid=0 //" + rechner_IP_clone + "/" + folder_free_clone_net + " /mnt/qt4-fs-client" ;
+       befehl = "mount -t cifs -o username=" + user_net_clone + ",password=" + key_net_clone + ",uid=0,gid=0 //" + rechner_IP_clone + "/" + folder_free_clone_net + " " + homepath + "/.qt4-fs-client" ;
        k = system (befehl.toAscii().data()); 
     if (k != 0){
    	QMessageBox::about(this, tr("Note", "Hinweis"),

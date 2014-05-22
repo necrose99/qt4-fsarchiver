@@ -1,6 +1,9 @@
 ==================================================================================================
 * qt4-fsarchiver: Grafische Oberfläche für fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
+* qt4-fsarchiver-6.19-4 28.Mai 2014
+    - Spanisch hinzugefügt.
+    - Mount-Verzeichnis für das Netzwerk geändert
 * qt4-fsarchiver-6.19-3 8.Mai.2014
     - Erkennung von Netzwerkrechner korrigiert
 * qt4-fsarchiver-6.19-2 27.4.2014

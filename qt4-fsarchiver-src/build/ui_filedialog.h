@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'filedialog.ui'
 **
-** Created: Sun Mar 2 08:09:16 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -43,7 +42,7 @@ public:
         label->setGeometry(QRect(20, 20, 251, 18));
         cmd_save = new QPushButton(FileDialog);
         cmd_save->setObjectName(QString::fromUtf8("cmd_save"));
-        cmd_save->setGeometry(QRect(300, 390, 181, 28));
+        cmd_save->setGeometry(QRect(300, 390, 231, 28));
         textEdit = new QTextEdit(FileDialog);
         textEdit->setObjectName(QString::fromUtf8("textEdit"));
         textEdit->setGeometry(QRect(20, 40, 511, 321));
@@ -67,8 +66,8 @@ public:
         textEdit->setHtml(QApplication::translate("FileDialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p></body></html>", 0, QApplication::UnicodeUTF8));
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans'; font-size:10pt;\"><br /></p></body></html>", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

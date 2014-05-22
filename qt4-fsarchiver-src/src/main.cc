@@ -72,6 +72,8 @@ int main(int argc, char *argv[])
    language[0] = "de_DE";
    language[1] = "en_EN";
    language[2] = "ru_RU";
+   language[3] = "es_ES";
+     
    QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
    setting.beginGroup("Basiseinstellungen");
    int auswertung = setting.value("Sprache").toInt();

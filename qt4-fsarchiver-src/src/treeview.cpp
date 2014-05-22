@@ -22,6 +22,7 @@ QString folder_treeview;
 TreeviewRead::TreeviewRead(QWidget *parent)
 {
 QStringList filters;
+QString homepath = QDir::homePath();
         setupUi(this); 
 	connect( cmd_save, SIGNAL( clicked() ), this, SLOT(folder_einlesen_beenden())); 
         connect( cmd_cancel, SIGNAL( clicked() ), this, SLOT(close()));
@@ -34,9 +35,8 @@ QStringList filters;
 	filters << "*.fsa";
    	dirModel->setFilter(QDir::AllDirs | QDir::Files | QDir::NoDotAndDotDot);
    	dirModel->setNameFilters(filters); 
-        QModelIndex cwdIndex = dirModel->index("/mnt/qt4-fs-client");
+        QModelIndex cwdIndex = dirModel->index(homepath +"/.qt4-fs-client");
         treeView->setRootIndex(cwdIndex);
-
 }        
 
 void TreeviewRead::folder_einlesen() {

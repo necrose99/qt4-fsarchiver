@@ -30,7 +30,7 @@ DialogSetting::DialogSetting(QWidget *parent)
 	connect( cmd_save, SIGNAL( clicked() ), this, SLOT( setting_save())); 
         connect( cmd_cancel, SIGNAL( clicked() ), this, SLOT(close()));
         //items_language << tr("German", "Deutsch") << tr("English", "Englisch") ;
-        items_language << tr("German", "Deutsch") << tr("English", "Englisch") << tr("Russia", "Russisch") ;
+        items_language << tr("German", "Deutsch") << tr("English", "Englisch") << tr("Russia", "Russisch") << tr("Español", "Spanisch");
         cmb_language->addItems (items_language);
          items_kerne << "1" << "2" << "3" << "4" <<  "5" << "6" << "7" << "8" << "9" << "10" << "11" << "12" << "13" << "14" << "15" << "16" ;
         cmb_Kerne->addItems (items_kerne);

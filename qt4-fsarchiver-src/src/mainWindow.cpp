@@ -204,17 +204,16 @@ MWindow::MWindow()
    items << zip_[5] << zip_[6] << zip_[7] << zip_[8];
    cmb_zip->addItems (items);
    items.clear();
-   QFile file2(homepath + "/.config/qt4-fsarchiver");
-   befehl = "mkdir " + homepath + "/.config/qt4-fsarchiver" ;
-   if (!file2.exists()) 
+   QDir dir1(homepath + "/.config/qt4-fsarchiver");
+   if (!dir1.exists())
       system (befehl.toAscii().data());
-   QDir dir ("/mnt/qt4-fs-client");
+   QDir dir(homepath + "/.qt4-fs-client");
    if (!dir.exists()){
-       befehl = "mkdir /mnt/qt4-fs-client" ;
+       befehl = "mkdir " + homepath + "/.qt4-fs-client" ;
        system (befehl.toAscii().data());
-   	//Rechte setzen to do: Prüfen ob es funktioniert
-   	befehl = "chmod a+rwx /mnt/qt4-fs-client";
-   	system (befehl.toAscii().data());
+   	//Rechte setzen
+       befehl = "chmod a+rwx " + homepath + "/.qt4-fs-client";
+       system (befehl.toAscii().data());
    }
    // Ini-Datei auslesen
    QFile file(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
@@ -1044,13 +1043,13 @@ void MWindow::info() {
          "partitions, directory and MBR\n"
          "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-3, May 8, 2014",
+         "Version 0.6.19-4, May 28, 2014",
 
 	 "Sichern und Wiederherstellen\n"
          "von Partitionen, Verzeichnissen und MBR\n"
          "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-3, 8. Mai 2014"));
+         "Version 0.6.19-4, 28. Mai 2014"));
 }
 
 int MWindow::Root_Auswertung(){
