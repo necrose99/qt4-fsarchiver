@@ -1040,13 +1040,13 @@ void MWindow::info() {
          "partitions, directory and MBR\n"
          "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-7, September 2, 2014",
+         "Version 0.6.19-6, August 4, 2014",
 
 	 "Sichern und Wiederherstellen\n"
          "von Partitionen, Verzeichnissen und MBR\n"
          "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-7, 2. September 2014"));
+         "Version 0.6.19-6, 4. August 2014"));
 }
 
 int MWindow::Root_Auswertung(){

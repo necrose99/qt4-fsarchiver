@@ -2916,28 +2916,9 @@ von Partitionen, Verzeichnissen und MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
 Version 0.6.19-6, 4. August 2014</comment>
-        <translation type="obsolete">Сохранение и восстановление
-разделов, каталогов и MBR
-версия  0.6.19-6, от 4 август 2014
-
-Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum
-Охраняется законом об авторских правах
-Программа распространяется на условиях GPL 2.0 и выше</translation>
-    </message>
-    <message>
-        <source>Backup and restore
-partitions, directory and MBR
-Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
-All rights reserved.
-Version 0.6.19-7, September 2, 2014</source>
-        <comment>Sichern und Wiederherstellen
-von Partitionen, Verzeichnissen und MBR
-Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
-All rights reserved.
-Version 0.6.19-7, 2. September 2014</comment>
         <translation type="unfinished">Сохранение и восстановление
 разделов, каталогов и MBR
-версия  0.6.19-7, от 2 сентябрь 2014
+версия  0.6.19-6, от 4 август 2014
 
 Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum
 Охраняется законом об авторских правах

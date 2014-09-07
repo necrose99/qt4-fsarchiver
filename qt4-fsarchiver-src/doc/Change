@@ -1,8 +1,6 @@
 ==================================================================================================
 * qt4-fsarchiver: Graphical interface for fsarchiver fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
-* qt4-fsarchiver-6.19-7 September 02, 2014
-    - Corrected Repeated backups / restores with NFS
 * qt4-fsarchiver-6.19-6 August 04, 2014
     - Backup and restore of GPT possible again
 * qt4-fsarchiver-6.19-5 June 28, 2014
