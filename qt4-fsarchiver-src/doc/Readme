@@ -10,8 +10,9 @@ François Dupoux has developed the basic program fsarchiver, Hihin Ruslan has im
 qt4-fsarchiver a program with a graphical interface for easy operation the archiving program fsarchiver.
 qt4 fsarchiver program was extended with these points:
 Backup and restore partition table, HD cloning, images of hard drives write and restore.
-The source code can be installed on any system based on Debian.
-For Debian,Ubuntu and Linux Mint deb packages are available.
+
+The source code can be installed on any Debian-based system on Suse and Fedora.
+For Debian, Ubuntu and Linux Mint are deb packages for Suse and Fedora rpm packages are available.
 
 Installing the program from the source files:
 To install qt4-fsarchiver the necessary dependencies for fsarchiver and the qt4 development environment must be installed.

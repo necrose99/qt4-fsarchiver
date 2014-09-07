@@ -1,6 +1,13 @@
 ==================================================================================================
 * qt4-fsarchiver: Grafische Oberfläche für fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
+* qt4-fsarchiver-6.19-7 2.September 2014
+    - Wiederholte Sicherungen/Wiederherstellungen mit NFS korrigiert
+* qt4-fsarchiver-6.19-6 4.August 2014
+    - Sichern und Wiederherstellen des GPT wieder möglich
+* qt4-fsarchiver-6.19-5 28.Juni 2014
+    - Italienisch hinzugefügt.
+    - kleinere Korrekturen
 * qt4-fsarchiver-6.19-4 28.Mai 2014
     - Spanisch hinzugefügt.
     - Mount-Verzeichnis für das Netzwerk geändert

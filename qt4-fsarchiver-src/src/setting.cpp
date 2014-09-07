@@ -30,7 +30,8 @@ DialogSetting::DialogSetting(QWidget *parent)
 	connect( cmd_save, SIGNAL( clicked() ), this, SLOT( setting_save())); 
         connect( cmd_cancel, SIGNAL( clicked() ), this, SLOT(close()));
         //items_language << tr("German", "Deutsch") << tr("English", "Englisch") ;
-        items_language << tr("German", "Deutsch") << tr("English", "Englisch") << tr("Russia", "Russisch") << tr("Español", "Spanisch");
+        items_language << tr("German", "Deutsch") << tr("English", "Englisch") << tr("Russian", "Russisch") << tr("Spanish", "Spanisch") << tr("Italian", "Italienisch") ;
+        items_language << tr("Dutch", "Niederländisch") << tr("Japanese", "Japanisch") ;
         cmb_language->addItems (items_language);
          items_kerne << "1" << "2" << "3" << "4" <<  "5" << "6" << "7" << "8" << "9" << "10" << "11" << "12" << "13" << "14" << "15" << "16" ;
         cmb_Kerne->addItems (items_kerne);
@@ -101,6 +102,14 @@ void DialogSetting:: setting_save()
      	setting.setValue("Kerne",cmb_Kerne->currentText());
      else
         setting.setValue("Kerne","1");
+     if (cmb_language->currentIndex() == 2)
+        QMessageBox::about(this,tr("Note", "Hinweis"),
+         	tr("The Russian translation is not completely.\n", "Die russische Übersetzung ist nicht komplett.\n"));
+     if (cmb_language->currentIndex() >= 5){
+        QMessageBox::about(this,tr("Note", "Hinweis"),
+         	tr("The translation is in progress. Please choose another language\n", "Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache\n"));
+        return;
+     }
      setting.setValue("Sprache",cmb_language->currentIndex()+1);
      int zip = cmb_zip->currentIndex();
      setting.setValue("Kompression",zip);

@@ -625,7 +625,7 @@ this->setCursor(Qt::ArrowCursor);
          	  			  tr("The partition file ", "Die Partitionsdatei ")   + parameter[indizierung] + tr("already exists. The backup is not performed\n", " ist bereits vorhanden. Die Sicherung wird nicht durchgeführt\n"));
                   			  return 0 ; 
                				}
-                                  state = chk_Beschreibung->checkState();
+                                state = chk_Beschreibung->checkState();
 				if (rdBt_saveFsArchiv->isChecked() && (state == Qt::Checked))
             			  {
 			 	  extern int dialog_auswertung;
@@ -975,9 +975,10 @@ QString DialogNet::Zeit_auslesen(){
 }
 
 void DialogNet::listWidget_auslesen() {
-MWindow window;     
+MWindow window; 
+    //window.show_flag = 1;
     QStringList partition_kurz;
-    extern QString add_part[100];    
+    extern QString add_part[100]; 
     listwidgetrow = listWidget->currentRow();
     partition_net_ = add_part[listwidgetrow];
     int pos = partition_net_.indexOf("btrfs");
@@ -1068,10 +1069,7 @@ void DialogNet::thread1Ready()  {
    this->setCursor(Qt::ArrowCursor);
    QString befehl;
    if (endeThread_net == 1) {
-     pushButton_end->setEnabled(true);
-     if (dialog_auswertung ==0){ 
-       // Ausgabe progressBar durch Timer unterbinden
-       stopFlag_ = 1; 
+       pushButton_end->setEnabled(true);
        pushButton_save->setEnabled(true);
        progressBar->setValue(100);
        SekundeRemaining ->setText("0");
@@ -1086,9 +1084,13 @@ void DialogNet::thread1Ready()  {
        cnt_hardlinks = cnt_hardlinks + werte_holen(9);
        QString cnt_hardlinks_ = QString::number(cnt_hardlinks);
        int cnt_special = werte_holen(10);
-       QString cnt_special_ = QString::number(cnt_special);   
-       QMessageBox::about(this, tr("Note", "Hinweis"), tr("The partition has been backed up successfully.\n", "Die Partition wurde erfolgreich gesichert.\n") + cnt_regfile_ + 
-	tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") + cnt_special_ + tr(" specials have been backed.", " spezielle Daten wurden gesichert."));
+       QString cnt_special_ = QString::number(cnt_special); 
+     if (dialog_auswertung ==0){ 
+       // Ausgabe progressBar durch Timer unterbinden
+       stopFlag_ = 1; 
+       QMessageBox::about(this, tr("Note", "Hinweis"), 
+           tr("The partition has been backed up successfully.\n", "Die Partition wurde erfolgreich gesichert.\n") + cnt_regfile_ + 
+        tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") + cnt_special_ + tr(" specials have been backed.", " spezielle Daten wurden gesichert."));  
      }
      else {
        pushButton_save->setEnabled(false);
@@ -1112,19 +1114,20 @@ void DialogNet::thread1Ready()  {
 	    QMessageBox::about(this, tr("Note", "Hinweis"),
           tr("The partition type is not supported. Maybe the partition is encrypted?\n", "Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?\n" ));
           }
-       int err_regfile = werte_holen(1);
+       int err_regfile = werte_holen(12);
        QString err_regfile_ = QString::number(err_regfile);
-       int err_dir = werte_holen(2);
+       int err_dir = werte_holen(13);
        QString err_dir_ = QString::number(err_dir); 
-       int err_hardlinks = werte_holen(3);
+       int err_hardlinks = werte_holen(14);
        err_hardlinks = err_hardlinks + werte_holen(5);
        QString err_hardlinks_ = QString::number(err_hardlinks); 
+       int err_special = werte_holen(11);
+       QString err_special_ = QString::number(err_special);
        if (part_testen != 108 && flag_end_net == 0){
-       	   QMessageBox::about(this, tr("Note", "Hinweis"),
-          err_regfile_ + tr(" files", " Dateien, ") 
-	+ err_dir_ + tr(" directories and ", " Verzeichnisse und ") + err_hardlinks_ 
-	+ tr(" links were not saved properly. The backup of the partition was only partially successful\n", 
-	" Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich\n" ));
+       QMessageBox::about(this, tr("Note", "Hinweis"), 
+       	  tr("The backup of the partition was only partially successful.\n", "Die Sicherung der Partition war nur teilweise erfolgreich\n") + cnt_regfile_ + tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") + cnt_special_ + tr(" specials have been backed\n.", " spezielle Daten wurden gesichert\n.")
+         + err_regfile_ + tr(" files, ", " Dateien, ")   + err_dir_ + tr(" directories, ", " Verzeichnisse, ") 
+         + err_hardlinks_ + tr(" links and ", " Links und ") + err_special_ + tr(" specials were not properly backed\n."," spezielle Daten wurden nicht korrekt gesichert.\n"));
 	  }
         }
        
@@ -1136,7 +1139,8 @@ void DialogNet::thread1Ready()  {
   if (net_art == 0) //Samba
        befehl = "umount -f " + homepath + "/.qt4-fs-client";
   if (net_art == 2) //NFS
-       befehl = "/etc/init.d/nfs-kernel-server restart";
+      // befehl = "/etc/init.d/nfs-kernel-server restart";
+         befehl = "umount -a -t nfs";
   system (befehl.toAscii().data());
   thread_run_net = 0;
   thread1.exit();
@@ -1149,18 +1153,13 @@ void DialogNet::thread2Ready()  {
    this->setCursor(Qt::ArrowCursor);
    extern int dialog_auswertung;
    int meldung = werte_holen(4);
+   int i = 0;
    if (meldung == 105) {
       QMessageBox::about(this, tr("Note", "Hinweis"), tr("cannot restore an archive to a partition which is mounted, unmount it first \n", "Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!\n"));
       endeThread_net == 0;
        }
    if (endeThread_net == 1) { 
      pushButton_end->setEnabled(true);
-     if (dialog_auswertung ==0){
-       // Ausgabe progressBar durch Timer unterbinden
-       stopFlag_ = 1; 
-       pushButton_restore->setEnabled(true);
-       progressBar->setValue(100);
-       SekundeRemaining ->setText("0");
        int cnt_regfile = werte_holen(6);
        QString cnt_regfile_ = QString::number(cnt_regfile);
        int cnt_dir = werte_holen(7);
@@ -1171,8 +1170,14 @@ void DialogNet::thread2Ready()  {
        int cnt_special = werte_holen(10);
        QString cnt_special_;
        cnt_special_ = QString::number(cnt_special);
+     if (dialog_auswertung ==0){
+       // Ausgabe progressBar durch Timer unterbinden
+       stopFlag_ = 1; 
+       pushButton_restore->setEnabled(true);
+       progressBar->setValue(100);
+       SekundeRemaining ->setText("0");
        //PBR herstellen
-      int i = 2;
+       i = 2;
 	if (befehl_pbr_net != "") 
     	i = system (befehl_pbr_net.toAscii().data());
 	if (i!=0) { 
@@ -1191,18 +1196,28 @@ void DialogNet::thread2Ready()  {
      if (meldung == 100) {
           // Anzahl nicht korrekt zurückgeschriebene Dateien ausgeben
        pushButton_restore->setEnabled(false);
-       int err_regfile = werte_holen(1);
+       int err_regfile = werte_holen(12);
        QString err_regfile_ = QString::number(err_regfile);
-       int err_dir = werte_holen(2);
+       int err_dir = werte_holen(13);
        QString err_dir_ = QString::number(err_dir); 
-       int err_hardlinks = werte_holen(3);
+       int err_hardlinks = werte_holen(14);
        err_hardlinks = err_hardlinks + werte_holen(5);
        QString err_hardlinks_ = QString::number(err_hardlinks); 
-       QMessageBox::about(this, tr("Note", "Hinweis"),
-         err_regfile_ + tr(" files", " Dateien, ") + err_dir_ +
-         tr(" directories and ", " Verzeichnisse und ") + err_hardlinks_ + 
-         tr(" links were not recovered correctly. The recovery of the partition was only partly successful.\n", " Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.\n" ));
-        }
+       int err_special = werte_holen(11);
+       QString err_special_ = QString::number(err_special);
+       if (i!=0) {  
+       QMessageBox::about(this, tr("Note", "Hinweis"), 
+       	  tr("The restore of the partition was only partially successful.\n", "Die Wiederherstellung der Partition war nur teilweise erfolgreich\n") + cnt_regfile_ + tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") + cnt_special_ + tr(" specials have been restored\n.", " spezielle Daten wurden wiederhergestellt\n.")
+         + err_regfile_ + tr(" files, ", " Dateien, ")   + err_dir_ + tr(" directories and ", " Verzeichnisse und ") 
+         + err_hardlinks_ + tr(" links and ", " Links und ") + err_special_ 
+         + tr(" specials were not properly restored\n."," spezielle Daten wurden nicht korrekt wiederhergestellt.\n"));
+               }
+      if (i==0) { 
+        QMessageBox::about(this, tr("Note", "Hinweis"), 
+       	  tr("The restore of the partition was only partially successful.\n", "Die Wiederherstellung der Partition war nur teilweise erfolgreich\n") + cnt_regfile_ + tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") 
+         + cnt_hardlinks_ + tr(" links and ", " Links und ") + cnt_special_ + tr(" specials and the Partition Boot Record have been restored\n.", " spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt\n.") + err_regfile_ + tr(" files, ", " Dateien, ")   + err_dir_ + tr(" directories and ", " Verzeichnisse und ") + err_hardlinks_ + tr(" links and ", " Links und ") + err_special_ + tr(" specials were not properly restored\n."," spezielle Daten wurden nicht korrekt wiederhergestellt.\n"));
+                }
+             }
      if (meldung == 102) { 
         QMessageBox::about(this, tr("Note", "Hinweis"), 
         tr("You tried to restore a partition. The selected file can only restore directories. Please restart the program.\n", "Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.\n"));
@@ -1220,7 +1235,8 @@ void DialogNet::thread2Ready()  {
     if (net_art == 0) //Samba
        befehl = "umount -f " + homepath + "/.qt4-fs-client";
     if (net_art == 2) //NFS
-       befehl = "/etc/init.d/nfs-kernel-server restart";
+      //befehl = "/etc/init.d/nfs-kernel-server restart";
+       befehl = "umount -a -t nfs";
     system (befehl.toAscii().data());
     thread_run_net = 0;
     thread2.exit();

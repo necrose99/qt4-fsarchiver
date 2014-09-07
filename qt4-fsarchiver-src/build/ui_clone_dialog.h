@@ -123,15 +123,14 @@ public:
         label_8->setGeometry(QRect(397, 5, 71, 34));
         SekundeElapsed = new QLineEdit(frame_2);
         SekundeElapsed->setObjectName(QString::fromUtf8("SekundeElapsed"));
-        SekundeElapsed->setGeometry(QRect(350, 10, 41, 27));
+        SekundeElapsed->setGeometry(QRect(360, 10, 30, 27));
         SekundeElapsed->setAlignment(Qt::AlignCenter);
         label_7 = new QLabel(frame_2);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(280, 5, 61, 34));
-        label_7->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        label_7->setGeometry(QRect(295, 10, 61, 30));
         MinuteElapsed = new QLineEdit(frame_2);
         MinuteElapsed->setObjectName(QString::fromUtf8("MinuteElapsed"));
-        MinuteElapsed->setGeometry(QRect(240, 10, 41, 27));
+        MinuteElapsed->setGeometry(QRect(260, 10, 30, 27));
         MinuteElapsed->setAlignment(Qt::AlignCenter);
         label_5 = new QLabel(frame_2);
         label_5->setObjectName(QString::fromUtf8("label_5"));
@@ -141,15 +140,14 @@ public:
         label_10->setGeometry(QRect(397, 35, 71, 34));
         SekundeRemaining = new QLineEdit(frame_2);
         SekundeRemaining->setObjectName(QString::fromUtf8("SekundeRemaining"));
-        SekundeRemaining->setGeometry(QRect(350, 40, 41, 27));
+        SekundeRemaining->setGeometry(QRect(360, 40, 30, 27));
         SekundeRemaining->setAlignment(Qt::AlignCenter);
         label_9 = new QLabel(frame_2);
         label_9->setObjectName(QString::fromUtf8("label_9"));
-        label_9->setGeometry(QRect(280, 35, 61, 34));
-        label_9->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        label_9->setGeometry(QRect(295, 37, 61, 30));
         MinuteRemaining = new QLineEdit(frame_2);
         MinuteRemaining->setObjectName(QString::fromUtf8("MinuteRemaining"));
-        MinuteRemaining->setGeometry(QRect(240, 40, 41, 27));
+        MinuteRemaining->setGeometry(QRect(260, 40, 30, 27));
         MinuteRemaining->setAlignment(Qt::AlignCenter);
         label_6 = new QLabel(frame_2);
         label_6->setObjectName(QString::fromUtf8("label_6"));
@@ -176,7 +174,7 @@ public:
         pushButton_break->setFlat(false);
         savedBytes = new QLineEdit(frame_2);
         savedBytes->setObjectName(QString::fromUtf8("savedBytes"));
-        savedBytes->setGeometry(QRect(340, 85, 71, 27));
+        savedBytes->setGeometry(QRect(355, 85, 61, 27));
         savedBytes->setAlignment(Qt::AlignCenter);
         lbl_save = new QLabel(frame_2);
         lbl_save->setObjectName(QString::fromUtf8("lbl_save"));
@@ -187,19 +185,17 @@ public:
         lbl_hd_size->setGeometry(QRect(420, 90, 31, 17));
         label_11 = new QLabel(frame_2);
         label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setGeometry(QRect(170, 15, 61, 20));
-        label_11->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        label_11->setGeometry(QRect(183, 15, 75, 20));
         HourElapsed = new QLineEdit(frame_2);
         HourElapsed->setObjectName(QString::fromUtf8("HourElapsed"));
-        HourElapsed->setGeometry(QRect(150, 10, 41, 27));
+        HourElapsed->setGeometry(QRect(150, 10, 30, 27));
         HourElapsed->setAlignment(Qt::AlignCenter);
         label_12 = new QLabel(frame_2);
         label_12->setObjectName(QString::fromUtf8("label_12"));
-        label_12->setGeometry(QRect(170, 45, 61, 20));
-        label_12->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        label_12->setGeometry(QRect(183, 45, 75, 20));
         HourRemaining = new QLineEdit(frame_2);
         HourRemaining->setObjectName(QString::fromUtf8("HourRemaining"));
-        HourRemaining->setGeometry(QRect(150, 40, 41, 27));
+        HourRemaining->setGeometry(QRect(150, 40, 30, 27));
         HourRemaining->setAlignment(Qt::AlignCenter);
         label = new QLabel(frame_2);
         label->setObjectName(QString::fromUtf8("label"));
@@ -208,7 +204,6 @@ public:
         bytes_sec = new QLineEdit(frame_2);
         bytes_sec->setObjectName(QString::fromUtf8("bytes_sec"));
         bytes_sec->setGeometry(QRect(150, 85, 51, 27));
-        bytes_sec->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_2 = new QLabel(frame_2);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(205, 90, 51, 17));
@@ -221,15 +216,15 @@ public:
         label_folder->setLocale(QLocale(QLocale::English, QLocale::UnitedStates));
         frame = new QFrame(clone_dialog);
         frame->setObjectName(QString::fromUtf8("frame"));
-        frame->setGeometry(QRect(20, 20, 471, 91));
+        frame->setGeometry(QRect(20, 10, 471, 105));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
         rdbt_image_restore = new QRadioButton(frame);
         rdbt_image_restore->setObjectName(QString::fromUtf8("rdbt_image_restore"));
-        rdbt_image_restore->setGeometry(QRect(170, 20, 301, 23));
+        rdbt_image_restore->setGeometry(QRect(170, 30, 301, 23));
         rdbt_clone = new QRadioButton(frame);
         rdbt_clone->setObjectName(QString::fromUtf8("rdbt_clone"));
-        rdbt_clone->setGeometry(QRect(10, 20, 161, 23));
+        rdbt_clone->setGeometry(QRect(10, 30, 161, 23));
         groupBox = new QGroupBox(frame);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(20, 0, 221, 31));
@@ -238,10 +233,10 @@ public:
         groupBox->setCheckable(false);
         rdbt_image_save = new QRadioButton(frame);
         rdbt_image_save->setObjectName(QString::fromUtf8("rdbt_image_save"));
-        rdbt_image_save->setGeometry(QRect(10, 50, 261, 23));
+        rdbt_image_save->setGeometry(QRect(10, 60, 311, 40));
         chk_zip = new QCheckBox(frame);
         chk_zip->setObjectName(QString::fromUtf8("chk_zip"));
-        chk_zip->setGeometry(QRect(270, 50, 171, 22));
+        chk_zip->setGeometry(QRect(330, 60, 131, 40));
         pushButton_folder->raise();
         bt_end->raise();
         bt_save->raise();
@@ -263,7 +258,7 @@ public:
     } // setupUi
 
     void retranslateUi(QWidget *clone_dialog)
-    {
+   {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width
@@ -295,7 +290,7 @@ public:
         lbl_hd_size->setText(QApplication::translate("clone_dialog", "MB", 0, QApplication::UnicodeUTF8));
         label_11->setText(QApplication::translate("clone_dialog", "hours", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("clone_dialog", "hours", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("clone_dialog", "Transmission speed", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("clone_dialog", "Transmission speed:", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("clone_dialog", "MB/sec", 0, QApplication::UnicodeUTF8));
         pushButton_folder->setText(QApplication::translate("clone_dialog", "f", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP

@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'clone_dialog_net.ui'
 **
-** Created: Sun Mar 2 08:09:16 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -240,7 +239,7 @@ public:
         label_6->setText(QApplication::translate("clone_dialog_net", "remaining time:", 0, QApplication::UnicodeUTF8));
         pushButton_break->setText(QString());
         pushButton_break->setShortcut(QString());
-        label_4->setText(QApplication::translate("clone_dialog_net", "<html><head/><body><p>already saved:</p></body></html>", 0, QApplication::UnicodeUTF8));
+        label_4->setText(QApplication::translate("clone_dialog_net", "already saved:", 0, QApplication::UnicodeUTF8));
         lbl_hd_size->setText(QApplication::translate("clone_dialog_net", "MB", 0, QApplication::UnicodeUTF8));
         label_11->setText(QApplication::translate("clone_dialog_net", "hours", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("clone_dialog_net", "hours", 0, QApplication::UnicodeUTF8));

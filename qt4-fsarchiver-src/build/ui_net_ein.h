@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'net_ein.ui'
 **
-** Created: Sun Mar 2 08:09:16 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/

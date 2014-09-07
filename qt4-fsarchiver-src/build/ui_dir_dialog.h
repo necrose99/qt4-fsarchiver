@@ -196,7 +196,7 @@ public:
     } // setupUi
 
     void retranslateUi(QWidget *dir_dialog)
-   {
+    {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width
@@ -208,7 +208,7 @@ public:
         mh = dir_dialog->height();
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
-        dir_dialog->setGeometry(QRect(cw, ch, 714, 654)); 
+        dir_dialog->setGeometry(QRect(cw, ch, 714, 654));  
         dir_dialog->setWindowTitle(QApplication::translate("dir_dialog", "Save/restore directory", 0, QApplication::UnicodeUTF8));
         bt_end->setText(QApplication::translate("dir_dialog", "Exit", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP

@@ -337,14 +337,14 @@ public:
         frame_2->setFrameShadow(QFrame::Plain);
         cmb_zip = new QComboBox(frame_2);
         cmb_zip->setObjectName(QString::fromUtf8("cmb_zip"));
-        cmb_zip->setGeometry(QRect(180, 185, 161, 27));
+        cmb_zip->setGeometry(QRect(185, 185, 161, 27));
         label_11 = new QLabel(frame_2);
         label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setGeometry(QRect(10, 137, 301, 41));
+        label_11->setGeometry(QRect(10, 137, 290, 41));
         label_11->setLocale(QLocale(QLocale::English, QLocale::UnitedStates));
         cmb_kerne = new QComboBox(frame_2);
         cmb_kerne->setObjectName(QString::fromUtf8("cmb_kerne"));
-        cmb_kerne->setGeometry(QRect(310, 145, 31, 27));
+        cmb_kerne->setGeometry(QRect(300, 145, 45, 27));
         label = new QLabel(frame_2);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(10, 175, 161, 41));
@@ -353,7 +353,7 @@ public:
         chk_Beschreibung->setGeometry(QRect(0, 0, 331, 23));
         lineKey = new QLineEdit(frame_2);
         lineKey->setObjectName(QString::fromUtf8("lineKey"));
-        lineKey->setGeometry(QRect(220, 58, 121, 26));
+        lineKey->setGeometry(QRect(225, 58, 121, 26));
         chk_overwrite = new QCheckBox(frame_2);
         chk_overwrite->setObjectName(QString::fromUtf8("chk_overwrite"));
         chk_overwrite->setGeometry(QRect(0, 28, 341, 23));
@@ -457,7 +457,7 @@ public:
     } // setupUi
 
     void retranslateUi(QMainWindow *MainWindow)
-   {
+     {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width
