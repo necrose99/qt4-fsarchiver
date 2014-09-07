@@ -145,9 +145,10 @@ RESOURCES += src/icon.qrc
 
 TRANSLATIONS += translations/qt4-fsarchiver_de.ts \
                 translations/qt4-fsarchiver_es.ts \
-		translations/qt4-fsarchiver_ru.ts #\
-	#	translations/qt4-fsarchiver_jp.ts \
-	#	translations/qt4-fsarchiver_it.ts
+		translations/qt4-fsarchiver_ru.ts \
+                translations/qt4-fsarchiver_nl.ts \
+		translations/qt4-fsarchiver_it.ts \
+		translations/qt4-fsarchiver_jp.ts
 QMAKE_EXTRA_COMPILERS += lrelease
 lrelease.input  = TRANSLATIONS
 lrelease.output = ${QMAKE_FILE_BASE}.qm
@@ -155,9 +156,10 @@ lrelease.commands = $$[QT_INSTALL_BINS]/lrelease ${QMAKE_FILE_IN} -qm translatio
 lrelease.CONFIG += no_link target_predeps
 translations.files = translations/qt4-fsarchiver_de.qm \
                      translations/qt4-fsarchiver_es.qm \
-		     translations/qt4-fsarchiver_ru.qm #\
-#		     translations/qt4-fsarchiver_jp.qm \
-#		     translations/qt4-fsarchiver_it.qm
+		     translations/qt4-fsarchiver_ru.qm \
+                     translations/qt4-fsarchiver_nl.qm \
+		     translations/qt4-fsarchiver_it.qm \
+		     translations/qt4-fsarchiver_jp.qm
 translations.path = /usr/share/qt4/translations
  
  INSTALLS = target icon autostart translations doc smbfind

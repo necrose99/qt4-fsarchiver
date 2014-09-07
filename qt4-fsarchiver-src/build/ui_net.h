@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'net.ui'
 **
-** Created: Sun Mar 2 08:09:16 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -358,7 +357,19 @@ public:
     } // setupUi
 
     void retranslateUi(QDialog *Dialog_Net)
-    {
+     {
+	int w,h, mw, mh, cw, ch;
+        QWidget *d = QApplication::desktop();
+        w=d->width();                   // returns screen width
+        h=d->height();                  // returns screen height
+        //qDebug() << "Bildschrimbreite";
+        //qDebug() << h;
+        //Center position calculation
+        mw = Dialog_Net->width();
+        mh = Dialog_Net->height();
+        cw = (w/2) - (mw/2);
+        ch = (h/2) - (mh/2); 
+        Dialog_Net->setGeometry(QRect(cw, ch, 777, 672)); 
         Dialog_Net->setWindowTitle(QApplication::translate("Dialog_Net", "Backup/restore partition over network", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("Dialog_Net", "Network computer  name:", 0, QApplication::UnicodeUTF8));
         label_folder->setText(QApplication::translate("Dialog_Net", "Restore file name:", 0, QApplication::UnicodeUTF8));
@@ -419,7 +430,8 @@ public:
         chk_pbr->setToolTip(QApplication::translate("Dialog_Net", "PBR is first block of any bootable partition.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
         chk_pbr->setText(QApplication::translate("Dialog_Net", "Save PBR", 0, QApplication::UnicodeUTF8));
-        label_13->setText(QApplication::translate("Dialog_Net", "<html><head/><body><p>Protocol for network transmission:</p></body></html>", 0, QApplication::UnicodeUTF8));
+        label_13->setText(QApplication::translate("Dialog_Net", "Protocoll for network\n"
+"transmission:", 0, QApplication::UnicodeUTF8));
         bt_toParent->setText(QString());
         bt_treeWiget->setText(QString());
     } // retranslateUi

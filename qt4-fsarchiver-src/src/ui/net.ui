@@ -635,7 +635,8 @@ backup key</string>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>Protocoll for network
+transmission:</string>
    </property>
    <property name="wordWrap">
     <bool>true</bool>

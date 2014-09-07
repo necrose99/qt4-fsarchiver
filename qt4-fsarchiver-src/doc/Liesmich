@@ -10,8 +10,8 @@ qt4-fsarchiver ist ein Programm mit einer grafischen Oberfläche zur einfachen B
 Qt4-fsarchiver wurde mit diesen Programmpunkten erweiter:
 Sichern und Wiederherstellen von Partitionstabellen, Klonen von Festplatten, Abbilder von Festplatten erstellen und zurückschreiben.
 
-Der Quellcode kann auf allen auf Debian bsasierenden System installiert werden.
-Für Debian, Ubuntu und Linux-Mint sind deb-Pakete vorhanden.
+Der Quellcode kann auf allen auf Debian basierenden System, auf Suse und Fedora installiert werden.
+Für Debian, Ubuntu und Linux-Mint sind deb-Pakete, für Suse und Fedora sind rpm-Pakete vorhanden.
 
 Installation des Programms aus den Quelldateien:
 Für die Installation von qt4-fsarchiver müssen die für fsarchiver notwendigen Abhängigkeiten und die qt4-Entwicklungsumgebung installiert werden.
@@ -19,6 +19,7 @@ Dies erreichen Sie, bei auf Debian aufbauenden Distributionen, mit folgendem Bef
 sudo apt-get install libzip-dev libbz2-dev liblzma-dev liblzo2-2 liblzo2-dev libgcrypt11-dev e2fslibs-dev libblkid-dev libattr1-dev build-essential libqt4-core libqt4-dev btrfs-tools gdisk sshfs sshpass nmap samba nfs-kernel-server nfs-common smbclient
 
 In Suse werden die Abhängigkeiten mit Root-Rechten (su -l) mit diesem Befehl installiert: zypper in libqt4-devel make libzip-devel libbz2-devel xz-devel lzo-devel libgcrypt-devel e2fsprogs-devel libblkid-devel libattr-devel btrfsprogs gdisk sshfs nmap samba nfs-kernel-server
+
 Wenn Sie ssh (secureshell) für den Zugriff auf weitere Rechner im Netzwerk nutzen wollen, müssen Sie noch sshpass individuell installieren.Verwenden Sie die KDE-Oberfläche müssen Sie nach der Installation in der Datei /usr/share/applications/qt4-fsarchiver.desktop die Eigenschaften von sudo qt4-fsarchiver in kdesu qt4-fsarchiver ändern. 
 
 In Fedora werden die Abhängigkeiten mit Root-Rechten (su -l) mit diesem Befehl installiert: yum install  gcc gcc-c++ zlib-devel bzip2-devel xz-devel lzo-devel libgcrypt-devel e2fsprogs-devel libblkid-devel libattr-devel qt4-devel gdisk sshfs sshpass nmap samba samba-client nfs-utils

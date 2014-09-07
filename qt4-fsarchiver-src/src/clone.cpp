@@ -87,6 +87,7 @@ QString disk_clone[50];
 QStringList disk_kurz;
 int  i = 0, j=0 ,k=0, m=0;
 int pos;
+QString dummy;
         QString filename = homepath + "/.config/qt4-fsarchiver/disk.txt";
 	QFile file(filename);
         disk_part_name_list = disk_part_name.split(" ") ;
@@ -99,7 +100,9 @@ int pos;
                 if (disk_clone[m] != ""){
                 disk_kurz = disk_clone[m].split(" ") ;
                 part_clone[i][0] = disk_kurz[1];
-                part_clone[i][1] = disk_kurz[2];
+                dummy = disk_kurz[4];
+                dummy = dummy.left(dummy.size() -9);
+                part_clone[i][1] = dummy;
 		i = i + 1;
                 }
 		}
@@ -447,7 +450,8 @@ QString mb_sec;
 		size_clone=size_clone_dummy; //Verhindert, dass die bereits angezeigten gespeicherten Daten nicht reduziert werden
         size_clone_dummy = size_clone; 
         lbl_hd_size ->setText("MB");
-	prozent = 100 * size_clone/(partition_exist_size_int);
+        prozent = size_clone/(partition_exist_size_int)/10;
+	//prozent = 100 * size_clone/(partition_exist_size_int);
         if (prozent > 100)
             prozent = 100;
         sekunde_summe_clone_1 = sekunde_summe_clone;
@@ -465,7 +469,7 @@ QString mb_sec;
         if (size_clone > 0) 
         	savedBytes->setText(size);
         // verhindert dass mehr gesicherte Bytes angezeigt werden als Festplattengröße
-        if (size_clone/100 > partition_exist_size_int)
+        if (size_clone/1000 > partition_exist_size_int)
             savedBytes->setText(QString::number(partition_exist_size_int));
         this->repaint();
         elapsedTime();

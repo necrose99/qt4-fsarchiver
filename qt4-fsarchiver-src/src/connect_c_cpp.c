@@ -52,9 +52,12 @@ float prozent;
 float Anzahl_File_zu_sichern;
 float Anzahl_File_gesichert;
 float h_links;
+float h_links_;
 float EndeThreadMeldung;
 float numberfile;
+float numberfile_;
 float numberfolder;
+float numberfolder_;
 float s_links;
 float s_links_;
 float s_special;
@@ -117,9 +120,7 @@ void werte_uebergeben(float prozess, int auswahl){
      	    EndeThreadMeldung = prozess;
          }
      if (auswahl ==5)
-         if (prozess != 0){ 
-     	    h_links = prozess;
-         }
+            h_links_ = prozess;
      if (auswahl ==6){
          if (prozess != 0)
      	    numberfile = prozess;
@@ -134,16 +135,20 @@ void werte_uebergeben(float prozess, int auswahl){
          }
      if (auswahl ==9)
          if (prozess != 0){ 
-     	    s_links_ = prozess;
+     	    h_links = prozess;
          }
      if (auswahl ==10)
          if (prozess != 0){ 
      	    s_special = prozess;
          }
      if (auswahl ==11)
-         if (prozess != 0){ 
-     	    s_special_ = prozess;
-         } 
+      	    s_special_ = prozess;
+     if (auswahl ==12)
+    	    numberfile_ = prozess;
+     if (auswahl ==13)
+     	    numberfolder_ = prozess;
+     if (auswahl ==14)
+     	    s_links_ = prozess;
    }
 
 float werte_holen(int auswahl){
@@ -156,7 +161,7 @@ float werte_holen(int auswahl){
       if (auswahl ==4)
      	return EndeThreadMeldung;
       if (auswahl ==5)
-     	return h_links;
+     	return h_links_;
       if (auswahl ==6)
      	return numberfile;
       if (auswahl ==7)
@@ -164,11 +169,17 @@ float werte_holen(int auswahl){
       if (auswahl ==8)
      	return s_links;
       if (auswahl ==9)
-     	return s_links_;
+     	return h_links;
       if (auswahl ==10)
      	return s_special;
       if (auswahl ==11)
      	return s_special_;
+      if (auswahl ==12)
+     	return numberfile_;
+      if (auswahl ==13)
+     	return numberfolder_;
+      if (auswahl ==14)
+     	return s_links_;
       return -1;
     }
  

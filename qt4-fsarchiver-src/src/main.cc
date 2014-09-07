@@ -46,6 +46,7 @@ QString folder_file_;
 int dialog_auswertung;
 int anzahl_disk;
 int btrfs_flag;
+int show_flag = 0;
 QString parameter[15];
 QString add_part[100];
 
@@ -73,6 +74,9 @@ int main(int argc, char *argv[])
    language[1] = "en_EN";
    language[2] = "ru_RU";
    language[3] = "es_ES";
+   language[4] = "it_IT";
+   language[5] = "nl_NL";
+   language[6] = "jp_JP";
      
    QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
    setting.beginGroup("Basiseinstellungen");

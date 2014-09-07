@@ -35,6 +35,7 @@ class MWindow : public QMainWindow,
 public:
    MWindow();
    ~MWindow() {}
+   //int show_flag = 0; Zugriff auf eine Variable von beispielsweise net.cpp
    int Root_Auswertung();
    int is_running();
    QString Zeit_auslesen();

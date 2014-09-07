@@ -81,18 +81,6 @@ public:
 
     void retranslateUi(QWidget *mbr_dialog)
     {
-        int w,h, mw, mh, cw, ch;
-        QWidget *d = QApplication::desktop();
-        w=d->width();                   // returns screen width
-        h=d->height();                  // returns screen height
-        //qDebug() << "Bildschrimbreite";
-        //qDebug() << h;
-        //Center position calculation
-        mw = mbr_dialog->width();
-        mh = mbr_dialog->height();
-        cw = (w/2) - (mw/2);
-        ch = (h/2) - (mh/2); 
-        mbr_dialog->setGeometry(QRect(cw, ch, 469, 505));
         mbr_dialog->setWindowTitle(QApplication::translate("mbr_dialog", "Save / Restore MBR/GPT", 0, QApplication::UnicodeUTF8));
         cmb_mbr->clear();
         cmb_mbr->insertItems(0, QStringList()

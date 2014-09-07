@@ -1,0 +1,2520 @@
+<!DOCTYPE QPH>
+<QPH language="pt_BR" sourcelanguage="en_GB">
+<phrase>
+    <source>Clone Harddrive</source>
+    <target>Clonar disco rígido</target>
+    <definition>Festplatte klonen</definition>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>You must select a hard drive.</source>
+    <target>Você deve selecionar um disco.</target>
+    <definition>Sie müssen eine Festplatte auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source>The selected hard drive is too small.</source>
+    <target></target>
+    <definition>Die gewählte Festplatte ist zu klein.
+</definition>
+</phrase>
+<phrase>
+    <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
+    <target></target>
+    <definition>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
+</definition>
+</phrase>
+<phrase>
+    <source> Do you want really clone the hard drive? All dates on  </source>
+    <target></target>
+    <definition> Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte </definition>
+</phrase>
+<phrase>
+    <source> are deleted!</source>
+    <target></target>
+    <definition> werden gelöscht!</definition>
+</phrase>
+<phrase>
+    <source>You must select a folder.</source>
+    <target></target>
+    <definition>Sie müssen ein Verzeichnis auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source> Do you want really built a image from the hard drive? </source>
+    <target></target>
+    <definition> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </definition>
+</phrase>
+<phrase>
+    <source>You must select a gz.fsa file or an img.fsa file.</source>
+    <target></target>
+    <definition>Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source> Do you want really restore the image of the hard drive? </source>
+    <target></target>
+    <definition> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </definition>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target></target>
+    <definition>Ja</definition>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target></target>
+    <definition>Nein</definition>
+</phrase>
+<phrase>
+    <source>Save Harddrive Image</source>
+    <target></target>
+    <definition>Festplatten Abbild erstellen</definition>
+</phrase>
+<phrase>
+    <source>Restore Harddrive Image</source>
+    <target></target>
+    <definition>Festplatten Abbild zurückschreiben</definition>
+</phrase>
+<phrase>
+    <source>You have selected a folder. You must select a gz.fsa file.
+</source>
+    <target></target>
+    <definition>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>The clone of the hard drive was successfully.</source>
+    <target></target>
+    <definition>Das Klonen der Festplatte war erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>The backup of the image was successfully.</source>
+    <target></target>
+    <definition>Die Sichern des Abbildes war erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>The clone of the hard drive was not successfully.</source>
+    <target></target>
+    <definition>Das Klonen der Festplatte war nicht erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>The backup of the image was not successfully.</source>
+    <target></target>
+    <definition>Die Sichern des Abbildes war nicht erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>The restore from the image was successfully.</source>
+    <target></target>
+    <definition>Die Wiederherstellung des Abbildes war erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>The restore from the image was not successfully.</source>
+    <target></target>
+    <definition>Die Wiederherstellung des Abbildes war nicht erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>Do you want really break clone, save or restore an image from the partition?</source>
+    <target></target>
+    <definition>Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</definition>
+</phrase>
+<phrase>
+    <source>Save Harddrive Image</source>
+    <target></target>
+    <definition>Festplatten Abbild erstellen</definition>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>You must select a hard drive.</source>
+    <target>Você deve selecionar um disco.</target>
+    <definition>Sie müssen eine Festplatte auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source>You must select a folder.</source>
+    <target></target>
+    <definition>Sie müssen ein Verzeichnis auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source>Please, select the filename of the backup.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie den Dateinamen der Sicherung aus.
+</definition>
+</phrase>
+<phrase>
+    <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
+    <target></target>
+    <definition>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
+</definition>
+</phrase>
+<phrase>
+    <source> Do you want really built a image from the hard drive? </source>
+    <target></target>
+    <definition> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </definition>
+</phrase>
+<phrase>
+    <source>You must select a fsa.gz file.</source>
+    <target></target>
+    <definition>Sie müssen eine fsa.gz Datei auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source> Do you want really restore the image of the hard drive? </source>
+    <target></target>
+    <definition> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </definition>
+</phrase>
+<phrase>
+    <source>Can not find a shared directory. The program is terminated.
+</source>
+    <target></target>
+    <definition>Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.
+</definition>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target></target>
+    <definition>Ja</definition>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target></target>
+    <definition>Nein</definition>
+</phrase>
+<phrase>
+    <source>Restore Harddrive Image</source>
+    <target></target>
+    <definition>Festplatten Abbild zurückschreiben</definition>
+</phrase>
+<phrase>
+    <source>You have selected a folder. You must select a fsa.gz file.
+</source>
+    <target></target>
+    <definition>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz Datei auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>The backup of the image was successfully.</source>
+    <target></target>
+    <definition>Die Sichern des Abbildes war erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>The backup of the image was not successfully.</source>
+    <target></target>
+    <definition>Die Sichern des Abbildes war nicht erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>The restore from the image was successfully.</source>
+    <target></target>
+    <definition>Die Wiederherstellung des Abbildes war erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>The restore from the image was not successfully.</source>
+    <target></target>
+    <definition>Die Wiederherstellung des Abbildes war nicht erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>Do you want really break save or restore an image from the partition?</source>
+    <target></target>
+    <definition>Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</definition>
+</phrase>
+<phrase>
+    <source>The network computer </source>
+    <target></target>
+    <definition>Der Netzwerkrechner </definition>
+</phrase>
+<phrase>
+    <source> could not be integrated. The program is aborted
+</source>
+    <target></target>
+    <definition> konnte nicht eingebunden werden. Das Programm wird abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>gzip fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>gzip standard</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>qzip best</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>bzip2 fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>bzip2 good</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma medium</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma best</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Encrypt
+backup. key:</source>
+    <target></target>
+    <definition>Sicherung
+verschlüsseln. Schlüssel:</definition>
+</phrase>
+<phrase>
+    <source>Directory save</source>
+    <target></target>
+    <definition>Verzeichnis sichern</definition>
+</phrase>
+<phrase>
+    <source>to saved Directory</source>
+    <target></target>
+    <definition>zu sicherndes Verzeichnis</definition>
+</phrase>
+<phrase>
+    <source>Location (path) of the backup</source>
+    <target></target>
+    <definition>Ort (Pfad) der Sicherung</definition>
+</phrase>
+<phrase>
+    <source>Decrypt
+backup. key:</source>
+    <target></target>
+    <definition>Sicherung
+entschlüsseln. Schlüssel:</definition>
+</phrase>
+<phrase>
+    <source>Directory restore</source>
+    <target></target>
+    <definition>Verzeichnis zurückschreiben</definition>
+</phrase>
+<phrase>
+    <source>back to write backup file</source>
+    <target></target>
+    <definition>zurück zu schreibende Sicherungsdatei</definition>
+</phrase>
+<phrase>
+    <source>Location (path) of the restore</source>
+    <target></target>
+    <definition>Ort (Pfad) der Wiederherstellung</definition>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>There was no key for encryption specified.
+</source>
+    <target></target>
+    <definition>Es wurde kein Schlüssel für die Verschlüsselung angegeben.
+</definition>
+</phrase>
+<phrase>
+    <source>Please select the directory in which the to the directory or file to be saved is to be written.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.
+</definition>
+</phrase>
+<phrase>
+    <source>Please select the to be directory or file to be saved.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.
+</definition>
+</phrase>
+<phrase>
+    <source>Hinweis</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>You have selected a file. You must select a directory
+</source>
+    <target></target>
+    <definition>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>The key length must be between 6 and 64 characters
+</source>
+    <target></target>
+    <definition>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
+</definition>
+</phrase>
+<phrase>
+    <source>The partition file </source>
+    <target></target>
+    <definition>Die Partitionsdatei </definition>
+</phrase>
+<phrase>
+    <source>already exists. The backup is not performed
+</source>
+    <target></target>
+    <definition> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
+</definition>
+</phrase>
+<phrase>
+    <source>There was no key to decrypt specified.
+</source>
+    <target></target>
+    <definition>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
+</definition>
+</phrase>
+<phrase>
+    <source>Select the directory in which the saved image will be recovered.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.
+</definition>
+</phrase>
+<phrase>
+    <source>Please select the existing backup file.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie die vorhandene Sicherungsdatei aus.
+</definition>
+</phrase>
+<phrase>
+    <source>You have selected a directory. You need a backup file with the extension .fsa select
+</source>
+    <target></target>
+    <definition>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>You have chosen the wrong recovery file selected.
+ The files should end with. fsa be</source>
+    <target></target>
+    <definition>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
+Die Dateiendung muss .fsa sein</definition>
+</phrase>
+<phrase>
+    <source>The partition is encrypted. Please enter the key</source>
+    <target></target>
+    <definition>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
+</definition>
+</phrase>
+<phrase>
+    <source>You have entered an incorrect password.</source>
+    <target></target>
+    <definition>Sie haben ein falsches Passwort eingegeben. 
+</definition>
+</phrase>
+<phrase>
+    <source>The backup of the directory was successful.
+</source>
+    <target></target>
+    <definition>Die Sicherung des Verzeichnisses war erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source> files, </source>
+    <target></target>
+    <definition> Dateien, </definition>
+</phrase>
+<phrase>
+    <source>  directories, </source>
+    <target></target>
+    <definition> Verzeichnisse, </definition>
+</phrase>
+<phrase>
+    <source>  links and </source>
+    <target></target>
+    <definition> Links und </definition>
+</phrase>
+<phrase>
+    <source> specials have been backed.</source>
+    <target></target>
+    <definition> spezielle Daten wurden gesichert.</definition>
+</phrase>
+<phrase>
+    <source>The backup of the folder was aborted by the user!
+</source>
+    <target></target>
+    <definition>Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!
+</definition>
+</phrase>
+<phrase>
+    <source> Files, </source>
+    <target></target>
+    <definition> Dateien, </definition>
+</phrase>
+<phrase>
+    <source> directories, and </source>
+    <target></target>
+    <definition> Verzeichnisse und </definition>
+</phrase>
+<phrase>
+    <source> Links were not backed properly. The backup of the directories was only partially successful
+</source>
+    <target></target>
+    <definition> Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich
+</definition>
+</phrase>
+<phrase>
+    <source>The restoring of the directory was successful.
+</source>
+    <target></target>
+    <definition>Die Wiederherstellung des Verzeichnisses war erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source> directories, </source>
+    <target></target>
+    <definition> Verzeichnisse, </definition>
+</phrase>
+<phrase>
+    <source> links and </source>
+    <target></target>
+    <definition> Links und </definition>
+</phrase>
+<phrase>
+    <source> specials have been restored.</source>
+    <target></target>
+    <definition> spezielle Daten wurden wieder hergestellt.</definition>
+</phrase>
+<phrase>
+    <source>The restore of the folder was break by user!
+</source>
+    <target></target>
+    <definition>Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!
+</definition>
+</phrase>
+<phrase>
+    <source> files,</source>
+    <target></target>
+    <definition> Dateien, </definition>
+</phrase>
+<phrase>
+    <source> links were not correctly restored. The restoring of the lists was only partially successful</source>
+    <target></target>
+    <definition> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich
+</definition>
+</phrase>
+<phrase>
+    <source>You have entered an incorrect password.
+</source>
+    <target></target>
+    <definition>Sie haben ein falsches Passwort eingegeben.
+</definition>
+</phrase>
+<phrase>
+    <source>You have tried to restore a directory. The selected file can only restore partitions.
+</source>
+    <target></target>
+    <definition>Sie haben versucht ein Verzeichnis wiederherzustellen. Die gewählte Datei kann nur Partitionen wiederherstellen.
+</definition>
+</phrase>
+<phrase>
+    <source>Error in fsarchiver. The directory can not be restored!</source>
+    <target></target>
+    <definition>Fehler in fsarchiver. Das Verzeichnis kann nicht wiederhergestellt werden!!
+</definition>
+</phrase>
+<phrase>
+    <source>Error!  The restoring of the folder was only partially successful!</source>
+    <target></target>
+    <definition>Fehler! Das Verzeichnis wurde nur teilweise wiederhergestellt. 
+</definition>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target></target>
+    <definition>Ja</definition>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target></target>
+    <definition>Nein</definition>
+</phrase>
+<phrase>
+    <source>Do you want really break the save or restore from the folder?</source>
+    <target></target>
+    <definition>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Verzeichnisse beenden?</definition>
+</phrase>
+<phrase>
+    <source>MBR/GPT save</source>
+    <target></target>
+    <definition>MBR/GPT sichern</definition>
+</phrase>
+<phrase>
+    <source>MBR/GPT restore</source>
+    <target></target>
+    <definition>MBR/GPT zurückschreiben</definition>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>MBR/GPT was successfully backed up.
+</source>
+    <target></target>
+    <definition>MBR/GPT wurde erfolgreich gesichert.
+</definition>
+</phrase>
+<phrase>
+    <source>MBR/GPT has not been backeed.
+</source>
+    <target></target>
+    <definition>MBR/GPT wurde nicht gesichert.
+</definition>
+</phrase>
+<phrase>
+    <source>Caution: If you really want to to write back the GUID partition table?
+</source>
+    <target></target>
+    <definition>Vorsicht: Wollen Sie wirklich die GUID Partitionstabelle zurückschreiben?
+</definition>
+</phrase>
+<phrase>
+    <source>The GUID partition table is successful return.
+</source>
+    <target></target>
+    <definition>Die GUID Partitionstabelle wurde erfolgreich wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>The GUID partition table was not restored.
+</source>
+    <target></target>
+    <definition>Die GUID Partitionstabelle wurde nicht wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>Caution: If you really want to to write back the MBR completely or partially?
+</source>
+    <target></target>
+    <definition>Vorsicht: Wollen Sie wirklich den MBR komplett beziehungsweise teilweise zurückschreiben?
+</definition>
+</phrase>
+<phrase>
+    <source>The Boot Loader section is successful return.
+</source>
+    <target></target>
+    <definition>Der Bootloaderbereich wurde erfolgreich wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>The boot loader area was not restored.
+</source>
+    <target></target>
+    <definition>Der Bootloaderbereich wurde nicht wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>The partition table is successful return.</source>
+    <target></target>
+    <definition>Die Partitionstabelle wurde erfolgreich wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>The partition table was not restored.
+</source>
+    <target></target>
+    <definition>Die Partitionstabelle wurde nicht wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>The MBR is successful return.
+</source>
+    <target></target>
+    <definition>Der MBR wurde erfolgreich wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>The MBR is not restored.
+</source>
+    <target></target>
+    <definition>Der MBR wurde nicht wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>Caution: If you really want to to write back the secret field?
+</source>
+    <target></target>
+    <definition>Vorsicht: Wollen Sie wirklich den verborgenen Bereich zurückschreiben? 
+</definition>
+</phrase>
+<phrase>
+    <source>The hidden area is successful return.
+</source>
+    <target></target>
+    <definition>Der verborgene Bereich wurde erfolgreich wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>The hidden area was not restored.
+</source>
+    <target></target>
+    <definition>Der verborgene Bereich wurde nicht wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source>The end of hidden area of the 1st Partition could not be read. Only 512 bytes are saved.</source>
+    <target></target>
+    <definition>Das Ende des verborgenen Bereiches der 1. Partition konnte nicht ausgelesen werden. Es werden nur 512 Bytes gesichert.
+</definition>
+</phrase>
+<phrase>
+    <source>You must select a directory</source>
+    <target></target>
+    <definition>Sie müssen ein Verzeichnis auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>You have selected a file. You must select a directory.
+</source>
+    <target></target>
+    <definition>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>You must choose the MBR/GPT file
+</source>
+    <target></target>
+    <definition>Sie müssen die MBR/GPT Sicherungsdatei auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source>You have selected a directory. You must select the MBR/GPT backup file
+</source>
+    <target></target>
+    <definition>Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR/GPT Sicherungsdatei auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>You must choose the MBR file
+</source>
+    <target></target>
+    <definition>Sie müssen eine MBR Sicherungsdatei auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source>You must choose the GPT file
+</source>
+    <target></target>
+    <definition>Sie müssen eine GPT Sicherungsdatei auswählen.
+</definition>
+</phrase>
+<phrase>
+    <source>You may have the wrong disk is selected. The restore disk is </source>
+    <target></target>
+    <definition>Sie haben eventuell eine falsche Festplatte ausgewählt. Die wiederherzustellende Festplatte ist </definition>
+</phrase>
+<phrase>
+    <source>, the saved hard drive is </source>
+    <target></target>
+    <definition>,  die gesicherte Festplatte ist aber </definition>
+</phrase>
+<phrase>
+    <source> Are you sure?</source>
+    <target></target>
+    <definition> Wollen Sie fortfahren?</definition>
+</phrase>
+<phrase>
+    <source>You may have a wrong file selected. Restore the hidden field has a size of </source>
+    <target></target>
+    <definition>Sie haben eventuell eine falsche Datei ausgewählt. Der wiederherzustellende verborgene Bereich hat eine Größe von</definition>
+</phrase>
+<phrase>
+    <source> bytes. The hidden area of the disk </source>
+    <target></target>
+    <definition> Byte. Der verborgene Bereich von der Festplatte </definition>
+</phrase>
+<phrase>
+    <source> has a size of </source>
+    <target></target>
+    <definition> hat eine Größe von </definition>
+</phrase>
+<phrase>
+    <source> bytes. Are you sure?</source>
+    <target></target>
+    <definition> Byte. Wollen Sie fortfahren?</definition>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target></target>
+    <definition>Ja</definition>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target></target>
+    <definition>Nein</definition>
+</phrase>
+<phrase>
+    <source>lzo</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>gzip fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>gzip standard</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>qzip best</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>bzip2 fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>bzip2 good</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma medium</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma best</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>Can not find a shared directory with the NFS Protokoll.
+</source>
+    <target></target>
+    <definition>Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis gefunden.
+</definition>
+</phrase>
+<phrase>
+    <source>Can not find a shared directory with the Samba Protokoll.
+</source>
+    <target></target>
+    <definition>Mit Samba wurde kein freigegebenes Verzeichnis gefunden.
+</definition>
+</phrase>
+<phrase>
+    <source>Please, select a folder.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie einen Ordner aus.
+</definition>
+</phrase>
+<phrase>
+    <source>Please, select the partition to be saved.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie die zu sichernde Partition aus.
+</definition>
+</phrase>
+<phrase>
+    <source>Please, select the filename of the backup.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie den Dateinamen der Sicherung aus.
+</definition>
+</phrase>
+<phrase>
+    <source>You have selected a file. You must select a directory
+</source>
+    <target></target>
+    <definition>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>The network computer </source>
+    <target></target>
+    <definition>Der Netzwerkrechner </definition>
+</phrase>
+<phrase>
+    <source> could not be integrated. The program is aborted
+</source>
+    <target></target>
+    <definition> konnte nicht eingebunden werden. Das Programm wird abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>The system partition to be saved is mounted. Do you want to do a live backup?</source>
+    <target></target>
+    <definition>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</definition>
+</phrase>
+<phrase>
+    <source>The home partition to be saved is mounted. Do you want to do a live backup?</source>
+    <target></target>
+    <definition>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</definition>
+</phrase>
+<phrase>
+    <source>The partition </source>
+    <target></target>
+    <definition>Die Partition </definition>
+</phrase>
+<phrase>
+    <source>can not be unmounted. The program is terminated
+</source>
+    <target></target>
+    <definition> kann nicht ausgehängt werden. Das Programm wird abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>The key length must be between 6 and 64 characters
+</source>
+    <target></target>
+    <definition>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
+</definition>
+</phrase>
+<phrase>
+    <source>The partition file </source>
+    <target></target>
+    <definition>Die Partitionsdatei </definition>
+</phrase>
+<phrase>
+    <source>already exists. The backup is not performed
+</source>
+    <target></target>
+    <definition> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
+</definition>
+</phrase>
+<phrase>
+    <source>The backup was aborted by the user
+</source>
+    <target></target>
+    <definition>Die Sicherung wurde vom Benutzer abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>No key was given for the decryption
+</source>
+    <target></target>
+    <definition>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
+</definition>
+</phrase>
+<phrase>
+    <source>Please, select the partition to be written back.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie die zurück zu schreibende Partition aus.
+</definition>
+</phrase>
+<phrase>
+    <source>You have chosen the wrong recovery file selected.
+The files should end with. fsa be</source>
+    <target></target>
+    <definition>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
+Die Dateiendung muss .fsa sein</definition>
+</phrase>
+<phrase>
+    <source>The partition is encrypted. Please enter the key
+</source>
+    <target></target>
+    <definition>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
+</definition>
+</phrase>
+<phrase>
+    <source>They have entered a wrong password.
+</source>
+    <target></target>
+    <definition>Sie haben ein falsches Passwort eingegeben. 
+</definition>
+</phrase>
+<phrase>
+    <source>Partition to restore the </source>
+    <target></target>
+    <definition>Die wiederherzustellende Partition </definition>
+</phrase>
+<phrase>
+    <source> does not coincide with the saved  </source>
+    <target></target>
+    <definition> stimmt nicht mit der gesicherten </definition>
+</phrase>
+<phrase>
+    <source>Do you want to continue restore?</source>
+    <target></target>
+    <definition> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</definition>
+</phrase>
+<phrase>
+    <source>The restore was canceled by user
+</source>
+    <target></target>
+    <definition>Das Zurückschreiben wurde vom Benutzer abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source>
+    <target></target>
+    <definition>Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</definition>
+</phrase>
+<phrase>
+    <source>To restore system partition is mounted and can not be restored. Please use a live CD
+</source>
+    <target></target>
+    <definition>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
+</definition>
+</phrase>
+<phrase>
+    <source>The restored home partition is mounted and can not be restored. Please use a live CD
+</source>
+    <target></target>
+    <definition>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
+</definition>
+</phrase>
+<phrase>
+    <source>The partition</source>
+    <target></target>
+    <definition>Die Partition </definition>
+</phrase>
+<phrase>
+    <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
+    <target></target>
+    <definition>Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</definition>
+</phrase>
+<phrase>
+    <source>Save partition</source>
+    <target></target>
+    <definition>Partition sichern</definition>
+</phrase>
+<phrase>
+    <source>Encrypt
+backup. key:</source>
+    <target></target>
+    <definition>Sicherung
+verschlüsseln. Schlüssel:</definition>
+</phrase>
+<phrase>
+    <source>Partition restore</source>
+    <target></target>
+    <definition>Partition zurückschreiben</definition>
+</phrase>
+<phrase>
+    <source>Decrypt
+backup. key:</source>
+    <target></target>
+    <definition>Sicherung
+entschlüsseln. Schlüssel</definition>
+</phrase>
+<phrase>
+    <source>The partition has been backed up successfully.
+</source>
+    <target></target>
+    <definition>Die Partition wurde erfolgreich gesichert.
+</definition>
+</phrase>
+<phrase>
+    <source> files, </source>
+    <target></target>
+    <definition> Dateien, </definition>
+</phrase>
+<phrase>
+    <source> directories, </source>
+    <target></target>
+    <definition> Verzeichnisse, </definition>
+</phrase>
+<phrase>
+    <source> links and </source>
+    <target></target>
+    <definition> Links und </definition>
+</phrase>
+<phrase>
+    <source> specials have been backed.</source>
+    <target></target>
+    <definition> spezielle Daten wurden gesichert.</definition>
+</phrase>
+<phrase>
+    <source>The backup of the partition was aborted by the user!
+</source>
+    <target></target>
+    <definition>Die Sicherung der Partition wurde vom Benutzer abgebrochen!
+</definition>
+</phrase>
+<phrase>
+    <source>The partition type is not supported. Maybe the partition is encrypted?
+</source>
+    <target></target>
+    <definition>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
+</definition>
+</phrase>
+<phrase>
+    <source> files</source>
+    <target></target>
+    <definition> Dateien, </definition>
+</phrase>
+<phrase>
+    <source> directories and </source>
+    <target></target>
+    <definition> Verzeichnisse und </definition>
+</phrase>
+<phrase>
+    <source> links were not saved properly. The backup of the partition was only partially successful
+</source>
+    <target></target>
+    <definition> Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich
+</definition>
+</phrase>
+<phrase>
+    <source>cannot restore an archive to a partition which is mounted, unmount it first 
+</source>
+    <target></target>
+    <definition>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
+</definition>
+</phrase>
+<phrase>
+    <source>The partition is successful back.
+</source>
+    <target></target>
+    <definition>Die Partition wurde erfolgreich wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source> specials have been restored.</source>
+    <target></target>
+    <definition> spezielle Daten wurden wieder hergestellt.</definition>
+</phrase>
+<phrase>
+    <source> links </source>
+    <target></target>
+    <definition> Links </definition>
+</phrase>
+<phrase>
+    <source> specials and the Partition Boot Record have been restored.</source>
+    <target></target>
+    <definition> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</definition>
+</phrase>
+<phrase>
+    <source>The restore of the partition was break by user!
+</source>
+    <target></target>
+    <definition>Die Wiederherstellung der Partition wurde vom Benutzer abgebrochen!
+</definition>
+</phrase>
+<phrase>
+    <source> links were not recovered correctly. The recovery of the partition was only partly successful.
+</source>
+    <target></target>
+    <definition> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>You tried to restore a partition. The selected file can only restore directories. Please restart the program.
+</source>
+    <target></target>
+    <definition>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
+</definition>
+</phrase>
+<phrase>
+    <source>You have entered an incorrect password.
+</source>
+    <target></target>
+    <definition>Sie haben ein falsches Passwort eingegeben. 
+</definition>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target></target>
+    <definition>Ja</definition>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target></target>
+    <definition>Nein</definition>
+</phrase>
+<phrase>
+    <source>Do you want really break the save or restore from the partition?</source>
+    <target></target>
+    <definition>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</definition>
+</phrase>
+<phrase>
+    <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source>
+    <target></target>
+    <definition>Wenn Sie keine SSH-Authentifizierung eingerichtet haben, müssen Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern</definition>
+</phrase>
+<phrase>
+    <source>The SSH server is not reachable. Try again or with another network protocol.
+</source>
+    <target></target>
+    <definition>Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals oder mit einem anderen Netzwerkprotokoll.
+</definition>
+</phrase>
+<phrase>
+    <source>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.
+</source>
+    <target></target>
+    <definition>Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten Terminal müssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie das Passwort für den Zugriff auf den Server ein  und 3.verlassen Sie den Server mit dem Befehl exit.
+</definition>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>German</source>
+    <target></target>
+    <definition>Deutsch</definition>
+</phrase>
+<phrase>
+    <source>English</source>
+    <target></target>
+    <definition>Englisch</definition>
+</phrase>
+<phrase>
+    <source>Russia</source>
+    <target></target>
+    <definition>Russisch</definition>
+</phrase>
+<phrase>
+    <source>Portuguese</source>
+    <target></target>
+    <definition>Portugiesisch</definition>
+</phrase>
+<phrase>
+    <source>lzo</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>gzip fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>gzip standard</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>qzip best</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>bzip2 fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>bzip2 good</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma fast</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma medium</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>lzma best</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Samba</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>SSH</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>NFS</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>The settings have been saved. Be restarted, the program modified the language setting.</source>
+    <target></target>
+    <definition>Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.
+</definition>
+</phrase>
+<phrase>
+    <source>Backup/restore partition over network</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Network computer  name:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Restore file name:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>S</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Existing partitions:</source>
+    <target>Partições existentes:</target>
+</phrase>
+<phrase>
+    <source>Proposed action:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Partition save 
+with fsarchiver</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Restore partition 
+with fsarchiver</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>n</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>save partition</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Name the backup file:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exit</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Partition restore</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>elapsed time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>On the number saved
+Files/directories:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>already saved 
+files/directories:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>seconds</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>minutes</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>remaining time</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Please select the folder.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Number of processors
+cores for to be used fsarchiver:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Compression
+setting:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Notes to  the backup</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>available backup overwrite</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Stock Split on DVD size</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Encrypt 
+backup key</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save PBR</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Data network</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Username:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Password:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save data</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Next</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Achievable in the network computer:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>n</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Show Password</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Description of the backup</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Description of the backup:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Back partition</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Partition restore</source>
+    <target></target>
+    <definition>Partition zurückschreiben</definition>
+</phrase>
+<phrase>
+    <source>Save partition</source>
+    <target></target>
+    <definition>Partition sichern</definition>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>Instructions for partition were not recorded written to the file.
+</source>
+    <target></target>
+    <definition>Die Hinweise zur Partition wurden nicht in eine Datei geschrieben.
+</definition>
+</phrase>
+<phrase>
+    <source>hello</source>
+    <target></target>
+    <definition>hallo</definition>
+</phrase>
+<phrase>
+    <source>In the file /usr/share/doc/qt4-fsarchiver/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source>
+    <target></target>
+    <definition>In der Datei /usr/share/doc/qt4-fsarchiver/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</definition>
+</phrase>
+<phrase>
+    <source>Backup File</source>
+    <target></target>
+    <definition>Sicherungsdatei</definition>
+</phrase>
+<phrase>
+    <source>Partition restore</source>
+    <target></target>
+    <definition>Partition zurückschreiben</definition>
+</phrase>
+<phrase>
+    <source>Decrypt
+backup. key:</source>
+    <target></target>
+    <definition>Sicherung
+entschlüsseln. Schlüssel</definition>
+</phrase>
+<phrase>
+    <source>Backup directory</source>
+    <target></target>
+    <definition>Sicherungsverzeichnis</definition>
+</phrase>
+<phrase>
+    <source>Save partition</source>
+    <target></target>
+    <definition>Partition sichern</definition>
+</phrase>
+<phrase>
+    <source>Encrypt
+backup. key:</source>
+    <target></target>
+    <definition>Sicherung
+verschlüsseln. Schlüssel</definition>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>Please select from the backup directory.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie das Sicherungsverzeichnis aus.
+</definition>
+</phrase>
+<phrase>
+    <source>Please select the partition to be</source>
+    <target></target>
+    <definition>Bitte wählen Sie die zu sichernde Partition aus.
+</definition>
+</phrase>
+<phrase>
+    <source>Please select the file name of the backup.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie den Dateinamen der Sicherung aus.
+</definition>
+</phrase>
+<phrase>
+    <source>You have selected a file. You must select a directory
+</source>
+    <target></target>
+    <definition>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>To back up the system partition is mounted. Do you want to do a live backup?</source>
+    <target></target>
+    <definition>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</definition>
+</phrase>
+<phrase>
+    <source>To back up home partition is mounted. Do you want to do a live backup?</source>
+    <target></target>
+    <definition>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</definition>
+</phrase>
+<phrase>
+    <source>The partition</source>
+    <target></target>
+    <definition>Die Partition </definition>
+</phrase>
+<phrase>
+    <source>can not be unmounted. The program is terminated
+</source>
+    <target></target>
+    <definition> kann nicht ausgehängt werden. Das Programm wird abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>The key length must be between 6 and 64 characters
+</source>
+    <target></target>
+    <definition>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
+</definition>
+</phrase>
+<phrase>
+    <source>The partition file</source>
+    <target></target>
+    <definition>Die Partitionsdatei</definition>
+</phrase>
+<phrase>
+    <source> already exists. The backup is not performed
+</source>
+    <target></target>
+    <definition> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
+</definition>
+</phrase>
+<phrase>
+    <source>The backup was aborted by the user
+</source>
+    <target></target>
+    <definition>Die Sicherung wurde vom Benutzer abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>The backup is performed</source>
+    <target></target>
+    <definition>Die Sicherung wird durchgeführt</definition>
+</phrase>
+<phrase>
+    <source>There was no key to decrypt specified.</source>
+    <target></target>
+    <definition>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
+</definition>
+</phrase>
+<phrase>
+    <source>Please select from the writing back to partition.
+</source>
+    <target></target>
+    <definition>Bitte wählen Sie die zurück zu schreibende Partition aus.
+</definition>
+</phrase>
+<phrase>
+    <source>You have chosen the wrong recovery file selected. 
+The files should end with. fsa be</source>
+    <target></target>
+    <definition>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
+Die Dateiendung muss .fsa sein</definition>
+</phrase>
+<phrase>
+    <source>You have selected a directory. You must select a file
+</source>
+    <target></target>
+    <definition>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei auswählen
+</definition>
+</phrase>
+<phrase>
+    <source>The partition is encrypted. Please enter the key</source>
+    <target></target>
+    <definition>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
+</definition>
+</phrase>
+<phrase>
+    <source>You have entered an incorrect password.</source>
+    <target></target>
+    <definition>Sie haben ein falsches Passwort eingegeben. 
+</definition>
+</phrase>
+<phrase>
+    <source>Partition to restore the </source>
+    <target></target>
+    <definition>Die wiederherzustellende Partition </definition>
+</phrase>
+<phrase>
+    <source> does not coincide with the saved  </source>
+    <target></target>
+    <definition> stimmt nicht mit der gesicherten </definition>
+</phrase>
+<phrase>
+    <source>Do you want to continue restore?</source>
+    <target></target>
+    <definition> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</definition>
+</phrase>
+<phrase>
+    <source>The restore was aborted by the user</source>
+    <target></target>
+    <definition>Das Zurückschreiben wurde vom Benutzer abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source>
+    <target></target>
+    <definition>Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</definition>
+</phrase>
+<phrase>
+    <source>Restore the system partition is mounted and can not be written back. Please use a live CD.</source>
+    <target></target>
+    <definition>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
+</definition>
+</phrase>
+<phrase>
+    <source>Restore the home partition is mounted and can not be written back. Please use a live CD.</source>
+    <target></target>
+    <definition>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
+</definition>
+</phrase>
+<phrase>
+    <source>The partition </source>
+    <target></target>
+    <definition>Die Partition </definition>
+</phrase>
+<phrase>
+    <source> can not be unmounted. The program is terminated</source>
+    <target></target>
+    <definition> kann nicht ausgehängt werden. Das Programm wird abgebrochen
+</definition>
+</phrase>
+<phrase>
+    <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
+    <target></target>
+    <definition>Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</definition>
+</phrase>
+<phrase>
+    <source>The key length must be between 6 and 64 characters.</source>
+    <target></target>
+    <definition>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein.
+</definition>
+</phrase>
+<phrase>
+    <source>The restoring is performed</source>
+    <target></target>
+    <definition>Die Wiederherstellung wird durchgeführt</definition>
+</phrase>
+<phrase>
+    <source>qt4-fsarchiver</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.17-4, June 1, 2013</source>
+    <target></target>
+    <definition>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.17-4, 1. Juni 2013</definition>
+</phrase>
+<phrase>
+    <source>The program must be run with root privileges. The program is terminated.
+</source>
+    <target></target>
+    <definition>Das Programm muss mit Root-Rechten gestartet werden. Das Programm wird beendet.
+</definition>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target></target>
+    <definition>Ja</definition>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target></target>
+    <definition>Nein</definition>
+</phrase>
+<phrase>
+    <source>The partition has been backed up successfully.
+</source>
+    <target></target>
+    <definition>Die Partition wurde erfolgreich gesichert.
+</definition>
+</phrase>
+<phrase>
+    <source> files, </source>
+    <target></target>
+    <definition> Dateien, </definition>
+</phrase>
+<phrase>
+    <source> directories, </source>
+    <target></target>
+    <definition> Verzeichnisse, </definition>
+</phrase>
+<phrase>
+    <source> links and </source>
+    <target></target>
+    <definition> Links und </definition>
+</phrase>
+<phrase>
+    <source> specials have been backed.</source>
+    <target></target>
+    <definition> spezielle Daten wurden gesichert.</definition>
+</phrase>
+<phrase>
+    <source>The backup of the partition was aborted by the user!
+</source>
+    <target></target>
+    <definition>Die Sicherung der Partition  wurde vom Benutzer abgebrochen!
+</definition>
+</phrase>
+<phrase>
+    <source>The partition type is not supported. Maybe the partition is encrypted?
+</source>
+    <target></target>
+    <definition>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
+</definition>
+</phrase>
+<phrase>
+    <source>Error saving partition. File too large. Use is FAT-partition?
+</source>
+    <target></target>
+    <definition>Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?
+</definition>
+</phrase>
+<phrase>
+    <source> directories and </source>
+    <target></target>
+    <definition> Verzeichnisse und </definition>
+</phrase>
+<phrase>
+    <source> links were not properly backed. The backup of the partition was only partially successful.
+</source>
+    <target></target>
+    <definition> Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>cannot restore an archive to a partition which is mounted, unmount it first 
+</source>
+    <target></target>
+    <definition>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
+</definition>
+</phrase>
+<phrase>
+    <source>The partition is successful back.
+</source>
+    <target></target>
+    <definition>Die Partition wurde erfolgreich wieder hergestellt.
+</definition>
+</phrase>
+<phrase>
+    <source> specials have been restored.</source>
+    <target></target>
+    <definition> spezielle Daten wurden wieder hergestellt.</definition>
+</phrase>
+<phrase>
+    <source> links </source>
+    <target></target>
+    <definition> Links </definition>
+</phrase>
+<phrase>
+    <source> specials and the Partition Boot Record have been restored.</source>
+    <target></target>
+    <definition> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</definition>
+</phrase>
+<phrase>
+    <source>The restore of the partition was break by user!
+</source>
+    <target></target>
+    <definition>Die Wiederherstellung der Partition  wurde vom Benutzer abgebrochen!
+</definition>
+</phrase>
+<phrase>
+    <source> Links were not correctly restored. The recovery of the volume was only partially successful.</source>
+    <target></target>
+    <definition> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.
+</definition>
+</phrase>
+<phrase>
+    <source>You have tried restore a partition. The selected file can only restore directories. Please restart the program.
+</source>
+    <target></target>
+    <definition>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
+</definition>
+</phrase>
+<phrase>
+    <source>You have entered an incorrect password.
+</source>
+    <target></target>
+    <definition>Sie haben ein falsches Passwort eingegeben.
+</definition>
+</phrase>
+<phrase>
+    <source>Backup file name: </source>
+    <target></target>
+    <definition>Sicherungsdateiname: </definition>
+</phrase>
+<phrase>
+    <source>Partition  name: </source>
+    <target></target>
+    <definition>Partitionsname: </definition>
+</phrase>
+<phrase>
+    <source>Partition type: </source>
+    <target></target>
+    <definition>Partitionsart: </definition>
+</phrase>
+<phrase>
+    <source>UUID: </source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Description: </source>
+    <target></target>
+    <definition>Bezeichnung: </definition>
+</phrase>
+<phrase>
+    <source>Partition size: </source>
+    <target></target>
+    <definition>Partitionsgröße: </definition>
+</phrase>
+<phrase>
+    <source>Assignment of the partition: </source>
+    <target></target>
+    <definition>Belegung der Partition: </definition>
+</phrase>
+<phrase>
+    <source>Compression: </source>
+    <target></target>
+    <definition>Kompression: </definition>
+</phrase>
+<phrase>
+    <source>Approximate image file sizes: </source>
+    <target></target>
+    <definition>ungefähre Sicherungsdateigröße: </definition>
+</phrase>
+<phrase>
+    <source>Other notes: </source>
+    <target></target>
+    <definition>weitere Hinweise:</definition>
+</phrase>
+<phrase>
+    <source>to be protected/secured partition: / (root system directory) </source>
+    <target></target>
+    <definition>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </definition>
+</phrase>
+<phrase>
+    <source>Operating system: </source>
+    <target></target>
+    <definition>Betriebsystem: </definition>
+</phrase>
+<phrase>
+    <source>Kernel: </source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>to be protected/secured partition: /home</source>
+    <target></target>
+    <definition>zu sichernde/gesicherte Partition: /home</definition>
+</phrase>
+<phrase>
+    <source> MB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source> TB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source> GB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Do you really want to break the save or restore from the partition?</source>
+    <target></target>
+    <definition>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</definition>
+</phrase>
+<phrase>
+    <source>Save/restore partition </source>
+    <target>Salvar/restaurar partilha  </target>
+</phrase>
+<phrase>
+    <source>Existing partitions:</source>
+    <target>Partições existentes:</target>
+</phrase>
+<phrase>
+    <source>Backup directory:</source>
+    <target>Diretório de backup:</target>
+</phrase>
+<phrase>
+    <source>Stored partitions</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exit</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>S</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Partition restore</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Name the backup file:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>elapsed time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>On the number saved
+Files/directories:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>already saved 
+files/directories:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>seconds</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>minutes</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>remaining time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Number of processors
+cores for to be used fsarchiver:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Compression
+setting:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Notes to  the backup</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>available backup overwrite</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Stock Split on size:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Encrypt 
+backup key</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save PBR</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>GB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proposed action:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Partition save 
+with fsarchiver</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Restore partition
+with fsarchiver</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Actions</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Settings</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Information</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Basic Settings</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Backup partition</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Restore partition</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Information fsarchiver</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save MBR/GPT</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Restore MBR/GPT</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Restore directory </source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save directory </source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exit program</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save a partition on network</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Restore a partition on network</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>breakprocess</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Clone Drive HD-Image save/restore </source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>HD-Image save/restore on network</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Clone HD, HD-Image built and restore</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>referência</target>
+    <definition>Hinweis</definition>
+</phrase>
+<phrase>
+    <source>There is currently no available network computer.
+</source>
+    <target></target>
+    <definition>Es ist derzeit kein Netzwerkrechner.
+</definition>
+</phrase>
+<phrase>
+    <source>You must select the computer on which the backup data to be written
+</source>
+    <target></target>
+    <definition>Sie müssen den Rechner auswählen, auf den die Sicherungsdaten geschrieben werden sollen
+</definition>
+</phrase>
+<phrase>
+    <source>You must select your computer from which the backup data to be written back
+</source>
+    <target></target>
+    <definition>Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück geschrieben werden sollen
+</definition>
+</phrase>
+<phrase>
+    <source>You must enter the user name. Can not otherwise be accessible to network computers
+</source>
+    <target></target>
+    <definition>Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf Netzrechner zugegriffen werden
+</definition>
+</phrase>
+<phrase>
+    <source>Is it true that you have entered a key? (NFS dont need a key)</source>
+    <target></target>
+    <definition>Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</definition>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target></target>
+    <definition>Ja</definition>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target></target>
+    <definition>Nein</definition>
+</phrase>
+<phrase>
+    <source>Clone hard drive</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exit</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save / restore MBR</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exist harddrive:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>New harddrive:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>CommandLinkButton</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>seconds</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>minutes</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>elapsed time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>remaining time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>already saved:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>MB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>hours</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>f</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Backup directory:</source>
+    <target>Diretório de backup:</target>
+</phrase>
+<phrase>
+    <source>Image of a hard disk write back</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Clone hard disk</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Proposed action:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Image of a hard disk to create</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Use gzip</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Clone hard drive</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save / restore MBR</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exist harddrive:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Image einer Festplatte erstellen:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Image einer Festplatte zurückschreiben:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>seconds</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>minutes</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>elapsed time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>remaining time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>MB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>hours</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>f</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Image name:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Network computer  name:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exist Image:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>l</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save/restore directory</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exit</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Saved directory</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Location (path) of backup:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>On the number of
+captive Files/directories:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Already backed
+Files/directories:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>elapsed time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>minutes</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>seconds</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>remaining  time:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Number of processor cores
+for to be used fsarchiver:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Compression setting:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Encrypt
+backup key</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Overwrite existing backup</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Backup restore to the Origin</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save / Restore MBR/GPT</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Only the boot loader area to restore</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Bootloader area and restore the partition table</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Restore partition table</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Secretly area to restore. (Without Boot Loader and without partition table).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save / restore MBR</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>MBR/GPT backup directory:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>MBR of that drive this
+Backup / restore:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>sda</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>sdb</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>sdc</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>sdd</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Basic settings</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Number of processors
+cores, for fsarchiver
+should be used:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Standard
+compression:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Language:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Existing files by default override</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Backup note enable by default</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Directories by default write 
+back to the original location</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Enable encryption by default</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Archive file size divided on DVD</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Password for network&apos;s view</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Network input data save</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Save Settings</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exit</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Safe PBR by default</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Network protocol:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Show Note for accessing network computer show</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Show  Note to mount the network computer</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Show  Note about the programm qt4-fsarchiver</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Select restore file</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Next</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Existing restore files:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>a</source>
+    <target></target>
+</phrase>
+</QPH>

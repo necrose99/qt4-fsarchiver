@@ -44,8 +44,6 @@ extern "C" {
 #include "treeview.h"
 #include <dirent.h>
 
-
-
 using namespace std;
 
 QString Datum_akt("");
@@ -58,6 +56,7 @@ QString DateiName("") ;
 extern int anzahl_disk;
 extern int btrfs_flag;
 extern int dialog_auswertung;
+extern int show_flag;
 extern QString parameter[15];
 QString part[100][4];
 QString widget[100];
@@ -119,7 +118,6 @@ int fsarchiver_aufruf(int argc, char *anlage0=NULL, char *anlage1=NULL, char *an
 MWindow::MWindow()
 {
    questionLabel = new QLabel;
-   
    QStringList dummy;
    QStringList partition_kurz;
    QString partition1_;
@@ -174,7 +172,6 @@ MWindow::MWindow()
    connect( rdBt_restoreFsArchiv, SIGNAL( clicked() ), this, SLOT(rdButton_auslesen()));
    connect( chk_key, SIGNAL( clicked() ), this, SLOT(chkkey()));
    connect( chk_split, SIGNAL( clicked() ), this, SLOT(chkGB()));
-  
    // Zeitgeber für Berechnung remainingTime
    timer = new QTimer(this);
  //  timer1->singleShot( 1000, this , SLOT(ViewProzent( )) ;
@@ -258,7 +255,6 @@ MWindow::MWindow()
    chk_Beschreibung->setChecked(Qt::Checked);
    label->setEnabled(false);
 
-
         starteinstellung();
         if (geteuid() == 0) // 0 is the UID of the root  1000 von Dieter
 	{
@@ -334,7 +330,7 @@ MWindow::MWindow()
         setting.beginGroup("Basiseinstellungen");
         int auswertung = setting.value("showPrg").toInt();
         setting.endGroup();
-        if (auswertung ==1){
+        if (auswertung ==1 and show_flag == 0){
         int ret = questionMessage(tr("In the file /usr/share/doc/qt4-fsarchiver/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.", "In der Datei /usr/share/doc/qt4-fsarchiver/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern."));
     		if (ret == 2){
 		//Basiseinstellungen ändern
@@ -343,6 +339,7 @@ MWindow::MWindow()
         	setting.setValue("showPrg",0);
         	setting.endGroup();
                 }
+        show_flag = 1;
 	} 
 }
 
@@ -610,10 +607,11 @@ int MWindow::savePartition()
 				  // Windows Auslagerungsdatei pagefile.sys  und hiberfil.sys von der Sicherung immer ausschließen
                                   parameter[indizierung] = "--exclude=pagefile.sys";
                                   indizierung = indizierung + 1;
-                                  parameter[indizierung] = "--exclude=hyberfil.sys";
-                                  indizierung = indizierung + 1;
+                                 // parameter[indizierung] = "--exclude=hyberfil.sys";
+                                 // indizierung = indizierung + 1;
 				     }
-                                  parameter[indizierung] = (folder + "/" + DateiName + "-" + _Datum + ".fsa");
+
+                                 parameter[indizierung] = (folder + "/" + DateiName + "-" + _Datum + ".fsa");
 				// Vorbereitung für psb
 				QString befehl = ("dd if=/dev/" + partition_ + " of=" + folder + "/" + DateiName + "-" + _Datum + ".pbr" + " bs=512 count=1");
 				state = chk_pbr->checkState();
@@ -655,7 +653,6 @@ int MWindow::savePartition()
    					system (befehl.toAscii().data());
    				}}
 //qDebug() << "Befehl" << parameter[0] << parameter[1] << parameter[2] << parameter[3] << parameter[4] << parameter[5] << parameter[6] << parameter[7] << parameter[8] << indizierung + 2;
-
 				thread1.setValues(indizierung + 2,"0"); 
                                 pushButton_end->setEnabled(false);  
                                 pushButton_save->setEnabled(false); 
@@ -1043,13 +1040,13 @@ void MWindow::info() {
          "partitions, directory and MBR\n"
          "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-4, May 28, 2014",
+         "Version 0.6.19-6, August 4, 2014",
 
 	 "Sichern und Wiederherstellen\n"
          "von Partitionen, Verzeichnissen und MBR\n"
          "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-4, 28. Mai 2014"));
+         "Version 0.6.19-6, 4. August 2014"));
 }
 
 int MWindow::Root_Auswertung(){
@@ -1283,11 +1280,8 @@ void MWindow::thread1Ready()  {
 int part_testen;
    endeThread = endeThread + 1;
    extern int dialog_auswertung;
-   if (endeThread == 1) {
-     pushButton_end->setEnabled(true);
-     if (dialog_auswertung ==0){
-       // Ausgabe progressBar durch Timer unterbinden
-       stopFlag = 1; 
+     if (endeThread == 1) {
+       pushButton_end->setEnabled(true);
        pushButton_save->setEnabled(true);
        progressBar->setValue(100); 
        SekundeRemaining ->setText("0");
@@ -1298,14 +1292,22 @@ int part_testen;
        QString cnt_regfile_ = QString::number(cnt_regfile);
        int cnt_dir = werte_holen(7);
        QString cnt_dir_ = QString::number(cnt_dir); 
-       int cnt_hardlinks = werte_holen(8);
-       cnt_hardlinks = cnt_hardlinks + werte_holen(9);
+       int cnt_symlinks = werte_holen(8);
+       QString cnt_symlinks_ = QString::number(cnt_symlinks); 
+       int cnt_hardlinks = werte_holen(9);
        QString cnt_hardlinks_ = QString::number(cnt_hardlinks);
+       cnt_hardlinks = cnt_hardlinks + cnt_symlinks;
+       cnt_hardlinks_ = QString::number(cnt_hardlinks);
        int cnt_special = werte_holen(10);
        QString cnt_special_;
        cnt_special_ = QString::number(cnt_special);
-       QMessageBox::about(this, tr("Note", "Hinweis"), tr("The partition has been backed up successfully.\n", "Die Partition wurde erfolgreich gesichert.\n") + cnt_regfile_ + 
-        tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") + cnt_special_ + tr(" specials have been backed.", " spezielle Daten wurden gesichert."));
+       if (dialog_auswertung ==0){
+           // Ausgabe progressBar durch Timer unterbinden
+           stopFlag = 1; 
+           QMessageBox::about(this, tr("Note", "Hinweis"), 
+           tr("The partition has been backed up successfully.\n", "Die Partition wurde erfolgreich gesichert.\n") + cnt_regfile_ + 
+        tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") 
+        + cnt_special_ + tr(" specials have been backed.", " spezielle Daten wurden gesichert."));
         progressBar->setValue(100);     
 	}
      else {
@@ -1336,16 +1338,23 @@ int part_testen;
 	   QMessageBox::about(this, tr("Note", "Hinweis"),
           tr("Error saving partition. File too large. Use is FAT-partition?\n", "Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?\n" ));
           }
-       int err_regfile = werte_holen(1);
+       int err_regfile = werte_holen(12);
        QString err_regfile_ = QString::number(err_regfile);
-       int err_dir = werte_holen(2);
+       int err_dir = werte_holen(13);
        QString err_dir_ = QString::number(err_dir); 
-       int err_hardlinks = werte_holen(3);
+       int err_hardlinks = werte_holen(14);
        err_hardlinks = err_hardlinks + werte_holen(5);
        QString err_hardlinks_ = QString::number(err_hardlinks); 
+       int err_special = werte_holen(11);
+       QString err_special_ = QString::number(err_special);
        if (part_testen <= 108 && flag_end == 0){
-       	  QMessageBox::about(this, tr("Note", "Hinweis"),
-          err_regfile_ + tr(" files, ", " Dateien, ")   + err_dir_ + tr(" directories and ", " Verzeichnisse und ") + err_hardlinks_ + tr(" links were not properly backed. The backup of the partition was only partially successful.\n", " Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich.\n") );
+       	  QMessageBox::about(this, tr("Note", "Hinweis"), 
+       	  tr("The backup of the partition was only partially successful.\n", "Die Sicherung der Partition war nur teilweise erfolgreich\n")
+         + cnt_regfile_ + tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") 
+         + cnt_special_ + tr(" specials have been backed\n.", " spezielle Daten wurden gesichert\n.")
+         + err_regfile_ + tr(" files, ", " Dateien, ")   + err_dir_ + tr(" directories, ", " Verzeichnisse, ") 
+         + err_hardlinks_ + tr(" links and ", " Links und ") + err_special_ 
+         + tr(" specials were not properly backed\n."," spezielle Daten wurden nicht korrekt gesichert.\n"));
 	  }
         }
        
@@ -1359,30 +1368,32 @@ void MWindow::thread2Ready()  {
    endeThread = endeThread + 1;
    extern int dialog_auswertung;
    int meldung = werte_holen(4);
+   int i =2;
    if (meldung == 105) {
       QMessageBox::about(this, tr("Note", "Hinweis"), tr("cannot restore an archive to a partition which is mounted, unmount it first \n", "Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!\n"));
       endeThread == 0;
        }
    if (endeThread == 1) { 
      pushButton_end->setEnabled(true);
+     int cnt_regfile = werte_holen(6);
+     QString cnt_regfile_ = QString::number(cnt_regfile);
+     int cnt_dir = werte_holen(7);
+     QString cnt_dir_ = QString::number(cnt_dir); 
+     int cnt_hardlinks = werte_holen(8);
+     cnt_hardlinks = cnt_hardlinks + werte_holen(9);
+     QString cnt_hardlinks_ = QString::number(cnt_hardlinks); 
+     int cnt_special = werte_holen(10);
+     QString cnt_special_;
+     cnt_special_ = QString::number(cnt_special);
      if (dialog_auswertung ==0){
        // Ausgabe progressBar durch Timer unterbinden
        stopFlag = 1; 
        pushButton_restore->setEnabled(true);
        progressBar->setValue(100);
        SekundeRemaining ->setText("0");
-       int cnt_regfile = werte_holen(6);
-       QString cnt_regfile_ = QString::number(cnt_regfile);
-       int cnt_dir = werte_holen(7);
-       QString cnt_dir_ = QString::number(cnt_dir); 
-       int cnt_hardlinks = werte_holen(8);
-       cnt_hardlinks = cnt_hardlinks + werte_holen(9);
-       QString cnt_hardlinks_ = QString::number(cnt_hardlinks); 
-       int cnt_special = werte_holen(10);
-       QString cnt_special_;
-       cnt_special_ = QString::number(cnt_special);
+       
       //PBR herstellen
-      int i = 2;
+      i = 2;
       if (befehl_pbr != "") 
     	i = system (befehl_pbr.toAscii().data());
       if (i!=0) { 
@@ -1402,15 +1413,34 @@ void MWindow::thread2Ready()  {
      if (meldung == 100) {
           // Anzahl nicht korrekt zurückgeschriebene Dateien ausgeben
        pushButton_restore->setEnabled(false);
-       int err_regfile = werte_holen(1);
+       int err_regfile = werte_holen(12);
        QString err_regfile_ = QString::number(err_regfile);
-       int err_dir = werte_holen(2);
+       int err_dir = werte_holen(13);
        QString err_dir_ = QString::number(err_dir); 
-       int err_hardlinks = werte_holen(3);
+       int err_hardlinks = werte_holen(14);
        err_hardlinks = err_hardlinks + werte_holen(5);
        QString err_hardlinks_ = QString::number(err_hardlinks); 
-       QMessageBox::about(this, tr("Note", "Hinweis"),
-         err_regfile_ + tr(" files, ", " Dateien, ")    + err_dir_ + tr(" directories and ",  " Verzeichnisse und ") + err_hardlinks_ + tr(" Links were not correctly restored. The recovery of the volume was only partially successful.", " Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.\n") );
+       int err_special = werte_holen(11);
+       QString err_special_ = QString::number(err_special);
+      if (i!=0) {  
+       QMessageBox::about(this, tr("Note", "Hinweis"), 
+       	  tr("The restore of the partition was only partially successful.\n", "Die Wiederherstellung der Partition war nur teilweise erfolgreich\n")
+         + cnt_regfile_ + tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") 
+         + cnt_special_ + tr(" specials have been restored\n.", " spezielle Daten wurden wiederhergestellt\n.")
+         + err_regfile_ + tr(" files, ", " Dateien, ")   + err_dir_ + tr(" directories and ", " Verzeichnisse und ") 
+         + err_hardlinks_ + tr(" links and ", " Links und ") + err_special_ 
+         + tr(" specials were not properly restored\n."," spezielle Daten wurden nicht korrekt wiederhergestellt.\n"));
+               }
+      if (i==0) { 
+        QMessageBox::about(this, tr("Note", "Hinweis"), 
+       	  tr("The restore of the partition was only partially successful.\n", "Die Wiederherstellung der Partition war nur teilweise erfolgreich\n")
+         + cnt_regfile_ + tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") 
+         + cnt_hardlinks_ + tr(" links and ", " Links und ") 
+         + cnt_special_ + tr(" specials and the Partition Boot Record have been restored\n.", " spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt\n.")
+         + err_regfile_ + tr(" files, ", " Dateien, ")   + err_dir_ + tr(" directories and ", " Verzeichnisse und ") 
+         + err_hardlinks_ + tr(" links and ", " Links und ") + err_special_ 
+         + tr(" specials were not properly restored\n."," spezielle Daten wurden nicht korrekt wiederhergestellt.\n"));
+                }
         }
      if (meldung == 102) { 
         QMessageBox::about(this, tr("Note", "Hinweis"), tr("You have tried restore a partition. The selected file can only restore directories. Please restart the program.\n", "Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.\n"));

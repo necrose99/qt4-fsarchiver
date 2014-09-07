@@ -1,0 +1,3657 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Language: ru_RU\n"
+"X-Source-Language: C\n"
+"X-Qt-Contexts: true\n"
+
+msgctxt "DialogClone|Festplatte klonen"
+msgid "Clone Harddrive"
+msgstr ""
+
+#, fuzzy
+msgctxt "DialogClone|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+msgctxt "DialogClone|Sie müssen eine Festplatte auswählen.\n"
+msgid "You must select a hard drive."
+msgstr ""
+
+msgctxt "DialogClone|Die gewählte Festplatte ist zu klein.\n"
+msgid "The selected hard drive is too small."
+msgstr ""
+
+msgctxt ""
+"DialogClone|Auf der Festplatte ist eine root- oder home Partition. Sie "
+"müssen eine Live-CD benutzen.\n"
+msgid ""
+"On the hard drive exist a root or a home partition. You must need a live-CD."
+msgstr ""
+
+msgctxt ""
+"DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der "
+"Festplatte "
+msgid " Do you want really clone the hard drive? All dates on  "
+msgstr ""
+
+msgctxt "DialogClone| werden gelöscht!"
+msgid " are deleted!"
+msgstr ""
+
+msgctxt "DialogClone|Sie müssen ein Verzeichnis auswählen.\n"
+msgid "You must select a folder."
+msgstr ""
+
+msgctxt ""
+"DialogClone| Wollen Sie wirklich ein Abbild der Festplatte erstellen? "
+msgid " Do you want really built a image from the hard drive? "
+msgstr ""
+
+msgctxt ""
+"DialogClone| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? "
+msgid " Do you want really restore the image of the hard drive? "
+msgstr ""
+
+#, fuzzy
+msgctxt "DialogClone|Ja"
+msgid "Yes"
+msgstr "Да"
+
+#, fuzzy
+msgctxt "DialogClone|Nein"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "DialogClone|Festplatten Abbild erstellen"
+msgid "Save Harddrive Image"
+msgstr ""
+
+msgctxt "DialogClone|Festplatten Abbild zurückschreiben"
+msgid "Restore Harddrive Image"
+msgstr ""
+
+msgctxt "DialogClone|Das Klonen der Festplatte war erfolgreich.\n"
+msgid "The clone of the hard drive was successfully."
+msgstr ""
+
+msgctxt "DialogClone|Die Sichern des Abbildes war erfolgreich.\n"
+msgid "The backup of the image was successfully."
+msgstr ""
+
+msgctxt "DialogClone|Das Klonen der Festplatte war nicht erfolgreich.\n"
+msgid "The clone of the hard drive was not successfully."
+msgstr ""
+
+msgctxt "DialogClone|Die Sichern des Abbildes war nicht erfolgreich.\n"
+msgid "The backup of the image was not successfully."
+msgstr ""
+
+msgctxt "DialogClone|Die Wiederherstellung des Abbildes war erfolgreich.\n"
+msgid "The restore from the image was successfully."
+msgstr ""
+
+msgctxt ""
+"DialogClone|Die Wiederherstellung des Abbildes war nicht erfolgreich.\n"
+msgid "The restore from the image was not successfully."
+msgstr ""
+
+msgctxt ""
+"DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung "
+"oder die Wiederherstellung eines Images der Festplatte beenden?"
+msgid ""
+"Do you want really break clone, save or restore an image from the partition?"
+msgstr ""
+
+msgctxt ""
+"DialogClone|Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.\n"
+msgid "You must select a gz.fsa file or an img.fsa file."
+msgstr ""
+
+msgctxt ""
+"DialogClone|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa "
+"Datei auswählen\n"
+msgid "You have selected a folder. You must select a gz.fsa file.\n"
+msgstr ""
+
+msgctxt "DialogClone|bereits gesichert"
+msgid "already saved"
+msgstr ""
+
+msgctxt "DialogClone|bereits zurückgeschrieben"
+msgid "already restored"
+msgstr ""
+
+msgctxt "DialogClone_net|Festplatten Abbild erstellen"
+msgid "Save Harddrive Image"
+msgstr ""
+
+#, fuzzy
+msgctxt "DialogClone_net|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+msgctxt "DialogClone_net|Sie müssen eine Festplatte auswählen.\n"
+msgid "You must select a hard drive."
+msgstr ""
+
+msgctxt "DialogClone_net|Sie müssen ein Verzeichnis auswählen.\n"
+msgid "You must select a folder."
+msgstr ""
+
+#, fuzzy
+msgctxt "DialogClone_net|Bitte wählen Sie den Dateinamen der Sicherung aus.\n"
+msgid "Please, select the filename of the backup.\n"
+msgstr "Выберите имя файла образа восстановления.\n"
+
+msgctxt ""
+"DialogClone_net|Auf der Festplatte ist eine root- oder home Partition. Sie "
+"müssen eine Live-CD benutzen.\n"
+msgid ""
+"On the hard drive exist a root or a home partition. You must need a live-CD."
+msgstr ""
+
+msgctxt ""
+"DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte erstellen? "
+msgid " Do you want really built a image from the hard drive? "
+msgstr ""
+
+msgctxt "DialogClone_net|Sie müssen eine fsa.gz Datei auswählen.\n"
+msgid "You must select a fsa.gz file."
+msgstr ""
+
+msgctxt ""
+"DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte "
+"zurückschreiben? "
+msgid " Do you want really restore the image of the hard drive? "
+msgstr ""
+
+#, fuzzy
+msgctxt ""
+"DialogClone_net|Es wurde kein freigegebenes Verzeichnis gefunden. Das "
+"Programm kann nicht fortgesetzt werden.\n"
+msgid "Can not find a shared directory. The program is terminated.\n"
+msgstr "Не удается найти общий каталог. Программа прервана."
+
+#, fuzzy
+msgctxt "DialogClone_net|Ja"
+msgid "Yes"
+msgstr "Да"
+
+#, fuzzy
+msgctxt "DialogClone_net|Nein"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "DialogClone_net|Festplatten Abbild zurückschreiben"
+msgid "Restore Harddrive Image"
+msgstr ""
+
+msgctxt ""
+"DialogClone_net|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz "
+"Datei auswählen\n"
+msgid "You have selected a folder. You must select a fsa.gz file.\n"
+msgstr ""
+
+msgctxt "DialogClone_net|Die Sichern des Abbildes war erfolgreich.\n"
+msgid "The backup of the image was successfully."
+msgstr ""
+
+msgctxt "DialogClone_net|Die Sichern des Abbildes war nicht erfolgreich.\n"
+msgid "The backup of the image was not successfully."
+msgstr ""
+
+msgctxt "DialogClone_net|Die Wiederherstellung des Abbildes war erfolgreich.\n"
+msgid "The restore from the image was successfully."
+msgstr ""
+
+msgctxt ""
+"DialogClone_net|Die Wiederherstellung des Abbildes war nicht erfolgreich.\n"
+msgid "The restore from the image was not successfully."
+msgstr ""
+
+msgctxt ""
+"DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben "
+"eines Images der Festplatte beenden?"
+msgid "Do you want really break save or restore an image from the partition?"
+msgstr ""
+
+#, fuzzy
+msgctxt "DialogClone_net|Der Netzwerkrechner "
+msgid "The network computer "
+msgstr "Сеть  компьютеров "
+
+#, fuzzy
+msgctxt ""
+"DialogClone_net| konnte nicht eingebunden werden. Das Programm wird "
+"abgebrochen\n"
+msgid " could not be integrated. The program is aborted\n"
+msgstr " не может быть подключён. Прграмма будет прервана\n"
+
+msgctxt "DialogDIR|"
+msgid "gzip fast"
+msgstr "gzip fast"
+
+msgctxt "DialogDIR|"
+msgid "gzip standard"
+msgstr "gzip standard"
+
+msgctxt "DialogDIR|"
+msgid "qzip best"
+msgstr "qzip best"
+
+msgctxt "DialogDIR|"
+msgid "bzip2 fast"
+msgstr "bzip2 fast"
+
+msgctxt "DialogDIR|"
+msgid "bzip2 good"
+msgstr "bzip2 good"
+
+msgctxt "DialogDIR|"
+msgid "lzma fast"
+msgstr "lzma fast"
+
+msgctxt "DialogDIR|"
+msgid "lzma medium"
+msgstr "lzma medium"
+
+msgctxt "DialogDIR|"
+msgid "lzma best"
+msgstr "lzma best"
+
+msgctxt ""
+"DialogDIR|Sicherung\n"
+"verschlüsseln. Schlüssel:"
+msgid ""
+"Encrypt\n"
+"backup. key:"
+msgstr ""
+"Ключ \n"
+"шифрования:"
+
+msgctxt "DialogDIR|Verzeichnis sichern"
+msgid "Directory save"
+msgstr "Сохранение каталога"
+
+msgctxt "DialogDIR|zu sicherndes Verzeichnis"
+msgid "to saved Directory"
+msgstr "Каталог для сохранения"
+
+msgctxt "DialogDIR|Ort (Pfad) der Sicherung"
+msgid "Location (path) of the backup"
+msgstr "Сохраняемый каталог"
+
+msgctxt ""
+"DialogDIR|Sicherung\n"
+"entschlüsseln. Schlüssel:"
+msgid ""
+"Decrypt\n"
+"backup. key:"
+msgstr "Ключ шифрования:"
+
+msgctxt "DialogDIR|Verzeichnis zurückschreiben"
+msgid "Directory restore"
+msgstr "Восстановить каталог"
+
+msgctxt "DialogDIR|zurück zu schreibende Sicherungsdatei"
+msgid "back to write backup file"
+msgstr "Восстановить из образа"
+
+msgctxt "DialogDIR|Ort (Pfad) der Wiederherstellung"
+msgid "Location (path) of the restore"
+msgstr "Место (путь) сохранения"
+
+msgctxt "DialogDIR|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+msgctxt ""
+"DialogDIR|Es wurde kein Schlüssel für die Verschlüsselung angegeben.\n"
+msgid "There was no key for encryption specified.\n"
+msgstr "Ключ шифрования не подходит.\n"
+
+msgctxt ""
+"DialogDIR|Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde "
+"Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.\n"
+msgid ""
+"Please select the directory in which the to the directory or file to be "
+"saved is to be written.\n"
+msgstr ""
+"Выберите каталог или файл \n"
+"для записи сохранения."
+
+msgctxt ""
+"DialogDIR|Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu "
+"sichernde Datei aus.\n"
+msgid "Please select the to be directory or file to be saved.\n"
+msgstr "Выберите каталог или файл для сохранения.\n"
+
+msgctxt ""
+"DialogDIR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis "
+"auswählen\n"
+msgid "You have selected a file. You must select a directory\n"
+msgstr "Выбран файл. Выберите каталог\n"
+
+msgctxt "DialogDIR|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein\n"
+msgid "The key length must be between 6 and 64 characters\n"
+msgstr "Длина ключа должна быть от 6 до 64 символов\n"
+
+msgctxt "DialogDIR|Die Partitionsdatei "
+msgid "The partition file "
+msgstr "Файл сохранения раздела "
+
+msgctxt ""
+"DialogDIR| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt\n"
+msgid "already exists. The backup is not performed\n"
+msgstr " уже существует. Сохранение не выполнено"
+
+msgctxt ""
+"DialogDIR|Es wurde kein Schlüssel für die Entschlüsselung angegeben.\n"
+msgid "There was no key to decrypt specified.\n"
+msgstr "Ключ шифрования не подходит.\n"
+
+msgctxt ""
+"DialogDIR|Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte "
+"Verzeichnis zurück geschrieben werden soll.\n"
+msgid "Select the directory in which the saved image will be recovered.\n"
+msgstr "Выберите каталог, в котором будет восстановлен образ.\n"
+
+msgctxt "DialogDIR|Bitte wählen Sie die vorhandene Sicherungsdatei aus.\n"
+msgid "Please select the existing backup file.\n"
+msgstr "Выберите существующий файл образа.\n"
+
+msgctxt ""
+"DialogDIR|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine "
+"Sicherungsdatei mit der Dateiendung .fsa auswählen\n"
+msgid ""
+"You have selected a directory. You need a backup file with the extension "
+".fsa select\n"
+msgstr "Выберите файл с расширением .fsa, а не каталог\n"
+
+msgctxt ""
+"DialogDIR|Sie haben eine falsche Wiederherstellungsdatei ausgesucht "
+"ausgesucht \n"
+"Die Dateiendung muss .fsa sein"
+msgid ""
+"You have chosen the wrong recovery file selected.\n"
+" The files should end with. fsa be"
+msgstr ""
+"Это не файл восстовления\n"
+"Файл должен иметь расширение .fsa"
+
+msgctxt "DialogDIR|Die Sicherung des Verzeichnisses war erfolgreich.\n"
+msgid "The backup of the directory was successful.\n"
+msgstr "Сохранение прошло успешно.\n"
+
+msgctxt "DialogDIR| Dateien, "
+msgid " Files, "
+msgstr " файлов, "
+
+msgctxt "DialogDIR| Verzeichnisse und "
+msgid " directories, and "
+msgstr " каталог и "
+
+msgctxt ""
+"DialogDIR| Links wurden nicht korrekt gesichert. Die Sicherung der "
+"Verzeichnisse war nur teilweise erfolgreich\n"
+msgid ""
+" Links were not backed properly. The backup of the directories was only "
+"partially successful\n"
+msgstr "Ссылки сохранены некорректно, сохранение каталога было неполным\n"
+
+msgctxt "DialogDIR|Die Wiederherstellung des Verzeichnisses war erfolgreich.\n"
+msgid "The restoring of the directory was successful.\n"
+msgstr "Восстановление каталога прошло успешно.\n"
+
+msgctxt "DialogDIR| Dateien, "
+msgid " files, "
+msgstr " файлов "
+
+#~ msgctxt "DialogDIR| Dateien, "
+#~ msgid " Files,"
+#~ msgstr " Файлов, "
+
+msgctxt ""
+"DialogDIR| Links wurden nicht korrekt wiederhergestellt. Die "
+"Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich\n"
+msgid ""
+" links were not correctly restored. The restoring of the lists was only "
+"partially successful"
+msgstr ""
+" ссылки восстановлены некорректно. Произошло не полное восстановление\n"
+
+msgctxt "DialogDIR|Sie haben ein falsches Passwort eingegeben.\n"
+msgid "You have entered an incorrect password.\n"
+msgstr "Ошибка авторизации."
+
+msgctxt ""
+"DialogDIR|Sie haben versucht ein Verzeichnis wiederherzustellen. Die "
+"gewählte Datei kann nur Partitionen wiederherstellen.\n"
+msgid ""
+"You have tried to restore a directory. The selected file can only restore "
+"partitions.\n"
+msgstr ""
+"Вы пытаетесь восстановить каталог. \n"
+"Выбранный образ только для восстановления раздела."
+
+msgctxt ""
+"DialogDIR|Fehler in fsarchiver. Das Verzeichnis kann nicht wiederhergestellt "
+"werden!!\n"
+msgid "Error in fsarchiver. The directory can not be restored!"
+msgstr "Ошибка в программе. Каталог не может быть восстановлен!"
+
+msgctxt "DialogDIR|"
+msgid "Hinweis"
+msgstr "Внимание"
+
+msgctxt ""
+"DialogDIR|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel "
+"ein\n"
+msgid "The partition is encrypted. Please enter the key"
+msgstr "Раздел зашифрован. Введите ключ"
+
+msgctxt "DialogDIR|Ja"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "DialogDIR|Nein"
+msgid "No"
+msgstr "Нет"
+
+msgctxt ""
+"DialogDIR|Wollen Sie wirklich die Sicherung oder Wiederherstellung der "
+"Verzeichnisse beenden?"
+msgid "Do you want really break the save or restore from the folder?"
+msgstr "Вы хотите прервать операцию сохранения или восстановления каталога?"
+
+msgctxt ""
+"DialogDIR|Fehler! Das Verzeichnis wurde nur teilweise wiederhergestellt. \n"
+msgid "Error!  The restoring of the folder was only partially successful!"
+msgstr "Ошибка! Каталог был восстановлен частчно!"
+
+msgctxt "DialogDIR|Sie haben ein falsches Passwort eingegeben. \n"
+msgid "You have entered an incorrect password."
+msgstr "Ошибка авторизации."
+
+msgctxt ""
+"DialogDIR|Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!\n"
+msgid "The backup of the folder was aborted by the user!\n"
+msgstr "Сохранение каталога было прервано пользователем!\n"
+
+msgctxt ""
+"DialogDIR|Die Wiederherstellung des Verzeichnisses wurde vom Benutzer "
+"abgebrochen!\n"
+msgid "The restore of the folder was break by user!\n"
+msgstr "Восстановление каталога было прервано пользователем!\n"
+
+msgctxt "DialogDIR| Verzeichnisse, "
+msgid "  directories, "
+msgstr "   каталогов, "
+
+msgctxt "DialogDIR| Links und "
+msgid "  links and "
+msgstr "  ссылок и "
+
+msgctxt "DialogDIR| spezielle Daten wurden gesichert."
+msgid " specials have been backed."
+msgstr " специальных файлов было сохранено."
+
+msgctxt "DialogDIR| spezielle Daten wurden wieder hergestellt."
+msgid " specials have been restored."
+msgstr " специальных файлов было восстановлено."
+
+#, fuzzy
+msgctxt "DialogDIR| Verzeichnisse, "
+msgid " directories, "
+msgstr " Каталоги, "
+
+#, fuzzy
+msgctxt "DialogDIR| Links und "
+msgid " links and "
+msgstr " ссылок и "
+
+#, fuzzy
+msgctxt "DialogDIR| Dateien, "
+msgid " files,"
+msgstr " файлов, "
+
+#~ msgctxt "DialogMBR|MBR sichern"
+#~ msgid "MBR save"
+#~ msgstr "Сохранение MBR"
+
+#~ msgctxt "DialogMBR|MBR zurückschreiben"
+#~ msgid "MBR restore"
+#~ msgstr "Восстановление MBR"
+
+msgctxt "DialogMBR|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+#~ msgctxt "DialogMBR|Der MBR wurde erfolgreich gesichert.\n"
+#~ msgid "The MBR was successfully backed up.\n"
+#~ msgstr "MBR успешно сохранён."
+
+#~ msgctxt "DialogMBR|Der MBR wurde nicht gesichert.\n"
+#~ msgid "The MBR has not been backeed.\n"
+#~ msgstr "MBR не был записан.\n"
+
+msgctxt ""
+"DialogMBR|Vorsicht: Wollen Sie wirklich den MBR komplett beziehungsweise "
+"teilweise zurückschreiben?\n"
+msgid ""
+"Caution: If you really want to to write back the MBR completely or "
+"partially?\n"
+msgstr " Внимание !  Вы хотите полностью или частично перезаписать MBR ?"
+
+msgctxt ""
+"DialogMBR|Der Bootloaderbereich wurde erfolgreich wieder hergestellt.\n"
+msgid "The Boot Loader section is successful return.\n"
+msgstr "Загрузочная запись была успешно перезаписана.\n"
+
+msgctxt "DialogMBR|Der Bootloaderbereich wurde nicht wieder hergestellt.\n"
+msgid "The boot loader area was not restored.\n"
+msgstr "Загрузочная область не была восстановлена.\n"
+
+msgctxt ""
+"DialogMBR|Die Partitionstabelle wurde erfolgreich wieder hergestellt.\n"
+msgid "The partition table is successful return."
+msgstr "Таблица разделов была успешна записана."
+
+msgctxt "DialogMBR|Die Partitionstabelle wurde nicht wieder hergestellt.\n"
+msgid "The partition table was not restored.\n"
+msgstr "Таблтца разделов не восстановлена.\n"
+
+msgctxt "DialogMBR|Der MBR wurde erfolgreich wieder hergestellt.\n"
+msgid "The MBR is successful return.\n"
+msgstr "MBR была успешно восстановлена.\n"
+
+msgctxt "DialogMBR|Der MBR wurde nicht wieder hergestellt.\n"
+msgid "The MBR is not restored.\n"
+msgstr "MBR не была восстановлена.\n"
+
+msgctxt ""
+"DialogMBR|Vorsicht: Wollen Sie wirklich den verborgenen Bereich "
+"zurückschreiben? \n"
+msgid "Caution: If you really want to to write back the secret field?\n"
+msgstr "Внимание ! Вы хотите перезаписать скрытую область MBR?\n"
+
+msgctxt ""
+"DialogMBR|Der verborgene Bereich wurde erfolgreich wieder hergestellt.\n"
+msgid "The hidden area is successful return.\n"
+msgstr "Скрытая область успешно перезаписана.\n"
+
+msgctxt "DialogMBR|Der verborgene Bereich wurde nicht wieder hergestellt.\n"
+msgid "The hidden area was not restored.\n"
+msgstr "Скрытая область не была восстановлена.\n"
+
+msgctxt ""
+"DialogMBR|Das Ende des verborgenen Bereiches der 1. Partition konnte nicht "
+"ausgelesen werden. Es werden nur 512 Bytes gesichert.\n"
+msgid ""
+"The end of hidden area of the 1st Partition could not be read. Only 512 "
+"bytes are saved."
+msgstr ""
+"Конец скрытой области первого раздела прочитан не полностью. Сохранены "
+"только первые 512 байт."
+
+#~ msgctxt "DialogMBR|Sie müssen die MBR Sicherungsdatei auswählen.\n"
+#~ msgid "You must choose the MBR file\n"
+#~ msgstr "Выберите файл с записанным MBR"
+
+msgctxt "DialogMBR|,  die gesicherte Festplatte ist aber "
+msgid ", the saved hard drive is "
+msgstr " , диск для сохранения "
+
+msgctxt "DialogMBR| Wollen Sie fortfahren?"
+msgid " Are you sure?"
+msgstr " Вы уверены?"
+
+msgctxt "DialogMBR|Sie müssen ein Verzeichnis auswählen\n"
+msgid "You must select a directory"
+msgstr "Выберите каталог"
+
+msgctxt ""
+"DialogMBR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis "
+"auswählen\n"
+msgid "You have selected a file. You must select a directory.\n"
+msgstr "Вы выбрали файл. Выберите каталог.\n"
+
+#~ msgctxt ""
+#~ "DialogMBR|Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR "
+#~ "Sicherungsdatei auswählen\n"
+#~ msgid "You have selected a directory. You must select the MBR backup file\n"
+#~ msgstr "Вы выбрали каталог. Выберите файл сохранения MBR\n"
+
+msgctxt ""
+"DialogMBR|Sie haben eventuell eine falsche Festplatte ausgewählt. Die "
+"wiederherzustellende Festplatte ist "
+msgid "You may have the wrong disk is selected. The restore disk is "
+msgstr "Вы неправильно выбрали диск. Восстанавливаемый диск "
+
+msgctxt ""
+"DialogMBR|Sie haben eventuell eine falsche Datei ausgewählt. Der "
+"wiederherzustellende verborgene Bereich hat eine Größe von"
+msgid ""
+"You may have a wrong file selected. Restore the hidden field has a size of "
+msgstr "Вы неправильно выбрали файл. Размер восстанавливаемой области "
+
+msgctxt "DialogMBR| Byte. Der verborgene Bereich von der Festplatte "
+msgid " bytes. The hidden area of the disk "
+msgstr " байт. Скрытая область диска "
+
+msgctxt "DialogMBR| hat eine Größe von "
+msgid " has a size of "
+msgstr " имеет размер "
+
+msgctxt "DialogMBR| Byte. Wollen Sie fortfahren?"
+msgid " bytes. Are you sure?"
+msgstr " байт. Продолжать?"
+
+#~ msgctxt ""
+#~ "DialogMBR|Sie haben keine MBR Sicherungsdatei ausgewählt. Name oder Größe "
+#~ "ist nicht korrekt\n"
+#~ msgid "You have no MBR backup file selected. Name or size is not correct\n"
+#~ msgstr " Это не файл восстановления MBR. Имя или размер его не корректны\n"
+
+#, fuzzy
+msgctxt "DialogMBR|Ja"
+msgid "Yes"
+msgstr "Да"
+
+#, fuzzy
+msgctxt "DialogMBR|Nein"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "DialogMBR|MBR/GPT sichern"
+msgid "MBR/GPT save"
+msgstr ""
+
+msgctxt "DialogMBR|MBR/GPT zurückschreiben"
+msgid "MBR/GPT restore"
+msgstr ""
+
+msgctxt "DialogMBR|MBR/GPT wurde erfolgreich gesichert.\n"
+msgid "MBR/GPT was successfully backed up.\n"
+msgstr ""
+
+msgctxt "DialogMBR|MBR/GPT wurde nicht gesichert.\n"
+msgid "MBR/GPT has not been backeed.\n"
+msgstr ""
+
+msgctxt ""
+"DialogMBR|Vorsicht: Wollen Sie wirklich die GUID Partitionstabelle "
+"zurückschreiben?\n"
+msgid ""
+"Caution: If you really want to to write back the GUID partition table?\n"
+msgstr ""
+
+msgctxt ""
+"DialogMBR|Die GUID Partitionstabelle wurde erfolgreich wieder hergestellt.\n"
+msgid "The GUID partition table is successful return.\n"
+msgstr ""
+
+msgctxt ""
+"DialogMBR|Die GUID Partitionstabelle wurde nicht wieder hergestellt.\n"
+msgid "The GUID partition table was not restored.\n"
+msgstr ""
+
+msgctxt "DialogMBR|Sie müssen die MBR/GPT Sicherungsdatei auswählen.\n"
+msgid "You must choose the MBR/GPT file\n"
+msgstr ""
+
+msgctxt ""
+"DialogMBR|Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR/GPT "
+"Sicherungsdatei auswählen\n"
+msgid ""
+"You have selected a directory. You must select the MBR/GPT backup file\n"
+msgstr ""
+
+#, fuzzy
+msgctxt "DialogMBR|Sie müssen eine MBR Sicherungsdatei auswählen.\n"
+msgid "You must choose the MBR file\n"
+msgstr "Выберите файл с записанным MBR"
+
+msgctxt "DialogMBR|Sie müssen eine GPT Sicherungsdatei auswählen.\n"
+msgid "You must choose the GPT file\n"
+msgstr ""
+
+msgctxt "DialogNet|"
+msgid "lzo"
+msgstr "lzo"
+
+msgctxt "DialogNet|"
+msgid "gzip fast"
+msgstr "gzip fast"
+
+msgctxt "DialogNet|"
+msgid "gzip standard"
+msgstr "gzip standard"
+
+msgctxt "DialogNet|"
+msgid "qzip best"
+msgstr "qzip best"
+
+msgctxt "DialogNet|"
+msgid "bzip2 fast"
+msgstr "bzip2 fast"
+
+msgctxt "DialogNet|"
+msgid "bzip2 good"
+msgstr "bzip2 good"
+
+msgctxt "DialogNet|"
+msgid "lzma fast"
+msgstr "lzma fast"
+
+msgctxt "DialogNet|"
+msgid "lzma medium"
+msgstr "lzma medium"
+
+msgctxt "DialogNet|"
+msgid "lzma best"
+msgstr "lzma best"
+
+msgctxt "DialogNet|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+#~ msgctxt "DialogNet|Bitte wählen Sie das Sicherungsverzeichnis aus.\n"
+#~ msgid "Please, select the saved directory..\n"
+#~ msgstr "Выберите сохранённый каталог.\n"
+
+msgctxt "DialogNet|Bitte wählen Sie die zu sichernde Partition aus.\n"
+msgid "Please, select the partition to be saved.\n"
+msgstr "Выберите каталог для сохранения.\n"
+
+msgctxt "DialogNet|Bitte wählen Sie den Dateinamen der Sicherung aus.\n"
+msgid "Please, select the filename of the backup.\n"
+msgstr "Выберите имя файла образа восстановления.\n"
+
+msgctxt ""
+"DialogNet|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis "
+"auswählen\n"
+msgid "You have selected a file. You must select a directory\n"
+msgstr "Выбран файл. Выберите каталог\n"
+
+msgctxt ""
+"DialogNet|Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine "
+"Live-Sicherung durchführen?"
+msgid ""
+"The system partition to be saved is mounted. Do you want to do a live backup?"
+msgstr "Ситемный раздел смонтирован. Вы хотите сохранять его вживую?"
+
+msgctxt ""
+"DialogNet|Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine "
+"Live-Sicherung durchführen?"
+msgid ""
+"The home partition to be saved is mounted. Do you want to do a live backup?"
+msgstr " Домашний каталог смонтирован. Вы хотите сохранять раздел вживую?"
+
+msgctxt "DialogNet|Die Partition "
+msgid "The partition "
+msgstr "Раздел "
+
+msgctxt ""
+"DialogNet| kann nicht ausgehängt werden. Das Programm wird abgebrochen\n"
+msgid "can not be unmounted. The program is terminated\n"
+msgstr " нельзя отмонтировать. Программа прервана"
+
+msgctxt "DialogNet|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein\n"
+msgid "The key length must be between 6 and 64 characters\n"
+msgstr "Длина ключа должна быть от 6 до 64 символов\n"
+
+msgctxt "DialogNet|Die Partitionsdatei "
+msgid "The partition file "
+msgstr "Файл сохранения раздела "
+
+msgctxt ""
+"DialogNet| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt\n"
+msgid "already exists. The backup is not performed\n"
+msgstr " уже существует. Сохранение не выполнено"
+
+msgctxt "DialogNet|Die Sicherung wurde vom Benutzer abgebrochen\n"
+msgid "The backup was aborted by the user\n"
+msgstr "Сохранеие было прервано пользователем\n"
+
+msgctxt ""
+"DialogNet|Es wurde kein Schlüssel für die Entschlüsselung angegeben.\n"
+msgid "No key was given for the decryption\n"
+msgstr " Ключ шифрования не подходит\n"
+
+msgctxt "DialogNet|Bitte wählen Sie die zurück zu schreibende Partition aus.\n"
+msgid "Please, select the partition to be written back.\n"
+msgstr "Выберите раздел для записи образа.\n"
+
+msgctxt ""
+"DialogNet|Sie haben eine falsche Wiederherstellungsdatei ausgesucht "
+"ausgesucht \n"
+"Die Dateiendung muss .fsa sein"
+msgid ""
+"You have chosen the wrong recovery file selected.\n"
+"The files should end with. fsa be"
+msgstr "Имя файла образа должно иметь расширение .fsa"
+
+#~ msgctxt ""
+#~ "DialogNet|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei "
+#~ "auswählen\n"
+#~ msgid "You have selected a directory. You must select a file\n"
+#~ msgstr "Вы выбрали каталог. Надо выбрать файл"
+
+msgctxt ""
+"DialogNet|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel "
+"ein\n"
+msgid "The partition is encrypted. Please enter the key\n"
+msgstr "Раздел зашифрован. Введите ключ\n"
+
+msgctxt "DialogNet|Sie haben ein falsches Passwort eingegeben. \n"
+msgid "They have entered a wrong password.\n"
+msgstr "Ошибка авторизации.\n"
+
+msgctxt "DialogNet|Die wiederherzustellende Partition "
+msgid "Partition to restore the "
+msgstr "Восстанавливаемый раздел "
+
+msgctxt "DialogNet| stimmt nicht mit der gesicherten "
+msgid " does not coincide with the saved  "
+msgstr " не совпадает с сохранённым "
+
+msgctxt ""
+"DialogNet| überein. Wollen Sie trotzdem die Wiederherstellung durchführen?"
+msgid "Do you want to continue restore?"
+msgstr " Продолжать восстановление?"
+
+msgctxt "DialogNet|Das Zurückschreiben wurde vom Benutzer abgebrochen\n"
+msgid "The restore was canceled by user\n"
+msgstr "Восстановление было прервано пользователем\n"
+
+msgctxt ""
+"DialogNet|Die wiederherzustellende Systempartition ist eingehängt und kann "
+"nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD\n"
+msgid ""
+"To restore system partition is mounted and can not be restored. Please use a "
+"live CD\n"
+msgstr ""
+"Восстанавливаемы системный раздел смонтирован и не может быть восстановлен\n"
+"Используйте Live-CD\n"
+
+msgctxt ""
+"DialogNet|Die wiederherzustellende Homepartition ist eingehängt und kann "
+"nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD\n"
+msgid ""
+"The restored home partition is mounted and can not be restored. Please use a "
+"live CD\n"
+msgstr ""
+"Восстанавливаемы домашний каталог смонтирован и не может быть восстановлен.\n"
+"Используйте Live-CD"
+
+msgctxt "DialogNet|Die Partition "
+msgid "The partition"
+msgstr "Раздел "
+
+#~ msgctxt "DialogNet|Sicherungsverzeichnis"
+#~ msgid "Backup directory"
+#~ msgstr "Каталог восстановления"
+
+msgctxt "DialogNet|Partition sichern"
+msgid "Save partition"
+msgstr "Сохранить раздел"
+
+msgctxt ""
+"DialogNet| Links wurden nicht korrekt wiederhergestellt. Die "
+"Wiederherstellung der Partition war nur teilweise erfolgreich.\n"
+msgid ""
+" links were not recovered correctly. The recovery of the partition was only "
+"partly successful.\n"
+msgstr ""
+" ссылок было не корректно восстановлено. Восстановление было выполнено "
+"частично.\n"
+
+msgctxt ""
+"DialogNet|Sie haben versucht eine Partition wiederherzustellen. Die gewählte "
+"Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das "
+"Programm neu.\n"
+msgid ""
+"You tried to restore a partition. The selected file can only restore "
+"directories. Please restart the program.\n"
+msgstr ""
+"Вы пытаетесь восстановить раздел. Выбранный файл только для восстановления "
+"каталогов\n"
+"Перезапустите программу заново."
+
+#~ msgctxt "DialogNet|Sicherungsdatei"
+#~ msgid "Backup file"
+#~ msgstr "Файл образа"
+
+msgctxt ""
+"DialogNet|Sicherung\n"
+"verschlüsseln. Schlüssel:"
+msgid ""
+"Encrypt\n"
+"backup. key:"
+msgstr ""
+"Ключ \n"
+"шифрования:"
+
+msgctxt "DialogNet|Partition zurückschreiben"
+msgid "Partition restore"
+msgstr "Восстановить раздел"
+
+msgctxt ""
+"DialogNet|Sicherung\n"
+"entschlüsseln. Schlüssel"
+msgid ""
+"Decrypt\n"
+"backup. key:"
+msgstr "Ключ шифрования:"
+
+msgctxt "DialogNet|Die Partition wurde erfolgreich gesichert.\n"
+msgid "The partition has been backed up successfully.\n"
+msgstr "Раздел был сохранён успешно.\n"
+
+msgctxt "DialogNet| Dateien, "
+msgid " files, "
+msgstr " файлов, "
+
+msgctxt ""
+"DialogNet|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die "
+"Partition verschlüsselt?\n"
+msgid ""
+"The partition type is not supported. Maybe the partition is encrypted?\n"
+msgstr "Тип раздела не поддерживается. Возможно раздел зашифрован?\n"
+
+msgctxt "DialogNet| Dateien, "
+msgid " files"
+msgstr " файлов, "
+
+msgctxt ""
+"DialogNet| Links wurden nicht korrekt gesichert. Die Sicherung der Partition "
+"war nur teilweise erfolgreich\n"
+msgid ""
+" links were not saved properly. The backup of the partition was only "
+"partially successful\n"
+msgstr " ссылок не было корректно сохранено. Сохранени прошло часично\n"
+
+msgctxt "DialogNet| Verzeichnisse und "
+msgid " directories and "
+msgstr " каталогов и "
+
+msgctxt "DialogNet|Sie haben ein falsches Passwort eingegeben. \n"
+msgid "You have entered an incorrect password.\n"
+msgstr "Ошибка авторизации."
+
+msgctxt "DialogNet|Ja"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "DialogNet|Nein"
+msgid "No"
+msgstr "Нет"
+
+msgctxt ""
+"DialogNet|Wollen Sie wirklich die Sicherung oder Wiederherstellung der "
+"Partition beenden?"
+msgid "Do you want really break the save or restore from the partition?"
+msgstr "ВыВы хотите прервать операцию сохранения или восстановления раздела?"
+
+msgctxt ""
+"DialogNet|Die Sicherung der Partition wurde vom Benutzer abgebrochen!\n"
+msgid "The backup of the partition was aborted by the user!\n"
+msgstr "Сохранение раздела было прервано пользователем!\n"
+
+msgctxt ""
+"DialogNet|Die Partition die wiederhergestellt werden soll, ist eingehängt. "
+"Sie muss zunächst ausgehängt werden!\n"
+msgid ""
+"cannot restore an archive to a partition which is mounted, unmount it first "
+"\n"
+msgstr ""
+"Нельзя восстанавливать смонтированный раздел. Вначале его размонтируйте"
+
+msgctxt ""
+"DialogNet|Die Wiederherstellung der Partition wurde vom Benutzer "
+"abgebrochen!\n"
+msgid "The restore of the partition was break by user!\n"
+msgstr "Восстановление раздела было прервано пользователем!\n"
+
+#~ msgctxt "DialogNet| Verzeichnisse, "
+#~ msgid "  directories, "
+#~ msgstr "  каталогов, "
+
+#~ msgctxt "DialogNet| Links und "
+#~ msgid "  links and "
+#~ msgstr "  ссылок и "
+
+#~ msgctxt "DialogNet| Spezielle Daten wurden gesichert."
+#~ msgid " specials have been backed."
+#~ msgstr " специальная информация была сохранена."
+
+#, fuzzy
+msgctxt "DialogNet|Die Partition wurde erfolgreich wieder hergestellt.\n"
+msgid "The partition is successful back.\n"
+msgstr "Раздел был  успешно сохранён.\n"
+
+msgctxt "DialogNet| spezielle Daten wurden wieder hergestellt."
+msgid " specials have been restored."
+msgstr "  специальных файлов было восстановлено."
+
+#~ msgctxt ""
+#~ "DialogNet|Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm "
+#~ "kann nicht fortgesetzt werden\n"
+#~ msgid "Please, select the partition to be saved.\n"
+#~ msgstr "Выберите каталог для сохранения.\n"
+
+#, fuzzy
+msgctxt "DialogNet|Der Netzwerkrechner "
+msgid "The network computer "
+msgstr "Сеть  компьютеров "
+
+#, fuzzy
+msgctxt ""
+"DialogNet| konnte nicht eingebunden werden. Das Programm wird abgebrochen\n"
+msgid " could not be integrated. The program is aborted\n"
+msgstr " не может быть подключён. Прграмма будет прервана\n"
+
+#~ msgctxt "DialogNet|Bitte wählen Sie das Sicherungsverzeichnis aus.\n"
+#~ msgid "Please, select the saved directory.\n"
+#~ msgstr "Выберите сохранённый каталог.\n"
+
+#~ msgctxt ""
+#~ "DialogNet|Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm "
+#~ "kann nicht fortgesetzt werden.\n"
+#~ msgid "Can not find a shared directory. The program is terminated.\n"
+#~ msgstr "Не удается найти общий каталог. Программа прервана."
+
+#, fuzzy
+msgctxt "DialogNet| Verzeichnisse, "
+msgid " directories, "
+msgstr "   каталогов, "
+
+#, fuzzy
+msgctxt "DialogNet| Links und "
+msgid " links and "
+msgstr "  ссылок и "
+
+#, fuzzy
+msgctxt "DialogNet| spezielle Daten wurden gesichert."
+msgid " specials have been backed."
+msgstr " специальных файлов было сохранено."
+
+#~ msgctxt "DialogNet|Bitte wählen Sie einen freigegebenen Ordner aus.\n"
+#~ msgid "Please, select a shared folder.\n"
+#~ msgstr "Пожалуйста, выберите папку общего доступа."
+
+#, fuzzy
+msgctxt "DialogNet| Links "
+msgid " links "
+msgstr " ссылок "
+
+#, fuzzy
+msgctxt ""
+"DialogNet| spezielle Daten und der Partition Boot Sektor wurden wieder "
+"hergestellt."
+msgid " specials and the Partition Boot Record have been restored."
+msgstr " специальных и записи загрузочного раздела файлов было восстановлено."
+
+msgctxt ""
+"DialogNet|Es ist eine Datei mit dem Inhalt des Partition Boot Sektors "
+"vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?"
+msgid ""
+"There is a file with the contents of the partition boot sector present. Do "
+"you want to perform the restoration of the PBR?"
+msgstr ""
+
+msgctxt ""
+"DialogNet|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID "
+"wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten."
+msgid ""
+"If the existing btrfs partition to be formatted? The new UUID is defined "
+"here. If you choose <no>, the UUID remains preserved."
+msgstr ""
+
+msgctxt "DialogNet|Bitte wählen Sie einen Ordner aus.\n"
+msgid "Please, select a folder.\n"
+msgstr ""
+
+msgctxt ""
+"DialogNet|Wenn Sie keine SSH-Authentifizierung eingerichtet haben, müssen "
+"Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis "
+"weiterhin sehen? Sie können dies in den Basiseinstellungen ändern"
+msgid ""
+"If you have not set up SSH authentication, you must now enter the password "
+"in the terminal. Should this continue to be displayed? You can change this "
+"in the basic settings."
+msgstr ""
+
+msgctxt "DialogNet|"
+msgid "Name"
+msgstr ""
+
+msgctxt "DialogNet|Mit Samba wurde kein freigegebenes Verzeichnis gefunden.\n"
+msgid "Can not find a shared directory with the Samba Protokoll.\n"
+msgstr ""
+
+msgctxt ""
+"DialogNet|Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) "
+"zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten "
+"Terminal müssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie "
+"das Passwort für den Zugriff auf den Server ein  und 3.verlassen Sie den "
+"Server mit dem Befehl exit.\n"
+msgid ""
+"When you first contact the computer with ssh, you must do the following:  In "
+"a terminal enter these commands: 1.In the open terminal you must confirm the "
+"RSA key fingerprint with yes. 2.Enter the password for accessing the server "
+"and 3.leave the server with the command exit.\n"
+msgstr ""
+
+msgctxt ""
+"DialogNet|Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis "
+"gefunden.\n"
+msgid "Can not find a shared directory with the NFS Protokoll.\n"
+msgstr ""
+
+msgctxt ""
+"DialogNet|Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals "
+"oder mit einem anderen Netzwerkprotokoll.\n"
+msgid ""
+"The SSH server is not reachable. Try again or with another network "
+"protocol.\n"
+msgstr ""
+
+msgctxt "DialogSetting|Englisch"
+msgid "English"
+msgstr "Englisch"
+
+msgctxt "DialogSetting|Deutsch"
+msgid "German"
+msgstr "Deutsch"
+
+msgctxt "DialogSetting|Russisch"
+msgid "Russia"
+msgstr "Русский"
+
+msgctxt "DialogSetting|"
+msgid "lzo"
+msgstr "lzo"
+
+msgctxt "DialogSetting|"
+msgid "gzip fast"
+msgstr "быстрый gzip"
+
+msgctxt "DialogSetting|"
+msgid "gzip standard"
+msgstr "стандартный gzip"
+
+msgctxt "DialogSetting|"
+msgid "qzip best"
+msgstr "наилучший gzip"
+
+msgctxt "DialogSetting|"
+msgid "bzip2 fast"
+msgstr "быстрый bzip2"
+
+msgctxt "DialogSetting|"
+msgid "bzip2 good"
+msgstr "стандартный bzip2"
+
+msgctxt "DialogSetting|"
+msgid "lzma fast"
+msgstr "быстрый lzma"
+
+msgctxt "DialogSetting|"
+msgid "lzma medium"
+msgstr "станартный lzma"
+
+msgctxt "DialogSetting|"
+msgid "lzma best"
+msgstr "лучший lzma"
+
+msgctxt "DialogSetting|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+msgctxt ""
+"DialogSetting|Die Einstellungen wurden gespeichert. Bei geänderter "
+"Spracheinstellung muss das Programm neu gestartet werden.\n"
+msgid ""
+"The settings have been saved. Be restarted, the program modified the "
+"language setting."
+msgstr ""
+"Выбранные настройки изменены. Для изменения языка программы, перезапустите "
+"её."
+
+msgctxt "DialogSetting|"
+msgid "SSH"
+msgstr ""
+
+msgctxt "DialogSetting|"
+msgid "Samba"
+msgstr ""
+
+msgctxt "DialogSetting|"
+msgid "NFS"
+msgstr ""
+
+msgctxt "DialogSetting|Spanisch"
+msgid "Español"
+msgstr ""
+
+#. Partitionen über ein Netzwerk sichern/zurückschreiben
+msgctxt "Dialog_Net|"
+msgid "Backup/restore partition over network"
+msgstr "Работа с разделами по сети"
+
+msgctxt "Dialog_Net|"
+msgid ""
+"Number of processors\n"
+"cores for to be used fsarchiver:"
+msgstr ""
+"Число потоков\n"
+"решения:"
+
+msgctxt "Dialog_Net|"
+msgid ""
+"Compression\n"
+"setting:"
+msgstr ""
+"Стандарт\n"
+"сжатия:"
+
+#. Netzrechnername:
+#~ msgctxt "Dialog_Net|"
+#~ msgid ""
+#~ "Network computer \n"
+#~ " name:"
+#~ msgstr ""
+#~ "Сетевое имя\n"
+#~ "компьютера:"
+
+#. Sicherungsverzeichnis:
+#~ msgctxt "Dialog_Net|"
+#~ msgid "Backup directory:"
+#~ msgstr "Каталог сохранения:"
+
+#~ msgctxt "Dialog_Net|"
+#~ msgid "Notes to the backup"
+#~ msgstr "Запись текстового описания образа"
+
+msgctxt "Dialog_Net|"
+msgid "available backup overwrite"
+msgstr "Разрешить перезапись образа"
+
+msgctxt "Dialog_Net|"
+msgid "S"
+msgstr "S"
+
+#. vorhandene Partitionen:
+msgctxt "Dialog_Net|"
+msgid "Existing partitions:"
+msgstr "Найденные разделы:"
+
+msgctxt "Dialog_Net|"
+msgid ""
+"Encrypt \n"
+"backup key"
+msgstr "Ключ шифрования"
+
+#. Partition wiederherstellen
+msgctxt "Dialog_Net|"
+msgid "Partition restore"
+msgstr "Восстановить раздел"
+
+#. vorgesehene Aktion:
+msgctxt "Dialog_Net|"
+msgid "Proposed action:"
+msgstr "Возможные действия:"
+
+#. Partition mit * fsArchiver sichern:
+msgctxt "Dialog_Net|"
+msgid ""
+"Partition save \n"
+"with fsarchiver"
+msgstr ""
+"Сохранение \n"
+"раздела"
+
+#. Partition mit fs-Archiver * zurückschreiben
+msgctxt "Dialog_Net|"
+msgid ""
+"Restore partition \n"
+"with fsarchiver"
+msgstr ""
+"Восстановление\n"
+"раздела"
+
+msgctxt "Dialog_Net|"
+msgid "minutes"
+msgstr "минут"
+
+msgctxt "Dialog_Net|"
+msgid "seconds"
+msgstr "секунд"
+
+#. Partition sichern
+msgctxt "Dialog_Net|"
+msgid "save partition"
+msgstr "Сохранить раздел"
+
+msgctxt "Dialog_Net|"
+msgid "Stock Split on DVD size"
+msgstr "Разбиение для DVD"
+
+#. Dateiname der Sicherung:
+msgctxt "Dialog_Net|"
+msgid "Name the backup file:"
+msgstr "Имя образа восстановления:"
+
+#. Beenden
+msgctxt "Dialog_Net|"
+msgid "Exit"
+msgstr "Выход"
+
+msgctxt "Dialog_Net|"
+msgid "n"
+msgstr "n"
+
+msgctxt "Dialog_Net|"
+msgid "elapsed time:"
+msgstr "Прошедшее время:"
+
+msgctxt "Dialog_Net|"
+msgid ""
+"On the number saved\n"
+"Files/directories:"
+msgstr ""
+"Число сохранённых\n"
+" файлов/каталогов:"
+
+msgctxt "Dialog_Net|"
+msgid ""
+"already saved \n"
+"files/directories:"
+msgstr ""
+"Сохранено\n"
+"файлов/каталогов:"
+
+msgctxt "Dialog_Net|"
+msgid "remaining time"
+msgstr "оставшиеся время"
+
+#. Netzrechnername:
+#, fuzzy
+msgctxt "Dialog_Net|"
+msgid "Network computer  name:"
+msgstr "Сетевое имя компьютера:"
+
+#. Name der Sicherungsdatei:
+#, fuzzy
+msgctxt "Dialog_Net|"
+msgid "Restore file name:"
+msgstr "Восстановление имени файла:"
+
+#. Freigegebene Ordner:
+#~ msgctxt "Dialog_Net|"
+#~ msgid "Shared folders:"
+#~ msgstr "общие папки:"
+
+#. Bitte wählen Sie einen freigegebene Ordner aus:
+#~ msgctxt "Dialog_Net|"
+#~ msgid "Please select a shared folder."
+#~ msgstr "Пожалуйста, выберите папку общего доступа."
+
+#, fuzzy
+msgctxt "Dialog_Net|"
+msgid "Notes to  the backup"
+msgstr "Запись текстового описания образа"
+
+#. PBR sichern
+#, fuzzy
+msgctxt "Dialog_Net|"
+msgid "Save PBR"
+msgstr "Сохранение PBR"
+
+msgctxt "Dialog_Net|"
+msgid ""
+"<html><head/><body><p>Protocol for network transmission:</p></body></html>"
+msgstr ""
+
+#. Bitte wählen Sie einen freigegebene Ordner aus:
+msgctxt "Dialog_Net|"
+msgid "Please select the folder."
+msgstr ""
+
+msgctxt "Dialog_Net|"
+msgid "Select the partition to be backed up or restored."
+msgstr ""
+
+msgctxt "Dialog_Net|"
+msgid "Start the backup of a partition."
+msgstr ""
+
+msgctxt "Dialog_Net|"
+msgid "Start restore a partition."
+msgstr ""
+
+msgctxt "Dialog_Net|"
+msgid ""
+"Directory in which the partition is backed up or from the recovery file is "
+"removed."
+msgstr ""
+
+msgctxt "Dialog_Net|"
+msgid "Notes to the backup is written to a file."
+msgstr ""
+
+msgctxt "Dialog_Net|"
+msgid "Same backup files are overwritten without prior consultation."
+msgstr ""
+
+msgctxt "Dialog_Net|"
+msgid "PBR is first block of any bootable partition."
+msgstr ""
+
+#. Daten Netzwerk
+msgctxt "Eingabe_Net|"
+msgid "Data network"
+msgstr ""
+"Сетевые \n"
+"данные"
+
+#. Benutzername:
+msgctxt "Eingabe_Net|"
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#. Kennwort:
+msgctxt "Eingabe_Net|"
+msgid "Password:"
+msgstr "Пароль:"
+
+#. Daten speichern
+msgctxt "Eingabe_Net|"
+msgid "Save data"
+msgstr ""
+"Сохранение \n"
+"данных"
+
+#. Weiter
+msgctxt "Eingabe_Net|"
+msgid "Next"
+msgstr "Далее"
+
+#. Im Netz erreichbare Rechner:
+#~ msgctxt "Eingabe_Net|"
+#~ msgid "Achievable in the network computer:"
+#~ msgstr "Доступны компьютеры в сети:"
+
+msgctxt "Eingabe_Net|"
+msgid "n"
+msgstr "n"
+
+#. Kennwort anzeigen
+msgctxt "Eingabe_Net|"
+msgid "Show Password"
+msgstr ""
+"Показать \n"
+"пароль"
+
+#. Abbrechen
+msgctxt "Eingabe_Net|"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "Eingabe_Net|"
+msgid "Username and password are stored."
+msgstr ""
+
+#. Im Netz erreichbare Rechner:
+msgctxt "Eingabe_Net|"
+msgid "Achievable network computer:"
+msgstr ""
+
+#. Beschreibung der Sicherung
+msgctxt "FileDialog|"
+msgid "Description of the backup"
+msgstr "Параметры сохранения"
+
+#. Abbrechen
+msgctxt "FileDialog|"
+msgid "Cancel"
+msgstr "Отмена"
+
+#. Beschreibung der Sicherung:
+msgctxt "FileDialog|"
+msgid "Description of the backup:"
+msgstr "Параметры сохранения:"
+
+#. Partition sichern
+msgctxt "FileDialog|"
+msgid "Back partition"
+msgstr "Сохранить раздел"
+
+#~ msgctxt "FileDialog|"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+#~ "\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+#~ "type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+#~ "text-indent:0px;\"></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+#~ "\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+#~ "type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+#~ "text-indent:0px;\"></p></body></html>"
+
+msgctxt "FileDialog|Partition zurückschreiben"
+msgid "Partition restore"
+msgstr "Восстановить раздел"
+
+msgctxt "FileDialog|Partition sichern"
+msgid "Save partition"
+msgstr "Сохранить раздел"
+
+msgctxt "FileDialog|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+msgctxt ""
+"FileDialog|Die Hinweise zur Partition wurden nicht in eine Datei "
+"geschrieben.\n"
+msgid "Instructions for partition were not recorded written to the file.\n"
+msgstr "Инструкции для раздела не могут быть записаны в файл.\n"
+
+msgctxt "FileDialog|hallo"
+msgid "hello"
+msgstr "Привет"
+
+msgctxt "FileDialog|"
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-family:'Sans'; font-size:10pt;\"><br /></p></body></html>"
+msgstr ""
+
+msgctxt "MWindow|"
+msgid "qt4-fsarchiver"
+msgstr "qt4-fsarchiver"
+
+msgctxt "MWindow|"
+msgid "UUID: "
+msgstr "UUID:"
+
+msgctxt "MWindow|Partition zurückschreiben"
+msgid "Partition restore"
+msgstr "Восстановить раздел"
+
+msgctxt "MWindow|Sicherungsverzeichnis"
+msgid "Backup directory"
+msgstr "Дерево каталогов"
+
+msgctxt "MWindow|Partition sichern"
+msgid "Save partition"
+msgstr "Сохранить раздел"
+
+msgctxt "MWindow|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+msgctxt "MWindow|Bitte wählen Sie das Sicherungsverzeichnis aus.\n"
+msgid "Please select from the backup directory.\n"
+msgstr "Выберите сохранённый каталог.\n"
+
+msgctxt "MWindow|Bitte wählen Sie die zu sichernde Partition aus.\n"
+msgid "Please select the partition to be"
+msgstr "Выберите сохранённый раздел"
+
+msgctxt "MWindow|Bitte wählen Sie den Dateinamen der Sicherung aus.\n"
+msgid "Please select the file name of the backup.\n"
+msgstr "Виберите имя образа.\n"
+
+msgctxt ""
+"MWindow|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis "
+"auswählen\n"
+msgid "You have selected a file. You must select a directory\n"
+msgstr "Выбран файл. Выберите каталог\n"
+
+msgctxt ""
+"MWindow|Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine "
+"Live-Sicherung durchführen?"
+msgid ""
+"To back up the system partition is mounted. Do you want to do a live backup?"
+msgstr ""
+"Сохраняемый системный раздел смонтирован. Вы хотите сохранять раздел вживую?"
+
+msgctxt ""
+"MWindow|Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine "
+"Live-Sicherung durchführen?"
+msgid "To back up home partition is mounted. Do you want to do a live backup?"
+msgstr "Домашний каталог смонтирован. Вы хотите сохранять его вживую?"
+
+msgctxt "MWindow|Die Partition "
+msgid "The partition"
+msgstr "Раздел "
+
+msgctxt ""
+"MWindow| kann nicht ausgehängt werden. Das Programm wird abgebrochen\n"
+msgid "can not be unmounted. The program is terminated\n"
+msgstr " нельзя отмонтировать. Программа прервана"
+
+msgctxt "MWindow|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein\n"
+msgid "The key length must be between 6 and 64 characters\n"
+msgstr "Длина ключа должна быть от 6 до 64 символов\n"
+
+msgctxt "MWindow|Die Partitionsdatei"
+msgid "The partition file"
+msgstr "Файл раздела"
+
+msgctxt ""
+"MWindow| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt\n"
+msgid " already exists. The backup is not performed\n"
+msgstr " уже существует. Сохранение не выполнено"
+
+msgctxt "MWindow|Die Sicherung wurde vom Benutzer abgebrochen\n"
+msgid "The backup was aborted by the user\n"
+msgstr "Сохранеие было прервано пользователем\n"
+
+msgctxt "MWindow|Die Sicherung wird durchgeführt"
+msgid "The backup is performed"
+msgstr "Сохранение выполнено"
+
+msgctxt "MWindow|Es wurde kein Schlüssel für die Entschlüsselung angegeben.\n"
+msgid "There was no key to decrypt specified."
+msgstr "Ключ шифрования не подходит.\n"
+
+msgctxt "MWindow|Bitte wählen Sie die zurück zu schreibende Partition aus.\n"
+msgid "Please select from the writing back to partition.\n"
+msgstr " Выберите восстанавливаемый раздел.\n"
+
+msgctxt ""
+"MWindow|Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht "
+"\n"
+"Die Dateiendung muss .fsa sein"
+msgid ""
+"You have chosen the wrong recovery file selected. \n"
+"The files should end with. fsa be"
+msgstr "Имя файла образа должно иметь расширение .fsa"
+
+msgctxt ""
+"MWindow|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei "
+"auswählen\n"
+msgid "You have selected a directory. You must select a file\n"
+msgstr "Вы выбрали каталог. Надо выбрать файл"
+
+msgctxt ""
+"MWindow|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein\n"
+msgid "The partition is encrypted. Please enter the key"
+msgstr "Раздел зашифрован. Введите ключ"
+
+msgctxt "MWindow|Sie haben ein falsches Passwort eingegeben. \n"
+msgid "You have entered an incorrect password."
+msgstr "Ошибка авторизации."
+
+msgctxt "MWindow|Die Wiederherstellung wird durchgeführt"
+msgid "The restoring is performed"
+msgstr "Восстановление было выполнено"
+
+msgctxt "MWindow|Ja"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "MWindow|Nein"
+msgid "No"
+msgstr "Нет"
+
+msgctxt ""
+"MWindow| Links wurden nicht korrekt gesichert. Die Sicherung der Partition "
+"war nur teilweise erfolgreich.\n"
+msgid ""
+" links were not properly backed. The backup of the partition was only "
+"partially successful.\n"
+msgstr " ссылок не было корректно сохранено. Сохранени прошло частично.\n"
+
+#~ msgctxt ""
+#~ "MWindow| Links wurden nicht korrekt wiederhergestellt. Die "
+#~ "Wiederherstellung der Partition war nur teilweise erfolgreich.\n"
+#~ msgid ""
+#~ "  Links were not correctly restored. The recovery of the volume was only "
+#~ "partially successful."
+#~ msgstr ""
+#~ " ссылок не было корректно восстановлено. Восстановление было выполнено "
+#~ "частично.\n"
+
+msgctxt ""
+"MWindow|Sie haben versucht eine Partition wiederherzustellen. Die gewählte "
+"Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das "
+"Programm neu.\n"
+msgid ""
+"You have tried restore a partition. The selected file can only restore "
+"directories. Please restart the program.\n"
+msgstr ""
+"Вы пытаетесь восстановить раздел. Выбранный файл только для восстановления "
+"каталогов\n"
+"Перезапустите программу заново."
+
+msgctxt ""
+"MWindow|Das Programm muss mit Root-Rechten gestartet werden. Das Programm "
+"wird beendet.\n"
+msgid ""
+"The program must be run with root privileges. The program is terminated.\n"
+msgstr "Требуются права root. Программа будет прервана.\n"
+
+msgctxt "MWindow|Die Partition wurde erfolgreich gesichert.\n"
+msgid "The partition has been backed up successfully.\n"
+msgstr "Раздел был сохранён успешно.\n"
+
+msgctxt ""
+"MWindow|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die "
+"Partition verschlüsselt?\n"
+msgid ""
+"The partition type is not supported. Maybe the partition is encrypted?\n"
+msgstr "Тип раздела не поддерживается. Возможно раздел зашифрован?\n"
+
+msgctxt "MWindow| Dateien, "
+msgid " files, "
+msgstr " файлов "
+
+#~ msgctxt "MWindow| Verzeichnisse und "
+#~ msgid "  directories and "
+#~ msgstr " каталогов и "
+
+msgctxt "MWindow| Verzeichnisse und "
+msgid " directories and "
+msgstr " каталогов и "
+
+msgctxt "MWindow|Sie haben ein falsches Passwort eingegeben.\n"
+msgid "You have entered an incorrect password.\n"
+msgstr "Ошибка авторизации."
+
+msgctxt "MWindow|Sicherungsdateiname: "
+msgid "Backup file name: "
+msgstr "Имя образа восстановления:"
+
+msgctxt "MWindow|Partitionsart: "
+msgid "Partition type: "
+msgstr "Тип раздела:"
+
+#, fuzzy
+msgctxt "MWindow|Bezeichnung: "
+msgid "Description: "
+msgstr "Описание:"
+
+msgctxt "MWindow|Partitionsgröße: "
+msgid "Partition size: "
+msgstr "Размер раздела:"
+
+msgctxt "MWindow|Kompression: "
+msgid "Compression: "
+msgstr "Сжатие:"
+
+msgctxt "MWindow|ungefähre Sicherungsdateigröße: "
+msgid "Approximate image file sizes: "
+msgstr "Предпологаемый размер образа:"
+
+msgctxt "MWindow|zu sichernde/gesicherte Partition: /home"
+msgid "to be protected/secured partition: /home"
+msgstr "Работа с разделом /home"
+
+msgctxt "MWindow|Betriebsystem: "
+msgid "Operating system: "
+msgstr "Операционная система:"
+
+msgctxt "MWindow|Sicherungsdatei"
+msgid "Backup File"
+msgstr "Файл образа"
+
+msgctxt ""
+"MWindow|Sicherung\n"
+"entschlüsseln. Schlüssel"
+msgid ""
+"Decrypt\n"
+"backup. key:"
+msgstr "Ключ шифрования:"
+
+msgctxt ""
+"MWindow|Sicherung\n"
+"verschlüsseln. Schlüssel"
+msgid ""
+"Encrypt\n"
+"backup. key:"
+msgstr ""
+"Ключ \n"
+"шифрования:"
+
+msgctxt "MWindow|Partitionsname: "
+msgid "Partition  name: "
+msgstr "Имя раздела:"
+
+msgctxt "MWindow|Belegung der Partition: "
+msgid "Assignment of the partition: "
+msgstr "Раздел занят на:"
+
+msgctxt "MWindow|weitere Hinweise:"
+msgid "Other notes: "
+msgstr "Примечания:"
+
+msgctxt ""
+"MWindow|zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) "
+msgid "to be protected/secured partition: / (root system directory) "
+msgstr "Работа с корневым каталогом"
+
+msgctxt "MWindow|"
+msgid "Kernel: "
+msgstr "Ядро:"
+
+msgctxt "MWindow|"
+msgid " MB"
+msgstr " МБ"
+
+msgctxt "MWindow|"
+msgid " TB"
+msgstr " ТБ"
+
+msgctxt "MWindow|"
+msgid " GB"
+msgstr " ГБ"
+
+msgctxt ""
+"MWindow|Wollen Sie wirklich die Sicherung oder Wiederherstellung der "
+"Partition beenden?"
+msgid "Do you really want to break the save or restore from the partition?"
+msgstr "Вы хотите прервать операцию сохранения или восстановления раздела?"
+
+msgctxt ""
+"MWindow|Die Sicherung der Partition  wurde vom Benutzer abgebrochen!\n"
+msgid "The backup of the partition was aborted by the user!\n"
+msgstr "Сохранение раздела прервано пользователем!\n"
+
+msgctxt ""
+"MWindow|Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie "
+"muss zunächst ausgehängt werden!\n"
+msgid ""
+"cannot restore an archive to a partition which is mounted, unmount it first "
+"\n"
+msgstr ""
+"Нельзя восстанавливать смонтированный раздел. Вначале его размонтируйте"
+
+msgctxt ""
+"MWindow|Die Wiederherstellung der Partition  wurde vom Benutzer "
+"abgebrochen!\n"
+msgid "The restore of the partition was break by user!\n"
+msgstr "Восстановление раздела было прервано пользователем!\n"
+
+#~ msgctxt "MWindow| Verzeichnisse, "
+#~ msgid "  directories, "
+#~ msgstr "  каталоги, "
+
+#~ msgctxt "MWindow| Links und "
+#~ msgid "  links and "
+#~ msgstr "  ссылки и "
+
+msgctxt "MWindow| spezielle Daten wurden gesichert."
+msgid " specials have been backed."
+msgstr " специальная информация была сохранена."
+
+msgctxt "MWindow| spezielle Daten wurden wieder hergestellt."
+msgid " specials have been restored."
+msgstr " специальная информация была восстановлена.."
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-8, 1. Juli 2011"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-8, July 1, 2011"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.12-8, от 1 июля 2011\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+msgctxt "MWindow|Die Partition wurde erfolgreich wieder hergestellt.\n"
+msgid "The partition is successful back.\n"
+msgstr "Раздел был  успешно сохранён.\n"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-8, 1. November 2011"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-8, November 1, 2011"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.12-8, от 1 ноябрь 2011\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#, fuzzy
+msgctxt ""
+"MWindow|Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu "
+"groß. Nutzen Sie eine FAT-Partition?\n"
+msgid "Error saving partition. File too large. Use is FAT-partition?\n"
+msgstr ""
+"Ошибка сохранения раздела. Файл слишком большой. Используется \n"
+"FAT-раздел?"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-9, 30. November 2011"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-9, November 30, 2011"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.12-9, от 30. ноябрь 2011\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше "
+
+#, fuzzy
+msgctxt "MWindow| Verzeichnisse, "
+msgid " directories, "
+msgstr " каталогов, "
+
+#, fuzzy
+msgctxt "MWindow| Links und "
+msgid " links and "
+msgstr " ссылок и "
+
+#, fuzzy
+msgctxt ""
+"MWindow| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung "
+"der Partition war nur teilweise erfolgreich.\n"
+msgid ""
+" Links were not correctly restored. The recovery of the volume was only "
+"partially successful."
+msgstr ""
+" ссылок не было корректно восстановлено. Восстановление было выполнено "
+"частично.\n"
+
+#, fuzzy
+msgctxt "MWindow|Das Zurückschreiben wurde vom Benutzer abgebrochen\n"
+msgid "The restore was aborted by the user"
+msgstr "Сохранеие было прервано пользователем\n"
+
+#, fuzzy
+msgctxt ""
+"MWindow|Die wiederherzustellende Systempartition ist eingehängt und kann "
+"nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD\n"
+msgid ""
+"Restore the system partition is mounted and can not be written back. Please "
+"use a live CD."
+msgstr ""
+"Восстанавливаемы система каталог смонтирован и не может быть восстановлен. "
+"Используйте Live-CD."
+
+#, fuzzy
+msgctxt ""
+"MWindow|Die wiederherzustellende Homepartition ist eingehängt und kann nicht "
+"zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD\n"
+msgid ""
+"Restore the home partition is mounted and can not be written back. Please "
+"use a live CD."
+msgstr ""
+"Восстанавливаемы домашняя каталог смонтирован и не может быть восстановлен. "
+"Используйте Live-CD."
+
+#, fuzzy
+msgctxt "MWindow|Die Partition "
+msgid "The partition "
+msgstr "Раздел "
+
+#, fuzzy
+msgctxt ""
+"MWindow| kann nicht ausgehängt werden. Das Programm wird abgebrochen\n"
+msgid " can not be unmounted. The program is terminated"
+msgstr " нельзя отмонтировать. Программа прервана"
+
+#, fuzzy
+msgctxt "MWindow|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein.\n"
+msgid "The key length must be between 6 and 64 characters."
+msgstr "Длина ключа должна быть от 6 до 64 символов.\n"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-10, 10. Dezember 2011"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-10, December 10, 2011"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.12-9, от 10.Декабрь 2011\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше "
+
+#, fuzzy
+msgctxt "MWindow| Links "
+msgid " links "
+msgstr " ссылок "
+
+#, fuzzy
+msgctxt ""
+"MWindow| spezielle Daten und der Partition Boot Sektor wurden wieder "
+"hergestellt."
+msgid " specials and the Partition Boot Record have been restored."
+msgstr "Специальные и записи загрузочного раздела были восстановлены."
+
+#, fuzzy
+msgctxt "MWindow|Die wiederherzustellende Partition "
+msgid "Partition to restore the "
+msgstr "Восстанавливаемый раздел "
+
+#, fuzzy
+msgctxt "MWindow| stimmt nicht mit der gesicherten "
+msgid " does not coincide with the saved  "
+msgstr " не совпадает с сохранённым "
+
+#, fuzzy
+msgctxt ""
+"MWindow| überein. Wollen Sie trotzdem die Wiederherstellung durchführen?"
+msgid "Do you want to continue restore?"
+msgstr " Продолжать восстановление?"
+
+msgctxt ""
+"MWindow|Es ist eine Datei mit dem Inhalt des Partition Boot Sektors "
+"vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?"
+msgid ""
+"There is a file with the contents of the partition boot sector present. Do "
+"you want to perform the restoration of the PBR?"
+msgstr ""
+
+msgctxt ""
+"MWindow|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird "
+"dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten."
+msgid ""
+"If the existing btrfs partition to be formatted? The new UUID is defined "
+"here. If you choose <no>, the UUID remains preserved."
+msgstr ""
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-11, 26. Januar 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.12-11, January 26, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.12-11, от 26 январь 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-1, 15. April 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-1, April 15, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.13-1, от 15 апрель 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-2, 10. Mai 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-2, May 10, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.13-2, от 10 май 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-3, 27. Mai 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-3, May 27, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.13-3, от 27 май 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-3, 10. Juni 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-3, June 10, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.13-2, от 10 июнь 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-4, 20. Juni 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-4, June 20, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.13-4, от 20 июнь 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-5, 10. August 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-5, June 10, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.13-4, от 20 июнь 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше {2008-2012 ?} "
+#~ "{0.6.13-5,?} {10, 2012?}"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-5, 10. August 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.13-5, August 10, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.13-5, от 10 августейший 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше."
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.15-1, 25. September 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.15-1, September 25, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.15-1, от 25.сентябрь 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше "
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.15-2, 25. Oktober 2012"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2012 Francois Dupoux, Hihin Ruslan, Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.15-2, October 25, 2012"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.15-2, от 25.октябрь 2012\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше "
+
+msgctxt ""
+"MWindow|In der Datei /usr/share/doc/qt4-fsarchiver/Liesmich sind Hinweise "
+"zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin "
+"sehen? Sie können dies in den Basiseinstellungen ändern."
+msgid ""
+"In the file /usr/share/doc/qt4-fsarchiver/Readme are instructions included "
+"on the use of the program. Should this continue to be displayed? You can "
+"change this in the basic settings."
+msgstr ""
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.17-1, 15. März 2013"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.17-1, March 15, 2013"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.17-1, от 15 март 2013\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.17-2, 1. April 2013"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.17-2, April 01, 2013"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.17-2, от 15 апрель 2013\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.17-3, 14. April 2013"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.17-3, April 14, 2013"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.17-3, от 14 апрель 2013\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше "
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.17-4, 1. Juni 2013"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.17-4, June 1, 2013"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.17-2, от 1 июнь 2013\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.18-1, 20. Dezember 2014"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.18-1, March 15, 2014"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.18-1, от 15 март 2014\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.19-1, 20. März 2014"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.19-1, March 15, 2014"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.19-1, от 15 март 2014\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.19-1, 27. April 2014"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.19-1, April 27, 2014"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.17-3, от 14 апрель 2013\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2013 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше  {2008-2014 ?} "
+#~ "{0.6.19-1,?} {27, 2014?}"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.19-2, 27. April 2014"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.19-2, April 27, 2014"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.19-2, от 14 апрель 2014\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#~ msgctxt ""
+#~ "MWindow|Sichern und Wiederherstellen\n"
+#~ "von Partitionen, Verzeichnissen und MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.19-3, 8. Mai 2014"
+#~ msgid ""
+#~ "Backup and restore\n"
+#~ "partitions, directory and MBR\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+#~ "All rights reserved.\n"
+#~ "Version 0.6.19-3, May 8, 2014"
+#~ msgstr ""
+#~ "Сохранение и восстановление\n"
+#~ "разделов, каталогов и MBR\n"
+#~ "версия  0.6.19-3, от 8 май 2014\n"
+#~ "\n"
+#~ "Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+#~ "Охраняется законом об авторских правах\n"
+#~ "Программа распространяется на условиях GPL 2.0 и выше"
+
+#, fuzzy
+msgctxt ""
+"MWindow|Sichern und Wiederherstellen\n"
+"von Partitionen, Verzeichnissen und MBR\n"
+"Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+"All rights reserved.\n"
+"Version 0.6.19-4, 28. Mai 2014"
+msgid ""
+"Backup and restore\n"
+"partitions, directory and MBR\n"
+"Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+"All rights reserved.\n"
+"Version 0.6.19-4, May 28, 2014"
+msgstr ""
+"Сохранение и восстановление\n"
+"разделов, каталогов и MBR\n"
+"версия  0.6.19-3, от 8 май 2014\n"
+"\n"
+"Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum\n"
+"Охраняется законом об авторских правах\n"
+"Программа распространяется на условиях GPL 2.0 и выше {2008-2014 ?} "
+"{0.6.19-4,?} {28, 2014?}"
+
+msgctxt "MainWindow|"
+msgid "Save/restore partition "
+msgstr "Работа с разделом"
+
+msgctxt "MainWindow|"
+msgid "Existing partitions:"
+msgstr "Найденные разделы:"
+
+msgctxt "MainWindow|"
+msgid "Backup directory:"
+msgstr "Каталог сохранения:"
+
+msgctxt "MainWindow|"
+msgid "Stored partitions"
+msgstr "Сохранённый раздел"
+
+msgctxt "MainWindow|"
+msgid "Exit"
+msgstr "Выход"
+
+msgctxt "MainWindow|"
+msgid "S"
+msgstr "S"
+
+#. vorgesehene Aktion:
+msgctxt "MainWindow|"
+msgid "Proposed action:"
+msgstr ""
+"Возможные \n"
+"действия:"
+
+msgctxt "MainWindow|"
+msgid "Partition restore"
+msgstr "Восстановить раздел"
+
+msgctxt "MainWindow|"
+msgid "Name the backup file:"
+msgstr "Имя образа восстановления:"
+
+msgctxt "MainWindow|"
+msgid ""
+"Number of processors\n"
+"cores for to be used fsarchiver:"
+msgstr ""
+"Число потоков\n"
+"решения:"
+
+msgctxt "MainWindow|"
+msgid ""
+"Compression\n"
+"setting:"
+msgstr ""
+"Стандарт\n"
+"сжатия:"
+
+msgctxt "MainWindow|"
+msgid ""
+"Encrypt \n"
+"backup key"
+msgstr ""
+"Ключ \n"
+"шифрования"
+
+msgctxt "MainWindow|"
+msgid "available backup overwrite"
+msgstr "Разрешить перезапись образа"
+
+msgctxt "MainWindow|"
+msgid ""
+"On the number saved\n"
+"Files/directories:"
+msgstr ""
+"Число сохранённых\n"
+" файлов/каталогов:"
+
+msgctxt "MainWindow|"
+msgid "minutes"
+msgstr "минут"
+
+msgctxt "MainWindow|"
+msgid "seconds"
+msgstr "секунд"
+
+msgctxt "MainWindow|"
+msgid "elapsed time:"
+msgstr "Прошедшее время:"
+
+msgctxt "MainWindow|"
+msgid ""
+"already saved \n"
+"files/directories:"
+msgstr ""
+"Сохранено\n"
+"файлов/каталогов:"
+
+msgctxt "MainWindow|"
+msgid "Notes to  the backup"
+msgstr "Запись текстового описания образа"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Stock Split on DVD size"
+#~ msgstr "Разбиение образа для DVD"
+
+#. Partition mit * fsArchiver sichern:
+msgctxt "MainWindow|"
+msgid ""
+"Partition save \n"
+"with fsarchiver"
+msgstr ""
+"Сохранение \n"
+"раздела"
+
+#. Partition mit fs-Archiver * zurückschreiben
+msgctxt "MainWindow|"
+msgid ""
+"Restore partition\n"
+"with fsarchiver"
+msgstr ""
+"Восстановление\n"
+"раздела"
+
+msgctxt "MainWindow|"
+msgid "Actions"
+msgstr "Действия"
+
+msgctxt "MainWindow|"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "MainWindow|"
+msgid "Information"
+msgstr "Справка"
+
+msgctxt "MainWindow|"
+msgid "Basic Settings"
+msgstr "Настройки по-умолчанию"
+
+msgctxt "MainWindow|"
+msgid "Backup partition"
+msgstr "Сохранение раздела"
+
+msgctxt "MainWindow|"
+msgid "Restore partition"
+msgstr "Восстановление раздела"
+
+msgctxt "MainWindow|"
+msgid "Information fsarchiver"
+msgstr "О  Qt4-fsarchiver"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Save MBR"
+#~ msgstr "Сохранение MBR"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Restore MBR"
+#~ msgstr "Восстановление MBR"
+
+msgctxt "MainWindow|"
+msgid "Restore directory "
+msgstr "Восстановление каталога"
+
+msgctxt "MainWindow|"
+msgid "Save directory "
+msgstr "Сохранение каталога"
+
+msgctxt "MainWindow|"
+msgid "Exit program"
+msgstr "Выход из программы"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Save a parttion on network"
+#~ msgstr "Сетевое сохранение раздела"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Restore a parttion on network"
+#~ msgstr "Сетевое восстановление раздела"
+
+msgctxt "MainWindow|"
+msgid "remaining time:"
+msgstr "оставшиеся время:"
+
+msgctxt "MainWindow|"
+msgid "breakprocess"
+msgstr "Прервать"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Save / restore prtition"
+#~ msgstr "Работа с разделом"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Partition"
+#~ msgstr "Раздел "
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Directoty"
+#~ msgstr "каталога"
+
+#. Verzeichnis sichern/zurückschreiben
+#~ msgctxt "MainWindow|"
+#~ msgid "Save/restore directory"
+#~ msgstr "Работа с каталогами"
+
+#. Anzahl der Prozessorkerne, die für fsarchiver verwendet werden sollen:
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "Number of processor cores\n"
+#~ "for to be used fsarchiver:"
+#~ msgstr ""
+#~ "Число потоков \n"
+#~ "вычисления :"
+
+#. zu sicherndes Verzeichnis:
+#~ msgctxt "MainWindow|"
+#~ msgid "Saved directory"
+#~ msgstr "Каталог"
+
+#. Ort (Pfad) der Sicherung:
+#~ msgctxt "MainWindow|"
+#~ msgid "Location (path) of backup:"
+#~ msgstr "Место (путь) сохранения:"
+
+#. Kompressioneinstellung:
+#~ msgctxt "MainWindow|"
+#~ msgid "Compression setting:"
+#~ msgstr "Настройки сжатия:"
+
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "Encrypt\n"
+#~ "backup key"
+#~ msgstr "Ключ шифрования"
+
+#. vorhandene Sicherung überschreiben
+#~ msgctxt "MainWindow|"
+#~ msgid "Overwrite existing backup"
+#~ msgstr "Перезапись сохранённого образа"
+
+#. Sicherung an den Ursprungsort zurückschreiben
+#~ msgctxt "MainWindow|"
+#~ msgid "Backup restore to the Origin"
+#~ msgstr "Записать образ обратно"
+
+#. Schließen
+#~ msgctxt "MainWindow|"
+#~ msgid "Close"
+#~ msgstr "близко"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Backup MBR"
+#~ msgstr "Файл образа MBR"
+
+#. Abbrechen
+#~ msgctxt "MainWindow|"
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#. MBR von dieser dieser Festplatte sichern / wiederherstellen:
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "MBR of that drive this\n"
+#~ "Backup / restore:"
+#~ msgstr "Используемый диск:"
+
+#. sda
+#~ msgctxt "MainWindow|"
+#~ msgid "sda"
+#~ msgstr "sda"
+
+#. nur den Bootloaderbereich wieder herstellen
+#~ msgctxt "MainWindow|"
+#~ msgid "Only the boot loader area to restore"
+#~ msgstr "Восстановление загрузочной записи"
+
+#. Bootloaderbereich und die Partitionstabelle wieder herstellen
+#~ msgctxt "MainWindow|"
+#~ msgid "Bootloader area and restore the partition table"
+#~ msgstr "Восстановление загрузки и разделов"
+
+#. Partitionstabelle wiederherstellen
+#~ msgctxt "MainWindow|"
+#~ msgid "Restore partition table"
+#~ msgstr "Восстановление таблицы разделов"
+
+#. Verborgenen Bereich  wieder herstellen. (Ohne  Bootloader und ohne Partitionstabelle).
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "Secretly area to restore. (Without Boot Loader and without partition "
+#~ "table)."
+#~ msgstr ""
+#~ "Восстановление скрытой области \n"
+#~ "(без загрузчика и таблицы разделов)."
+
+#. sdb
+#~ msgctxt "MainWindow|"
+#~ msgid "sdb"
+#~ msgstr "sdb"
+
+#. MBR Sicherungsverzeichnis:
+#~ msgctxt "MainWindow|"
+#~ msgid "MBR backup directory:"
+#~ msgstr "Каталог сохранения MBR:"
+
+#. sdc
+#~ msgctxt "MainWindow|"
+#~ msgid "sdc"
+#~ msgstr "sdc"
+
+#. MBR sichern/zurückschreiben
+#~ msgctxt "MainWindow|"
+#~ msgid "Save / restore MBR"
+#~ msgstr "Работа с MBR"
+
+#. sdd
+#~ msgctxt "MainWindow|"
+#~ msgid "sdd"
+#~ msgstr "sdd"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Notes to the backup"
+#~ msgstr "Запись текстового описания образа"
+
+#. Partition mit fs-Archiver * zurückschreiben
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "Restore partition \n"
+#~ "with fsarchiver"
+#~ msgstr ""
+#~ "Восстановление\n"
+#~ "раздела"
+
+#. Netzrechnername:
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "Network computer \n"
+#~ " name:"
+#~ msgstr ""
+#~ "Сетевое имя\n"
+#~ "компьютера:"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "n"
+#~ msgstr "n"
+
+#. Partition sichern
+#~ msgctxt "MainWindow|"
+#~ msgid "save partition"
+#~ msgstr "Сохранить раздел"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Basic settings"
+#~ msgstr "Настройки по-умолчанию"
+
+#. Anzahl Prozessorenkerne, * die für fsarchiver * verwendet werden sollen:
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "Number of processors\n"
+#~ "cores, for fsarchiver\n"
+#~ "should be used:"
+#~ msgstr ""
+#~ "Число используемых\n"
+#~ "потоков для решения:"
+
+#. Standard*kompression:
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "Standard\n"
+#~ "compression:"
+#~ msgstr "Стандарт сжатия:"
+
+#~ msgctxt "MainWindow|"
+#~ msgid "Language:"
+#~ msgstr "Язык:"
+
+#. vorhandene Dateien * standardmäßig überschreiben
+#~ msgctxt "MainWindow|"
+#~ msgid "existing files by default override"
+#~ msgstr "Разрешение удаления предыдущего образа"
+
+#. Hinweise zur Sicherung * standardmäßig aktivieren
+#~ msgctxt "MainWindow|"
+#~ msgid "Backup note enable by default"
+#~ msgstr "Запись файла описания образа"
+
+#. Verzeichnisse * standardmäßig an * den ursprünglichen * Ort zurückschreiben
+#~ msgctxt "MainWindow|"
+#~ msgid ""
+#~ "Directories by default write \n"
+#~ "back to the original location"
+#~ msgstr "Восстанавливать каталоги в исходном месте"
+
+#. Verschlüsselung * standardmäßig aktivieren
+#~ msgctxt "MainWindow|"
+#~ msgid "Enable encryption by default"
+#~ msgstr "Разрешить шифрование"
+
+#. Archiv-Datei auf DVD * Größe aufteilen
+#~ msgctxt "MainWindow|"
+#~ msgid "Archive file size divided on DVD"
+#~ msgstr "Выполнение разбиения образа по размеру DVD "
+
+#. Passwort für Netzwerk * anzeigen
+#~ msgctxt "MainWindow|"
+#~ msgid "Password for network's view"
+#~ msgstr "Пароль для просмотра сети"
+
+#. Netzwerkeingabedaten * speichern
+#~ msgctxt "MainWindow|"
+#~ msgid "Network input data save"
+#~ msgstr "Сохранить данные сети"
+
+#. Einstellungen speichern
+#~ msgctxt "MainWindow|"
+#~ msgid "Save Settings"
+#~ msgstr "Сохранить настройки"
+
+#, fuzzy
+msgctxt "MainWindow|"
+msgid "Save a partition on network"
+msgstr "Сетевое сохранение раздела"
+
+#, fuzzy
+msgctxt "MainWindow|"
+msgid "Restore a partition on network"
+msgstr "Сетевое восстановление раздела"
+
+#. PBR sichern
+#, fuzzy
+msgctxt "MainWindow|"
+msgid "Save PBR"
+msgstr "Сохранение PBR"
+
+#, fuzzy
+msgctxt "MainWindow|"
+msgid "Stock Split on size:"
+msgstr "Архив за раскол:"
+
+#, fuzzy
+msgctxt "MainWindow|"
+msgid "GB"
+msgstr "GB"
+
+msgctxt "MainWindow|"
+msgid "Save MBR/GPT"
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "Restore MBR/GPT"
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "Clone Drive HD-Image save/restore "
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "HD-Image save/restore on network"
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "Clone HD, HD-Image built and restore"
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "Select the partition to be backed up or restored."
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid ""
+"Directory in which the partition is backed up or from the recovery file is "
+"removed."
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "Start the backup of a partition."
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "Start restore a partition."
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "Notes to the backup is written to a file"
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "Same backup files are overwritten without prior consultation"
+msgstr ""
+
+msgctxt "MainWindow|"
+msgid "PBR is first block of any bootable partition"
+msgstr ""
+
+msgctxt "NetEin|Hinweis"
+msgid "Note"
+msgstr "Внимание"
+
+#~ msgctxt "NetEin|Es ist derzeit kein Netzwerkrechner erreichbar.\n"
+#~ msgid "There is currently no available network computer.\n"
+#~ msgstr "В настоящее время сеть Samba недоступна.\n"
+
+#~ msgctxt ""
+#~ "NetEin| wurde erfolgreich eingebunden. Sie können mit der Sicherung "
+#~ "fortfahren\n"
+#~ msgid " has been successfully added. You can continue saving\n"
+#~ msgstr " был успешно подключён. Можно продолжить сохранение\n"
+
+#~ msgctxt ""
+#~ "NetEin| wurde erfolgreich eingebunden. Sie können mit dem Zurückschreiben "
+#~ "fortfahren\n"
+#~ msgid "  has been successfully added. You can continue to restore\n"
+#~ msgstr " был успешно подключён. Можно продолжать восстановление\n"
+
+#~ msgctxt "NetEin|Der Netzwerkrechner "
+#~ msgid "The network computer "
+#~ msgstr "Сеть  компьютеров "
+
+#~ msgctxt ""
+#~ "NetEin| konnte nicht eingebunden werden. Das Programm wird abgebrochen\n"
+#~ msgid " could not be integrated. The program is aborted\n"
+#~ msgstr " не может быть подключён. Прграмма будет прервана\n"
+
+msgctxt ""
+"NetEin|Sie müssen den Rechner auswählen, auf den die Sicherungsdaten "
+"geschrieben werden sollen\n"
+msgid "You must select the computer on which the backup data to be written\n"
+msgstr "Выберите компьютер для сохранения данных по Самбе"
+
+msgctxt ""
+"NetEin|Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück "
+"geschrieben werden sollen\n"
+msgid ""
+"You must select your computer from which the backup data to be written back\n"
+msgstr "Выберите компьютер для восстановления данных по Самбе"
+
+msgctxt ""
+"NetEin|Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf "
+"Netzrechner zugegriffen werden\n"
+msgid ""
+"You must enter the user name. Can not otherwise be accessible to network "
+"computers\n"
+msgstr "Введите пароль для сетевого доступа"
+
+#~ msgctxt ""
+#~ "NetEin|Ist das richtig, dass Sie keinen Schlüssel eingegeben haben?"
+#~ msgid "Is it true that you have entered a key?"
+#~ msgstr "Верно, что введён ключ?"
+
+msgctxt "NetEin|Ja"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "NetEin|Nein"
+msgid "No"
+msgstr "Нет"
+
+#, fuzzy
+msgctxt "NetEin|Es ist derzeit kein Netzwerkrechner.\n"
+msgid "There is currently no available network computer.\n"
+msgstr "В настоящее время сеть Samba недоступна.\n"
+
+msgctxt ""
+"NetEin|Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS "
+"benötigt keinen Schlüssel)"
+msgid "Is it true that you have entered a key? (NFS dont need a key)"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+msgctxt "clone_dialog|"
+msgid "Clone hard drive"
+msgstr ""
+
+#. Abbrechen
+#~ msgctxt "clone_dialog|"
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#. MBR sichern/zurückschreiben
+#~ msgctxt "clone_dialog|"
+#~ msgid "Save / restore MBR"
+#~ msgstr "Работа с MBR"
+
+#. MBR Sicherungsverzeichnis:
+msgctxt "clone_dialog|"
+msgid "Exist harddrive:"
+msgstr ""
+
+#. sda
+msgctxt "clone_dialog|"
+msgid "Clone hard disk"
+msgstr ""
+
+#. sdc
+msgctxt "clone_dialog|"
+msgid "Image of a hard disk write back"
+msgstr ""
+
+#. MBR Sicherungsverzeichnis:
+msgctxt "clone_dialog|"
+msgid "New harddrive:"
+msgstr ""
+
+msgctxt "clone_dialog|"
+msgid "CommandLinkButton"
+msgstr ""
+
+#, fuzzy
+msgctxt "clone_dialog|"
+msgid "elapsed time:"
+msgstr "Прошедшее время:"
+
+#, fuzzy
+msgctxt "clone_dialog|"
+msgid "remaining time:"
+msgstr "оставшиеся время:"
+
+msgctxt "clone_dialog|"
+msgid "MB"
+msgstr ""
+
+msgctxt "clone_dialog|"
+msgid "f"
+msgstr ""
+
+#. vorgesehene Aktion:
+msgctxt "clone_dialog|"
+msgid "Proposed action:"
+msgstr ""
+
+#, fuzzy
+msgctxt "clone_dialog|"
+msgid "Backup directory:"
+msgstr "Каталог сохранения:"
+
+#, fuzzy
+msgctxt "clone_dialog|"
+msgid "seconds"
+msgstr "секунд"
+
+#, fuzzy
+msgctxt "clone_dialog|"
+msgid "minutes"
+msgstr "минут"
+
+msgctxt "clone_dialog|"
+msgid "hours"
+msgstr ""
+
+#. sdb
+msgctxt "clone_dialog|"
+msgid "Image of a hard disk to create"
+msgstr ""
+
+msgctxt "clone_dialog|"
+msgid "Use gzip"
+msgstr ""
+
+#. Abbrechen
+#, fuzzy
+msgctxt "clone_dialog|"
+msgid "Exit"
+msgstr "Выход"
+
+#. MBR sichern/zurückschreiben
+msgctxt "clone_dialog|"
+msgid "Save / Restore MBR"
+msgstr ""
+
+msgctxt "clone_dialog|"
+msgid "Directory in which the image is written"
+msgstr ""
+
+msgctxt "clone_dialog|"
+msgid "MB/sec"
+msgstr ""
+
+msgctxt "clone_dialog|"
+msgid "already saved:"
+msgstr ""
+
+msgctxt "clone_dialog|"
+msgid "Transmission speed"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+msgctxt "clone_dialog_net|"
+msgid "Clone hard drive"
+msgstr ""
+
+#. Abbrechen
+#, fuzzy
+msgctxt "clone_dialog_net|"
+msgid "Cancel"
+msgstr "Отмена"
+
+#. MBR sichern/zurückschreiben
+#, fuzzy
+msgctxt "clone_dialog_net|"
+msgid "Save / restore MBR"
+msgstr "Работа с MBR"
+
+#. MBR Sicherungsverzeichnis:
+msgctxt "clone_dialog_net|"
+msgid "Exist harddrive:"
+msgstr ""
+
+#. sdb
+msgctxt "clone_dialog_net|"
+msgid "Image einer Festplatte erstellen:"
+msgstr ""
+
+#. sdc
+msgctxt "clone_dialog_net|"
+msgid "Image einer Festplatte zurückschreiben:"
+msgstr ""
+
+#, fuzzy
+msgctxt "clone_dialog_net|"
+msgid "seconds"
+msgstr "секунд"
+
+#, fuzzy
+msgctxt "clone_dialog_net|"
+msgid "minutes"
+msgstr "минут"
+
+#, fuzzy
+msgctxt "clone_dialog_net|"
+msgid "elapsed time:"
+msgstr "Прошедшее время:"
+
+#, fuzzy
+msgctxt "clone_dialog_net|"
+msgid "remaining time:"
+msgstr "оставшиеся время:"
+
+msgctxt "clone_dialog_net|"
+msgid "<html><head/><body><p>already saved:</p></body></html>"
+msgstr ""
+
+msgctxt "clone_dialog_net|"
+msgid "MB"
+msgstr ""
+
+msgctxt "clone_dialog_net|"
+msgid "hours"
+msgstr ""
+
+msgctxt "clone_dialog_net|"
+msgid "f"
+msgstr ""
+
+#. Name der Sicherungsdatei:
+msgctxt "clone_dialog_net|"
+msgid "Image name:"
+msgstr ""
+
+#. Netzrechnername:
+#, fuzzy
+msgctxt "clone_dialog_net|"
+msgid "Network computer  name:"
+msgstr "Сетевое имя компьютера:"
+
+msgctxt "clone_dialog_net|"
+msgid "Exist Image:"
+msgstr ""
+
+msgctxt "clone_dialog_net|"
+msgid "l"
+msgstr ""
+
+#. Verzeichnis sichern/zurückschreiben
+#. ----------
+#. Verzeichnis sichern/zurückschreiben
+msgctxt "dir_dialog|"
+msgid "Save/restore directory"
+msgstr "Работа с каталогами"
+
+#. zu sicherndes Verzeichnis:
+msgctxt "dir_dialog|"
+msgid "Saved directory"
+msgstr "Каталог"
+
+#. Ort (Pfad) der Sicherung:
+msgctxt "dir_dialog|"
+msgid "Location (path) of backup:"
+msgstr "Место (путь) сохранения:"
+
+#. Kompressioneinstellung:
+msgctxt "dir_dialog|"
+msgid "Compression setting:"
+msgstr "Настройки сжатия:"
+
+msgctxt "dir_dialog|"
+msgid ""
+"Encrypt\n"
+"backup key"
+msgstr "Ключ шифрования"
+
+#. vorhandene Sicherung überschreiben
+msgctxt "dir_dialog|"
+msgid "Overwrite existing backup"
+msgstr "Перезапись сохранённого образа"
+
+#. Sicherung an den Ursprungsort zurückschreiben
+msgctxt "dir_dialog|"
+msgid "Backup restore to the Origin"
+msgstr "Записать образ обратно"
+
+#. Anzahl der zu sichernden Dateien/Verzeichnisse:
+msgctxt "dir_dialog|"
+msgid ""
+"On the number of\n"
+"captive Files/directories:"
+msgstr ""
+"Число сохранённых\n"
+"файлов/каталогов:"
+
+#. bereits gesicherte Datein/Verzeichnisse:
+msgctxt "dir_dialog|"
+msgid ""
+"Already backed\n"
+"Files/directories:"
+msgstr ""
+"Сохранённые\n"
+"файлы/каталоги:"
+
+#. vergangene Zeit:
+msgctxt "dir_dialog|"
+msgid "elapsed time:"
+msgstr "Прошедшее время:"
+
+#. Minuten
+#. ----------
+#. Minuten
+msgctxt "dir_dialog|"
+msgid "minutes"
+msgstr "минут"
+
+#. Sekunden
+#. ----------
+#. Sekunden
+msgctxt "dir_dialog|"
+msgid "seconds"
+msgstr "секунд"
+
+#. Anzahl der Prozessorkerne, die für fsarchiver verwendet werden sollen:
+msgctxt "dir_dialog|"
+msgid ""
+"Number of processor cores\n"
+"for to be used fsarchiver:"
+msgstr ""
+"Число потоков \n"
+"вычисления :"
+
+#. Schließen
+msgctxt "dir_dialog|"
+msgid "Exit"
+msgstr "Выход"
+
+#. noch zu erwartende Zeit:
+msgctxt "dir_dialog|"
+msgid "remaining  time:"
+msgstr "оставшиеся время:"
+
+msgctxt "dir_dialog|"
+msgid "Start the backup or the restore of a folder."
+msgstr ""
+
+msgctxt "dir_dialog|"
+msgid "Select the folder to be backed up or restored."
+msgstr ""
+
+msgctxt "dir_dialog|"
+msgid ""
+"Directory in which the folder is backed up or from the recovery file is "
+"removed."
+msgstr ""
+
+msgctxt "dir_dialog|"
+msgid "Same backup files are overwritten without prior consultation."
+msgstr ""
+
+msgctxt "dir_dialog|"
+msgid "The directory will be written back to the original path"
+msgstr ""
+
+#. MBR sichern/zurückschreiben
+msgctxt "mbr_dialog|"
+msgid "Save / restore MBR"
+msgstr "Работа с MBR"
+
+#. nur den Bootloaderbereich wieder herstellen
+msgctxt "mbr_dialog|"
+msgid "Only the boot loader area to restore"
+msgstr "Восстановление загрузочной записи"
+
+#. Bootloaderbereich und die Partitionstabelle wieder herstellen
+msgctxt "mbr_dialog|"
+msgid "Bootloader area and restore the partition table"
+msgstr "Восстановление загрузки и разделов"
+
+#. Partitionstabelle wiederherstellen
+msgctxt "mbr_dialog|"
+msgid "Restore partition table"
+msgstr "Восстановление таблицы разделов"
+
+#. Verborgenen Bereich  wieder herstellen. (Ohne  Bootloader und ohne Partitionstabelle).
+msgctxt "mbr_dialog|"
+msgid ""
+"Secretly area to restore. (Without Boot Loader and without partition table)."
+msgstr ""
+"Восстановление скрытой области \n"
+"(без загрузчика и таблицы разделов)."
+
+#. Abbrechen
+msgctxt "mbr_dialog|"
+msgid "Cancel"
+msgstr "Отмена"
+
+#. MBR Sicherungsverzeichnis:
+#~ msgctxt "mbr_dialog|"
+#~ msgid "MBR backup directory:"
+#~ msgstr "Каталог сохранения MBR:"
+
+#. MBR von dieser dieser Festplatte sichern / wiederherstellen:
+msgctxt "mbr_dialog|"
+msgid ""
+"MBR of that drive this\n"
+"Backup / restore:"
+msgstr "Используемый диск:"
+
+#. sda
+msgctxt "mbr_dialog|"
+msgid "sda"
+msgstr "sda"
+
+#. sdb
+msgctxt "mbr_dialog|"
+msgid "sdb"
+msgstr "sdb"
+
+#. sdc
+msgctxt "mbr_dialog|"
+msgid "sdc"
+msgstr "sdc"
+
+#. sdd
+msgctxt "mbr_dialog|"
+msgid "sdd"
+msgstr "sdd"
+
+#. MBR sichern/zurückschreiben
+msgctxt "mbr_dialog|"
+msgid "Save / Restore MBR/GPT"
+msgstr ""
+
+#. MBR Sicherungsverzeichnis:
+msgctxt "mbr_dialog|"
+msgid "MBR/GPT backup directory:"
+msgstr ""
+
+msgctxt "mbr_dialog|"
+msgid "Directory in which the MBR/GPT is written."
+msgstr ""
+
+msgctxt "setting_dialog|"
+msgid "Basic settings"
+msgstr "Настройки по-умолчанию"
+
+#. vorhandene Dateien * standardmäßig überschreiben
+#~ msgctxt "setting_dialog|"
+#~ msgid "existing files by default override"
+#~ msgstr "Разрешение удаления предыдущего образа"
+
+#. Hinweise zur Sicherung * standardmäßig aktivieren
+msgctxt "setting_dialog|"
+msgid "Backup note enable by default"
+msgstr "Запись файла описания образа"
+
+#. Verschlüsselung * standardmäßig aktivieren
+msgctxt "setting_dialog|"
+msgid "Enable encryption by default"
+msgstr "Разрешить шифрование"
+
+#. Archiv-Datei auf DVD * Größe aufteilen
+msgctxt "setting_dialog|"
+msgid "Archive file size divided on DVD"
+msgstr "Выполнение разбиения образа по размеру DVD "
+
+#. Einstellungen speichern
+msgctxt "setting_dialog|"
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#. Beenden
+msgctxt "setting_dialog|"
+msgid "Exit"
+msgstr "Выход"
+
+#. Anzahl Prozessorenkerne, * die für fsarchiver * verwendet werden sollen:
+msgctxt "setting_dialog|"
+msgid ""
+"Number of processors\n"
+"cores, for fsarchiver\n"
+"should be used:"
+msgstr ""
+"Число используемых\n"
+"потоков для решения:"
+
+#. Verzeichnisse * standardmäßig an * den ursprünglichen * Ort zurückschreiben
+msgctxt "setting_dialog|"
+msgid ""
+"Directories by default write \n"
+"back to the original location"
+msgstr "Восстанавливать каталоги в исходном месте"
+
+#. Standard*kompression:
+msgctxt "setting_dialog|"
+msgid ""
+"Standard\n"
+"compression:"
+msgstr "Стандарт сжатия:"
+
+msgctxt "setting_dialog|"
+msgid "Language:"
+msgstr "Язык:"
+
+#. Passwort für Netzwerk * anzeigen
+msgctxt "setting_dialog|"
+msgid "Password for network's view"
+msgstr "Пароль для просмотра сети"
+
+#. Netzwerkeingabedaten * speichern
+msgctxt "setting_dialog|"
+msgid "Network input data save"
+msgstr "Сохранить данные сети"
+
+#. vorhandene Dateien * standardmäßig überschreiben
+#, fuzzy
+msgctxt "setting_dialog|"
+msgid "Existing files by default override"
+msgstr "Разрешение удаления предыдущего образа"
+
+#. PBR standradmäßig sichern
+#, fuzzy
+msgctxt "setting_dialog|"
+msgid "Safe PBR by default"
+msgstr "Безопасный PBR по умолчанию"
+
+msgctxt "setting_dialog|"
+msgid "Network protocol:"
+msgstr ""
+
+#. Hinweis über das Mounten des Netzwerkrechners anzeigen
+msgctxt "setting_dialog|"
+msgid "Show  Note to mount the network computer"
+msgstr ""
+
+#. Hinweise zum Gebrauch des Programms anzeigen
+msgctxt "setting_dialog|"
+msgid "Show  Note about the programm qt4-fsarchiver"
+msgstr ""
+
+#. Hinweis  für den Zugriff auf Netzwerkrechner anzeigen
+msgctxt "setting_dialog|"
+msgid "Show Note for accessing network computer"
+msgstr ""
+
+#. Wiederherstellungsdatei auswählen
+#, fuzzy
+msgctxt "treeview_dialog|"
+msgid "Select restore file"
+msgstr "Выберите восстановление файлов"
+
+#. Abbrechen
+#, fuzzy
+msgctxt "treeview_dialog|"
+msgid "Cancel"
+msgstr "Отмена"
+
+#. Mit der Wiederherstellung fortfahren
+#, fuzzy
+msgctxt "treeview_dialog|"
+msgid "Next"
+msgstr "Далее"
+
+#. Freigegebene Ordner und Dateien
+#~ msgctxt "treeview_dialog|"
+#~ msgid "Shared folders and files:"
+#~ msgstr "Общие папки и файлы:"
+
+msgctxt "treeview_dialog|"
+msgid "a"
+msgstr ""
+
+#. Vorhandene Wiederherstellungsdateien:
+#, fuzzy
+msgctxt "treeview_dialog|"
+msgid "Existing restore files:"
+msgstr "Существующие восстановления файлов:"

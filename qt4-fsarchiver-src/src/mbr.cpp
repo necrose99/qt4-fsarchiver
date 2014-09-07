@@ -434,7 +434,8 @@ int DialogMBR::is_gpt(QString partition_efi)
 {
       QString homepath = QDir::homePath();
       QString text;
-      QString befehl = "sgdisk -p " + partition_efi +  " 1> " +  homepath + "/.config/qt4-fsarchiver/efi.txt";
+      QString befehl = "gdisk -l " + partition_efi +  " 1> " +  homepath + "/.config/qt4-fsarchiver/efi.txt";
+      //QString befehl = "sgdisk -p " + partition_efi +  " 1> " +  homepath + "/.config/qt4-fsarchiver/efi.txt";
       system (befehl.toAscii().data());
       QString filename = homepath + "/.config/qt4-fsarchiver/efi.txt";
       QFile file(filename);
@@ -444,9 +445,8 @@ int DialogMBR::is_gpt(QString partition_efi)
 	QTextStream ds(&file);
         while (!ds.atEnd()){
            	text = ds.readLine();
-		if (text.indexOf("EF00") > -1) 
- 		 return 1;
-
+		if (text.indexOf("GPT: present") > -1) 
+                   return 1;
                // if( text.isEmpty() )
          	// break;
            }

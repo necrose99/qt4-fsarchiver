@@ -1,0 +1,2 @@
+06/02/14 12:11:49: D:\Repohome\Github\qt4-fsarchiver\qt4-fsarchiver-src\translations\qt4-fsarchiver_pt_IT.po:259:69: invalid control sequence
+06/02/14 12:11:49: C:\Program Files (x86)\Poedit\GettextTools\bin\msgfmt.exe: found 1 fatal error

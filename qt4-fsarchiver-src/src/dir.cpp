@@ -219,7 +219,7 @@ Qt::CheckState state1;
              }
    	  if (info.isFile() && (dialog_auswertung == 4))
             {
-      		QMessageBox::about(this, tr("Hinweis"),
+      		QMessageBox::about(this, tr("Note", "Hinweis"),
       		tr("You have selected a file. You must select a directory\n", "Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen\n"));
       		return 1 ;
             }
@@ -314,7 +314,7 @@ qDebug() << "befehle" << parameter[0] << parameter[1] << parameter[2] << paramet
           pos = folder_dir.indexOf("fsa");
           if (pos == -1)
          	{
-                QMessageBox::about(this,tr("Hinweis"),
+                QMessageBox::about(this,tr("Note", "Hinweis"),
          	tr("You have chosen the wrong recovery file selected.\n The files should end with. fsa be", "Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht \nDie Dateiendung muss .fsa sein"));
                 return 1;
          	}

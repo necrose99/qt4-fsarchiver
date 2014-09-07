@@ -519,7 +519,7 @@ Die Dateiendung muss .fsa sein</comment>
     </message>
     <message>
         <source>Hinweis</source>
-        <translation>Внимание</translation>
+        <translation type="obsolete">Внимание</translation>
     </message>
     <message>
         <source>The partition is encrypted. Please enter the key</source>
@@ -1108,7 +1108,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.
 </comment>
-        <translation> ссылок было не корректно восстановлено. Восстановление было выполнено частично.
+        <translation type="obsolete"> ссылок было не корректно восстановлено. Восстановление было выполнено частично.
 </translation>
     </message>
     <message>
@@ -1168,14 +1168,14 @@ entschlüsseln. Schlüssel</comment>
     <message>
         <source> files</source>
         <comment> Dateien, </comment>
-        <translation> файлов, </translation>
+        <translation type="obsolete"> файлов, </translation>
     </message>
     <message>
         <source> links were not saved properly. The backup of the partition was only partially successful
 </source>
         <comment> Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich
 </comment>
-        <translation> ссылок не было корректно сохранено. Сохранени прошло часично
+        <translation type="obsolete"> ссылок не было корректно сохранено. Сохранени прошло часично
 </translation>
     </message>
     <message>
@@ -1378,23 +1378,72 @@ entschlüsseln. Schlüssel</comment>
 </comment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>The backup of the partition was only partially successful.
+</source>
+        <comment>Die Sicherung der Partition war nur teilweise erfolgreich
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials have been backed
+.</source>
+        <comment> spezielle Daten wurden gesichert
+.</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials were not properly backed
+.</source>
+        <comment> spezielle Daten wurden nicht korrekt gesichert.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The restore of the partition was only partially successful.
+</source>
+        <comment>Die Wiederherstellung der Partition war nur teilweise erfolgreich
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials have been restored
+.</source>
+        <comment> spezielle Daten wurden wiederhergestellt
+.</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials were not properly restored
+.</source>
+        <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials and the Partition Boot Record have been restored
+.</source>
+        <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
+.</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DialogSetting</name>
     <message>
         <source>English</source>
         <comment>Englisch</comment>
-        <translation>Englisch</translation>
+        <translation>английский</translation>
     </message>
     <message>
         <source>German</source>
         <comment>Deutsch</comment>
-        <translation>Deutsch</translation>
+        <translation>немецкий</translation>
     </message>
     <message>
         <source>Russia</source>
         <comment>Russisch</comment>
-        <translation>Русский</translation>
+        <translation type="obsolete">Русский</translation>
     </message>
     <message>
         <source>lzo</source>
@@ -1445,20 +1494,71 @@ entschlüsseln. Schlüssel</comment>
     </message>
     <message>
         <source>SSH</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">SSH</translation>
     </message>
     <message>
         <source>Samba</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Samba</translation>
     </message>
     <message>
         <source>NFS</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">NFS</translation>
     </message>
     <message>
         <source>Español</source>
         <comment>Spanisch</comment>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">испанский</translation>
+    </message>
+    <message>
+        <source>Italiano</source>
+        <comment>Italienisch</comment>
+        <translation type="obsolete">итальянский</translation>
+    </message>
+    <message>
+        <source>Dutch</source>
+        <comment>Niederländisch</comment>
+        <translation>голландский</translation>
+    </message>
+    <message>
+        <source>Japanese</source>
+        <comment>Japanisch</comment>
+        <translation>японский</translation>
+    </message>
+    <message>
+        <source>The Russian translation is not completely.
+</source>
+        <comment>Die russische Übersetzung ist nicht komplett.
+</comment>
+        <translation>Перевод на русский язык не полностью.</translation>
+    </message>
+    <message>
+        <source>The translation is in progress. Please choose an other language
+</source>
+        <comment>Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache
+</comment>
+        <translation type="obsolete">Перевод в процессе. Пожалуйста, выберите другой язык</translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <comment>Russisch</comment>
+        <translation>русский</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <comment>Spanisch</comment>
+        <translation>испанский</translation>
+    </message>
+    <message>
+        <source>Italian</source>
+        <comment>Italienisch</comment>
+        <translation>итальянский</translation>
+    </message>
+    <message>
+        <source>The translation is in progress. Please choose another language
+</source>
+        <comment>Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache
+</comment>
+        <translation>Перевод в процессе. Пожалуйста, выберите другой язык</translation>
     </message>
 </context>
 <context>
@@ -1619,10 +1719,6 @@ files/directories:</source>
         <translation type="unfinished">Сохранение PBR</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Please select the folder.</source>
         <extracomment>Bitte wählen Sie einen freigegebene Ordner aus:</extracomment>
         <translation type="unfinished"></translation>
@@ -1653,6 +1749,11 @@ files/directories:</source>
     </message>
     <message>
         <source>PBR is first block of any bootable partition.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Protocoll for network
+transmission:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1782,7 +1883,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans&apos;; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1962,7 +2063,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment> Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich.
 </comment>
-        <translation> ссылок не было корректно сохранено. Сохранени прошло частично.
+        <translation type="obsolete"> ссылок не было корректно сохранено. Сохранени прошло частично.
 </translation>
     </message>
     <message>
@@ -2257,7 +2358,7 @@ Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum
         <source> Links were not correctly restored. The recovery of the volume was only partially successful.</source>
         <comment> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.
 </comment>
-        <translation type="unfinished"> ссылок не было корректно восстановлено. Восстановление было выполнено частично.
+        <translation type="obsolete"> ссылок не было корректно восстановлено. Восстановление было выполнено частично.
 </translation>
     </message>
     <message>
@@ -2728,13 +2829,100 @@ von Partitionen, Verzeichnissen und MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
 Version 0.6.19-4, 28. Mai 2014</comment>
-        <translation type="unfinished">Сохранение и восстановление
+        <translation type="obsolete">Сохранение и восстановление
 разделов, каталогов и MBR
-версия  0.6.19-3, от 8 май 2014
+версия  0.6.19-4, от 28 май 2014
 
 Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum
 Охраняется законом об авторских правах
-Программа распространяется на условиях GPL 2.0 и выше {2008-2014 ?} {0.6.19-4,?} {28, 2014?}</translation>
+Программа распространяется на условиях GPL 2.0 и выше</translation>
+    </message>
+    <message>
+        <source>The backup of the partition was only partially successful.
+</source>
+        <comment>Die Sicherung der Partition war nur teilweise erfolgreich
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials have been backed
+.</source>
+        <comment> spezielle Daten wurden gesichert
+.</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The restore of the partition was only partially successful.
+</source>
+        <comment>Die Wiederherstellung der Partition war nur teilweise erfolgreich
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials have been restored
+.</source>
+        <comment> spezielle Daten wurden wiederhergestellt
+.</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials and the Partition Boot Record have been restored
+.</source>
+        <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
+.</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials were not properly backed
+.</source>
+        <comment> spezielle Daten wurden nicht korrekt gesichert.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> specials were not properly restored
+.</source>
+        <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-5, June 28, 2014</source>
+        <comment>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-5, 28. Juni 2014</comment>
+        <translation type="obsolete">Сохранение и восстановление
+разделов, каталогов и MBR
+версия  0.6.19-5, от 28 июнь 2014
+
+Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum
+Охраняется законом об авторских правах
+Программа распространяется на условиях GPL 2.0 и выше </translation>
+    </message>
+    <message>
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-6, August 4, 2014</source>
+        <comment>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-6, 4. August 2014</comment>
+        <translation type="unfinished">Сохранение и восстановление
+разделов, каталогов и MBR
+версия  0.6.19-6, от 4 август 2014
+
+Copyright (C) 2008-2014 Francois Dupoux, Hihin Ruslan, Dieter Baum
+Охраняется законом об авторских правах
+Программа распространяется на условиях GPL 2.0 и выше</translation>
     </message>
 </context>
 <context>
@@ -3398,7 +3586,7 @@ back to the original location</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Transmission speed</source>
+        <source>Transmission speed:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3451,10 +3639,6 @@ back to the original location</source>
         <translation type="unfinished">оставшиеся время:</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>MB</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3482,6 +3666,10 @@ back to the original location</source>
     </message>
     <message>
         <source>l</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>already saved:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

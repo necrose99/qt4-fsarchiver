@@ -3,16 +3,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: en_GB\n"
 "X-Source-Language: en_GB\n"
 "X-Qt-Contexts: true\n"
 
 #: ../src/clone.cpp:68 ../src/clone.cpp:327
-#, fuzzy
 msgctxt "DialogClone|Festplatte klonen"
 msgid "Clone Harddrive"
-msgstr "Clonar disco rígido"
+msgstr ""
 
 #: ../src/clone.cpp:162 ../src/clone.cpp:167 ../src/clone.cpp:173
 #: ../src/clone.cpp:209 ../src/clone.cpp:213 ../src/clone.cpp:219
@@ -28,7 +27,7 @@ msgstr "referência"
 #: ../src/clone.cpp:162 ../src/clone.cpp:209 ../src/clone.cpp:270
 msgctxt "DialogClone|Sie müssen eine Festplatte auswählen.\n"
 msgid "You must select a hard drive."
-msgstr "Você deve selecionar um disco."
+msgstr ""
 
 #: ../src/clone.cpp:167
 msgctxt "DialogClone|Die gewählte Festplatte ist zu klein.\n"
@@ -160,10 +159,9 @@ msgid "Note"
 msgstr "referência"
 
 #: ../src/clone_net.cpp:152 ../src/clone_net.cpp:237
-#, fuzzy
 msgctxt "DialogClone_net|Sie müssen eine Festplatte auswählen.\n"
 msgid "You must select a hard drive."
-msgstr "Você deve selecionar um disco."
+msgstr ""
 
 #: ../src/clone_net.cpp:156
 msgctxt "DialogClone_net|Sie müssen ein Verzeichnis auswählen.\n"
@@ -618,10 +616,9 @@ msgstr ""
 #: ../src/mbr.cpp:179 ../src/mbr.cpp:181 ../src/mbr.cpp:207 ../src/mbr.cpp:209
 #: ../src/mbr.cpp:264 ../src/mbr.cpp:325 ../src/mbr.cpp:331 ../src/mbr.cpp:337
 #: ../src/mbr.cpp:343 ../src/mbr.cpp:349 ../src/mbr.cpp:355 ../src/mbr.cpp:405
-#, fuzzy
 msgctxt "DialogMBR|Hinweis"
 msgid "Note"
-msgstr "referência"
+msgstr ""
 
 #: ../src/mbr.cpp:114
 msgctxt "DialogMBR|MBR/GPT wurde erfolgreich gesichert.\n"
@@ -2399,10 +2396,9 @@ msgstr ""
 
 #: ../src/net_ein.cpp:257 ../src/net_ein.cpp:463 ../src/net_ein.cpp:469
 #: ../src/net_ein.cpp:475 ../src/net_ein.cpp:684
-#, fuzzy
 msgctxt "NetEin|Hinweis"
 msgid "Note"
-msgstr "referência"
+msgstr ""
 
 #: ../src/net_ein.cpp:258
 msgctxt "NetEin|Es ist derzeit kein Netzwerkrechner.\n"
