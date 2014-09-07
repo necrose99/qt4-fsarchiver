@@ -1106,18 +1106,18 @@ Los archivos deben terminar al FSA.</translation>
         <location filename="../src/net.cpp" line="1108"/>
         <location filename="../src/net.cpp" line="1114"/>
         <location filename="../src/net.cpp" line="1127"/>
-        <location filename="../src/net.cpp" line="1157"/>
-        <location filename="../src/net.cpp" line="1183"/>
-        <location filename="../src/net.cpp" line="1186"/>
-        <location filename="../src/net.cpp" line="1191"/>
-        <location filename="../src/net.cpp" line="1208"/>
-        <location filename="../src/net.cpp" line="1215"/>
-        <location filename="../src/net.cpp" line="1221"/>
-        <location filename="../src/net.cpp" line="1225"/>
-        <location filename="../src/net.cpp" line="1388"/>
-        <location filename="../src/net.cpp" line="1521"/>
-        <location filename="../src/net.cpp" line="1539"/>
-        <location filename="../src/net.cpp" line="1579"/>
+        <location filename="../src/net.cpp" line="1158"/>
+        <location filename="../src/net.cpp" line="1184"/>
+        <location filename="../src/net.cpp" line="1187"/>
+        <location filename="../src/net.cpp" line="1192"/>
+        <location filename="../src/net.cpp" line="1209"/>
+        <location filename="../src/net.cpp" line="1216"/>
+        <location filename="../src/net.cpp" line="1222"/>
+        <location filename="../src/net.cpp" line="1226"/>
+        <location filename="../src/net.cpp" line="1390"/>
+        <location filename="../src/net.cpp" line="1523"/>
+        <location filename="../src/net.cpp" line="1541"/>
+        <location filename="../src/net.cpp" line="1581"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation type="unfinished">Nota</translation>
@@ -1393,12 +1393,12 @@ clave de copia de seguridad:</translation>
         <location filename="../src/net.cpp" line="1093"/>
         <location filename="../src/net.cpp" line="1128"/>
         <location filename="../src/net.cpp" line="1129"/>
-        <location filename="../src/net.cpp" line="1183"/>
-        <location filename="../src/net.cpp" line="1187"/>
-        <location filename="../src/net.cpp" line="1209"/>
+        <location filename="../src/net.cpp" line="1184"/>
+        <location filename="../src/net.cpp" line="1188"/>
         <location filename="../src/net.cpp" line="1210"/>
-        <location filename="../src/net.cpp" line="1216"/>
+        <location filename="../src/net.cpp" line="1211"/>
         <location filename="../src/net.cpp" line="1217"/>
+        <location filename="../src/net.cpp" line="1218"/>
         <source> files, </source>
         <comment> Dateien, </comment>
         <translation type="unfinished"> archivos,</translation>
@@ -1407,10 +1407,10 @@ clave de copia de seguridad:</translation>
         <location filename="../src/net.cpp" line="1093"/>
         <location filename="../src/net.cpp" line="1128"/>
         <location filename="../src/net.cpp" line="1129"/>
-        <location filename="../src/net.cpp" line="1183"/>
-        <location filename="../src/net.cpp" line="1187"/>
-        <location filename="../src/net.cpp" line="1209"/>
-        <location filename="../src/net.cpp" line="1216"/>
+        <location filename="../src/net.cpp" line="1184"/>
+        <location filename="../src/net.cpp" line="1188"/>
+        <location filename="../src/net.cpp" line="1210"/>
+        <location filename="../src/net.cpp" line="1217"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
         <translation type="unfinished"> directorios,</translation>
@@ -1419,10 +1419,10 @@ clave de copia de seguridad:</translation>
         <location filename="../src/net.cpp" line="1093"/>
         <location filename="../src/net.cpp" line="1128"/>
         <location filename="../src/net.cpp" line="1130"/>
-        <location filename="../src/net.cpp" line="1183"/>
-        <location filename="../src/net.cpp" line="1209"/>
-        <location filename="../src/net.cpp" line="1211"/>
-        <location filename="../src/net.cpp" line="1217"/>
+        <location filename="../src/net.cpp" line="1184"/>
+        <location filename="../src/net.cpp" line="1210"/>
+        <location filename="../src/net.cpp" line="1212"/>
+        <location filename="../src/net.cpp" line="1218"/>
         <source> links and </source>
         <comment> Links und </comment>
         <translation type="unfinished"> enlaces y </translation>
@@ -1477,8 +1477,8 @@ clave de copia de seguridad:</translation>
         <translation type="unfinished"> datos específicos no fueron respaldados correctamente.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1209"/>
-        <location filename="../src/net.cpp" line="1216"/>
+        <location filename="../src/net.cpp" line="1210"/>
+        <location filename="../src/net.cpp" line="1217"/>
         <source>The restore of the partition was only partially successful.
 </source>
         <comment>Die Wiederherstellung der Partition war nur teilweise erfolgreich
@@ -1486,7 +1486,7 @@ clave de copia de seguridad:</translation>
         <translation type="unfinished">La restauración de la partición fue sólo un éxito parcial.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1209"/>
+        <location filename="../src/net.cpp" line="1210"/>
         <source> specials have been restored
 .</source>
         <comment> spezielle Daten wurden wiederhergestellt
@@ -1494,8 +1494,8 @@ clave de copia de seguridad:</translation>
         <translation type="unfinished"> datos específicos ha sido respaldado.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1212"/>
-        <location filename="../src/net.cpp" line="1217"/>
+        <location filename="../src/net.cpp" line="1213"/>
+        <location filename="../src/net.cpp" line="1218"/>
         <source> specials were not properly restored
 .</source>
         <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
@@ -1503,7 +1503,7 @@ clave de copia de seguridad:</translation>
         <translation type="unfinished"> datos específicos no fueron respaldados correctamente.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1217"/>
+        <location filename="../src/net.cpp" line="1218"/>
         <source> specials and the Partition Boot Record have been restored
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
@@ -1516,8 +1516,8 @@ clave de copia de seguridad:</translation>
         <translation type="obsolete"> archivos </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1210"/>
-        <location filename="../src/net.cpp" line="1217"/>
+        <location filename="../src/net.cpp" line="1211"/>
+        <location filename="../src/net.cpp" line="1218"/>
         <source> directories and </source>
         <comment> Verzeichnisse und </comment>
         <translation type="unfinished"> directorios, </translation>
@@ -1531,7 +1531,7 @@ clave de copia de seguridad:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1157"/>
+        <location filename="../src/net.cpp" line="1158"/>
         <source>cannot restore an archive to a partition which is mounted, unmount it first 
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
@@ -1540,8 +1540,8 @@ clave de copia de seguridad:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1183"/>
-        <location filename="../src/net.cpp" line="1186"/>
+        <location filename="../src/net.cpp" line="1184"/>
+        <location filename="../src/net.cpp" line="1187"/>
         <source>The partition is successful back.
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
@@ -1549,25 +1549,25 @@ clave de copia de seguridad:</translation>
         <translation type="unfinished">la partición es exitoso regreso.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1183"/>
+        <location filename="../src/net.cpp" line="1184"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
         <translation type="unfinished">datos específicos ha sido respaldado.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1187"/>
+        <location filename="../src/net.cpp" line="1188"/>
         <source> links </source>
         <comment> Links </comment>
         <translation type="unfinished"> enlaces y </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1187"/>
+        <location filename="../src/net.cpp" line="1188"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
         <translation type="unfinished"> datos específicos ha sido respaldado. y el registro de arranque de partición ha sido restaurada.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1192"/>
+        <location filename="../src/net.cpp" line="1193"/>
         <source>The restore of the partition was break by user!
 </source>
         <comment>Die Wiederherstellung der Partition wurde vom Benutzer abgebrochen!
@@ -1584,7 +1584,7 @@ clave de copia de seguridad:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1222"/>
+        <location filename="../src/net.cpp" line="1223"/>
         <source>You tried to restore a partition. The selected file can only restore directories. Please restart the program.
 </source>
         <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
@@ -1592,7 +1592,7 @@ clave de copia de seguridad:</translation>
         <translation type="unfinished">Ha intentado restaurar una partición. El archivo seleccionado sólo puede restaurar directorios. Por favor, reinicie el programa.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1225"/>
+        <location filename="../src/net.cpp" line="1226"/>
         <source>You have entered an incorrect password.
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
@@ -1600,32 +1600,32 @@ clave de copia de seguridad:</translation>
         <translation type="unfinished">Ha introducido una contraseña incorrecta.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1389"/>
+        <location filename="../src/net.cpp" line="1391"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation type="unfinished">Si</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1390"/>
+        <location filename="../src/net.cpp" line="1392"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation type="unfinished">No</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1403"/>
+        <location filename="../src/net.cpp" line="1405"/>
         <source>Do you want really break the save or restore from the partition?</source>
         <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</comment>
         <translation type="unfinished">¿Quieres realmente romper clon, guardar o restaurar una imagen de la partición?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1506"/>
+        <location filename="../src/net.cpp" line="1508"/>
         <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source>
         <comment>Wenn Sie keine SSH-Authentifizierung eingerichtet haben, müssen Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern</comment>
         <translation type="unfinished">Si no ha configurado la autenticación SSH, ahora debe introducir la contraseña en el terminal. Si esto continúa a mostrar? Usted puede cambiar esto en la configuración básica.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1521"/>
-        <location filename="../src/net.cpp" line="1579"/>
+        <location filename="../src/net.cpp" line="1523"/>
+        <location filename="../src/net.cpp" line="1581"/>
         <source>The SSH server is not reachable. Try again or with another network protocol.
 </source>
         <comment>Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals oder mit einem anderen Netzwerkprotokoll.
@@ -1633,7 +1633,7 @@ clave de copia de seguridad:</translation>
         <translation type="unfinished">El servidor SSH no es accesible. Inténtalo de nuevo o con otro protocolo de red.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1540"/>
+        <location filename="../src/net.cpp" line="1542"/>
         <source>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.
 </source>
         <comment>Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten Terminal müssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie das Passwort für den Zugriff auf den Server ein  und 3.verlassen Sie den Server mit dem Befehl exit.
@@ -1642,7 +1642,7 @@ clave de copia de seguridad:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1678"/>
+        <location filename="../src/net.cpp" line="1680"/>
         <source>Name</source>
         <translation type="unfinished">Nombre del imagen</translation>
     </message>
@@ -2472,13 +2472,30 @@ Los archivos deben terminar al fsa</translation>
 partitions, directory and MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
+Version 0.6.19-7, September 2, 2014</source>
+        <comment>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-7, 2. September 2014</comment>
+        <translation type="unfinished">Copia de seguridad y restauración de
+ particiones, directorios y MBR
+ Copyright (C) 2008-2014 Francois Dupoux y Dieter Baum.
+Todos los derechos reservados.
+Versión 0.6.19-7, 2 de septiembre 2014</translation>
+    </message>
+    <message>
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
 Version 0.6.19-6, August 4, 2014</source>
         <comment>Sichern und Wiederherstellen
 von Partitionen, Verzeichnissen und MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
 Version 0.6.19-6, 4. August 2014</comment>
-        <translation type="unfinished">Copia de seguridad y restauración de
+        <translation type="obsolete">Copia de seguridad y restauración de
  particiones, directorios y MBR
  Copyright (C) 2008-2014 Francois Dupoux y Dieter Baum.
 Todos los derechos reservados.

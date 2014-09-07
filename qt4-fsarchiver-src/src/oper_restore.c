@@ -256,7 +256,7 @@ int extractar_restore_attr_windows(cextractar *exar, u32 objtype, char *fullpath
             ret=-1;
             continue;
         }
-        
+/* Um Fehlermeldungen beim Zurückschreiben zu vermeiden        
         if ((res=lsetxattr(fullpath, xattrname, xattrvalue, xattrdatasize, 0))!=0)
         {
             sysprintf("winattr:lsetxattr(%s,%s) failed\n", relpath, xattrname);
@@ -265,7 +265,7 @@ int extractar_restore_attr_windows(cextractar *exar, u32 objtype, char *fullpath
         else // success
         {
             msgprintf(MSG_VERB2, "            winattr:lsetxattr(%s, %s)=%d\n", relpath, xattrname, res);
-        }
+        } */
     }
     
     return ret;

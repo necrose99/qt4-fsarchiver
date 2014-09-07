@@ -1139,7 +1139,8 @@ void DialogNet::thread1Ready()  {
   if (net_art == 0) //Samba
        befehl = "umount -f " + homepath + "/.qt4-fs-client";
   if (net_art == 2) //NFS
-       befehl = "/etc/init.d/nfs-kernel-server restart";
+      // befehl = "/etc/init.d/nfs-kernel-server restart";
+         befehl = "umount -a -t nfs";
   system (befehl.toAscii().data());
   thread_run_net = 0;
   thread1.exit();
@@ -1234,7 +1235,8 @@ void DialogNet::thread2Ready()  {
     if (net_art == 0) //Samba
        befehl = "umount -f " + homepath + "/.qt4-fs-client";
     if (net_art == 2) //NFS
-       befehl = "/etc/init.d/nfs-kernel-server restart";
+      //befehl = "/etc/init.d/nfs-kernel-server restart";
+       befehl = "umount -a -t nfs";
     system (befehl.toAscii().data());
     thread_run_net = 0;
     thread2.exit();
