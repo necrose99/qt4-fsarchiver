@@ -75,9 +75,10 @@ int main(int argc, char *argv[])
    language[2] = "ru_RU";
    language[3] = "es_ES";
    language[4] = "it_IT";
-   language[5] = "nl_NL";
-   language[6] = "jp_JP";
-     
+   language[5] = "ch_CH";
+   language[6] = "nl_NL";
+   language[7] = "jp_JP";
+        
    QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
    setting.beginGroup("Basiseinstellungen");
    int auswertung = setting.value("Sprache").toInt();
@@ -116,6 +117,7 @@ int main(int argc, char *argv[])
   // qDebug() << window.Root_Auswertung();
  }
   
+
 
 
 

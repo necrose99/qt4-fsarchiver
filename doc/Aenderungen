@@ -1,6 +1,8 @@
 ==================================================================================================
 * qt4-fsarchiver: Grafische Oberfläche für fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
+* qt4-fsarchiver-6.19-8 17.Oktober 2014
+    - Chinesisch hinzugefügt.
 * qt4-fsarchiver-6.19-7 2.September 2014
     - Wiederholte Sicherungen/Wiederherstellungen mit NFS korrigiert
 * qt4-fsarchiver-6.19-6 4.August 2014

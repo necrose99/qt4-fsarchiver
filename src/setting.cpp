@@ -30,7 +30,7 @@ DialogSetting::DialogSetting(QWidget *parent)
 	connect( cmd_save, SIGNAL( clicked() ), this, SLOT( setting_save())); 
         connect( cmd_cancel, SIGNAL( clicked() ), this, SLOT(close()));
         //items_language << tr("German", "Deutsch") << tr("English", "Englisch") ;
-        items_language << tr("German", "Deutsch") << tr("English", "Englisch") << tr("Russian", "Russisch") << tr("Spanish", "Spanisch") << tr("Italian", "Italienisch") ;
+        items_language << tr("German", "Deutsch") << tr("English", "Englisch") << tr("Russian", "Russisch") << tr("Spanish", "Spanisch") << tr("Italian", "Italienisch") << tr("Chinese", "Chinesisch");
         items_language << tr("Dutch", "Niederländisch") << tr("Japanese", "Japanisch") ;
         cmb_language->addItems (items_language);
          items_kerne << "1" << "2" << "3" << "4" <<  "5" << "6" << "7" << "8" << "9" << "10" << "11" << "12" << "13" << "14" << "15" << "16" ;
@@ -90,7 +90,8 @@ DialogSetting::DialogSetting(QWidget *parent)
         auswertung = setting.value("showPrg").toInt();
         if (auswertung ==1)
            chk_prg->setChecked(Qt::Checked);
-        setting.endGroup();
+        auswertung = setting.value("hidden").toInt();
+	     setting.endGroup();
 }        
 
 void DialogSetting:: setting_save()
@@ -105,7 +106,7 @@ void DialogSetting:: setting_save()
      if (cmb_language->currentIndex() == 2)
         QMessageBox::about(this,tr("Note", "Hinweis"),
          	tr("The Russian translation is not completely.\n", "Die russische Übersetzung ist nicht komplett.\n"));
-     if (cmb_language->currentIndex() >= 5){
+     if (cmb_language->currentIndex() >= 6){
         QMessageBox::about(this,tr("Note", "Hinweis"),
          	tr("The translation is in progress. Please choose another language\n", "Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache\n"));
         return;
@@ -174,6 +175,7 @@ void DialogSetting:: setting_save()
      QMessageBox::about(this,tr("Note", "Hinweis"),
          tr("The settings have been saved. Be restarted, the program modified the language setting.","Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.\n"));
 }
+
 
 
 

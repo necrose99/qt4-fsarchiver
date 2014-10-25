@@ -1641,6 +1641,12 @@ entschlüsseln. Schlüssel</comment>
         <translation type="unfinished">イタリア語</translation>
     </message>
     <message>
+        <location filename="../src/setting.cpp" line="33"/>
+        <source>Chinese</source>
+        <comment>Chinesisch</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Japanese</source>
         <comment>Japanisch</comment>
@@ -1713,15 +1719,15 @@ entschlüsseln. Schlüssel</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="106"/>
-        <location filename="../src/setting.cpp" line="109"/>
-        <location filename="../src/setting.cpp" line="174"/>
+        <location filename="../src/setting.cpp" line="107"/>
+        <location filename="../src/setting.cpp" line="110"/>
+        <location filename="../src/setting.cpp" line="175"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="107"/>
+        <location filename="../src/setting.cpp" line="108"/>
         <source>The Russian translation is not completely.
 </source>
         <comment>Die russische Übersetzung ist nicht komplett.
@@ -1729,7 +1735,7 @@ entschlüsseln. Schlüssel</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="110"/>
+        <location filename="../src/setting.cpp" line="111"/>
         <source>The translation is in progress. Please choose another language
 </source>
         <comment>Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache
@@ -1737,7 +1743,7 @@ entschlüsseln. Schlüssel</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="175"/>
+        <location filename="../src/setting.cpp" line="176"/>
         <source>The settings have been saved. Be restarted, the program modified the language setting.</source>
         <comment>Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.
 </comment>
@@ -2388,6 +2394,20 @@ Die Dateiendung muss .fsa sein</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/mainWindow.cpp" line="1039"/>
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-8, October 17, 2014</source>
+        <comment>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-7, 17. Oktober 2014</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../src/mainWindow.cpp" line="1056"/>
         <source>The program must be run with root privileges. The program is terminated.
 </source>
@@ -2538,20 +2558,6 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
 </comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1039"/>
-        <source>Backup and restore
-partitions, directory and MBR
-Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
-All rights reserved.
-Version 0.6.19-7, September 2, 2014</source>
-        <comment>Sichern und Wiederherstellen
-von Partitionen, Verzeichnissen und MBR
-Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
-All rights reserved.
-Version 0.6.19-7, 2. September 2014</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
