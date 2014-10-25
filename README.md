@@ -9,7 +9,9 @@ and or email him from SF.net pages.
 Spanish translation up colaberative -- 
 Italian (although rusty) I will give it a go. Japanese need to do 
 any others 
-https://www.transifex.com/organization/qt4-fsarchiver/
+<a href="https://hosted.weblate.org/engage/qt4-fsarchiver/?utm_source=widget">
+<img src="https://hosted.weblate.org/widgets/qt4-fsarchiver/-/status-badge.png" alt="Translation status" />
+</a>
 feal like adding a translation , feal free to notfy 	 Dieter Baum dieterbaum at t-online.de
 
 Brought to you by: <a
