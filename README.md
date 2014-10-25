@@ -10,7 +10,7 @@ Spanish translation up colaberative --
 Italian (although rusty) I will give it a go. Japanese need to do 
 any others 
 <a href="https://hosted.weblate.org/engage/qt4-fsarchiver/?utm_source=widget">
-<img src="https://hosted.weblate.org/widgets/qt4-fsarchiver/-/status-badge.png" alt="Translation status" />
+<img src="https://hosted.weblate.org/widgets/qt4-fsarchiver/-/287x66-black.png" alt="Translation status" />
 </a>
 feal like adding a translation , feal free to notfy 	 Dieter Baum dieterbaum at t-online.de
 
