@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <TS version="2.0" language="es_ES">
 <defaultcodec>UTF-8</defaultcodec>
@@ -9,7 +9,7 @@
         <location filename="../src/clone.cpp" line="343"/>
         <source>Clone Harddrive</source>
         <comment>Festplatte klonen</comment>
-        <translation type="unfinished">Clonar Existen disco duro</translation>
+        <translation>Clonar Disco duro</translation>
     </message>
     <message>
         <source>alredy saved</source>
@@ -36,7 +36,7 @@
         <location filename="../src/clone.cpp" line="597"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-        <translation type="unfinished">Nota de copia de seguridad permite por defecto</translation>
+        <translation>Nota</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="177"/>
@@ -45,14 +45,14 @@
         <source>You must select a hard drive.</source>
         <comment>Sie müssen eine Festplatte auswählen.
 </comment>
-        <translation type="unfinished">Você deve selecionar um disco.</translation>
+        <translation>Usted debe seleccionar un disco duro.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="182"/>
         <source>The selected hard drive is too small.</source>
         <comment>Die gewählte Festplatte ist zu klein.
 </comment>
-        <translation type="unfinished">El disco duro seleccionado es demasiado pequeño.</translation>
+        <translation>El disco duro seleccionado es demasiado pequeño.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="188"/>
@@ -61,26 +61,26 @@
         <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
         <comment>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
 </comment>
-        <translation type="unfinished">En el disco duro existe una raíz o una partición casa. Debe necesitar un CD en vivo.</translation>
+        <translation>En el disco duro existe una root o una partición home. Debe necesitar un CD en vivo.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="192"/>
         <source> Do you want really clone the hard drive? All dates on  </source>
         <comment> Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte </comment>
-        <translation type="unfinished">¿Quieres realmente clonar el disco duro? Todas las fechas de</translation>
+        <translation> ¿Quieres realmente clonar el disco duro? Todas las fechas de  </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="192"/>
         <source> are deleted!</source>
         <comment> werden gelöscht!</comment>
-        <translation type="unfinished">Se eliminan!</translation>
+        <translation> Se eliminan!</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="228"/>
         <source>You must select a folder.</source>
         <comment>Sie müssen ein Verzeichnis auswählen.
 </comment>
-        <translation type="unfinished">Debe seleccionar una carpeta.</translation>
+        <translation>Debe seleccionar una carpeta.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="244"/>
@@ -423,7 +423,7 @@ de copia de seguridad:</translation>
         <location filename="../src/dir.cpp" line="129"/>
         <source>to saved Directory</source>
         <comment>zu sicherndes Verzeichnis</comment>
-        <translation>Directorio de copia de seguridad:</translation>
+        <translation>Directorio de salvado</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="130"/>
@@ -437,8 +437,8 @@ de copia de seguridad:</translation>
 backup. key:</source>
         <comment>Sicherung
 entschlüsseln. Schlüssel:</comment>
-        <translation>Cifrar
-tecla de copia de seguridad</translation>
+        <translation>Descifrar 
+copia de seguridad. clave:</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="148"/>
@@ -585,8 +585,8 @@ tecla de copia de seguridad</translation>
  The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
-Los archivos deben terminar al FSA.</translation>
+        <translation>Usted ha elegido el archivo de recuperación mal seleccionado. 
+ Los archivos deben terminar con. fsa</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="332"/>
@@ -941,7 +941,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa</translation>
+        <translation>Ha seleccionado un archivo. Usted debe seleccionar un directorio
+</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="338"/>
@@ -1244,7 +1245,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
 </comment>
-        <translation>La copia de seguridad de la carpeta fue abortada por el usuario!</translation>
+        <translation>La copia de seguridad fue abortado por el usuario↵
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="687"/>
@@ -1252,7 +1254,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>No había ninguna clave para el cifrado especificado.</translation>
+        <translation>Sin llave se le dio para la desencriptación↵
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="699"/>
@@ -1268,8 +1271,8 @@ Los archivos deben terminar al FSA.</translation>
 The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
-Los archivos deben terminar al FSA.</translation>
+        <translation>Usted ha elegido el archivo de recuperación mal seleccionado.↵ 
+Los archivos deben terminar con. fsa</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="732"/>
@@ -1297,8 +1300,7 @@ Los archivos deben terminar al FSA.</translation>
         <location filename="../src/net.cpp" line="766"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation>En el número guardado
- Archivos/directorios:</translation>
+        <translation> no coincide con el guardado  </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="766"/>
@@ -1765,8 +1767,7 @@ clave de copia de seguridad:</translation>
     <message>
         <location filename="../src/setting.cpp" line="45"/>
         <source>SSH</source>
-        <translation>SSH
-</translation>
+        <translation>SSH</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="45"/>
@@ -1787,7 +1788,8 @@ clave de copia de seguridad:</translation>
 </source>
         <comment>Die russische Übersetzung ist nicht komplett.
 </comment>
-        <translation>La traducción al ruso no es completamente.</translation>
+        <translation>La traducción rusa no es completo.
+</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="111"/>
@@ -1795,7 +1797,8 @@ clave de copia de seguridad:</translation>
 </source>
         <comment>Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache
 </comment>
-        <translation>La traducción está en curso. Por favor, elija otro idioma</translation>
+        <translation>La traducción está en curso. Por favor, elija otro idioma↵
+</translation>
     </message>
     <message>
         <source>The translation is in progress. Please choose an other language
@@ -1997,8 +2000,8 @@ setting:</source>
         <location filename="../src/ui/net.ui" line="597"/>
         <source>Encrypt 
 backup key</source>
-        <translation>Encriptar
-clave de copia de seguridad:</translation>
+        <translation>Encriptar↵
+clave de copia de seguridad</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="611"/>
@@ -2089,7 +2092,7 @@ transmission:</source>
         <location filename="../src/ui/filedialog.ui" line="14"/>
         <source>Description of the backup</source>
         <extracomment>Beschreibung der Sicherung</extracomment>
-        <translation>Descripción:</translation>
+        <translation>Descripción de la copia de seguridad</translation>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="26"/>
@@ -2111,12 +2114,12 @@ transmission:</source>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="80"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+        <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../src/filedialog.cpp" line="41"/>
@@ -2149,7 +2152,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/filedialog.cpp" line="94"/>
         <source>hello</source>
         <comment>hallo</comment>
-        <translation>¡hola!</translation>
+        <translation>hola</translation>
     </message>
 </context>
 <context>
@@ -2288,7 +2291,7 @@ tecla de copia de seguridad:</translation>
         <location filename="../src/mainWindow.cpp" line="509"/>
         <source>To back up home partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation type="unfinished">Para la copia de seguridad se monta la partición En Casa &quot;home.&quot; ¿Quieres hacer una copia de seguridad en vivo?</translation>
+        <translation type="unfinished">Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="527"/>
@@ -2465,7 +2468,7 @@ Los archivos deben terminar al fsa</translation>
         <location filename="../src/mainWindow.cpp" line="978"/>
         <source>The restoring is performed</source>
         <comment>Die Wiederherstellung wird durchgeführt</comment>
-        <translation>La restauración del directorio se ha realizado correctamente.</translation>
+        <translation>La restauración se está realizando</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1038"/>
@@ -2897,7 +2900,7 @@ Versión 0.6.17-4, 01 de junio 2013</translation>
         <location filename="../src/mainWindow.cpp" line="1562"/>
         <source>to be protected/secured partition: / (root system directory) </source>
         <comment>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </comment>
-        <translation type="unfinished">a ser protegido / partición asegurado: (directorio &quot;root&quot;raíz del sistema) /</translation>
+        <translation type="unfinished">a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1567"/>
@@ -3062,7 +3065,7 @@ setting:</source>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="444"/>
         <source>Notes to  the backup</source>
-        <translation>Otras notas:</translation>
+        <translation>Notas para la copia de seguridad</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="467"/>
@@ -3560,7 +3563,7 @@ Verzeichnis sichern/zurückschreiben</extracomment>
         <location filename="../src/ui/dir_dialog.ui" line="71"/>
         <source>Saved directory</source>
         <extracomment>zu sicherndes Verzeichnis:</extracomment>
-        <translation>Directorio de copia de seguridad:</translation>
+        <translation>directorio Guardado</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="97"/>
@@ -3571,7 +3574,7 @@ Verzeichnis sichern/zurückschreiben</extracomment>
         <location filename="../src/ui/dir_dialog.ui" line="100"/>
         <source>Location (path) of backup:</source>
         <extracomment>Ort (Pfad) der Sicherung:</extracomment>
-        <translation>Ubicación (camino) del copia de seguridad</translation>
+        <translation>Ubicación (camino) de copia de seguridad:</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="128"/>
@@ -3654,7 +3657,7 @@ de copia de seguridad</translation>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="487"/>
         <source>The directory will be written back to the original path</source>
-        <translation>El directorio se vuelve a escribir en la ruta original.</translation>
+        <translation>El directorio se escribirá de nuevo a la ruta original</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="490"/>
@@ -3816,7 +3819,7 @@ de nuevo a su ubicación original</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="179"/>
-        <source>Password for network&apos;s view</source>
+        <source>Password for network's view</source>
         <extracomment>Passwort für Netzwerk * anzeigen</extracomment>
         <translation type="unfinished">Contraseña de vista del red</translation>
     </message>
