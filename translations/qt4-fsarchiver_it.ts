@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> 
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -7,7 +7,7 @@
  Locale: it_IT, it
  Exported by: Michael R. Lawrence
  Exported at: Sat, 25 Oct 2014 17:56:52 +0100 
---> 
+-->
 <TS version="2.0" language="it_IT"> 
     <context>
         <name>clone_dialog</name> 
@@ -351,28 +351,28 @@ Files/directories:</source>
 files/directories:</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
             <source>Partition restore</source> 
@@ -402,8 +402,8 @@ con fsArchiver</translation>
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>Protocollo per la trasmissione in rete</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocollo per la trasmissione in rete:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Protocoll for network
 transmission:</source> 
@@ -918,12 +918,12 @@ p, li { white-space: pre-wrap; }
         <name>DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
         <message>
             <source>Do you want really restore the image of the hard drive? </source> 
-            <translation>Vuoi davvero ripristinare l'immagine del disco rigido?</translation> 
-        </message> 
+            <translation>Vuoi davvero ripristinare l'immagine del disco rigido? </translation>
+    </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>Vuoi davvero a costruire un'immagine dal disco fisso?</translation> 
-        </message> 
+            <translation> Vuoi davvero a costruire un'immagine dal disco fisso? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</name> 
@@ -977,8 +977,8 @@ p, li { white-space: pre-wrap; }
         </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>Vuoi davvero costruito un immagine dal disco rigido?</translation> 
-        </message> 
+            <translation> Vuoi davvero costruito un immagine dal disco rigido? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</name> 
@@ -1330,9 +1330,8 @@ chiave di riserva:</translation>
         <name>DialogDIR|Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!</name> 
         <message>
             <source>The restoration of the directory was canceled by the user!</source> 
-            <translation>il ripristino della directory annullata dall'utente!
-</translation> 
-        </message> 
+            <translation>il ripristino della directory annullata dall'utente!</translation>
+    </message> 
         <message>
             <source>The restore of the folder was break by user!
 </source> 
@@ -2524,8 +2523,9 @@ salvato.</translation>
         <message>
             <source>The restore was canceled by user
 </source> 
-            <translation>il ripristino della directory annullata dall'utente!</translation> 
-        </message> 
+            <translation>il ripristino della directory annullata dall'utente!
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| Dateien,</name> 
@@ -2647,15 +2647,16 @@ salvato.</translation>
         <message>
             <source>The restore of the partition was Halted by user!
 </source> 
-            <translation>La partizione di ripristino è stato annullato dall'utente!</translation> 
-        </message> 
+            <translation>La partizione di ripristino è stato annullato dall'utente!
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</name> 
         <message>
             <source>The restored home partition is mounted and can not be restored. Please use a live CD
 </source> 
-            <translation>La partizione &quot;casa&quot;(HOME) restaurata è montata e non può essere ripristinato. Si prega di utilizzare un live CD
+            <translation>La partizione "casa"(HOME) restaurata è montata e non può essere ripristinato. Si prega di utilizzare un live CD
 </translation> 
         </message> 
     </context> 
@@ -3363,28 +3364,28 @@ chiave di riserva</translation>
             <translation>riferimento</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
             <source>Partition restore</source> 
@@ -4110,15 +4111,8 @@ La versione 0.6.19-7, 2 Settembre 2014</translation>
         </message> 
         <message>
             <source>Do you really want to break the save or restore from the partition?</source> 
-            <translation>Vuoi davvero rompere clone, salvare o ripristinare un'immagine dalla partizione?
-
-
-p, li { white-space: pre-wrap; }
-
-
-
-</translation> 
-        </message> 
+            <translation>Vuoi davvero rompere clone, salvare o ripristinare un'immagine dalla partizione?</translation>
+    </message> 
         <message>
             <source>Do you want really break the save or restore from the partition?</source> 
             <translation>Do you want really break the save or restore from the partition?</translation> 
@@ -4436,11 +4430,8 @@ p, li { white-space: pre-wrap; }
         </message> 
         <message>
             <source>Other notes:</source> 
-            <translation>
-
-
-Note per il riserva:</translation> 
-        </message> 
+            <translation>Note per il riserva:</translation>
+    </message> 
         <message>
             <source>Partition  name:</source> 
             <translation>nome di partizione:</translation> 
