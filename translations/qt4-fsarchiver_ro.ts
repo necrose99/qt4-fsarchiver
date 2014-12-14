@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> 
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -7,7 +7,7 @@
  Locale: ro_RO, Romanian
  Exported by: Michael R. Lawrence
  Exported at: Sat, 25 Oct 2014 17:56:54 +0100 
---> 
+-->
 <TS version="2.0" language="ro_RO"> 
     <context>
         <name>clone_dialog</name> 
@@ -17,8 +17,8 @@
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>deja salvat</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;deja salvat:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
             <translation>already saved:</translation> 
@@ -148,8 +148,8 @@
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>deja salvat:</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;deja salvat:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
             <translation>already saved:</translation> 
@@ -338,28 +338,28 @@ Files/directories:</source>
 Fișiere / directoare:</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
             <source>Partition restore</source> 
@@ -948,8 +948,8 @@ cu fsarchiver</translation>
         <name>DialogClone| werden gelöscht!</name> 
         <message>
             <source> are deleted!</source> 
-            <translation>sunt șterse!</translation> 
-        </message> 
+            <translation> sunt șterse!</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
@@ -959,8 +959,8 @@ cu fsarchiver</translation>
         </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>Chiar doriți să creeați o imagine a discului dur?</translation> 
-        </message> 
+            <translation> Chiar doriți să creeați o imagine a discului dur? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</name> 
@@ -973,8 +973,8 @@ cu fsarchiver</translation>
         <name>DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte</name> 
         <message>
             <source> Do you want really clone the hard drive? All dates on  </source> 
-            <translation>Vrei într-adevăr clona hard disk-ul? Toate datele de pe</translation> 
-        </message> 
+            <translation> Vrei într-adevăr clona hard disk-ul? Toate datele de pe  </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR</name> 
@@ -2459,8 +2459,8 @@ backup. key:</translation>
         <name>DialogNet| Dateien,</name> 
         <message>
             <source>files </source> 
-            <translation>arhivă</translation> 
-        </message> 
+            <translation>arhivă </translation>
+    </message> 
         <message>
             <source> files</source> 
             <translation> files</translation> 
@@ -2478,8 +2478,9 @@ backup. key:</translation>
         <message>
             <source>The partition type is not supported. Maybe the partition is encrypted?
 </source> 
-            <translation>Tipul partiției nu este acceptat. Poate că partiția este criptat?</translation> 
-        </message> 
+            <translation>Tipul partiției nu este acceptat. Poate că partiția este criptat?
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals oder mit einem anderen Netzwerkprotokoll.</name> 
@@ -2573,8 +2574,9 @@ backup. key:</translation>
         <message>
             <source>The restore of the partition was Halted by user!
 </source> 
-            <translation>Restabili partiției a fost oprită de utilizator!</translation> 
-        </message> 
+            <translation>Restabili partiției a fost oprită de utilizator!
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</name> 
@@ -2684,23 +2686,25 @@ backup. key:</translation>
         <message>
             <source> links were not saved properly. The backup of the partition was only partially successful
 </source> 
-            <translation>linkurile nu au fost salvate în mod corespunzător.Copie de rezervă a partiției fost doar parțial reușită</translation> 
-        </message> 
+            <translation> linkurile nu au fost salvate în mod corespunzător.Copie de rezervă a partiției fost doar parțial reușită
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.</name> 
         <message>
             <source> links were not recovered correctly. The recovery of the partition was only partly successful.
 </source> 
-            <translation>link-uri nu au fost recuperate corect. Recuperarea partiției a fost doar parțial de succes.</translation> 
-        </message> 
+            <translation> link-uri nu au fost recuperate corect. Recuperarea partiției a fost doar parțial de succes.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| Links</name> 
         <message>
             <source> links </source> 
-            <translation>plajă</translation> 
-        </message> 
+            <translation> plajă </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis gefunden.</name> 
@@ -2812,8 +2816,8 @@ The files should end with. fsa be</translation>
         <name>DialogNet| spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</name> 
         <message>
             <source> specials and the Partition Boot Record have been restored.</source> 
-            <translation>speciale și Record Partiția Boot au fost restaurate.</translation> 
-        </message> 
+            <translation> speciale și Record Partiția Boot au fost restaurate.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| spezielle Daten wurden gesichert.</name> 
@@ -2826,8 +2830,8 @@ The files should end with. fsa be</translation>
         <name>DialogNet| spezielle Daten wurden wieder hergestellt.</name> 
         <message>
             <source> specials have been restored.</source> 
-            <translation>fișiere speciale au fost restaurate.</translation> 
-        </message> 
+            <translation> fișiere speciale au fost restaurate.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| stimmt nicht mit der gesicherten</name> 
@@ -2847,8 +2851,8 @@ The files should end with. fsa be</translation>
         <name>DialogNet| Verzeichnisse und</name> 
         <message>
             <source> directories and </source> 
-            <translation>directoare și</translation> 
-        </message> 
+            <translation> directoare și </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| Verzeichnisse,</name> 
@@ -3117,8 +3121,8 @@ backup key</translation>
         </message> 
         <message>
             <source>expected time:</source> 
-            <translation>timp aproximativ</translation> 
-        </message> 
+            <translation>timp aproximativ:</translation>
+    </message> 
         <message>
             <source>Location (path) of backup:</source> 
             <translation>Location (path) of backup:</translation> 
@@ -3253,24 +3257,24 @@ backup key</translation>
             <translation>Note</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation type="unfinished"></translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation type="unfinished"/> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
             <source>Partition restore</source> 
