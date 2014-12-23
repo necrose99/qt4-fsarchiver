@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> 
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -7,7 +7,7 @@
  Locale: es_ES, es
  Exported by: Michael R. Lawrence
  Exported at: Sat, 25 Oct 2014 17:56:53 +0100 
---> 
+-->
 <TS version="2.0" language="es_ES"> 
     <context>
         <name>clone_dialog</name> 
@@ -17,16 +17,16 @@
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ya guardado:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
             <translation>ya salvado:</translation> 
         </message> 
         <message>
             <source>Backup directory:</source> 
-            <translation>Backup directory:</translation> 
-        </message> 
+            <translation>Carpeta de respaldo:</translation>
+    </message> 
         <message>
             <source>Cancel</source> 
             <translation>cancelar</translation> 
@@ -61,20 +61,20 @@
         </message> 
         <message>
             <source>hours:</source> 
-            <translation>hours:</translation> 
-        </message> 
+            <translation>horas:</translation>
+    </message> 
         <message>
             <source>hours</source> 
             <translation>Horas</translation> 
         </message> 
         <message>
             <source>Image of a hard disk to create</source> 
-            <translation>Image of a hard disk to create</translation> 
-        </message> 
+            <translation>Imagen de disco duro que crear</translation>
+    </message> 
         <message>
             <source>Image of a hard disk to create:</source> 
-            <translation>Imagen de un disco duro para crear</translation> 
-        </message> 
+            <translation>Imagen de un disco duro para crear:</translation>
+    </message> 
         <message>
             <source>Image of a hard disk write back</source> 
             <translation>Imagen de un disco duro para crear</translation> 
@@ -85,8 +85,8 @@
         </message> 
         <message>
             <source>MB/sec</source> 
-            <translation>MB/sec</translation> 
-        </message> 
+            <translation>MB/s</translation>
+    </message> 
         <message>
             <source>minutes:</source> 
             <translation>minutes:</translation> 
@@ -109,28 +109,28 @@
         </message> 
         <message>
             <source>Save / Restore MBR</source> 
-            <translation>Save / Restore MBR</translation> 
-        </message> 
+            <translation>Guardar/restaurar MBR</translation>
+    </message> 
         <message>
             <source>Save / restore MBR</source> 
             <translation>Guardar / restaurar MBR</translation> 
         </message> 
         <message>
             <source>seconds:</source> 
-            <translation>seconds:</translation> 
-        </message> 
+            <translation>segundos:</translation>
+    </message> 
         <message>
             <source>seconds</source> 
             <translation>segundo</translation> 
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Velocidad de transmisión:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Transmission speed:</source> 
-            <translation>Transmission speed:</translation> 
-        </message> 
+            <translation>Velocidad de transmisión:</translation>
+    </message> 
         <message>
             <source>Transmission speed</source> 
             <translation>velocidad de transmisión</translation> 
@@ -148,8 +148,8 @@
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ya guardado:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
             <translation>ya salvado:</translation> 
@@ -250,9 +250,9 @@ núcleos, para FSArchiver se debe utilizar:</translation>
         <message>
             <source>Already saved
 files/directories:</source> 
-            <translation>Already saved
-files/directories:</translation> 
-        </message> 
+            <translation>Carpetas/archivos
+ya guardados:</translation>
+    </message> 
         <message>
             <source>already saved 
 files/directories:</source> 
@@ -340,28 +340,28 @@ Files/directories:</source>
  Archivos/directorios:</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
             <source>Partition restore</source> 
@@ -390,8 +390,8 @@ with fsarchiver</source>
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>Protocolo para la transmisión de la red:</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocolo para la transmisión por la red:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Protocoll for network
 transmission:</source> 
@@ -562,8 +562,8 @@ with fsarchiver</source>
         </message> 
         <message>
             <source>You have selected a folder. You must select a fsa.gz file.</source> 
-            <translation>You have selected a folder. You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>Se seleccionó una carpeta. Debe seleccionar un archivo fsa.gz.</translation>
+    </message> 
         <message>
             <source>You have selected a folder. You must select a gz.fsa file.</source> 
             <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa.</translation> 
@@ -626,8 +626,8 @@ with fsarchiver</source>
         </message> 
         <message>
             <source>You must select a fsa.gz file.</source> 
-            <translation>You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>Debe seleccionar un archivo fsa.gz.</translation>
+    </message> 
         <message>
             <source>You must select a hard drive.</source> 
             <translation>Você deve selecionar um disco.</translation> 
@@ -637,8 +637,8 @@ with fsarchiver</source>
         <name>DialogClone|Festplatte klonen</name> 
         <message>
             <source>Clone Harddrive</source> 
-            <translation>Clonar Existen disco duro:</translation> 
-        </message> 
+            <translation>Clonar disco duro</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Festplatten Abbild erstellen</name> 
@@ -852,9 +852,9 @@ with fsarchiver</source>
         <message>
             <source> could not be integrated. The program is aborted
 </source> 
-            <translation>no podría ser integrado. El programa es abortado
-</translation> 
-        </message> 
+            <translation> no se pudo integrar. El programa se interrumpió
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Nein</name> 
@@ -897,12 +897,12 @@ with fsarchiver</source>
         <name>DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
         <message>
             <source>Do you want really restore the image of the hard drive? </source> 
-            <translation>¿Quieres realmente restaurar la imagen del disco duro?</translation> 
-        </message> 
+            <translation>¿Realmente quiere restaurar la imagen del disco duro? </translation>
+    </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>¿Quieres realmente restaurar la imagen del disco duro?</translation> 
-        </message> 
+            <translation> ¿Realmente quiere restaurar la imagen del disco duro? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</name> 
@@ -3244,26 +3244,26 @@ de copia de seguridad</translation>
             <translation>Nota de copia de seguridad permite por defecto</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;div class=&quot;asset-name&quot;&gt;p, li { white-space: pre-wrap; } (FileDialog|)&lt;/div&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;div class="asset-name"&gt;p, li { white-space: pre-wrap; } (FileDialog|)&lt;/div&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;nav class=&quot;actions asset-actions&quot;&gt;&lt;/nav&gt;</translation> 
+&lt;nav class="actions asset-actions"&gt;&lt;/nav&gt;</translation> 
         </message> 
         <message>
             <source>Partition restore</source> 
@@ -4056,7 +4056,7 @@ Versión 0.6.19-7, 2 de septiembre 2014</translation>
         </message> 
         <message>
             <source>To back up home partition is mounted. Do you want to do a live backup?</source> 
-            <translation>Para la copia de seguridad se monta la partición En Casa &quot;home.&quot; ¿Quieres hacer una copia de seguridad en vivo?</translation> 
+            <translation>Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation> 
         </message> 
         <message>
             <source>To back up the system partition is mounted. Do you want to do a live backup?</source> 
@@ -4064,7 +4064,7 @@ Versión 0.6.19-7, 2 de septiembre 2014</translation>
         </message> 
         <message>
             <source>to be protected/secured partition: / (root system directory)</source> 
-            <translation>a ser protegido / partición asegurado: (directorio &quot;root&quot;raíz del sistema) /</translation> 
+            <translation>a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation> 
         </message> 
         <message>
             <source>You have chosen the wrong recovery file selected. 
@@ -4586,7 +4586,7 @@ tecla de copia de seguridad:</translation>
         <name>MWindow|Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</name> 
         <message>
             <source>To back up home partition is mounted. Do you want to do a live backup?</source> 
-            <translation>Para la copia de seguridad se monta la partición En Casa &quot;home.&quot; ¿Quieres hacer una copia de seguridad en vivo?</translation> 
+            <translation>Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation> 
         </message> 
     </context> 
     <context>
@@ -4843,7 +4843,7 @@ Los archivos deben terminar al FSA.</translation>
         <name>MWindow|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</name> 
         <message>
             <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source> 
-            <translation>&lt;p&gt;&lt;span id=&quot;result_box&quot; lang=&quot;es&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;hps&quot;&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;btrfs&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;existente&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;que desea formatear&lt;/span&gt;? &lt;span class=&quot;hps&quot;&gt;El nuevo&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;se define&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class=&quot;hps&quot;&gt;Si decide&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;el UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;queda&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation> 
+            <translation>&lt;p&gt;&lt;span id="result_box" lang="es" tabindex="-1"&gt;&lt;span class="hps"&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class="hps"&gt;btrfs&lt;/span&gt; &lt;span class="hps"&gt;existente&lt;/span&gt; &lt;span class="hps"&gt;que desea formatear&lt;/span&gt;? &lt;span class="hps"&gt;El nuevo&lt;/span&gt; &lt;span class="hps"&gt;UUID&lt;/span&gt; &lt;span class="hps"&gt;se define&lt;/span&gt; &lt;span class="hps"&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class="hps"&gt;Si decide&lt;/span&gt; &lt;span class="hps"&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class="hps"&gt;el UUID&lt;/span&gt; &lt;span class="hps"&gt;queda&lt;/span&gt; &lt;span class="hps"&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation> 
         </message> 
     </context> 
     <context>
@@ -4928,7 +4928,7 @@ Los archivos deben terminar al FSA.</translation>
         <name>MWindow|zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis)</name> 
         <message>
             <source>to be protected/secured partition: / (root system directory) </source> 
-            <translation>a ser protegido / partición asegurado: (directorio &quot;root&quot;raíz del sistema) /</translation> 
+            <translation>a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation> 
         </message> 
     </context> 
     <context>
