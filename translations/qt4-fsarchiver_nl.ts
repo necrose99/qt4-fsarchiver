@@ -617,8 +617,8 @@ with fsarchiver</translation>
         </message> 
         <message>
             <source>The selected hard drive is too small.</source> 
-            <translation>De geselecteerde harde schijf is te klein</translation> 
-        </message> 
+            <translation>De geselecteerde harde schijf is te klein.</translation>
+    </message> 
         <message>
             <source>Yes</source> 
             <translation>Ja</translation> 
