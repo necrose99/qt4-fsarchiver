@@ -1855,16 +1855,18 @@ nicht wieder hergestellt.</translation>
         <message>
             <source>The GUID partition table is successful return.
 </source> 
-            <translation>Die GUID Partitionstabelle wurde erfolgreich wiederhergestellt.</translation> 
-        </message> 
+            <translation>Die GUID Partitionstabelle wurde erfolgreich wiederhergestellt.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Die GUID Partitionstabelle wurde nicht wieder hergestellt.</name> 
         <message>
             <source>The GUID partition table was not restored.
 </source> 
-            <translation>Die GUIDF Partitionstabelle wurde nicht wiederhergestellt.</translation> 
-        </message> 
+            <translation>Die GUIDF Partitionstabelle wurde nicht wiederhergestellt.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Die Partitionstabelle wurde erfolgreich wieder hergestellt.</name> 
@@ -1915,8 +1917,9 @@ nicht wieder hergestellt.</translation>
         <message>
             <source>MBR/GPT was successfully backed up.
 </source> 
-            <translation>MBR/GPT wurde erfolgreich gesichert.</translation> 
-        </message> 
+            <translation>MBR/GPT wurde erfolgreich gesichert.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|MBR/GPT wurde nicht gesichert.</name> 
@@ -1946,8 +1949,9 @@ nicht wieder hergestellt.</translation>
         <message>
             <source>You have selected a directory. You must select the MBR/GPT backup file
 </source> 
-            <translation>Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR/GPT Sicherungsdatei auswählen.</translation> 
-        </message> 
+            <translation>Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR/GPT Sicherungsdatei auswählen.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen</name> 
@@ -1977,8 +1981,9 @@ nicht wieder hergestellt.</translation>
         <message>
             <source>You must choose the MBR/GPT file
 </source> 
-            <translation>Sie müssen die MBR/GPT Sicherungsdatei auswählen.</translation> 
-        </message> 
+            <translation>Sie müssen die MBR/GPT Sicherungsdatei auswählen.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Sie müssen ein Verzeichnis auswählen</name> 
@@ -1992,16 +1997,18 @@ nicht wieder hergestellt.</translation>
         <message>
             <source>You must choose the GPT file
 </source> 
-            <translation>Sie müssen eine GPT Sicherungsdatei auswählen.</translation> 
-        </message> 
+            <translation>Sie müssen eine GPT Sicherungsdatei auswählen.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Sie müssen eine MBR Sicherungsdatei auswählen.</name> 
         <message>
             <source>You must choose the MBR file
 </source> 
-            <translation>Sie müssen eine MBR-Datei wählen.</translation> 
-        </message> 
+            <translation>Sie müssen eine MBR-Datei wählen.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Vorsicht: Wollen Sie wirklich den MBR komplett beziehungsweise teilweise zurückschreiben?</name> 
