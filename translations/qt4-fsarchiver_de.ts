@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> 
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -7,18 +7,18 @@
  Locale: de_DE, German
  Exported by: Michael R. Lawrence
  Exported at: Sat, 25 Oct 2014 17:56:52 +0100 
---> 
+-->
 <TS version="2.0" language="de_DE"> 
     <context>
         <name>clone_dialog</name> 
         <message>
             <source>Directory in which the image is written</source> 
-            <translation>Verzeichnis, in das das Abbild geschrieben wird.</translation> 
-        </message> 
+            <translation>Verzeichnis, in das das Abbild geschrieben wird</translation>
+    </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>bereits gesichert:</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;bereits gesichert:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
             <translation>bereits gesichert:</translation> 
@@ -73,8 +73,8 @@
         </message> 
         <message>
             <source>Image of a hard disk to create:</source> 
-            <translation>Abbild einer Festplatte erzeugen</translation> 
-        </message> 
+            <translation>Zu erzeugendes Abbild einer Festplatte:</translation>
+    </message> 
         <message>
             <source>Image of a hard disk write back</source> 
             <translation>Abbild einer Festplatte zurückschreiben</translation> 
@@ -85,8 +85,8 @@
         </message> 
         <message>
             <source>MB/sec</source> 
-            <translation>MB/sec</translation> 
-        </message> 
+            <translation>MB/Sek</translation>
+    </message> 
         <message>
             <source>minutes:</source> 
             <translation>Minuten:</translation> 
@@ -125,16 +125,16 @@
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>Übertragu</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Übertragungsgeschwindigkeit:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Transmission speed:</source> 
             <translation>Übertragungsgeschwindigkeit:</translation> 
         </message> 
         <message>
             <source>Transmission speed</source> 
-            <translation>Datentransfer:</translation> 
-        </message> 
+            <translation>Übertragungsgeschwindigkeit</translation>
+    </message> 
         <message>
             <source>Use gzip</source> 
             <translation>Image komprimieren</translation> 
@@ -148,8 +148,8 @@
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>bereits gesichert:</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;bereits gesichert:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
             <translation>bereits gesichert:</translation> 
@@ -184,8 +184,8 @@
         </message> 
         <message>
             <source>Image einer Festplatte erstellen:</source> 
-            <translation>Abbild einer Festplatte erstellen</translation> 
-        </message> 
+            <translation>Abbild einer Festplatte erstellen:</translation>
+    </message> 
         <message>
             <source>Image name:</source> 
             <translation>Name der Sicherungsdatei:</translation> 
@@ -289,9 +289,9 @@ einstellung:</translation>
         <message>
             <source>Encrypt 
 backup key</source> 
-            <translation>Parition
-entschlüsseln. Schlüssel:</translation> 
-        </message> 
+            <translation>Verschlüsseln
+Sicherungs-Schlüssel</translation>
+    </message> 
         <message>
             <source>Existing partitions:</source> 
             <translation>vorhandene Partitionen:</translation> 
@@ -341,28 +341,28 @@ Files/directories:</source>
 Datein/Verzeichnisse:</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;vergangene Zeit:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;vergangene Zeit:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;noch zu erwartende Zeit:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;noch zu erwartende Zeit:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
             <source>Partition restore</source> 
@@ -392,8 +392,8 @@ fsarchiver sichern</translation>
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>Protokoll für die Netwerkübertragung</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protokoll für die Netzwerkübertragung:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Protocoll for network
 transmission:</source> 
@@ -402,8 +402,8 @@ geschwindigkeit:</translation>
         </message> 
         <message>
             <source>remaining time</source> 
-            <translation>noch zu erwartende Zeit:</translation> 
-        </message> 
+            <translation>verbleibende Zeit</translation>
+    </message> 
         <message>
             <source>remaining time</source> 
             <translation>noch zu erwartendede Zeit:</translation> 
@@ -558,7 +558,7 @@ zurückschreiben</translation>
         </message> 
         <message>
             <source>The restore from the image was not successfully.</source> 
-            <translation>&quot;Die Wiederherstellung des Abbildes war nicht erfolgreich.</translation> 
+            <translation>"Die Wiederherstellung des Abbildes war nicht erfolgreich.</translation> 
         </message> 
         <message>
             <source>The restore from the image was successfully.</source> 
@@ -737,7 +737,7 @@ der Sicherung aus.</translation>
         </message> 
         <message>
             <source>The restore from the image was not successfully.</source> 
-            <translation>&quot;Die Wiederherstellung des Abbildes war nicht erfolgreich.</translation> 
+            <translation>"Die Wiederherstellung des Abbildes war nicht erfolgreich.</translation> 
         </message> 
         <message>
             <source>The restore from the image was successfully.</source> 
@@ -799,8 +799,8 @@ der Sicherung aus.</translation>
         <name>DialogClone_net|Der Netzwerkrechner</name> 
         <message>
             <source>The network computer </source> 
-            <translation>Der Netzwerk-Rechner</translation> 
-        </message> 
+            <translation>Der Netzwerk-Rechner </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Die Sichern des Abbildes war erfolgreich.</name> 
@@ -821,8 +821,9 @@ der Sicherung aus.</translation>
         <message>
             <source>Can not find a shared directory. The program is terminated.
 </source> 
-            <translation>Kann kein freigegebenes Verzeichnis finden. Das Programm wird beendet</translation> 
-        </message> 
+            <translation>Kann kein freigegebenes Verzeichnis finden. Das Programm wird beendet.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Festplatten Abbild erstellen</name> 
@@ -857,8 +858,9 @@ der Sicherung aus.</translation>
         <message>
             <source> could not be integrated. The program is aborted
 </source> 
-            <translation> kann nicht erreicht werden. Das Programm wird beendet</translation> 
-        </message> 
+            <translation> kann nicht erreicht werden. Das Programm wird beendet
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Nein</name> 
@@ -872,8 +874,9 @@ der Sicherung aus.</translation>
         <message>
             <source>You have selected a folder. You must select a fsa.gz file.
 </source> 
-            <translation>Sie haben ein Verzeichnis ausgewÃ¤hlt. Sie müssen eine fsa.gz Datei auswählen.</translation> 
-        </message> 
+            <translation>Sie haben einen Ordner ausgewählt. Sie müssen eine fsa.gz-Datei auswählen.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Sie müssen ein Verzeichnis auswählen.</name> 
@@ -900,12 +903,12 @@ der Sicherung aus.</translation>
         <name>DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
         <message>
             <source>Do you want really restore the image of the hard drive? </source> 
-            <translation>Wollen Sie wirklich ein Abbild der Festplatte erstellen.</translation> 
-        </message> 
+            <translation>Wollen Sie wirklich das Abbild der Festplatte wiederherstellen? </translation>
+    </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</translation> 
-        </message> 
+            <translation> Wollen Sie wirklich das Abbild der Festplatte wiederherstellen? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</name> 
@@ -919,8 +922,9 @@ der Sicherung aus.</translation>
         <message>
             <source>You have selected a folder. You must select a gz.fsa file.
 </source> 
-            <translation>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa- oder img.fsa-Datei auswählen.</translation> 
-        </message> 
+            <translation>Sie haben einen Ordner ausgewählt. Sie müssen eine gz.fsa-Datei auswählen.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Sie müssen ein Verzeichnis auswählen.</name> 
@@ -947,8 +951,8 @@ der Sicherung aus.</translation>
         <name>DialogClone| werden gelöscht!</name> 
         <message>
             <source> are deleted!</source> 
-            <translation>werden gelöscht!</translation> 
-        </message> 
+            <translation> sind gelöscht!</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
@@ -958,8 +962,8 @@ der Sicherung aus.</translation>
         </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </translation> 
-        </message> 
+            <translation> Wollen Sie wirklich das Abbild der Festplatte wiederherstellen? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</name> 
@@ -972,8 +976,8 @@ der Sicherung aus.</translation>
         <name>DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte</name> 
         <message>
             <source> Do you want really clone the hard drive? All dates on  </source> 
-            <translation>Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte </translation> 
-        </message> 
+            <translation> Wollen Sie wirklich die Festplatte klonen? Alle Daten auf  </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR</name> 
@@ -1082,12 +1086,12 @@ Die gewählte Datei kann nur Partitionen wiederherstellen.</translation>
         </message> 
         <message>
             <source>bzip2 fast</source> 
-            <translation>bzip2 fast</translation> 
-        </message> 
+            <translation>bzip2 schnell</translation>
+    </message> 
         <message>
             <source>bzip2 good</source> 
-            <translation>bzip2 good</translation> 
-        </message> 
+            <translation>bzip2 gut</translation>
+    </message> 
         <message>
             <source>Decrypt
 backup. key:</source> 
@@ -1138,8 +1142,8 @@ verschlüsseln. Schlüssel:</translation>
         </message> 
         <message>
             <source>gzip fast</source> 
-            <translation>gzip fast</translation> 
-        </message> 
+            <translation>gzip schnell</translation>
+    </message> 
         <message>
             <source>gzip standard</source> 
             <translation>gzip standard</translation> 
@@ -1174,16 +1178,16 @@ verschlüsseln. Schlüssel:</translation>
         </message> 
         <message>
             <source>lzma best</source> 
-            <translation>lzma best</translation> 
-        </message> 
+            <translation>lzma beste</translation>
+    </message> 
         <message>
             <source>lzma fast</source> 
-            <translation>lzma fast</translation> 
-        </message> 
+            <translation>lzma schnell</translation>
+    </message> 
         <message>
             <source>lzma medium</source> 
-            <translation>lzma medium</translation> 
-        </message> 
+            <translation>lzma mittel</translation>
+    </message> 
         <message>
             <source>No</source> 
             <translation>Nein</translation> 
@@ -1199,8 +1203,8 @@ Sicherungsdatei aus.</translation>
         </message> 
         <message>
             <source>qzip best</source> 
-            <translation>qzip best</translation> 
-        </message> 
+            <translation>qzip beste</translation>
+    </message> 
         <message>
             <source>specials have been backed.</source> 
             <translation>spezielle Dateien wurden gesichert.</translation> 
@@ -1271,16 +1275,16 @@ Passwort eingegeben.</translation>
         <name>DialogDIR| Dateien,</name> 
         <message>
             <source>Files, </source> 
-            <translation>Dateien,</translation> 
-        </message> 
+            <translation>Dateien, </translation>
+    </message> 
         <message>
             <source>files, </source> 
-            <translation>Dateien,</translation> 
-        </message> 
+            <translation>Dateien, </translation>
+    </message> 
         <message>
             <source> files,</source> 
-            <translation>Dateien,</translation> 
-        </message> 
+            <translation> Dateien,</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein</name> 
@@ -1327,8 +1331,8 @@ Passwort eingegeben.</translation>
         <name>DialogDIR|Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!</name> 
         <message>
             <source>The restoration of the directory was canceled by the user!</source> 
-            <translation>Die Wiederherstellung des Verzeichnisses wurd durch den Nutzer abgebrochen.</translation> 
-        </message> 
+            <translation>Die Wiederherstellung des Verzeichnisses wurde vom Nutzer abgebrochen!</translation>
+    </message> 
         <message>
             <source>The restore of the folder was break by user!
 </source> 
@@ -1380,64 +1384,64 @@ Passwort eingegeben.</translation>
         <message>
             <source>already exists. The backup is not performed
 </source> 
-            <translation> уже существует. Сохранение не выполнено</translation> 
-        </message> 
+            <translation>Bereits vorhanden. Die Sicherung wird nicht ausgeführt
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Ja</name> 
         <message>
             <source>Yes</source> 
-            <translation>Да</translation> 
-        </message> 
+            <translation>Ja</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Links und</name> 
         <message>
             <source>links and </source> 
-            <translation> Links und</translation> 
-        </message> 
+            <translation>Verknüpfungen und </translation>
+    </message> 
         <message>
             <source> links and </source> 
-            <translation> Links und</translation> 
-        </message> 
+            <translation> Verknüpfungen und </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich</name> 
         <message>
             <source> Links were not backed properly. The backup of the directories was only partially successful
 </source> 
-            <translation>Ссылки сохранены некорректно, сохранение каталога было неполным
-</translation> 
-        </message> 
+            <translation> Verknüpfungen wurden nicht richtig gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich</name> 
         <message>
             <source> links were not correctly restored. The restoring of the lists was only partially successful</source> 
-            <translation> ссылки восстановлены некорректно. Произошло не полное восстановление
-</translation> 
-        </message> 
+            <translation> Verknüpfungen wurden nicht richtig wiederhergestellt. Die Wiederherstellung der Listen was nur teilweise erfolgreich</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Nein</name> 
         <message>
             <source>No</source> 
-            <translation>Нет</translation> 
-        </message> 
+            <translation>Nein</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Ort (Pfad) der Sicherung</name> 
         <message>
             <source>Location (path) of the backup</source> 
-            <translation>Сохраняемый каталог</translation> 
-        </message> 
+            <translation>Ort (Pfad) der Sicherung</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Ort (Pfad) der Wiederherstellung</name> 
         <message>
             <source>Location (path) of the restore</source> 
-            <translation>Место (путь) сохранения</translation> 
-        </message> 
+            <translation>Ort (Pfad) der Wiederherstellung</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sicherung
@@ -1445,8 +1449,9 @@ entschlüsseln. Schlüssel:</name>
         <message>
             <source>Decrypt
 backup. key:</source> 
-            <translation>Ключ шифрования:</translation> 
-        </message> 
+            <translation>Entschlüsseln
+Sicherung. Schlüssel:</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sicherung
@@ -1454,39 +1459,40 @@ verschlüsseln. Schlüssel:</name>
         <message>
             <source>Encrypt
 backup. key:</source> 
-            <translation>Ключ 
-шифрования:</translation> 
-        </message> 
+            <translation>Verschlüsseln
+Sicherung. Schlüssel:</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben ein falsches Passwort eingegeben.</name> 
         <message>
             <source>You have entered an incorrect password.</source> 
-            <translation>Sie haben ein falsches Passwort eingegeben.</translation> 
-        </message> 
+            <translation>Sie haben ein falsches Kennwort eingegeben.</translation>
+    </message> 
         <message>
             <source>You have entered an incorrect password.
 </source> 
-            <translation>Ошибка авторизации.</translation> 
-        </message> 
+            <translation>Sie haben ein falsches Kennwort eingegeben
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen</name> 
         <message>
             <source>You have selected a directory. You need a backup file with the extension .fsa select
 </source> 
-            <translation>Выберите файл с расширением .fsa, а не каталог
-</translation> 
-        </message> 
+            <translation>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Endung .fsa auswählen
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen</name> 
         <message>
             <source>You have selected a file. You must select a directory
 </source> 
-            <translation>Выбран файл. Выберите каталог
-</translation> 
-        </message> 
+            <translation>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
@@ -1494,64 +1500,64 @@ Die Dateiendung muss .fsa sein</name>
         <message>
             <source>You have chosen the wrong recovery file selected.
  The files should end with. fsa be</source> 
-            <translation>Это не файл восстовления
-Файл должен иметь расширение .fsa</translation> 
-        </message> 
+            <translation>Sie haben die falsche Widerherstellungsdatei ausgewählt.
+Die Dateien müssen mit .fsa enden</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben versucht ein Verzeichnis wiederherzustellen. Die gewählte Datei kann nur Partitionen wiederherstellen.</name> 
         <message>
             <source>You have tried to restore a directory. The selected file can only restore partitions.
 </source> 
-            <translation>Вы пытаетесь восстановить каталог. 
-Выбранный образ только для восстановления раздела.</translation> 
-        </message> 
+            <translation>Sie haben versucht ein Verzeichnis wiederherzustellen. Die ausgewählte Datei kann nur Partitionen wiederherstellen.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| spezielle Daten wurden gesichert.</name> 
         <message>
             <source> specials have been backed.</source> 
-            <translation> специальных файлов было сохранено.</translation> 
-        </message> 
+            <translation> Spezialdaten wurden gesichert.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| spezielle Daten wurden wieder hergestellt.</name> 
         <message>
             <source> specials have been restored.</source> 
-            <translation> специальных файлов было восстановлено.</translation> 
-        </message> 
+            <translation> Spezialdaten wurden wiederhergestellt.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Verzeichnisse,</name> 
         <message>
             <source>directories, </source> 
-            <translation> Verzeichnisse,</translation> 
-        </message> 
+            <translation>Verzeichnisse, </translation>
+    </message> 
         <message>
             <source> directories, </source> 
-            <translation>  Verzeichnisse,</translation> 
-        </message> 
+            <translation> Verzeichnisse, </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Verzeichnis sichern</name> 
         <message>
             <source>Directory save</source> 
-            <translation>Сохранение каталога</translation> 
-        </message> 
+            <translation>Verzeichnis speichern</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Verzeichnis zurückschreiben</name> 
         <message>
             <source>Directory restore</source> 
-            <translation>Восстановить каталог</translation> 
-        </message> 
+            <translation>Verzeichnis wiederherstellen</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Verzeichnisse und</name> 
         <message>
             <source> directories, and </source> 
-            <translation> каталог и </translation> 
-        </message> 
+            <translation> Verzeichnisse und </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Verzeichnisse beenden?</name> 
@@ -1571,22 +1577,22 @@ Die Dateiendung muss .fsa sein</name>
         <name>DialogDIR|zurück zu schreibende Sicherungsdatei</name> 
         <message>
             <source>back to write backup file</source> 
-            <translation>Восстановить из образа</translation> 
-        </message> 
+            <translation>zurück zum Schreiben der Sicherungsdatei</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR| Byte. Der verborgene Bereich von der Festplatte</name> 
         <message>
             <source> bytes. The hidden area of the disk </source> 
-            <translation> байт. Скрытая область диска </translation> 
-        </message> 
+            <translation> Bytes. Der verborgene Bereich der Festplatte </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR| Byte. Wollen Sie fortfahren?</name> 
         <message>
             <source> bytes. Are you sure?</source> 
-            <translation> байт. Продолжать?</translation> 
-        </message> 
+            <translation> Bytes. Sind Sie sicher?</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR</name> 
@@ -1596,13 +1602,12 @@ Die Dateiendung muss .fsa sein</name>
         </message> 
         <message>
             <source>Caution: If you really want to to write back the GUID partition table?</source> 
-            <translation>Vorsicht: Wollen Sie wirklich die GUID Partitionstabelle zurückschreiben?</translation> 
-        </message> 
+            <translation>Achtung: Wollen Sie wirklich den MBR komplett oder teilweise wiederherstellen?</translation>
+    </message> 
         <message>
             <source>Caution: If you really want to to write back the secret field?</source> 
-            <translation>Vorsicht: Wollen Sie wirklich den verborgenen
-Bereich zurückschreiben?</translation> 
-        </message> 
+            <translation>Achtung: Wollen Sie wirklich den verborgenen Bereich wiederherstellen?</translation>
+    </message> 
         <message>
             <source>Caution: If you really want to to write back the GUID partition table?</source> 
             <translation>Vorsicht: Wollen Sie wirklich den MBR komplett beziehungsweise
@@ -1610,14 +1615,12 @@ teilweise zurückschreiben?</translation>
         </message> 
         <message>
             <source>The Boot Loader section is successful return.</source> 
-            <translation>Der Bootloaderbereich wurde 
-erfolgreich wieder hergestellt.</translation> 
-        </message> 
+            <translation>Der Bootloaderbereich wurde erfolgreich wiederhergestellt.</translation>
+    </message> 
         <message>
             <source>The end of hidden area of the 1st Partition could not be read. Only 512 bytes are saved.</source> 
-            <translation>Das Ende des verborgenen Bereiches der 1. Partition konnte nicht
-ausgelesen werden. Es werden nur 512 Bytes gesichert.</translation> 
-        </message> 
+            <translation>Das Ende des verborgenen Bereiches der 1. Partition konnte nicht ausgelesen werden. Es werden nur 512 Bytes gesichert.</translation>
+    </message> 
         <message>
             <source>The GUID partition table is successful return.</source> 
             <translation>Die GUID Partitionstabelle wurde erfolgreich wiederhergestellt.</translation> 
@@ -3280,23 +3283,23 @@ erwartende Zeit:</translation>
             <translation>Hinweis</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
             <translation>p</translation> 
         </message> 
         <message>
