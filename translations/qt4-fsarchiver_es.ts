@@ -289,8 +289,8 @@ setting:</source>
             <source>Encrypt 
 backup key</source> 
             <translation>Encriptar
-clave de copia de seguridad:</translation> 
-        </message> 
+clave de copia de seguridad</translation>
+    </message> 
         <message>
             <source>Existing partitions:</source> 
             <translation>particiones almacenados:</translation> 
@@ -330,9 +330,9 @@ clave de copia de seguridad:</translation>
         <message>
             <source>Number of backup
 files/directories:</source> 
-            <translation>Number of backup
-files/directories:</translation> 
-        </message> 
+            <translation>Numero de copia de seguridad
+archivos/directorios:</translation>
+    </message> 
         <message>
             <source>On the number saved
 Files/directories:</source> 
@@ -793,8 +793,8 @@ with fsarchiver</source>
         <name>DialogClone_net|Der Netzwerkrechner</name> 
         <message>
             <source>The network computer </source> 
-            <translation>Nombre del ordenador de red:</translation> 
-        </message> 
+            <translation>Nombre del ordenador de red </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Die Sichern des Abbildes war erfolgreich.</name> 
@@ -956,8 +956,8 @@ with fsarchiver</source>
         </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>¿Quieres realmente restaurar la imagen del disco duro?</translation> 
-        </message> 
+            <translation> ¿Quieres realmente restaurar la imagen del disco duro? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</name> 
@@ -970,8 +970,8 @@ with fsarchiver</source>
         <name>DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte</name> 
         <message>
             <source> Do you want really clone the hard drive? All dates on  </source> 
-            <translation>¿Quieres realmente clonar el disco duro? Todas las fechas de?</translation> 
-        </message> 
+            <translation> ¿Quieres realmente clonar el disco duro, todas estas fechas?  </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR</name> 
@@ -1253,12 +1253,12 @@ de copia de seguridad:</translation>
         <name>DialogDIR| Dateien,</name> 
         <message>
             <source>Files, </source> 
-            <translation>Archivos,</translation> 
-        </message> 
+            <translation>Archivos, </translation>
+    </message> 
         <message>
             <source>files, </source> 
-            <translation>archivos,</translation> 
-        </message> 
+            <translation>archivos, </translation>
+    </message> 
         <message>
             <source> files,</source> 
             <translation>archivos,</translation> 
@@ -1275,8 +1275,8 @@ de copia de seguridad:</translation>
         <name>DialogDIR|Die Partitionsdatei</name> 
         <message>
             <source>The partition file </source> 
-            <translation>El archivo de la partición</translation> 
-        </message> 
+            <translation>El archivo de la partición </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein</name> 
@@ -1377,12 +1377,12 @@ de copia de seguridad:</translation>
         <name>DialogDIR| Links und</name> 
         <message>
             <source>links and </source> 
-            <translation>enlaces y</translation> 
-        </message> 
+            <translation>enlaces y </translation>
+    </message> 
         <message>
             <source> links and </source> 
-            <translation> enlaces y</translation> 
-        </message> 
+            <translation> enlaces y </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich</name> 
@@ -1411,8 +1411,8 @@ de copia de seguridad:</translation>
         <name>DialogDIR|Ort (Pfad) der Sicherung</name> 
         <message>
             <source>Location (path) of the backup</source> 
-            <translation>Ubicación (camino) del copia de seguridad </translation> 
-        </message> 
+            <translation>Ubicación (ruta) de la copia de seguridad</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Ort (Pfad) der Wiederherstellung</name> 
@@ -1508,12 +1508,12 @@ Los archivos deben terminar al FSA.</translation>
         <name>DialogDIR| Verzeichnisse,</name> 
         <message>
             <source>directories, </source> 
-            <translation>directorios,</translation> 
-        </message> 
+            <translation>directorios, </translation>
+    </message> 
         <message>
             <source> directories, </source> 
-            <translation> directorios,</translation> 
-        </message> 
+            <translation> directorios, </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Verzeichnis sichern</name> 
@@ -1533,8 +1533,8 @@ Los archivos deben terminar al FSA.</translation>
         <name>DialogDIR| Verzeichnisse und</name> 
         <message>
             <source> directories, and </source> 
-            <translation> directorios, y</translation> 
-        </message> 
+            <translation> directorios, y </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Verzeichnisse beenden?</name> 
@@ -1561,8 +1561,8 @@ Los archivos deben terminar al FSA.</translation>
         <name>DialogMBR| Byte. Der verborgene Bereich von der Festplatte</name> 
         <message>
             <source> bytes. The hidden area of the disk </source> 
-            <translation>bytes. El área oculta del disco</translation> 
-        </message> 
+            <translation> bytes. El área oculta del disco </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR| Byte. Wollen Sie fortfahren?</name> 
@@ -1809,8 +1809,8 @@ Los archivos deben terminar al FSA.</translation>
         <name>DialogMBR|,  die gesicherte Festplatte ist aber</name> 
         <message>
             <source>, the saved hard drive is </source> 
-            <translation>El clon del disco duro fue con éxito.</translation> 
-        </message> 
+            <translation>, el disco duro guardado es </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Die GUID Partitionstabelle wurde erfolgreich wieder hergestellt.</name> 
@@ -1850,8 +1850,8 @@ Los archivos deben terminar al FSA.</translation>
         <name>DialogMBR| hat eine Größe von</name> 
         <message>
             <source> has a size of </source> 
-            <translation>tiene un tamaño de</translation> 
-        </message> 
+            <translation> tiene un tamaño de </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Hinweis</name> 
@@ -1928,15 +1928,15 @@ Los archivos deben terminar al FSA.</translation>
         <name>DialogMBR|Sie haben eventuell eine falsche Datei ausgewählt. Der wiederherzustellende verborgene Bereich hat eine Größe von</name> 
         <message>
             <source>You may have a wrong file selected. Restore the hidden field has a size of </source> 
-            <translation>Usted puede tener un archivo incorrecto seleccionado. Restaurar el campo oculto tiene un tamaño de</translation> 
-        </message> 
+            <translation>Usted puede tener un archivo incorrecto seleccionado. Restaurar el campo oculto tiene un tamaño de </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Sie haben eventuell eine falsche Festplatte ausgewählt. Die wiederherzustellende Festplatte ist</name> 
         <message>
             <source>You may have the wrong disk is selected. The restore disk is </source> 
-            <translation>Es posible que tenga seleccionado el disco equivocado. El disco de restauración es</translation> 
-        </message> 
+            <translation>Es posible que tenga seleccionado el disco equivocado. El disco de restauración es </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Sie müssen die MBR/GPT Sicherungsdatei auswählen.</name> 
@@ -2448,8 +2448,8 @@ clave de copia de seguridad:</translation>
         <name>DialogNet| Dateien,</name> 
         <message>
             <source>files </source> 
-            <translation>archivos</translation> 
-        </message> 
+            <translation>archivos </translation>
+    </message> 
         <message>
             <source> files</source> 
             <translation>archivos,</translation> 
@@ -2459,8 +2459,8 @@ clave de copia de seguridad:</translation>
         <name>DialogNet|Der Netzwerkrechner</name> 
         <message>
             <source>The network computer </source> 
-            <translation>Nombre del ordenador de red:</translation> 
-        </message> 
+            <translation>Nombre del ordenador de red </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?</name> 
@@ -2530,8 +2530,8 @@ clave de copia de seguridad:</translation>
         <name>DialogNet|Die Partitionsdatei</name> 
         <message>
             <source>The partition file </source> 
-            <translation>El archivo de la partición</translation> 
-        </message> 
+            <translation>El archivo de la partición </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein</name> 
@@ -2582,8 +2582,8 @@ clave de copia de seguridad:</translation>
         <name>DialogNet|Die wiederherzustellende Partition</name> 
         <message>
             <source>Partition to restore the </source> 
-            <translation>Partición para restaurar el</translation> 
-        </message> 
+            <translation>Partición para restaurar el </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</name> 
@@ -2667,8 +2667,8 @@ clave de copia de seguridad:</translation>
         <name>DialogNet| Links und</name> 
         <message>
             <source> links and </source> 
-            <translation> enlaces y</translation> 
-        </message> 
+            <translation> enlaces y </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich</name> 
