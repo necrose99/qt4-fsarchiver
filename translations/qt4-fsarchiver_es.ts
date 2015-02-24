@@ -349,8 +349,8 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;tiempo transcurrido:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
@@ -361,8 +361,8 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;tiempo estimado:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Partition restore</source> 
             <translation>Restaurar la tabla de particiones</translation> 
@@ -945,8 +945,8 @@ with fsarchiver</source>
         <name>DialogClone| werden gelöscht!</name> 
         <message>
             <source> are deleted!</source> 
-            <translation>Se eliminan!</translation> 
-        </message> 
+            <translation> fueron eliminados!</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
@@ -1025,8 +1025,8 @@ with fsarchiver</source>
         </message> 
         <message>
             <source>The partition is encrypted. Please enter the Schlüsel</source> 
-            <translation>The partition is encrypted. Please enter the Schlüsel</translation> 
-        </message> 
+            <translation>La partición esta encriptada. Por favor, ingrese la contraseña</translation>
+    </message> 
         <message>
             <source>The partition is encrypted. Please enter the key</source> 
             <translation>La partición está encriptada. Por favor, introduzca la clave</translation> 
@@ -1046,9 +1046,9 @@ with fsarchiver</source>
         <message>
             <source>You have chosen the wrong recovery file selected.
  The files should end with. fsa be</source> 
-            <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
-Los archivos deben terminar al FSA.</translation> 
-        </message> 
+            <translation>Usted ha elegido el archivo de recuperación incorrecto.
+ Los archivos deben terminar con .fsa</translation>
+    </message> 
         <message>
             <source>You have selected a directory. You need a backup file with the extension .fsa select</source> 
             <translation>Ha seleccionado un directorio. Es necesario un archivo de copia de seguridad al extensión. Fsa selecciona</translation> 
@@ -1076,9 +1076,9 @@ Los archivos deben terminar al FSA.</translation>
         <message>
             <source>Decrypt
 backup. key:</source> 
-            <translation>Cifrar
-tecla de copia de seguridad</translation> 
-        </message> 
+            <translation>Clave para desencriptar
+la copia de seguridad:</translation>
+    </message> 
         <message>
             <source>directories,</source> 
             <translation>directorios,</translation> 
@@ -1101,8 +1101,8 @@ tecla de copia de seguridad</translation>
         </message> 
         <message>
             <source>Do you want to exit the program really?</source> 
-            <translation>Do you want to exit the program really?</translation> 
-        </message> 
+            <translation>¿Realmente desea salir del programa?</translation>
+    </message> 
         <message>
             <source>Encrypt
 backup. key:</source> 
@@ -1143,12 +1143,12 @@ de copia de seguridad:</translation>
         </message> 
         <message>
             <source>links have been restored</source> 
-            <translation>links have been restored</translation> 
-        </message> 
+            <translation>los enlaces han sido restaurados</translation>
+    </message> 
         <message>
             <source>links have been saved</source> 
-            <translation>links have been saved</translation> 
-        </message> 
+            <translation>los enlaces han sido guardados</translation>
+    </message> 
         <message>
             <source>Location (path) of the backup</source> 
             <translation>Ubicación (camino) del copia de seguridad</translation> 
@@ -1203,8 +1203,8 @@ de copia de seguridad:</translation>
         </message> 
         <message>
             <source>to saved Directory</source> 
-            <translation>Directorio de copia de seguridad:</translation> 
-        </message> 
+            <translation>Directorio de copia de seguridad</translation>
+    </message> 
         <message>
             <source>Yes</source> 
             <translation>Si</translation> 
@@ -1261,8 +1261,8 @@ de copia de seguridad:</translation>
     </message> 
         <message>
             <source> files,</source> 
-            <translation>archivos,</translation> 
-        </message> 
+            <translation> archivos,</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein</name> 
