@@ -116,7 +116,7 @@ public:
         mh = Eingabe_Net->height();
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
-        Eingabe_Net->setGeometry(QRect(cw, ch, 353, 383)); 
+        Eingabe_Net->setGeometry(QRect(cw, ch, 353, 383));   
         Eingabe_Net->setWindowTitle(QApplication::translate("Eingabe_Net", "Data network", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("Eingabe_Net", "Username:", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("Eingabe_Net", "Password:", 0, QApplication::UnicodeUTF8));

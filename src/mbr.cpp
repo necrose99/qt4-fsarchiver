@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -19,7 +19,6 @@
 #include <string.h>
 
 extern int dialog_auswertung;
-extern int anzahl_disk;
 
 QString folder_;
 QString Ubuntuversion;
@@ -29,91 +28,133 @@ QString Sektor_byte;
 QString Sektor_byte_1;
 qint64 size_;
 int efiflag;
-
+QString disk_name[20];
+QStringList items_disk;
 
 DialogMBR::DialogMBR(QWidget *parent)
 {
 QStringList filters;
 	setupUi(this); // this sets up GUI
-	connect( bt_save, SIGNAL( clicked() ), this, SLOT( mbr() ) );
-        connect( rdbt_sda, SIGNAL( clicked() ), this, SLOT(rdbutton_sda() ) ); 
-	connect( rdbt_sdb, SIGNAL( clicked() ), this, SLOT(rdbutton_sdb() ) ); 
-        connect( rdbt_sdc, SIGNAL( clicked() ), this, SLOT(rdbutton_sdc() ) ); 
-	connect( rdbt_sdd, SIGNAL( clicked() ), this, SLOT(rdbutton_sdd() ) ); 
-        //connect( btEnd, SIGNAL( clicked() ), qApp, SLOT(close()));
         connect( bt_end, SIGNAL( clicked() ), this, SLOT(close()));
+        connect( bt_save, SIGNAL( clicked() ), this, SLOT(mbr()));
+        connect( bt_dummy, SIGNAL( clicked() ), this, SLOT(disk_art()));
         dirModel = new QDirModel;
    	selModel = new QItemSelectionModel(dirModel);
    	treeView->setModel(dirModel);
    	treeView->setSelectionModel(selModel);
    	QModelIndex cwdIndex = dirModel->index(QDir::rootPath());
    	treeView->setRootIndex(cwdIndex);
-        rdbt_sda->setChecked(Qt::Checked);
-        rdbt_sdd->setEnabled(false);
-	rdbt_sdc->setEnabled(false);
-	rdbt_sdb->setEnabled(false);
-        if (anzahl_disk == 2)
-           rdbt_sdb->setEnabled(true);
-        if (anzahl_disk == 3){
-           rdbt_sdb->setEnabled(true);
-           rdbt_sdc->setEnabled(true);
-           }
-         if (anzahl_disk == 4){
-           rdbt_sdb->setEnabled(true);
-           rdbt_sdc->setEnabled(true);
-           rdbt_sdd->setEnabled(true);
-           }
-
+   	disk_exist();
         if (dialog_auswertung == 4){
             bt_save->setText (tr("MBR/GPT save", "MBR/GPT sichern"));
-            cmb_mbr->setEnabled(false);
             dirModel->setFilter(QDir::AllDirs  | QDir::NoDotAndDotDot);
-   	    dirModel->setNameFilters(filters);  
+   	    dirModel->setNameFilters(filters); 
             } 
         if (dialog_auswertung == 5){
             bt_save->setText (tr("MBR/GPT restore", "MBR/GPT zurückschreiben"));  
-	    //cmb_mbr->setEnabled(true);
-            rdbutton_sda();
 	    filters << "*_gpt_sd*" << "*_mbr_sd*" ;
    	    dirModel->setFilter(QDir::AllDirs | QDir::Files | QDir::NoDotAndDotDot);
    	    dirModel->setNameFilters(filters);  
             }
-        //sektor = sektor_auslesen();
-       
- }
+         disk_art();
+}
+
+void DialogMBR::disk_exist()
+{
+//vorhandene disk ermitteln
+QString befehl;
+QString homepath = QDir::homePath();
+int i = 0;
+int j = 0;
+int pos;
+QString filename = homepath + "/.config/qt4-fsarchiver/disk.txt";
+QFile file(filename);
+QStringList disk;
+QString disk_;
+        befehl = "fdisk -l 1> " + homepath + "/.config/qt4-fsarchiver/disk.txt";
+        i = system (befehl.toAscii().data());
+        if( file.open(QIODevice::ReadOnly|QIODevice::Text)) {
+            QTextStream ds(&file);
+           while (!ds.atEnd()){
+           	disk_ = ds.readLine();
+                if (disk_.indexOf("/dev/sd") > 4)
+                { 
+                   disk = disk_.split(" ");
+                   disk_name[j] = disk[1];
+                   disk_name[j] = disk_name[j].left(disk_name[j].size() -1);
+                   disk_name[j] = disk_name[j].right(disk_name[j].size() -5);
+                   j++;
+                }
+           } 
+           } 
+           file.close();
+           befehl = "rm " + filename;
+           system (befehl.toAscii().data());
+//Anzahl Festplatten ermitteln 
+          j = 0;
+          while (disk_name[j]!= "")
+            {
+            j++;
+            }
+//Combobox füllen
+           items_disk.clear();
+           for (i=0; i < j; i++) 
+              items_disk <<  disk_name[i];
+           cmb_disk->addItems (items_disk);      
+}
+
+void DialogMBR::disk_art()
+{
+    int i = cmb_disk->currentIndex();
+    QString partition = disk_name[i];
+    int efi = is_gpt("/dev/" + partition);
+    cmb_mbr->setEnabled(false);
+    if (efi == 0 &&  dialog_auswertung == 5)
+	     cmb_mbr->setEnabled(true);
+}
 
 int DialogMBR::mbr()
 {
 QString befehl;
 int i;
+int efi=0;
 QString partition;
 QString homepath = QDir::homePath();
-
     //Ubuntu Version einlesen, nur wenn Systempartition
     Ubuntuversion_auslesen();
-    sektor_auslesen();
-    if (rdbt_sda->isChecked())
-        partition = "sda";
-    if (rdbt_sdb->isChecked())
-        partition = "sdb";
-    if (rdbt_sdc->isChecked())
-        partition = "sdc";
-    if (rdbt_sdd->isChecked())
-        partition = "sdd";
+    i = cmb_disk->currentIndex();
+    partition = disk_name[i];
+    efi = is_gpt("/dev/" + partition);
+    if (efi == 0)
+        sektor_auslesen();
+    else
+       efiflag = 1;
+    if (efi == 1 &&  (dialog_auswertung == 5))
+	     cmb_mbr->setEnabled(false);
+    if (efi == 0 &&  (dialog_auswertung == 5))
+	     cmb_mbr->setEnabled(true);
     if (dialog_auswertung == 4)	
        {
 	i = folder_einlesen();
         if (i ==0) {
                 QFile file(folder_);
+             this->setCursor(Qt::WaitCursor);
              if (efiflag == 0)   
                 befehl = ("dd if=/dev/" + partition + " of='" + folder_ + "'/" + Ubuntuversion + "_mbr_" + partition + " bs=" + Sektor_byte + " " + "count=1");
+             this->setCursor(Qt::ArrowCursor);	     
 	     if (efiflag == 1)
                 befehl = ("sgdisk -b '" + folder_ + "'/" + Ubuntuversion + "_gpt_" + partition + " /dev/" + partition);
                 i = system (befehl.toAscii().data());
-   		if (i == 0)
-      			QMessageBox::about(this,tr("Note", "Hinweis"), tr("MBR/GPT was successfully backed up.\n", "MBR/GPT wurde erfolgreich gesichert.\n"));
-        	else
-      			QMessageBox::about(this, tr("Note", "Hinweis"), tr("MBR/GPT has not been backeed.\n", "MBR/GPT wurde nicht gesichert.\n"));
+             this->setCursor(Qt::ArrowCursor);
+   		if (i == 0 && efiflag == 0)
+      			QMessageBox::about(this,tr("Note", "Hinweis"), tr("MBR was successfully backed up.\n", "MBR wurde erfolgreich gesichert.\n"));
+        	if (i != 0 && efiflag == 0)
+      			QMessageBox::about(this, tr("Note", "Hinweis"), tr("MBR has not been backeed.\n", "MBR wurde nicht gesichert.\n"));
+                if (i == 0 && efiflag == 1)
+      			QMessageBox::about(this,tr("Note", "Hinweis"), tr("GPT was successfully backed up.\n", "GPT wurde erfolgreich gesichert.\n"));
+        	if (i != 0 && efiflag == 1)
+      			QMessageBox::about(this, tr("Note", "Hinweis"), tr("GPT has not been backeed.\n", "GPT wurde nicht gesichert.\n"));
+      		
                 }
        }
 
@@ -126,18 +167,20 @@ QString homepath = QDir::homePath();
             if  (auswertung == 2) 
                 return 1;
          if (i ==0) {
+             this->setCursor(Qt::WaitCursor);	
 	      if (cmb_mbr->currentIndex() == 0) {
               befehl = ("sgdisk -l '" + folder_ + "' /dev/" + partition);
               i = system (befehl.toAscii().data());
+              this->setCursor(Qt::ArrowCursor); 
    	      if (i == 0)
       		QMessageBox::about(this, tr("Note", "Hinweis"), tr("The GUID partition table is successful return.\n", "Die GUID Partitionstabelle wurde erfolgreich wieder hergestellt.\n"));
               else
       		QMessageBox::about(this, tr("Note", "Hinweis"), tr("The GUID partition table was not restored.\n", "Die GUID Partitionstabelle wurde nicht wieder hergestellt.\n"));
               }
-	      }
+ 	      }
 	}
 
-     if (dialog_auswertung == 5 && cmb_mbr->currentIndex() != 3)	
+     if (dialog_auswertung == 5 && cmb_mbr->currentIndex() != 3 && efiflag == 0)	
        {
         i = folder_einlesen();
         if (i ==1)
@@ -147,11 +190,12 @@ QString homepath = QDir::homePath();
           int auswertung = questionMessage(tr("Caution: If you really want to to write back the MBR completely or partially?\n", "Vorsicht: Wollen Sie wirklich den MBR komplett beziehungsweise teilweise zurückschreiben?\n")); 
             if  (auswertung == 2) 
                 return 1; 
-       // i = folder_einlesen(); Wiederholung unnötig
-        if (i ==0) {
+           if (i ==0) {
+        	this->setCursor(Qt::WaitCursor);
 	   if (cmb_mbr->currentIndex() == 0) {
               befehl = ("dd if='"+ folder_ + "' of=/dev/" + partition + " bs=1 count=446");
               i = system (befehl.toAscii().data());
+              this->setCursor(Qt::ArrowCursor);  
    	      if (i == 0)
       		QMessageBox::about(this, tr("Note", "Hinweis"), tr("The Boot Loader section is successful return.\n", "Der Bootloaderbereich wurde erfolgreich wieder hergestellt.\n"));
               else
@@ -161,26 +205,29 @@ QString homepath = QDir::homePath();
 		   //Partitionstabelle extrahieren                   
                    befehl = ("dd if='"+ folder_ + "' of=" + homepath + "/.mbr.txt  bs=1 skip=446 count=66");
                    i = system (befehl.toAscii().data());
-                   //Partitionstabelle wiederherstellen 	
+                   //Partitionstabelle wiederherstellen 
                    befehl = ("dd if=" + homepath + "/.mbr.txt of=/dev/" + partition + " bs=1 seek=446 count=66");
                    i = i + system (befehl.toAscii().data());  	
                    //Datei löschen
                    befehl = "rm " + homepath + "/.mbr.txt";
                    system (befehl.toAscii().data());
+                   this->setCursor(Qt::ArrowCursor);    
    	           if (i == 0)
       			QMessageBox::about(this, tr("Note", "Hinweis"), tr("The partition table is successful return.", "Die Partitionstabelle wurde erfolgreich wieder hergestellt.\n"));
                    else
       			QMessageBox::about(this, tr("Note", "Hinweis"), tr("The partition table was not restored.\n", "Die Partitionstabelle wurde nicht wieder hergestellt.\n"));
                }
                if (cmb_mbr->currentIndex() == 1) {
+                 // MBR und Pasrtitionstabelle wieder herstellen
                  befehl = ("dd if='"+ folder_ + "' of=/dev/" + partition + " bs=1 count=512");
                  i = system (befehl.toAscii().data());
+               this->setCursor(Qt::ArrowCursor); 
    	       if (i == 0) 
       		   QMessageBox::about(this, tr("Note","Hinweis"), tr("The MBR is successful return.\n", "Der MBR wurde erfolgreich wieder hergestellt.\n"));
                 else
       		  QMessageBox::about(this, tr("Note", "Hinweis"), tr("The MBR is not restored.\n", "Der MBR wurde nicht wieder hergestellt.\n"));
                }
-               
+                 
           }
        }
     }
@@ -192,7 +239,8 @@ QString homepath = QDir::homePath();
         int auswertung = questionMessage(tr("Caution: If you really want to to write back the secret field?\n", "Vorsicht: Wollen Sie wirklich den verborgenen Bereich zurückschreiben? \n")); 
             if  (auswertung == 2) 
                 return 1; 
-            i = folder_einlesen();
+            //i = folder_einlesen();
+            this->setCursor(Qt::WaitCursor);
             if (i ==0) {
 		   //verborgenen Bereich extrahieren                   
                    befehl = ("dd if='"+ folder_ + "' of=" + homepath + "/.mbr.txt  bs=1 skip=512 count=" + Sektor_byte_1);
@@ -203,7 +251,8 @@ QString homepath = QDir::homePath();
                    //Datei löschen
                    befehl = "rm " + homepath + "/.mbr.txt";
                    i = system (befehl.toAscii().data());
-   	        if (i == 0) 
+                   this->setCursor(Qt::ArrowCursor);       
+      	        if (i == 0) 
       		   QMessageBox::about(this, tr("Note", "Hinweis"), tr("The hidden area is successful return.\n", "Der verborgene Bereich wurde erfolgreich wieder hergestellt.\n"));
                 else
       		  QMessageBox::about(this, tr("Note", "Hinweis"), tr("The hidden area was not restored.\n", "Der verborgene Bereich wurde nicht wieder hergestellt.\n"));
@@ -220,43 +269,44 @@ QString partition;
 QString homepath = QDir::homePath();
 int sektor_ = 0;
 int efi= 0;
+int i = 0;
+int j = 0;
+QString dummy[10];
+QStringList hidden_size;
+QString hidden_size_;
         efiflag = 0;
-        if (rdbt_sda->isChecked()){
-        partition = "sda"; 
-        efi = is_gpt("/dev/sda");
+        i = cmb_disk->currentIndex();
+        partition = disk_name[i];
+        efi = is_gpt("/dev/" + partition);
         if (efi == 1)
-	   efiflag = 1;}
-    	if (rdbt_sdb->isChecked()){
-        	partition = "sdb";
-		efi = is_gpt("/dev/sdb");
-                if (efi == 1)
-	  	     efiflag = 1; }
-    	if (rdbt_sdc->isChecked()){
-        	partition = "sdc";
-		efi = is_gpt("/dev/sdc");
-		if (efi == 1)
-	  	     efiflag = 1; }
-    	if (rdbt_sdd->isChecked()){
-        	partition = "sdd";
-		efi = is_gpt("/dev/sdd");
-		if (efi == 1)
-	  	     efiflag = 1; }
+	   efiflag = 1; 
         // fdisk -lu , mit diesem Befehl Startsektor von sda1 ermitteln.
         // derzeit für Ubuntu:  Startsektor sda1 = 63*512 = 32256 
 	// Sektornummer in Datei abspeichern
         Dateiname = homepath + "/.config/qt4-fsarchiver/sektornummer.txt";
         befehl = "fdisk -lu | grep " + partition + "1 > " + homepath + "/.config/qt4-fsarchiver/sektornummer.txt";
-        int i = system (befehl.toAscii().data());
+        i = system (befehl.toAscii().data());
         QFile file(Dateiname);
         //Datei auslesen
         if( file.open(QIODevice::ReadOnly|QIODevice::Text)) {
             QTextStream ds(&file);
-            text = ds.readLine();
-            text = text.left(28);
-            text = text.right(10);
+            hidden_size_ = ds.readLine();
+            hidden_size =  hidden_size_.split(" ");
             file.close();
-            sektor_ = text.toInt();
-          }
+            for (i=0; i < 100; i++){
+                if (hidden_size[i] != "") 
+                   {
+                   dummy[j] = hidden_size[i];
+                   j = j + 1; 
+                   }
+                if (j == 3)
+                   break;
+            }
+            if (dummy[1] == "*")  //Festplatte hat Bootsektor
+               sektor_ = dummy[2].toInt();
+            else 
+               sektor_ = dummy[1].toInt(); //Festplatte hat keinen Bootsektor
+            }
        //Datei löschen
        befehl = "rm "  + homepath + "/.config/qt4-fsarchiver/sektornummer.txt";;
        system (befehl.toAscii().data()); 
@@ -276,14 +326,9 @@ QString partition;
 QString befehl;
 QStringList Ubuntu_;
 string part_art;
-        if (rdbt_sda->isChecked())
-        	partition = "sda";
-    	if (rdbt_sdb->isChecked())
-        	partition = "sdb";
-    	if (rdbt_sdc->isChecked())
-        	partition = "sdc";
-    	if (rdbt_sdd->isChecked())
-        	partition = "sdd";
+int i = 0;
+        i = cmb_disk->currentIndex();
+        partition = disk_name[i];
         partition = "/dev/"+ partition;
         //Prüfen ob System Partition
         if (mtab_einlesen(partition.toAscii().data()) == "system") {
@@ -310,6 +355,7 @@ int DialogMBR::folder_einlesen() {
    int pos;
    int pos1;
    int pos2;
+   int i = 0;
    QModelIndex index = treeView->currentIndex();
    QModelIndexList indexes = selModel->selectedIndexes();
    folder_.append  (dirModel->filePath(index));
@@ -356,27 +402,10 @@ int DialogMBR::folder_einlesen() {
       tr("You must choose the GPT file\n","Sie müssen eine GPT Sicherungsdatei auswählen.\n"));
       return 1 ;
       } 
-     
-    if (rdbt_sda->isChecked()){
-        partition = "sda";
-        if (dialog_auswertung == 5 )
-            pos1 = folder_.indexOf("_sda");
-    }
-    if (rdbt_sdb->isChecked()){
-        partition = "sdb";
-        if (dialog_auswertung == 5 )
-            pos1 = folder_.indexOf("_sdb");
-    }
-    if (rdbt_sdc->isChecked()){
-       	partition = "sdc";
-        if (dialog_auswertung == 5 )
-            pos1 = folder_.indexOf("_sdc");
-    }
-    if (rdbt_sdd->isChecked()){
-        partition = "sdd";
-        if (dialog_auswertung == 5 )
-            pos1 = folder_.indexOf("_sdd");
-    }
+    i = cmb_disk->currentIndex();
+    partition = disk_name[i];
+    if (dialog_auswertung == 5 )
+       pos1 = folder_.indexOf("_" + partition);
     if (pos1 == -1  && dialog_auswertung == 5){
       //Partitionen stimmen nicht überein
       QString text = tr("You may have the wrong disk is selected. The restore disk is ", "Sie haben eventuell eine falsche Festplatte ausgewählt. Die wiederherzustellende Festplatte ist ") + partition + tr(", the saved hard drive is ", ",  die gesicherte Festplatte ist aber ") +  Festplatte + tr(" Are you sure?", " Wollen Sie fortfahren?");
@@ -454,43 +483,6 @@ int DialogMBR::is_gpt(QString partition_efi)
 
    	file.close();
   return 0;
-}
-
-void DialogMBR::rdbutton_sda(){
-int efi=0;
-	efi = is_gpt("/dev/sda");
-	if (efi == 1 &&  (dialog_auswertung == 5))
-	     cmb_mbr->setEnabled(false);
-	if (efi == 0 &&  (dialog_auswertung == 5))
-	     cmb_mbr->setEnabled(true);
-	
-}
-
-void DialogMBR::rdbutton_sdb(){
-int efi=0;
-	efi = is_gpt("/dev/sdb");
-   if (efi == 1 &&  (dialog_auswertung == 5))
-	     cmb_mbr->setEnabled(false);
-	if (efi == 0 &&  (dialog_auswertung == 5))
-	     cmb_mbr->setEnabled(true);
-}
-
-void DialogMBR::rdbutton_sdc(){
-int efi=0;
-	efi = is_gpt("/dev/sdc");
-	if (efi == 1 &&  (dialog_auswertung == 5))
-	     cmb_mbr->setEnabled(false);
-	if (efi == 0 &&  (dialog_auswertung == 5))
-	     cmb_mbr->setEnabled(true);
-}
-
-void DialogMBR::rdbutton_sdd(){
-int efi=0;
-	efi = is_gpt("/dev/sdd");
-	if (efi == 1 &&  (dialog_auswertung == 5))
-	     cmb_mbr->setEnabled(false);
-	if (efi == 0 &&  (dialog_auswertung == 5))
-	     cmb_mbr->setEnabled(true);
 }
 
 

@@ -5,6 +5,8 @@ as well Adding say po/etc (translations)  files or other niceities or Gentoo Ebu
 I've been trying to work it into a Sabayon Linux Live DVD. 
 Feal Free to Fork it And contribute back. to Dieterbaum or put a pull request in. 
 and or email him from SF.net pages. 
+https://sourceforge.net/projects/qt4-fsarchiver/files/source/
+if I haven't gotten to them and mirrored to github then the authors release is above. 
 
 Spanish translation up colaberative -- 
 Italian (although rusty) I will give it a go. Japanese need to do 

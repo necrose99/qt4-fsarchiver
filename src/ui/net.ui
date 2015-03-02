@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>777</width>
-    <height>672</height>
+    <height>671</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>385</x>
-     <y>433</y>
+     <y>450</y>
      <width>351</width>
      <height>21</height>
     </rect>
@@ -30,7 +30,7 @@
    <property name="geometry">
     <rect>
      <x>385</x>
-     <y>380</y>
+     <y>405</y>
      <width>371</width>
      <height>18</height>
     </rect>
@@ -61,8 +61,8 @@
   <widget class="QLabel" name="label_Partition">
    <property name="geometry">
     <rect>
-     <x>385</x>
-     <y>20</y>
+     <x>390</x>
+     <y>55</y>
      <width>361</width>
      <height>18</height>
     </rect>
@@ -71,14 +71,14 @@
     <string>Select the partition to be backed up or restored.</string>
    </property>
    <property name="text">
-    <string extracomment="vorhandene Partitionen:">Existing partitions:</string>
+    <string extracomment="vorhandene Partitionen:">Existing partitions/directories:</string>
    </property>
   </widget>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>20</y>
+     <y>10</y>
      <width>360</width>
      <height>71</height>
     </rect>
@@ -102,28 +102,28 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>30</y>
+      <y>20</y>
       <width>161</width>
       <height>40</height>
      </rect>
     </property>
     <property name="text">
-     <string extracomment="Partition mit * fsArchiver sichern:">Partition save 
-with fsarchiver</string>
+     <string>Save partition
+ or directory</string>
     </property>
    </widget>
    <widget class="QRadioButton" name="rdBt_restoreFsArchiv">
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>30</y>
+      <y>20</y>
       <width>181</width>
       <height>40</height>
      </rect>
     </property>
     <property name="text">
      <string extracomment="Partition mit fs-Archiver * zurückschreiben">Restore partition 
-with fsarchiver</string>
+ or directory</string>
     </property>
    </widget>
    <zorder>rdBt_restoreFsArchiv</zorder>
@@ -133,9 +133,9 @@ with fsarchiver</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>40</y>
+     <y>80</y>
      <width>351</width>
-     <height>118</height>
+     <height>151</height>
     </rect>
    </property>
    <property name="selectionBehavior">
@@ -168,7 +168,7 @@ with fsarchiver</string>
     <string>Start the backup of a partition.</string>
    </property>
    <property name="text">
-    <string extracomment="Partition sichern">save partition</string>
+    <string extracomment="Partition sichern">Save partition/directorie</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_DateiName">
@@ -198,7 +198,7 @@ with fsarchiver</string>
    <property name="geometry">
     <rect>
      <x>385</x>
-     <y>455</y>
+     <y>470</y>
      <width>360</width>
      <height>27</height>
     </rect>
@@ -243,7 +243,7 @@ with fsarchiver</string>
     <string>Start restore a partition.</string>
    </property>
    <property name="text">
-    <string extracomment="Partition wiederherstellen">Partition restore</string>
+    <string extracomment="Partition wiederherstellen">Partition/directorie restore</string>
    </property>
   </widget>
   <widget class="QFrame" name="frame">
@@ -431,7 +431,7 @@ files/directories:</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>212</y>
+     <y>280</y>
      <width>261</width>
      <height>17</height>
     </rect>
@@ -447,9 +447,9 @@ files/directories:</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>230</y>
+     <y>300</y>
      <width>351</width>
-     <height>141</height>
+     <height>101</height>
     </rect>
    </property>
   </widget>
@@ -457,7 +457,7 @@ files/directories:</string>
    <property name="geometry">
     <rect>
      <x>385</x>
-     <y>400</y>
+     <y>425</y>
      <width>360</width>
      <height>27</height>
     </rect>
@@ -467,9 +467,9 @@ files/directories:</string>
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>95</y>
+     <y>80</y>
      <width>351</width>
-     <height>220</height>
+     <height>235</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -482,7 +482,7 @@ files/directories:</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>185</y>
+      <y>200</y>
       <width>161</width>
       <height>27</height>
      </rect>
@@ -492,7 +492,7 @@ files/directories:</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>137</y>
+      <y>160</y>
       <width>271</width>
       <height>41</height>
      </rect>
@@ -509,7 +509,7 @@ cores for to be used fsarchiver:</string>
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>145</y>
+      <y>168</y>
       <width>51</width>
       <height>27</height>
      </rect>
@@ -519,7 +519,7 @@ cores for to be used fsarchiver:</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>175</y>
+      <y>193</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -614,12 +614,25 @@ backup key</string>
      <string extracomment="PBR sichern">Save PBR</string>
     </property>
    </widget>
+   <widget class="QCheckBox" name="chk_path">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>140</y>
+      <width>351</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Backup restore to the Origin</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QComboBox" name="cmb_Net">
    <property name="geometry">
     <rect>
      <x>560</x>
-     <y>165</y>
+     <y>240</y>
      <width>181</width>
      <height>27</height>
     </rect>
@@ -629,7 +642,7 @@ backup key</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>160</y>
+     <y>235</y>
      <width>151</width>
      <height>41</height>
     </rect>
@@ -645,8 +658,8 @@ transmission:</string>
   <widget class="QPushButton" name="bt_toParent">
    <property name="geometry">
     <rect>
-     <x>690</x>
-     <y>200</y>
+     <x>710</x>
+     <y>272</y>
      <width>31</width>
      <height>27</height>
     </rect>
@@ -676,9 +689,9 @@ transmission:</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>230</y>
+     <y>300</y>
      <width>351</width>
-     <height>141</height>
+     <height>101</height>
     </rect>
    </property>
    <column>
@@ -686,6 +699,71 @@ transmission:</string>
      <string notr="true">1</string>
     </property>
    </column>
+  </widget>
+  <widget class="QCheckBox" name="chk_hidden">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>32</y>
+     <width>351</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Show hidden directories and files</string>
+   </property>
+  </widget>
+  <widget class="QTreeView" name="treeView_dir">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>80</y>
+     <width>351</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <attribute name="headerDefaultSectionSize">
+    <number>400</number>
+   </attribute>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>10</y>
+     <width>371</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="rdBt_showPartition">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show partitions</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdBt_showDirectories">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>0</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show directories</string>
+    </property>
+   </widget>
   </widget>
   <zorder>bt_treeWiget</zorder>
   <zorder>label_2</zorder>
@@ -711,6 +789,9 @@ transmission:</string>
   <zorder>label_13</zorder>
   <zorder>bt_toParent</zorder>
   <zorder>treeWidget</zorder>
+  <zorder>chk_hidden</zorder>
+  <zorder>treeView_dir</zorder>
+  <zorder>groupBox_2</zorder>
  </widget>
  <resources>
   <include location="../icon.qrc"/>

@@ -142,6 +142,8 @@ RESOURCES += src/icon.qrc
  doc.path = /usr/share/doc/qt4-fsarchiver
  smbfind.files = src/sbin
  smbfind.path = /usr
+ polkit.files = src/share/polkit-1/actions/org.project.pkexec.run-qt4-fsarchiver.policy
+ polkit.path = /usr/share/polkit-1/actions
 
 TRANSLATIONS += translations/qt4-fsarchiver_de.ts \
                 translations/qt4-fsarchiver_es.ts \
@@ -164,6 +166,6 @@ translations.files = translations/qt4-fsarchiver_de.qm \
 		     translations/qt4-fsarchiver_jp.qm
 translations.path = /usr/share/qt4/translations
  
- INSTALLS = target icon autostart translations doc smbfind
+ INSTALLS = target icon autostart translations doc smbfind polkit
  #QMAKE_CXXFLAGS_RELEASE = -pipe -Wall -g -O2
  #QMAKE_CFLAGS_RELEASE = -pipe -Wall -g -O2

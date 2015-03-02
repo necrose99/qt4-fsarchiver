@@ -62,6 +62,7 @@ public:
     QLineEdit *lineKey;
     QCheckBox *chk_overwrite;
     QCheckBox *chk_path;
+    QCheckBox *chk_hidden;
 
     void setupUi(QWidget *dir_dialog)
     {
@@ -73,7 +74,7 @@ public:
         bt_end->setGeometry(QRect(375, 460, 321, 41));
         bt_save = new QPushButton(dir_dialog);
         bt_save->setObjectName(QString::fromUtf8("bt_save"));
-        bt_save->setGeometry(QRect(375, 410, 321, 41));
+        bt_save->setGeometry(QRect(375, 415, 321, 41));
         treeView_dir = new QTreeView(dir_dialog);
         treeView_dir->setObjectName(QString::fromUtf8("treeView_dir"));
         treeView_dir->setGeometry(QRect(20, 52, 331, 301));
@@ -162,10 +163,10 @@ public:
         pushButton_break->setFlat(false);
         cmb_kerne = new QComboBox(dir_dialog);
         cmb_kerne->setObjectName(QString::fromUtf8("cmb_kerne"));
-        cmb_kerne->setGeometry(QRect(634, 370, 61, 27));
+        cmb_kerne->setGeometry(QRect(634, 355, 61, 27));
         label_12 = new QLabel(dir_dialog);
         label_12->setObjectName(QString::fromUtf8("label_12"));
-        label_12->setGeometry(QRect(370, 360, 251, 41));
+        label_12->setGeometry(QRect(370, 350, 251, 41));
         frame_2 = new QFrame(dir_dialog);
         frame_2->setObjectName(QString::fromUtf8("frame_2"));
         frame_2->setGeometry(QRect(20, 360, 331, 141));
@@ -189,13 +190,16 @@ public:
         chk_path = new QCheckBox(frame_2);
         chk_path->setObjectName(QString::fromUtf8("chk_path"));
         chk_path->setGeometry(QRect(0, 105, 321, 31));
+        chk_hidden = new QCheckBox(dir_dialog);
+        chk_hidden->setObjectName(QString::fromUtf8("chk_hidden"));
+        chk_hidden->setGeometry(QRect(370, 390, 321, 22));
 
         retranslateUi(dir_dialog);
 
         QMetaObject::connectSlotsByName(dir_dialog);
     } // setupUi
 
-    void retranslateUi(QWidget *dir_dialog)
+   void retranslateUi(QWidget *dir_dialog)
     {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
@@ -209,6 +213,7 @@ public:
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
         dir_dialog->setGeometry(QRect(cw, ch, 714, 654));  
+
         dir_dialog->setWindowTitle(QApplication::translate("dir_dialog", "Save/restore directory", 0, QApplication::UnicodeUTF8));
         bt_end->setText(QApplication::translate("dir_dialog", "Exit", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
@@ -248,6 +253,7 @@ public:
         chk_path->setToolTip(QApplication::translate("dir_dialog", "The directory will be written back to the original path", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
         chk_path->setText(QApplication::translate("dir_dialog", "Backup restore to the Origin", 0, QApplication::UnicodeUTF8));
+        chk_hidden->setText(QApplication::translate("dir_dialog", "show hidden directories/files", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

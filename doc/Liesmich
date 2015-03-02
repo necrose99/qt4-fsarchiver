@@ -4,7 +4,7 @@ qt4-fsarchiver: Sichern und Wiederherstellen von Partitionen Debian, Ubuntu, Lin
 
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.  All rights reserved.
 Kopieren der Dateien, mit und ohne Änderung ist erlaubt. Der Code ist ohne jegliche Garantie. Die Benutzung erfolgt auf eigene Gefahr.
-Francois Dupoux entwickelte das Basisprogramm fsarchiver, Hihin Ruslan hat das Programm verbessert und nach Englisch und Russisch übersetzt. Michael R. Lawrence und sein Team übersetzte nach Spanisch, Dieter Baum erstellte die GUI.
+Francois Dupoux entwickelte das Basisprogramm fsarchiver, Hihin Ruslan hat das Programm verbessert und nach Englisch und Russisch übersetzt. Michael R. Lawrence und sein Team übersetzte nach Spanisch und Italienisch, Zhenneng Li übersetzte nach Chinesisch, Dieter Baum erstellte die GUI.
 
 qt4-fsarchiver ist ein Programm mit einer grafischen Oberfläche zur einfachen Bedienung des Archivierungsprogramms fsarchiver.
 Qt4-fsarchiver wurde mit diesen Programmpunkten erweiter:
@@ -20,7 +20,8 @@ sudo apt-get install libzip-dev libbz2-dev liblzma-dev liblzo2-2 liblzo2-dev lib
 
 In Suse werden die Abhängigkeiten mit Root-Rechten (su -l) mit diesem Befehl installiert: zypper in libqt4-devel make libzip-devel libbz2-devel xz-devel lzo-devel libgcrypt-devel e2fsprogs-devel libblkid-devel libattr-devel btrfsprogs gdisk sshfs nmap samba nfs-kernel-server
 
-Wenn Sie ssh (secureshell) für den Zugriff auf weitere Rechner im Netzwerk nutzen wollen, müssen Sie noch sshpass individuell installieren.Verwenden Sie die KDE-Oberfläche müssen Sie nach der Installation in der Datei /usr/share/applications/qt4-fsarchiver.desktop die Eigenschaften von sudo qt4-fsarchiver in kdesu qt4-fsarchiver ändern. 
+Wenn Sie ssh (secureshell) für den Zugriff auf weitere Rechner im Netzwerk nutzen wollen, müssen Sie noch sshpass individuell installieren.
+Verwenden Sie die KDE-Oberfläche müssen Sie nach der Installation in der Datei /usr/share/applications/qt4-fsarchiver.desktop die Eigenschaften von sudo qt4-fsarchiver in kdesu qt4-fsarchiver ändern. 
 
 In Fedora werden die Abhängigkeiten mit Root-Rechten (su -l) mit diesem Befehl installiert: yum install  gcc gcc-c++ zlib-devel bzip2-devel xz-devel lzo-devel libgcrypt-devel e2fsprogs-devel libblkid-devel libattr-devel qt4-devel gdisk sshfs sshpass nmap samba samba-client nfs-utils
 
@@ -33,11 +34,13 @@ Ein Doppelklick auf die DEB-Datei installiert in der Regel das Programm.
 Eventuell müssen Sie im Terminal mit root-Rechten dieses Kommando eingeben: dpkg -i qt4-fsarchiver-0.6.17-1.deb, wobei die Versionsnummer angepasst werden muss
 
 Programmaufruf:
-Debian, Fedora und Suse 12 : Geben Sie in einem root-Terminal ein: qt4-fsarchiver.
-Ubuntu: Unter "Anwendungen > Zubehör" wurde ein Starter für qt4-fsarchiver installiert. Mit Doppelklick wird das Programm gestartet.
+Teilweise werden Starter installiert. Mit Doppelklick wird qt4-fsarchiver gestartet.
+Debian: Geben Sie im Terminal ein: gksu /usr/sbin/qt4-fsarchiver.
+Ubuntu, Linux Mint: Geben Sie im Terminal ein: sudo /usr/sbin/qt4-fsarchiver.
 Ubuntu mit Unity: Starten Sie das Programm über das Dash. 
-LinuxMint: Unter "Menü > Anwendungen > Zubehör" wurde ein Starter für qt4-fsarchiver installiert. Mit Doppelklick wird das Programm gestartet.
-Suse 11: Unter "Anwendungen > Applications" wurde ein Starter für qt4-fsarchiver installiert. Mit Doppelklick wird das Programm gestartet.
+Suse 12, Fedora 21 mit Gnome: Geben Sie im Terminal ein: /usr/sbin/qt4-fsarchiver_polkit %f.
+Anwendungen mit KDE: Geben Sie im Terminal ein: kdesu /usr/sbin/qt4-fsarchiver.
+Immer funktioniert der Programmaufruf aus einem Root-Terminal(su -l): /usr/sbin/qt4-fsarchiver
 
 Anpassungsmöglichkeit der Oberfläche: Sie starten mit sudo qtconfig (aus dem Paket qt4-qtconfig) die Qt Configuration. Unter Appearance > GUI Style wählen Sie GTK+ aus. Speichern Sie die Änderung und schließen Sie Qt Configuration.
 Danach starten Sie die Qt Configuration mit gksudo qtconfig erneut und ändern ebenfalls den GUI Style.

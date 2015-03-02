@@ -55,6 +55,8 @@ public:
     QAction *action_CloneDrive;
     QAction *action_CloneDrive_net;
     QAction *actionClone_HD;
+    QAction *action_Save_directories_on_network;
+    QAction *action_Restore_directories_from_network;
     QWidget *centralwidget;
     QLabel *label_Partition;
     QLabel *label_folder;
@@ -101,6 +103,7 @@ public:
     QGroupBox *groupBox;
     QRadioButton *rdBt_saveFsArchiv;
     QRadioButton *rdBt_restoreFsArchiv;
+    QCheckBox *chk_hidden;
     QStatusBar *statusbar;
     QToolBar *toolBar;
     QMenuBar *menuBar;
@@ -184,6 +187,10 @@ public:
         actionClone_HD = new QAction(MainWindow);
         actionClone_HD->setObjectName(QString::fromUtf8("actionClone_HD"));
         actionClone_HD->setIcon(icon11);
+        action_Save_directories_on_network = new QAction(MainWindow);
+        action_Save_directories_on_network->setObjectName(QString::fromUtf8("action_Save_directories_on_network"));
+        action_Restore_directories_from_network = new QAction(MainWindow);
+        action_Restore_directories_from_network->setObjectName(QString::fromUtf8("action_Restore_directories_from_network"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         label_Partition = new QLabel(centralwidget);
@@ -206,7 +213,7 @@ public:
         listWidget->setSelectionBehavior(QAbstractItemView::SelectRows);
         treeView = new QTreeView(centralwidget);
         treeView->setObjectName(QString::fromUtf8("treeView"));
-        treeView->setGeometry(QRect(370, 185, 380, 271));
+        treeView->setGeometry(QRect(370, 185, 380, 240));
         treeView->header()->setDefaultSectionSize(400);
         pushButton_partition = new QPushButton(centralwidget);
         pushButton_partition->setObjectName(QString::fromUtf8("pushButton_partition"));
@@ -384,6 +391,9 @@ public:
         rdBt_restoreFsArchiv = new QRadioButton(groupBox);
         rdBt_restoreFsArchiv->setObjectName(QString::fromUtf8("rdBt_restoreFsArchiv"));
         rdBt_restoreFsArchiv->setGeometry(QRect(165, 20, 195, 40));
+        chk_hidden = new QCheckBox(centralwidget);
+        chk_hidden->setObjectName(QString::fromUtf8("chk_hidden"));
+        chk_hidden->setGeometry(QRect(370, 430, 361, 22));
         MainWindow->setCentralWidget(centralwidget);
         pushButton_partition->raise();
         pushButton_folder->raise();
@@ -399,6 +409,7 @@ public:
         frame->raise();
         frame_2->raise();
         groupBox->raise();
+        chk_hidden->raise();
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
         MainWindow->setStatusBar(statusbar);
@@ -457,7 +468,7 @@ public:
     } // setupUi
 
     void retranslateUi(QMainWindow *MainWindow)
-     {
+    {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width
@@ -481,12 +492,14 @@ public:
         action_dir_restore->setText(QApplication::translate("MainWindow", "Restore directory ", 0, QApplication::UnicodeUTF8));
         action_dir_save->setText(QApplication::translate("MainWindow", "Save directory ", 0, QApplication::UnicodeUTF8));
         action_Beenden->setText(QApplication::translate("MainWindow", "Exit program", 0, QApplication::UnicodeUTF8));
-        action_partition_save_net->setText(QApplication::translate("MainWindow", "Save a partition on network", 0, QApplication::UnicodeUTF8));
-        action_partition_restore_net->setText(QApplication::translate("MainWindow", "Restore a partition on network", 0, QApplication::UnicodeUTF8));
+        action_partition_save_net->setText(QApplication::translate("MainWindow", "Save a partition/directorie on network", 0, QApplication::UnicodeUTF8));
+        action_partition_restore_net->setText(QApplication::translate("MainWindow", "Restore a partition/directorie on network", 0, QApplication::UnicodeUTF8));
         breakProcess->setText(QApplication::translate("MainWindow", "breakprocess", 0, QApplication::UnicodeUTF8));
         action_CloneDrive->setText(QApplication::translate("MainWindow", "Clone Drive HD-Image save/restore ", 0, QApplication::UnicodeUTF8));
         action_CloneDrive_net->setText(QApplication::translate("MainWindow", "HD-Image save/restore on network", 0, QApplication::UnicodeUTF8));
         actionClone_HD->setText(QApplication::translate("MainWindow", "Clone HD, HD-Image built and restore", 0, QApplication::UnicodeUTF8));
+        action_Save_directories_on_network->setText(QApplication::translate("MainWindow", "Save directories on network", 0, QApplication::UnicodeUTF8));
+        action_Restore_directories_from_network->setText(QApplication::translate("MainWindow", "Restore directories from network", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         label_Partition->setToolTip(QApplication::translate("MainWindow", "Select the partition to be backed up or restored.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
@@ -550,6 +563,7 @@ public:
 #endif // QT_NO_TOOLTIP
         rdBt_restoreFsArchiv->setText(QApplication::translate("MainWindow", "Restore partition\n"
 "with fsarchiver", 0, QApplication::UnicodeUTF8));
+        chk_hidden->setText(QApplication::translate("MainWindow", "Show hidden directories and files", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         toolBar->setToolTip(QString());
 #endif // QT_NO_TOOLTIP

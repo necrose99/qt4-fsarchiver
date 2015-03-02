@@ -100,7 +100,7 @@
       <x>370</x>
       <y>185</y>
       <width>380</width>
-      <height>271</height>
+      <height>240</height>
      </rect>
     </property>
     <attribute name="headerDefaultSectionSize">
@@ -596,6 +596,19 @@ with fsarchiver</string>
      </property>
     </widget>
    </widget>
+   <widget class="QCheckBox" name="chk_hidden">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>430</y>
+      <width>361</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show hidden directories and files</string>
+    </property>
+   </widget>
    <zorder>pushButton_partition</zorder>
    <zorder>pushButton_folder</zorder>
    <zorder>label_Partition</zorder>
@@ -610,6 +623,7 @@ with fsarchiver</string>
    <zorder>frame</zorder>
    <zorder>frame_2</zorder>
    <zorder>groupBox</zorder>
+   <zorder>chk_hidden</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QToolBar" name="toolBar">
@@ -777,7 +791,7 @@ with fsarchiver</string>
      <normaloff>:/src/images/applications-internet.png</normaloff>:/src/images/applications-internet.png</iconset>
    </property>
    <property name="text">
-    <string>Save a partition on network</string>
+    <string>Save a partition/directorie on network</string>
    </property>
   </action>
   <action name="action_partition_restore_net">
@@ -786,7 +800,7 @@ with fsarchiver</string>
      <normaloff>:/src/images/applications-internet-ein.png</normaloff>:/src/images/applications-internet-ein.png</iconset>
    </property>
    <property name="text">
-    <string>Restore a partition on network</string>
+    <string>Restore a partition/directorie on network</string>
    </property>
   </action>
   <action name="breakProcess">
@@ -819,6 +833,16 @@ with fsarchiver</string>
    </property>
    <property name="text">
     <string>Clone HD, HD-Image built and restore</string>
+   </property>
+  </action>
+  <action name="action_Save_directories_on_network">
+   <property name="text">
+    <string>Save directories on network</string>
+   </property>
+  </action>
+  <action name="action_Restore_directories_from_network">
+   <property name="text">
+    <string>Restore directories from network</string>
    </property>
   </action>
  </widget>

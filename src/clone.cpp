@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -34,6 +34,7 @@ int hour_elapsed_clone;
 float sekunde_summe_clone = 0;
 float sekunde_summe_clone_1 = 0;
 QString pid_dd = " ";
+QString pid_2_dd[5];
 QString partition_name;
 int read_write_counter = 0;
 int read_write_counter_1 = 1;
@@ -255,8 +256,7 @@ Qt::CheckState state;
                 else 
                 	startThread1(0);
                 qDebug() << "The image is created";
-    		
-              }
+               }
     return 0;
 }
 
@@ -516,7 +516,7 @@ QString mb_sec;
     } 
  dummy_prozent_clone = prozent;  
         }
- } 
+} 
 
 
 void DialogClone::startThread1(int flag) {
@@ -659,7 +659,7 @@ void DialogClone::esc_end()
 {
 MWindow window;
 QString befehl;
-pid_dd = pid_ermitteln("dd");
+   pid_2_ermitteln("dd");
    if (thread_run_clone > 0) {
     int ret = questionMessage(tr("Do you want really break clone, save or restore an image from the partition?", "Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?"));
       if (thread_run_clone  == 1 && ret == 1 or thread_run_clone == 2 && ret == 1)
@@ -668,12 +668,68 @@ pid_dd = pid_ermitteln("dd");
         QFile file(folder_clone +  partition_name + ".gz.fsa");
       if (file.exists()) 
 	  system (befehl.toAscii().data()); 
-     	befehl = "kill -15 " + pid_dd;  //dd abbrechen
-     	system (befehl.toAscii().data());
+      befehl = "kill -15 " + pid_2_dd[0];  //dd abbrechen
+      system (befehl.toAscii().data());
+      befehl = "kill -15 " + pid_2_dd[1];  //dd abbrechen
+      system (befehl.toAscii().data());
+       //  qApp->quit();
         flag_clone =0;
     	close();
         }}
+}
 
+void DialogClone::pid_2_ermitteln(QString prozess)
+{
+QString befehl;
+QString pid_nummer;
+QStringList pid;
+int i = 0;
+int k = 0;
+      QString filename = homepath + "/.config/qt4-fsarchiver/pid_2.txt";
+      QFile file(filename);
+      if (file.exists())
+      {
+         befehl = "rm " + filename;
+         system (befehl.toAscii().data());
+      }  
+      befehl = "ps -aux  1> " +  homepath + "/.config/qt4-fsarchiver/pid_2.txt";
+      system (befehl.toAscii().data());
+      if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        QTextStream ds(&file);        
+        pid_nummer = ds.readLine();
+   	while (!ds.atEnd())
+      	{
+            pid_nummer = ds.readLine();
+ 	    if (pid_nummer.indexOf("dd if=") >= 0)  // dd Prozess gefunden
+               {
+      	       pid_2_dd[i] = pid_nummer;
+               i = i +1;
+               }
+   	       if(pid_nummer.isEmpty() )
+         	 break;
+      	} 
+   	file.close();
+     }
+        befehl = "rm " + filename;
+        system (befehl.toAscii().data());
+        pid_nummer = pid_2_dd[0];
+        do{
+    	   k=pid_nummer.indexOf("  ");
+	   if (k > 0)
+              pid_nummer.replace("  ", " ");
+	   }
+	while  (k >= 0);
+	     pid = pid_nummer.split(" ");
+             pid_2_dd[0] = pid[1];
+        pid_nummer = pid_2_dd[1];
+        do{
+    	   k=pid_nummer.indexOf("  ");
+	   if (k > 0)
+              pid_nummer.replace("  ", " ");
+	   }
+	while  (k >= 0);
+	     pid = pid_nummer.split(" ");
+             pid_2_dd[1] = pid[1];
 }
 
 QString DialogClone::pid_ermitteln(QString prozess)
@@ -781,7 +837,8 @@ QStringList bytes;
             return;
         if (pid_dd == " ") 
            pid_dd = pid_ermitteln("dd"); 
-        QTimer::singleShot(10000, this, SLOT(read_write_hd_1()));  //1 sekunden
+        QTimer::singleShot(10000, this, SLOT(read_write_hd_1()));  //10 sekunden
+        // Wird für den Fortschrittsbalken benötigt
         befehl = "kill -USR1 " + pid_dd;
         //  befehl = "sudo kill -USR1 " + pid_dd + " 2>" + homepath + "/.config/qt4-fsarchiver/disk.txt";
         system (befehl.toAscii().data());
@@ -807,8 +864,9 @@ QStringList bytes;
 
 
 
-
         
+
+
 
 
 

@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -53,7 +53,7 @@ string partition_str;
 QString folder;
 QString _Datum;
 QString DateiName("") ;
-extern int anzahl_disk;
+//extern int anzahl_disk;
 extern int btrfs_flag;
 extern int dialog_auswertung;
 extern int show_flag;
@@ -171,6 +171,7 @@ MWindow::MWindow()
    connect( rdBt_saveFsArchiv, SIGNAL( clicked() ), this, SLOT(rdButton_auslesen()));
    connect( rdBt_restoreFsArchiv, SIGNAL( clicked() ), this, SLOT(rdButton_auslesen()));
    connect( chk_key, SIGNAL( clicked() ), this, SLOT(chkkey()));
+   connect( chk_hidden, SIGNAL( clicked() ), this, SLOT(chkhidden()));
    connect( chk_split, SIGNAL( clicked() ), this, SLOT(chkGB()));
    // Zeitgeber für Berechnung remainingTime
    timer = new QTimer(this);
@@ -185,15 +186,16 @@ MWindow::MWindow()
    cmb_GB->addItems (items_GB);
    items_GB.clear();
    
-   zip_[0]= "lzo";
-   zip_[1]= "gzip fast";
-   zip_[2]= "gzip standard";
-   zip_[3]= "qzip best";
-   zip_[4]= "bzip2 fast";
-   zip_[5]= "bzip2 good";
-   zip_[6]= "lzma fast";
-   zip_[7]= "lzma medium";
-   zip_[8]= "lzma best";
+   
+   zip_[0]=(tr("lzo", "lzo"));
+   zip_[1]=(tr("gzip fast","gzip fast"));
+   zip_[2]=(tr("gzip standard","gzip standard"));
+   zip_[3]=(tr("qzip best","qzip best"));
+   zip_[4]=(tr("bzip2 fast","bzip2 fast"));
+   zip_[5]=(tr("bzip2 good"," bzip2 good"));
+   zip_[6]=(tr("lzma fast","lzma fast"));
+   zip_[7]=(tr("lzma medium","lzma medium"));
+   zip_[8]=(tr("lzma best","lzma best"));
 
    items << zip_[0] << zip_[1] << zip_[2] << zip_[3] <<  zip_[4];
    cmb_zip->addItems (items);
@@ -206,11 +208,18 @@ MWindow::MWindow()
       system (befehl.toAscii().data());
    QDir dir(homepath + "/.qt4-fs-client");
    if (!dir.exists()){
-       befehl = "mkdir " + homepath + "/.qt4-fs-client" ;
+       befehl = "mkdir " + homepath + "/.qt4-fs-client 2>/dev/null" ;
        system (befehl.toAscii().data());
    	//Rechte setzen
-       befehl = "chmod a+rwx " + homepath + "/.qt4-fs-client";
+       befehl = "chmod a+rwx " + homepath + "/.qt4-fs-client 2>/dev/null";
        system (befehl.toAscii().data());
+   // wegen Suse
+   QDir dir2("/media");
+   QString media = "/media";
+   if (!dir2.exists()){
+       befehl = "mkdir " + media + " 2>/dev/null" ;
+       system (befehl.toAscii().data());
+       }
    }
    // Ini-Datei auslesen
    QFile file(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
@@ -233,9 +242,19 @@ MWindow::MWindow()
         auswertung = setting.value("key").toInt();
         if (auswertung ==1)
            chk_key->setChecked(Qt::Checked); 
+	auswertung = setting.value("hidden").toInt();
+        if (auswertung ==1)
+           chk_hidden->setChecked(Qt::Checked);
+        auswertung = setting.value("Passwort").toInt(); 
+        if (auswertung ==1){
+           	lineKey ->setEchoMode(QLineEdit::Normal);
+        } 
+   	else
+		lineKey ->setEchoMode(QLineEdit::Password); 
         setting.endGroup();
         } 
    else {
+        lineKey ->setEchoMode(QLineEdit::Password);
         cmb_kerne -> setCurrentIndex(0);
         chk_Beschreibung->setChecked(Qt::Checked);
         chk_overwrite->setChecked(Qt::Checked); 
@@ -275,22 +294,8 @@ MWindow::MWindow()
            while (j > 1)
 	   {
 		j = widget[i+1].length();
-        	partition_ = part[i][0]; // z.B. sda1
+      partition_ = part[i][0]; // z.B. sda1
 		UUID = part[i][3];
-                if (pos != -1 )
-                   anzahl_disk = 1;
-                pos = partition_.indexOf("sdb");
-                if (pos != -1 )
-                   if (anzahl_disk < 2)
-                   	anzahl_disk = 2;
-                pos = partition_.indexOf("sdc");
-                if (pos != -1 )
-		   if (anzahl_disk < 3)
-                   	anzahl_disk = 3;
-                pos = partition_.indexOf("sdd");
-                if (pos != -1 )
-                   if (anzahl_disk <4)
-                   	anzahl_disk = 4;
                 partition_typ = part[i][1];
                 pos = partition_typ.indexOf("fat");
                 if (pos > -1)
@@ -350,7 +355,18 @@ void MWindow::chkkey(){
         lineKey->setEnabled(true);
      else 
         lineKey->setEnabled(false);
+
 }
+
+void MWindow::chkhidden(){
+     Qt::CheckState state;
+     state = chk_hidden->checkState();
+     if (rdBt_saveFsArchiv->isChecked())
+        starteinstellung();   
+     else
+        rdButton_auslesen();
+}
+
 
 void MWindow::chkGB(){
      Qt::CheckState state;
@@ -373,6 +389,8 @@ void MWindow::restore_button(){
 
 void MWindow::rdButton_auslesen()
      {
+     Qt::CheckState state;
+     state= chk_hidden->checkState();
      QStringList filters;
      if (rdBt_saveFsArchiv->isChecked())
         {
@@ -399,13 +417,18 @@ void MWindow::rdButton_auslesen()
                 chk_split->setEnabled(false); 
 		chk_pbr->setEnabled(false); 
                 filters << "*.fsa";
-   		dirModel->setFilter(QDir::AllDirs | QDir::Files | QDir::NoDotAndDotDot);
+                if (state == Qt::Checked)
+               	        dirModel->setFilter(QDir::AllDirs | QDir::Files | QDir::NoDotAndDotDot | QDir::Hidden);
+	    	else	
+	       		dirModel->setFilter(QDir::AllDirs | QDir::Files | QDir::NoDotAndDotDot);
    		dirModel->setNameFilters(filters);  
          }
      } 
 
 void MWindow::starteinstellung()
      {
+     Qt::CheckState state;
+     state= chk_hidden->checkState();
      QStringList filters;
             label_folder->setText (tr("Backup directory", "Sicherungsverzeichnis"));
             pushButton_save->setText (tr("Save partition", "Partition sichern"));
@@ -426,7 +449,18 @@ void MWindow::starteinstellung()
             chk_pbr->setEnabled(true);  
             chkkey(); 
             filters << "*.*";
-   	    dirModel->setFilter(QDir::AllDirs | QDir::Files | QDir::NoDotAndDotDot);
+            if (state == Qt::Checked){
+              if (rdBt_saveFsArchiv->isChecked())
+		dirModel->setFilter(QDir::AllDirs  | QDir::NoDotAndDotDot | QDir::Hidden);
+              else 
+   	        dirModel->setFilter(QDir::AllDirs | QDir::Files | QDir::NoDotAndDotDot | QDir::Hidden);
+	    }		
+	    if (state != Qt::Checked){
+              if (rdBt_saveFsArchiv->isChecked())
+		dirModel->setFilter(QDir::AllDirs  | QDir::NoDotAndDotDot);
+              else 
+   	        dirModel->setFilter(QDir::AllDirs | QDir::Files | QDir::NoDotAndDotDot);
+	    }
    	    dirModel->setNameFilters(filters);  
             }
        
@@ -601,6 +635,13 @@ int MWindow::savePartition()
                                       }
                                  QString partitionsart = part[row_1][1];
                                  QString partitionsart_ = widget[row_1];
+                                 QFile file_suse(".snapshots");
+                                 if (file.exists())
+                                    {
+                                    parameter[indizierung] = "--exclude=.snapshots";
+                                    indizierung = indizierung + 1;
+//qDebug() << "snapshot wird ausgeschlossen";
+                                    }
        				 int pos_a = partitionsart_.indexOf("ntfs");
                 		 if (pos_a > -1)
 		                    {
@@ -639,7 +680,7 @@ int MWindow::savePartition()
                 		  {
                 		  QMessageBox::about(this,tr("Note", "Hinweis"),
          			  tr("The backup was aborted by the user\n", "Die Sicherung wurde vom Benutzer abgebrochen\n"));
-				  pushButton_save->setEnabled(false);
+				  pushButton_save->setEnabled(true);
                 		  return 0;
                 		  }
              			}
@@ -870,7 +911,7 @@ char * dev_part;
                 	   {
                 	   QMessageBox::about(this,tr("Note","Hinweis"),
          		   tr("The restore was aborted by the user", "Das Zurückschreiben wurde vom Benutzer abgebrochen\n"));
-                            pushButton_restore->setEnabled(false);
+                            pushButton_restore->setEnabled(true);
                 	   return 0;
                 	   }
                        }
@@ -1038,15 +1079,15 @@ void MWindow::info() {
       0, tr("qt4-fsarchiver"),
       tr("Backup and restore\n"
          "partitions, directory and MBR\n"
-         "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+         "Copyright (C) 2008-2015 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-8, October 17, 2014",
+         "Version 0.6.19-12, February 25, 2015",
 
 	 "Sichern und Wiederherstellen\n"
          "von Partitionen, Verzeichnissen und MBR\n"
-         "Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.\n"
+         "Copyright (C) 2008-2015 Francois Dupoux und Dieter Baum.\n"
          "All rights reserved.\n"
-         "Version 0.6.19-7, 17. Oktober 2014"));
+         "Version 0.6.19-12, 25. Februar 2015"));
 }
 
 int MWindow::Root_Auswertung(){
@@ -1327,7 +1368,15 @@ int part_testen;
        if (flag_end == 1) {
         QMessageBox::about(this, tr("Note", "Hinweis"),
          tr("The backup of the partition was aborted by the user!\n", "Die Sicherung der Partition  wurde vom Benutzer abgebrochen!\n") );
+        pushButton_save->setEnabled(true);
 	}
+       // Prüfen ob Partitionsart unterstützt wird      
+       part_testen = werte_holen(3);
+       if (part_testen == 110){ 
+       QMessageBox::about(this, tr("Note", "Hinweis"),
+          tr("The partition type is not supported.\n", "Der Partitionstyp wird nicht unterstützt.\n" ));
+          flag_end = 1;
+          } 
        // Anzahl nicht korrekt gesicherte Dateien ausgeben
        part_testen = werte_holen(4);
        if (part_testen == 108){
@@ -1347,7 +1396,7 @@ int part_testen;
        QString err_hardlinks_ = QString::number(err_hardlinks); 
        int err_special = werte_holen(11);
        QString err_special_ = QString::number(err_special);
-       if (part_testen <= 108 && flag_end == 0){
+       if (part_testen <= 108 && flag_end == 0 ){
        	  QMessageBox::about(this, tr("Note", "Hinweis"), 
        	  tr("The backup of the partition was only partially successful.\n", "Die Sicherung der Partition war nur teilweise erfolgreich\n")
          + cnt_regfile_ + tr(" files, ", " Dateien, ") + cnt_dir_ + tr(" directories, ", " Verzeichnisse, ") + cnt_hardlinks_ + tr(" links and ", " Links und ") 
@@ -1895,6 +1944,7 @@ void MWindow::del_mediafolder()
       QFile file(filename);
       int zaehler = 0;
       int i = 0;
+      qApp->quit();
       if( file.open(QIODevice::ReadOnly|QIODevice::Text)) {
            QTextStream ds(&file);
            while (!ds.atEnd()){
@@ -1925,13 +1975,16 @@ void MWindow::del_mediafolder()
            filename = homepath + "/.config/qt4-fsarchiver/smbtree.txt";
            befehl = "rm " + filename + " 2>/dev/null";
            system (befehl.toAscii().data());
-           close ();
            
+           befehl = "umount -f" + homepath + "/.qt4-fs-client 2>/dev/null";
+	   system (befehl.toAscii().data());   
+           befehl = "fusermount -u " + homepath + "/.qt4-fs-client 2>/dev/null";
+           system (befehl.toAscii().data());
+           befehl = "umount -a -t nfs 2>/dev/null";
+           system (befehl.toAscii().data());
+           qApp->quit();
+          //close ();
 }
-
-
-
-
 
 
 

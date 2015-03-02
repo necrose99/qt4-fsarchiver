@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -49,6 +49,7 @@ public slots:
         void remainingTime(int prozent);
 	void elapsedTime();
 	QString  pid_ermitteln(QString prozess);
+        void pid_2_ermitteln(QString prozess);
         void esc_end();
         void read_write_hd();
 	void read_write_hd_1();
@@ -73,6 +74,8 @@ private slots:
    void thread2Ready();
 };
 #endif
+
+
 
 
 

@@ -75,8 +75,21 @@ public:
         QMetaObject::connectSlotsByName(treeview_dialog);
     } // setupUi
 
-    void retranslateUi(QDialog *treeview_dialog)
+   void retranslateUi(QDialog *treeview_dialog)
     {
+	int w,h, mw, mh, cw, ch;
+        QWidget *d = QApplication::desktop();
+        w=d->width();                   // returns screen width
+        h=d->height();                  // returns screen height
+        //qDebug() << "Bildschrimbreite";
+        //qDebug() << h;
+        //Center position calculation
+        mw = treeview_dialog->width();
+        mh = treeview_dialog->height();
+        cw = (w/2) - (mw/2);
+        ch = (h/2) - (mh/2); 
+        treeview_dialog->setGeometry(QRect(cw, ch, 473, 415));
+
         treeview_dialog->setWindowTitle(QApplication::translate("treeview_dialog", "Select restore file", 0, QApplication::UnicodeUTF8));
         cmd_cancel->setText(QApplication::translate("treeview_dialog", "Cancel", 0, QApplication::UnicodeUTF8));
         cmd_save->setText(QApplication::translate("treeview_dialog", "Next", 0, QApplication::UnicodeUTF8));

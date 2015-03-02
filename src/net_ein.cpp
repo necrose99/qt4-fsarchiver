@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -25,7 +25,8 @@ QString widget_net[100]; // Netzwerk
 QString comNet;
 QString comNet_name;
 QString user;
-QString key;
+//QString key= "";
+QString dummykey;
 
 NetEin::NetEin(QWidget *parent)
 {
@@ -36,7 +37,6 @@ connect( pushButton_net, SIGNAL( clicked() ), this, SLOT(listWidget_show()));
 connect( pushButton_go, SIGNAL( clicked() ), this, SLOT(go()));
 connect( pushButton_end, SIGNAL( clicked() ), this, SLOT(end()));
 connect( chk_password, SIGNAL( clicked() ), this, SLOT(Kennwort()));
-
 // Ini-Datei auslesen
    QFile file(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
    if (file.exists()) {
@@ -85,7 +85,6 @@ QString adresse_eigen;
 QString adresse_eigen_;
 int k = 0;
 int i = 0;
-
         // Routeradresse ermitteln
         befehl = "route -n 1> " +  homepath + "/.config/qt4-fsarchiver/smbtree.txt";
         system (befehl.toAscii().data());
@@ -106,7 +105,10 @@ int i = 0;
 	}
         file.close();
         hostname_ = hostname();
-        adresse_eigen = IP(hostname_);
+        adresse_eigen = IP("localhost");
+        i = adresse_eigen.indexOf("name_query");
+        if (i > -1)
+           adresse_eigen = IP(hostname_);
         adresse_ = adresse_eigen.split(" ");
         adresse_eigen = adresse_[0];
         adresse_eigen_ = adresse_[0];
@@ -166,10 +168,12 @@ QString adresse2;
 QString befehl;
 QString homepath = QDir::homePath(); 
 QString hostname_;
-        hostname_ = hostname();
-
+ 	hostname_ = hostname();
       // Eigenen Rechner nicht anzeigen
-        adresse_eigen = IP(hostname_);
+        adresse_eigen = IP("localhost");
+        i = adresse_eigen.indexOf("name_query");
+        if (i > -1)
+           adresse_eigen = IP(hostname_);
         adresse_ = adresse_eigen.split(" ");
         adresse_eigen = adresse_[0];
  //smbtree: zuverlässige und schnelle Linux-Rechner Suche. Windows-Rechner werden aber nicht erkannt
@@ -215,7 +219,10 @@ QString hostname_;
         int k;
         // Eigenen Rechner nicht anzeigen
 	hostname_ = hostname();
-        adresse_eigen = IP(hostname_);
+        adresse_eigen = IP("localhost");
+        i = adresse_eigen.indexOf("name_query");
+        if (i > -1)
+           adresse_eigen = IP(hostname_);
         adresse_ = adresse_eigen.split(" ");
         adresse_eigen = adresse_[0];
         if (file1.open(QIODevice::ReadWrite | QIODevice::Text)) {
@@ -239,7 +246,7 @@ QString hostname_;
                 if (adresse2 != adresse_eigen) // Eigenen Rechner nicht anzeigen
                 	k = Array_pruefen(adresse2);
                 if (k == 2) {
-         	     listWidget_net->addItem (adresse);
+         	     listWidget_net->addItem(adresse);
                      widget_net[i]= adresse;
                      i++;
                 }
@@ -289,6 +296,7 @@ QString hostname_;
 int NetEin:: setting_save()
 {
    extern int dialog_auswertung;   
+   QString key;  
    QString befehl;
    QString text;
    QString filename;
@@ -300,6 +308,7 @@ int NetEin:: setting_save()
    setting.beginGroup(comNet_name);
    user = txt_user->text();
    key = txt_key->text();
+dummykey = key;
    //Neue oder geänderte Daten in setting eingeben
     if (state == Qt::Checked && comNet != "")   
        {
@@ -317,7 +326,7 @@ int NetEin:: setting_save()
        filename = "~/.config/qt4-fsarchiver/smbtree.txt";
        if (f.exists()){
      		befehl = "rm " + filename;
-		//system (befehl.toAscii().data());
+		system (befehl.toAscii().data());
        } 
    return 0;
 } 
@@ -326,19 +335,19 @@ int NetEin:: setting_save()
 QString NetEin::hostname()
 {
 QString befehl;
-QString homepath = QDir::homePath(); 
-// eigenen Hostname einlesen
-QFile file("/etc/hostname");
+QString text;
+QString homepath = QDir::homePath();
+	befehl = "hostname > " +  homepath + "/.config/qt4-fsarchiver/hostname.txt";
+	system (befehl.toAscii().data()); 
+        QFile file(homepath + "/.config/qt4-fsarchiver/hostname.txt");
     	QTextStream ds(&file);
-        QString text; 
-        if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
-     	     text = ds.readLine();
-             file.close();
-        }
-     text = text.toLower();
-     return text;
+        if (file.open(QIODevice::ReadWrite | QIODevice::Text)) 
+            text = ds.readLine();
+        befehl = "rm " + homepath + "/.config/qt4-fsarchiver/hostname.txt";
+        system (befehl.toAscii().data());
+        return text;
 }
-
+        
 QString NetEin:: IP(QString adresse)
 {
 QString befehl;
@@ -347,7 +356,7 @@ int pos1;
 QString homepath = QDir::homePath();
 QFile file(homepath + "/.config/qt4-fsarchiver/ip.txt");
 QTextStream ds(&file);
-QString text; 
+QString text;
 	befehl = "nmblookup -R " + adresse + " 1> " +  homepath + "/.config/qt4-fsarchiver/ip.txt";
 	system (befehl.toAscii().data()); 
         // IP-Adresse auslesen
@@ -380,7 +389,9 @@ void NetEin:: listWidget_show()
 extern int dialog_auswertung;
 int row = 1;
 QString key_;
+QString key;
 QStringList comNet_;
+    key = " ";
     row = listWidget_net->currentRow();
     comNet = widget_net[row];
     if (comNet.indexOf(" ") != -1){
@@ -394,10 +405,11 @@ QStringList comNet_;
    setting.beginGroup(comNet_name);
    user = setting.value("Name").toString();
    key_ = setting.value("key").toString();
- //key entschlüsseln 
-   key = decrypt(key_); 
    setting.endGroup();
-   //Netzwerk-Daten in Textfeld eintragen  
+   //Netzwerk-Daten in Textfeld eintragen
+   //key entschlüsseln 
+   key = decrypt(key_);
+   dummykey = key;
    txt_user ->setText(user);
    txt_key ->setText(key);
 }
@@ -409,7 +421,7 @@ QString NetEin::Namen_holen()
 
 QString NetEin::key_holen()
 {
-  return key;
+    return dummykey;
 }
 
 QString NetEin::user_holen()
@@ -425,6 +437,7 @@ int NetEin:: end()
 int NetEin:: go()
 { 
 extern int dialog_auswertung;
+QString key;
 Qt::CheckState state;
 state = chk_datesave->checkState();
 QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
@@ -663,6 +676,8 @@ int NetEin::questionMessage(QString frage)
 	else if (msg.clickedButton() == noButton)
     		return 2;
 }
+
+
 
 
 
