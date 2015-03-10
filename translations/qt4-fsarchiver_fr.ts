@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> 
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -7,189 +7,189 @@
  Locale: fr_FR, French
  Exported by: Michael R. Lawrence
  Exported at: Sat, 25 Oct 2014 17:56:54 +0100 
---> 
+-->
 <TS version="2.0" language="fr_FR"> 
     <context>
         <name>clone_dialog</name> 
         <message>
             <source>Directory in which the image is written</source> 
-            <translation>Directory in which the image is written</translation> 
-        </message> 
+            <translation>Répertoire dans lequel l'image sera écrit</translation>
+    </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;déjà sauvé : &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
-            <translation>already saved:</translation> 
-        </message> 
+            <translation>déjà enregistré :</translation>
+    </message> 
         <message>
             <source>Backup directory:</source> 
-            <translation>Backup directory:</translation> 
-        </message> 
+            <translation>Répertoire de sauvegarde :</translation>
+    </message> 
         <message>
             <source>Cancel</source> 
-            <translation>Cancel</translation> 
-        </message> 
+            <translation>Abandonner</translation>
+    </message> 
         <message>
             <source>Clone hard disk</source> 
-            <translation>Clone hard disk</translation> 
-        </message> 
+            <translation>Cloner le disque dur</translation>
+    </message> 
         <message>
             <source>Clone hard drive</source> 
-            <translation>Clone hard drive</translation> 
-        </message> 
+            <translation>Clone le disque dur</translation>
+    </message> 
         <message>
             <source>CommandLinkButton</source> 
-            <translation>CommandLinkButton</translation> 
+            <translation type="unfinished">CommandLinkButton</translation> 
         </message> 
         <message>
             <source>elapsed time:</source> 
-            <translation>elapsed time:</translation> 
-        </message> 
+            <translation>temps écoulé :</translation>
+    </message> 
         <message>
             <source>Exist harddrive:</source> 
-            <translation>Exist harddrive:</translation> 
-        </message> 
+            <translation type="unfinished">Disque dure existant :</translation>
+    </message> 
         <message>
             <source>Exit</source> 
-            <translation>Exit</translation> 
-        </message> 
+            <translation>Quitter</translation>
+    </message> 
         <message>
             <source>f</source> 
             <translation>f</translation> 
         </message> 
         <message>
             <source>hours:</source> 
-            <translation>hours:</translation> 
-        </message> 
+            <translation>heures :</translation>
+    </message> 
         <message>
             <source>hours</source> 
-            <translation>hours</translation> 
-        </message> 
+            <translation>heures</translation>
+    </message> 
         <message>
             <source>Image of a hard disk to create</source> 
-            <translation>Image of a hard disk to create</translation> 
-        </message> 
+            <translation>Image du  disque dur à créer</translation>
+    </message> 
         <message>
             <source>Image of a hard disk to create:</source> 
-            <translation>Image of a hard disk to create:</translation> 
-        </message> 
+            <translation>Image du  disque dur à créer :</translation>
+    </message> 
         <message>
             <source>Image of a hard disk write back</source> 
-            <translation>Image of a hard disk write back</translation> 
-        </message> 
+            <translation type="unfinished">Image du disque dure à restaurer</translation>
+    </message> 
         <message>
             <source>MB</source> 
             <translation>MB</translation> 
         </message> 
         <message>
             <source>MB/sec</source> 
-            <translation>MB/sec</translation> 
-        </message> 
+            <translation>Mo/sec</translation>
+    </message> 
         <message>
             <source>minutes:</source> 
-            <translation>minutes:</translation> 
-        </message> 
+            <translation>minutes :</translation>
+    </message> 
         <message>
             <source>minutes</source> 
             <translation>minutes</translation> 
         </message> 
         <message>
             <source>New harddrive:</source> 
-            <translation>New harddrive:</translation> 
-        </message> 
+            <translation>Nouveau disque dur :</translation>
+    </message> 
         <message>
             <source>Proposed action:</source> 
-            <translation>Proposed action:</translation> 
-        </message> 
+            <translation>Action proposée :</translation>
+    </message> 
         <message>
             <source>remaining time:</source> 
-            <translation>remaining time:</translation> 
-        </message> 
+            <translation>temps restant :</translation>
+    </message> 
         <message>
             <source>Save / Restore MBR</source> 
-            <translation>Save / Restore MBR</translation> 
-        </message> 
+            <translation>Sauvegarder / Restaurer la zone d'amorcage (MBR)</translation>
+    </message> 
         <message>
             <source>Save / restore MBR</source> 
-            <translation>Save / restore MBR</translation> 
-        </message> 
+            <translation>Sauvegarder / Restaurer la zone d'amorcage (MBR)</translation>
+    </message> 
         <message>
             <source>seconds:</source> 
-            <translation>seconds:</translation> 
-        </message> 
+            <translation>secondes :</translation>
+    </message> 
         <message>
             <source>seconds</source> 
-            <translation>seconds</translation> 
-        </message> 
+            <translation>secondes</translation>
+    </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vitesse de transmission : &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Transmission speed:</source> 
-            <translation>Transmission speed:</translation> 
-        </message> 
+            <translation>Vitesse de transmission :</translation>
+    </message> 
         <message>
             <source>Transmission speed</source> 
-            <translation>Transmission speed</translation> 
-        </message> 
+            <translation>Vitesse de transmission</translation>
+    </message> 
         <message>
             <source>Use gzip</source> 
-            <translation>Use gzip</translation> 
-        </message> 
+            <translation>Utilisez gzip</translation>
+    </message> 
     </context> 
     <context>
         <name>clone_dialog_net</name> 
         <message>
             <source>Image einer Festplatte zurückschreiben:</source> 
-            <translation>Image einer Festplatte zurückschreiben:</translation> 
-        </message> 
+            <translation>Restauration d'une image d'un disque dur :</translation>
+    </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;déjà enregistré : &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
-            <translation>already saved:</translation> 
-        </message> 
+            <translation>déjà enregistré :</translation>
+    </message> 
         <message>
             <source>Cancel</source> 
-            <translation>Cancel</translation> 
-        </message> 
+            <translation>Abandonner</translation>
+    </message> 
         <message>
             <source>Clone hard drive</source> 
-            <translation>Clone hard drive</translation> 
-        </message> 
+            <translation>Cloner le disque dur</translation>
+    </message> 
         <message>
             <source>elapsed time:</source> 
-            <translation>elapsed time:</translation> 
-        </message> 
+            <translation>temps écoulé :</translation>
+    </message> 
         <message>
             <source>Exist harddrive:</source> 
-            <translation>Exist harddrive:</translation> 
-        </message> 
+            <translation>Disques dure existants :</translation>
+    </message> 
         <message>
             <source>Exist Image:</source> 
-            <translation>Exist Image:</translation> 
-        </message> 
+            <translation>Images existantes :</translation>
+    </message> 
         <message>
             <source>f</source> 
             <translation>f</translation> 
         </message> 
         <message>
             <source>hours</source> 
-            <translation>hours</translation> 
-        </message> 
+            <translation>heures</translation>
+    </message> 
         <message>
             <source>Image einer Festplatte erstellen:</source> 
-            <translation>Image einer Festplatte erstellen:</translation> 
-        </message> 
+            <translation>Créer l'image d'un disque dure :</translation>
+    </message> 
         <message>
             <source>Image name:</source> 
-            <translation>Image name:</translation> 
-        </message> 
+            <translation>Nom de l'image :</translation>
+    </message> 
         <message>
             <source>l</source> 
             <translation>l</translation> 
@@ -204,83 +204,82 @@
         </message> 
         <message>
             <source>Network computer  name:</source> 
-            <translation>Network computer  name:</translation> 
-        </message> 
+            <translation>Nom sur le réseau de l'ordinateur :</translation>
+    </message> 
         <message>
             <source>remaining time:</source> 
-            <translation>remaining time:</translation> 
-        </message> 
+            <translation>temps restant :</translation>
+    </message> 
         <message>
             <source>Save / restore MBR</source> 
-            <translation>Save / restore MBR</translation> 
-        </message> 
+            <translation>Sauvegarder / Restaurer la zone d'amorcage (MBR)</translation>
+    </message> 
         <message>
             <source>seconds</source> 
-            <translation>seconds</translation> 
-        </message> 
+            <translation>secondes</translation>
+    </message> 
     </context> 
     <context>
         <name>Dialog_Net</name> 
         <message>
             <source>Directory in which the partition is backed up or from the recovery file is removed.</source> 
-            <translation>Directory in which the partition is backed up or from the recovery file is removed.</translation> 
-        </message> 
+            <translation>Répertoire dans lequel la partition sera sauvegardée ou encore un fichier de sauvegarde supprimer.</translation>
+    </message> 
         <message>
             <source>Notes to the backup is written to a file.</source> 
-            <translation>Notes to the backup is written to a file.</translation> 
-        </message> 
+            <translation>Les notes de la sauvegarde sont écrite dans un fichier.</translation>
+    </message> 
         <message>
             <source>Number of processors
 cores to be used for fsarchiver:</source> 
-            <translation>Number of processors
-cores to be used for fsarchiver:</translation> 
-        </message> 
+            <translation>Nombre de cœurs du processeur↵
+à utiliser par fsarchiver :</translation>
+    </message> 
         <message>
             <source>PBR is first block of any bootable partition.</source> 
-            <translation>PBR is first block of any bootable partition.</translation> 
-        </message> 
+            <translation>Le PBR est le premier bloc de n'importe quelle partition "bootable".</translation>
+    </message> 
         <message>
             <source>Same backup files are overwritten without prior consultation.</source> 
-            <translation>Same backup files are overwritten without prior consultation.</translation> 
-        </message> 
+            <translation>Les fichiers de sauvegarde déjà existants sont écrasés sans consultation préalable.</translation>
+    </message> 
         <message>
             <source>Select the partition to be backed up or restored.</source> 
-            <translation>Select the partition to be backed up or restored.</translation> 
-        </message> 
+            <translation>Sélectionnez la partition qui doit être sauvegardée ou restaurée.</translation>
+    </message> 
         <message>
             <source>Already saved
 files/directories:</source> 
-            <translation>Already saved
-files/directories:</translation> 
-        </message> 
+            <translation>Fichiers ou répertoires↵
+déjà existant :</translation>
+    </message> 
         <message>
             <source>already saved 
 files/directories:</source> 
-            <translation>already saved 
-files/directories:</translation> 
-        </message> 
+            <translation>Fichiers ou répertoires↵
+déjà existant :</translation>
+    </message> 
         <message>
             <source>available backup overwrite</source> 
-            <translation>available backup overwrite</translation> 
-        </message> 
+            <translation>Remplacement de la sauvegarde disponibles</translation>
+    </message> 
         <message>
             <source>Backup directory:</source> 
-            <translation>Backup directory:</translation> 
-        </message> 
+            <translation>Répertoire de sauvegarde :</translation>
+    </message> 
         <message>
             <source>Backup/restore partition over network</source> 
-            <translation>Backup/restore partition over network</translation> 
-        </message> 
+            <translation>Sauvegarde ou restauration d'une partition par le réseau</translation>
+    </message> 
         <message>
             <source>Compression
 setting:</source> 
-            <translation>Compression
-setting:</translation> 
-        </message> 
+            <translation>Réglage de la compression :</translation>
+    </message> 
         <message>
             <source>elapsed time:</source> 
-            <translation>elapsed time:</translation> 
-        </message> 
+            <translation>temps écoulé :</translation>
+    </message> 
         <message>
             <source>elapsed time:</source> 
             <translation>temps écoulé:</translation> 
@@ -288,13 +287,12 @@ setting:</translation>
         <message>
             <source>Encrypt 
 backup key</source> 
-            <translation>Encrypt 
-backup key</translation> 
-        </message> 
+            <translation>La clef de chiffrement des sauvegardes</translation>
+    </message> 
         <message>
             <source>Existing partitions:</source> 
-            <translation>Existing partitions:</translation> 
-        </message> 
+            <translation>Partitions existantes :</translation>
+    </message> 
         <message>
             <source>Exit</source> 
             <translation>Quitter</translation> 
@@ -309,20 +307,20 @@ backup key</translation>
         </message> 
         <message>
             <source>Name the backup file:</source> 
-            <translation>Name the backup file:</translation> 
-        </message> 
+            <translation>Nom du fichier de sauvegarde :</translation>
+    </message> 
         <message>
             <source>Network computer  name:</source> 
-            <translation>Network computer  name:</translation> 
-        </message> 
+            <translation>Le nom réseau de la machine :</translation>
+    </message> 
         <message>
             <source>Network computer  name:</source> 
             <translation>Network computer  name:</translation> 
         </message> 
         <message>
             <source>Notes to  the backup</source> 
-            <translation>Notes to  the backup</translation> 
-        </message> 
+            <translation>Notes de la sauvegarde</translation>
+    </message> 
         <message>
             <source>Notes to  the backup</source> 
             <translation>Notes to  the backup</translation> 
@@ -330,39 +328,38 @@ backup key</translation>
         <message>
             <source>Number of backup
 files/directories:</source> 
-            <translation>Number of backup
+            <translation type="unfinished">Number of backup
 files/directories:</translation> 
         </message> 
         <message>
             <source>On the number saved
 Files/directories:</source> 
-            <translation>On the number saved
-Files/directories:</translation> 
-        </message> 
+            <translation>Sur le nombre de fichiers ou de répertoires enregistrés :</translation>
+    </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;temps écoulé : &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;temps prévue : &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Partition restore</source> 
             <translation>Restaurer la partition</translation> 
@@ -370,148 +367,148 @@ p, li { white-space: pre-wrap; }
         <message>
             <source>Partition save 
 with fsarchiver</source> 
-            <translation>Partition save 
-with fsarchiver</translation> 
-        </message> 
+            <translation>Partition enregistrer ↵
+avec fsarchiver</translation>
+    </message> 
         <message>
             <source>Please select the folder.</source> 
-            <translation>Please select the folder.</translation> 
-        </message> 
+            <translation>Veuillez sélectionner le dossier.</translation>
+    </message> 
         <message>
             <source>Please select a shared folder.</source> 
-            <translation>Please select a shared folder.</translation> 
-        </message> 
+            <translation>Veuillez sélectionner un dossier partagé.</translation>
+    </message> 
         <message>
             <source>Please select the folder.</source> 
             <translation>Please select the folder.</translation> 
         </message> 
         <message>
             <source>Proposed action:</source> 
-            <translation>Proposed action:</translation> 
-        </message> 
+            <translation>Action proposée :</translation>
+    </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol de transmission réseau : &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Protocoll for network
 transmission:</source> 
-            <translation>Protocoll for network
-transmission:</translation> 
-        </message> 
+            <translation>Protocole de transmission↵
+réseau :</translation>
+    </message> 
         <message>
             <source>remaining time</source> 
-            <translation>remaining time</translation> 
-        </message> 
+            <translation>temps restant</translation>
+    </message> 
         <message>
             <source>remaining time</source> 
             <translation>remaining time</translation> 
         </message> 
         <message>
             <source>Restore file name:</source> 
-            <translation>Restore file name:</translation> 
-        </message> 
+            <translation>Nom du fichier à restaurer  :</translation>
+    </message> 
         <message>
             <source>Restore partition 
 with fsarchiver</source> 
-            <translation>Restore partition 
-with fsarchiver</translation> 
-        </message> 
+            <translation>Restaurer la partition↵
+avec fsarchiver</translation>
+    </message> 
         <message>
             <source>S</source> 
             <translation>S</translation> 
         </message> 
         <message>
             <source>save partition</source> 
-            <translation>save partition</translation> 
-        </message> 
+            <translation>sauvegarder la partition</translation>
+    </message> 
         <message>
             <source>Save PBR</source> 
-            <translation>Save PBR</translation> 
-        </message> 
+            <translation>Enregistrer le PBR</translation>
+    </message> 
         <message>
             <source>seconds</source> 
-            <translation>seconds</translation> 
-        </message> 
+            <translation>secondes</translation>
+    </message> 
         <message>
             <source>Shared folders:</source> 
-            <translation>Les dossiers partagés:</translation> 
-        </message> 
+            <translation>Dossiers partagés :</translation>
+    </message> 
         <message>
             <source>Start restore a partition.</source> 
-            <translation>Start restore a partition.</translation> 
-        </message> 
+            <translation>Démarrer la restauration de la partition.</translation>
+    </message> 
         <message>
             <source>Start the backup of a partition.</source> 
-            <translation>Start the backup of a partition.</translation> 
-        </message> 
+            <translation>Démarrer la sauvegarde de la partition.</translation>
+    </message> 
         <message>
             <source>Stock Split on DVD size</source> 
-            <translation>Stock Split on DVD size</translation> 
-        </message> 
+            <translation>Fractionnement l'archive en plusieurs fichiers de la taille d'un DVD</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.</name> 
         <message>
             <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source> 
-            <translation>On the hard drive exist a root or a home partition. You must need a live-CD.</translation> 
-        </message> 
+            <translation>La partition / ou  /home est monté à partir de ce disque dure. Vous  devez utilisez un "live-CD".</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|bereits gesichert</name> 
         <message>
             <source>already saved</source> 
-            <translation>already saved</translation> 
-        </message> 
+            <translation>déjà enregistré</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|bereits zurückgeschrieben</name> 
         <message>
             <source>already restored</source> 
-            <translation>already restored</translation> 
-        </message> 
+            <translation>déjà restauré</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Das Klonen der Festplatte war erfolgreich.</name> 
         <message>
             <source>The clone of the hard drive was successfully.</source> 
-            <translation>The clone of the hard drive was successfully.</translation> 
-        </message> 
+            <translation>Le clone du disque dur a été réalisé avec succès.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Das Klonen der Festplatte war nicht erfolgreich.</name> 
         <message>
             <source>The clone of the hard drive was not successfully.</source> 
-            <translation>The clone of the hard drive was not successfully.</translation> 
-        </message> 
+            <translation>Le clone du disque dur a échoué.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Die gewählte Festplatte ist zu klein.</name> 
         <message>
             <source>The selected hard drive is too small.</source> 
-            <translation>The selected hard drive is too small.</translation> 
-        </message> 
+            <translation>Le disque dur sélectionné est trop petit.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Die Sichern des Abbildes war erfolgreich.</name> 
         <message>
             <source>The backup of the image was successfully.</source> 
-            <translation>The backup of the image was successfully.</translation> 
-        </message> 
+            <translation>La sauvegarde de l'image disque à été réalisé avec succès.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Die Sichern des Abbildes war nicht erfolgreich.</name> 
         <message>
             <source>The backup of the image was not successfully.</source> 
-            <translation>The backup of the image was not successfully.</translation> 
-        </message> 
+            <translation>La sauvegarde de l'image disque à échoué.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Die Wiederherstellung des Abbildes war nicht erfolgreich.</name> 
         <message>
             <source>The restore from the image was not successfully.</source> 
-            <translation>The restore from the image was not successfully.</translation> 
-        </message> 
+            <translation>La restauration de l'image disque à échouée.</translation>
+    </message> 
         <message>
             <source>The restore from the image was not successfully.</source> 
             <translation>The restore from the image was not successfully.</translation> 
@@ -521,60 +518,60 @@ with fsarchiver</translation>
         <name>DialogClone</name> 
         <message>
             <source>Do you want really break clone, save or restore an image from the partition?</source> 
-            <translation>Do you want really break clone, save or restore an image from the partition?</translation> 
-        </message> 
+            <translation type="unfinished">Voulez-vous vraiment casser le clone, Sauvegarder ou Restaurer une image disque de la partition ?</translation>
+    </message> 
         <message>
             <source>Do you want really built a image from the hard drive?</source> 
-            <translation>Do you want really built a image from the hard drive?</translation> 
-        </message> 
+            <translation>Voulez-vous vraiment faire une image disque de ce disque dur ?</translation>
+    </message> 
         <message>
             <source>Do you want really clone the hard drive? All dates on</source> 
-            <translation>Do you want really clone the hard drive? All dates on</translation> 
-        </message> 
+            <translation type="unfinished">Voulez-vous vraiment cloner ce disque dur ? Toutes les dates sur</translation>
+    </message> 
         <message>
             <source>Do you want really restore the image of the hard drive?</source> 
-            <translation>Do you want really restore the image of the hard drive?</translation> 
-        </message> 
+            <translation>Voulez-vous vraiment restaurer l'image disque de ce disque dur ?</translation>
+    </message> 
         <message>
             <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source> 
-            <translation>On the hard drive exist a root or a home partition. You must need a live-CD.</translation> 
-        </message> 
+            <translation>La partition / ou /home est monté à partir de ce disque dure. Vous devez utilisez un "live-CD".</translation>
+    </message> 
         <message>
             <source>The backup of the image was not successfully.</source> 
-            <translation>The backup of the image was not successfully.</translation> 
-        </message> 
+            <translation>La sauvegarde de l'image disque à échoué.</translation>
+    </message> 
         <message>
             <source>The backup of the image was successfully.</source> 
-            <translation>The backup of the image was successfully.</translation> 
-        </message> 
+            <translation>La sauvegarde de l'image disque à été réalisé avec succès.</translation>
+    </message> 
         <message>
             <source>The clone of the hard drive was not successfully.</source> 
-            <translation>The clone of the hard drive was not successfully.</translation> 
-        </message> 
+            <translation>Le clone du disque dur a échoué.</translation>
+    </message> 
         <message>
             <source>The clone of the hard drive was successfully.</source> 
-            <translation>The clone of the hard drive was successfully.</translation> 
-        </message> 
+            <translation>Le clone du disque dur a été réalisé avec succès.</translation>
+    </message> 
         <message>
             <source>The restore from the image was not successfully.</source> 
-            <translation>The restore from the image was not successfully.</translation> 
-        </message> 
+            <translation>La restauration de l'image disque à échouée.</translation>
+    </message> 
         <message>
             <source>The restore from the image was successfully.</source> 
-            <translation>The restore from the image was successfully.</translation> 
-        </message> 
+            <translation>La restauration de l'image disque a été réalisée avec succès.</translation>
+    </message> 
         <message>
             <source>You have selected a folder. You must select a fsa.gz file.</source> 
-            <translation>You have selected a folder. You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un dossier, Veuillez sélectionner un fichier fsa.gz.</translation>
+    </message> 
         <message>
             <source>You have selected a folder. You must select a gz.fsa file.</source> 
-            <translation>You have selected a folder. You must select a gz.fsa file.</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un dossier. Veuillez sélectionner un fichier gz.fsa.</translation>
+    </message> 
         <message>
             <source>You must select a gz.fsa file or an img.fsa file.</source> 
-            <translation>You must select a gz.fsa file or an img.fsa file.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un fichier gz.fsa ou img.fsa.</translation>
+    </message> 
         <message>
             <source>already restored</source> 
             <translation>déjà restauré</translation> 
@@ -593,12 +590,12 @@ with fsarchiver</translation>
         </message> 
         <message>
             <source>are deleted!</source> 
-            <translation>are deleted!</translation> 
-        </message> 
+            <translation>sont supprimés !</translation>
+    </message> 
         <message>
             <source>Clone Harddrive</source> 
-            <translation>Clone Harddrive</translation> 
-        </message> 
+            <translation>Clone disque dur</translation>
+    </message> 
         <message>
             <source>No</source> 
             <translation>No</translation> 
@@ -609,53 +606,53 @@ with fsarchiver</translation>
         </message> 
         <message>
             <source>Restore Harddrive Image</source> 
-            <translation>Restore Harddrive Image</translation> 
-        </message> 
+            <translation>Restaurer une image de disque dur</translation>
+    </message> 
         <message>
             <source>Save Harddrive Image</source> 
-            <translation>Save Harddrive Image</translation> 
-        </message> 
+            <translation>Enregistrer Image de disque dur</translation>
+    </message> 
         <message>
             <source>The selected hard drive is too small.</source> 
-            <translation>The selected hard drive is too small.</translation> 
-        </message> 
+            <translation>Le disque dur sélectionné est trop petit.</translation>
+    </message> 
         <message>
             <source>Yes</source> 
-            <translation>Yes</translation> 
-        </message> 
+            <translation>Oui</translation>
+    </message> 
         <message>
             <source>You must select a folder.</source> 
-            <translation>You must select a folder.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un dossier.</translation>
+    </message> 
         <message>
             <source>You must select a fsa.gz file.</source> 
-            <translation>You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un fichier fsa.gz.</translation>
+    </message> 
         <message>
             <source>You must select a hard drive.</source> 
-            <translation>You must select a hard drive.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un disque dur.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Festplatte klonen</name> 
         <message>
             <source>Clone Harddrive</source> 
-            <translation>Clone Harddrive</translation> 
-        </message> 
+            <translation type="unfinished">Cloner un disque dur</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Festplatten Abbild erstellen</name> 
         <message>
             <source>Save Harddrive Image</source> 
-            <translation>Save Harddrive Image</translation> 
-        </message> 
+            <translation>Enregistrer image de disque dur</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Festplatten Abbild zurückschreiben</name> 
         <message>
             <source>Restore Harddrive Image</source> 
-            <translation>Restore Harddrive Image</translation> 
-        </message> 
+            <translation>Restaurer une image de disque dur</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Hinweis</name> 
@@ -668,8 +665,8 @@ with fsarchiver</translation>
         <name>DialogClone|Ja</name> 
         <message>
             <source>Yes</source> 
-            <translation>Yes</translation> 
-        </message> 
+            <translation>Oui</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Nein</name> 
@@ -682,68 +679,68 @@ with fsarchiver</translation>
         <name>DialogClone_net|Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.</name> 
         <message>
             <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source> 
-            <translation>On the hard drive exist a root or a home partition. You must need a live-CD.</translation> 
-        </message> 
+            <translation>La partition / ou /home est monté à partir de ce disque dure. Vous devez utilisez un "live-CD".</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Bitte wählen Sie den Dateinamen der Sicherung aus.</name> 
         <message>
             <source>Please, select the filename of the backup.
 </source> 
-            <translation>Please, select the filename of the backup.
-</translation> 
-        </message> 
+            <translation>Veuillez sélectionner le nom du fichier de la sauvegarde. ↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net</name> 
         <message>
             <source>Can not find a shared directory. The program is terminated.</source> 
-            <translation>Can not find a shared directory. The program is terminated.</translation> 
-        </message> 
+            <translation>Impossible de trouver de dossier partagé. Le programme va se terminer.</translation>
+    </message> 
         <message>
             <source>could not be integrated. The program is aborted</source> 
-            <translation>could not be integrated. The program is aborted</translation> 
-        </message> 
+            <translation>ne peux pas êtres intégré. . Le programme est interrompu</translation>
+    </message> 
         <message>
             <source>Do you want really break save or restore an image from the partition?</source> 
-            <translation>Do you want really break save or restore an image from the partition?</translation> 
-        </message> 
+            <translation>Voulez-vous vraiment enregistrer ou restaurer une image de cette partition ?</translation>
+    </message> 
         <message>
             <source>Do you want really built a image from the hard drive?</source> 
-            <translation>Do you want really built a image from the hard drive?</translation> 
-        </message> 
+            <translation>Voulez-vous vraiment faire une image disque de ce disque dur ?</translation>
+    </message> 
         <message>
             <source>Do you want really restore the image of the hard drive?</source> 
-            <translation>Do you want really restore the image of the hard drive?</translation> 
-        </message> 
+            <translation>Voulez-vous vraiment restaurer l'image disque de ce disque dur ?</translation>
+    </message> 
         <message>
             <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source> 
-            <translation>On the hard drive exist a root or a home partition. You must need a live-CD.</translation> 
-        </message> 
+            <translation>La partition / ou /home est montée à partir de ce disque dure. Vous devez utilisez un "live-CD".</translation>
+    </message> 
         <message>
             <source>Please, select the filename of the backup.</source> 
-            <translation>Please, select the filename of the backup.</translation> 
-        </message> 
+            <translation>Veuillez sélectionner le nom du fichier de la sauvegarde.</translation>
+    </message> 
         <message>
             <source>The backup of the image was not successfully.</source> 
-            <translation>The backup of the image was not successfully.</translation> 
-        </message> 
+            <translation>La sauvegarde de l'image disque à échoué.</translation>
+    </message> 
         <message>
             <source>The backup of the image was successfully.</source> 
-            <translation>The backup of the image was successfully.</translation> 
-        </message> 
+            <translation>La sauvegarde de l'image disque à été réalisée avec succès.</translation>
+    </message> 
         <message>
             <source>The restore from the image was not successfully.</source> 
-            <translation>The restore from the image was not successfully.</translation> 
-        </message> 
+            <translation>La restauration de l'image disque à échouée.</translation>
+    </message> 
         <message>
             <source>The restore from the image was successfully.</source> 
-            <translation>The restore from the image was successfully.</translation> 
-        </message> 
+            <translation>La restauration de l'image disque a été réalisée avec succès.</translation>
+    </message> 
         <message>
             <source>You have selected a folder. You must select a fsa.gz file.</source> 
-            <translation>You have selected a folder. You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un dossier, Veuillez sélectionner un fichier fsa.gz.</translation>
+    </message> 
         <message>
             <source>No</source> 
             <translation>No</translation> 
@@ -754,39 +751,39 @@ with fsarchiver</translation>
         </message> 
         <message>
             <source>Restore Harddrive Image</source> 
-            <translation>Restore Harddrive Image</translation> 
-        </message> 
+            <translation>Restaurer une image de disque dur</translation>
+    </message> 
         <message>
             <source>Save Harddrive Image</source> 
-            <translation>Save Harddrive Image</translation> 
-        </message> 
+            <translation>Enregistrer Image de disque dur</translation>
+    </message> 
         <message>
             <source>The network computer</source> 
-            <translation>The network computer</translation> 
-        </message> 
+            <translation>L'ordinateur réseau</translation>
+    </message> 
         <message>
             <source>Yes</source> 
-            <translation>Yes</translation> 
-        </message> 
+            <translation>Oui</translation>
+    </message> 
         <message>
             <source>You must select a folder.</source> 
-            <translation>You must select a folder.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un dossier.</translation>
+    </message> 
         <message>
             <source>You must select a fsa.gz file.</source> 
-            <translation>You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un fichier fsa.gz.</translation>
+    </message> 
         <message>
             <source>You must select a hard drive.</source> 
-            <translation>You must select a hard drive.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un disque dur.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Die Wiederherstellung des Abbildes war nicht erfolgreich.</name> 
         <message>
             <source>The restore from the image was not successfully.</source> 
-            <translation>The restore from the image was not successfully.</translation> 
-        </message> 
+            <translation>La restauration de l'image disque à échouée.</translation>
+    </message> 
         <message>
             <source>The restore from the image was not successfully.</source> 
             <translation>The restore from the image was not successfully.</translation> 
@@ -796,45 +793,45 @@ with fsarchiver</translation>
         <name>DialogClone_net|Der Netzwerkrechner</name> 
         <message>
             <source>The network computer </source> 
-            <translation>The network computer </translation> 
-        </message> 
+            <translation>L'ordinateur réseau </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Die Sichern des Abbildes war erfolgreich.</name> 
         <message>
             <source>The backup of the image was successfully.</source> 
-            <translation>The backup of the image was successfully.</translation> 
-        </message> 
+            <translation>La sauvegarde de l'image disque à été réalisée avec succès.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Die Sichern des Abbildes war nicht erfolgreich.</name> 
         <message>
             <source>The backup of the image was not successfully.</source> 
-            <translation>The backup of the image was not successfully.</translation> 
-        </message> 
+            <translation>La sauvegarde de l'image disque a échouée.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.</name> 
         <message>
             <source>Can not find a shared directory. The program is terminated.
 </source> 
-            <translation>Can not find a shared directory. The program is terminated.
-</translation> 
-        </message> 
+            <translation>Impossible de trouver de dossier partagé. Le programme va se terminer.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Festplatten Abbild erstellen</name> 
         <message>
             <source>Save Harddrive Image</source> 
-            <translation>Save Harddrive Image</translation> 
-        </message> 
+            <translation>Enregistrer une image de disque dur</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Festplatten Abbild zurückschreiben</name> 
         <message>
             <source>Restore Harddrive Image</source> 
-            <translation>Restore Harddrive Image</translation> 
-        </message> 
+            <translation>Restaurer une image de disque dur</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Hinweis</name> 
@@ -847,17 +844,17 @@ with fsarchiver</translation>
         <name>DialogClone_net|Ja</name> 
         <message>
             <source>Yes</source> 
-            <translation>Yes</translation> 
-        </message> 
+            <translation>Oui</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net| konnte nicht eingebunden werden. Das Programm wird abgebrochen</name> 
         <message>
             <source> could not be integrated. The program is aborted
 </source> 
-            <translation> could not be integrated. The program is aborted
-</translation> 
-        </message> 
+            <translation> ne peux pas êtres intégré. Le programme est interrompu↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Nein</name> 
@@ -871,137 +868,137 @@ with fsarchiver</translation>
         <message>
             <source>You have selected a folder. You must select a fsa.gz file.
 </source> 
-            <translation>You have selected a folder. You must select a fsa.gz file.
-</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un dossier, Veuillez sélectionner un fichier fsa.gz.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Sie müssen ein Verzeichnis auswählen.</name> 
         <message>
             <source>You must select a folder.</source> 
-            <translation>You must select a folder.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un dossier.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Sie müssen eine Festplatte auswählen.</name> 
         <message>
             <source>You must select a hard drive.</source> 
-            <translation>You must select a hard drive.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un disque dur.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Sie müssen eine fsa.gz Datei auswählen.</name> 
         <message>
             <source>You must select a fsa.gz file.</source> 
-            <translation>You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un fichier fsa.gz.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
         <message>
             <source>Do you want really restore the image of the hard drive? </source> 
-            <translation>Do you want really restore the image of the hard drive? </translation> 
-        </message> 
+            <translation>Voulez-vous vraiment restaurer l'image disque de ce disque dur ? </translation>
+    </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation> Do you want really restore the image of the hard drive? </translation> 
-        </message> 
+            <translation> Voulez-vous vraiment restaurer l'image disque de ce disque dur ? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</name> 
         <message>
             <source>Do you want really break save or restore an image from the partition?</source> 
-            <translation>Do you want really break save or restore an image from the partition?</translation> 
-        </message> 
+            <translation>Voulez-vous vraiment enregistrer ou restaurer une image disque de cette partition ?</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen</name> 
         <message>
             <source>You have selected a folder. You must select a gz.fsa file.
 </source> 
-            <translation>You have selected a folder. You must select a gz.fsa file.
-</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un dossier. Vous devez sélectionner un fichier gz.fsa.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Sie müssen ein Verzeichnis auswählen.</name> 
         <message>
             <source>You must select a folder.</source> 
-            <translation>You must select a folder.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un dossier.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Sie müssen eine Festplatte auswählen.</name> 
         <message>
             <source>You must select a hard drive.</source> 
-            <translation>You must select a hard drive.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un disque dur.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.</name> 
         <message>
             <source>You must select a gz.fsa file or an img.fsa file.</source> 
-            <translation>You must select a gz.fsa file or an img.fsa file.</translation> 
-        </message> 
+            <translation>Vous devez sélectionner un fichier gz.fsa ou img.fsa.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone| werden gelöscht!</name> 
         <message>
             <source> are deleted!</source> 
-            <translation> are deleted!</translation> 
-        </message> 
+            <translation> sont supprimés !</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
         <message>
             <source>Do you want really restore the image of the hard drive?</source> 
-            <translation>Do you want really restore the image of the hard drive?</translation> 
-        </message> 
+            <translation>Voulez-vous vraiment restaurer l'image disque de ce disque dur ?</translation>
+    </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation> Do you want really restore the image of the hard drive? </translation> 
-        </message> 
+            <translation> Voulez-vous vraiment restaurer l'image disque de ce disque dur ? </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</name> 
         <message>
             <source>Do you want really break clone, save or restore an image from the partition?</source> 
-            <translation>Do you want really break clone, save or restore an image from the partition?</translation> 
-        </message> 
+            <translation type="unfinished">Voulez-vous vraiment casser clone, sauvegarder ou restaurer une image de la partition ?</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte</name> 
         <message>
             <source> Do you want really clone the hard drive? All dates on  </source> 
-            <translation> Do you want really clone the hard drive? All dates on  </translation> 
-        </message> 
+            <translation> Voulez-vous vraiment cloner le disque dur ? Toutes les dates sur  </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR</name> 
         <message>
             <source>already exists. The backup is not performed</source> 
-            <translation>already exists. The backup is not performed</translation> 
-        </message> 
+            <translation>existes déjà. La sauvegarde n'est pas effectuée</translation>
+    </message> 
         <message>
             <source>Do you want really break the save or restore from the folder?</source> 
-            <translation>Do you want really break the save or restore from the folder?</translation> 
-        </message> 
+            <translation type="unfinished">Voulez-vous vraiment briser le sauver ou restaurer à partir du dossier ?</translation>
+    </message> 
         <message>
             <source>Error in fsarchiver. The directory can not be restored!</source> 
-            <translation>Error in fsarchiver. The directory can not be restored!</translation> 
-        </message> 
+            <translation>Erreur dans fsarchiver. Le dossier ne peut pas être restauré !</translation>
+    </message> 
         <message>
             <source>Error!  The restoring of the folder was only partially successful!</source> 
-            <translation>Error!  The restoring of the folder was only partially successful!</translation> 
-        </message> 
+            <translation>Erreur : La restauration du dossier n'a été que partiellement réussie !</translation>
+    </message> 
         <message>
             <source>Links were not backed properly. The backup of the directories was only partially successful</source> 
-            <translation>Links were not backed properly. The backup of the directories was only partially successful</translation> 
-        </message> 
+            <translation>Les liens ont partiellement été sauvegardés. Les dossiers ont partiellement été sauvegardés</translation>
+    </message> 
         <message>
             <source>links were not correctly restored. The restoring of the lists was only partially successful</source> 
-            <translation>links were not correctly restored. The restoring of the lists was only partially successful</translation> 
-        </message> 
+            <translation type="unfinished">Les liens n'ont pas été restaurées correctement. La remise des listes a été partiellement réussie</translation>
+    </message> 
         <message>
             <source>Please select the directory in which the to the directory or file to be saved is to be written.</source> 
             <translation>Please select the directory in which the to the directory or file to be saved is to be written.</translation> 
@@ -3258,28 +3255,28 @@ backup key</translation>
             <translation>Note</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
-            <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
         </message> 
         <message>
             <source>Partition restore</source> 
