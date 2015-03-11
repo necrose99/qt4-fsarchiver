@@ -1001,113 +1001,114 @@ avec fsarchiver</translation>
     </message> 
         <message>
             <source>Please select the directory in which the to the directory or file to be saved is to be written.</source> 
-            <translation>Please select the directory in which the to the directory or file to be saved is to be written.</translation> 
-        </message> 
+            <translation>Veuillez sélectionner le répertoire ou stocker les données à sauvegardées.</translation>
+    </message> 
         <message>
             <source>Please select the to be directory or file to be saved.</source> 
-            <translation>Please select the to be directory or file to be saved.</translation> 
-        </message> 
+            <translation>Veuillez sélectionner le répertoire ou le fichier à enregistrer.</translation>
+    </message> 
         <message>
             <source>Select the directory in which the saved image will be recovered.</source> 
-            <translation>Select the directory in which the saved image will be recovered.</translation> 
-        </message> 
+            <translation>Sélectionnez le répertoire dans lequel l'image enregistrée sera récupéré.</translation>
+    </message> 
         <message>
             <source>The backup of the directory was successful.</source> 
-            <translation>The backup of the directory was successful.</translation> 
-        </message> 
+            <translation>La sauvegarde du répertoire a réussie.</translation>
+    </message> 
         <message>
             <source>The backup of the folder was aborted by the user!</source> 
-            <translation>The backup of the folder was aborted by the user!</translation> 
-        </message> 
+            <translation>La sauvegarde du dossier a été abandonnée par l'utilisateur !</translation>
+    </message> 
         <message>
             <source>The key length must be between 6 and 64 characters</source> 
-            <translation>The key length must be between 6 and 64 characters</translation> 
-        </message> 
+            <translation>La longueur de la clé doit être de 6 à 64 caractères</translation>
+    </message> 
         <message>
             <source>The partition is encrypted. Please enter the Schlüsel</source> 
-            <translation>The partition is encrypted. Please enter the Schlüsel</translation> 
-        </message> 
+            <translation>La partition est cryptée. Veuillez entrer la clé de chiffrement</translation>
+    </message> 
         <message>
             <source>The partition is encrypted. Please enter the key</source> 
-            <translation>The partition is encrypted. Please enter the key</translation> 
-        </message> 
+            <translation>La partition est cryptée. Veuillez entrer la clé de chiffrement</translation>
+    </message> 
         <message>
             <source>The restore of the folder was break by user!</source> 
-            <translation>The restore of the folder was break by user!</translation> 
-        </message> 
+            <translation>La restauration du dossier a été abandonnée par utilisateur !</translation>
+    </message> 
         <message>
             <source>The restoring of the directory was successful.</source> 
-            <translation>The restoring of the directory was successful.</translation> 
-        </message> 
+            <translation>La restauration du répertoire a réussie.</translation>
+    </message> 
         <message>
             <source>There was no key for encryption specified.</source> 
-            <translation>There was no key for encryption specified.</translation> 
-        </message> 
+            <translation>Il n'y n'avait aucune clé de chiffrement spécifié.</translation>
+    </message> 
         <message>
             <source>You have chosen the wrong recovery file selected.
  The files should end with. fsa be</source> 
-            <translation>You have chosen the wrong recovery file selected.
- The files should end with. fsa be</translation> 
-        </message> 
+            <translation>Vous avez choisi un mauvais fichier de sauvegarde.↵
+ Les fichier de sauvegarde utilisent l'extension .fsa</translation>
+    </message> 
         <message>
             <source>You have selected a directory. You need a backup file with the extension .fsa select</source> 
-            <translation>You have selected a directory. You need a backup file with the extension .fsa select</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un répertoire. Vous avez besoin d'un fichier de sauvegarde avec l'extension .fsa</translation>
+    </message> 
         <message>
             <source>You have selected a file. You must select a directory</source> 
-            <translation>You have selected a file. You must select a directory</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un fichier. Vous devez sélectionner un répertoire</translation>
+    </message> 
         <message>
             <source>You have tried to restore a directory. The selected file can only restore partitions.</source> 
-            <translation>You have tried to restore a directory. The selected file can only restore partitions.</translation> 
-        </message> 
+            <translation>Vous avez essayé de restaurer un dossier. Le fichier sélectionné permet uniquement restaurer des partitions.</translation>
+    </message> 
         <message>
             <source>back to write backup file</source> 
-            <translation>back to write backup file</translation> 
-        </message> 
+            <translation type="unfinished">Retour à écrire le fichier de sauvegarde</translation>
+    </message> 
         <message>
             <source>bzip2 fast</source> 
-            <translation>bzip2 fast</translation> 
-        </message> 
+            <translation>bzip2 rapide</translation>
+    </message> 
         <message>
             <source>bzip2 good</source> 
-            <translation>bzip2 good</translation> 
-        </message> 
+            <translation>bzip2 bon</translation>
+    </message> 
         <message>
             <source>Decrypt
 backup. key:</source> 
-            <translation>Décrypter sauvegarde. clé:</translation> 
-        </message> 
+            <translation>Dé-Chiffrement des données↵
+Veuillez saisir la clef :</translation>
+    </message> 
         <message>
             <source>directories,</source> 
-            <translation>directories,</translation> 
-        </message> 
+            <translation>dossiers,</translation>
+    </message> 
         <message>
             <source>directories,</source> 
             <translation>directories,</translation> 
         </message> 
         <message>
             <source>directories, and</source> 
-            <translation>directories, and</translation> 
-        </message> 
+            <translation>dossiers, et</translation>
+    </message> 
         <message>
             <source>Directory restore</source> 
-            <translation>Directory restore</translation> 
-        </message> 
+            <translation>Restauration de dossier</translation>
+    </message> 
         <message>
             <source>Directory save</source> 
-            <translation>Directory save</translation> 
-        </message> 
+            <translation>Sauvegarde de dossier</translation>
+    </message> 
         <message>
             <source>Do you want to exit the program really?</source> 
-            <translation>Do you want to exit the program really?</translation> 
-        </message> 
+            <translation>Voulez vous vraiment quitter le programme ?</translation>
+    </message> 
         <message>
             <source>Encrypt
 backup. key:</source> 
-            <translation>Encrypt
-backup. key:</translation> 
-        </message> 
+            <translation>Chiffrement des données↵
+Veuillez saisir la clef :</translation>
+    </message> 
         <message>
             <source>files,</source> 
             <translation>files,</translation> 
@@ -1122,52 +1123,52 @@ backup. key:</translation>
         </message> 
         <message>
             <source>gzip fast</source> 
-            <translation>gzip fast</translation> 
-        </message> 
+            <translation>gzip rapide</translation>
+    </message> 
         <message>
             <source>gzip standard</source> 
             <translation>gzip standard</translation> 
         </message> 
         <message>
             <source>Hinweis</source> 
-            <translation>Hinweis</translation> 
-        </message> 
+            <translation>Notes</translation>
+    </message> 
         <message>
             <source>links and</source> 
-            <translation>links and</translation> 
-        </message> 
+            <translation>liens et</translation>
+    </message> 
         <message>
             <source>links and</source> 
             <translation>links and</translation> 
         </message> 
         <message>
             <source>links have been restored</source> 
-            <translation>links have been restored</translation> 
-        </message> 
+            <translation>liens ont été restaurés</translation>
+    </message> 
         <message>
             <source>links have been saved</source> 
-            <translation>links have been saved</translation> 
-        </message> 
+            <translation>liens ont été enregistrées</translation>
+    </message> 
         <message>
             <source>Location (path) of the backup</source> 
             <translation>Emplacement (chemin) de la sauvegarde</translation> 
         </message> 
         <message>
             <source>Location (path) of the restore</source> 
-            <translation>Location (path) of the restore</translation> 
-        </message> 
+            <translation>Emplacement (chemin d'accès), de la restauration</translation>
+    </message> 
         <message>
             <source>lzma best</source> 
-            <translation>lzma best</translation> 
-        </message> 
+            <translation>lzma meilleur</translation>
+    </message> 
         <message>
             <source>lzma fast</source> 
-            <translation>lzma fast</translation> 
-        </message> 
+            <translation>lzma rapide</translation>
+    </message> 
         <message>
             <source>lzma medium</source> 
-            <translation>lzma medium</translation> 
-        </message> 
+            <translation>lzma moyen</translation>
+    </message> 
         <message>
             <source>No</source> 
             <translation>No</translation> 
@@ -1178,40 +1179,40 @@ backup. key:</translation>
         </message> 
         <message>
             <source>Please select the existing backup file.</source> 
-            <translation>Please select the existing backup file.</translation> 
-        </message> 
+            <translation>Veuillez sélectionner un fichier de sauvegarde existant.</translation>
+    </message> 
         <message>
             <source>qzip best</source> 
-            <translation>qzip best</translation> 
-        </message> 
+            <translation>qzip meilleur</translation>
+    </message> 
         <message>
             <source>specials have been backed.</source> 
-            <translation>specials have been backed.</translation> 
-        </message> 
+            <translation type="unfinished">des choses spéciales ont été sauvegardées.</translation>
+    </message> 
         <message>
             <source>specials have been restored.</source> 
-            <translation>specials have been restored.</translation> 
-        </message> 
+            <translation>les données spéciales ont été restaurés.</translation>
+    </message> 
         <message>
             <source>The partition file</source> 
-            <translation>The partition file</translation> 
-        </message> 
+            <translation>Le fichier de la partition</translation>
+    </message> 
         <message>
             <source>There was no key to decrypt specified.</source> 
-            <translation>There was no key to decrypt specified.</translation> 
-        </message> 
+            <translation>Il n'y n'avait aucune clef pour dé-chiffrer les données.</translation>
+    </message> 
         <message>
             <source>to saved Directory</source> 
-            <translation>to saved Directory</translation> 
-        </message> 
+            <translation>Répertoire à sauvegardé</translation>
+    </message> 
         <message>
             <source>Yes</source> 
-            <translation>Yes</translation> 
-        </message> 
+            <translation>Oui</translation>
+    </message> 
         <message>
             <source>You have entered an incorrect password.</source> 
-            <translation>You have entered an incorrect password.</translation> 
-        </message> 
+            <translation>Vous avez entré un mot de passe incorrect.</translation>
+    </message> 
         <message>
             <source>You have entered an incorrect password.</source> 
             <translation>You have entered an incorrect password.</translation> 
@@ -1221,32 +1222,32 @@ backup. key:</translation>
         <name>DialogDIR|Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.</name> 
         <message>
             <source>Select the directory in which the saved image will be recovered.</source> 
-            <translation>Select the directory in which the saved image will be recovered.</translation> 
-        </message> 
+            <translation>Sélectionnez le répertoire dans lequel l'image enregistrée sera récupéré.</translation>
+    </message> 
         <message>
             <source>Select the directory in which the saved image will be recovered.
 </source> 
-            <translation>Select the directory in which the saved image will be recovered.
-</translation> 
-        </message> 
+            <translation>Sélectionnez le répertoire dans lequel l'image enregistrée sera récupéré.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.</name> 
         <message>
             <source>Please select the to be directory or file to be saved.
 </source> 
-            <translation>Please select the to be directory or file to be saved.
-</translation> 
-        </message> 
+            <translation>Veuillez sélectionner le répertoire ou bien le fichier à enregistrer.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Bitte wählen Sie die vorhandene Sicherungsdatei aus.</name> 
         <message>
             <source>Please select the existing backup file.
 </source> 
-            <translation>Please select the existing backup file.
-</translation> 
-        </message> 
+            <translation>Veuillez sélectionner un fichier de sauvegarde existant.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Dateien,</name> 
@@ -1267,87 +1268,87 @@ backup. key:</translation>
         <name>DialogDIR|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein</name> 
         <message>
             <source>The partition is encrypted. Please enter the key</source> 
-            <translation>The partition is encrypted. Please enter the key</translation> 
-        </message> 
+            <translation>La partition est cryptée. Veuillez entrer la clef de chiffrement</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Partitionsdatei</name> 
         <message>
             <source>The partition file </source> 
-            <translation>The partition file </translation> 
-        </message> 
+            <translation>Le fichier de la partition </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein</name> 
         <message>
             <source>The key length must be between 6 and 64 characters
 </source> 
-            <translation>The key length must be between 6 and 64 characters
-</translation> 
-        </message> 
+            <translation>La longueur de la clef doit être de 6 à 64 caractères
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Sicherung des Verzeichnisses war erfolgreich.</name> 
         <message>
             <source>The backup of the directory was successful.
 </source> 
-            <translation>The backup of the directory was successful.
-</translation> 
-        </message> 
+            <translation>La sauvegarde du répertoire a réussie.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!</name> 
         <message>
             <source>The backup of the folder was aborted by the user!
 </source> 
-            <translation>The backup of the folder was aborted by the user!
-</translation> 
-        </message> 
+            <translation>La sauvegarde du dossier a été abandonnée par l'utilisateur !↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!</name> 
         <message>
             <source>The restoration of the directory was canceled by the user!</source> 
-            <translation>The restoration of the directory was canceled by the user!</translation> 
-        </message> 
+            <translation>La restauration du dossier a été abandonnée par l'utilisateur !</translation>
+    </message> 
         <message>
             <source>The restore of the folder was break by user!
 </source> 
-            <translation>The restore of the folder was break by user!
-</translation> 
-        </message> 
+            <translation>La restauration du dossier a été abandonnée par utilisateur !↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Es wurde kein Schlüssel für die Entschlüsselung angegeben.</name> 
         <message>
             <source>There was no key to decrypt specified.
 </source> 
-            <translation>There was no key to decrypt specified.
-</translation> 
-        </message> 
+            <translation>Il n'y n'avait aucune clef pour dé-chiffrer les données.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Es wurde kein Schlüssel für die Verschlüsselung angegeben.</name> 
         <message>
             <source>There was no key for encryption specified.
 </source> 
-            <translation>There was no key for encryption specified.
-</translation> 
-        </message> 
+            <translation>Il n'y n'avait aucune clef pour chiffrer les données.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Fehler! Das Verzeichnis wurde nur teilweise wiederhergestellt.</name> 
         <message>
             <source>Error!  The restoring of the folder was only partially successful!</source> 
-            <translation>Error!  The restoring of the folder was only partially successful!</translation> 
-        </message> 
+            <translation>Erreur : La restauration du dossier n'a été que partiellement réussie !</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Fehler in fsarchiver. Das Verzeichnis kann nicht wiederhergestellt werden!!</name> 
         <message>
             <source>Error in fsarchiver. The directory can not be restored!</source> 
-            <translation>Error in fsarchiver. The directory can not be restored!</translation> 
-        </message> 
+            <translation>Erreur dans fsarchiver. Le dossier ne peut pas être restauré !</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Hinweis</name> 
@@ -1361,43 +1362,43 @@ backup. key:</translation>
         <message>
             <source>already exists. The backup is not performed
 </source> 
-            <translation>already exists. The backup is not performed
-</translation> 
-        </message> 
+            <translation>existes déjà. La sauvegarde n'est pas effectuée↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Ja</name> 
         <message>
             <source>Yes</source> 
-            <translation>Yes</translation> 
-        </message> 
+            <translation>Oui</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Links und</name> 
         <message>
             <source>links and </source> 
-            <translation>links and </translation> 
-        </message> 
+            <translation>liens et </translation>
+    </message> 
         <message>
             <source> links and </source> 
-            <translation> links and </translation> 
-        </message> 
+            <translation> liens et </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich</name> 
         <message>
             <source> Links were not backed properly. The backup of the directories was only partially successful
 </source> 
-            <translation> Links were not backed properly. The backup of the directories was only partially successful
-</translation> 
-        </message> 
+            <translation> Les liens ont partiellement été sauvegardés. Les dossiers ont partiellement été sauvegardés↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich</name> 
         <message>
             <source> links were not correctly restored. The restoring of the lists was only partially successful</source> 
-            <translation> links were not correctly restored. The restoring of the lists was only partially successful</translation> 
-        </message> 
+            <translation> liens n'ont pas été restaurées correctement. La restauration des listes était partiellement réussie</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Nein</name> 
@@ -1410,15 +1411,15 @@ backup. key:</translation>
         <name>DialogDIR|Ort (Pfad) der Sicherung</name> 
         <message>
             <source>Location (path) of the backup</source> 
-            <translation>Location (path) of the backup</translation> 
-        </message> 
+            <translation>Emplacement (chemin) de la sauvegarde</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Ort (Pfad) der Wiederherstellung</name> 
         <message>
             <source>Location (path) of the restore</source> 
-            <translation>Location (path) of the restore</translation> 
-        </message> 
+            <translation>Emplacement (chemin d'accès), de la restauration</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sicherung
@@ -1426,9 +1427,9 @@ entschlüsseln. Schlüssel:</name>
         <message>
             <source>Decrypt
 backup. key:</source> 
-            <translation>Decrypt
-backup. key:</translation> 
-        </message> 
+            <translation>Dé-Chiffrement des données↵
+Veuillez saisir la clef :</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sicherung
@@ -1436,40 +1437,40 @@ verschlüsseln. Schlüssel:</name>
         <message>
             <source>Encrypt
 backup. key:</source> 
-            <translation>Encrypt
-backup. key:</translation> 
-        </message> 
+            <translation>Chiffrement des données↵
+Veuillez saisir la clef :</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben ein falsches Passwort eingegeben.</name> 
         <message>
             <source>You have entered an incorrect password.</source> 
-            <translation>You have entered an incorrect password.</translation> 
-        </message> 
+            <translation>Vous avez entré un mot de passe incorrect.</translation>
+    </message> 
         <message>
             <source>You have entered an incorrect password.
 </source> 
-            <translation>You have entered an incorrect password.
-</translation> 
-        </message> 
+            <translation>Vous avez entré un mot de passe incorrect.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen</name> 
         <message>
             <source>You have selected a directory. You need a backup file with the extension .fsa select
 </source> 
-            <translation>You have selected a directory. You need a backup file with the extension .fsa select
-</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un répertoire. Vous avez besoin d'un fichier de sauvegarde avec l'extension .fsa↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen</name> 
         <message>
             <source>You have selected a file. You must select a directory
 </source> 
-            <translation>You have selected a file. You must select a directory
-</translation> 
-        </message> 
+            <translation>Vous avez sélectionné un fichier. Vous devez sélectionner un répertoire↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
@@ -1477,57 +1478,57 @@ Die Dateiendung muss .fsa sein</name>
         <message>
             <source>You have chosen the wrong recovery file selected.
  The files should end with. fsa be</source> 
-            <translation>You have chosen the wrong recovery file selected.
- The files should end with. fsa be</translation> 
-        </message> 
+            <translation>Vous avez choisi un mauvais fichier de sauvegarde.↵
+ Les fichier de sauvegarde utilisent l'extension .fsa</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Sie haben versucht ein Verzeichnis wiederherzustellen. Die gewählte Datei kann nur Partitionen wiederherstellen.</name> 
         <message>
             <source>You have tried to restore a directory. The selected file can only restore partitions.
 </source> 
-            <translation>You have tried to restore a directory. The selected file can only restore partitions.
-</translation> 
-        </message> 
+            <translation>Vous avez essayé de restaurer un dossier. Le fichier sélectionné permet uniquement restaurer des partitions.↵
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| spezielle Daten wurden gesichert.</name> 
         <message>
             <source> specials have been backed.</source> 
-            <translation> specials have been backed.</translation> 
-        </message> 
+            <translation> données spéciales ont été sauvegardées.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| spezielle Daten wurden wieder hergestellt.</name> 
         <message>
             <source> specials have been restored.</source> 
-            <translation> specials have been restored.</translation> 
-        </message> 
+            <translation> données spéciales ont été restaurés.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Verzeichnisse,</name> 
         <message>
             <source>directories, </source> 
-            <translation>directories, </translation> 
-        </message> 
+            <translation>dossiers, </translation>
+    </message> 
         <message>
             <source> directories, </source> 
-            <translation> directories, </translation> 
-        </message> 
+            <translation> dossiers, </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Verzeichnis sichern</name> 
         <message>
             <source>Directory save</source> 
-            <translation>Directory save</translation> 
-        </message> 
+            <translation>Sauvegarder un dossier</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Verzeichnis zurückschreiben</name> 
         <message>
             <source>Directory restore</source> 
-            <translation>Directory restore</translation> 
-        </message> 
+            <translation>Restaurer un dossier</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Verzeichnisse und</name> 
