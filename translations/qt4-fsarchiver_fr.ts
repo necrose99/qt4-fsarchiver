@@ -1534,22 +1534,22 @@ Die Dateiendung muss .fsa sein</name>
         <name>DialogDIR| Verzeichnisse und</name> 
         <message>
             <source> directories, and </source> 
-            <translation> directories, and </translation> 
-        </message> 
+            <translation> dossiers, et </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Verzeichnisse beenden?</name> 
         <message>
             <source>Do you want really break the save or restore from the folder?</source> 
-            <translation>Do you want really break the save or restore from the folder?</translation> 
-        </message> 
+            <translation>Voulez-vous vraiment intérompre la sauvegarde ou lancer une restauration de dossier ?</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|zu sicherndes Verzeichnis</name> 
         <message>
             <source>to saved Directory</source> 
-            <translation>to saved Directory</translation> 
-        </message> 
+            <translation>Répertoire à sauvegardé</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|zurück zu schreibende Sicherungsdatei</name> 
