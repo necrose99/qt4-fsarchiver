@@ -1,20 +1,20 @@
 qt4-fsarchiver
 ==============
-I brought it to GITHUB Manually (mirror), as the author has no RVCS ie cvs or GIT of anykinnd on SF 
-as well Adding say po/etc (translations)  files or other niceities or Gentoo Ebuilds or Gentoo patches anything to help the Project along as it has been a fine tool to have for the last few years. :-) 
+I brought it to GITHUB Manually (mirror), as the author has no RVCS ie cvs or GIT of any kind on SF 
+as well Adding say po/etc (translations)  files or other niceties or Gentoo Ebuilds or Gentoo patches anything to help the Project along as it has been a fine tool to have for the last few years. :-) 
 I've been trying to work it into a Sabayon Linux Live DVD. 
-Feal Free to Fork it And contribute back. to Dieterbaum or put a pull request in. 
+Feal Free to Fork it And contribute back. to Dieterbaum https://sourceforge.net/u/dieterbaum/ or put a pull request in. 
 and or email him from SF.net pages. 
 https://sourceforge.net/projects/qt4-fsarchiver/files/source/
 if I haven't gotten to them and mirrored to github then the authors release is above. 
 
-Spanish translation up colaberative -- 
+Spanish translation up collaborative -- 
 Italian (although rusty) I will give it a go. Japanese need to do 
 any others 
 <a href="https://hosted.weblate.org/engage/qt4-fsarchiver/?utm_source=widget">
 <img src="https://hosted.weblate.org/widgets/qt4-fsarchiver/-/287x66-black.png" alt="Translation status" />
 </a>
-feal like adding a translation , feal free to notfy 	<b> Dieter Baum dieterbaum at t-online.de </b>
+feal like adding a translation , feel free to notify the author	<b> Dieter Baum dieterbaum at t-online.de </b>
 
 Brought to you by: <a
 href="http://sourceforge.net/users/dieterbaum" itemprop="url"><span
