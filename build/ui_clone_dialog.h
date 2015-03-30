@@ -199,7 +199,7 @@ public:
         HourRemaining->setAlignment(Qt::AlignCenter);
         label = new QLabel(frame_2);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(10, 80, 111, 41));
+        label->setGeometry(QRect(10, 80, 131, 41));
         label->setWordWrap(true);
         bytes_sec = new QLineEdit(frame_2);
         bytes_sec->setObjectName(QString::fromUtf8("bytes_sec"));
@@ -258,7 +258,7 @@ public:
     } // setupUi
 
     void retranslateUi(QWidget *clone_dialog)
-   {
+    {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width
@@ -271,6 +271,7 @@ public:
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
         clone_dialog->setGeometry(QRect(cw, ch, 516, 700));
+
         clone_dialog->setWindowTitle(QApplication::translate("clone_dialog", "Clone hard drive", 0, QApplication::UnicodeUTF8));
         bt_end->setText(QApplication::translate("clone_dialog", "Exit", 0, QApplication::UnicodeUTF8));
         bt_save->setText(QApplication::translate("clone_dialog", "Save / Restore MBR", 0, QApplication::UnicodeUTF8));

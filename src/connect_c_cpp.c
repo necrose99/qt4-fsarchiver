@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -62,6 +62,7 @@ float s_links;
 float s_links_;
 float s_special;
 float s_special_;
+float arch_art;
 char* key ;
 char fsorigdev[100];
 extern int btrfs_flag;
@@ -149,6 +150,8 @@ void werte_uebergeben(float prozess, int auswahl){
      	    numberfolder_ = prozess;
      if (auswahl ==14)
      	    s_links_ = prozess;
+     if (auswahl ==15)
+     	    arch_art = prozess;
    }
 
 float werte_holen(int auswahl){
@@ -180,6 +183,8 @@ float werte_holen(int auswahl){
      	return numberfolder_;
       if (auswahl ==14)
      	return s_links_;
+      if (auswahl ==15)
+     	return arch_art;
       return -1;
     }
  
@@ -187,7 +192,17 @@ void werte_reset(){
       prozent = 0;        
       Anzahl_File_zu_sichern = 0;
       Anzahl_File_gesichert = 0;
-    }
+      h_links = 0;
+      h_links_ = 0;
+      numberfile = 0;
+      numberfile_ = 0;
+      numberfolder = 0;
+      numberfolder_ = 0;
+      s_links = 0;
+      s_links_ = 0;
+      s_special = 0;
+      s_special_ = 0;
+   }
 
 void meldungen_uebergeben(char* meldung, int auswahl){
      if (auswahl ==1) {
@@ -196,16 +211,15 @@ void meldungen_uebergeben(char* meldung, int auswahl){
      if (auswahl ==2) {
      	 strncpy(fsorigdev,meldung,100);
          fsorigdev[99] = 0;
-         }  
-  }
+         }
+    }
 
 char *meldungen_holen(int auswahl){
       if (auswahl ==1) {
          return key;
       }
-      if (auswahl ==2)  {
+      if (auswahl ==2)  
         return fsorigdev;
-      }
       return "-1";
       
 }
@@ -260,6 +274,8 @@ int btrfs_flag_uebergeben(){
          }
      return 0;
   }
+
+
 
 
 

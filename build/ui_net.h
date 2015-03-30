@@ -27,6 +27,7 @@
 #include <QtGui/QProgressBar>
 #include <QtGui/QPushButton>
 #include <QtGui/QRadioButton>
+#include <QtGui/QTreeView>
 #include <QtGui/QTreeWidget>
 
 QT_BEGIN_NAMESPACE
@@ -82,47 +83,53 @@ public:
     QCheckBox *chk_split;
     QCheckBox *chk_key;
     QCheckBox *chk_pbr;
+    QCheckBox *chk_path;
     QComboBox *cmb_Net;
     QLabel *label_13;
     QPushButton *bt_toParent;
     QPushButton *bt_treeWiget;
     QTreeWidget *treeWidget;
+    QCheckBox *chk_hidden;
+    QTreeView *treeView_dir;
+    QGroupBox *groupBox_2;
+    QRadioButton *rdBt_showPartition;
+    QRadioButton *rdBt_showDirectories;
 
     void setupUi(QDialog *Dialog_Net)
     {
         if (Dialog_Net->objectName().isEmpty())
             Dialog_Net->setObjectName(QString::fromUtf8("Dialog_Net"));
-        Dialog_Net->resize(777, 672);
+        Dialog_Net->resize(777, 671);
         label_2 = new QLabel(Dialog_Net);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(385, 433, 351, 21));
+        label_2->setGeometry(QRect(385, 450, 351, 21));
         label_folder = new QLabel(Dialog_Net);
         label_folder->setObjectName(QString::fromUtf8("label_folder"));
-        label_folder->setGeometry(QRect(385, 380, 371, 18));
+        label_folder->setGeometry(QRect(385, 405, 371, 18));
         pushButton_partition = new QPushButton(Dialog_Net);
         pushButton_partition->setObjectName(QString::fromUtf8("pushButton_partition"));
         pushButton_partition->setGeometry(QRect(150, 420, 20, 20));
         pushButton_partition->setMinimumSize(QSize(20, 0));
         label_Partition = new QLabel(Dialog_Net);
         label_Partition->setObjectName(QString::fromUtf8("label_Partition"));
-        label_Partition->setGeometry(QRect(385, 20, 361, 18));
+        label_Partition->setGeometry(QRect(390, 55, 361, 18));
         groupBox = new QGroupBox(Dialog_Net);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(20, 20, 360, 71));
+        groupBox->setGeometry(QRect(20, 10, 360, 71));
         groupBox->setSizeIncrement(QSize(10, 10));
         groupBox->setFlat(true);
         groupBox->setCheckable(false);
         rdBt_saveFsArchiv = new QRadioButton(groupBox);
         rdBt_saveFsArchiv->setObjectName(QString::fromUtf8("rdBt_saveFsArchiv"));
-        rdBt_saveFsArchiv->setGeometry(QRect(0, 30, 161, 40));
+        rdBt_saveFsArchiv->setGeometry(QRect(0, 20, 161, 40));
         rdBt_restoreFsArchiv = new QRadioButton(groupBox);
         rdBt_restoreFsArchiv->setObjectName(QString::fromUtf8("rdBt_restoreFsArchiv"));
-        rdBt_restoreFsArchiv->setGeometry(QRect(170, 30, 181, 40));
+        rdBt_restoreFsArchiv->setGeometry(QRect(170, 20, 181, 40));
         rdBt_restoreFsArchiv->raise();
         rdBt_saveFsArchiv->raise();
         listWidget = new QListWidget(Dialog_Net);
         listWidget->setObjectName(QString::fromUtf8("listWidget"));
-        listWidget->setGeometry(QRect(390, 40, 351, 118));
+        listWidget->setGeometry(QRect(390, 80, 351, 151));
         listWidget->setSelectionBehavior(QAbstractItemView::SelectRows);
         pushButton_folder_free = new QPushButton(Dialog_Net);
         pushButton_folder_free->setObjectName(QString::fromUtf8("pushButton_folder_free"));
@@ -138,7 +145,7 @@ public:
         bt_net_art->setGeometry(QRect(190, 420, 21, 20));
         txt_rechner_net = new QLineEdit(Dialog_Net);
         txt_rechner_net->setObjectName(QString::fromUtf8("txt_rechner_net"));
-        txt_rechner_net->setGeometry(QRect(385, 455, 360, 27));
+        txt_rechner_net->setGeometry(QRect(385, 470, 360, 27));
         label_4 = new QLabel(Dialog_Net);
         label_4->setObjectName(QString::fromUtf8("label_4"));
         label_4->setGeometry(QRect(20, 320, 291, 18));
@@ -257,31 +264,31 @@ public:
 
         label_folder_free = new QLabel(Dialog_Net);
         label_folder_free->setObjectName(QString::fromUtf8("label_folder_free"));
-        label_folder_free->setGeometry(QRect(390, 212, 261, 17));
+        label_folder_free->setGeometry(QRect(390, 280, 261, 17));
         listWidget_free_folder = new QListWidget(Dialog_Net);
         listWidget_free_folder->setObjectName(QString::fromUtf8("listWidget_free_folder"));
-        listWidget_free_folder->setGeometry(QRect(390, 230, 351, 141));
+        listWidget_free_folder->setGeometry(QRect(390, 300, 351, 101));
         restore_file_name_txt = new QLineEdit(Dialog_Net);
         restore_file_name_txt->setObjectName(QString::fromUtf8("restore_file_name_txt"));
-        restore_file_name_txt->setGeometry(QRect(385, 400, 360, 27));
+        restore_file_name_txt->setGeometry(QRect(385, 425, 360, 27));
         frame_2 = new QFrame(Dialog_Net);
         frame_2->setObjectName(QString::fromUtf8("frame_2"));
-        frame_2->setGeometry(QRect(20, 95, 351, 220));
+        frame_2->setGeometry(QRect(20, 80, 351, 235));
         frame_2->setFrameShape(QFrame::StyledPanel);
         frame_2->setFrameShadow(QFrame::Plain);
         cmb_zip = new QComboBox(frame_2);
         cmb_zip->setObjectName(QString::fromUtf8("cmb_zip"));
-        cmb_zip->setGeometry(QRect(180, 185, 161, 27));
+        cmb_zip->setGeometry(QRect(180, 200, 161, 27));
         label_12 = new QLabel(frame_2);
         label_12->setObjectName(QString::fromUtf8("label_12"));
-        label_12->setGeometry(QRect(10, 137, 271, 41));
+        label_12->setGeometry(QRect(10, 160, 271, 41));
         label_12->setLocale(QLocale(QLocale::English, QLocale::UnitedStates));
         cmb_kerne = new QComboBox(frame_2);
         cmb_kerne->setObjectName(QString::fromUtf8("cmb_kerne"));
-        cmb_kerne->setGeometry(QRect(290, 145, 51, 27));
+        cmb_kerne->setGeometry(QRect(290, 168, 51, 27));
         label = new QLabel(frame_2);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(10, 175, 161, 41));
+        label->setGeometry(QRect(10, 193, 161, 41));
         chk_Beschreibung = new QCheckBox(frame_2);
         chk_Beschreibung->setObjectName(QString::fromUtf8("chk_Beschreibung"));
         chk_Beschreibung->setGeometry(QRect(0, 0, 331, 23));
@@ -300,16 +307,19 @@ public:
         chk_pbr = new QCheckBox(frame_2);
         chk_pbr->setObjectName(QString::fromUtf8("chk_pbr"));
         chk_pbr->setGeometry(QRect(0, 114, 261, 22));
+        chk_path = new QCheckBox(frame_2);
+        chk_path->setObjectName(QString::fromUtf8("chk_path"));
+        chk_path->setGeometry(QRect(0, 140, 351, 22));
         cmb_Net = new QComboBox(Dialog_Net);
         cmb_Net->setObjectName(QString::fromUtf8("cmb_Net"));
-        cmb_Net->setGeometry(QRect(560, 165, 181, 27));
+        cmb_Net->setGeometry(QRect(560, 240, 181, 27));
         label_13 = new QLabel(Dialog_Net);
         label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setGeometry(QRect(390, 160, 151, 41));
+        label_13->setGeometry(QRect(390, 235, 151, 41));
         label_13->setWordWrap(true);
         bt_toParent = new QPushButton(Dialog_Net);
         bt_toParent->setObjectName(QString::fromUtf8("bt_toParent"));
-        bt_toParent->setGeometry(QRect(690, 200, 31, 27));
+        bt_toParent->setGeometry(QRect(710, 272, 31, 27));
         QIcon icon1;
         icon1.addFile(QString::fromUtf8(":/src/images/cdtoparent.png"), QSize(), QIcon::Normal, QIcon::Off);
         bt_toParent->setIcon(icon1);
@@ -321,7 +331,23 @@ public:
         __qtreewidgetitem->setText(0, QString::fromUtf8("1"));
         treeWidget->setHeaderItem(__qtreewidgetitem);
         treeWidget->setObjectName(QString::fromUtf8("treeWidget"));
-        treeWidget->setGeometry(QRect(390, 230, 351, 141));
+        treeWidget->setGeometry(QRect(390, 300, 351, 101));
+        chk_hidden = new QCheckBox(Dialog_Net);
+        chk_hidden->setObjectName(QString::fromUtf8("chk_hidden"));
+        chk_hidden->setGeometry(QRect(390, 32, 351, 22));
+        treeView_dir = new QTreeView(Dialog_Net);
+        treeView_dir->setObjectName(QString::fromUtf8("treeView_dir"));
+        treeView_dir->setGeometry(QRect(390, 80, 351, 151));
+        treeView_dir->header()->setDefaultSectionSize(400);
+        groupBox_2 = new QGroupBox(Dialog_Net);
+        groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
+        groupBox_2->setGeometry(QRect(390, 10, 371, 25));
+        rdBt_showPartition = new QRadioButton(groupBox_2);
+        rdBt_showPartition->setObjectName(QString::fromUtf8("rdBt_showPartition"));
+        rdBt_showPartition->setGeometry(QRect(0, 0, 191, 22));
+        rdBt_showDirectories = new QRadioButton(groupBox_2);
+        rdBt_showDirectories->setObjectName(QString::fromUtf8("rdBt_showDirectories"));
+        rdBt_showDirectories->setGeometry(QRect(190, 0, 191, 22));
         bt_treeWiget->raise();
         label_2->raise();
         label_folder->raise();
@@ -346,6 +372,9 @@ public:
         label_13->raise();
         bt_toParent->raise();
         treeWidget->raise();
+        chk_hidden->raise();
+        treeView_dir->raise();
+        groupBox_2->raise();
 
         retranslateUi(Dialog_Net);
         QObject::connect(listWidget, SIGNAL(clicked(QModelIndex)), pushButton_partition, SLOT(click()));
@@ -357,7 +386,7 @@ public:
     } // setupUi
 
     void retranslateUi(QDialog *Dialog_Net)
-     {
+    {
 	int w,h, mw, mh, cw, ch;
         QWidget *d = QApplication::desktop();
         w=d->width();                   // returns screen width
@@ -369,7 +398,7 @@ public:
         mh = Dialog_Net->height();
         cw = (w/2) - (mw/2);
         ch = (h/2) - (mh/2); 
-        Dialog_Net->setGeometry(QRect(cw, ch, 777, 672)); 
+        Dialog_Net->setGeometry(QRect(cw, ch, 777, 671));
         Dialog_Net->setWindowTitle(QApplication::translate("Dialog_Net", "Backup/restore partition over network", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("Dialog_Net", "Network computer  name:", 0, QApplication::UnicodeUTF8));
         label_folder->setText(QApplication::translate("Dialog_Net", "Restore file name:", 0, QApplication::UnicodeUTF8));
@@ -377,24 +406,24 @@ public:
 #ifndef QT_NO_TOOLTIP
         label_Partition->setToolTip(QApplication::translate("Dialog_Net", "Select the partition to be backed up or restored.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
-        label_Partition->setText(QApplication::translate("Dialog_Net", "Existing partitions:", 0, QApplication::UnicodeUTF8));
+        label_Partition->setText(QApplication::translate("Dialog_Net", "Existing partitions/directories:", 0, QApplication::UnicodeUTF8));
         groupBox->setTitle(QApplication::translate("Dialog_Net", "Proposed action:", 0, QApplication::UnicodeUTF8));
-        rdBt_saveFsArchiv->setText(QApplication::translate("Dialog_Net", "Partition save \n"
-"with fsarchiver", 0, QApplication::UnicodeUTF8));
+        rdBt_saveFsArchiv->setText(QApplication::translate("Dialog_Net", "Save partition\n"
+" or directory", 0, QApplication::UnicodeUTF8));
         rdBt_restoreFsArchiv->setText(QApplication::translate("Dialog_Net", "Restore partition \n"
-"with fsarchiver", 0, QApplication::UnicodeUTF8));
+" or directory", 0, QApplication::UnicodeUTF8));
         pushButton_folder_free->setText(QApplication::translate("Dialog_Net", "n", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         pushButton_save->setToolTip(QApplication::translate("Dialog_Net", "Start the backup of a partition.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
-        pushButton_save->setText(QApplication::translate("Dialog_Net", "save partition", 0, QApplication::UnicodeUTF8));
+        pushButton_save->setText(QApplication::translate("Dialog_Net", "Save partition/directorie", 0, QApplication::UnicodeUTF8));
         bt_net_art->setText(QString());
         label_4->setText(QApplication::translate("Dialog_Net", "Name the backup file:", 0, QApplication::UnicodeUTF8));
         pushButton_end->setText(QApplication::translate("Dialog_Net", "Exit", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         pushButton_restore->setToolTip(QApplication::translate("Dialog_Net", "Start restore a partition.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
-        pushButton_restore->setText(QApplication::translate("Dialog_Net", "Partition restore", 0, QApplication::UnicodeUTF8));
+        pushButton_restore->setText(QApplication::translate("Dialog_Net", "Partition/directorie restore", 0, QApplication::UnicodeUTF8));
         label_5->setText(QApplication::translate("Dialog_Net", "elapsed time:", 0, QApplication::UnicodeUTF8));
         label_3->setText(QApplication::translate("Dialog_Net", "On the number saved\n"
 "Files/directories:", 0, QApplication::UnicodeUTF8));
@@ -430,10 +459,15 @@ public:
         chk_pbr->setToolTip(QApplication::translate("Dialog_Net", "PBR is first block of any bootable partition.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
         chk_pbr->setText(QApplication::translate("Dialog_Net", "Save PBR", 0, QApplication::UnicodeUTF8));
+        chk_path->setText(QApplication::translate("Dialog_Net", "Backup restore to the Origin", 0, QApplication::UnicodeUTF8));
         label_13->setText(QApplication::translate("Dialog_Net", "Protocoll for network\n"
 "transmission:", 0, QApplication::UnicodeUTF8));
         bt_toParent->setText(QString());
         bt_treeWiget->setText(QString());
+        chk_hidden->setText(QApplication::translate("Dialog_Net", "Show hidden directories and files", 0, QApplication::UnicodeUTF8));
+        groupBox_2->setTitle(QString());
+        rdBt_showPartition->setText(QApplication::translate("Dialog_Net", "Show partitions", 0, QApplication::UnicodeUTF8));
+        rdBt_showDirectories->setText(QApplication::translate("Dialog_Net", "Show directories", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

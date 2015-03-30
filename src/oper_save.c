@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
  * 
- * Copyright (C) 2008-2014 Francois Dupoux.  All rights reserved.
+ * Copyright (C) 2008-2015 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -1065,6 +1065,7 @@ int filesystem_mount_partition(cdevinfo *devinfo, cdico *dicofsinfo, u16 fsid)
         }
         if (tmptype==-1)
         {   errprintf("cannot mount partition [%s]: filesystem may not be supported by either fsarchiver or the kernel.\n", devinfo->devpath);
+            werte_uebergeben (110,3); // Partitionsart wird nicht unterstützt
             return -1;
         }
         devinfo->fstype=tmptype;
@@ -1407,4 +1408,6 @@ do_create_success:
     archwriter_destroy(&save.ai);
     return ret;
 }
+
+
 

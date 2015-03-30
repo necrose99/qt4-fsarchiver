@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,14 +17,12 @@
 #ifndef NET_H
 #define NET_H
 #include <QtGui>
-#include <QDialog>
 #include "ui_net.h"
 #include "thread.h"
-
-
 using namespace std;
 
 class DialogNet : public QDialog, private Ui::Dialog_Net
+//class DialogNet : public QWidget, private Ui::Dialog_Net
 {
 	Q_OBJECT
 
@@ -58,13 +56,19 @@ protected slots:
         void button_toParent();
         void treeWidget_auslesen();
         void folder_free_mounten();
+        void save_partitions();
+        void save_directories();
+        void chkhidden();
+        int archinfo(QString archname);
 
 private:
         Thread thread1;
         Thread thread2;
         QTimer *timer; 
         QIcon folderIcon;
-        QIcon fileIcon;		
+        QIcon fileIcon;	
+        QDirModel *dirModel;
+        QItemSelectionModel *selModel;	
 	
 private slots:
         int search_folder_free(QString rechner);
@@ -86,6 +90,8 @@ private slots:
 };
 
 #endif
+
+
 
 
 

@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -36,10 +36,10 @@ DialogSetting::DialogSetting(QWidget *parent)
          items_kerne << "1" << "2" << "3" << "4" <<  "5" << "6" << "7" << "8" << "9" << "10" << "11" << "12" << "13" << "14" << "15" << "16" ;
         cmb_Kerne->addItems (items_kerne);
    	items_kerne.clear();
-        items_zip << tr("lzo") << tr("gzip fast") << tr("gzip standard") << tr("qzip best") <<  tr("bzip2 fast");
+        items_zip << tr("lzo", "lzo") << tr("gzip fast","gzip fast") << tr("gzip standard","gzip standard") << tr("qzip best","qzip best") <<  tr("bzip2 fast","bzip2 fast");
    	cmb_zip->addItems (items_zip);
    	items_zip.clear();
-   	items_zip << tr("bzip2 good") << tr("lzma fast") << tr("lzma medium") << tr("lzma best");
+   	items_zip << tr("bzip2 good", "bzip2 good") << tr("lzma fast","lzma fast") << tr("lzma medium","lzma medium") << tr("lzma best","lzma best");
    	cmb_zip->addItems (items_zip);
    	items_zip.clear();
         items_network << tr("Samba") << tr("SSH") << tr("NFS");
@@ -91,7 +91,9 @@ DialogSetting::DialogSetting(QWidget *parent)
         if (auswertung ==1)
            chk_prg->setChecked(Qt::Checked);
         auswertung = setting.value("hidden").toInt();
-	     setting.endGroup();
+	if (auswertung ==1)
+           chk_hidden->setChecked(Qt::Checked);
+        setting.endGroup();
 }        
 
 void DialogSetting:: setting_save()
@@ -103,9 +105,9 @@ void DialogSetting:: setting_save()
      	setting.setValue("Kerne",cmb_Kerne->currentText());
      else
         setting.setValue("Kerne","1");
-     if (cmb_language->currentIndex() == 2)
-        QMessageBox::about(this,tr("Note", "Hinweis"),
-         	tr("The Russian translation is not completely.\n", "Die russische Übersetzung ist nicht komplett.\n"));
+    // if (cmb_language->currentIndex() == 2)
+    //    QMessageBox::about(this,tr("Note", "Hinweis"),
+    //     	tr("The Russian translation is not completely.\n", "Die russische Übersetzung ist nicht komplett.\n"));
      if (cmb_language->currentIndex() >= 6){
         QMessageBox::about(this,tr("Note", "Hinweis"),
          	tr("The translation is in progress. Please choose another language\n", "Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache\n"));
@@ -171,10 +173,16 @@ void DialogSetting:: setting_save()
             setting.setValue("showPrg",1);
      else
             setting.setValue("showPrg",0);
+     state = chk_hidden->checkState();
+     if (state == Qt::Checked) 
+            setting.setValue("hidden",1);
+     else
+            setting.setValue("hidden",0);	
      setting.endGroup();
      QMessageBox::about(this,tr("Note", "Hinweis"),
          tr("The settings have been saved. Be restarted, the program modified the language setting.","Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.\n"));
 }
+
 
 
 

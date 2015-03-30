@@ -17,7 +17,6 @@
 #include <QtGui/QHeaderView>
 #include <QtGui/QLabel>
 #include <QtGui/QPushButton>
-#include <QtGui/QRadioButton>
 #include <QtGui/QTreeView>
 #include <QtGui/QWidget>
 
@@ -32,10 +31,9 @@ public:
     QTreeView *treeView;
     QLabel *label;
     QLabel *label_2;
-    QRadioButton *rdbt_sda;
-    QRadioButton *rdbt_sdb;
-    QRadioButton *rdbt_sdc;
-    QRadioButton *rdbt_sdd;
+    QComboBox *cmb_disk;
+    QLabel *label_3;
+    QPushButton *bt_dummy;
 
     void setupUi(QWidget *mbr_dialog)
     {
@@ -60,27 +58,49 @@ public:
         label->setGeometry(QRect(20, 30, 421, 18));
         label_2 = new QLabel(mbr_dialog);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(20, 410, 311, 41));
-        rdbt_sda = new QRadioButton(mbr_dialog);
-        rdbt_sda->setObjectName(QString::fromUtf8("rdbt_sda"));
-        rdbt_sda->setGeometry(QRect(340, 410, 61, 23));
-        rdbt_sdb = new QRadioButton(mbr_dialog);
-        rdbt_sdb->setObjectName(QString::fromUtf8("rdbt_sdb"));
-        rdbt_sdb->setGeometry(QRect(340, 430, 61, 23));
-        rdbt_sdc = new QRadioButton(mbr_dialog);
-        rdbt_sdc->setObjectName(QString::fromUtf8("rdbt_sdc"));
-        rdbt_sdc->setGeometry(QRect(400, 410, 61, 23));
-        rdbt_sdd = new QRadioButton(mbr_dialog);
-        rdbt_sdd->setObjectName(QString::fromUtf8("rdbt_sdd"));
-        rdbt_sdd->setGeometry(QRect(400, 430, 61, 23));
+        label_2->setGeometry(QRect(20, 410, 281, 41));
+        cmb_disk = new QComboBox(mbr_dialog);
+        cmb_disk->setObjectName(QString::fromUtf8("cmb_disk"));
+        cmb_disk->setGeometry(QRect(397, 420, 51, 27));
+        label_3 = new QLabel(mbr_dialog);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(305, 410, 81, 41));
+        bt_dummy = new QPushButton(mbr_dialog);
+        bt_dummy->setObjectName(QString::fromUtf8("bt_dummy"));
+        bt_dummy->setGeometry(QRect(190, 460, 21, 27));
+        bt_dummy->raise();
+        cmb_mbr->raise();
+        bt_end->raise();
+        bt_save->raise();
+        treeView->raise();
+        label->raise();
+        label_2->raise();
+        cmb_disk->raise();
+        label_3->raise();
+#ifndef QT_NO_SHORTCUT
+        label_3->setBuddy(cmb_disk);
+#endif // QT_NO_SHORTCUT
 
         retranslateUi(mbr_dialog);
+        QObject::connect(cmb_disk, SIGNAL(currentIndexChanged(QString)), bt_dummy, SLOT(click()));
 
         QMetaObject::connectSlotsByName(mbr_dialog);
     } // setupUi
 
     void retranslateUi(QWidget *mbr_dialog)
     {
+    int w,h, mw, mh, cw, ch;
+        QWidget *d = QApplication::desktop();
+        w=d->width();                   // returns screen width
+        h=d->height();                  // returns screen height
+        //qDebug() << "Bildschrimbreite";
+        //qDebug() << h;
+        //Center position calculation
+        mw = mbr_dialog->width();
+        mh = mbr_dialog->height();
+        cw = (w/2) - (mw/2);
+        ch = (h/2) - (mh/2); 
+        mbr_dialog->setGeometry(QRect(cw, ch, 469, 505));
         mbr_dialog->setWindowTitle(QApplication::translate("mbr_dialog", "Save / Restore MBR/GPT", 0, QApplication::UnicodeUTF8));
         cmb_mbr->clear();
         cmb_mbr->insertItems(0, QStringList()
@@ -90,7 +110,7 @@ public:
          << QApplication::translate("mbr_dialog", "Secretly area to restore. (Without Boot Loader and without partition table).", 0, QApplication::UnicodeUTF8)
          << QString()
         );
-        bt_end->setText(QApplication::translate("mbr_dialog", "Cancel", 0, QApplication::UnicodeUTF8));
+        bt_end->setText(QApplication::translate("mbr_dialog", "Exit", 0, QApplication::UnicodeUTF8));
         bt_save->setText(QApplication::translate("mbr_dialog", "Save / restore MBR", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         label->setToolTip(QApplication::translate("mbr_dialog", "Directory in which the MBR/GPT is written.", 0, QApplication::UnicodeUTF8));
@@ -98,10 +118,9 @@ public:
         label->setText(QApplication::translate("mbr_dialog", "MBR/GPT backup directory:", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("mbr_dialog", "MBR of that drive this\n"
 "Backup / restore:", 0, QApplication::UnicodeUTF8));
-        rdbt_sda->setText(QApplication::translate("mbr_dialog", "sda", 0, QApplication::UnicodeUTF8));
-        rdbt_sdb->setText(QApplication::translate("mbr_dialog", "sdb", 0, QApplication::UnicodeUTF8));
-        rdbt_sdc->setText(QApplication::translate("mbr_dialog", "sdc", 0, QApplication::UnicodeUTF8));
-        rdbt_sdd->setText(QApplication::translate("mbr_dialog", "sdd", 0, QApplication::UnicodeUTF8));
+        label_3->setText(QApplication::translate("mbr_dialog", "Existing\n"
+"harddrive:", 0, QApplication::UnicodeUTF8));
+        bt_dummy->setText(QString());
     } // retranslateUi
 
 };

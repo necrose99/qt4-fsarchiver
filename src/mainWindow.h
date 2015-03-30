@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2014 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -77,6 +77,7 @@ protected slots:
    void eingabe_net_save();
    void eingabe_net_restore();
    void chkkey();
+   void chkhidden();
    void chkGB();
    QString kernel_version();
    QString linux_version();
@@ -84,10 +85,9 @@ protected slots:
    QString format(float zahl);
    void pid_ermitteln();
    void del_mediafolder();
-   void clone_save ();
-   void clone_save_net ();
-   
-    
+   void clone_save();
+   void clone_save_net();
+     
 private:
     QDirModel *dirModel;
     QItemSelectionModel *selModel;
@@ -105,6 +105,8 @@ private slots:
      
 };
 #endif
+
+
 
 
 
