@@ -1,0 +1,65 @@
+<!DOCTYPE QPH>
+<QPH language="en_US">
+<phrase>
+    <source>Directory in which the image is written</source>
+    <target>Directory in which the image is written</target>
+</phrase>
+<phrase>
+    <source>Image einer Festplatte zurückschreiben:</source>
+    <target>Image einer Festplatte zurückschreiben:</target>
+</phrase>
+<phrase>
+    <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
+    <target>Directory in which the partition is backed up or from the recovery file is removed.</target>
+</phrase>
+<phrase>
+    <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
+    <target>On the hard drive exist a root or a home partition. You must need a live-CD.</target>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target>No</target>
+</phrase>
+<phrase>
+    <source>Instructions for partition were not recorded written to the file.</source>
+    <target>Instructions for partition were not recorded written to the file.</target>
+</phrase>
+<phrase>
+    <source>Save partition</source>
+    <target>Save partition</target>
+</phrase>
+<phrase>
+    <source>could not be integrated. The program is aborted</source>
+    <target>could not be integrated. The program is aborted</target>
+</phrase>
+<phrase>
+    <source>a</source>
+    <target>a</target>
+</phrase>
+<phrase>
+    <source>You must select your computer from which the backup data to be written back
+</source>
+    <target>You must select your computer from which the backup data to be written back
+</target>
+</phrase>
+<phrase>
+    <source>already restored</source>
+    <target>already restored</target>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target>No</target>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target>No</target>
+</phrase>
+<phrase>
+    <source>Note</source>
+    <target>Note</target>
+</phrase>
+<phrase>
+    <source>Please select the directory in which the to the directory or file to be saved is to be written.</source>
+    <target>Please select the directory in which the to the directory or file to be saved is to be written.</target>
+</phrase>
+</QPH>
