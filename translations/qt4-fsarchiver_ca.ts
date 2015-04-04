@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -1122,7 +1122,7 @@ backup. key:</source>
     </message>
     <message>
       <source>Hinweis</source>
-      <translation>Hinweis</translation>
+      <translation>Nota</translation>
     </message>
     <message>
       <source>links and</source>
@@ -2034,7 +2034,7 @@ Die Dateiendung muss .fsa sein</name>
     </message>
     <message>
       <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
-      <translation>Si particioneu el btrfs existents per ser formatat? L'UUID nou es defineix aquí. Si decidiu &lt;no&gt;, l'UUID restes conserva.&lt;/no&gt;</translation>
+      <translation>Si la partició actual btrfs s'ha de formatar? L'UUID nou es defineix aquí. Si decidiu &lt;&lt;no&gt;&gt;, l'UUID es conserva.</translation>
     </message>
     <message>
       <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source>
