@@ -2348,12 +2348,12 @@ transmission:</source>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="80"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+        <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../src/filedialog.cpp" line="41"/>
@@ -2580,7 +2580,7 @@ tecla de copia de seguridad:</translation>
         <location filename="../src/mainWindow.cpp" line="543"/>
         <source>To back up home partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation type="unfinished">Para la copia de seguridad se monta la partición En Casa &quot;home.&quot; ¿Quieres hacer una copia de seguridad en vivo?</translation>
+        <translation type="unfinished">Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="561"/>
@@ -4097,7 +4097,7 @@ Versión 0.6.17-4, 01 de junio 2013</translation>
         <location filename="../src/mainWindow.cpp" line="1611"/>
         <source>to be protected/secured partition: / (root system directory) </source>
         <comment>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </comment>
-        <translation type="unfinished">a ser protegido / partición asegurado: (directorio &quot;root&quot;raíz del sistema) /</translation>
+        <translation type="unfinished">a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1616"/>
@@ -5057,10 +5057,10 @@ de nuevo a su ubicación original</translation>
     <message>
         <location filename="../src/ui/setting.ui" line="179"/>
         <source>Show passwords</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Password for network&apos;s view</source>
+        <source>Password for network's view</source>
         <extracomment>Passwort für Netzwerk * anzeigen</extracomment>
         <translation type="obsolete">Contraseña de vista del red</translation>
     </message>
