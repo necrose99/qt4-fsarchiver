@@ -9,7 +9,7 @@
         <location filename="../src/clone.cpp" line="343"/>
         <source>Clone Harddrive</source>
         <comment>Festplatte klonen</comment>
-        <translation type="unfinished">Clonar Existen disco duro</translation>
+        <translation>Clonar Existen disco duro</translation>
     </message>
     <message>
         <source>alredy saved</source>
@@ -36,7 +36,7 @@
         <location filename="../src/clone.cpp" line="597"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-        <translation type="unfinished">Nota de copia de seguridad permite por defecto</translation>
+        <translation>Nota</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="178"/>
