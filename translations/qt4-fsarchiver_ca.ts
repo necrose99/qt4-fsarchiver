@@ -2096,7 +2096,7 @@ Die Dateiendung muss .fsa sein</name>
     </message>
     <message>
       <source>The partition type is not supported. Maybe the partition is encrypted?</source>
-      <translation>The partition type is not supported. Maybe the partition is encrypted?</translation>
+      <translation>No es reconeix el tipus de partició. Podria ser que la partició estigués encriptada?</translation>
     </message>
     <message>
       <source>The restore of the partition was break by user!</source>
