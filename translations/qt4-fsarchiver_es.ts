@@ -45,14 +45,14 @@
         <source>You must select a hard drive.</source>
         <comment>Sie müssen eine Festplatte auswählen.
 </comment>
-        <translation type="unfinished">Você deve selecionar um disco.</translation>
+        <translation>Você deve selecionar um disco.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="183"/>
         <source>The selected hard drive is too small.</source>
         <comment>Die gewählte Festplatte ist zu klein.
 </comment>
-        <translation type="unfinished">El disco duro seleccionado es demasiado pequeño.</translation>
+        <translation>El disco duro seleccionado es demasiado pequeño.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="189"/>
@@ -61,32 +61,32 @@
         <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
         <comment>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
 </comment>
-        <translation type="unfinished">En el disco duro existe una raíz o una partición casa. Debe necesitar un CD en vivo.</translation>
+        <translation>En el disco duro existe una raíz o una partición casa. Debe necesitar un CD en vivo.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="193"/>
         <source> Do you want really clone the hard drive? All dates on  </source>
         <comment> Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte </comment>
-        <translation type="unfinished">¿Quieres realmente clonar el disco duro? Todas las fechas de</translation>
+        <translation> ¿Quieres realmente clonar el disco duro? Todas las fechas de  </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="193"/>
         <source> are deleted!</source>
         <comment> werden gelöscht!</comment>
-        <translation type="unfinished">Se eliminan!</translation>
+        <translation> Se eliminan!</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="229"/>
         <source>You must select a folder.</source>
         <comment>Sie müssen ein Verzeichnis auswählen.
 </comment>
-        <translation type="unfinished">Debe seleccionar una carpeta.</translation>
+        <translation>Debe seleccionar una carpeta.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="245"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-        <translation type="unfinished">¿Quieres realmente construye una imagen del disco duro?</translation>
+        <translation> ¿Quieres realmente construye una imagen del disco duro? </translation>
     </message>
     <message>
         <source>alredy restored</source>
@@ -98,50 +98,50 @@
         <location filename="../src/clone.cpp" line="211"/>
         <source>already saved</source>
         <comment>bereits gesichert</comment>
-        <translation type="unfinished">ya salvado</translation>
+        <translation>ya salvado</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="272"/>
         <source>already restored</source>
         <comment>bereits zurückgeschrieben</comment>
-        <translation type="unfinished">ya restaurada</translation>
+        <translation>ya restaurada</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="290"/>
         <source>You must select a gz.fsa file or an img.fsa file.</source>
         <comment>Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.
 </comment>
-        <translation type="unfinished">Debe seleccionar un archivo o un archivo gz.fsa img.fsa.</translation>
+        <translation>Debe seleccionar un archivo o un archivo gz.fsa img.fsa.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="307"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
-        <translation type="unfinished">¿Quieres realmente restaurar la imagen del disco duro?</translation>
+        <translation> ¿Quieres realmente restaurar la imagen del disco duro? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="332"/>
         <source>Yes</source>
         <comment>Ja</comment>
-        <translation type="unfinished">Si</translation>
+        <translation>Si</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="333"/>
         <source>No</source>
         <comment>Nein</comment>
-        <translation type="unfinished">No</translation>
+        <translation>No</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="353"/>
         <source>Save Harddrive Image</source>
         <comment>Festplatten Abbild erstellen</comment>
-        <translation type="unfinished">Guardar Imagen Disco Duro</translation>
+        <translation>Guardar Imagen Disco Duro</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="363"/>
         <source>Restore Harddrive Image</source>
         <comment>Festplatten Abbild zurückschreiben</comment>
-        <translation type="unfinished">Restaurar Imagen Disco Duro</translation>
+        <translation>Restaurar Imagen Disco Duro</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="419"/>
@@ -149,55 +149,56 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen
 </comment>
-        <translation type="unfinished">Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa.</translation>
+        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa.
+</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="566"/>
         <source>The clone of the hard drive was successfully.</source>
         <comment>Das Klonen der Festplatte war erfolgreich.
 </comment>
-        <translation type="unfinished">El clon del disco duro fue con éxito.</translation>
+        <translation>El clon del disco duro fue con éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="568"/>
         <source>The backup of the image was successfully.</source>
         <comment>Die Sichern des Abbildes war erfolgreich.
 </comment>
-        <translation type="unfinished">La copia de seguridad del imagen era éxito.</translation>
+        <translation>La copia de seguridad del imagen era éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="570"/>
         <source>The clone of the hard drive was not successfully.</source>
         <comment>Das Klonen der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished">El clon del disco duro no fue exitosa.</translation>
+        <translation>El clon del disco duro no fue exitosa.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="572"/>
         <source>The backup of the image was not successfully.</source>
         <comment>Die Sichern des Abbildes war nicht erfolgreich.
 </comment>
-        <translation type="unfinished">La copia de seguridad del imagen no estaba correctamente.</translation>
+        <translation>La copia de seguridad del imagen no estaba correctamente.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="595"/>
         <source>The restore from the image was successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war erfolgreich.
 </comment>
-        <translation type="unfinished">La restauración del imagen fue exitosamente.</translation>
+        <translation>La restauración del imagen fue exitosamente.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="597"/>
         <source>The restore from the image was not successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war nicht erfolgreich.
 </comment>
-        <translation type="unfinished">La restauración del imagen no estaba correctamente.</translation>
+        <translation>La restauración del imagen no estaba correctamente.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="664"/>
         <source>Do you want really break clone, save or restore an image from the partition?</source>
         <comment>Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</comment>
-        <translation type="unfinished">¿Quieres realmente romper clon, guardar o restaurar una imagen de la partición?</translation>
+        <translation>¿Quieres realmente romper clon, guardar o restaurar una imagen de la partición?</translation>
     </message>
 </context>
 <context>
@@ -207,7 +208,7 @@
         <location filename="../src/clone_net.cpp" line="353"/>
         <source>Save Harddrive Image</source>
         <comment>Festplatten Abbild erstellen</comment>
-        <translation type="unfinished">Guardar Imagen Disco Duro</translation>
+        <translation>Guardar Imagen Disco Duro</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="152"/>
@@ -227,7 +228,7 @@
         <location filename="../src/clone_net.cpp" line="776"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-        <translation type="unfinished">Nota</translation>
+        <translation>Nota</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="152"/>
@@ -235,14 +236,14 @@
         <source>You must select a hard drive.</source>
         <comment>Sie müssen eine Festplatte auswählen.
 </comment>
-        <translation type="unfinished">Você deve selecionar um disco.</translation>
+        <translation>Debe seleccionar un disco duro.</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="156"/>
         <source>You must select a folder.</source>
         <comment>Sie müssen ein Verzeichnis auswählen.
 </comment>
-        <translation type="unfinished">Debe seleccionar una carpeta.</translation>
+        <translation>Debe seleccionar una carpeta.</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="163"/>
@@ -250,7 +251,8 @@
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
-        <translation type="unfinished">Por favor, seleccione el nombre del archivo del copia de seguridad.</translation>
+        <translation>Por favor, seleccione el nombre del archivo del copia de seguridad.
+</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="170"/>
@@ -258,26 +260,26 @@
         <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
         <comment>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
 </comment>
-        <translation type="unfinished">En el disco duro existe una raíz o una partición casa. Debe necesitar un CD en vivo.</translation>
+        <translation>En el disco duro existe una raíz o una partición casa. Debe necesitar un CD en vivo.</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="182"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-        <translation type="unfinished">¿Quieres realmente construye una imagen del disco duro?</translation>
+        <translation> ¿Quieres realmente construida una imagen desde el disco duro? </translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="241"/>
         <source>You must select a fsa.gz file.</source>
         <comment>Sie müssen eine fsa.gz Datei auswählen.
 </comment>
-        <translation type="unfinished">Debe seleccionar un archivo fsa.gz.</translation>
+        <translation>Debe seleccionar un archivo fsa.gz.</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="258"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
-        <translation type="unfinished">¿Quieres realmente restaurar la imagen del disco duro?</translation>
+        <translation> ¿Quieres realmente restaurar la imagen del disco duro? </translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="291"/>
@@ -285,25 +287,26 @@
 </source>
         <comment>Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.
 </comment>
-        <translation type="unfinished">No se puede encontrar un directorio compartido. El programa se termina.</translation>
+        <translation>No se puede encontrar un directorio compartido. El programa se termina.
+</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="342"/>
         <source>Yes</source>
         <comment>Ja</comment>
-        <translation type="unfinished">Si</translation>
+        <translation>Si</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="343"/>
         <source>No</source>
         <comment>Nein</comment>
-        <translation type="unfinished">No</translation>
+        <translation>No</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="362"/>
         <source>Restore Harddrive Image</source>
         <comment>Festplatten Abbild zurückschreiben</comment>
-        <translation type="unfinished">Restaurar Imagen Disco Duro</translation>
+        <translation>Restaurar Imagen Disco Duro</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="409"/>
@@ -311,47 +314,48 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz Datei auswählen
 </comment>
-        <translation type="unfinished">Ha seleccionado una carpeta. Debe seleccionar un archivo fsa.gz.</translation>
+        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo fsa.gz.
+</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="523"/>
         <source>The backup of the image was successfully.</source>
         <comment>Die Sichern des Abbildes war erfolgreich.
 </comment>
-        <translation type="unfinished">La copia de seguridad del imagen era éxito.</translation>
+        <translation>La copia de seguridad del imagen era éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="525"/>
         <source>The backup of the image was not successfully.</source>
         <comment>Die Sichern des Abbildes war nicht erfolgreich.
 </comment>
-        <translation type="unfinished">La copia de seguridad del imagen no estaba correctamente.</translation>
+        <translation>La copia de seguridad del imagen no estaba correctamente.</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="542"/>
         <source>The restore from the image was successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war erfolgreich.
 </comment>
-        <translation type="unfinished">La restauración del imagen fue exitosamente.</translation>
+        <translation>La restauración del imagen fue exitosamente.</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="544"/>
         <source>The restore from the image was not successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war nicht erfolgreich.
 </comment>
-        <translation type="unfinished">La restauración del imagen no estaba correctamente.</translation>
+        <translation>La restauración del imagen no estaba correctamente.</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="602"/>
         <source>Do you want really break save or restore an image from the partition?</source>
         <comment>Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</comment>
-        <translation type="unfinished">¿Quieres realmente romper guardar o restaurar una imagen de la partición?</translation>
+        <translation>¿Quieres realmente romper guardar o restaurar una imagen de la partición?</translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="777"/>
         <source>The network computer </source>
         <comment>Der Netzwerkrechner </comment>
-        <translation type="unfinished">Nombre del ordenador de red</translation>
+        <translation>Nombre del ordenador de red </translation>
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="777"/>
@@ -359,7 +363,8 @@
 </source>
         <comment> konnte nicht eingebunden werden. Das Programm wird abgebrochen
 </comment>
-        <translation type="unfinished">no podría ser integrado. El programa es abortado</translation>
+        <translation> no podría ser integrado. El programa es abortado
+</translation>
     </message>
 </context>
 <context>
@@ -367,42 +372,42 @@
     <message>
         <location filename="../src/dir.cpp" line="89"/>
         <source>gzip fast</source>
-        <translation type="unfinished">Usar gzip</translation>
+        <translation>Usar gzip</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="89"/>
         <source>gzip standard</source>
-        <translation type="unfinished">Usar gzip</translation>
+        <translation>Usar gzip</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="89"/>
         <source>qzip best</source>
-        <translation type="unfinished">qzip mejor</translation>
+        <translation>qzip mejor</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="89"/>
         <source>bzip2 fast</source>
-        <translation type="unfinished">bzip2 rápido</translation>
+        <translation>bzip2 rápido</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="92"/>
         <source>bzip2 good</source>
-        <translation type="unfinished">bzip2 mejor</translation>
+        <translation>bzip2 mejor</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="92"/>
         <source>lzma fast</source>
-        <translation type="unfinished">lzma rápido</translation>
+        <translation>lzma rápido</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="92"/>
         <source>lzma medium</source>
-        <translation type="unfinished">lzma medias</translation>
+        <translation>lzma medias</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="92"/>
         <source>lzma best</source>
-        <translation type="unfinished">lzma mejor</translation>
+        <translation>lzma mejor</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="132"/>
@@ -410,14 +415,14 @@
 backup. key:</source>
         <comment>Sicherung
 verschlüsseln. Schlüssel:</comment>
-        <translation type="unfinished">Encriptar tecla 
+        <translation>Encriptar tecla 
 de copia de seguridad:</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="133"/>
         <source>Directory save</source>
         <comment>Verzeichnis sichern</comment>
-        <translation type="unfinished">Directorio de guardar</translation>
+        <translation>Directorio de guardar</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="134"/>
@@ -429,7 +434,7 @@ de copia de seguridad:</translation>
         <location filename="../src/dir.cpp" line="135"/>
         <source>Location (path) of the backup</source>
         <comment>Ort (Pfad) der Sicherung</comment>
-        <translation type="unfinished">Ubicación (camino) del copia de seguridad</translation>
+        <translation>Ubicación (camino) del copia de seguridad</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="148"/>
@@ -444,19 +449,19 @@ tecla de copia de seguridad</translation>
         <location filename="../src/dir.cpp" line="149"/>
         <source>Directory restore</source>
         <comment>Verzeichnis zurückschreiben</comment>
-        <translation type="unfinished">Directorio de restaurar</translation>
+        <translation>Restauración de directorio</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="150"/>
         <source>back to write backup file</source>
         <comment>zurück zu schreibende Sicherungsdatei</comment>
-        <translation type="unfinished">copia de seguridad para: escribir el archivo de copia de seguridad</translation>
+        <translation>volver a escribir el archivo de respaldo</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="151"/>
         <source>Location (path) of the restore</source>
         <comment>Ort (Pfad) der Wiederherstellung</comment>
-        <translation type="unfinished">Localización (camino) de la restauración</translation>
+        <translation>Localización (camino) de la restauración</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="202"/>
@@ -486,7 +491,7 @@ tecla de copia de seguridad</translation>
         <location filename="../src/dir.cpp" line="673"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-        <translation type="unfinished">Nota</translation>
+        <translation>Nota</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="203"/>
@@ -494,7 +499,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Verschlüsselung angegeben.
 </comment>
-        <translation type="unfinished">No había ninguna clave para el cifrado especificado.</translation>
+        <translation>No había ninguna clave para el cifrado especificado.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="209"/>
@@ -502,7 +508,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.
 </comment>
-        <translation type="unfinished">Por favor, seleccione el directorio en el que el al directorio o archivo para ser salvo es ser escrit.</translation>
+        <translation>Por favor, seleccione el directorio en el cual el directorio o archivo para salvarse es escrita.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="215"/>
@@ -510,7 +517,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.
 </comment>
-        <translation type="unfinished">Por favor, seleccione el directorio que ser o archivo que desea guardar.</translation>
+        <translation>Por favor, seleccione el directorio o archivo para salvarse.
+</translation>
     </message>
     <message>
         <source>Hinweis</source>
@@ -522,7 +530,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation type="unfinished">Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa</translation>
+        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="251"/>
@@ -531,13 +540,14 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
 </comment>
-        <translation type="unfinished">La longitud de la clave debe estar entre 6 y 64 caractere</translation>
+        <translation>La longitud de la clave debe estar entre 6 y 64 caractere
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="269"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
-        <translation type="unfinished">El archivo de la partición</translation>
+        <translation>El archivo de la partición </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="270"/>
@@ -545,7 +555,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
 </comment>
-        <translation type="unfinished">ya existe. No se realiza la copia de segurida</translation>
+        <translation>ya existe. No se realiza la copia de segurida
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="291"/>
@@ -553,7 +564,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation type="unfinished">No había llave para descifrar especificado.</translation>
+        <translation>No había llave para descifrar especificado.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="298"/>
@@ -561,7 +573,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.
 </comment>
-        <translation type="unfinished">Seleccione el directorio en el que se va a recuperar la imagen guardada.</translation>
+        <translation>Seleccione el directorio en el que se va a recuperar la imagen guardada.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="304"/>
@@ -569,7 +582,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie die vorhandene Sicherungsdatei aus.
 </comment>
-        <translation type="unfinished">Por favor, seleccione el archivo de copia de seguridad existente.</translation>
+        <translation>Por favor, seleccione el archivo de copia de seguridad existente.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="310"/>
@@ -577,7 +591,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen
 </comment>
-        <translation type="unfinished">Ha seleccionado un directorio. Es necesario un archivo de copia de seguridad al extensión. Fsa selecciona</translation>
+        <translation>Ha seleccionado un directorio. Es necesario un archivo de copia de seguridad al extensión. Fsa selecciona
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="317"/>
@@ -586,14 +601,14 @@ tecla de copia de seguridad</translation>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
         <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
-Los archivos deben terminar al FSA.</translation>
+ Los archivos deben terminar al FSA.</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="331"/>
         <source>The partition is encrypted. Please enter the key</source>
         <comment>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
 </comment>
-        <translation type="unfinished">La partición está encriptada. Por favor, introduzca la clave</translation>
+        <translation>La partición está encriptada. Por favor, introduzca la clave</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="346"/>
@@ -973,7 +988,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa</translation>
+        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa
+</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="384"/>
@@ -1297,7 +1313,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
 </comment>
-        <translation>La copia de seguridad de la carpeta fue abortada por el usuario!</translation>
+        <translation>La copia de seguridad de la carpeta fue abortada por el usuario!
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="760"/>
@@ -1305,7 +1322,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>No había ninguna clave para el cifrado especificado.</translation>
+        <translation>No había ninguna clave para el cifrado especificado.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="772"/>
@@ -1374,8 +1392,8 @@ Los archivos deben terminar al FSA.</translation>
         <location filename="../src/net.cpp" line="858"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation>En el número guardado
- Archivos/directorios:</translation>
+        <translation> En el número guardado
+ Archivos/directorios:  </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="858"/>
@@ -1956,8 +1974,7 @@ clave de copia de seguridad:</translation>
     <message>
         <location filename="../src/setting.cpp" line="45"/>
         <source>SSH</source>
-        <translation>SSH
-</translation>
+        <translation>SSH</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="45"/>
@@ -1984,7 +2001,8 @@ clave de copia de seguridad:</translation>
 </source>
         <comment>Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache
 </comment>
-        <translation>La traducción está en curso. Por favor, elija otro idioma</translation>
+        <translation>La traducción está en curso. Por favor, elija otro idioma
+</translation>
     </message>
     <message>
         <source>The translation is in progress. Please choose an other language
@@ -2326,7 +2344,7 @@ transmission:</source>
         <location filename="../src/ui/filedialog.ui" line="14"/>
         <source>Description of the backup</source>
         <extracomment>Beschreibung der Sicherung</extracomment>
-        <translation>Descripción:</translation>
+        <translation>Descripción de la copia de seguridad</translation>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="26"/>
@@ -2757,7 +2775,7 @@ Los archivos deben terminar al fsa</translation>
         <location filename="../src/mainWindow.cpp" line="1019"/>
         <source>The restoring is performed</source>
         <comment>Die Wiederherstellung wird durchgeführt</comment>
-        <translation>La restauración del directorio se ha realizado correctamente.</translation>
+        <translation>La restauración se realiza</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1079"/>
@@ -2856,8 +2874,10 @@ partitions, directory and MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
 All rights reserved.
 Version 0.6.19-2, April 27, 2014</source> 
-            <translation>Copia de seguridad y restauración de particiones, directorios y MBR Copyright (C) 2008-2014 Francois Dupoux y Dieter ...</translation> 
-        </message> 
+            <translation>Backup y restore, directorio de volúmenes y particiones MBR Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+Todos los derechos reservados.
+Versión 0.6.19-2, 27 de Abril de 2014</translation>
+    </message> 
         <message>
             <source>Backup and restore
 partitions, directory and MBR
