@@ -3279,8 +3279,8 @@ chiave di riserva</translation>
         <name>Eingabe_Net</name> 
         <message>
             <source>Achievable in the network computer:</source> 
-            <translation>Il computer di rete</translation> 
-        </message> 
+            <translation>ウェブアクセス可能なコンピュータ上で。</translation>
+    </message> 
         <message>
             <source>Achievable network computer:</source> 
             <translation>達成可能なネットワークコンピュータ：</translation> 
@@ -3303,8 +3303,8 @@ chiave di riserva</translation>
         </message> 
         <message>
             <source>Password:</source> 
-            <translation>パスワード</translation> 
-        </message> 
+            <translation>パスワード:</translation>
+    </message> 
         <message>
             <source>Save data</source> 
             <translation>Dati d'ingresso rete di salvare</translation> 
@@ -4547,8 +4547,8 @@ backup. key:</translation>
         </message> 
         <message>
             <source>UUID:</source> 
-            <translation>UUID: </translation> 
-        </message> 
+            <translation>UUID:</translation>
+    </message> 
         <message>
             <source>Yes</source> 
             <translation>はい</translation> 
