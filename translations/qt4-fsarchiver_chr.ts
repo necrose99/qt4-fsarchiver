@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -601,11 +601,11 @@ with fsarchiver</translation>
     </message>
     <message>
       <source>No</source>
-      <translation>No</translation>
+      <translation>Ꮭ</translation>
     </message>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
     <message>
       <source>Restore Harddrive Image</source>
@@ -621,7 +621,7 @@ with fsarchiver</translation>
     </message>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
     <message>
       <source>You must select a folder.</source>
@@ -661,14 +661,14 @@ with fsarchiver</translation>
     <name>DialogClone|Hinweis</name>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
   </context>
   <context>
     <name>DialogClone|Ja</name>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
   </context>
   <context>
@@ -750,7 +750,7 @@ with fsarchiver</translation>
     </message>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
     <message>
       <source>Restore Harddrive Image</source>
@@ -840,14 +840,14 @@ with fsarchiver</translation>
     <name>DialogClone_net|Hinweis</name>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
   </context>
   <context>
     <name>DialogClone_net|Ja</name>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
   </context>
   <context>
@@ -2402,7 +2402,7 @@ backup. key:</translation>
     </message>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
     <message>
       <source>You have entered an incorrect password.</source>
@@ -2655,7 +2655,7 @@ backup. key:</translation>
     <name>DialogNet|Ja</name>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
   </context>
   <context>
@@ -3225,7 +3225,7 @@ backup key</translation>
     <name>FileDialog|Hinweis</name>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
   </context>
   <context>
@@ -3256,7 +3256,7 @@ backup key</translation>
     </message>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
     <message>
       <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
@@ -4231,7 +4231,7 @@ backup. key:</translation>
     </message>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
     <message>
       <source>Operating system:</source>
@@ -4373,7 +4373,7 @@ backup. key:</translation>
     </message>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
     <message>
       <source>You have entered an incorrect password.</source>
@@ -4635,7 +4635,7 @@ backup. key:</translation>
     <name>MWindow|Hinweis</name>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
   </context>
   <context>
@@ -4658,7 +4658,7 @@ backup. key:</translation>
     <name>MWindow|Ja</name>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
   </context>
   <context>
@@ -5000,7 +5000,7 @@ The files should end with. fsa be</translation>
     </message>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
     <message>
       <source>The network computer</source>
@@ -5008,7 +5008,7 @@ The files should end with. fsa be</translation>
     </message>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
   </context>
   <context>
@@ -5024,7 +5024,7 @@ The files should end with. fsa be</translation>
     <name>NetEin|Hinweis</name>
     <message>
       <source>Note</source>
-      <translation>Note</translation>
+      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
     </message>
   </context>
   <context>
@@ -5038,7 +5038,7 @@ The files should end with. fsa be</translation>
     <name>NetEin|Ja</name>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation>ᎥᎥ</translation>
     </message>
   </context>
   <context>
