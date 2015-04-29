@@ -600,8 +600,8 @@ tecla de copia de seguridad</translation>
  The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
- Los archivos deben terminar al FSA.</translation>
+        <translation>Has seleccionado el archivo de recuperación mal seleccionado.
+ Los archivos deben terminar con. FSA ser</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="331"/>
@@ -615,7 +615,7 @@ Die Dateiendung muss .fsa sein</comment>
         <source>You have entered an incorrect password.</source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation type="unfinished">Ha introducido una contraseña incorrecta.</translation>
+        <translation>Ha introducido una contraseña incorrecta.</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="438"/>
@@ -623,26 +623,27 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Sicherung des Verzeichnisses war erfolgreich.
 </comment>
-        <translation type="unfinished">La restauración del directorio se ha realizado correctamente.</translation>
+        <translation>La restauración del directorio se ha realizado correctamente.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
         <location filename="../src/dir.cpp" line="492"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation type="unfinished"> archivos </translation>
+        <translation> archivos </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
         <source>  directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation type="unfinished"> directorios, </translation>
+        <translation type="unfinished">  directorios, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
         <source>  links and </source>
         <comment> Links und </comment>
-        <translation type="unfinished"> enlaces y </translation>
+        <translation type="unfinished">  enlaces y </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
@@ -656,20 +657,21 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation type="unfinished">La copia de seguridad de la carpeta fue abortada por el usuario!</translation>
+        <translation>La copia de seguridad de la carpeta fue abortada por el usuario.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="458"/>
         <source> Files, </source>
         <comment> Dateien, </comment>
-        <translation type="unfinished"> archivos, </translation>
+        <translation> Archivos, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="459"/>
         <location filename="../src/dir.cpp" line="510"/>
         <source> directories, and </source>
         <comment> Verzeichnisse und </comment>
-        <translation type="unfinished"> directorios, </translation>
+        <translation> directorios, y </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="460"/>
@@ -677,7 +679,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment> Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich
 </comment>
-        <translation type="unfinished"> Los vínculos no fueron respaldados correctamente. La copia de seguridad de los directorios era sólo un éxito parcia</translation>
+        <translation> Enlaces no fueron debidamente respaldados. La copia de seguridad de los directorios sólo fue parcialmente exitosa
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="491"/>
@@ -685,19 +688,20 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Wiederherstellung des Verzeichnisses war erfolgreich.
 </comment>
-        <translation type="unfinished">La restauración del directorio se ha realizado correctamente.</translation>
+        <translation>La restauración del directorio fue exitosa.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation type="unfinished"> directorios,</translation>
+        <translation type="unfinished"> directorios, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
         <source> links and </source>
         <comment> Links und </comment>
-        <translation type="unfinished"> enlaces y</translation>
+        <translation> enlaces y </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
@@ -1347,8 +1351,8 @@ Die Dateiendung muss .fsa sein</comment>
 The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
-Los archivos deben terminar al FSA.</translation>
+        <translation>Has seleccionado el archivo de recuperación mal seleccionado.
+Los archivos deben terminar con. FSA ser</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="794"/>
@@ -3056,8 +3060,8 @@ Versión 0.6.19-7, 2 de septiembre 2014</translation>
         </message> 
         <message>
             <source>Links were not correctly restored. The recovery of the volume was only partially successful.</source> 
-            <translation>Links were not correctly restored. The recovery of the volume was only partially successful.</translation> 
-        </message> 
+            <translation>Enlaces no fueron restaurados correctamente. La recuperación del volumen sólo fue parcialmente exitosa.</translation>
+    </message> 
         <message>
             <source>Links were not correctly restored. The recovery of the volume was only partially successful.</source> 
             <translation>vínculos no se han restaurado correctamente. La restauración de las listas era sólo un éxito parcial</translation> 
@@ -3522,8 +3526,8 @@ tecla de copia de seguridad:</translation>
         <name>MWindow| Dateien,</name> 
         <message>
             <source> files, </source> 
-            <translation>archivos,</translation> 
-        </message> 
+            <translation> archivos, </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?</name> 
@@ -3717,8 +3721,9 @@ tecla de copia de seguridad:</translation>
         <message>
             <source> already exists. The backup is not performed
 </source> 
-            <translation>ya existe. No se realiza la copia de seguridad</translation> 
-        </message> 
+            <translation> ya existe. No se realiza la copia de seguridad
+</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Ja</name> 
@@ -3735,8 +3740,8 @@ tecla de copia de seguridad:</translation>
         </message> 
         <message>
             <source> can not be unmounted. The program is terminated</source> 
-            <translation>no se puede desmontar. El programa es terminado</translation> 
-        </message> 
+            <translation> no se puede desmontar. El programa es terminado</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Kompression:</name> 
@@ -3757,8 +3762,9 @@ tecla de copia de seguridad:</translation>
         <message>
             <source> links were not properly backed. The backup of the partition was only partially successful.
 </source> 
-            <translation>Los vínculos no fueron respaldados correctamente. La copia de seguridad de la partición fue sólo un éxito parcial.</translation> 
-        </message> 
+            <translation> Los vínculos no fueron respaldados correctamente. La copia de seguridad de la partición fue sólo un éxito parcial.
+</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.</name> 
@@ -3771,8 +3777,8 @@ tecla de copia de seguridad:</translation>
         <name>MWindow| Links</name> 
         <message>
             <source> links </source> 
-            <translation>vínculos</translation> 
-        </message> 
+            <translation> enlaces </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Nein</name> 
