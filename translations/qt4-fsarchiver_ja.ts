@@ -83,9 +83,8 @@ MBR
         </message> 
         <message>
             <source>Image of a hard disk to create:</source> 
-            <translation>作成するには、
-ハードディスクのイメージ</translation> 
-        </message> 
+            <translation>作成するハード ディスク イメージ:</translation>
+    </message> 
         <message>
             <source>Image of a hard disk write back</source> 
             <translation>ハードディスクのイメージ
@@ -165,8 +164,8 @@ MBR
         </message> 
         <message>
             <source>already saved:</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;すでに保存：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>既に保存されています。</translation>
+    </message> 
         <message>
             <source>Cancel</source> 
             <translation>_キャンセル</translation> 
@@ -417,8 +416,8 @@ con fsArchiver</translation>
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;p&gt;&lt;span id="result_box" class="short_text" lang="ja"&gt;&lt;span&gt;ネットワーク伝送&lt;/span&gt;&lt;span&gt;のためのプロトコル&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt; &lt;body&gt;&lt;p&gt;ネットワーク伝送用のプロトコル:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Protocoll for network
 transmission:</source> 
@@ -941,12 +940,12 @@ CDが必要
         <name>DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name> 
         <message>
             <source>Do you want really restore the image of the hard drive? </source> 
-            <translation>あなたは本当にハードドライブのイメージを復元しますか？</translation> 
-        </message> 
+            <translation>本当にハード ドライブのイメージを復元しますか。 </translation>
+    </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>あなたは本当にハードドライブのイメージを復元しますか？</translation> 
-        </message> 
+            <translation> 本当にハード ドライブのイメージを復元しますか。 </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</name> 
@@ -1002,8 +1001,8 @@ CDが必要
         </message> 
         <message>
             <source> Do you want really restore the image of the hard drive? </source> 
-            <translation>あなたは本当にハードドライブからイメージを構築したいですか？</translation> 
-        </message> 
+            <translation> 本当にハード ドライブのイメージを復元しますか。 </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</name> 
@@ -1362,8 +1361,8 @@ backup. key:</translation>
         <name>DialogDIR|Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!</name> 
         <message>
             <source>The restoration of the directory was canceled by the user!</source> 
-            <translation>ディレクトリの復元はユーザーだった</translation> 
-        </message> 
+            <translation>ディレクトリの復元はユーザーによって取り消されました ！</translation>
+    </message> 
         <message>
             <source>The restore of the folder was break by user!
 </source> 
@@ -4759,9 +4758,8 @@ backup. key:</translation>
         <name>MWindow|Die Wiederherstellung der Partition  wurde vom Benutzer abgebrochen!</name> 
         <message>
             <source>The restore of the partition was canceled by user!</source> 
-            <translation>il ripristino della directory annullata dall'utente!
-</translation> 
-        </message> 
+            <translation>パーティションの復元はユーザーによって取り消されました ！</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Die Wiederherstellung wird durchgeführt</name> 
