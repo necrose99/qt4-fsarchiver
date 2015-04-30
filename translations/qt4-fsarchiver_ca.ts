@@ -2100,23 +2100,23 @@ Die Dateiendung muss .fsa sein</name>
     </message>
     <message>
       <source>The restore of the partition was break by user!</source>
-      <translation>The restore of the partition was break by user!</translation>
+      <translation>La restauració de la partició ha estat interrompuda pel usuari!</translation>
     </message>
     <message>
       <source>The restore of the partition was only partially successful.</source>
-      <translation>The restore of the partition was only partially successful.</translation>
+      <translation>La restauració de la partició només ha estat parcial.</translation>
     </message>
     <message>
       <source>The restored home partition is mounted and can not be restored. Please use a live CD</source>
-      <translation>The restored home partition is mounted and can not be restored. Please use a live CD</translation>
+      <translation>La partició inicial a restaurar esta muntada i no es pot restaurar. Utilitzeu un live CD</translation>
     </message>
     <message>
       <source>The SSH server is not reachable. Try again or with another network protocol.</source>
-      <translation>The SSH server is not reachable. Try again or with another network protocol.</translation>
+      <translation>El servidor SSH no està disponible. Proveu altre cop o amb un altre protocol de xarxa.</translation>
     </message>
     <message>
       <source>The system partition to be saved is mounted. Do you want to do a live backup?</source>
-      <translation>The system partition to be saved is mounted. Do you want to do a live backup?</translation>
+      <translation>El sistema de particions a desar està muntat. Voleu fer una còpia de seguretat en calent?</translation>
     </message>
     <message>
       <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR</source>
