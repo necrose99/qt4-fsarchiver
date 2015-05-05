@@ -1,7 +1,7 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: necrose99 Exp $
-
+# $Header: Necrose99 Proxymaintier  Exp $
+#ssh-fs & cifs / samba are highly recomened for network backups and LIVE rescue type disk/s
 EAPI=5
 
 inherit qmake-utils versionator
@@ -11,7 +11,8 @@ MIN_PV="$(get_version_component_range 1-3)"
 
 DESCRIPTION="Qt4 frontend for fsarchiver"
 HOMEPAGE="http://qt4-fsarchiver.sourceforge.net/"
-SRC_URI="mirror://sourceforge/${PN}/source/${MY_P}.tar.gz"
+SRC_URI="mirror://sourceforge/${PN}/source/${MY_P}.tar.gz
+https://github.com/necrose99/qt4-fsarchiver/raw/master/SRC-TARBALLS/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -44,11 +45,9 @@ src_prepare() {
 		-e "/icon.path/s:app-install/icons:${PN}:" "${PN}.pro" \
 		|| die "sed on ${PN}.pro failed"
 }
-
-src_compile() {
-	eqmake4
+src_configure() {
+	eqmake
 }
-
 src_install() {
 	emake INSTALL_ROOT="${D}" install
 	einstalldocs
