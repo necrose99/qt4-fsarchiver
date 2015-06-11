@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -13,35 +13,35 @@
     <name>clone_dialog</name>
     <message>
       <source>Directory in which the image is written</source>
-      <translation>Režija u kojoj je zapisano imidž</translation>
+      <translation>Директоријум где је одраз уписан</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;HTML&gt;у оквиру ознаке&lt;Head/&gt;&lt;тело&gt;&lt;p&gt;Он је већ спасао:&lt;/п&gt;&lt;/боди&gt;&lt;/HTML&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;већ сачувано:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>already saved:</source>
-      <translation>već je spasio:</translation>
+      <translation>већ сачувано:</translation>
     </message>
     <message>
       <source>Backup directory:</source>
-      <translation>Каталог бацкуп:</translation>
+      <translation type="unfinished">Директоријум за бекап:</translation>
     </message>
     <message>
       <source>Cancel</source>
-      <translation>Otkaži</translation>
+      <translation>Одустани</translation>
     </message>
     <message>
       <source>Clone hard disk</source>
-      <translation>Клон хард диска</translation>
+      <translation>Клонирање хард диска</translation>
     </message>
     <message>
       <source>Clone hard drive</source>
-      <translation>Клон хард диск</translation>
+      <translation>Клонирање хард диска</translation>
     </message>
     <message>
       <source>CommandLinkButton</source>
-      <translation>CommandLinkButton</translation>
+      <translation/>
     </message>
     <message>
       <source>elapsed time:</source>
@@ -49,7 +49,7 @@
     </message>
     <message>
       <source>Exist harddrive:</source>
-      <translation>Постоји хард диска:</translation>
+      <translation>Постојећи хард диск:</translation>
     </message>
     <message>
       <source>Exit</source>
@@ -57,11 +57,11 @@
     </message>
     <message>
       <source>f</source>
-      <translation>Ф</translation>
+      <translation>ф</translation>
     </message>
     <message>
       <source>hours:</source>
-      <translation>сата:</translation>
+      <translation>сати:</translation>
     </message>
     <message>
       <source>hours</source>
@@ -69,23 +69,23 @@
     </message>
     <message>
       <source>Image of a hard disk to create</source>
-      <translation>Слику хард диска да се створи</translation>
+      <translation>Прављење одраза хард диска</translation>
     </message>
     <message>
       <source>Image of a hard disk to create:</source>
-      <translation>Слику хард диска да се створи:</translation>
+      <translation>Прављење одраза хард диска:</translation>
     </message>
     <message>
       <source>Image of a hard disk write back</source>
-      <translation>Слику хард диска, снимите назад</translation>
+      <translation>Враћање одраза хард диска</translation>
     </message>
     <message>
       <source>MB</source>
-      <translation>МБ</translation>
+      <translation>MB</translation>
     </message>
     <message>
       <source>MB/sec</source>
-      <translation>Mb/с</translation>
+      <translation>MB/s</translation>
     </message>
     <message>
       <source>minutes:</source>
@@ -101,7 +101,7 @@
     </message>
     <message>
       <source>Proposed action:</source>
-      <translation>Предложене акције:</translation>
+      <translation>Предложене радње:</translation>
     </message>
     <message>
       <source>remaining time:</source>
