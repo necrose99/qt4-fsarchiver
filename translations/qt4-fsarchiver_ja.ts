@@ -63,7 +63,7 @@
         <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
         <comment>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
 </comment>
-        <translation>Sul disco rigido esiste una radice o di una partizione casa. È necessario bisogno di un live-CD.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="200"/>
@@ -101,7 +101,7 @@
         <source>You must select a gz.fsa file or an img.fsa file.</source>
         <comment>Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.
 </comment>
-        <translation>È necessario selezionare un file gz.fsa o un file img.fsa.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="314"/>
@@ -113,7 +113,7 @@
         <location filename="../src/clone.cpp" line="339"/>
         <source>Yes</source>
         <comment>Ja</comment>
-        <translation>hai</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="340"/>
@@ -139,7 +139,7 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen
 </comment>
-        <translation>You have selected a folder. You must select a gz.fsa file.
+        <translation type="unfinished">あなたは、フォルダを選択している。あなたはgz.fsaファイルを選択する必要があります。.
 </translation>
     </message>
     <message>
@@ -161,34 +161,34 @@
         <source>The clone of the hard drive was not successfully.</source>
         <comment>Das Klonen der Festplatte war nicht erfolgreich.
 </comment>
-        <translation>Il clone del disco rigido non è stato correttamente.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="581"/>
         <source>The backup of the image was not successfully.</source>
         <comment>Die Sichern des Abbildes war nicht erfolgreich.
 </comment>
-        <translation>画像のバックアップが正常ではなかった。</translation>
+        <translation type="unfinished">画像のバックアップが正常ではなかった。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="608"/>
         <source>The restore from the image was successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war erfolgreich.
 </comment>
-        <translation>イメージからの復元が正常に。</translation>
+        <translation type="unfinished">イメージからの復元が正常に。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="610"/>
         <source>The restore from the image was not successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war nicht erfolgreich.
 </comment>
-        <translation>Il ripristino dall&apos;immagine non era successo.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="677"/>
         <source>Do you want really break clone, save or restore an image from the partition?</source>
         <comment>Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</comment>
-        <translation>Vuoi davvero rompere clone, salvare o ripristinare un&apos;immagine dalla partizione?</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -362,12 +362,12 @@
     <message>
         <location filename="../src/dir.cpp" line="89"/>
         <source>gzip fast</source>
-        <translation>速いGZIP</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="89"/>
         <source>gzip standard</source>
-        <translation>GZIPの標準</translation>
+        <translation>standard di gzip</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="89"/>
@@ -382,22 +382,22 @@
     <message>
         <location filename="../src/dir.cpp" line="92"/>
         <source>bzip2 good</source>
-        <translation>bzip2 buono</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="92"/>
         <source>lzma fast</source>
-        <translation>LZMA 速い</translation>
+        <translation>LZMA速い</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="92"/>
         <source>lzma medium</source>
-        <translation>LZMA 媒体</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="92"/>
         <source>lzma best</source>
-        <translation>LZMA のベスト</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="132"/>
@@ -405,26 +405,25 @@
 backup. key:</source>
         <comment>Sicherung
 verschlüsseln. Schlüssel:</comment>
-        <translation>Encrypt
-backup. key:</translation>
+        <translation type="unfinished">暗号化キー:</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="133"/>
         <source>Directory save</source>
         <comment>Verzeichnis sichern</comment>
-        <translation>salvare direttorio</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="134"/>
         <source>to saved Directory</source>
         <comment>zu sicherndes Verzeichnis</comment>
-        <translation>a Directory salvato</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="135"/>
         <source>Location (path) of the backup</source>
         <comment>Ort (Pfad) der Sicherung</comment>
-        <translation>Posizione (percorso) della riserva:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="148"/>
@@ -432,14 +431,13 @@ backup. key:</translation>
 backup. key:</source>
         <comment>Sicherung
 entschlüsseln. Schlüssel:</comment>
-        <translation>Decrypt
-backup. key:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="149"/>
         <source>Directory restore</source>
         <comment>Verzeichnis zurückschreiben</comment>
-        <translation>Ripristinare direttorio</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="150"/>
@@ -481,7 +479,7 @@ backup. key:</translation>
         <location filename="../src/dir.cpp" line="673"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-        <translation>Riferimento</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="203"/>
@@ -489,7 +487,7 @@ backup. key:</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Verschlüsselung angegeben.
 </comment>
-        <translation>There was no key for encryption specified.
+        <translation type="unfinished">.
 </translation>
     </message>
     <message>
@@ -506,7 +504,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.
 </comment>
-        <translation>Please select the to be directory or file to be saved.
+        <translation type="unfinished">.
 </translation>
     </message>
     <message>
@@ -1086,12 +1084,12 @@ Die Dateiendung muss .fsa sein</comment>
     <message>
         <location filename="../src/net.cpp" line="130"/>
         <source>gzip fast</source>
-        <translation>速いGZIP</translation>
+        <translation>gzip veloce</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="131"/>
         <source>gzip standard</source>
-        <translation>GZIPの標準</translation>
+        <translation>standard di gzip</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="132"/>
@@ -1111,17 +1109,17 @@ Die Dateiendung muss .fsa sein</comment>
     <message>
         <location filename="../src/net.cpp" line="135"/>
         <source>lzma fast</source>
-        <translation>LZMA 速い</translation>
+        <translation>LZMA速い</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="136"/>
         <source>lzma medium</source>
-        <translation>LZMA 媒体</translation>
+        <translation>lzma medium</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="137"/>
         <source>lzma best</source>
-        <translation>LZMA のベスト</translation>
+        <translation>lzma best</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="332"/>
@@ -1771,7 +1769,7 @@ backup. key:</translation>
         <location filename="../src/setting.cpp" line="33"/>
         <source>Russian</source>
         <comment>Russisch</comment>
-        <translation type="unfinished">ロシア</translation>
+        <translation>ロシア</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="33"/>
@@ -1789,7 +1787,7 @@ backup. key:</translation>
         <location filename="../src/setting.cpp" line="33"/>
         <source>Chinese</source>
         <comment>Chinesisch</comment>
-        <translation type="unfinished">中国人</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
@@ -1805,255 +1803,87 @@ backup. key:</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
-        <source>Arabic</source>
-        <comment>Arabisch</comment>
-        <translation type="unfinished">アラビア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="34"/>
-        <source>Catalan</source>
-        <comment>Katalanisch</comment>
-        <translation type="unfinished">カタロニア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="34"/>
-        <source>Danish</source>
-        <comment>Dänisch</comment>
-        <translation type="unfinished">デンマーク語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="34"/>
         <source>French</source>
-        <comment>Französisch</comment>
-        <translation type="unfinished">フランス語</translation>
+        <comment>Französich</comment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="34"/>
-        <source>Czech</source>
-        <comment>Tschechisch</comment>
-        <translation type="unfinished">チェコ語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="35"/>
-        <source>Greek</source>
-        <comment>Griechisch</comment>
-        <translation type="unfinished">ギリシャ語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="35"/>
-        <source>Finnish</source>
-        <comment>Finnisch</comment>
-        <translation type="unfinished">フィンランド語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="35"/>
-        <source>Hindi</source>
-        <comment>Hindi</comment>
-        <translation type="unfinished">ヒンディー語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="35"/>
-        <source>Hungarian</source>
-        <comment>Ungarisch</comment>
-        <translation type="unfinished">ハンガリー語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="35"/>
-        <source>Armenian</source>
-        <comment>Armenisch</comment>
-        <translation type="unfinished">アルメニア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="35"/>
-        <source>Estonian</source>
-        <comment>Estnisch</comment>
-        <translation type="unfinished">エストニア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="35"/>
-        <source>Hebrew</source>
-        <comment>Hebräisch</comment>
-        <translation type="unfinished">ヘブライ語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="35"/>
-        <source>Indonesian</source>
-        <comment>Indonesisch</comment>
-        <translation type="unfinished">インドネシアの</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="36"/>
-        <source>Korean</source>
-        <comment>Koreanisch</comment>
-        <translation type="unfinished">韓国語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="36"/>
-        <source>Norwegian</source>
-        <comment>Norwegisch</comment>
-        <translation type="unfinished">ノルウェーの</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="36"/>
-        <source>Polish</source>
-        <comment>Polnisch</comment>
-        <translation type="unfinished">ポーランド語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="36"/>
-        <source>Romanian</source>
-        <comment>Rumänisch</comment>
-        <translation type="unfinished">ルーマニア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="36"/>
-        <source>Latvian</source>
-        <comment>Lettisch</comment>
-        <translation type="unfinished">ラトビアの</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="36"/>
-        <source>Lithuanian</source>
-        <comment>Litauisch</comment>
-        <translation type="unfinished">リトアニア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="36"/>
-        <source>Portuguese</source>
-        <comment>Portugisisch</comment>
-        <translation type="unfinished">ポルトガル語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="36"/>
-        <source>Persian</source>
-        <comment>Persisch</comment>
-        <translation type="unfinished">ペルシア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="37"/>
-        <source>Slovak</source>
-        <comment>Slowakisch</comment>
-        <translation type="unfinished">スロバキア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="37"/>
-        <source>Serbian</source>
-        <comment>Serbisch</comment>
-        <translation type="unfinished">セルビア語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="37"/>
-        <source>Swedish</source>
-        <comment>Schwedisch</comment>
-        <translation type="unfinished">スウェーデン語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="37"/>
-        <source>Turkish</source>
-        <comment>Türkisch</comment>
-        <translation type="unfinished">トルコ語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="37"/>
-        <source>Ukrainian</source>
-        <comment>Ukrainisch</comment>
-        <translation type="unfinished">ウクライナ語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="37"/>
-        <source>Urdu</source>
-        <comment>Urdu</comment>
-        <translation type="unfinished">ウルドゥー語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="37"/>
-        <source>Thai</source>
-        <comment>Thailändisch</comment>
-        <translation type="unfinished">タイの</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="37"/>
-        <source>Vietnamese</source>
-        <comment>Vietnamesich</comment>
-        <translation type="unfinished">ベトナム語</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="42"/>
+        <location filename="../src/setting.cpp" line="39"/>
         <source>lzo</source>
         <comment>lzo</comment>
         <translation>lzo</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="42"/>
+        <location filename="../src/setting.cpp" line="39"/>
         <source>gzip fast</source>
         <comment>gzip fast</comment>
-        <translation>速いGZIP</translation>
+        <translation>gzip veloce</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="42"/>
+        <location filename="../src/setting.cpp" line="39"/>
         <source>gzip standard</source>
         <comment>gzip standard</comment>
-        <translation>GZIPの標準</translation>
+        <translation>standard di gzip</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="42"/>
+        <location filename="../src/setting.cpp" line="39"/>
         <source>qzip best</source>
         <comment>qzip best</comment>
         <translation>GZIPのベスト</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="42"/>
+        <location filename="../src/setting.cpp" line="39"/>
         <source>bzip2 fast</source>
         <comment>bzip2 fast</comment>
         <translation>速いBZIP2</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="45"/>
+        <location filename="../src/setting.cpp" line="42"/>
         <source>bzip2 good</source>
         <comment>bzip2 good</comment>
         <translation>bzip2 buono</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="45"/>
+        <location filename="../src/setting.cpp" line="42"/>
         <source>lzma fast</source>
         <comment>lzma fast</comment>
-        <translation>LZMA 速い</translation>
+        <translation>LZMA速い</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="45"/>
+        <location filename="../src/setting.cpp" line="42"/>
         <source>lzma medium</source>
         <comment>lzma medium</comment>
-        <translation>LZMA 媒体</translation>
+        <translation>lzma medium</translation>
+    </message>
+    <message>
+        <location filename="../src/setting.cpp" line="42"/>
+        <source>lzma best</source>
+        <comment>lzma best</comment>
+        <translation>lzma best</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="45"/>
-        <source>lzma best</source>
-        <comment>lzma best</comment>
-        <translation>LZMA のベスト</translation>
-    </message>
-    <message>
-        <location filename="../src/setting.cpp" line="48"/>
         <source>Samba</source>
         <translation>サンバ</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="48"/>
+        <location filename="../src/setting.cpp" line="45"/>
         <source>SSH</source>
         <translation>SSH</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="48"/>
+        <location filename="../src/setting.cpp" line="45"/>
         <source>NFS</source>
         <translation>NFS</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="185"/>
+        <location filename="../src/setting.cpp" line="182"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Riferimento</translation>
     </message>
     <message>
-        <location filename="../src/setting.cpp" line="186"/>
+        <location filename="../src/setting.cpp" line="183"/>
         <source>The settings have been saved. Be restarted, the program modified the language setting.</source>
         <comment>Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.
 </comment>
@@ -2273,7 +2103,7 @@ transmission:</translation>
     <message>
         <location filename="../src/ui/net.ui" line="713"/>
         <source>Show hidden directories and files</source>
-        <translation type="unfinished">パーティションを復元</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="751"/>
@@ -2428,13 +2258,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/mainWindow.cpp" line="191"/>
         <source>gzip fast</source>
         <comment>gzip fast</comment>
-        <translation>速いGZIP</translation>
+        <translation>gzip veloce</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="192"/>
         <source>gzip standard</source>
         <comment>gzip standard</comment>
-        <translation>GZIPの標準</translation>
+        <translation>standard di gzip</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="193"/>
@@ -2458,19 +2288,19 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/mainWindow.cpp" line="196"/>
         <source>lzma fast</source>
         <comment>lzma fast</comment>
-        <translation>LZMA 速い</translation>
+        <translation>LZMA速い</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="197"/>
         <source>lzma medium</source>
         <comment>lzma medium</comment>
-        <translation>LZMA 媒体</translation>
+        <translation>lzma medium</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="198"/>
         <source>lzma best</source>
         <comment>lzma best</comment>
-        <translation>LZMA のベスト</translation>
+        <translation>lzma best</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="339"/>
@@ -2506,9 +2336,10 @@ backup. key:</translation>
         <translation>バックアップディレクトリ：</translation>
     </message>
     <message>
+        <location filename="../src/mainWindow.cpp" line="434"/>
         <source>Save partition</source>
         <comment>Partition sichern</comment>
-        <translation type="obsolete">salvare partizione</translation>
+        <translation>salvare partizione</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="447"/>
@@ -2541,22 +2372,22 @@ backup. key:</translation>
         <location filename="../src/mainWindow.cpp" line="943"/>
         <location filename="../src/mainWindow.cpp" line="955"/>
         <location filename="../src/mainWindow.cpp" line="1003"/>
-        <location filename="../src/mainWindow.cpp" line="1087"/>
-        <location filename="../src/mainWindow.cpp" line="1162"/>
-        <location filename="../src/mainWindow.cpp" line="1339"/>
-        <location filename="../src/mainWindow.cpp" line="1360"/>
-        <location filename="../src/mainWindow.cpp" line="1367"/>
-        <location filename="../src/mainWindow.cpp" line="1374"/>
-        <location filename="../src/mainWindow.cpp" line="1378"/>
-        <location filename="../src/mainWindow.cpp" line="1391"/>
-        <location filename="../src/mainWindow.cpp" line="1413"/>
-        <location filename="../src/mainWindow.cpp" line="1440"/>
-        <location filename="../src/mainWindow.cpp" line="1444"/>
+        <location filename="../src/mainWindow.cpp" line="1096"/>
+        <location filename="../src/mainWindow.cpp" line="1171"/>
+        <location filename="../src/mainWindow.cpp" line="1348"/>
+        <location filename="../src/mainWindow.cpp" line="1369"/>
+        <location filename="../src/mainWindow.cpp" line="1376"/>
+        <location filename="../src/mainWindow.cpp" line="1383"/>
+        <location filename="../src/mainWindow.cpp" line="1387"/>
+        <location filename="../src/mainWindow.cpp" line="1400"/>
+        <location filename="../src/mainWindow.cpp" line="1422"/>
         <location filename="../src/mainWindow.cpp" line="1449"/>
-        <location filename="../src/mainWindow.cpp" line="1466"/>
+        <location filename="../src/mainWindow.cpp" line="1453"/>
+        <location filename="../src/mainWindow.cpp" line="1458"/>
         <location filename="../src/mainWindow.cpp" line="1475"/>
-        <location filename="../src/mainWindow.cpp" line="1486"/>
-        <location filename="../src/mainWindow.cpp" line="1489"/>
+        <location filename="../src/mainWindow.cpp" line="1484"/>
+        <location filename="../src/mainWindow.cpp" line="1495"/>
+        <location filename="../src/mainWindow.cpp" line="1498"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Riferimento</translation>
@@ -2795,14 +2626,20 @@ Die Dateiendung muss .fsa sein</comment>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1080"/>
-        <source>Backup and restore partitions, directory and MBR
-Version 0.6.19-13, May 4, 2015</source>
-        <comment>Sichern und Wiederherstellen von Partitionen, Verzeichnissen und MBR Version 0.6.19-13, 4. Mai 2015</comment>
-<translation>バックアップウント復元するパーティション
-バージョン 0.6.19-13, 4. 5月. 2015</translation>
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2015 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-12, February 25, 2015</source>
+        <comment>Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2015 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-12, 25. Februar 2015</comment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1088"/>
+        <location filename="../src/mainWindow.cpp" line="1097"/>
         <source>The program must be run with root privileges. The program is terminated.
 </source>
         <comment>Das Programm muss mit Root-Rechten gestartet werden. Das Programm wird beendet.
@@ -2811,19 +2648,19 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1163"/>
+        <location filename="../src/mainWindow.cpp" line="1172"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>hai</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1164"/>
+        <location filename="../src/mainWindow.cpp" line="1173"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>いいえ</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1340"/>
+        <location filename="../src/mainWindow.cpp" line="1349"/>
         <source>The partition has been backed up successfully.
 </source>
         <comment>Die Partition wurde erfolgreich gesichert.
@@ -2832,52 +2669,52 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1341"/>
-        <location filename="../src/mainWindow.cpp" line="1393"/>
-        <location filename="../src/mainWindow.cpp" line="1395"/>
-        <location filename="../src/mainWindow.cpp" line="1441"/>
-        <location filename="../src/mainWindow.cpp" line="1445"/>
-        <location filename="../src/mainWindow.cpp" line="1468"/>
-        <location filename="../src/mainWindow.cpp" line="1470"/>
+        <location filename="../src/mainWindow.cpp" line="1350"/>
+        <location filename="../src/mainWindow.cpp" line="1402"/>
+        <location filename="../src/mainWindow.cpp" line="1404"/>
+        <location filename="../src/mainWindow.cpp" line="1450"/>
+        <location filename="../src/mainWindow.cpp" line="1454"/>
         <location filename="../src/mainWindow.cpp" line="1477"/>
-        <location filename="../src/mainWindow.cpp" line="1480"/>
+        <location filename="../src/mainWindow.cpp" line="1479"/>
+        <location filename="../src/mainWindow.cpp" line="1486"/>
+        <location filename="../src/mainWindow.cpp" line="1489"/>
         <source> files, </source>
         <comment> Dateien, </comment>
         <translation>ファイル</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1341"/>
-        <location filename="../src/mainWindow.cpp" line="1393"/>
-        <location filename="../src/mainWindow.cpp" line="1395"/>
-        <location filename="../src/mainWindow.cpp" line="1441"/>
-        <location filename="../src/mainWindow.cpp" line="1445"/>
-        <location filename="../src/mainWindow.cpp" line="1468"/>
+        <location filename="../src/mainWindow.cpp" line="1350"/>
+        <location filename="../src/mainWindow.cpp" line="1402"/>
+        <location filename="../src/mainWindow.cpp" line="1404"/>
+        <location filename="../src/mainWindow.cpp" line="1450"/>
+        <location filename="../src/mainWindow.cpp" line="1454"/>
         <location filename="../src/mainWindow.cpp" line="1477"/>
+        <location filename="../src/mainWindow.cpp" line="1486"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
         <translation> ディレクトリ, </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1341"/>
-        <location filename="../src/mainWindow.cpp" line="1393"/>
-        <location filename="../src/mainWindow.cpp" line="1396"/>
-        <location filename="../src/mainWindow.cpp" line="1441"/>
-        <location filename="../src/mainWindow.cpp" line="1468"/>
-        <location filename="../src/mainWindow.cpp" line="1471"/>
-        <location filename="../src/mainWindow.cpp" line="1478"/>
-        <location filename="../src/mainWindow.cpp" line="1481"/>
+        <location filename="../src/mainWindow.cpp" line="1350"/>
+        <location filename="../src/mainWindow.cpp" line="1402"/>
+        <location filename="../src/mainWindow.cpp" line="1405"/>
+        <location filename="../src/mainWindow.cpp" line="1450"/>
+        <location filename="../src/mainWindow.cpp" line="1477"/>
+        <location filename="../src/mainWindow.cpp" line="1480"/>
+        <location filename="../src/mainWindow.cpp" line="1487"/>
+        <location filename="../src/mainWindow.cpp" line="1490"/>
         <source> links and </source>
         <comment> Links und </comment>
         <translation>  link e</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1342"/>
+        <location filename="../src/mainWindow.cpp" line="1351"/>
         <source> specials have been backed.</source>
         <comment> spezielle Daten wurden gesichert.</comment>
         <translation>dati specifico è stato eseguito il backup.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1361"/>
+        <location filename="../src/mainWindow.cpp" line="1370"/>
         <source>The backup of the partition was aborted by the user!
 </source>
         <comment>Die Sicherung der Partition  wurde vom Benutzer abgebrochen!
@@ -2886,7 +2723,7 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1368"/>
+        <location filename="../src/mainWindow.cpp" line="1377"/>
         <source>The partition type is not supported.
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt.
@@ -2894,7 +2731,7 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1375"/>
+        <location filename="../src/mainWindow.cpp" line="1384"/>
         <source>The partition type is not supported. Maybe the partition is encrypted?
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
@@ -2903,7 +2740,7 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1379"/>
+        <location filename="../src/mainWindow.cpp" line="1388"/>
         <source>Error saving partition. File too large. Use is FAT-partition?
 </source>
         <comment>Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?
@@ -2912,7 +2749,7 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1392"/>
+        <location filename="../src/mainWindow.cpp" line="1401"/>
         <source>The backup of the partition was only partially successful.
 </source>
         <comment>Die Sicherung der Partition war nur teilweise erfolgreich
@@ -2920,7 +2757,7 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation>パーティションのバックアップは一部成功しましたのみ。</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1394"/>
+        <location filename="../src/mainWindow.cpp" line="1403"/>
         <source> specials have been backed
 .</source>
         <comment> spezielle Daten wurden gesichert
@@ -2928,7 +2765,7 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation>dati specifico è stato eseguito il backup.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1397"/>
+        <location filename="../src/mainWindow.cpp" line="1406"/>
         <source> specials were not properly backed
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
@@ -2936,7 +2773,7 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation>specials were not properly backed.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1413"/>
+        <location filename="../src/mainWindow.cpp" line="1422"/>
         <source>cannot restore an archive to a partition which is mounted, unmount it first 
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
@@ -2945,8 +2782,8 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1440"/>
-        <location filename="../src/mainWindow.cpp" line="1444"/>
+        <location filename="../src/mainWindow.cpp" line="1449"/>
+        <location filename="../src/mainWindow.cpp" line="1453"/>
         <source>The partition is successful back.
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
@@ -2955,25 +2792,25 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1441"/>
+        <location filename="../src/mainWindow.cpp" line="1450"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
         <translation>dati specifici è stato restaurato</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1445"/>
+        <location filename="../src/mainWindow.cpp" line="1454"/>
         <source> links </source>
         <comment> Links </comment>
         <translation>  link e</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1445"/>
+        <location filename="../src/mainWindow.cpp" line="1454"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
         <translation>specificati i dati e il settore di avvio della partizione è stata restaurata.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1450"/>
+        <location filename="../src/mainWindow.cpp" line="1459"/>
         <source>The restore of the partition was break by user!
 </source>
         <comment>Die Wiederherstellung der Partition  wurde vom Benutzer abgebrochen!
@@ -2981,8 +2818,8 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation>The restore of the partition was break by user!</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1467"/>
         <location filename="../src/mainWindow.cpp" line="1476"/>
+        <location filename="../src/mainWindow.cpp" line="1485"/>
         <source>The restore of the partition was only partially successful.
 </source>
         <comment>Die Wiederherstellung der Partition war nur teilweise erfolgreich
@@ -2990,7 +2827,7 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation>The restore of the partition was only partially successful.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1469"/>
+        <location filename="../src/mainWindow.cpp" line="1478"/>
         <source> specials have been restored
 .</source>
         <comment> spezielle Daten wurden wiederhergestellt
@@ -2998,15 +2835,15 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation>dati specifici è stato restaurato</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1470"/>
-        <location filename="../src/mainWindow.cpp" line="1480"/>
+        <location filename="../src/mainWindow.cpp" line="1479"/>
+        <location filename="../src/mainWindow.cpp" line="1489"/>
         <source> directories and </source>
         <comment> Verzeichnisse und </comment>
         <translation>   directories, </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1472"/>
-        <location filename="../src/mainWindow.cpp" line="1482"/>
+        <location filename="../src/mainWindow.cpp" line="1481"/>
+        <location filename="../src/mainWindow.cpp" line="1491"/>
         <source> specials were not properly restored
 .</source>
         <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
@@ -3014,7 +2851,7 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation>specials were not properly restored.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1479"/>
+        <location filename="../src/mainWindow.cpp" line="1488"/>
         <source> specials and the Partition Boot Record have been restored
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
@@ -3022,7 +2859,7 @@ Version 0.6.19-13, May 4, 2015</source>
         <translation>specificati i dati e il settore di avvio della partizione è stata restaurata.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1486"/>
+        <location filename="../src/mainWindow.cpp" line="1495"/>
         <source>You have tried restore a partition. The selected file can only restore directories. Please restart the program.
 </source>
         <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
@@ -3031,7 +2868,7 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1489"/>
+        <location filename="../src/mainWindow.cpp" line="1498"/>
         <source>You have entered an incorrect password.
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben.
@@ -3040,107 +2877,107 @@ Version 0.6.19-13, May 4, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1595"/>
+        <location filename="../src/mainWindow.cpp" line="1604"/>
         <source>Backup file name: </source>
         <comment>Sicherungsdateiname: </comment>
         <translation>Backup file name:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1596"/>
+        <location filename="../src/mainWindow.cpp" line="1605"/>
         <source>Partition  name: </source>
         <comment>Partitionsname: </comment>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1597"/>
+        <location filename="../src/mainWindow.cpp" line="1606"/>
         <source>Partition type: </source>
         <comment>Partitionsart: </comment>
         <translation>Partition type:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1598"/>
+        <location filename="../src/mainWindow.cpp" line="1607"/>
         <source>UUID: </source>
         <translation>UUID: </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1598"/>
+        <location filename="../src/mainWindow.cpp" line="1607"/>
         <source>Description: </source>
         <comment>Bezeichnung: </comment>
         <translation>Description:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1599"/>
+        <location filename="../src/mainWindow.cpp" line="1608"/>
         <source>Partition size: </source>
         <comment>Partitionsgröße: </comment>
         <translation>サイズ</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1599"/>
-        <location filename="../src/mainWindow.cpp" line="1600"/>
+        <location filename="../src/mainWindow.cpp" line="1608"/>
+        <location filename="../src/mainWindow.cpp" line="1609"/>
         <source>Assignment of the partition: </source>
         <comment>Belegung der Partition: </comment>
         <translation>Assignment of the partition:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1600"/>
+        <location filename="../src/mainWindow.cpp" line="1609"/>
         <source>Compression: </source>
         <comment>Kompression: </comment>
         <translation>圧縮：</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1601"/>
+        <location filename="../src/mainWindow.cpp" line="1610"/>
         <source>Approximate image file sizes: </source>
         <comment>ungefähre Sicherungsdateigröße: </comment>
         <translation>Immagine Dimensioni file approssimative:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1601"/>
+        <location filename="../src/mainWindow.cpp" line="1610"/>
         <source>Other notes: </source>
         <comment>weitere Hinweise:</comment>
         <translation>詳細情報：</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1602"/>
+        <location filename="../src/mainWindow.cpp" line="1611"/>
         <source>to be protected/secured partition: / (root system directory) </source>
         <comment>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </comment>
         <translation>essere protetto partizione/assicurato: / (directory di sistema root)</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1607"/>
-        <location filename="../src/mainWindow.cpp" line="1613"/>
+        <location filename="../src/mainWindow.cpp" line="1616"/>
+        <location filename="../src/mainWindow.cpp" line="1622"/>
         <source>Operating system: </source>
         <comment>Betriebsystem: </comment>
         <translation>オペレーティングシステム：</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1607"/>
-        <location filename="../src/mainWindow.cpp" line="1613"/>
+        <location filename="../src/mainWindow.cpp" line="1616"/>
+        <location filename="../src/mainWindow.cpp" line="1622"/>
         <source>Kernel: </source>
         <translation>Kernel:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1609"/>
+        <location filename="../src/mainWindow.cpp" line="1618"/>
         <source>to be protected/secured partition: /home</source>
         <comment>zu sichernde/gesicherte Partition: /home</comment>
         <translation>to be protected/secured partition: /home</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1630"/>
+        <location filename="../src/mainWindow.cpp" line="1639"/>
         <source> MB</source>
         <translation> MB</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1641"/>
+        <location filename="../src/mainWindow.cpp" line="1650"/>
         <source> TB</source>
         <translation> TB</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1652"/>
+        <location filename="../src/mainWindow.cpp" line="1661"/>
         <source> GB</source>
         <translation>GB</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1843"/>
+        <location filename="../src/mainWindow.cpp" line="1852"/>
         <source>Do you really want to break the save or restore from the partition?</source>
         <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</comment>
         <translation>Do you really want to break the save or restore from the partition?</translation>
@@ -3181,7 +3018,7 @@ Version 0.6.19-13, May 4, 2015</source>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="68"/>
         <source>Stored partitions</source>
-        <translation type="unfinished">バックアップされたパーティション</translation>
+        <translation>Stored partitions</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="81"/>
@@ -3202,7 +3039,7 @@ Version 0.6.19-13, May 4, 2015</source>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="165"/>
         <source>Partition restore</source>
-        <translation type="unfinished">パーティションを復元</translation>
+        <translation>Partition restore</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="181"/>
@@ -4064,7 +3901,7 @@ back to the original location</translation>
     <message>
         <location filename="../src/ui/setting.ui" line="306"/>
         <source>Show hidden directories and files</source>
-        <translation type="unfinished">パーティションを復元</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
