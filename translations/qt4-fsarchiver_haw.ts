@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -621,7 +621,7 @@ with fsarchiver</translation>
     </message>
     <message>
       <source>Yes</source>
-      <translation>Yes</translation>
+      <translation type="unfinished">Ae</translation>
     </message>
     <message>
       <source>You must select a folder.</source>

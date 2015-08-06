@@ -1,9 +1,1737 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
+<<<<<<< HEAD
 <TS version="2.0" language="sr_CS">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>DialogClone</name>
+=======
+<!--
+ Loco xml export: Qt framework TS file
+ Project: Qt4-fsarchiver
+ Release: Working copy
+ Locale: en_GB, English (UK)
+ Exported by: Michael R. Lawrence
+ Exported at: Sat, 25 Oct 2014 17:56:53 +0100 
+-->
+<TS version="2.0" language="sr" sourcelanguage="en">
+  <context>
+    <name>clone_dialog</name>
+    <message>
+      <source>Directory in which the image is written</source>
+      <translation>Директоријум где је одраз уписан</translation>
+    </message>
+    <message>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;већ сачувано:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <source>already saved:</source>
+      <translation>већ сачувано:</translation>
+    </message>
+    <message>
+      <source>Backup directory:</source>
+      <translation type="unfinished">Директоријум за бекап:</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Одустани</translation>
+    </message>
+    <message>
+      <source>Clone hard disk</source>
+      <translation>Клонирање хард диска</translation>
+    </message>
+    <message>
+      <source>Clone hard drive</source>
+      <translation>Клонирање хард диска</translation>
+    </message>
+    <message>
+      <source>CommandLinkButton</source>
+      <translation/>
+    </message>
+    <message>
+      <source>elapsed time:</source>
+      <translation>протекло време:</translation>
+    </message>
+    <message>
+      <source>Exist harddrive:</source>
+      <translation>Постојећи хард диск:</translation>
+    </message>
+    <message>
+      <source>Exit</source>
+      <translation>Излаз</translation>
+    </message>
+    <message>
+      <source>f</source>
+      <translation>ф</translation>
+    </message>
+    <message>
+      <source>hours:</source>
+      <translation>сати:</translation>
+    </message>
+    <message>
+      <source>hours</source>
+      <translation>сати</translation>
+    </message>
+    <message>
+      <source>Image of a hard disk to create</source>
+      <translation>Прављење одраза хард диска</translation>
+    </message>
+    <message>
+      <source>Image of a hard disk to create:</source>
+      <translation>Прављење одраза хард диска:</translation>
+    </message>
+    <message>
+      <source>Image of a hard disk write back</source>
+      <translation>Враћање одраза хард диска</translation>
+    </message>
+    <message>
+      <source>MB</source>
+      <translation>MB</translation>
+    </message>
+    <message>
+      <source>MB/sec</source>
+      <translation>MB/s</translation>
+    </message>
+    <message>
+      <source>minutes:</source>
+      <translation>минута:</translation>
+    </message>
+    <message>
+      <source>minutes</source>
+      <translation>минута</translation>
+    </message>
+    <message>
+      <source>New harddrive:</source>
+      <translation>Нови хард диск:</translation>
+    </message>
+    <message>
+      <source>Proposed action:</source>
+      <translation>Предложене радње:</translation>
+    </message>
+    <message>
+      <source>remaining time:</source>
+      <translation>преостало време:</translation>
+    </message>
+    <message>
+      <source>Save / Restore MBR</source>
+      <translation>Сачувај / поврати МБР</translation>
+    </message>
+    <message>
+      <source>Save / restore MBR</source>
+      <translation>Сачувај / поврати МБР</translation>
+    </message>
+    <message>
+      <source>seconds:</source>
+      <translation>секунди:</translation>
+    </message>
+    <message>
+      <source>seconds</source>
+      <translation>секунди</translation>
+    </message>
+    <message>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;HTML&gt;у оквиру ознаке&lt;Head/&gt;&lt;тело&gt;&lt;п&gt;брзина преноса:&lt;/п&gt;&lt;/боди&gt;&lt;/HTML&gt;</translation>
+    </message>
+    <message>
+      <source>Transmission speed:</source>
+      <translation>Брзина преноса:</translation>
+    </message>
+    <message>
+      <source>Transmission speed</source>
+      <translation>Брзина преноса</translation>
+    </message>
+    <message>
+      <source>Use gzip</source>
+      <translation>Користите ГЗИП</translation>
+    </message>
+  </context>
+  <context>
+    <name>clone_dialog_net</name>
+    <message>
+      <source>Image einer Festplatte zurückschreiben:</source>
+      <translation>Слике einer Festplatte zurückschreiben:</translation>
+    </message>
+    <message>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;HTML&gt;у оквиру ознаке&lt;Head/&gt;&lt;тело&gt;&lt;p&gt;Он је већ спасао:&lt;/п&gt;&lt;/боди&gt;&lt;/HTML&gt;</translation>
+    </message>
+    <message>
+      <source>already saved:</source>
+      <translation>već je spasio:</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Otkaži</translation>
+    </message>
+    <message>
+      <source>Clone hard drive</source>
+      <translation>Клон хард диск</translation>
+    </message>
+    <message>
+      <source>elapsed time:</source>
+      <translation>протекло време:</translation>
+    </message>
+    <message>
+      <source>Exist harddrive:</source>
+      <translation>Постоји хард диска:</translation>
+    </message>
+    <message>
+      <source>Exist Image:</source>
+      <translation>Постоје Слике:</translation>
+    </message>
+    <message>
+      <source>f</source>
+      <translation>Ф</translation>
+    </message>
+    <message>
+      <source>hours</source>
+      <translation>сати</translation>
+    </message>
+    <message>
+      <source>Image einer Festplatte erstellen:</source>
+      <translation>Слике erstellen einer Festplatte:</translation>
+    </message>
+    <message>
+      <source>Image name:</source>
+      <translation>Име слике:</translation>
+    </message>
+    <message>
+      <source>l</source>
+      <translation>л</translation>
+    </message>
+    <message>
+      <source>MB</source>
+      <translation>МБ</translation>
+    </message>
+    <message>
+      <source>minutes</source>
+      <translation>минута</translation>
+    </message>
+    <message>
+      <source>Network computer  name:</source>
+      <translation>Мрежни назив рачунара:</translation>
+    </message>
+    <message>
+      <source>remaining time:</source>
+      <translation>преостало време:</translation>
+    </message>
+    <message>
+      <source>Save / restore MBR</source>
+      <translation>Сачувај / поврати МБР</translation>
+    </message>
+    <message>
+      <source>seconds</source>
+      <translation>секунди</translation>
+    </message>
+  </context>
+  <context>
+    <name>Dialog_Net</name>
+    <message>
+      <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
+      <translation>Директоријум у коме одељак резервне копије или вратите датотеке из датотека је уклоњена.</translation>
+    </message>
+    <message>
+      <source>Notes to the backup is written to a file.</source>
+      <translation>Напомене уз резерва уписује у фајл.</translation>
+    </message>
+    <message>
+      <source>Number of processors
+cores to be used for fsarchiver:</source>
+      <translation>Број процесора
+језгра ће се користити за fsarchiver:</translation>
+    </message>
+    <message>
+      <source>PBR is first block of any bootable partition.</source>
+      <translation>Pbr је први блок boot партиције.</translation>
+    </message>
+    <message>
+      <source>Same backup files are overwritten without prior consultation.</source>
+      <translation>Исти резервне датотеке преписују без претходног консултовања.</translation>
+    </message>
+    <message>
+      <source>Select the partition to be backed up or restored.</source>
+      <translation>Изаберите одељак за бацкуп или опоравак.</translation>
+    </message>
+    <message>
+      <source>Already saved
+files/directories:</source>
+      <translation>Већ је спасао
+датотеке/директоријума:</translation>
+    </message>
+    <message>
+      <source>already saved 
+files/directories:</source>
+      <translation>већ је спасао 
+датотеке/директоријума:</translation>
+    </message>
+    <message>
+      <source>available backup overwrite</source>
+      <translation>најбољи бацкуп преписати</translation>
+    </message>
+    <message>
+      <source>Backup directory:</source>
+      <translation>Каталог бацкуп:</translation>
+    </message>
+    <message>
+      <source>Backup/restore partition over network</source>
+      <translation>Бацкуп/ресторе секције на мрежи</translation>
+    </message>
+    <message>
+      <source>Compression
+setting:</source>
+      <translation>Компресија
+инсталација:</translation>
+    </message>
+    <message>
+      <source>elapsed time:</source>
+      <translation>протекло време:</translation>
+    </message>
+    <message>
+      <source>elapsed time:</source>
+      <translation>протекло време:</translation>
+    </message>
+    <message>
+      <source>Encrypt 
+backup key</source>
+      <translation>Шифровање 
+резервни кључ</translation>
+    </message>
+    <message>
+      <source>Existing partitions:</source>
+      <translation>Постојеће секције:</translation>
+    </message>
+    <message>
+      <source>Exit</source>
+      <translation>Излаз</translation>
+    </message>
+    <message>
+      <source>minutes</source>
+      <translation>минута</translation>
+    </message>
+    <message>
+      <source>n</source>
+      <translation>н</translation>
+    </message>
+    <message>
+      <source>Name the backup file:</source>
+      <translation>Име резервне копије датотека:</translation>
+    </message>
+    <message>
+      <source>Network computer  name:</source>
+      <translation>Мрежни назив рачунара:</translation>
+    </message>
+    <message>
+      <source>Network computer  name:</source>
+      <translation>Мрежни назив рачунара:</translation>
+    </message>
+    <message>
+      <source>Notes to  the backup</source>
+      <translation>Напомене уз резервне копије</translation>
+    </message>
+    <message>
+      <source>Notes to  the backup</source>
+      <translation>Напомене уз резервне копије</translation>
+    </message>
+    <message>
+      <source>Number of backup
+files/directories:</source>
+      <translation>Број резервних
+датотеке/директоријума:</translation>
+    </message>
+    <message>
+      <source>On the number saved
+Files/directories:</source>
+      <translation>На број сачувану
+Датотеке/директоријума:</translation>
+    </message>
+    <message>
+      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!Елемент doctype HTML јавности "-//конзорцијум W3C//dtd у формату HTML 4.0//EN" (или "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;HTML&gt;у оквиру ознаке&lt;Head&gt;&lt;Мета наме="qrichtext" Цонтент="1" /&gt;&lt;style Тип="text/CSS"&gt;
+н, батерија Li { бело-простору: пре омотач; }
+&lt;/style&gt;&lt;/глава&gt;&lt;тело стиле=" породица фонтова:'фонт Sans'; величина фонта:10 Пт; фонт-тежина:400; фонт стиле:нормал;"&gt;
+&lt;п алигн="центар" стиле=" маргин-топ:0пк; маргин-доле:0пк; маргин лево:0пк; маргин-десно:0px; -QT-блок-увлачење:0; текст-пасус:0px;"&gt;Проведено време:&lt;/п&gt;&lt;/боди&gt;&lt;/HTML&gt;</translation>
+    </message>
+    <message>
+      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!Елемент doctype HTML јавности "-//конзорцијум W3C//dtd у формату HTML 4.0//EN" (или "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;HTML&gt;у оквиру ознаке&lt;Head&gt;&lt;Мета наме="qrichtext" Цонтент="1" /&gt;&lt;style Тип="text/CSS"&gt;
+н, батерија Li { бело-простору: пре омотач; }
+&lt;/style&gt;&lt;/глава&gt;&lt;тело стиле=" породица фонтова:'фонт Sans'; величина фонта:10 Пт; фонт-тежина:400; фонт стиле:нормал;"&gt;
+&lt;п алигн="центар" стиле=" маргин-топ:0пк; маргин-доле:0пк; маргин лево:0пк; маргин-десно:0px; -QT-блок-увлачење:0; текст-пасус:0px;"&gt;очекивано време:&lt;/п&gt;&lt;/боди&gt;&lt;/HTML&gt;</translation>
+    </message>
+    <message>
+      <source>Partition restore</source>
+      <translation>Обнављање партиције</translation>
+    </message>
+    <message>
+      <source>Partition save 
+with fsarchiver</source>
+      <translation>Одељак саве 
+са fsarchiver</translation>
+    </message>
+    <message>
+      <source>Please select the folder.</source>
+      <translation>Молимо вас, изаберите фасциклу.</translation>
+    </message>
+    <message>
+      <source>Please select a shared folder.</source>
+      <translation>Молимо вас, изаберите фасциклу за дељење.</translation>
+    </message>
+    <message>
+      <source>Please select the folder.</source>
+      <translation>Молимо вас, изаберите фасциклу.</translation>
+    </message>
+    <message>
+      <source>Proposed action:</source>
+      <translation>Предложене акције:</translation>
+    </message>
+    <message>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;HTML&gt;у оквиру ознаке&lt;Head/&gt;&lt;тело&gt;&lt;п&gt;протокол за пренос преко мреже:&lt;/п&gt;&lt;/боди&gt;&lt;/HTML&gt;</translation>
+    </message>
+    <message>
+      <source>Protocoll for network
+transmission:</source>
+      <translation>Протокол за мреже
+пренос:</translation>
+    </message>
+    <message>
+      <source>remaining time</source>
+      <translation>преостало време</translation>
+    </message>
+    <message>
+      <source>remaining time</source>
+      <translation>преостало време</translation>
+    </message>
+    <message>
+      <source>Restore file name:</source>
+      <translation>Поправите Име датотеке:</translation>
+    </message>
+    <message>
+      <source>Restore partition 
+with fsarchiver</source>
+      <translation>Обнављање партиције 
+са fsarchiver</translation>
+    </message>
+    <message>
+      <source>S</source>
+      <translation>С</translation>
+    </message>
+    <message>
+      <source>save partition</source>
+      <translation>сачувај секција</translation>
+    </message>
+    <message>
+      <source>Save PBR</source>
+      <translation>Сачувај ПБР</translation>
+    </message>
+    <message>
+      <source>seconds</source>
+      <translation>секунди</translation>
+    </message>
+    <message>
+      <source>Shared folders:</source>
+      <translation>Дељене фасцикле:</translation>
+    </message>
+    <message>
+      <source>Start restore a partition.</source>
+      <translation>Покретање опоравка одељка.</translation>
+    </message>
+    <message>
+      <source>Start the backup of a partition.</source>
+      <translation>Покрените бацкуп одељка.</translation>
+    </message>
+    <message>
+      <source>Stock Split on DVD size</source>
+      <translation>Постројење акција на ДВД Величина</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.</name>
+    <message>
+      <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
+      <translation>На хард диску постоји роот или кућну одељка. Морате да живите-цд.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|bereits gesichert</name>
+    <message>
+      <source>already saved</source>
+      <translation>већ је спасао</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|bereits zurückgeschrieben</name>
+    <message>
+      <source>already restored</source>
+      <translation>већ опоравио</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Das Klonen der Festplatte war erfolgreich.</name>
+    <message>
+      <source>The clone of the hard drive was successfully.</source>
+      <translation>Клон хард диска је успешно.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Das Klonen der Festplatte war nicht erfolgreich.</name>
+    <message>
+      <source>The clone of the hard drive was not successfully.</source>
+      <translation>Клон хард диска није био успешан.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Die gewählte Festplatte ist zu klein.</name>
+    <message>
+      <source>The selected hard drive is too small.</source>
+      <translation>Изабрани хард диск је сувише мали.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Die Sichern des Abbildes war erfolgreich.</name>
+    <message>
+      <source>The backup of the image was successfully.</source>
+      <translation>Резервна копија слике је успешно.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Die Sichern des Abbildes war nicht erfolgreich.</name>
+    <message>
+      <source>The backup of the image was not successfully.</source>
+      <translation>Резервна копија слике није била успешна.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Die Wiederherstellung des Abbildes war nicht erfolgreich.</name>
+    <message>
+      <source>The restore from the image was not successfully.</source>
+      <translation>Опоравак од слика није успешно.</translation>
+    </message>
+    <message>
+      <source>The restore from the image was not successfully.</source>
+      <translation>Опоравак од слика није успешно.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone</name>
+    <message>
+      <source>Do you want really break clone, save or restore an image from the partition?</source>
+      <translation>Хоћеш стварно да се пробије клонира, задржи или поврати слику на одељак?</translation>
+    </message>
+    <message>
+      <source>Do you want really built a image from the hard drive?</source>
+      <translation>Да ли сте стварно изградили слике са вашег хард диска?</translation>
+    </message>
+    <message>
+      <source>Do you want really clone the hard drive? All dates on</source>
+      <translation>Да ли заиста желите да клонира хард диск? Сви датуми на</translation>
+    </message>
+    <message>
+      <source>Do you want really restore the image of the hard drive?</source>
+      <translation>Желите ли заиста да поправите слику хард диска?</translation>
+    </message>
+    <message>
+      <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
+      <translation>На хард диску постоји роот или кућну одељка. Морате да живите-цд.</translation>
+    </message>
+    <message>
+      <source>The backup of the image was not successfully.</source>
+      <translation>Резервна копија слике није била успешна.</translation>
+    </message>
+    <message>
+      <source>The backup of the image was successfully.</source>
+      <translation>Резервна копија слике је успешно.</translation>
+    </message>
+    <message>
+      <source>The clone of the hard drive was not successfully.</source>
+      <translation>Клон хард диска није био успешан.</translation>
+    </message>
+    <message>
+      <source>The clone of the hard drive was successfully.</source>
+      <translation>Клон хард диска је успешно.</translation>
+    </message>
+    <message>
+      <source>The restore from the image was not successfully.</source>
+      <translation>Опоравак од слика није успешно.</translation>
+    </message>
+    <message>
+      <source>The restore from the image was successfully.</source>
+      <translation>Опоравак од начина успешно.</translation>
+    </message>
+    <message>
+      <source>You have selected a folder. You must select a fsa.gz file.</source>
+      <translation>Сте изабрали фолдер. Морате да изаберете fsa.gz фајл.</translation>
+    </message>
+    <message>
+      <source>You have selected a folder. You must select a gz.fsa file.</source>
+      <translation>Сте изабрали фолдер. Морате да изаберете ГЗ.фајл ФСА.</translation>
+    </message>
+    <message>
+      <source>You must select a gz.fsa file or an img.fsa file.</source>
+      <translation>Морате да изаберете ГЗ.ФСА фајл или ИМГ таг.фајл ФСА.</translation>
+    </message>
+    <message>
+      <source>already restored</source>
+      <translation>већ опоравио</translation>
+    </message>
+    <message>
+      <source>already saved</source>
+      <translation>већ је спасао</translation>
+    </message>
+    <message>
+      <source>alredy restored</source>
+      <translation>већ опоравио</translation>
+    </message>
+    <message>
+      <source>alredy saved</source>
+      <translation>већ је спасао</translation>
+    </message>
+    <message>
+      <source>are deleted!</source>
+      <translation>бришу!</translation>
+    </message>
+    <message>
+      <source>Clone Harddrive</source>
+      <translation>Клон Хард Диска</translation>
+    </message>
+    <message>
+      <source>No</source>
+      <translation>Нема</translation>
+    </message>
+    <message>
+      <source>Note</source>
+      <translation>Напомена</translation>
+    </message>
+    <message>
+      <source>Restore Harddrive Image</source>
+      <translation>Вратите Хард Диск Слике</translation>
+    </message>
+    <message>
+      <source>Save Harddrive Image</source>
+      <translation>Сачувај Слику Хард Диска</translation>
+    </message>
+    <message>
+      <source>The selected hard drive is too small.</source>
+      <translation>Изабрани хард диск је сувише мали.</translation>
+    </message>
+    <message>
+      <source>Yes</source>
+      <translation>Да</translation>
+    </message>
+    <message>
+      <source>You must select a folder.</source>
+      <translation>Морате да изаберете фасциклу.</translation>
+    </message>
+    <message>
+      <source>You must select a fsa.gz file.</source>
+      <translation>Морате да изаберете fsa.gz фајл.</translation>
+    </message>
+    <message>
+      <source>You must select a hard drive.</source>
+      <translation>Морате одабрати хард диск.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Festplatte klonen</name>
+    <message>
+      <source>Clone Harddrive</source>
+      <translation>Клон Хард Диска</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Festplatten Abbild erstellen</name>
+    <message>
+      <source>Save Harddrive Image</source>
+      <translation>Сачувај Слику Хард Диска</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Festplatten Abbild zurückschreiben</name>
+    <message>
+      <source>Restore Harddrive Image</source>
+      <translation>Вратите Хард Диск Слике</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Hinweis</name>
+    <message>
+      <source>Note</source>
+      <translation>Напомена</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Ja</name>
+    <message>
+      <source>Yes</source>
+      <translation>Да</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Nein</name>
+    <message>
+      <source>No</source>
+      <translation>Нема</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.</name>
+    <message>
+      <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
+      <translation>На хард диску постоји роот или кућну одељка. Морате да живите-цд.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Bitte wählen Sie den Dateinamen der Sicherung aus.</name>
+    <message>
+      <source>Please, select the filename of the backup.
+</source>
+      <translation>Молимо вас, изаберите Име датотеке резервне копије.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net</name>
+    <message>
+      <source>Can not find a shared directory. The program is terminated.</source>
+      <translation>Не може да пронађе заједнички каталог. Рад програма престаје.</translation>
+    </message>
+    <message>
+      <source>could not be integrated. The program is aborted</source>
+      <translation>не могу да се интегришу. Програм је прекинут</translation>
+    </message>
+    <message>
+      <source>Do you want really break save or restore an image from the partition?</source>
+      <translation>Хоћеш стварно да се пробије да задржи или поврати слику на одељак?</translation>
+    </message>
+    <message>
+      <source>Do you want really built a image from the hard drive?</source>
+      <translation>Да ли сте стварно изградили слике са вашег хард диска?</translation>
+    </message>
+    <message>
+      <source>Do you want really restore the image of the hard drive?</source>
+      <translation>Желите ли заиста да поправите слику хард диска?</translation>
+    </message>
+    <message>
+      <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
+      <translation>На хард диску постоји роот или кућну одељка. Морате да живите-цд.</translation>
+    </message>
+    <message>
+      <source>Please, select the filename of the backup.</source>
+      <translation>Молимо вас, изаберите Име датотеке резервне копије.</translation>
+    </message>
+    <message>
+      <source>The backup of the image was not successfully.</source>
+      <translation>Резервна копија слике није била успешна.</translation>
+    </message>
+    <message>
+      <source>The backup of the image was successfully.</source>
+      <translation>Резервна копија слике је успешно.</translation>
+    </message>
+    <message>
+      <source>The restore from the image was not successfully.</source>
+      <translation>Опоравак од слика није успешно.</translation>
+    </message>
+    <message>
+      <source>The restore from the image was successfully.</source>
+      <translation>Опоравак од начина успешно.</translation>
+    </message>
+    <message>
+      <source>You have selected a folder. You must select a fsa.gz file.</source>
+      <translation>Сте изабрали фолдер. Морате да изаберете fsa.gz фајл.</translation>
+    </message>
+    <message>
+      <source>No</source>
+      <translation>Нема</translation>
+    </message>
+    <message>
+      <source>Note</source>
+      <translation>Напомена</translation>
+    </message>
+    <message>
+      <source>Restore Harddrive Image</source>
+      <translation>Вратите Хард Диск Слике</translation>
+    </message>
+    <message>
+      <source>Save Harddrive Image</source>
+      <translation>Сачувај Слику Хард Диска</translation>
+    </message>
+    <message>
+      <source>The network computer</source>
+      <translation>Мрежни рачунар</translation>
+    </message>
+    <message>
+      <source>Yes</source>
+      <translation>Да</translation>
+    </message>
+    <message>
+      <source>You must select a folder.</source>
+      <translation>Морате да изаберете фасциклу.</translation>
+    </message>
+    <message>
+      <source>You must select a fsa.gz file.</source>
+      <translation>Морате да изаберете fsa.gz фајл.</translation>
+    </message>
+    <message>
+      <source>You must select a hard drive.</source>
+      <translation>Морате одабрати хард диск.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Die Wiederherstellung des Abbildes war nicht erfolgreich.</name>
+    <message>
+      <source>The restore from the image was not successfully.</source>
+      <translation>Опоравак од слика није успешно.</translation>
+    </message>
+    <message>
+      <source>The restore from the image was not successfully.</source>
+      <translation>Опоравак од слика није успешно.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Der Netzwerkrechner</name>
+    <message>
+      <source>The network computer </source>
+      <translation>Мрежни рачунар </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Die Sichern des Abbildes war erfolgreich.</name>
+    <message>
+      <source>The backup of the image was successfully.</source>
+      <translation>Резервна копија слике је успешно.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Die Sichern des Abbildes war nicht erfolgreich.</name>
+    <message>
+      <source>The backup of the image was not successfully.</source>
+      <translation>Резервна копија слике није била успешна.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.</name>
+    <message>
+      <source>Can not find a shared directory. The program is terminated.
+</source>
+      <translation>Не може да пронађе заједнички каталог. Рад програма престаје.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Festplatten Abbild erstellen</name>
+    <message>
+      <source>Save Harddrive Image</source>
+      <translation>Сачувај Слику Хард Диска</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Festplatten Abbild zurückschreiben</name>
+    <message>
+      <source>Restore Harddrive Image</source>
+      <translation>Вратите Хард Диск Слике</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Hinweis</name>
+    <message>
+      <source>Note</source>
+      <translation>Напомена</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Ja</name>
+    <message>
+      <source>Yes</source>
+      <translation>Да</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net| konnte nicht eingebunden werden. Das Programm wird abgebrochen</name>
+    <message>
+      <source> could not be integrated. The program is aborted
+</source>
+      <translation> не могу да се интегришу. Програм је прекинут
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Nein</name>
+    <message>
+      <source>No</source>
+      <translation>Нема</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz Datei auswählen</name>
+    <message>
+      <source>You have selected a folder. You must select a fsa.gz file.
+</source>
+      <translation>Сте изабрали фолдер. Морате да изаберете fsa.gz фајл.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Sie müssen ein Verzeichnis auswählen.</name>
+    <message>
+      <source>You must select a folder.</source>
+      <translation>Морате да изаберете фасциклу.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Sie müssen eine Festplatte auswählen.</name>
+    <message>
+      <source>You must select a hard drive.</source>
+      <translation>Морате одабрати хард диск.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Sie müssen eine fsa.gz Datei auswählen.</name>
+    <message>
+      <source>You must select a fsa.gz file.</source>
+      <translation>Морате да изаберете fsa.gz фајл.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name>
+    <message>
+      <source>Do you want really restore the image of the hard drive? </source>
+      <translation>Желите ли заиста да поправите слику хард диска? </translation>
+    </message>
+    <message>
+      <source> Do you want really restore the image of the hard drive? </source>
+      <translation> Желите ли заиста да поправите слику хард диска? </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</name>
+    <message>
+      <source>Do you want really break save or restore an image from the partition?</source>
+      <translation>Хоћеш стварно да се пробије да задржи или поврати слику на одељак?</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen</name>
+    <message>
+      <source>You have selected a folder. You must select a gz.fsa file.
+</source>
+      <translation>Сте изабрали фолдер. Морате да изаберете ГЗ.фајл ФСА.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Sie müssen ein Verzeichnis auswählen.</name>
+    <message>
+      <source>You must select a folder.</source>
+      <translation>Морате да изаберете фасциклу.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Sie müssen eine Festplatte auswählen.</name>
+    <message>
+      <source>You must select a hard drive.</source>
+      <translation>Морате одабрати хард диск.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.</name>
+    <message>
+      <source>You must select a gz.fsa file or an img.fsa file.</source>
+      <translation>Морате да изаберете ГЗ.ФСА фајл или ИМГ таг.фајл ФСА.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone| werden gelöscht!</name>
+    <message>
+      <source> are deleted!</source>
+      <translation> бришу!</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name>
+    <message>
+      <source>Do you want really restore the image of the hard drive?</source>
+      <translation>Желите ли заиста да поправите слику хард диска?</translation>
+    </message>
+    <message>
+      <source> Do you want really restore the image of the hard drive? </source>
+      <translation> Желите ли заиста да поправите слику хард диска? </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</name>
+    <message>
+      <source>Do you want really break clone, save or restore an image from the partition?</source>
+      <translation>Хоћеш стварно да се пробије клонира, задржи или поврати слику на одељак?</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte</name>
+    <message>
+      <source> Do you want really clone the hard drive? All dates on  </source>
+      <translation> Да ли заиста желите да клонира хард диск? Сви датуми на </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR</name>
+    <message>
+      <source>already exists. The backup is not performed</source>
+      <translation>већ постоји. Копирање се не врши</translation>
+    </message>
+    <message>
+      <source>Do you want really break the save or restore from the folder?</source>
+      <translation>Хоћеш стварно да се пробије сачувај или да се опорави податке из фолдера?</translation>
+    </message>
+    <message>
+      <source>Error in fsarchiver. The directory can not be restored!</source>
+      <translation>Грешка у fsarchiver. У директоријуму се не може поправити!</translation>
+    </message>
+    <message>
+      <source>Error!  The restoring of the folder was only partially successful!</source>
+      <translation>Грешка! Опоравак фолдеру био само делимично успешан!</translation>
+    </message>
+    <message>
+      <source>Links were not backed properly. The backup of the directories was only partially successful</source>
+      <translation>Линкови нису били сачувани на одговарајући начин. Резервну копију директоријума је био само делимично успешан</translation>
+    </message>
+    <message>
+      <source>links were not correctly restored. The restoring of the lists was only partially successful</source>
+      <translation>линкови нису били правилно опоравио. Враћање у листама је само делимично успешна</translation>
+    </message>
+    <message>
+      <source>Please select the directory in which the to the directory or file to be saved is to be written.</source>
+      <translation>Молимо вас, изаберите директоријум у који директоријум или фајл, да се спасем-то значи бити написано.</translation>
+    </message>
+    <message>
+      <source>Please select the to be directory or file to be saved.</source>
+      <translation>Молимо вас, изаберите директоријум или фајл, који ће бити сачувана.</translation>
+    </message>
+    <message>
+      <source>Select the directory in which the saved image will be recovered.</source>
+      <translation>Изаберите директоријум где ће се чувати слике ће бити враћена.</translation>
+    </message>
+    <message>
+      <source>The backup of the directory was successful.</source>
+      <translation>Бацкуп директоријум је прошла успешно.</translation>
+    </message>
+    <message>
+      <source>The backup of the folder was aborted by the user!</source>
+      <translation>Резервна копија фолдера била прекинута од стране корисника!</translation>
+    </message>
+    <message>
+      <source>The key length must be between 6 and 64 characters</source>
+      <translation>Дужина кључа мора да буде од 6 до 64 знакова</translation>
+    </message>
+    <message>
+      <source>The partition is encrypted. Please enter the Schlüsel</source>
+      <translation>Секција је шифрован. Молимо вас, унесите Schlüsel</translation>
+    </message>
+    <message>
+      <source>The partition is encrypted. Please enter the key</source>
+      <translation>Секција је шифрован. Молимо вас, унесите кључ</translation>
+    </message>
+    <message>
+      <source>The restore of the folder was break by user!</source>
+      <translation>Опоравак фасцикле је паузу од стране корисника!</translation>
+    </message>
+    <message>
+      <source>The restoring of the directory was successful.</source>
+      <translation>Опоравак каталога била успешна.</translation>
+    </message>
+    <message>
+      <source>There was no key for encryption specified.</source>
+      <translation>Тамо није било никаквог кључа за шифровање наведен.</translation>
+    </message>
+    <message>
+      <source>You have chosen the wrong recovery file selected.
+ The files should end with. fsa be</source>
+      <translation>Сте изабрали погрешан опоравак изабране датотеке.
+Датотека мора да се заврши. ФСА се</translation>
+    </message>
+    <message>
+      <source>You have selected a directory. You need a backup file with the extension .fsa select</source>
+      <translation>Сте изабрали у каталогу. Да ли Вам је потребна резервна датотека са екстензијом .ФСА изаберите</translation>
+    </message>
+    <message>
+      <source>You have selected a file. You must select a directory</source>
+      <translation>Сте изабрали фајл. Морате да изаберете директоријум</translation>
+    </message>
+    <message>
+      <source>You have tried to restore a directory. The selected file can only restore partitions.</source>
+      <translation>Да ли сте покушали да вратите директоријум. Изабрани фајл, можете само да се опорави секције.</translation>
+    </message>
+    <message>
+      <source>back to write backup file</source>
+      <translation>назад снимите датотеку резервне копије</translation>
+    </message>
+    <message>
+      <source>bzip2 fast</source>
+      <translation>компресије BZIP2 брзо</translation>
+    </message>
+    <message>
+      <source>bzip2 good</source>
+      <translation>компресије BZIP2 добро</translation>
+    </message>
+    <message>
+      <source>Decrypt
+backup. key:</source>
+      <translation>Дешифрује
+бацкуп. кључ:</translation>
+    </message>
+    <message>
+      <source>directories,</source>
+      <translation>каталози,</translation>
+    </message>
+    <message>
+      <source>directories,</source>
+      <translation>каталози,</translation>
+    </message>
+    <message>
+      <source>directories, and</source>
+      <translation>каталози и</translation>
+    </message>
+    <message>
+      <source>Directory restore</source>
+      <translation>Каталог опоравак</translation>
+    </message>
+    <message>
+      <source>Directory save</source>
+      <translation>Каталог саве</translation>
+    </message>
+    <message>
+      <source>Do you want to exit the program really?</source>
+      <translation>Да ли заиста желите да изађете из програма истина?</translation>
+    </message>
+    <message>
+      <source>Encrypt
+backup. key:</source>
+      <translation>Шифровање
+бацкуп. кључ:</translation>
+    </message>
+    <message>
+      <source>files,</source>
+      <translation>датотеке</translation>
+    </message>
+    <message>
+      <source>files,</source>
+      <translation>датотеке</translation>
+    </message>
+    <message>
+      <source>Files,</source>
+      <translation>Датотеке</translation>
+    </message>
+    <message>
+      <source>gzip fast</source>
+      <translation>помоћу GZIP брзо</translation>
+    </message>
+    <message>
+      <source>gzip standard</source>
+      <translation>стандард GZIP</translation>
+    </message>
+    <message>
+      <source>Hinweis</source>
+      <translation>Напомена</translation>
+    </message>
+    <message>
+      <source>links and</source>
+      <translation>везе и</translation>
+    </message>
+    <message>
+      <source>links and</source>
+      <translation>везе и</translation>
+    </message>
+    <message>
+      <source>links have been restored</source>
+      <translation>везе опоравио</translation>
+    </message>
+    <message>
+      <source>links have been saved</source>
+      <translation>везе су сачуване</translation>
+    </message>
+    <message>
+      <source>Location (path) of the backup</source>
+      <translation>Локација (пут) из резервне копије</translation>
+    </message>
+    <message>
+      <source>Location (path) of the restore</source>
+      <translation>Локација (пут) опоравак</translation>
+    </message>
+    <message>
+      <source>lzma best</source>
+      <translation>изма најбоље</translation>
+    </message>
+    <message>
+      <source>lzma fast</source>
+      <translation>изма брзо</translation>
+    </message>
+    <message>
+      <source>lzma medium</source>
+      <translation>изма средње</translation>
+    </message>
+    <message>
+      <source>No</source>
+      <translation>Нема</translation>
+    </message>
+    <message>
+      <source>Note</source>
+      <translation>Напомена</translation>
+    </message>
+    <message>
+      <source>Please select the existing backup file.</source>
+      <translation>Молимо вас, изаберите постојећу датотеку резервне копије.</translation>
+    </message>
+    <message>
+      <source>qzip best</source>
+      <translation>qzip најбоље</translation>
+    </message>
+    <message>
+      <source>specials have been backed.</source>
+      <translation>попусти су сачуване.</translation>
+    </message>
+    <message>
+      <source>specials have been restored.</source>
+      <translation>догађаји су се опоравили.</translation>
+    </message>
+    <message>
+      <source>The partition file</source>
+      <translation>Одељак датотеку</translation>
+    </message>
+    <message>
+      <source>There was no key to decrypt specified.</source>
+      <translation>Нема кључа за дешифровање наведени.</translation>
+    </message>
+    <message>
+      <source>to saved Directory</source>
+      <translation>да би спасао директоријуму</translation>
+    </message>
+    <message>
+      <source>Yes</source>
+      <translation>Да</translation>
+    </message>
+    <message>
+      <source>You have entered an incorrect password.</source>
+      <translation>Унели сте нетачну лозинку.</translation>
+    </message>
+    <message>
+      <source>You have entered an incorrect password.</source>
+      <translation>Унели сте нетачну лозинку.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.</name>
+    <message>
+      <source>Select the directory in which the saved image will be recovered.</source>
+      <translation>Изаберите директоријум где ће се чувати слике ће бити враћена.</translation>
+    </message>
+    <message>
+      <source>Select the directory in which the saved image will be recovered.
+</source>
+      <translation>Изаберите директоријум где ће се чувати слике ће бити враћена.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.</name>
+    <message>
+      <source>Please select the to be directory or file to be saved.
+</source>
+      <translation>Молимо вас, изаберите директоријум или фајл, који ће бити сачувана.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Bitte wählen Sie die vorhandene Sicherungsdatei aus.</name>
+    <message>
+      <source>Please select the existing backup file.
+</source>
+      <translation>Молимо вас, изаберите постојећу датотеку резервне копије.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| Dateien,</name>
+    <message>
+      <source>Files, </source>
+      <translation>Датотеке </translation>
+    </message>
+    <message>
+      <source>files, </source>
+      <translation>датотеке </translation>
+    </message>
+    <message>
+      <source> files,</source>
+      <translation> датотеке</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein</name>
+    <message>
+      <source>The partition is encrypted. Please enter the key</source>
+      <translation>Секција је шифрован. Молимо вас, унесите кључ</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Die Partitionsdatei</name>
+    <message>
+      <source>The partition file </source>
+      <translation>Одељак датотеку </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein</name>
+    <message>
+      <source>The key length must be between 6 and 64 characters
+</source>
+      <translation>Дужина кључа мора да буде од 6 до 64 знакова
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Die Sicherung des Verzeichnisses war erfolgreich.</name>
+    <message>
+      <source>The backup of the directory was successful.
+</source>
+      <translation>Бацкуп директоријум је прошла успешно.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!</name>
+    <message>
+      <source>The backup of the folder was aborted by the user!
+</source>
+      <translation>Резервна копија фолдера била прекинута од стране корисника!
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!</name>
+    <message>
+      <source>The restoration of the directory was canceled by the user!</source>
+      <translation>Опоравак каталогу је отказан од стране корисника!</translation>
+    </message>
+    <message>
+      <source>The restore of the folder was break by user!
+</source>
+      <translation>Опоравак фасцикле је паузу од стране корисника!
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Es wurde kein Schlüssel für die Entschlüsselung angegeben.</name>
+    <message>
+      <source>There was no key to decrypt specified.
+</source>
+      <translation>Нема кључа за дешифровање наведени.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Es wurde kein Schlüssel für die Verschlüsselung angegeben.</name>
+    <message>
+      <source>There was no key for encryption specified.
+</source>
+      <translation>Тамо није било никаквог кључа за шифровање наведен.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Fehler! Das Verzeichnis wurde nur teilweise wiederhergestellt.</name>
+    <message>
+      <source>Error!  The restoring of the folder was only partially successful!</source>
+      <translation>Грешка! Опоравак фолдеру био само делимично успешан!</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Fehler in fsarchiver. Das Verzeichnis kann nicht wiederhergestellt werden!!</name>
+    <message>
+      <source>Error in fsarchiver. The directory can not be restored!</source>
+      <translation>Грешка у fsarchiver. У директоријуму се не може поправити!</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Hinweis</name>
+    <message>
+      <source>Note</source>
+      <translation>Напомена</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt</name>
+    <message>
+      <source>already exists. The backup is not performed
+</source>
+      <translation>већ постоји. Копирање се не врши
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Ja</name>
+    <message>
+      <source>Yes</source>
+      <translation>Да</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| Links und</name>
+    <message>
+      <source>links and </source>
+      <translation>везе и </translation>
+    </message>
+    <message>
+      <source> links and </source>
+      <translation> везе и </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich</name>
+    <message>
+      <source> Links were not backed properly. The backup of the directories was only partially successful
+</source>
+      <translation> Линкови нису били сачувани на одговарајући начин. Резервну копију директоријума је био само делимично успешан
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich</name>
+    <message>
+      <source> links were not correctly restored. The restoring of the lists was only partially successful</source>
+      <translation> линкови нису били правилно опоравио. Враћање у листама је само делимично успешна</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Nein</name>
+    <message>
+      <source>No</source>
+      <translation>Нема</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Ort (Pfad) der Sicherung</name>
+    <message>
+      <source>Location (path) of the backup</source>
+      <translation>Локација (пут) из резервне копије</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Ort (Pfad) der Wiederherstellung</name>
+    <message>
+      <source>Location (path) of the restore</source>
+      <translation>Локација (пут) опоравак</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Sicherung
+entschlüsseln. Schlüssel:</name>
+    <message>
+      <source>Decrypt
+backup. key:</source>
+      <translation>Дешифрује
+бацкуп. кључ:</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Sicherung
+verschlüsseln. Schlüssel:</name>
+    <message>
+      <source>Encrypt
+backup. key:</source>
+      <translation>Шифровање
+бацкуп. кључ:</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Sie haben ein falsches Passwort eingegeben.</name>
+    <message>
+      <source>You have entered an incorrect password.</source>
+      <translation>Унели сте нетачну лозинку.</translation>
+    </message>
+    <message>
+      <source>You have entered an incorrect password.
+</source>
+      <translation>Унели сте нетачну лозинку.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen</name>
+    <message>
+      <source>You have selected a directory. You need a backup file with the extension .fsa select
+</source>
+      <translation>Сте изабрали у каталогу. Да ли Вам је потребна резервна датотека са екстензијом .ФСА изаберите
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen</name>
+    <message>
+      <source>You have selected a file. You must select a directory
+</source>
+      <translation>Сте изабрали фајл. Морате да изаберете директоријум
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
+Die Dateiendung muss .fsa sein</name>
+    <message>
+      <source>You have chosen the wrong recovery file selected.
+ The files should end with. fsa be</source>
+      <translation>Сте изабрали погрешан опоравак изабране датотеке.
+Датотека мора да се заврши. ФСА се</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Sie haben versucht ein Verzeichnis wiederherzustellen. Die gewählte Datei kann nur Partitionen wiederherstellen.</name>
+    <message>
+      <source>You have tried to restore a directory. The selected file can only restore partitions.
+</source>
+      <translation>Да ли сте покушали да вратите директоријум. Изабрани фајл, можете само да се опорави секције.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| spezielle Daten wurden gesichert.</name>
+    <message>
+      <source> specials have been backed.</source>
+      <translation> попусти су сачуване.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| spezielle Daten wurden wieder hergestellt.</name>
+    <message>
+      <source> specials have been restored.</source>
+      <translation> догађаји су се опоравили.</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| Verzeichnisse,</name>
+    <message>
+      <source>directories, </source>
+      <translation>каталози, </translation>
+    </message>
+    <message>
+      <source> directories, </source>
+      <translation> каталози, </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Verzeichnis sichern</name>
+    <message>
+      <source>Directory save</source>
+      <translation>Каталог саве</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Verzeichnis zurückschreiben</name>
+    <message>
+      <source>Directory restore</source>
+      <translation>Каталог опоравак</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR| Verzeichnisse und</name>
+    <message>
+      <source> directories, and </source>
+      <translation> каталози и </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Verzeichnisse beenden?</name>
+    <message>
+      <source>Do you want really break the save or restore from the folder?</source>
+      <translation>Хоћеш стварно да се пробије сачувај или да се опорави податке из фолдера?</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|zu sicherndes Verzeichnis</name>
+    <message>
+      <source>to saved Directory</source>
+      <translation>да би спасао директоријуму</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogDIR|zurück zu schreibende Sicherungsdatei</name>
+    <message>
+      <source>back to write backup file</source>
+      <translation>назад снимите датотеку резервне копије</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogMBR| Byte. Der verborgene Bereich von der Festplatte</name>
+    <message>
+      <source> bytes. The hidden area of the disk </source>
+      <translation> бајт. У скривеном области диска </translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogMBR| Byte. Wollen Sie fortfahren?</name>
+    <message>
+      <source> bytes. Are you sure?</source>
+      <translation> бајт. Да ли сте сигурни?</translation>
+    </message>
+  </context>
+  <context>
+    <name>DialogMBR</name>
+    <message>
+      <source>Caution: If you really want to to write back the MBR completely or partially?</source>
+      <translation>Упозорење: ако заиста желите да пишете назад у МБР потпуно или делимично?</translation>
+    </message>
+    <message>
+      <source>Caution: If you really want to to write back the GUID partition table?</source>
+      <translation>Упозорење: ако заиста желите да снимите тамо табелу партиција ГУИД?</translation>
+    </message>
+    <message>
+      <source>Caution: If you really want to to write back the secret field?</source>
+      <translation>Упозорење: ако заиста желите да пишете назад у поље Тајна?</translation>
+    </message>
+    <message>
+      <source>Caution: If you really want to to write back the GUID partition table?</source>
+      <translation>Упозорење: ако заиста желите да снимите тамо табелу партиција ГУИД?</translation>
+    </message>
+    <message>
+      <source>The Boot Loader section is successful return.</source>
+      <translation>Бут партиција је успешан повратак.</translation>
+    </message>
+    <message>
+      <source>The end of hidden area of the 1st Partition could not be read. Only 512 bytes are saved.</source>
+      <translation>Крај скривена област 1. одељка се не може читати. Само 512 бајтова чувају.</translation>
+    </message>
+    <message>
+      <source>The GUID partition table is successful return.</source>
+      <translation>Табела партиција ГУИД-то је успешан повратак.</translation>
+    </message>
+    <message>
+      <source>The GUID partition table was not restored.</source>
+      <translation>Табела партиција ГУИД није био обновљен.</translation>
+    </message>
+    <message>
+      <source>You have selected a directory. You must select the MBR backup file</source>
+      <translation>Сте изабрали у каталогу. Морате да изаберете МБР из резервне копије датотека</translation>
+    </message>
+    <message>
+      <source>You have no MBR backup file selected. Name or size is not correct</source>
+      <translation>Немате МБР из резервне копије изабране датотеке. Назив или величина не прави</translation>
+    </message>
+    <message>
+      <source>You have no MBR/GPT backup file selected. Name or size is not correct</source>
+      <translation>Немате МБР/ГПТ-диск бацкуп изабране датотеке. Назив или величина не прави</translation>
+    </message>
+    <message>
+      <source>You have selected a directory. You must select the MBR/GPT backup file</source>
+      <translation>Сте изабрали у каталогу. Морате да изаберете у МБР/ГПТ-диск бацкуп фајлова</translation>
+    </message>
+    <message>
+      <source>You have selected a file. You must select a directory.</source>
+      <translation>Сте изабрали фајл. Морате да изаберете директоријум.</translation>
+    </message>
+    <message>
+      <source>You may have a wrong file selected. Restore the hidden field has a size of</source>
+      <translation>Имате може бити погрешно изабране датотеке. Вратите скривено поље има величину</translation>
+    </message>
+    <message>
+      <source>You may have the wrong disk is selected. The restore disk is</source>
+      <translation>Можда не онај диск изабран. Опоравак диска</translation>
+    </message>
+    <message>
+      <source>Are you sure?</source>
+      <translation>Да ли сте сигурни?</translation>
+    </message>
+    <message>
+      <source>bytes. Are you sure?</source>
+      <translation>бајт. Да ли сте сигурни?</translation>
+    </message>
+    <message>
+      <source>bytes. The hidden area of the disk</source>
+      <translation>бајт. У скривеном области диска</translation>
+    </message>
+    <message>
+      <source>has a size of</source>
+      <translation>има величину</translation>
+    </message>
+    <message>
+      <source>MBR/GPT has not been backeed.</source>
+      <translation>МБР, тако и ГПТ не backeed.</translation>
+    </message>
+    <message>
+      <source>MBR/GPT restore</source>
+      <translation>Са МБР/ГПТ-диск за опоравак</translation>
+    </message>
+    <message>
+      <source>MBR/GPT save</source>
+      <translation>МБР, тако и ГПТ саве</translation>
+    </message>
+    <message>
+      <source>MBR/GPT was successfully backed up.</source>
+      <translation>Са МБР/ГПТ-диск је успешно копирају.</translation>
+    </message>
+    <message>
+      <source>MBR restore</source>
+      <translation>ИДБ да се опорави</translation>
+    </message>
+    <message>
+      <source>MBR save</source>
+      <translation>МБР и сачувајте</translation>
+    </message>
+    <message>
+      <source>No</source>
+      <translation>Нема</translation>
+    </message>
+    <message>
+      <source>Note</source>
+      <translation>Напомена</translation>
+    </message>
+    <message>
+      <source>The boot loader area was not restored.</source>
+      <translation>Довнлоадер зона није била обновљена.</translation>
+    </message>
+    <message>
+      <source>The hidden area is successful return.</source>
+      <translation>Скривена зона-то је успешан повратак.</translation>
+    </message>
+    <message>
+      <source>The hidden area was not restored.</source>
+      <translation>Скривене области није био обновљен.</translation>
+    </message>
+    <message>
+      <source>The MBR has not been backeed.</source>
+      <translation>У МБР није био backeed.</translation>
+    </message>
+    <message>
+      <source>The MBR is not restored.</source>
+      <translation>У МБР није обновљена.</translation>
+    </message>
+    <message>
+      <source>The MBR is successful return.</source>
+      <translation>Основна конфигурисана као бутабилни снимање-то је успешан повратак.</translation>
+    </message>
+    <message>
+      <source>The MBR was successfully backed up.</source>
+      <translation>Први блок је успешно копирају.</translation>
+    </message>
+    <message>
+      <source>The partition table is successful return.</source>
+      <translation>Табела партиција је успешан повратак.</translation>
+    </message>
+    <message>
+      <source>The partition table was not restored.</source>
+      <translation>Табела партиција није била обновљена.</translation>
+    </message>
+    <message>
+      <source>, the saved hard drive is</source>
+      <translation> сачуване хард диск</translation>
+    </message>
+>>>>>>> weblate/master
     <message>
         <location filename="../src/clone.cpp" line="71"/>
         <location filename="../src/clone.cpp" line="350"/>

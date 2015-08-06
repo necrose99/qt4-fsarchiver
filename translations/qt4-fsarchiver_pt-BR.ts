@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -13,15 +13,15 @@
     <name>clone_dialog</name>
     <message>
       <source>Directory in which the image is written</source>
-      <translation>Directory in which the image is written</translation>
+      <translation>Diretório em que a imagem está escrita</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;já salvo:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>already saved:</source>
-      <translation>already saved:</translation>
+      <translation>já salvo</translation>
     </message>
     <message>
       <source>Backup directory:</source>
@@ -29,31 +29,31 @@
     </message>
     <message>
       <source>Cancel</source>
-      <translation>Cancel</translation>
+      <translation>Cancelar</translation>
     </message>
     <message>
       <source>Clone hard disk</source>
-      <translation>Clone hard disk</translation>
+      <translation>Clonar disco rígido</translation>
     </message>
     <message>
       <source>Clone hard drive</source>
-      <translation>Clone hard drive</translation>
+      <translation>Clonar dispositivo rígido</translation>
     </message>
     <message>
       <source>CommandLinkButton</source>
-      <translation>CommandLinkButton</translation>
+      <translation>ComandoVincularBotão</translation>
     </message>
     <message>
       <source>elapsed time:</source>
-      <translation>elapsed time:</translation>
+      <translation>tempo passado:</translation>
     </message>
     <message>
       <source>Exist harddrive:</source>
-      <translation>Exist harddrive:</translation>
+      <translation>Existe dispositivorídigo:</translation>
     </message>
     <message>
       <source>Exit</source>
-      <translation>Exit</translation>
+      <translation>Sair</translation>
     </message>
     <message>
       <source>f</source>
@@ -61,23 +61,23 @@
     </message>
     <message>
       <source>hours:</source>
-      <translation>hours:</translation>
+      <translation>horas:</translation>
     </message>
     <message>
       <source>hours</source>
-      <translation>hours</translation>
+      <translation>horas</translation>
     </message>
     <message>
       <source>Image of a hard disk to create</source>
-      <translation>Image of a hard disk to create</translation>
+      <translation>Imagens de um disco rígido para criar</translation>
     </message>
     <message>
       <source>Image of a hard disk to create:</source>
-      <translation>Image of a hard disk to create:</translation>
+      <translation>Imagem de um disco rígido para criar:</translation>
     </message>
     <message>
       <source>Image of a hard disk write back</source>
-      <translation>Image of a hard disk write back</translation>
+      <translation>Imagem de um disco rígido escreve de volta</translation>
     </message>
     <message>
       <source>MB</source>
@@ -97,43 +97,43 @@
     </message>
     <message>
       <source>New harddrive:</source>
-      <translation>New harddrive:</translation>
+      <translation>Novo dispositivorígido:</translation>
     </message>
     <message>
       <source>Proposed action:</source>
-      <translation>Proposed action:</translation>
+      <translation>Ação proposta:</translation>
     </message>
     <message>
       <source>remaining time:</source>
-      <translation>remaining time:</translation>
+      <translation>Tempo remanescente:</translation>
     </message>
     <message>
       <source>Save / Restore MBR</source>
-      <translation>Save / Restore MBR</translation>
+      <translation>Salvar / Restaurar MBR</translation>
     </message>
     <message>
       <source>Save / restore MBR</source>
-      <translation>Save / restore MBR</translation>
+      <translation>Salvar / restaurar MBR</translation>
     </message>
     <message>
       <source>seconds:</source>
-      <translation>seconds:</translation>
+      <translation>segundos:</translation>
     </message>
     <message>
       <source>seconds</source>
-      <translation>seconds</translation>
+      <translation>segundos</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Velocidade de transmissão:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>Transmission speed:</source>
-      <translation>Transmission speed:</translation>
+      <translation>Velocidade de transmissão:</translation>
     </message>
     <message>
       <source>Transmission speed</source>
-      <translation>Transmission speed</translation>
+      <translation>Velocidade de transmissão</translation>
     </message>
     <message>
       <source>Use gzip</source>
@@ -144,35 +144,35 @@
     <name>clone_dialog_net</name>
     <message>
       <source>Image einer Festplatte zurückschreiben:</source>
-      <translation>Image einer Festplatte zurückschreiben:</translation>
+      <translation>Imagem de um disco de restauração:</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;já salvo:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>already saved:</source>
-      <translation>already saved:</translation>
+      <translation>já salvo:</translation>
     </message>
     <message>
       <source>Cancel</source>
-      <translation>Cancel</translation>
+      <translation>Cancelar</translation>
     </message>
     <message>
       <source>Clone hard drive</source>
-      <translation>Clone hard drive</translation>
+      <translation>Clonar dispositivo rígido</translation>
     </message>
     <message>
       <source>elapsed time:</source>
-      <translation>elapsed time:</translation>
+      <translation>tempo passado:</translation>
     </message>
     <message>
       <source>Exist harddrive:</source>
-      <translation>Exist harddrive:</translation>
+      <translation>Existe dispositivorígido:</translation>
     </message>
     <message>
       <source>Exist Image:</source>
-      <translation>Exist Image:</translation>
+      <translation>Existe Imagem:</translation>
     </message>
     <message>
       <source>f</source>
@@ -180,7 +180,7 @@
     </message>
     <message>
       <source>hours</source>
-      <translation>hours</translation>
+      <translation>horas</translation>
     </message>
     <message>
       <source>Image einer Festplatte erstellen:</source>

@@ -36,7 +36,11 @@
         <location filename="../src/clone.cpp" line="610"/>
         <source>Note</source>
         <comment>Hinweis</comment>
+<<<<<<< HEAD
         <translation>Nota de copia de seguridad permite por defecto</translation>
+=======
+        <translation>Nota</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="185"/>
@@ -67,13 +71,21 @@
         <location filename="../src/clone.cpp" line="200"/>
         <source> Do you want really clone the hard drive? All dates on  </source>
         <comment> Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte </comment>
+<<<<<<< HEAD
         <translation>¿Quieres realmente clonar el disco duro? Todas las fechas de</translation>
+=======
+        <translation> ¿Quieres realmente clonar el disco duro? Todas las fechas de  </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="200"/>
         <source> are deleted!</source>
         <comment> werden gelöscht!</comment>
+<<<<<<< HEAD
         <translation>Se eliminan!</translation>
+=======
+        <translation> Se eliminan!</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="236"/>
@@ -86,7 +98,11 @@
         <location filename="../src/clone.cpp" line="252"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
+<<<<<<< HEAD
         <translation>¿Quieres realmente construye una imagen del disco duro?</translation>
+=======
+        <translation> ¿Quieres realmente construye una imagen del disco duro? </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <source>alredy restored</source>
@@ -117,7 +133,11 @@
         <location filename="../src/clone.cpp" line="314"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
+<<<<<<< HEAD
         <translation>¿Quieres realmente restaurar la imagen del disco duro?</translation>
+=======
+        <translation> ¿Quieres realmente restaurar la imagen del disco duro? </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="339"/>
@@ -149,7 +169,12 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen
 </comment>
+<<<<<<< HEAD
         <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa.</translation>
+=======
+        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="575"/>
@@ -235,7 +260,11 @@
         <source>You must select a hard drive.</source>
         <comment>Sie müssen eine Festplatte auswählen.
 </comment>
+<<<<<<< HEAD
         <translation>Você deve selecionar um disco.</translation>
+=======
+        <translation>Debe seleccionar un disco duro.</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="156"/>
@@ -250,7 +279,12 @@
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
+<<<<<<< HEAD
         <translation>Por favor, seleccione el nombre del archivo del copia de seguridad.</translation>
+=======
+        <translation>Por favor, seleccione el nombre del archivo del copia de seguridad.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="170"/>
@@ -264,7 +298,11 @@
         <location filename="../src/clone_net.cpp" line="182"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
+<<<<<<< HEAD
         <translation>¿Quieres realmente construye una imagen del disco duro?</translation>
+=======
+        <translation> ¿Quieres realmente construida una imagen desde el disco duro? </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="241"/>
@@ -277,7 +315,11 @@
         <location filename="../src/clone_net.cpp" line="258"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
+<<<<<<< HEAD
         <translation>¿Quieres realmente restaurar la imagen del disco duro?</translation>
+=======
+        <translation> ¿Quieres realmente restaurar la imagen del disco duro? </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="291"/>
@@ -285,7 +327,12 @@
 </source>
         <comment>Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.
 </comment>
+<<<<<<< HEAD
         <translation>No se puede encontrar un directorio compartido. El programa se termina.</translation>
+=======
+        <translation>No se puede encontrar un directorio compartido. El programa se termina.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="342"/>
@@ -311,7 +358,12 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz Datei auswählen
 </comment>
+<<<<<<< HEAD
         <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo fsa.gz.</translation>
+=======
+        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo fsa.gz.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="523"/>
@@ -351,7 +403,11 @@
         <location filename="../src/clone_net.cpp" line="777"/>
         <source>The network computer </source>
         <comment>Der Netzwerkrechner </comment>
+<<<<<<< HEAD
         <translation>Nombre del ordenador de red</translation>
+=======
+        <translation>Nombre del ordenador de red </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="777"/>
@@ -359,7 +415,12 @@
 </source>
         <comment> konnte nicht eingebunden werden. Das Programm wird abgebrochen
 </comment>
+<<<<<<< HEAD
         <translation>no podría ser integrado. El programa es abortado</translation>
+=======
+        <translation> no podría ser integrado. El programa es abortado
+</translation>
+>>>>>>> weblate/master
     </message>
 </context>
 <context>
@@ -444,13 +505,21 @@ tecla de copia de seguridad</translation>
         <location filename="../src/dir.cpp" line="149"/>
         <source>Directory restore</source>
         <comment>Verzeichnis zurückschreiben</comment>
+<<<<<<< HEAD
         <translation>Directorio de restaurar</translation>
+=======
+        <translation>Restauración de directorio</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="150"/>
         <source>back to write backup file</source>
         <comment>zurück zu schreibende Sicherungsdatei</comment>
+<<<<<<< HEAD
         <translation>copia de seguridad para: escribir el archivo de copia de seguridad</translation>
+=======
+        <translation>volver a escribir el archivo de respaldo</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="151"/>
@@ -494,7 +563,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Verschlüsselung angegeben.
 </comment>
+<<<<<<< HEAD
         <translation>No había ninguna clave para el cifrado especificado.</translation>
+=======
+        <translation>No había ninguna clave para el cifrado especificado.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="209"/>
@@ -502,7 +576,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.
 </comment>
+<<<<<<< HEAD
         <translation>Por favor, seleccione el directorio en el que el al directorio o archivo para ser salvo es ser escrit.</translation>
+=======
+        <translation>Por favor, seleccione el directorio en el cual el directorio o archivo para salvarse es escrita.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="215"/>
@@ -510,7 +589,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.
 </comment>
+<<<<<<< HEAD
         <translation>Por favor, seleccione el directorio que ser o archivo que desea guardar.</translation>
+=======
+        <translation>Por favor, seleccione el directorio o archivo para salvarse.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <source>Hinweis</source>
@@ -522,7 +606,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
+<<<<<<< HEAD
         <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa</translation>
+=======
+        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="251"/>
@@ -531,13 +620,22 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
 </comment>
+<<<<<<< HEAD
         <translation>La longitud de la clave debe estar entre 6 y 64 caractere</translation>
+=======
+        <translation>La longitud de la clave debe estar entre 6 y 64 caractere
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="269"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
+<<<<<<< HEAD
         <translation>El archivo de la partición</translation>
+=======
+        <translation>El archivo de la partición </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="270"/>
@@ -545,7 +643,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
 </comment>
+<<<<<<< HEAD
         <translation>ya existe. No se realiza la copia de segurida</translation>
+=======
+        <translation>ya existe. No se realiza la copia de segurida
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="291"/>
@@ -553,7 +656,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
+<<<<<<< HEAD
         <translation>No había llave para descifrar especificado.</translation>
+=======
+        <translation>No había llave para descifrar especificado.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="298"/>
@@ -561,7 +669,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.
 </comment>
+<<<<<<< HEAD
         <translation>Seleccione el directorio en el que se va a recuperar la imagen guardada.</translation>
+=======
+        <translation>Seleccione el directorio en el que se va a recuperar la imagen guardada.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="304"/>
@@ -569,7 +682,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie die vorhandene Sicherungsdatei aus.
 </comment>
+<<<<<<< HEAD
         <translation>Por favor, seleccione el archivo de copia de seguridad existente.</translation>
+=======
+        <translation>Por favor, seleccione el archivo de copia de seguridad existente.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="310"/>
@@ -577,7 +695,12 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen
 </comment>
+<<<<<<< HEAD
         <translation>Ha seleccionado un directorio. Es necesario un archivo de copia de seguridad al extensión. Fsa selecciona</translation>
+=======
+        <translation>Ha seleccionado un directorio. Es necesario un archivo de copia de seguridad al extensión. Fsa selecciona
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="317"/>
@@ -585,8 +708,8 @@ tecla de copia de seguridad</translation>
  The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
-Los archivos deben terminar al FSA.</translation>
+        <translation>Has seleccionado el archivo de recuperación mal seleccionado.
+ Los archivos deben terminar con. FSA ser</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="331"/>
@@ -608,7 +731,12 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Die Sicherung des Verzeichnisses war erfolgreich.
 </comment>
+<<<<<<< HEAD
         <translation>La restauración del directorio se ha realizado correctamente.</translation>
+=======
+        <translation>La restauración del directorio se ha realizado correctamente.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
@@ -621,13 +749,21 @@ Los archivos deben terminar al FSA.</translation>
         <location filename="../src/dir.cpp" line="439"/>
         <source>  directories, </source>
         <comment> Verzeichnisse, </comment>
+<<<<<<< HEAD
         <translation> directorios, </translation>
+=======
+        <translation type="unfinished">  directorios, </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
         <source>  links and </source>
         <comment> Links und </comment>
+<<<<<<< HEAD
         <translation> enlaces y </translation>
+=======
+        <translation type="unfinished">  enlaces y </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
@@ -641,20 +777,33 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
+<<<<<<< HEAD
         <translation>La copia de seguridad de la carpeta fue abortada por el usuario!</translation>
+=======
+        <translation>La copia de seguridad de la carpeta fue abortada por el usuario.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="458"/>
         <source> Files, </source>
         <comment> Dateien, </comment>
+<<<<<<< HEAD
         <translation> archivos, </translation>
+=======
+        <translation> Archivos, </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="459"/>
         <location filename="../src/dir.cpp" line="510"/>
         <source> directories, and </source>
         <comment> Verzeichnisse und </comment>
+<<<<<<< HEAD
         <translation> directorios, </translation>
+=======
+        <translation> directorios, y </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="460"/>
@@ -662,7 +811,12 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment> Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich
 </comment>
+<<<<<<< HEAD
         <translation> Los vínculos no fueron respaldados correctamente. La copia de seguridad de los directorios era sólo un éxito parcia</translation>
+=======
+        <translation> Enlaces no fueron debidamente respaldados. La copia de seguridad de los directorios sólo fue parcialmente exitosa
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="491"/>
@@ -670,19 +824,32 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Die Wiederherstellung des Verzeichnisses war erfolgreich.
 </comment>
+<<<<<<< HEAD
         <translation>La restauración del directorio se ha realizado correctamente.</translation>
+=======
+        <translation>La restauración del directorio fue exitosa.
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
+<<<<<<< HEAD
         <translation> directorios,</translation>
+=======
+        <translation type="unfinished"> directorios, </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
         <source> links and </source>
         <comment> Links und </comment>
+<<<<<<< HEAD
         <translation> enlaces y</translation>
+=======
+        <translation> enlaces y </translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
@@ -981,7 +1148,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa</translation>
+        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa
+</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="407"/>
@@ -1305,7 +1473,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
 </comment>
-        <translation>La copia de seguridad de la carpeta fue abortada por el usuario!</translation>
+        <translation>La copia de seguridad de la carpeta fue abortada por el usuario!
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="769"/>
@@ -1313,7 +1482,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>No había ninguna clave para el cifrado especificado.</translation>
+        <translation>No había ninguna clave para el cifrado especificado.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="781"/>
@@ -1337,8 +1507,8 @@ Los archivos deben terminar al FSA.</translation>
 The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
-Los archivos deben terminar al FSA.</translation>
+        <translation>Has seleccionado el archivo de recuperación mal seleccionado.
+Los archivos deben terminar con. FSA ser</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="803"/>
@@ -1382,8 +1552,8 @@ Los archivos deben terminar al FSA.</translation>
         <location filename="../src/net.cpp" line="867"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation>En el número guardado
- Archivos/directorios:</translation>
+        <translation> En el número guardado
+ Archivos/directorios:  </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="867"/>
@@ -2138,8 +2308,7 @@ clave de copia de seguridad:</translation>
     <message>
         <location filename="../src/setting.cpp" line="48"/>
         <source>SSH</source>
-        <translation>SSH
-</translation>
+        <translation>SSH</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="48"/>
@@ -2164,7 +2333,12 @@ clave de copia de seguridad:</translation>
 </source>
         <comment>Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache
 </comment>
+<<<<<<< HEAD
         <translation type="obsolete">La traducción está en curso. Por favor, elija otro idioma</translation>
+=======
+        <translation>La traducción está en curso. Por favor, elija otro idioma
+</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <source>The translation is in progress. Please choose an other language
@@ -2506,7 +2680,7 @@ transmission:</source>
         <location filename="../src/ui/filedialog.ui" line="14"/>
         <source>Description of the backup</source>
         <extracomment>Beschreibung der Sicherung</extracomment>
-        <translation>Descripción:</translation>
+        <translation>Descripción de la copia de seguridad</translation>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="26"/>
@@ -2528,12 +2702,12 @@ transmission:</source>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="80"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+        <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../src/filedialog.cpp" line="41"/>
@@ -2759,7 +2933,11 @@ tecla de copia de seguridad:</translation>
         <location filename="../src/mainWindow.cpp" line="556"/>
         <source>To back up home partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
+<<<<<<< HEAD
         <translation>Para la copia de seguridad se monta la partición En Casa &quot;home.&quot; ¿Quieres hacer una copia de seguridad en vivo?</translation>
+=======
+        <translation type="unfinished">Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="574"/>
@@ -2936,7 +3114,7 @@ Los archivos deben terminar al fsa</translation>
         <location filename="../src/mainWindow.cpp" line="1024"/>
         <source>The restoring is performed</source>
         <comment>Die Wiederherstellung wird durchgeführt</comment>
-        <translation>La restauración del directorio se ha realizado correctamente.</translation>
+        <translation>La restauración se realiza</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1084"/>
@@ -2944,12 +3122,95 @@ Los archivos deben terminar al fsa</translation>
         <translation>qt4-fsarchiver</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../src/mainWindow.cpp" line="1085"/>
         <source>Backup and restore partitions, directory and MBR
 Version 0.6.19-15, August 1, 2015</source>
         <comment>Sichern und Wiederherstellen von Partitionen, Verzeichnissen und MBR Version 0.6.19-15, 1. August 2015</comment>
 <translation>Copia de seguridad y restauración de particiones, directorios y MBR
 versione 0.6.19-15, 1. Agosto. 2015</translation>
+=======
+        <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-2, April 27, 2014</source> 
+            <translation>Backup y restore, directorio de volúmenes y particiones MBR Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+Todos los derechos reservados.
+Versión 0.6.19-2, 27 de Abril de 2014</translation>
+    </message> 
+        <message>
+            <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-5, June 28, 2014</source> 
+            <translation>Copia de seguridad y restauración de
+ particiones, directorios y MBR
+ Copyright (C) 2008-2014 Francois Dupoux y Dieter Baum.
+Todos los derechos reservados.
+Versión 0.6.19-5, 28 de junio 2014</translation> 
+        </message> 
+        <message>
+            <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-7, September 2, 2014</source> 
+            <translation>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-7, September 2, 2014</translation> 
+        </message> 
+        <message>
+            <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.18-1, March 15, 2014</source> 
+            <translation>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.18-1, March 15, 2014</translation> 
+        </message> 
+        <message>
+            <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-6, August 4, 2014</source> 
+            <translation>Copia de seguridad y restauración de
+ particiones, directorios y MBR
+ Copyright (C) 2008-2014 Francois Dupoux y Dieter Baum.
+Todos los derechos reservados.
+Versión 0.6.19-6, 4 de agosto 2014</translation> 
+        </message> 
+        <message>
+            <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-4, May 28, 2014</source> 
+            <translation>Copia de seguridad y restauración de
+ particiones, directorios y MBR
+ Copyright (C) 2008-2014 Francois Dupoux y Dieter Baum.
+Todos los derechos reservados.
+Versión 0.6.19-4, 28 de mayo 2014</translation> 
+        </message> 
+        <message>
+            <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.19-3, May 8, 2014</source> 
+            <translation>Copia de seguridad y restauración de
+ particiones, directorios y MBR
+ Copyright (C) 2008-2013 Francois Dupoux y Dieter Baum.
+Todos los derechos reservados.
+Versión 0.6.19-4, 28 de mayo 2014</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1482"/>
@@ -3012,6 +3273,824 @@ All rights reserved.
 Version 0.6.19-3, 8. Mai 2014</comment>
         <translation type="obsolete">Copia de seguridad y restauración de
  particiones, directorios y MBR
+<<<<<<< HEAD
+=======
+ Copyright (C) 2008-2014 Francois Dupoux y Dieter Baum.
+Todos los derechos reservados.
+Versión 0.6.19-7, 2 de septiembre 2014</translation> 
+        </message> 
+        <message>
+            <source>can not be unmounted. The program is terminated</source> 
+            <translation>no se puede desmontar. El programa es terminado</translation> 
+        </message> 
+        <message>
+            <source>can not be unmounted. The program is terminated</source> 
+            <translation>no se puede desmontar. El programa es terminado</translation> 
+        </message> 
+        <message>
+            <source>cannot restore an archive to a partition which is mounted, unmount it first</source> 
+            <translation>no puede restaurar un archivo a una partición que está montada, desmonte primero</translation> 
+        </message> 
+        <message>
+            <source>Do you really want to break the save or restore from the partition?</source> 
+            <translation>¿Quieres realmente romper clon, guardar o restaurar una imagen de la partición?</translation> 
+        </message> 
+        <message>
+            <source>Do you want really break the save or restore from the partition?</source> 
+            <translation>Do you want really break the save or restore from the partition?</translation> 
+        </message> 
+        <message>
+            <source>Error saving partition. File too large. Use is FAT-partition?</source> 
+            <translation>Ahorro de partición de error. El archivo es demasiado grande. El uso es FAT-partición?</translation> 
+        </message> 
+        <message>
+            <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source> 
+            <translation>Si la partición btrfs existente que desea formatear? El nuevo UUID se define aquí. Si decide &lt;no&gt;, el UUID queda preservada.</translation> 
+        </message> 
+        <message>
+            <source>In the file /usr/share/doc/qt4-fsarchiver/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source> 
+            <translation>En el archivo / usr/share/doc/qt4-fsarchiver /Léame se incluyen instrucciones sobre el uso del programa. Si esto continúa a mostrar? Usted puede cambiar esto en la configuración básica.</translation> 
+        </message> 
+        <message>
+            <source>Links were not correctly restored. The recovery of the volume was only partially successful.</source> 
+            <translation>Enlaces no fueron restaurados correctamente. La recuperación del volumen sólo fue parcialmente exitosa.</translation>
+    </message> 
+        <message>
+            <source>Links were not correctly restored. The recovery of the volume was only partially successful.</source> 
+            <translation>vínculos no se han restaurado correctamente. La restauración de las listas era sólo un éxito parcial</translation> 
+        </message> 
+        <message>
+            <source>links were not properly backed. The backup of the partition was only partially successful.</source> 
+            <translation>Los vínculos no fueron respaldados correctamente. La copia de seguridad de los directorios era sólo un éxito parcial</translation> 
+        </message> 
+        <message>
+            <source>Please select from the writing back to partition.</source> 
+            <translation>Por favor, seleccione la partición a ser escrito de nuevo.</translation> 
+        </message> 
+        <message>
+            <source>Restore the home partition is mounted and can not be written back. Please use a live CD.</source> 
+            <translation>Restore está montada la partición casa y no se puede escribir de nuevo. Por favor, use un CD en vivo.</translation> 
+        </message> 
+        <message>
+            <source>Restore the system partition is mounted and can not be written back. Please use a live CD.</source> 
+            <translation>Restore está montada la partición casa y no se puede escribir de nuevo. Por favor, use un CD en vivo.</translation> 
+        </message> 
+        <message>
+            <source>specials and the Partition Boot Record have been restored
+.</source> 
+            <translation>specials and the Partition Boot Record have been restored
+.</translation> 
+        </message> 
+        <message>
+            <source>specials and the Partition Boot Record have been restored
+.</source> 
+            <translation>datos específicos e PBR ha sido respaldado.</translation> 
+        </message> 
+        <message>
+            <source>The backup of the partition was aborted by the user!</source> 
+            <translation>La copia de seguridad de la carpeta fue abortada por el usuario!</translation> 
+        </message> 
+        <message>
+            <source>The backup of the partition was not successful. The file is to big. Do you need a FAT-Partition?</source> 
+            <translation>The backup of the partition was not successful. The file is to big. Do you need a FAT-Partition?</translation> 
+        </message> 
+        <message>
+            <source>The backup of the partition was only partially successful.</source> 
+            <translation>La copia de seguridad de la partición fue sólo un éxito parcial.</translation> 
+        </message> 
+        <message>
+            <source>The file is too big. Do you need a FAT-Partition?</source> 
+            <translation>The file is too big. Do you need a FAT-Partition?</translation> 
+        </message> 
+        <message>
+            <source>The key length must be between 6 and 64 characters.</source> 
+            <translation>La longitud de la clave debe estar entre 6 y 64 caracteres.</translation> 
+        </message> 
+        <message>
+            <source>The key length must be between 6 and 64 characters</source> 
+            <translation>La longitud de la clave debe estar entre 6 y 64 caracteres</translation> 
+        </message> 
+        <message>
+            <source>The partition has been backed up successfully.</source> 
+            <translation>La partición se ha respaldado con éxito.</translation> 
+        </message> 
+        <message>
+            <source>The partition is encrypted. Please enter the key</source> 
+            <translation>La partición está encriptada. Por favor, introduzca la clave</translation> 
+        </message> 
+        <message>
+            <source>The partition type is not supported. Maybe the partition is encrypted?</source> 
+            <translation>El tipo de partición no es compatible. Tal vez la partición está encriptada?</translation> 
+        </message> 
+        <message>
+            <source>The program must be run with root privileges. The program is terminated.</source> 
+            <translation>El programa se debe ejecutar con privilegios de root. El programa es terminado.</translation> 
+        </message> 
+        <message>
+            <source>The restore of the partition was break by user!</source> 
+            <translation>La restauración de la partición fue detenida por el usuario</translation> 
+        </message> 
+        <message>
+            <source>The restore of the partition was only partially successful.</source> 
+            <translation>La restauración de la partición fue sólo un éxito parcial.</translation> 
+        </message> 
+        <message>
+            <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source> 
+            <translation>Hay un archivo con el contenido del sector de arranque de la partición actual. ¿Usted desea realizar la restauración de la PBR?</translation> 
+        </message> 
+        <message>
+            <source>To back up home partition is mounted. Do you want to do a live backup?</source> 
+            <translation>Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation> 
+        </message> 
+        <message>
+            <source>To back up the system partition is mounted. Do you want to do a live backup?</source> 
+            <translation>La partición del sistema para ser salvo se monta. ¿Quieres hacer una copia de seguridad en vivo?</translation> 
+        </message> 
+        <message>
+            <source>to be protected/secured partition: / (root system directory)</source> 
+            <translation>a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation> 
+        </message> 
+        <message>
+            <source>You have chosen the wrong recovery file selected. 
+The files should end with. fsa be</source> 
+            <translation>Usted ha elegido el archivo de recuperación mal seleccionado.
+Los archivos deben terminar al fsa</translation> 
+        </message> 
+        <message>
+            <source>You have selected a directory. You must select a file</source> 
+            <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa</translation> 
+        </message> 
+        <message>
+            <source>You have selected a file. You must select a directory</source> 
+            <translation>Ha seleccionado una carpeta. Debe seleccionar un directorio</translation> 
+        </message> 
+        <message>
+            <source>You have tried restore a partition. The selected file can only restore directories. Please restart the program.</source> 
+            <translation>Ha intentado restaurar una partición. El archivo seleccionado sólo puede restaurar directorios. Por favor, reinicie el programa.</translation> 
+        </message> 
+        <message>
+            <source>already exists. The backup is not performed</source> 
+            <translation>ya existe. No se realiza la copia de seguridad</translation> 
+        </message> 
+        <message>
+            <source>Approximate image file sizes:</source> 
+            <translation>Tamaño del archivos de imagen aproximadas:</translation> 
+        </message> 
+        <message>
+            <source>Assignment of the partition:</source> 
+            <translation>El archivo de la partición:</translation> 
+        </message> 
+        <message>
+            <source>Backup directory</source> 
+            <translation>Directorio de copia de seguridad</translation> 
+        </message> 
+        <message>
+            <source>Backup File</source> 
+            <translation>copia de seguridad para: escribir el archivo de copia de seguridad</translation> 
+        </message> 
+        <message>
+            <source>Backup file name:</source> 
+            <translation>copia de seguridad para: escribir el archivo de copia de seguridad:</translation> 
+        </message> 
+        <message>
+            <source>Compression:</source> 
+            <translation>Compresión ajuste:</translation> 
+        </message> 
+        <message>
+            <source>Computer name:</source> 
+            <translation>Computer name:</translation> 
+        </message> 
+        <message>
+            <source>Decrypt
+backup. key:</source> 
+            <translation>Desencripta
+clave de copia de seguridad:</translation> 
+        </message> 
+        <message>
+            <source>Description:</source> 
+            <translation>Descripción:</translation> 
+        </message> 
+        <message>
+            <source>directories and</source> 
+            <translation>directories and</translation> 
+        </message> 
+        <message>
+            <source>directories,</source> 
+            <translation>directories,</translation> 
+        </message> 
+        <message>
+            <source>directories,</source> 
+            <translation>directorios,</translation> 
+        </message> 
+        <message>
+            <source>directories and</source> 
+            <translation>directorios y</translation> 
+        </message> 
+        <message>
+            <source>Do you want to continue restore?</source> 
+            <translation>¿Quieres seguir a restaurar?</translation> 
+        </message> 
+        <message>
+            <source>Do you want to exit the program really?</source> 
+            <translation>Do you want to exit the program really?</translation> 
+        </message> 
+        <message>
+            <source>does not coincide with the saved</source> 
+            <translation>no coincide con la guardada</translation> 
+        </message> 
+        <message>
+            <source>Encrypt
+backup. key:</source> 
+            <translation>Encriptar
+tecla de copia de seguridad:</translation> 
+        </message> 
+        <message>
+            <source>files,</source> 
+            <translation>archivos,</translation> 
+        </message> 
+        <message>
+            <source>GB</source> 
+            <translation>GB</translation> 
+        </message> 
+        <message>
+            <source>Kernel:</source> 
+            <translation>kernel:</translation> 
+        </message> 
+        <message>
+            <source>links</source> 
+            <translation>enlaces y</translation> 
+        </message> 
+        <message>
+            <source>links and</source> 
+            <translation>enlaces y</translation> 
+        </message> 
+        <message>
+            <source>links and</source> 
+            <translation>links and</translation> 
+        </message> 
+        <message>
+            <source>links have been backed.</source> 
+            <translation>links have been backed.</translation> 
+        </message> 
+        <message>
+            <source>links have been restored.</source> 
+            <translation>links have been restored.</translation> 
+        </message> 
+        <message>
+            <source>links were not properly backed.</source> 
+            <translation>enlaces no fueron respaldados correctamente.</translation> 
+        </message> 
+        <message>
+            <source>links were not properly restored.</source> 
+            <translation>enlaces</translation> 
+        </message> 
+        <message>
+            <source>MB</source> 
+            <translation>MB</translation> 
+        </message> 
+        <message>
+            <source>No</source> 
+            <translation>No</translation> 
+        </message> 
+        <message>
+            <source>Note</source> 
+            <translation>Nota de copia de seguridad permite por defecto</translation> 
+        </message> 
+        <message>
+            <source>Operating system:</source> 
+            <translation>Sistema operativo:</translation> 
+        </message> 
+        <message>
+            <source>Other notes:</source> 
+            <translation>Otras notas:</translation> 
+        </message> 
+        <message>
+            <source>Partition  name:</source> 
+            <translation>Nombre del imagen:</translation> 
+        </message> 
+        <message>
+            <source>Partition restore</source> 
+            <translation>Restaurar la tabla de particiones</translation> 
+        </message> 
+        <message>
+            <source>Partition size:</source> 
+            <translation>tiene un tamaño de:</translation> 
+        </message> 
+        <message>
+            <source>Partition to restore the</source> 
+            <translation>Restaurar la tabla de particiones</translation> 
+        </message> 
+        <message>
+            <source>Partition type:</source> 
+            <translation>Tipo de partición:</translation> 
+        </message> 
+        <message>
+            <source>Please select from the backup directory.</source> 
+            <translation>Por favor, seleccione el nombre del archivo del copia de seguridad.</translation> 
+        </message> 
+        <message>
+            <source>Please select the file name of the backup.</source> 
+            <translation>Por favor, seleccione el archivo de copia de seguridad existente.</translation> 
+        </message> 
+        <message>
+            <source>Please select the partition to be</source> 
+            <translation>Por favor, seleccione la partición a ser escrito de nuevo</translation> 
+        </message> 
+        <message>
+            <source>qt4-fsarchiver</source> 
+            <translation>qt4-fsarchiver</translation> 
+        </message> 
+        <message>
+            <source>Save partition</source> 
+            <translation>guardar partición</translation> 
+        </message> 
+        <message>
+            <source>specials have been restored.</source> 
+            <translation>datos específicos ha sido respaldado.</translation> 
+        </message> 
+        <message>
+            <source>specials have been restored
+.</source> 
+            <translation>specials have been restored
+.</translation> 
+        </message> 
+        <message>
+            <source>specials have been backed
+.</source> 
+            <translation>datos específicos ha sido respaldado.</translation> 
+        </message> 
+        <message>
+            <source>specials have been backed.</source> 
+            <translation>specials have been backed.</translation> 
+        </message> 
+        <message>
+            <source>specials have been backed.</source> 
+            <translation>datos específicos ha sido respaldado.</translation> 
+        </message> 
+        <message>
+            <source>specials have been restored
+.</source> 
+            <translation>datos específicos ha sido respaldado.</translation> 
+        </message> 
+        <message>
+            <source>specials were not properly backed
+.</source> 
+            <translation>datos específicos no fueron respaldados adecuadamente.</translation> 
+        </message> 
+        <message>
+            <source>specials were not properly restored
+.</source> 
+            <translation>datos específicos ha no respaldado correctamente.</translation> 
+        </message> 
+        <message>
+            <source>TB</source> 
+            <translation>TB</translation> 
+        </message> 
+        <message>
+            <source>The backup is performed</source> 
+            <translation>se lleva a cabo la copia de seguridad</translation> 
+        </message> 
+        <message>
+            <source>The backup was aborted by the user</source> 
+            <translation>La copia de seguridad de la carpeta fue abortada por el usuario</translation> 
+        </message> 
+        <message>
+            <source>The partition</source> 
+            <translation>El archivo de la partición</translation> 
+        </message> 
+        <message>
+            <source>The partition</source> 
+            <translation>El archivo de la partición</translation> 
+        </message> 
+        <message>
+            <source>The partition file</source> 
+            <translation>El archivo de la partición</translation> 
+        </message> 
+        <message>
+            <source>The partition is successful back.</source> 
+            <translation>La partición está de vuelta con éxito.</translation> 
+        </message> 
+        <message>
+            <source>The restore was aborted by the user</source> 
+            <translation>La restauración fue abortado por el usuario</translation> 
+        </message> 
+        <message>
+            <source>The restoring is performed</source> 
+            <translation>La restauración del directorio se ha realizado correctamente.</translation> 
+        </message> 
+        <message>
+            <source>There was no key to decrypt specified.</source> 
+            <translation>No había llave para descifrar especificado.</translation> 
+        </message> 
+        <message>
+            <source>to be protected/secured partition: /home</source> 
+            <translation>a ser protegido / asegurado partición: / home (En Casa)</translation> 
+        </message> 
+        <message>
+            <source>UUID:</source> 
+            <translation>UUID:</translation> 
+        </message> 
+        <message>
+            <source>Yes</source> 
+            <translation>Si</translation> 
+        </message> 
+        <message>
+            <source>You have entered an incorrect password.</source> 
+            <translation>Ha introducido una contraseña incorrecta.</translation> 
+        </message> 
+        <message>
+            <source>You have entered an incorrect password.</source> 
+            <translation>Ha introducido una contraseña incorrecta.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Belegung der Partition:</name> 
+        <message>
+            <source>Assignment of the partition: </source> 
+            <translation>La asignación de la partición:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Betriebsystem:</name> 
+        <message>
+            <source>Operating system: </source> 
+            <translation>Sistema operativo:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Bezeichnung:</name> 
+        <message>
+            <source>Description: </source> 
+            <translation>Descripción:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Bitte wählen Sie das Sicherungsverzeichnis aus.</name> 
+        <message>
+            <source>Please select from the backup directory.
+</source> 
+            <translation>Por favor, elegir el directorio de copia de seguridad.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Bitte wählen Sie den Dateinamen der Sicherung aus.</name> 
+        <message>
+            <source>Please select the file name of the backup.
+</source> 
+            <translation>Por favor, seleccione el archivo de copia de seguridad existente.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Bitte wählen Sie die zu sichernde Partition aus.</name> 
+        <message>
+            <source>Please select the partition to be</source> 
+            <translation>Por favor, seleccione la partición a ser.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Bitte wählen Sie die zurück zu schreibende Partition aus.</name> 
+        <message>
+            <source>Please select from the writing back to partition.
+</source> 
+            <translation>Por favor, seleccione la partición a ser escrito de nuevo.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Das Programm muss mit Root-Rechten gestartet werden. Das Programm wird beendet.</name> 
+        <message>
+            <source>The program must be run with root privileges. The program is terminated.
+</source> 
+            <translation>El programa se debe ejecutar con privilegios de root. El programa es terminado.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Das Zurückschreiben wurde vom Benutzer abgebrochen</name> 
+        <message>
+            <source>The restore was aborted by the user</source> 
+            <translation>La restauración fue abortado por el usuario</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| Dateien,</name> 
+        <message>
+            <source> files, </source> 
+            <translation> archivos, </translation>
+    </message> 
+    </context> 
+    <context>
+        <name>MWindow|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?</name> 
+        <message>
+            <source>The partition type is not supported. Maybe the partition is encrypted?
+</source> 
+            <translation>El tipo de partición no es compatible. Tal vez la partición está encriptada?
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Partition</name> 
+        <message>
+            <source>The partition</source> 
+            <translation>La partición</translation> 
+        </message> 
+        <message>
+            <source>The partition </source> 
+            <translation>La partición
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!</name> 
+        <message>
+            <source>cannot restore an archive to a partition which is mounted, unmount it first 
+</source> 
+            <translation>no puede restaurar un archivo a una partición que está montada, desmonte primero.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein</name> 
+        <message>
+            <source>The partition is encrypted. Please enter the key</source> 
+            <translation>La partición está encriptada. Por favor, introduzca la clave</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Partition wurde erfolgreich gesichert.</name> 
+        <message>
+            <source>The partition has been backed up successfully.
+</source> 
+            <translation>La partición se ha respaldado con éxito.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Partition wurde erfolgreich wieder hergestellt.</name> 
+        <message>
+            <source>The partition is successful back.
+</source> 
+            <translation>La partición ha sido restaurado con éxito.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Partitionsdatei</name> 
+        <message>
+            <source>The partition file</source> 
+            <translation>El archivo de la partición</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein.</name> 
+        <message>
+            <source>The key length must be between 6 and 64 characters.</source> 
+            <translation>La longitud de la clave debe ser 6-64 caracteres.</translation> 
+        </message> 
+        <message>
+            <source>The key length must be between 6 and 64 characters.</source> 
+            <translation>La longitud de la clave debe estar entre 6 y 64 caracteres
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?</name> 
+        <message>
+            <source>Error saving partition. File too large. Use is FAT-partition?
+</source> 
+            <translation>Ahorro de partición de error. El archivo es demasiado grande. El uso es FAT-partición?
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Sicherung der Partition  wurde vom Benutzer abgebrochen!</name> 
+        <message>
+            <source>The backup of the partition was aborted by the user!
+</source> 
+            <translation>La copia de seguridad de la partición fue abortada por el usuario!
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Sicherung wird durchgeführt</name> 
+        <message>
+            <source>The backup is performed</source> 
+            <translation>MBR / GPT directorio de copia de seguridad:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Sicherung wurde vom Benutzer abgebrochen</name> 
+        <message>
+            <source>The backup was aborted by the user
+</source> 
+            <translation>La copia de seguridad de la carpeta fue abortada por el usuario!
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Wiederherstellung der Partition  wurde vom Benutzer abgebrochen!</name> 
+        <message>
+            <source>The restore of the partition was canceled by user!</source> 
+            <translation>La restauración de la partición fue detenida por el usuario
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die Wiederherstellung wird durchgeführt</name> 
+        <message>
+            <source>The restoring is performed</source> 
+            <translation>La restauración se lleva a cabo</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</name> 
+        <message>
+            <source>Restore the home partition is mounted and can not be written back. Please use a live CD.</source> 
+            <translation>Restore está montada la partición casa y no se puede escribir de nuevo. Por favor, use un CD en vivo.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die wiederherzustellende Partition</name> 
+        <message>
+            <source>Partition to restore the </source> 
+            <translation>Restaurar la tabla de particiones</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</name> 
+        <message>
+            <source>Restore the system partition is mounted and can not be written back. Please use a live CD.</source> 
+            <translation>Restore está montada la partición casa y no se puede escribir de nuevo. Por favor, use un CD en vivo.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</name> 
+        <message>
+            <source>To back up home partition is mounted. Do you want to do a live backup?</source> 
+            <translation>Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</name> 
+        <message>
+            <source>To back up the system partition is mounted. Do you want to do a live backup?</source> 
+            <translation>La partición del sistema para ser salvo se monta. ¿Quieres hacer una copia de seguridad en vivo?</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</name> 
+        <message>
+            <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source> 
+            <translation>Se trata de un archivo con el contenido de la partición del sector de arranque disponibles. ¿Quieres llevar a cabo la restauración de la PBR?</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Es wurde kein Schlüssel für die Entschlüsselung angegeben.</name> 
+        <message>
+            <source>There was no key to decrypt specified.</source> 
+            <translation>No había llave para descifrar especificado.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Hinweis</name> 
+        <message>
+            <source>Note</source> 
+            <translation>Referencia</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|In der Datei /usr/share/doc/qt4-fsarchiver/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</name> 
+        <message>
+            <source>In the file /usr/share/doc/qt4-fsarchiver/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source> 
+            <translation>En el archivo / usr/share/doc/qt4-fsarchiver /Léame se incluyen instrucciones sobre el uso del programa. Si esto continúa a mostrar? Usted puede cambiar esto en la configuración básica.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt</name> 
+        <message>
+            <source> already exists. The backup is not performed
+</source> 
+            <translation> ya existe. No se realiza la copia de seguridad
+</translation>
+    </message> 
+    </context> 
+    <context>
+        <name>MWindow|Ja</name> 
+        <message>
+            <source>Yes</source> 
+            <translation>Sí</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| kann nicht ausgehängt werden. Das Programm wird abgebrochen</name> 
+        <message>
+            <source>can not be unmounted. The program is terminated</source> 
+            <translation>no se puede desmontar. El programa se termina</translation> 
+        </message> 
+        <message>
+            <source> can not be unmounted. The program is terminated</source> 
+            <translation> no se puede desmontar. El programa es terminado</translation>
+    </message> 
+    </context> 
+    <context>
+        <name>MWindow|Kompression:</name> 
+        <message>
+            <source>Compression: </source> 
+            <translation>Compresión:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| Links und</name> 
+        <message>
+            <source> links and </source> 
+            <translation> enlaces y</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich.</name> 
+        <message>
+            <source> links were not properly backed. The backup of the partition was only partially successful.
+</source> 
+            <translation> Los vínculos no fueron respaldados correctamente. La copia de seguridad de la partición fue sólo un éxito parcial.
+</translation>
+    </message> 
+    </context> 
+    <context>
+        <name>MWindow| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Partition war nur teilweise erfolgreich.</name> 
+        <message>
+            <source> Links were not correctly restored. The recovery of the volume was only partially successful.</source> 
+            <translation> vínculos no se han restaurado correctamente. La restauración de las listas era sólo un éxito parcial</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| Links</name> 
+        <message>
+            <source> links </source> 
+            <translation> enlaces </translation>
+    </message> 
+    </context> 
+    <context>
+        <name>MWindow|Nein</name> 
+        <message>
+            <source>No</source> 
+            <translation>No</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Partition sichern</name> 
+        <message>
+            <source>Save partition</source> 
+            <translation>guardar partición</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Partition zurückschreiben</name> 
+        <message>
+            <source>Partition restore</source> 
+            <translation>Restaurar partición</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Partitionsart:</name> 
+        <message>
+            <source>Partition type: </source> 
+            <translation>El tipo de partición no es compatible. Tal vez la partición está encriptada?
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Partitionsgröße:</name> 
+        <message>
+            <source>Partition size: </source> 
+            <translation>Tamaño de la partición:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Partitionsname:</name> 
+        <message>
+            <source>Partition  name: </source> 
+            <translation>Nombre del imagen:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sichern und Wiederherstellen
+von Partitionen, Verzeichnissen und MBR
+Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.17-4, 1. Juni 2013</name> 
+        <message>
+            <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.17-4, June 1, 2013</source> 
+            <translation>Copia de seguridad y restauración de
+ particiones, directorios y MBR 
+>>>>>>> weblate/master
  Copyright (C) 2008-2013 Francois Dupoux y Dieter Baum.
 Todos los derechos reservados.
 Versión 0.6.17-4, 01 de junio 2013</translation>
@@ -3298,7 +4377,11 @@ Versión 0.6.17-4, 01 de junio 2013</translation>
         <location filename="../src/mainWindow.cpp" line="1612"/>
         <source>to be protected/secured partition: / (root system directory) </source>
         <comment>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </comment>
+<<<<<<< HEAD
         <translation>a ser protegido / partición asegurado: (directorio &quot;root&quot;raíz del sistema) /</translation>
+=======
+        <translation type="unfinished">a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation>
+>>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1617"/>
@@ -4259,10 +5342,10 @@ de nuevo a su ubicación original</translation>
     <message>
         <location filename="../src/ui/setting.ui" line="179"/>
         <source>Show passwords</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Password for network&apos;s view</source>
+        <source>Password for network's view</source>
         <extracomment>Passwort für Netzwerk * anzeigen</extracomment>
         <translation type="obsolete">Contraseña de vista del red</translation>
     </message>

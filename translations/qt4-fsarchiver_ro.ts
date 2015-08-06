@@ -306,6 +306,7 @@
 </comment>
         <translation>Aţi selectat un folder. Selectaţi un fişier fsa.gz.
 </translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="523"/>
@@ -2412,6 +2413,587 @@ transmisie:</translation>
         <location filename="../src/ui/filedialog.ui" line="80"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+=======
+    </message> 
+    </context> 
+    <context>
+        <name>DialogNet| Links</name> 
+        <message>
+            <source> links </source> 
+            <translation> plajă </translation>
+    </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis gefunden.</name> 
+        <message>
+            <source>Can not find a shared directory with the NFS Protokoll.
+</source> 
+            <translation>Can not find a shared directory with the NFS Protokoll.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Mit Samba wurde kein freigegebenes Verzeichnis gefunden.</name> 
+        <message>
+            <source>Can not find a shared directory with the Samba Protokoll.
+</source> 
+            <translation>Can not find a shared directory with the Samba Protokoll.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Nein</name> 
+        <message>
+            <source>No</source> 
+            <translation>Nu</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Partition sichern</name> 
+        <message>
+            <source>Save partition</source> 
+            <translation>Save partition</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Partition zurückschreiben</name> 
+        <message>
+            <source>Partition restore</source> 
+            <translation>Partition restore</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Sicherung
+entschlüsseln. Schlüssel</name> 
+        <message>
+            <source>Decrypt
+backup. key:</source> 
+            <translation>Decrypt
+backup. key:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Sicherung
+verschlüsseln. Schlüssel:</name> 
+        <message>
+            <source>Encrypt
+backup. key:</source> 
+            <translation>Encrypt
+backup. key:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Sie haben ein falsches Passwort eingegeben.</name> 
+        <message>
+            <source>You have entered an incorrect password.</source> 
+            <translation>Ați introdus o parolă incorectă.</translation> 
+        </message> 
+        <message>
+            <source>You have entered an incorrect password.
+</source> 
+            <translation>You have entered an incorrect password.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen</name> 
+        <message>
+            <source>You have selected a file. You must select a directory
+</source> 
+            <translation>You have selected a file. You must select a directory
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
+Die Dateiendung muss .fsa sein</name> 
+        <message>
+            <source>You have chosen the wrong recovery file selected.
+The files should end with. fsa be</source> 
+            <translation>You have chosen the wrong recovery file selected.
+The files should end with. fsa be</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.</name> 
+        <message>
+            <source>You tried to restore a partition. The selected file can only restore directories. Please restart the program.
+</source> 
+            <translation>Ați încercat să restabilească o partiție. Fișierul selectat poate restabili doar directoare. Vă rugăm să reporniți programul.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</name> 
+        <message>
+            <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source> 
+            <translation>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet| spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</name> 
+        <message>
+            <source> specials and the Partition Boot Record have been restored.</source> 
+            <translation> speciale și Record Partiția Boot au fost restaurate.</translation>
+    </message> 
+    </context> 
+    <context>
+        <name>DialogNet| spezielle Daten wurden gesichert.</name> 
+        <message>
+            <source> specials have been backed.</source> 
+            <translation> specials have been backed.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet| spezielle Daten wurden wieder hergestellt.</name> 
+        <message>
+            <source> specials have been restored.</source> 
+            <translation> fișiere speciale au fost restaurate.</translation>
+    </message> 
+    </context> 
+    <context>
+        <name>DialogNet| stimmt nicht mit der gesicherten</name> 
+        <message>
+            <source> does not coincide with the saved  </source> 
+            <translation> does not coincide with the saved  </translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet| überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</name> 
+        <message>
+            <source>Do you want to continue restore?</source> 
+            <translation>Do you want to continue restore?</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet| Verzeichnisse und</name> 
+        <message>
+            <source> directories and </source> 
+            <translation> directoare și </translation>
+    </message> 
+    </context> 
+    <context>
+        <name>DialogNet| Verzeichnisse,</name> 
+        <message>
+            <source> directories, </source> 
+            <translation> directories, </translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Wenn Sie keine SSH-Authentifizierung eingerichtet haben, müssen Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern</name> 
+        <message>
+            <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source> 
+            <translation>Dacă nu ați configurat autentificare SSH, trebuie să introduceți acum parola în terminalul. În cazul în care acest lucru continuă să fie afișate? Puteți schimba acest lucru în setările de bază.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten Terminal müssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie das Passwort für den Zugriff auf den Server ein  und 3.verlassen Sie den Server mit dem Befehl exit.</name> 
+        <message>
+            <source>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.
+</source> 
+            <translation>Când contactați primul calculator cu ssh, trebuie să faceți următoarele: într-un terminal introduceti urmatoarele comenzi: 1.In terminalul deschis trebuie să confirmați amprenta cheii RSA cu da. 2.Accesati parola pentru accesarea serverului și 3.leave serverul cu ieșire de comandă.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogNet|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</name> 
+        <message>
+            <source>Do you want really break the save or restore from the partition?</source> 
+            <translation>Chiar vrei rupe de salvare sau de restaurare de la partiția?</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogSetting|Deutsch</name> 
+        <message>
+            <source>German</source> 
+            <translation>Germană</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogSetting|Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.</name> 
+        <message>
+            <source>The settings have been saved. Be restarted, the program modified the language setting.</source> 
+            <translation>Setările au fost salvate. Restartați programul pentu a avea limba selectată.
+
+The settings have been saved. Restart the program to have the selected language.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogSetting|Englisch</name> 
+        <message>
+            <source>English</source> 
+            <translation>Engleză</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogSetting|Hinweis</name> 
+        <message>
+            <source>Note</source> 
+            <translation>Nota</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogSetting|Portugiesisch</name> 
+        <message>
+            <source>Portuguese</source> 
+            <translation>Portuguese</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogSetting|Russisch</name> 
+        <message>
+            <source>Russian</source> 
+            <translation>Rusă</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogSetting|Spanisch</name> 
+        <message>
+            <source>Spanish</source> 
+            <translation>Spanish</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>DialogSetting</name> 
+        <message>
+            <source>The translation is in progress. Please choose an other language</source> 
+            <translation>Traducerea este în lucru momentan. Vă rugăm alegeți alta limbă.</translation> 
+        </message> 
+        <message>
+            <source>The Russian translation is not completely.</source> 
+            <translation>Traducerea în Rusă nu este completă.</translation> 
+        </message> 
+        <message>
+            <source>The settings have been saved. Be restarted, the program modified the language setting.</source> 
+            <translation>The settings have been saved. Be restarted, the program modified the language setting.</translation> 
+        </message> 
+        <message>
+            <source>The translation is in progress. Please choose another language</source> 
+            <translation>Traducerea este în lucru momentan. Vă rugăm alegeți alta limbă.</translation> 
+        </message> 
+        <message>
+            <source>bzip2 fast</source> 
+            <translation>bzip2 rapid</translation> 
+        </message> 
+        <message>
+            <source>bzip2 good</source> 
+            <translation>bzip2 bun</translation> 
+        </message> 
+        <message>
+            <source>Dutch</source> 
+            <translation>Olandez</translation> 
+        </message> 
+        <message>
+            <source>English</source> 
+            <translation>English</translation> 
+        </message> 
+        <message>
+            <source>Español</source> 
+            <translation>Spaniol</translation> 
+        </message> 
+        <message>
+            <source>German</source> 
+            <translation>German</translation> 
+        </message> 
+        <message>
+            <source>gzip fast</source> 
+            <translation>gzip fast</translation> 
+        </message> 
+        <message>
+            <source>gzip standard</source> 
+            <translation>gzip standard</translation> 
+        </message> 
+        <message>
+            <source>Italian</source> 
+            <translation>Italiană</translation> 
+        </message> 
+        <message>
+            <source>Italiano</source> 
+            <translation>Italiană</translation> 
+        </message> 
+        <message>
+            <source>Japanese</source> 
+            <translation>Japoneză</translation> 
+        </message> 
+        <message>
+            <source>lzma best</source> 
+            <translation>cel mai bun LZMA</translation> 
+        </message> 
+        <message>
+            <source>lzma fast</source> 
+            <translation>LZMA rapid</translation> 
+        </message> 
+        <message>
+            <source>lzma medium</source> 
+            <translation>mediu LZMA</translation> 
+        </message> 
+        <message>
+            <source>lzo</source> 
+            <translation>lzo</translation> 
+        </message> 
+        <message>
+            <source>NFS</source> 
+            <translation>NFS</translation> 
+        </message> 
+        <message>
+            <source>Note</source> 
+            <translation>Note</translation> 
+        </message> 
+        <message>
+            <source>Portuguese</source> 
+            <translation>Portuguese</translation> 
+        </message> 
+        <message>
+            <source>gzip best</source> 
+            <translation>gzip cel mai bun</translation> 
+        </message> 
+        <message>
+            <source>Russia</source> 
+            <translation>Russia</translation> 
+        </message> 
+        <message>
+            <source>Russian</source> 
+            <translation>Rusește</translation> 
+        </message> 
+        <message>
+            <source>Samba</source> 
+            <translation>Samba</translation> 
+        </message> 
+        <message>
+            <source>Samba</source> 
+            <translation>Samba</translation> 
+        </message> 
+        <message>
+            <source>Spanish</source> 
+            <translation>Spaniolă</translation> 
+        </message> 
+        <message>
+            <source>SSH</source> 
+            <translation>SSH</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>dir_dialog</name> 
+        <message>
+            <source>Directory in which the folder is backed up or from the recovery file is removed.</source> 
+            <translation>Directory in which the folder is backed up or from the recovery file is removed.</translation> 
+        </message> 
+        <message>
+            <source>Number of processor cores
+for to be used fsarchiver:</source> 
+            <translation>Number of processor cores
+for to be used fsarchiver:</translation> 
+        </message> 
+        <message>
+            <source>On the number of
+captive Files/directories:</source> 
+            <translation>On the number of
+captive Files/directories:</translation> 
+        </message> 
+        <message>
+            <source>Same backup files are overwritten without prior consultation.</source> 
+            <translation>Same backup files are overwritten without prior consultation.</translation> 
+        </message> 
+        <message>
+            <source>Select the folder to be backed up or restored.</source> 
+            <translation>Select the folder to be backed up or restored.</translation> 
+        </message> 
+        <message>
+            <source>Start the backup or the restore of a folder.</source> 
+            <translation>Start the backup or the restore of a folder.</translation> 
+        </message> 
+        <message>
+            <source>The directory will be written back to the original path</source> 
+            <translation>The directory will be written back to the original path</translation> 
+        </message> 
+        <message>
+            <source>Already backed
+Files/directories:</source> 
+            <translation>Already backed
+Files/directories:</translation> 
+        </message> 
+        <message>
+            <source>Backup restore to the Origin</source> 
+            <translation>Backup restore to the Origin</translation> 
+        </message> 
+        <message>
+            <source>Close</source> 
+            <translation>Închide</translation> 
+        </message> 
+        <message>
+            <source>Compression setting:</source> 
+            <translation>Compression setting:</translation> 
+        </message> 
+        <message>
+            <source>elapsed time:</source> 
+            <translation>elapsed time:</translation> 
+        </message> 
+        <message>
+            <source>Encrypt
+backup key</source> 
+            <translation>Encrypt
+backup key</translation> 
+        </message> 
+        <message>
+            <source>Exit</source> 
+            <translation>Exit</translation> 
+        </message> 
+        <message>
+            <source>expected time:</source> 
+            <translation>timp aproximativ:</translation>
+    </message> 
+        <message>
+            <source>Location (path) of backup:</source> 
+            <translation>Location (path) of backup:</translation> 
+        </message> 
+        <message>
+            <source>minutes</source> 
+            <translation>minutes</translation> 
+        </message> 
+        <message>
+            <source>Overwrite existing backup</source> 
+            <translation>Overwrite existing backup</translation> 
+        </message> 
+        <message>
+            <source>remaining  time:</source> 
+            <translation>timp rămas:</translation> 
+        </message> 
+        <message>
+            <source>remaining time:</source> 
+            <translation>remaining time:</translation> 
+        </message> 
+        <message>
+            <source>Save/restore directory</source> 
+            <translation>Save/restore directory</translation> 
+        </message> 
+        <message>
+            <source>Saved directory</source> 
+            <translation>Saved directory</translation> 
+        </message> 
+        <message>
+            <source>seconds</source> 
+            <translation>seconds</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>Eingabe_Net</name> 
+        <message>
+            <source>Achievable in the network computer:</source> 
+            <translation>Achievable in the network computer:</translation> 
+        </message> 
+        <message>
+            <source>Achievable network computer:</source> 
+            <translation>Achievable network computer:</translation> 
+        </message> 
+        <message>
+            <source>Cancel</source> 
+            <translation>Cancel</translation> 
+        </message> 
+        <message>
+            <source>Data network</source> 
+            <translation>rețea de date</translation> 
+        </message> 
+        <message>
+            <source>n</source> 
+            <translation>n</translation> 
+        </message> 
+        <message>
+            <source>Next</source> 
+            <translation>Next</translation> 
+        </message> 
+        <message>
+            <source>Password:</source> 
+            <translation>Password:</translation> 
+        </message> 
+        <message>
+            <source>Save data</source> 
+            <translation>Save data</translation> 
+        </message> 
+        <message>
+            <source>Show Password</source> 
+            <translation>Show Password</translation> 
+        </message> 
+        <message>
+            <source>Username:</source> 
+            <translation>Utilizator:</translation> 
+        </message> 
+        <message>
+            <source>Username and password are stored.</source> 
+            <translation>Username and password are stored.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>FileDialog|Die Hinweise zur Partition wurden nicht in eine Datei geschrieben.</name> 
+        <message>
+            <source>Instructions for partition were not recorded written to the file.
+</source> 
+            <translation>Instructions for partition were not recorded written to the file.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>FileDialog|hallo</name> 
+        <message>
+            <source>hello</source> 
+            <translation>Hello!</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>FileDialog|Hinweis</name> 
+        <message>
+            <source>Note</source> 
+            <translation>Note</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>FileDialog</name> 
+        <message>
+            <source>Instructions for partition were not recorded written to the file.</source> 
+            <translation>Instructions for partition were not recorded written to the file.</translation> 
+        </message> 
+        <message>
+            <source>Back partition</source> 
+            <translation>Back partition</translation> 
+        </message> 
+        <message>
+            <source>Cancel</source> 
+            <translation>Anulare</translation> 
+        </message> 
+        <message>
+            <source>Description of the backup:</source> 
+            <translation>Descrierea de rezervă:</translation> 
+        </message> 
+        <message>
+            <source>Description of the backup</source> 
+            <translation>Description of the backup</translation> 
+        </message> 
+        <message>
+            <source>hello</source> 
+            <translation>hello</translation> 
+        </message> 
+        <message>
+            <source>Note</source> 
+            <translation>Note</translation> 
+        </message> 
+        <message>
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation type="unfinished">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
+        <message>
+            <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
+            <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+>>>>>>> weblate/master
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>

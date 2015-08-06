@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -13,31 +13,31 @@
     <name>clone_dialog</name>
     <message>
       <source>Directory in which the image is written</source>
-      <translation>Directory in which the image is written</translation>
+      <translation>Katalogen der bildet er skrevet</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;allerede lagret:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>already saved:</source>
-      <translation>already saved:</translation>
+      <translation>allerede lagret:</translation>
     </message>
     <message>
       <source>Backup directory:</source>
-      <translation>Backup directory:</translation>
+      <translation>Sikkerhetskopi katalog:</translation>
     </message>
     <message>
       <source>Cancel</source>
-      <translation>Cancel</translation>
+      <translation>Avbryt</translation>
     </message>
     <message>
       <source>Clone hard disk</source>
-      <translation>Clone hard disk</translation>
+      <translation>Klone harddisken</translation>
     </message>
     <message>
       <source>Clone hard drive</source>
-      <translation>Clone hard drive</translation>
+      <translation>Klone harddisken</translation>
     </message>
     <message>
       <source>CommandLinkButton</source>
