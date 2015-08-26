@@ -36,11 +36,7 @@
         <location filename="../src/clone.cpp" line="610"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-<<<<<<< HEAD
         <translation>Nota de copia de seguridad permite por defecto</translation>
-=======
-        <translation>Nota</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="185"/>
@@ -71,21 +67,13 @@
         <location filename="../src/clone.cpp" line="200"/>
         <source> Do you want really clone the hard drive? All dates on  </source>
         <comment> Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte </comment>
-<<<<<<< HEAD
-        <translation>¿Quieres realmente clonar el disco duro? Todas las fechas de</translation>
-=======
         <translation> ¿Quieres realmente clonar el disco duro? Todas las fechas de  </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="200"/>
         <source> are deleted!</source>
         <comment> werden gelöscht!</comment>
-<<<<<<< HEAD
-        <translation>Se eliminan!</translation>
-=======
         <translation> Se eliminan!</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="236"/>
@@ -98,11 +86,7 @@
         <location filename="../src/clone.cpp" line="252"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-<<<<<<< HEAD
-        <translation>¿Quieres realmente construye una imagen del disco duro?</translation>
-=======
         <translation> ¿Quieres realmente construye una imagen del disco duro? </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <source>alredy restored</source>
@@ -133,11 +117,7 @@
         <location filename="../src/clone.cpp" line="314"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
-<<<<<<< HEAD
-        <translation>¿Quieres realmente restaurar la imagen del disco duro?</translation>
-=======
         <translation> ¿Quieres realmente restaurar la imagen del disco duro? </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="339"/>
@@ -169,12 +149,8 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen
 </comment>
-<<<<<<< HEAD
-        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa.</translation>
-=======
         <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone.cpp" line="575"/>
@@ -260,11 +236,7 @@
         <source>You must select a hard drive.</source>
         <comment>Sie müssen eine Festplatte auswählen.
 </comment>
-<<<<<<< HEAD
-        <translation>Você deve selecionar um disco.</translation>
-=======
         <translation>Debe seleccionar un disco duro.</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="156"/>
@@ -279,12 +251,8 @@
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
-<<<<<<< HEAD
-        <translation>Por favor, seleccione el nombre del archivo del copia de seguridad.</translation>
-=======
         <translation>Por favor, seleccione el nombre del archivo del copia de seguridad.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="170"/>
@@ -298,11 +266,7 @@
         <location filename="../src/clone_net.cpp" line="182"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-<<<<<<< HEAD
-        <translation>¿Quieres realmente construye una imagen del disco duro?</translation>
-=======
         <translation> ¿Quieres realmente construida una imagen desde el disco duro? </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="241"/>
@@ -315,11 +279,7 @@
         <location filename="../src/clone_net.cpp" line="258"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
-<<<<<<< HEAD
-        <translation>¿Quieres realmente restaurar la imagen del disco duro?</translation>
-=======
         <translation> ¿Quieres realmente restaurar la imagen del disco duro? </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="291"/>
@@ -327,12 +287,8 @@
 </source>
         <comment>Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.
 </comment>
-<<<<<<< HEAD
-        <translation>No se puede encontrar un directorio compartido. El programa se termina.</translation>
-=======
         <translation>No se puede encontrar un directorio compartido. El programa se termina.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="342"/>
@@ -358,12 +314,8 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz Datei auswählen
 </comment>
-<<<<<<< HEAD
-        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo fsa.gz.</translation>
-=======
         <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo fsa.gz.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="523"/>
@@ -403,11 +355,7 @@
         <location filename="../src/clone_net.cpp" line="777"/>
         <source>The network computer </source>
         <comment>Der Netzwerkrechner </comment>
-<<<<<<< HEAD
-        <translation>Nombre del ordenador de red</translation>
-=======
         <translation>Nombre del ordenador de red </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/clone_net.cpp" line="777"/>
@@ -415,12 +363,8 @@
 </source>
         <comment> konnte nicht eingebunden werden. Das Programm wird abgebrochen
 </comment>
-<<<<<<< HEAD
-        <translation>no podría ser integrado. El programa es abortado</translation>
-=======
         <translation> no podría ser integrado. El programa es abortado
 </translation>
->>>>>>> weblate/master
     </message>
 </context>
 <context>
@@ -505,21 +449,13 @@ tecla de copia de seguridad</translation>
         <location filename="../src/dir.cpp" line="149"/>
         <source>Directory restore</source>
         <comment>Verzeichnis zurückschreiben</comment>
-<<<<<<< HEAD
-        <translation>Directorio de restaurar</translation>
-=======
         <translation>Restauración de directorio</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="150"/>
         <source>back to write backup file</source>
         <comment>zurück zu schreibende Sicherungsdatei</comment>
-<<<<<<< HEAD
-        <translation>copia de seguridad para: escribir el archivo de copia de seguridad</translation>
-=======
         <translation>volver a escribir el archivo de respaldo</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="151"/>
@@ -563,12 +499,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Verschlüsselung angegeben.
 </comment>
-<<<<<<< HEAD
-        <translation>No había ninguna clave para el cifrado especificado.</translation>
-=======
         <translation>No había ninguna clave para el cifrado especificado.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="209"/>
@@ -576,12 +508,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.
 </comment>
-<<<<<<< HEAD
-        <translation>Por favor, seleccione el directorio en el que el al directorio o archivo para ser salvo es ser escrit.</translation>
-=======
         <translation>Por favor, seleccione el directorio en el cual el directorio o archivo para salvarse es escrita.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="215"/>
@@ -589,12 +517,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.
 </comment>
-<<<<<<< HEAD
-        <translation>Por favor, seleccione el directorio que ser o archivo que desea guardar.</translation>
-=======
         <translation>Por favor, seleccione el directorio o archivo para salvarse.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <source>Hinweis</source>
@@ -606,12 +530,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-<<<<<<< HEAD
-        <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa</translation>
-=======
         <translation>Ha seleccionado una carpeta. Debe seleccionar un archivo gz.fsa
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="251"/>
@@ -620,22 +540,14 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
 </comment>
-<<<<<<< HEAD
-        <translation>La longitud de la clave debe estar entre 6 y 64 caractere</translation>
-=======
         <translation>La longitud de la clave debe estar entre 6 y 64 caractere
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="269"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
-<<<<<<< HEAD
-        <translation>El archivo de la partición</translation>
-=======
         <translation>El archivo de la partición </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="270"/>
@@ -643,12 +555,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
 </comment>
-<<<<<<< HEAD
-        <translation>ya existe. No se realiza la copia de segurida</translation>
-=======
         <translation>ya existe. No se realiza la copia de segurida
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="291"/>
@@ -656,12 +564,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-<<<<<<< HEAD
-        <translation>No había llave para descifrar especificado.</translation>
-=======
         <translation>No había llave para descifrar especificado.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="298"/>
@@ -669,12 +573,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.
 </comment>
-<<<<<<< HEAD
-        <translation>Seleccione el directorio en el que se va a recuperar la imagen guardada.</translation>
-=======
         <translation>Seleccione el directorio en el que se va a recuperar la imagen guardada.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="304"/>
@@ -682,12 +582,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Bitte wählen Sie die vorhandene Sicherungsdatei aus.
 </comment>
-<<<<<<< HEAD
-        <translation>Por favor, seleccione el archivo de copia de seguridad existente.</translation>
-=======
         <translation>Por favor, seleccione el archivo de copia de seguridad existente.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="310"/>
@@ -695,12 +591,8 @@ tecla de copia de seguridad</translation>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen
 </comment>
-<<<<<<< HEAD
-        <translation>Ha seleccionado un directorio. Es necesario un archivo de copia de seguridad al extensión. Fsa selecciona</translation>
-=======
         <translation>Ha seleccionado un directorio. Es necesario un archivo de copia de seguridad al extensión. Fsa selecciona
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="317"/>
@@ -731,12 +623,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Sicherung des Verzeichnisses war erfolgreich.
 </comment>
-<<<<<<< HEAD
-        <translation>La restauración del directorio se ha realizado correctamente.</translation>
-=======
         <translation>La restauración del directorio se ha realizado correctamente.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
@@ -749,21 +637,13 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="439"/>
         <source>  directories, </source>
         <comment> Verzeichnisse, </comment>
-<<<<<<< HEAD
-        <translation> directorios, </translation>
-=======
         <translation type="unfinished">  directorios, </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
         <source>  links and </source>
         <comment> Links und </comment>
-<<<<<<< HEAD
-        <translation> enlaces y </translation>
-=======
         <translation type="unfinished">  enlaces y </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="439"/>
@@ -777,33 +657,21 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-<<<<<<< HEAD
-        <translation>La copia de seguridad de la carpeta fue abortada por el usuario!</translation>
-=======
         <translation>La copia de seguridad de la carpeta fue abortada por el usuario.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="458"/>
         <source> Files, </source>
         <comment> Dateien, </comment>
-<<<<<<< HEAD
-        <translation> archivos, </translation>
-=======
         <translation> Archivos, </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="459"/>
         <location filename="../src/dir.cpp" line="510"/>
         <source> directories, and </source>
         <comment> Verzeichnisse und </comment>
-<<<<<<< HEAD
-        <translation> directorios, </translation>
-=======
         <translation> directorios, y </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="460"/>
@@ -811,12 +679,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment> Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich
 </comment>
-<<<<<<< HEAD
-        <translation> Los vínculos no fueron respaldados correctamente. La copia de seguridad de los directorios era sólo un éxito parcia</translation>
-=======
         <translation> Enlaces no fueron debidamente respaldados. La copia de seguridad de los directorios sólo fue parcialmente exitosa
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="491"/>
@@ -824,32 +688,20 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Wiederherstellung des Verzeichnisses war erfolgreich.
 </comment>
-<<<<<<< HEAD
-        <translation>La restauración del directorio se ha realizado correctamente.</translation>
-=======
         <translation>La restauración del directorio fue exitosa.
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
-<<<<<<< HEAD
-        <translation> directorios,</translation>
-=======
         <translation type="unfinished"> directorios, </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
         <source> links and </source>
         <comment> Links und </comment>
-<<<<<<< HEAD
-        <translation> enlaces y</translation>
-=======
         <translation> enlaces y </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/dir.cpp" line="492"/>
@@ -2333,12 +2185,8 @@ clave de copia de seguridad:</translation>
 </source>
         <comment>Die  Übersetzung ist in Arbeit. Wählen Sie eine andere Sprache
 </comment>
-<<<<<<< HEAD
-        <translation type="obsolete">La traducción está en curso. Por favor, elija otro idioma</translation>
-=======
         <translation>La traducción está en curso. Por favor, elija otro idioma
 </translation>
->>>>>>> weblate/master
     </message>
     <message>
         <source>The translation is in progress. Please choose an other language
@@ -2933,11 +2781,7 @@ tecla de copia de seguridad:</translation>
         <location filename="../src/mainWindow.cpp" line="556"/>
         <source>To back up home partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-<<<<<<< HEAD
-        <translation>Para la copia de seguridad se monta la partición En Casa &quot;home.&quot; ¿Quieres hacer una copia de seguridad en vivo?</translation>
-=======
         <translation type="unfinished">Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="574"/>
@@ -3122,14 +2966,6 @@ Los archivos deben terminar al fsa</translation>
         <translation>qt4-fsarchiver</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/mainWindow.cpp" line="1085"/>
-        <source>Backup and restore partitions, directory and MBR
-Version 0.6.19-15, August 1, 2015</source>
-        <comment>Sichern und Wiederherstellen von Partitionen, Verzeichnissen und MBR Version 0.6.19-15, 1. August 2015</comment>
-<translation>Copia de seguridad y restauración de particiones, directorios y MBR
-versione 0.6.19-15, 1. Agosto. 2015</translation>
-=======
         <source>Backup and restore
 partitions, directory and MBR
 Copyright (C) 2008-2014 Francois Dupoux und Dieter Baum.
@@ -3210,7 +3046,6 @@ Version 0.6.19-3, May 8, 2014</source>
  Copyright (C) 2008-2013 Francois Dupoux y Dieter Baum.
 Todos los derechos reservados.
 Versión 0.6.19-4, 28 de mayo 2014</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1482"/>
@@ -3273,8 +3108,6 @@ All rights reserved.
 Version 0.6.19-3, 8. Mai 2014</comment>
         <translation type="obsolete">Copia de seguridad y restauración de
  particiones, directorios y MBR
-<<<<<<< HEAD
-=======
  Copyright (C) 2008-2014 Francois Dupoux y Dieter Baum.
 Todos los derechos reservados.
 Versión 0.6.19-7, 2 de septiembre 2014</translation> 
@@ -4090,7 +3923,6 @@ All rights reserved.
 Version 0.6.17-4, June 1, 2013</source> 
             <translation>Copia de seguridad y restauración de
  particiones, directorios y MBR 
->>>>>>> weblate/master
  Copyright (C) 2008-2013 Francois Dupoux y Dieter Baum.
 Todos los derechos reservados.
 Versión 0.6.17-4, 01 de junio 2013</translation>
@@ -4377,11 +4209,7 @@ Versión 0.6.17-4, 01 de junio 2013</translation>
         <location filename="../src/mainWindow.cpp" line="1612"/>
         <source>to be protected/secured partition: / (root system directory) </source>
         <comment>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </comment>
-<<<<<<< HEAD
-        <translation>a ser protegido / partición asegurado: (directorio &quot;root&quot;raíz del sistema) /</translation>
-=======
         <translation type="unfinished">a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1617"/>

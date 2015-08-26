@@ -1,11 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
-<<<<<<< HEAD
-<TS version="2.0" language="sr_CS">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>DialogClone</name>
-=======
 <!--
  Loco xml export: Qt framework TS file
  Project: Qt4-fsarchiver
@@ -1731,7 +1725,6 @@ Die Dateiendung muss .fsa sein</name>
       <source>, the saved hard drive is</source>
       <translation> сачуване хард диск</translation>
     </message>
->>>>>>> weblate/master
     <message>
         <location filename="../src/clone.cpp" line="71"/>
         <location filename="../src/clone.cpp" line="350"/>

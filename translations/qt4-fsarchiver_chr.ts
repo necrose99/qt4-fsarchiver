@@ -716,10 +716,6 @@ Die Dateiendung muss .fsa sein</comment>
       <translation> links were not correctly restored. The restoring of the lists was only partially successful</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/dir.cpp" line="514"/>
-        <source>You have entered an incorrect password.
-=======
       <source>Save PBR</source>
       <translation>Save PBR</translation>
     </message>
@@ -2725,7 +2721,6 @@ backup. key:</translation>
     <name>DialogNet|Bitte wählen Sie die zurück zu schreibende Partition aus.</name>
     <message>
       <source>Please, select the partition to be written back.
->>>>>>> weblate/master
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben.
 </comment>
@@ -2921,16 +2916,11 @@ backup. key:</translation>
 </translation>
 </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/mbr.cpp" line="235"/>
         <source>The partition table is successful return.</source>
         <comment>Die Partitionstabelle wurde erfolgreich wieder hergestellt.
 </comment>
       <translation>The partition table is successful return.</translation>
-=======
-      <source>Yes</source>
-      <translation>ᎥᎥ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="237"/>
@@ -3463,15 +3453,8 @@ Die Dateiendung muss .fsa sein</comment>
       <translation>The partition </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../src/net.cpp" line="943"/>
-        <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
-        <comment>Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</comment>
-      <translation>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</translation>
-=======
       <source>Note</source>
       <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/net.cpp" line="1022"/>
@@ -3550,15 +3533,10 @@ backup. key:</translation>
       <translation> links and </translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/net.cpp" line="1224"/>
         <source> specials have been backed.</source>
         <comment> spezielle Daten wurden gesichert.</comment>
       <translation>specials have been backed.</translation>
-=======
-      <source>Note</source>
-      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/net.cpp" line="1240"/>
@@ -5105,14 +5083,9 @@ Version 0.6.19-12, 25. Februar 2015</comment>
       <translation>TB</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/mainWindow.cpp" line="1661"/>
         <source> GB</source>
       <translation>GB</translation>
-=======
-      <source>Note</source>
-      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1852"/>
@@ -5297,7 +5270,6 @@ with fsarchiver</source>
 with fsarchiver</translation>
 </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/ui/fsarchiverMain.ui" line="594"/>
         <source>Restore partition
 with fsarchiver</source>
@@ -5305,11 +5277,6 @@ with fsarchiver</source>
       <translation>Restore partition 
 with fsarchiver</translation>
 </message>
-=======
-      <source>Yes</source>
-      <translation>ᎥᎥ</translation>
-    </message>
->>>>>>> weblate/master
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="609"/>
         <source>Show hidden directories and files</source>
@@ -5523,15 +5490,10 @@ with fsarchiver</translation>
       <translation>CommandLinkButton</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/ui/clone_dialog.ui" line="166"/>
         <location filename="../src/ui/clone_dialog.ui" line="231"/>
         <source>seconds</source>
       <translation>seconds</translation>
-=======
-      <source>Note</source>
-      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="192"/>
@@ -5545,14 +5507,9 @@ with fsarchiver</translation>
       <translation>elapsed time:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/ui/clone_dialog.ui" line="283"/>
         <source>remaining time:</source>
       <translation>remaining time:</translation>
-=======
-      <source>Yes</source>
-      <translation>ᎥᎥ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="384"/>
@@ -5863,14 +5820,9 @@ backup key</translation>
       <translation>Backup restore to the Origin</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/ui/dir_dialog.ui" line="504"/>
         <source>show hidden directories/files</source>
         <translation type="unfinished"></translation>
-=======
-      <source>Note</source>
-      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
->>>>>>> weblate/master
     </message>
 </context>
 <context>
@@ -5882,15 +5834,10 @@ backup key</translation>
       <translation>Save / Restore MBR/GPT</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/ui/mbr_dialog.ui" line="27"/>
         <source>Only the boot loader area to restore</source>
         <extracomment>nur den Bootloaderbereich wieder herstellen</extracomment>
       <translation>Only the boot loader area to restore</translation>
-=======
-      <source>Yes</source>
-      <translation>ᎥᎥ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="32"/>
@@ -5899,15 +5846,10 @@ backup key</translation>
       <translation>Bootloader area and restore the partition table</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/ui/mbr_dialog.ui" line="37"/>
         <source>Restore partition table</source>
         <extracomment>Partitionstabelle wiederherstellen</extracomment>
       <translation>Restore partition table</translation>
-=======
-      <source>Note</source>
-      <translation>ᎠᏓᏚᎬᎪᏪᎵ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="42"/>
@@ -5916,15 +5858,10 @@ backup key</translation>
       <translation>Secretly area to restore. (Without Boot Loader and without partition table).</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../src/ui/mbr_dialog.ui" line="61"/>
         <source>Exit</source>
         <extracomment>Abbrechen</extracomment>
       <translation>Exit</translation>
-=======
-      <source>Yes</source>
-      <translation>ᎥᎥ</translation>
->>>>>>> weblate/master
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="74"/>
