@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
-<!--
- Loco xml export: Qt framework TS file
- Project: Qt4-fsarchiver
- Release: Working copy
- Locale: en_GB, English (UK)
- Exported by: Michael R. Lawrence
- Exported at: Sat, 25 Oct 2014 17:56:53 +0100 
--->
 <TS version="2.0" language="nds" sourcelanguage="en">
   <context>
     <name>clone_dialog</name>
@@ -25,11 +17,11 @@
     </message>
     <message>
       <source>Backup directory:</source>
-      <translation>Backup directory:</translation>
+      <translation>Sekerungs-Orner</translation>
     </message>
     <message>
       <source>Cancel</source>
-      <translation>Cancel</translation>
+      <translation>Afbreken</translation>
     </message>
     <message>
       <source>Clone hard disk</source>
@@ -65,7 +57,7 @@
     </message>
     <message>
       <source>hours</source>
-      <translation>hours</translation>
+      <translation>Stünnen</translation>
     </message>
     <message>
       <source>Image of a hard disk to create</source>
@@ -85,19 +77,19 @@
     </message>
     <message>
       <source>MB/sec</source>
-      <translation>MB/sec</translation>
+      <translation>MB/sek</translation>
     </message>
     <message>
       <source>minutes:</source>
-      <translation>minutes:</translation>
+      <translation>Minüten:</translation>
     </message>
     <message>
       <source>minutes</source>
-      <translation>minutes</translation>
+      <translation>Minüten</translation>
     </message>
     <message>
       <source>New harddrive:</source>
-      <translation>New harddrive:</translation>
+      <translation>Nieg Loopwaark:</translation>
     </message>
     <message>
       <source>Proposed action:</source>
@@ -117,15 +109,15 @@
     </message>
     <message>
       <source>seconds:</source>
-      <translation>seconds:</translation>
+      <translation>Sekunnen:</translation>
     </message>
     <message>
       <source>seconds</source>
-      <translation>seconds</translation>
+      <translation>Sekunnen</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Snelligkeit:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>Transmission speed:</source>
@@ -137,7 +129,7 @@
     </message>
     <message>
       <source>Use gzip</source>
-      <translation>Use gzip</translation>
+      <translation>Bruk gzip</translation>
     </message>
   </context>
   <context>
@@ -152,11 +144,11 @@
     </message>
     <message>
       <source>already saved:</source>
-      <translation>already saved:</translation>
+      <translation>al sekert:</translation>
     </message>
     <message>
       <source>Cancel</source>
-      <translation>Cancel</translation>
+      <translation>Afbreken</translation>
     </message>
     <message>
       <source>Clone hard drive</source>

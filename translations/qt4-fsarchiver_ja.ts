@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <!--
  Loco xml export: Qt framework TS file
@@ -4021,7 +4021,7 @@ All rights reserved.
 Version 0.6.12-7, May 31, 2011</source> 
             <translation>Backup and restore
 partitions, directory and MBR
-Copyright (C) 2008-2015 Francois Dupoux und Dieter Baum.
+Copyright (C) 2008-2011 Francois Dupoux, Hihin Ruslan, Dieter Baum.
 All rights reserved.
 Version 0.6.12-7, May 31, 2011</translation> 
         </message> 
@@ -4963,1307 +4963,481 @@ backup. key:</translation>
     <context>
         <name>MWindow|Sichern und Wiederherstellen
 von Partitionen, Verzeichnissen und MBR
-Copyright (C) 2008-2015 Francois Dupoux und Dieter Baum.
+Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
 All rights reserved.
-Version 0.6.19-12, 25. Februar 2015</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1097"/>
-        <source>The program must be run with root privileges. The program is terminated.
-</source>
-        <comment>Das Programm muss mit Root-Rechten gestartet werden. Das Programm wird beendet.
-</comment>
-        <translation>The program must be run with root privileges. The program is terminated.
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1172"/>
-        <source>Yes</source>
-        <comment>Ja</comment>
-        <translation>hai</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1173"/>
-        <source>No</source>
-        <comment>Nein</comment>
-        <translation>いいえ</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1349"/>
-        <source>The partition has been backed up successfully.
-</source>
-        <comment>Die Partition wurde erfolgreich gesichert.
-</comment>
-        <translation>The partition has been backed up successfully.
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1350"/>
-        <location filename="../src/mainWindow.cpp" line="1402"/>
-        <location filename="../src/mainWindow.cpp" line="1404"/>
-        <location filename="../src/mainWindow.cpp" line="1450"/>
-        <location filename="../src/mainWindow.cpp" line="1454"/>
-        <location filename="../src/mainWindow.cpp" line="1477"/>
-        <location filename="../src/mainWindow.cpp" line="1479"/>
-        <location filename="../src/mainWindow.cpp" line="1486"/>
-        <location filename="../src/mainWindow.cpp" line="1489"/>
-        <source> files, </source>
-        <comment> Dateien, </comment>
-        <translation>ファイル</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1350"/>
-        <location filename="../src/mainWindow.cpp" line="1402"/>
-        <location filename="../src/mainWindow.cpp" line="1404"/>
-        <location filename="../src/mainWindow.cpp" line="1450"/>
-        <location filename="../src/mainWindow.cpp" line="1454"/>
-        <location filename="../src/mainWindow.cpp" line="1477"/>
-        <location filename="../src/mainWindow.cpp" line="1486"/>
-        <source> directories, </source>
-        <comment> Verzeichnisse, </comment>
-        <translation> ディレクトリ, </translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1350"/>
-        <location filename="../src/mainWindow.cpp" line="1402"/>
-        <location filename="../src/mainWindow.cpp" line="1405"/>
-        <location filename="../src/mainWindow.cpp" line="1450"/>
-        <location filename="../src/mainWindow.cpp" line="1477"/>
-        <location filename="../src/mainWindow.cpp" line="1480"/>
-        <location filename="../src/mainWindow.cpp" line="1487"/>
-        <location filename="../src/mainWindow.cpp" line="1490"/>
-        <source> links and </source>
-        <comment> Links und </comment>
-        <translation>  link e</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1351"/>
-        <source> specials have been backed.</source>
-        <comment> spezielle Daten wurden gesichert.</comment>
-        <translation>dati specifico è stato eseguito il backup.</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1370"/>
-        <source>The backup of the partition was aborted by the user!
-</source>
-        <comment>Die Sicherung der Partition  wurde vom Benutzer abgebrochen!
-</comment>
-        <translation>The backup of the partition was aborted by the user!
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1377"/>
-        <source>The partition type is not supported.
-</source>
-        <comment>Der Partitionstyp wird nicht unterstützt.
-</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1384"/>
-        <source>The partition type is not supported. Maybe the partition is encrypted?
-</source>
-        <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
-</comment>
-        <translation>The partition type is not supported. Maybe the partition is encrypted?
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1388"/>
-        <source>Error saving partition. File too large. Use is FAT-partition?
-</source>
-        <comment>Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?
-</comment>
-        <translation>Error saving partition. File too large. Use is FAT-partition?
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1401"/>
-        <source>The backup of the partition was only partially successful.
-</source>
-        <comment>Die Sicherung der Partition war nur teilweise erfolgreich
-</comment>
-        <translation>パーティションのバックアップは一部成功しましたのみ。</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1403"/>
-        <source> specials have been backed
-.</source>
-        <comment> spezielle Daten wurden gesichert
-.</comment>
-        <translation>dati specifico è stato eseguito il backup.</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1406"/>
-        <source> specials were not properly backed
-.</source>
-        <comment> spezielle Daten wurden nicht korrekt gesichert.
-</comment>
-        <translation>specials were not properly backed.</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1422"/>
-        <source>cannot restore an archive to a partition which is mounted, unmount it first 
-</source>
-        <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
-</comment>
-        <translation>cannot restore an archive to a partition which is mounted, unmount it first 
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1449"/>
-        <location filename="../src/mainWindow.cpp" line="1453"/>
-        <source>The partition is successful back.
-</source>
-        <comment>Die Partition wurde erfolgreich wieder hergestellt.
-</comment>
-        <translation>The partition is successful back.
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1450"/>
-        <source> specials have been restored.</source>
-        <comment> spezielle Daten wurden wieder hergestellt.</comment>
-        <translation>dati specifici è stato restaurato</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1454"/>
-        <source> links </source>
-        <comment> Links </comment>
-        <translation>  link e</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1454"/>
-        <source> specials and the Partition Boot Record have been restored.</source>
-        <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation>specificati i dati e il settore di avvio della partizione è stata restaurata.</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1459"/>
-        <source>The restore of the partition was break by user!
-</source>
-        <comment>Die Wiederherstellung der Partition  wurde vom Benutzer abgebrochen!
-</comment>
-        <translation>The restore of the partition was break by user!</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1476"/>
-        <location filename="../src/mainWindow.cpp" line="1485"/>
-        <source>The restore of the partition was only partially successful.
-</source>
-        <comment>Die Wiederherstellung der Partition war nur teilweise erfolgreich
-</comment>
-        <translation>The restore of the partition was only partially successful.</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1478"/>
-        <source> specials have been restored
-.</source>
-        <comment> spezielle Daten wurden wiederhergestellt
-.</comment>
-        <translation>dati specifici è stato restaurato</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1479"/>
-        <location filename="../src/mainWindow.cpp" line="1489"/>
-        <source> directories and </source>
-        <comment> Verzeichnisse und </comment>
-        <translation>   directories, </translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1481"/>
-        <location filename="../src/mainWindow.cpp" line="1491"/>
-        <source> specials were not properly restored
-.</source>
-        <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
-</comment>
-        <translation>specials were not properly restored.</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1488"/>
-        <source> specials and the Partition Boot Record have been restored
-.</source>
-        <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
-.</comment>
-        <translation>specificati i dati e il settore di avvio della partizione è stata restaurata.</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1495"/>
-        <source>You have tried restore a partition. The selected file can only restore directories. Please restart the program.
-</source>
-        <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
-</comment>
-        <translation>You have tried restore a partition. The selected file can only restore directories. Please restart the program.
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1498"/>
-        <source>You have entered an incorrect password.
-</source>
-        <comment>Sie haben ein falsches Passwort eingegeben.
-</comment>
-        <translation>You have entered an incorrect password.
-</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1604"/>
-        <source>Backup file name: </source>
-        <comment>Sicherungsdateiname: </comment>
-        <translation>Backup file name:</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1605"/>
-        <source>Partition  name: </source>
-        <comment>Partitionsname: </comment>
-        <translation>Nome</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1606"/>
-        <source>Partition type: </source>
-        <comment>Partitionsart: </comment>
-        <translation>Partition type:</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1607"/>
-        <source>UUID: </source>
-        <translation>UUID: </translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1607"/>
-        <source>Description: </source>
-        <comment>Bezeichnung: </comment>
-        <translation>Description:</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1608"/>
-        <source>Partition size: </source>
-        <comment>Partitionsgröße: </comment>
-        <translation>サイズ</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1608"/>
-        <location filename="../src/mainWindow.cpp" line="1609"/>
-        <source>Assignment of the partition: </source>
-        <comment>Belegung der Partition: </comment>
-        <translation>Assignment of the partition:</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1609"/>
-        <source>Compression: </source>
-        <comment>Kompression: </comment>
-        <translation>圧縮：</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1610"/>
-        <source>Approximate image file sizes: </source>
-        <comment>ungefähre Sicherungsdateigröße: </comment>
-        <translation>Immagine Dimensioni file approssimative:</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1610"/>
-        <source>Other notes: </source>
-        <comment>weitere Hinweise:</comment>
-        <translation>詳細情報：</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1611"/>
-        <source>to be protected/secured partition: / (root system directory) </source>
-        <comment>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </comment>
-        <translation>essere protetto partizione/assicurato: / (directory di sistema root)</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1616"/>
-        <location filename="../src/mainWindow.cpp" line="1622"/>
-        <source>Operating system: </source>
-        <comment>Betriebsystem: </comment>
-        <translation>オペレーティングシステム：</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1616"/>
-        <location filename="../src/mainWindow.cpp" line="1622"/>
-        <source>Kernel: </source>
-        <translation>Kernel:</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1618"/>
-        <source>to be protected/secured partition: /home</source>
-        <comment>zu sichernde/gesicherte Partition: /home</comment>
-        <translation>to be protected/secured partition: /home</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1639"/>
-        <source> MB</source>
-        <translation> MB</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1650"/>
-        <source> TB</source>
-        <translation> TB</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1661"/>
-        <source> GB</source>
-        <translation>GB</translation>
-    </message>
-    <message>
-        <location filename="../src/mainWindow.cpp" line="1852"/>
-        <source>Do you really want to break the save or restore from the partition?</source>
-        <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</comment>
-        <translation>Do you really want to break the save or restore from the partition?</translation>
-    </message>
-</context>
-<context>
-    <name>MainWindow</name>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="14"/>
-        <source>Save/restore partition </source>
-        <translation>保存/復元　パーティション</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="27"/>
-        <source>Select the partition to be backed up or restored.</source>
-        <translation>バックアップまたは復元するパーティションを選択します。</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="33"/>
-        <source>Existing partitions:</source>
-        <translation>既存のパーティション ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="46"/>
-        <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
-        <translation>ディレクトリがパーティションはバックアップが回復ファイルからは削除されます。</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="52"/>
-        <source>Backup directory:</source>
-        <translation>バックアップディレクトリ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="65"/>
-        <source>Start the backup of a partition.</source>
-        <translation> パーティションの バックアップを開始します。</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="68"/>
-        <source>Stored partitions</source>
-        <translation>Stored partitions</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="81"/>
-        <location filename="../src/ui/fsarchiverMain.ui" line="693"/>
-        <source>Exit</source>
-        <translation>エグジット</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="126"/>
-        <source>S</source>
-        <translation>s</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="162"/>
-        <source>Start restore a partition.</source>
-        <translation>開始パーティションを復元します。</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="165"/>
-        <source>Partition restore</source>
-        <translation>Partition restore</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="181"/>
-        <source>Name the backup file:</source>
-        <translation>Ripristinare il nome del file:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="213"/>
-        <source>elapsed time:</source>
-        <translation>経過時間 ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="223"/>
-        <source>On the number saved
-Files/directories:</source>
-        <translation>On the number saved
-Files/directories:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="238"/>
-        <source>already saved 
-files/directories:</source>
-        <translation>already saved 
-files/directories:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="260"/>
-        <location filename="../src/ui/fsarchiverMain.ui" line="309"/>
-        <source>seconds</source>
-        <translation>秒</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="274"/>
-        <location filename="../src/ui/fsarchiverMain.ui" line="295"/>
-        <source>minutes</source>
-        <translation>分</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="288"/>
-        <source>remaining time:</source>
-        <translation>tempo  trascorso:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="403"/>
-        <source>Number of processors
-cores for to be used fsarchiver:</source>
-        <translation>Number of processors
-cores for to be used fsarchiver:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="427"/>
-        <source>Compression
-setting:</source>
-        <translation>Compression
-setting:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="441"/>
-        <source>Notes to the backup is written to a file</source>
-        <translation>圧縮：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="444"/>
-        <source>Notes to  the backup</source>
-        <translation>バックアップに関する注記</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="467"/>
-        <source>Same backup files are overwritten without prior consultation</source>
-        <translation>同じバックアップ ファイルは、事前協議なしに上書きされます。</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="470"/>
-        <source>available backup overwrite</source>
-        <translation>available backup overwrite</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="483"/>
-        <source>Stock Split on size:</source>
-        <translation>Stock Split on size:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="499"/>
-        <source>Encrypt 
-backup key</source>
-        <translation>Encrypt 
-backup key</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="513"/>
-        <source>PBR is first block of any bootable partition</source>
-        <translation>PBR は、ブート可能なパーティションの最初のブロックです。</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="516"/>
-        <source>Save PBR</source>
-        <extracomment>PBR sichern</extracomment>
-        <translation>サルバPBR</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="539"/>
-        <source>GB</source>
-        <translation>GB</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="559"/>
-        <source>Proposed action:</source>
-        <extracomment>vorgesehene Aktion:</extracomment>
-        <translation>提案された アクション：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="577"/>
-        <source>Partition save 
-with fsarchiver</source>
-        <extracomment>Partition mit * fsArchiver sichern:</extracomment>
-        <translation>Partition save 
-with fsarchiver</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="594"/>
-        <source>Restore partition
-with fsarchiver</source>
-        <extracomment>Partition mit fs-Archiver * zurückschreiben</extracomment>
-        <translation>Restore partition 
-with fsarchiver</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="609"/>
-        <source>Show hidden directories and files</source>
-        <translation>パーティションを復元</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="663"/>
-        <source>Actions</source>
-        <translation>アクション</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="681"/>
-        <source>Settings</source>
-        <translation>セッティング</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="687"/>
-        <source>Information</source>
-        <translation>情報</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="704"/>
-        <location filename="../src/ui/fsarchiverMain.ui" line="731"/>
-        <source>Basic Settings</source>
-        <translation>基本設定</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="713"/>
-        <source>Backup partition</source>
-        <translation>バックアップ パーティション</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="722"/>
-        <source>Restore partition</source>
-        <translation>パーティションを復元</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="740"/>
-        <source>Information fsarchiver</source>
-        <translation>情報 FSArchiver</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="749"/>
-        <source>Save MBR/GPT</source>
-        <translation>Salva MBR / GPT</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="758"/>
-        <source>Restore MBR/GPT</source>
-        <translation>MBR/GPTを復元</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="767"/>
-        <source>Restore directory </source>
-        <translation>ripristinare direttorio</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="776"/>
-        <source>Save directory </source>
-        <translation>salvare direttorio</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="785"/>
-        <source>Exit program</source>
-        <translation>出口プログラム</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="794"/>
-        <source>Save a partition/directorie on network</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="803"/>
-        <source>Restore a partition/directorie on network</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="812"/>
-        <source>breakprocess</source>
-        <translation>ブレイク ·プロセス</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="821"/>
-        <source>Clone Drive HD-Image save/restore </source>
-        <translation>Clone Drive HD-Image save/restore</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="826"/>
-        <source>HD-Image save/restore on network</source>
-        <translation>HD-Image save/restore on network</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="835"/>
-        <source>Clone HD, HD-Image built and restore</source>
-        <translation>Clone HD, HD-Image built and restore</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="840"/>
-        <source>Save directories on network</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="845"/>
-        <source>Restore directories from network</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>NetEin</name>
-    <message>
-        <location filename="../src/net_ein.cpp" line="264"/>
-        <location filename="../src/net_ein.cpp" line="449"/>
-        <location filename="../src/net_ein.cpp" line="455"/>
-        <location filename="../src/net_ein.cpp" line="461"/>
-        <location filename="../src/net_ein.cpp" line="670"/>
-        <source>Note</source>
-        <comment>Hinweis</comment>
-        <translation>Riferimento</translation>
-    </message>
-    <message>
-        <location filename="../src/net_ein.cpp" line="265"/>
-        <source>There is currently no available network computer.
-</source>
-        <comment>Es ist derzeit kein Netzwerkrechner.
-</comment>
-        <translation>There is currently no available network computer.
-</translation>
-    </message>
-    <message>
-        <location filename="../src/net_ein.cpp" line="450"/>
-        <source>You must select the computer on which the backup data to be written
-</source>
-        <comment>Sie müssen den Rechner auswählen, auf den die Sicherungsdaten geschrieben werden sollen
-</comment>
-        <translation>You must select the computer on which the backup data to be written
-</translation>
-    </message>
-    <message>
-        <location filename="../src/net_ein.cpp" line="456"/>
-        <source>You must select your computer from which the backup data to be written back
-</source>
-        <comment>Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück geschrieben werden sollen
-</comment>
-        <translation>You must select your computer from which the backup data to be written back
-</translation>
-    </message>
-    <message>
-        <location filename="../src/net_ein.cpp" line="462"/>
-        <source>You must enter the user name. Can not otherwise be accessible to network computers
-</source>
-        <comment>Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf Netzrechner zugegriffen werden
-</comment>
-        <translation>You must enter the user name. Can not otherwise be accessible to network computers
-</translation>
-    </message>
-    <message>
-        <location filename="../src/net_ein.cpp" line="466"/>
-        <source>Is it true that you have entered a key? (NFS dont need a key)</source>
-        <comment>Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</comment>
-        <translation>È vero che è stato inserito un tasto? (NFS non hanno bisogno di una chiave)</translation>
-    </message>
-    <message>
-        <location filename="../src/net_ein.cpp" line="671"/>
-        <source>Yes</source>
-        <comment>Ja</comment>
-        <translation>hai</translation>
-    </message>
-    <message>
-        <location filename="../src/net_ein.cpp" line="672"/>
-        <source>No</source>
-        <comment>Nein</comment>
-        <translation>いいえ</translation>
-    </message>
-</context>
-<context>
-    <name>clone_dialog</name>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="14"/>
-        <source>Clone hard drive</source>
-        <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>クローン のハードドライブ</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="26"/>
-        <source>Exit</source>
-        <extracomment>Abbrechen</extracomment>
-        <translation>エグジット</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="39"/>
-        <source>Save / Restore MBR</source>
-        <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>保存/MBR を復元</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="65"/>
-        <source>Exist harddrive:</source>
-        <extracomment>MBR Sicherungsverzeichnis:</extracomment>
-        <translation>Exist harddrive:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="112"/>
-        <source>New harddrive:</source>
-        <extracomment>MBR Sicherungsverzeichnis:</extracomment>
-        <translation>新しいハードディスクドライブ:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="125"/>
-        <location filename="../src/ui/clone_dialog.ui" line="138"/>
-        <source>CommandLinkButton</source>
-        <translation>コマンドリンクボタン</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="166"/>
-        <location filename="../src/ui/clone_dialog.ui" line="231"/>
-        <source>seconds</source>
-        <translation>秒</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="192"/>
-        <location filename="../src/ui/clone_dialog.ui" line="257"/>
-        <source>minutes</source>
-        <translation>分</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="218"/>
-        <source>elapsed time:</source>
-        <translation>経過時間 ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="283"/>
-        <source>remaining time:</source>
-        <translation>tempo  trascorso:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="384"/>
-        <source>already saved:</source>
-        <translation> すでに保存</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="400"/>
-        <source>MB</source>
-        <translation> MB</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="413"/>
-        <location filename="../src/ui/clone_dialog.ui" line="439"/>
-        <source>hours</source>
-        <translation>アワー</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="465"/>
-        <source>Transmission speed:</source>
-        <translation>伝送速度</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="491"/>
-        <source>MB/sec</source>
-        <translation>MB/秒</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="505"/>
-        <source>f</source>
-        <translation>f</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="518"/>
-        <source>Directory in which the image is written</source>
-        <translation>イメージが書き込まれるディレクトリ</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="524"/>
-        <source>Backup directory:</source>
-        <translation>バックアップディレクトリ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="552"/>
-        <source>Image of a hard disk write back</source>
-        <extracomment>sdc</extracomment>
-        <translation>ハードディスクのイメージ を 書き戻す</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="565"/>
-        <source>Clone hard disk</source>
-        <extracomment>sda</extracomment>
-        <translation>クローン ハードディスク</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="584"/>
-        <source>Proposed action:</source>
-        <extracomment>vorgesehene Aktion:</extracomment>
-        <translation>提案された アクション：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="603"/>
-        <source>Image of a hard disk to create</source>
-        <extracomment>sdb</extracomment>
-        <translation>Image of a hard disk to create:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog.ui" line="616"/>
-        <source>Use gzip</source>
-        <translation>GZIPを使用</translation>
-    </message>
-</context>
-<context>
-    <name>clone_dialog_net</name>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="14"/>
-        <source>Clone hard drive</source>
-        <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>クローン のハードドライブ</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="26"/>
-        <source>Cancel</source>
-        <extracomment>Abbrechen</extracomment>
-        <translation>_キャンセル</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="39"/>
-        <source>Save / restore MBR</source>
-        <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>MBR の バックアップ/リストア</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="52"/>
-        <source>Exist harddrive:</source>
-        <extracomment>MBR Sicherungsverzeichnis:</extracomment>
-        <translation>Exist harddrive:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="65"/>
-        <source>Image einer Festplatte erstellen:</source>
-        <extracomment>sdb</extracomment>
-        <translation>ディスクイメージ を作成します。:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="78"/>
-        <source>Image einer Festplatte zurückschreiben:</source>
-        <extracomment>sdc</extracomment>
-        <translation>ハードドライブのイメージを復元する:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="123"/>
-        <location filename="../src/ui/clone_dialog_net.ui" line="188"/>
-        <source>seconds</source>
-        <translation>秒</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="149"/>
-        <location filename="../src/ui/clone_dialog_net.ui" line="214"/>
-        <source>minutes</source>
-        <translation>分</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="175"/>
-        <source>elapsed time:</source>
-        <translation>経過時間 ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="240"/>
-        <source>remaining time:</source>
-        <translation>tempo  trascorso:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="338"/>
-        <source>already saved:</source>
-        <translation> すでに保存</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="351"/>
-        <source>MB</source>
-        <translation> MB</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="364"/>
-        <location filename="../src/ui/clone_dialog_net.ui" line="387"/>
-        <source>hours</source>
-        <translation>アワー</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="411"/>
-        <source>f</source>
-        <translation>f</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="434"/>
-        <source>Image name:</source>
-        <extracomment>Name der Sicherungsdatei:</extracomment>
-        <translation>Nome Image:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="467"/>
-        <source>Network computer  name:</source>
-        <extracomment>Netzrechnername:</extracomment>
-        <translation>ネットワークコンピュータ 名：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="480"/>
-        <source>Exist Image:</source>
-        <translation>Esistono Image:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="493"/>
-        <source>l</source>
-        <translation>l</translation>
-    </message>
-</context>
-<context>
-    <name>dir_dialog</name>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="14"/>
-        <location filename="../src/ui/dir_dialog.ui" line="42"/>
-        <source>Save/restore directory</source>
-        <extracomment>Verzeichnis sichern/zurückschreiben
-----------
-Verzeichnis sichern/zurückschreiben</extracomment>
-        <translation>セーブ / ディレクトリを復元</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="26"/>
-        <source>Exit</source>
-        <extracomment>Schließen</extracomment>
-        <translation>エグジット</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="39"/>
-        <source>Start the backup or the restore of a folder.</source>
-        <translation>Start the backup or the restore of a folder.</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="68"/>
-        <source>Select the folder to be backed up or restored.</source>
-        <translation>Select the folder to be backed up or restored.</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="71"/>
-        <source>Saved directory</source>
-        <extracomment>zu sicherndes Verzeichnis:</extracomment>
-        <translation>保存したディレクトリ</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="97"/>
-        <source>Directory in which the folder is backed up or from the recovery file is removed.</source>
-        <translation>Directory in which the folder is backed up or from the recovery file is removed.</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="100"/>
-        <source>Location (path) of backup:</source>
-        <extracomment>Ort (Pfad) der Sicherung:</extracomment>
-        <translation>場所 バックアップ （パス ） ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="128"/>
-        <source>On the number of
-captive Files/directories:</source>
-        <extracomment>Anzahl der zu sichernden Dateien/Verzeichnisse:</extracomment>
-        <translation>On the number of
-captive Files/directories:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="155"/>
-        <source>Already backed
-Files/directories:</source>
-        <extracomment>bereits gesicherte Datein/Verzeichnisse:</extracomment>
-        <translation>Already backed
-Files/directories:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="198"/>
-        <source>elapsed time:</source>
-        <extracomment>vergangene Zeit:</extracomment>
-        <translation>経過時間 ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="224"/>
-        <location filename="../src/ui/dir_dialog.ui" line="302"/>
-        <source>minutes</source>
-        <extracomment>Minuten
-----------
-Minuten</extracomment>
-        <translation>分</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="250"/>
-        <location filename="../src/ui/dir_dialog.ui" line="315"/>
-        <source>seconds</source>
-        <extracomment>Sekunden
-----------
-Sekunden</extracomment>
-        <translation>秒</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="263"/>
-        <source>remaining  time:</source>
-        <extracomment>noch zu erwartende Zeit:</extracomment>
-        <translation>remaining  time:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="395"/>
-        <source>Number of processor cores
-for to be used fsarchiver:</source>
-        <extracomment>Anzahl der Prozessorkerne, die für fsarchiver verwendet werden sollen:</extracomment>
-        <translation>Number of processor cores
-for to be used fsarchiver:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="424"/>
-        <source>Compression setting:</source>
-        <extracomment>Kompressioneinstellung:</extracomment>
-        <translation>Impostazione di compressione:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="447"/>
-        <source>Encrypt
-backup key</source>
-        <translation>Encrypt 
-backup key</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="471"/>
-        <source>Same backup files are overwritten without prior consultation.</source>
-        <translation>同じバックアップ ファイルは、事前協議なしに上書きされます。</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="474"/>
-        <source>Overwrite existing backup</source>
-        <extracomment>vorhandene Sicherung überschreiben</extracomment>
-        <translation>Sovrascrivi riserva esistente</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="487"/>
-        <source>The directory will be written back to the original path</source>
-        <translation>The directory will be written back to the original path</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="490"/>
-        <source>Backup restore to the Origin</source>
-        <extracomment>Sicherung an den Ursprungsort zurückschreiben</extracomment>
-        <translation>Ripristino di riserva nella posizione originale</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/dir_dialog.ui" line="504"/>
-        <source>show hidden directories/files</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>mbr_dialog</name>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="14"/>
-        <source>Save / Restore MBR/GPT</source>
-        <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>Salva MBR/GPT</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="27"/>
-        <source>Only the boot loader area to restore</source>
-        <extracomment>nur den Bootloaderbereich wieder herstellen</extracomment>
-        <translation>L&apos;area boot loader non è stato ripristinato.</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="32"/>
-        <source>Bootloader area and restore the partition table</source>
-        <extracomment>Bootloaderbereich und die Partitionstabelle wieder herstellen</extracomment>
-        <translation>Area Bootloader e ripristinare la tabella delle partizioni</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="37"/>
-        <source>Restore partition table</source>
-        <extracomment>Partitionstabelle wiederherstellen</extracomment>
-        <translation>Ripristinare tabella delle partizioni</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="42"/>
-        <source>Secretly area to restore. (Without Boot Loader and without partition table).</source>
-        <extracomment>Verborgenen Bereich  wieder herstellen. (Ohne  Bootloader und ohne Partitionstabelle).</extracomment>
-        <translation>Segretamente zona da ripristinare. (Senza un boot loader e senza tabella delle partizioni).</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="61"/>
-        <source>Exit</source>
-        <extracomment>Abbrechen</extracomment>
-        <translation>エグジット</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="74"/>
-        <source>Save / restore MBR</source>
-        <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>MBR の バックアップ/リストア</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="100"/>
-        <source>Directory in which the MBR/GPT is written.</source>
-        <translation>Directory in which the MBR/GPT is written.</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="103"/>
-        <source>MBR/GPT backup directory:</source>
-        <extracomment>MBR Sicherungsverzeichnis:</extracomment>
-        <translation>MBR / GPT のバックアップディレクトリ ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="116"/>
-        <source>MBR of that drive this
-Backup / restore:</source>
-        <extracomment>MBR von dieser dieser Festplatte sichern / wiederherstellen:</extracomment>
-        <translation>MBR of that drive this
-Backup / restore:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/mbr_dialog.ui" line="140"/>
-        <source>Existing
-harddrive:</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>setting_dialog</name>
-    <message>
-        <location filename="../src/ui/setting.ui" line="14"/>
-        <source>Basic settings</source>
-        <translation>基本的な設定</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="41"/>
-        <source>Number of processors
+Version 0.6.17-4, 1. Juni 2013</name> 
+        <message>
+            <source>Backup and restore
+partitions, directory and MBR
+Copyright (C) 2008-2013 Francois Dupoux und Dieter Baum.
+All rights reserved.
+Version 0.6.17-4, June 1, 2013</source> 
+            <translation>Backup e ripristino
+partizioni, directory e MBR 
+Copyright (C) 2008-2013 Francois Dupoux e Dieter Baum.
+Tutti i diritti riservati.
+La versione 0.6.17-4, 1 GIUGNO 2013</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sicherung
+entschlüsseln. Schlüssel</name> 
+        <message>
+            <source>Decrypt
+backup. key:</source> 
+            <translation>Decriptare
+backup. chiave:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sicherung
+verschlüsseln. Schlüssel</name> 
+        <message>
+            <source>Encrypt
+backup. key:</source> 
+            <translation>暗号化キー
+
+のバックアップ
+：</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sicherungsdatei</name> 
+        <message>
+            <source>Backup File</source> 
+            <translation>バックアップファイル</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sicherungsdateiname:</name> 
+        <message>
+            <source>Backup file name: </source> 
+            <translation>バックアップファイル
+名：</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sicherungsverzeichnis</name> 
+        <message>
+            <source>Backup directory</source> 
+            <translation>バックアップ
+ディレクトリ</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sie haben ein falsches Passwort eingegeben.</name> 
+        <message>
+            <source>You have entered an incorrect password.</source> 
+            <translation>You have entered an incorrect password.</translation> 
+        </message> 
+        <message>
+            <source>You have entered an incorrect password.
+</source> 
+            <translation>あなたが間違ったパスワードを入力しました。</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei auswählen</name> 
+        <message>
+            <source>You have selected a directory. You must select a file
+</source> 
+            <translation>あなたは、ディレクトリを選択している。あなたがファイルを選択する必要があります
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen</name> 
+        <message>
+            <source>You have selected a file. You must select a directory
+</source> 
+            <translation>あなたは、ファイルを選択している。あなたは、ディレクトリを選択する必要があります
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
+Die Dateiendung muss .fsa sein</name> 
+        <message>
+            <source>You have chosen the wrong recovery file selected. 
+The files should end with. fsa be</source> 
+            <translation>選択した間違ったリカバリファイルを選択しました。ファイルの拡張子は必要があります。FSA</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.</name> 
+        <message>
+            <source>You have tried restore a partition. The selected file can only restore directories. Please restart the program.
+</source> 
+            <translation>Avete provato a ripristinare una partizione. Il file selezionato può ripristinare solo le directory. Si prega di riavviare il programma.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</name> 
+        <message>
+            <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source> 
+            <translation>Se la partizione btrfs esistente da formattare? Il nuovo UUID viene definito qui. Se si sceglie &lt;No&gt;, l'UUID rimane conservato.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</name> 
+        <message>
+            <source> specials and the Partition Boot Record have been restored.</source> 
+            <translation>specificati i dati e il settore di avvio della partizione è stata restaurata.</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| spezielle Daten wurden gesichert.</name> 
+        <message>
+            <source>specific data has been backedup</source> 
+            <translation>dati specifico è stato eseguito il backup</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| spezielle Daten wurden wieder hergestellt.</name> 
+        <message>
+            <source> specials have been restored.</source> 
+            <translation>dati specifici è stato restaurato</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| stimmt nicht mit der gesicherten</name> 
+        <message>
+            <source> does not coincide with the saved  </source> 
+            <translation>non corrisponde al salvati</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</name> 
+        <message>
+            <source>Do you want to continue restore?</source> 
+            <translation>Vuoi continuare il ripristino?</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|ungefähre Sicherungsdateigröße:</name> 
+        <message>
+            <source>Approximate image file sizes: </source> 
+            <translation>Immagine Dimensioni file approssimative:</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| Verzeichnisse und</name> 
+        <message>
+            <source> directories and </source> 
+            <translation>   directories, </translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow| Verzeichnisse,</name> 
+        <message>
+            <source> directories, </source> 
+            <translation> ディレクトリ, </translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|weitere Hinweise:</name> 
+        <message>
+            <source>Other notes: </source> 
+            <translation>詳細情報：</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</name> 
+        <message>
+            <source>Do you really want to break the save or restore from the partition?</source> 
+            <translation>あなたが本当に
+パーティションから
+保存
+または復元
+を壊し
+たいのですか？</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|zu sichernde/gesicherte Partition: /home</name> 
+        <message>
+            <source>to be protected/secured partition: /home</source> 
+            <translation>保護されるべき
+/
+確保
+パーティション
+：
+/
+home</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>MWindow|zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis)</name> 
+        <message>
+            <source>to be protected/secured partition: / (root system directory) </source> 
+            <translation>essere protetto partizione/assicurato: / (directory di sistema root)</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin</name> 
+        <message>
+            <source>could not be integrated. The program is aborted</source> 
+            <translation>could not be integrated. The program is aborted</translation> 
+        </message> 
+        <message>
+            <source>has been successfully added. You can continue to restore</source> 
+            <translation>has been successfully added. You can continue to restore</translation> 
+        </message> 
+        <message>
+            <source>has been successfully added. You can continue saving</source> 
+            <translation>has been successfully added. You can continue saving</translation> 
+        </message> 
+        <message>
+            <source>Is it true that you have entered a key? (NFS dont need a key)</source> 
+            <translation>Is it true that you have entered a key? (NFS dont need a key)</translation> 
+        </message> 
+        <message>
+            <source>There is currently no available network computer.</source> 
+            <translation>There is currently no available network computer.</translation> 
+        </message> 
+        <message>
+            <source>There is currently no available network computer.</source> 
+            <translation>There is currently no available network computer.</translation> 
+        </message> 
+        <message>
+            <source>You must enter the user name. Can not otherwise be accessible to network computers</source> 
+            <translation>You must enter the user name. Can not otherwise be accessible to network computers</translation> 
+        </message> 
+        <message>
+            <source>You must select the computer on which the backup data to be written</source> 
+            <translation>You must select the computer on which the backup data to be written</translation> 
+        </message> 
+        <message>
+            <source>You must select your computer from which the backup data to be written back</source> 
+            <translation>You must select your computer from which the backup data to be written back</translation> 
+        </message> 
+        <message>
+            <source>Is it true that you have entered a key?</source> 
+            <translation>Is it true that you have entered a key?</translation> 
+        </message> 
+        <message>
+            <source>No</source> 
+            <translation>いいえ</translation> 
+        </message> 
+        <message>
+            <source>Note</source> 
+            <translation>Note</translation> 
+        </message> 
+        <message>
+            <source>The network computer</source> 
+            <translation>The network computer</translation> 
+        </message> 
+        <message>
+            <source>Yes</source> 
+            <translation>はい</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin|Es ist derzeit kein Netzwerkrechner.</name> 
+        <message>
+            <source>There is currently no available network computer.
+</source> 
+            <translation>Attualmente non esiste un computer di rete disponibili.
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin|Hinweis</name> 
+        <message>
+            <source>Note</source> 
+            <translation>ノート</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin|Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</name> 
+        <message>
+            <source>Is it true that you have entered a key? (NFS dont need a key)</source> 
+            <translation>È vero che è stato inserito un tasto? (NFS non hanno bisogno di una chiave)</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin|Ja</name> 
+        <message>
+            <source>Yes</source> 
+            <translation>hai</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin|Nein</name> 
+        <message>
+            <source>No</source> 
+            <translation>いいえ</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin|Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf Netzrechner zugegriffen werden</name> 
+        <message>
+            <source>You must enter the user name. Can not otherwise be accessible to network computers
+</source> 
+            <translation>È necessario immettere il nome utente. Non può essere altrimenti accessibili ai computer della rete
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin|Sie müssen den Rechner auswählen, auf den die Sicherungsdaten geschrieben werden sollen</name> 
+        <message>
+            <source>You must select the computer on which the backup data to be written
+</source> 
+            <translation>È necessario selezionare il computer su cui i dati di backup da scrivere
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>NetEin|Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück geschrieben werden sollen</name> 
+        <message>
+            <source>You must select your computer from which the backup data to be written back
+</source> 
+            <translation>È necessario selezionare il computer da cui i dati di backup da scrivere indietro
+</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>setting_dialog</name> 
+        <message>
+            <source>Directories by default write 
+back to the original location</source> 
+            <translation>元の場所に
+ディレクトリ
+のデフォルト
+の復元</translation> 
+        </message> 
+        <message>
+            <source>Number of processors
 cores, for fsarchiver
-should be used:</source>
-        <extracomment>Anzahl Prozessorenkerne, * die für fsarchiver * verwendet werden sollen:</extracomment>
-        <translation>Number of processors
-cores, for fsarchiver
-should be used:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="66"/>
-        <source>Standard
-compression:</source>
-        <extracomment>Standard*kompression:</extracomment>
-        <translation>Standard
-compression:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="90"/>
-        <source>Language:</source>
-        <translation>言語：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="113"/>
-        <source>Existing files by default override</source>
-        <extracomment>vorhandene Dateien * standardmäßig überschreiben</extracomment>
-        <translation>デフォルトでは、既存のファイルを上書き</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="126"/>
-        <source>Backup note enable by default</source>
-        <extracomment>Hinweise zur Sicherung * standardmäßig aktivieren</extracomment>
-        <translation>Nota riserva abilitazione di default</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="139"/>
-        <source>Directories by default write 
-back to the original location</source>
-        <extracomment>Verzeichnisse * standardmäßig an * den ursprünglichen * Ort zurückschreiben</extracomment>
-        <translation>Directories by default write 
-back to the original location</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="153"/>
-        <source>Enable encryption by default</source>
-        <extracomment>Verschlüsselung * standardmäßig aktivieren</extracomment>
-        <translation>Attivare la crittografia per default</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="166"/>
-        <source>Archive file size divided on DVD</source>
-        <extracomment>Archiv-Datei auf DVD * Größe aufteilen</extracomment>
-        <translation>Dimensione del file di archivio diviso in DVD</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="179"/>
-        <source>Show passwords</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="192"/>
-        <source>Network input data save</source>
-        <extracomment>Netzwerkeingabedaten * speichern</extracomment>
-        <translation>ネットワーク入力データを保存する</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="205"/>
-        <source>Save Settings</source>
-        <extracomment>Einstellungen speichern</extracomment>
-        <translation>設定を保存する</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="218"/>
-        <source>Exit</source>
-        <extracomment>Beenden</extracomment>
-        <translation>エグジット</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="231"/>
-        <source>Safe PBR by default</source>
-        <extracomment>PBR standradmäßig sichern</extracomment>
-        <translation>デフォルトでは 、安全 のPBR</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="254"/>
-        <source>Network protocol:</source>
-        <translation>ネットワークプロトコル ：</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="267"/>
-        <source>Show Note for accessing network computer</source>
-        <extracomment>Hinweis  für den Zugriff auf Netzwerkrechner anzeigen</extracomment>
-        <translation>ネットワークコンピュータ にアクセスするための 注意 を表示する</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="280"/>
-        <source>Show  Note to mount the network computer</source>
-        <extracomment>Hinweis über das Mounten des Netzwerkrechners anzeigen</extracomment>
-        <translation>Vedi nota sul monte del computer di rete</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="293"/>
-        <source>Show  Note about the programm qt4-fsarchiver</source>
-        <extracomment>Hinweise zum Gebrauch des Programms anzeigen</extracomment>
-        <translation>プログラムのqt4-fsarchiverについて表示注意</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/setting.ui" line="306"/>
-        <source>Show hidden directories and files</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>treeview_dialog</name>
-    <message>
-        <location filename="../src/ui/treeview.ui" line="14"/>
-        <source>Select restore file</source>
-        <extracomment>Wiederherstellungsdatei auswählen</extracomment>
-        <translation>ファイルの復元]を選択</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/treeview.ui" line="41"/>
-        <source>Cancel</source>
-        <extracomment>Abbrechen</extracomment>
-        <translation>_キャンセル</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/treeview.ui" line="60"/>
-        <source>Next</source>
-        <extracomment>Mit der Wiederherstellung fortfahren</extracomment>
-        <translation>次</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/treeview.ui" line="92"/>
-        <source>Existing restore files:</source>
-        <extracomment>Vorhandene Wiederherstellungsdateien:</extracomment>
-        <translation>ファイルを復元し、既存の:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/treeview.ui" line="105"/>
-        <source>a</source>
-        <translation>ある</translation>
-    </message>
-</context>
+should be used:</source> 
+            <translation>fsarchiver
+用
+のプロセッサ
+コアの数
+は
+、
+使用する必要があります。:</translation> 
+        </message> 
+        <message>
+            <source>Show Note for accessing network computer show</source> 
+            <translation>Show Note for accessing network computer show</translation> 
+        </message> 
+        <message>
+            <source>Show  Note about the programm qt4-fsarchiver</source> 
+            <translation>プログラムのqt4-fsarchiverについて表示注意</translation> 
+        </message> 
+        <message>
+            <source>Show Note for accessing network computer</source> 
+            <translation>ネットワークコンピュータ
+にアクセスするための
+注意
+を表示する</translation> 
+        </message> 
+        <message>
+            <source>Show  Note to mount the network computer</source> 
+            <translation>Vedi nota sul monte del computer di rete</translation> 
+        </message> 
+        <message>
+            <source>Archive file size divided on DVD</source> 
+            <translation>Dimensione del file di archivio diviso in DVD</translation> 
+        </message> 
+        <message>
+            <source>Backup note enable by default</source> 
+            <translation>Nota riserva abilitazione di default</translation> 
+        </message> 
+        <message>
+            <source>Basic settings</source> 
+            <translation>基本的な設定</translation> 
+        </message> 
+        <message>
+            <source>Enable encryption by default</source> 
+            <translation>Attivare la crittografia per default</translation> 
+        </message> 
+        <message>
+            <source>Existing files by default override</source> 
+            <translation>Existing files by default override</translation> 
+        </message> 
+        <message>
+            <source>existing files by default override</source> 
+            <translation>デフォルトでは、既存のファイルを上書き</translation> 
+        </message> 
+        <message>
+            <source>Exit</source> 
+            <translation>エグジット</translation> 
+        </message> 
+        <message>
+            <source>Language:</source> 
+            <translation>言語：</translation> 
+        </message> 
+        <message>
+            <source>Network input data save</source> 
+            <translation>ネットワーク入力データを保存する</translation> 
+        </message> 
+        <message>
+            <source>Network protocol:</source> 
+            <translation>ネットワークプロトコル
+：</translation> 
+        </message> 
+        <message>
+            <source>Password for network's view</source> 
+            <translation>ネットワークビュー
+のパスワード</translation> 
+        </message> 
+        <message>
+            <source>Safe PBR by default</source> 
+            <translation>デフォルトでは
+、安全
+のPBR</translation> 
+        </message> 
+        <message>
+            <source>Save Settings</source> 
+            <translation>設定を保存する</translation> 
+        </message> 
+        <message>
+            <source>See Note about ssh authentication</source> 
+            <translation>See Note about ssh authentication</translation> 
+        </message> 
+        <message>
+            <source>See Note about sshfs authentication</source> 
+            <translation>See Note about sshfs authentication</translation> 
+        </message> 
+        <message>
+            <source>See Note ssh authentication</source> 
+            <translation>See Note ssh authentication</translation> 
+        </message> 
+        <message>
+            <source>Standard
+compression:</source> 
+            <translation>標準
+圧縮：</translation> 
+        </message> 
+    </context> 
+    <context>
+        <name>treeview_dialog</name> 
+        <message>
+            <source>a</source> 
+            <translation>ある</translation> 
+        </message> 
+        <message>
+            <source>Cancel</source> 
+            <translation>取消</translation> 
+        </message> 
+        <message>
+            <source>Existing restore files:</source> 
+            <translation>ファイルを復元し、既存の:</translation> 
+        </message> 
+        <message>
+            <source>Next</source> 
+            <translation>次</translation> 
+        </message> 
+        <message>
+            <source>Select restore file</source> 
+            <translation>ファイルの復元]を選択</translation> 
+        </message> 
+        <message>
+            <source>Shared folders and files:</source> 
+            <translation>Shared folders and files:</translation> 
+        </message> 
+    </context> 
 </TS>
