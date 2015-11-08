@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
-<!--
- Loco xml export: Qt framework TS file
- Project: Qt4-fsarchiver
- Release: Working copy
- Locale: ja_JP, ja
- Exported by: Michael R. Lawrence
- Exported at: Sat, 25 Oct 2014 17:56:52 +0100 
--->
 <TS version="2.0" language="ja_JP"> 
     <context>
         <name>clone_dialog</name> 
         <message>
             <source>Directory in which the image is written</source> 
-            <translation>Directory in which the image is written</translation> 
-        </message> 
+            <translation>イメージが書き込まれるディレクトリ</translation>
+    </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt; &lt;body&gt;&lt;p&gt;既に保存:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
             <translation>すでに保存
@@ -71,16 +63,16 @@ MBR
         </message> 
         <message>
             <source>hours:</source> 
-            <translation>hours:</translation> 
-        </message> 
+            <translation>営業時間:</translation>
+    </message> 
         <message>
             <source>hours</source> 
             <translation>営業時間</translation> 
         </message> 
         <message>
             <source>Image of a hard disk to create</source> 
-            <translation>Image of a hard disk to create</translation> 
-        </message> 
+            <translation>作成するハード ディスク イメージ:</translation>
+    </message> 
         <message>
             <source>Image of a hard disk to create:</source> 
             <translation>作成するハード ディスク イメージ:</translation>
@@ -121,8 +113,8 @@ MBR
         </message> 
         <message>
             <source>Save / Restore MBR</source> 
-            <translation>Save / Restore MBR</translation> 
-        </message> 
+            <translation>保存/復元 MBR</translation>
+    </message> 
         <message>
             <source>Save / restore MBR</source> 
             <translation>Salvare / ripristinare MBR</translation> 
@@ -137,12 +129,12 @@ MBR
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt; &lt;body&gt;&lt;p&gt;伝送速度:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Transmission speed:</source> 
-            <translation>Transmission speed:</translation> 
-        </message> 
+            <translation>転送速度:</translation>
+    </message> 
         <message>
             <source>Transmission speed</source> 
             <translation>伝送速度</translation> 
@@ -160,8 +152,8 @@ MBR
         </message> 
         <message>
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source> 
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+            <translation>&lt;html&gt;&lt;head/&gt; &lt;body&gt;&lt;p&gt;既に保存:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>already saved:</source> 
             <translation>既に保存されています。</translation>
@@ -241,12 +233,12 @@ MBR
         <name>Dialog_Net</name> 
         <message>
             <source>Directory in which the partition is backed up or from the recovery file is removed.</source> 
-            <translation>Directory in which the partition is backed up or from the recovery file is removed.</translation> 
-        </message> 
+            <translation>アップまたはバックアップ ファイルからパーティションをバックアップ ディレクトリが削除されます。</translation>
+    </message> 
         <message>
             <source>Notes to the backup is written to a file.</source> 
-            <translation>Notes to the backup is written to a file.</translation> 
-        </message> 
+            <translation>バックアップのための注意事項は、ファイルに書き込まれます。</translation>
+    </message> 
         <message>
             <source>Number of processors
 cores to be used for fsarchiver:</source> 
@@ -255,22 +247,22 @@ FSArchiverを使用するコア：</translation>
         </message> 
         <message>
             <source>PBR is first block of any bootable partition.</source> 
-            <translation>PBR is first block of any bootable partition.</translation> 
-        </message> 
+            <translation>PBR は、任意の起動可能なパーティションの最初のブロックです。</translation>
+    </message> 
         <message>
             <source>Same backup files are overwritten without prior consultation.</source> 
-            <translation>Same backup files are overwritten without prior consultation.</translation> 
-        </message> 
+            <translation>同じバックアップファイルは、事前協議なしに上書きされます。</translation>
+    </message> 
         <message>
             <source>Select the partition to be backed up or restored.</source> 
-            <translation>Select the partition to be backed up or restored.</translation> 
-        </message> 
+            <translation>パーティションバックアップまたはリストアすることを選択します。</translation>
+    </message> 
         <message>
             <source>Already saved
 files/directories:</source> 
-            <translation>Already saved
-files/directories:</translation> 
-        </message> 
+            <translation>すでに保存
+ファイル/ディレクトリ：</translation>
+    </message> 
         <message>
             <source>already saved 
 files/directories:</source> 
@@ -354,9 +346,9 @@ backup key</source>
         <message>
             <source>Number of backup
 files/directories:</source> 
-            <translation>Number of backup
-files/directories:</translation> 
-        </message> 
+            <translation>バックアップの数
+ファイル/ディレクトリ：</translation>
+    </message> 
         <message>
             <source>On the number saved
 Files/directories:</source> 
@@ -373,8 +365,8 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;経過時間：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
@@ -385,8 +377,8 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation> 
-        </message> 
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;予想時間：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message> 
         <message>
             <source>Partition restore</source> 
             <translation>partizione di ripristino</translation> 
@@ -403,8 +395,8 @@ con fsArchiver</translation>
         </message> 
         <message>
             <source>Please select a shared folder.</source> 
-            <translation>Please select a shared folder.</translation> 
-        </message> 
+            <translation>共有フォルダを選択してください。</translation>
+    </message> 
         <message>
             <source>Please select the folder.</source> 
             <translation>È necessario selezionare una cartella.</translation> 
@@ -421,9 +413,9 @@ con fsArchiver</translation>
         <message>
             <source>Protocoll for network
 transmission:</source> 
-            <translation>Protocoll for network
-transmission:</translation> 
-        </message> 
+            <translation>ネットワークのためのプロトコル
+トランスミッション：</translation>
+    </message> 
         <message>
             <source>remaining time</source> 
             <translation>remaining time</translation> 
@@ -462,17 +454,17 @@ con fsArchiver</translation>
         </message> 
         <message>
             <source>Shared folders:</source> 
-            <translation>Shared folders:</translation> 
-        </message> 
+            <translation>共有フォルダー:</translation>
+    </message> 
         <message>
             <source>Start restore a partition.</source> 
-            <translation>Start restore a partition.</translation> 
-        </message> 
+            <translation>開始 パーティションを復元。</translation>
+    </message> 
         <message>
             <source>Start the backup of a partition.</source> 
-            <translation> パーティションの
-バックアップを開始します。</translation> 
-        </message> 
+            <translation>パーティションの
+バックアップを開始します。</translation>
+    </message> 
         <message>
             <source>Stock Split on DVD size</source> 
             <translation>スプリットDVDファイルサイズ</translation> 
@@ -482,33 +474,22 @@ con fsArchiver</translation>
         <name>DialogClone|Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.</name> 
         <message>
             <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source> 
-            <translation> 
-ハード
-ドライブのルート
-や
-homeパーティション
-が存在
-。
-あなたは
-ライブ
-CDが必要
-なければなりません
-。</translation> 
-        </message> 
+            <translation>ハード ドライブのルートまたはホーム パーティションが存在します。ライブ CD を必要がある必要があります。</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|bereits gesichert</name> 
         <message>
             <source>already saved</source> 
-            <translation> すでに保存</translation> 
-        </message> 
+            <translation>すでに保存</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|bereits zurückgeschrieben</name> 
         <message>
             <source>already restored</source> 
-            <translation> すでにリストア</translation> 
-        </message> 
+            <translation>すでに復元</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Das Klonen der Festplatte war erfolgreich.</name> 
@@ -528,9 +509,8 @@ CDが必要
         <name>DialogClone|Die gewählte Festplatte ist zu klein.</name> 
         <message>
             <source>The selected hard drive is too small.</source> 
-            <translation> 選択したハードドライブ
-が小さすぎます。</translation> 
-        </message> 
+            <translation>選択したハードドライブが小さすぎます。</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Die Sichern des Abbildes war erfolgreich.</name> 
@@ -561,60 +541,60 @@ CDが必要
         <name>DialogClone</name> 
         <message>
             <source>Do you want really break clone, save or restore an image from the partition?</source> 
-            <translation>Do you want really break clone, save or restore an image from the partition?</translation> 
-        </message> 
+            <translation>本当にクローンを破る、保存またはパーティションからイメージを復元しますか。</translation>
+    </message> 
         <message>
             <source>Do you want really built a image from the hard drive?</source> 
-            <translation>Do you want really built a image from the hard drive?</translation> 
-        </message> 
+            <translation>か本当に内蔵ハード ドライブから画像?</translation>
+    </message> 
         <message>
             <source>Do you want really clone the hard drive? All dates on</source> 
-            <translation>Do you want really clone the hard drive? All dates on</translation> 
-        </message> 
+            <translation>本当にハード ドライブのクローンを作成しますか。すべての日付</translation>
+    </message> 
         <message>
             <source>Do you want really restore the image of the hard drive?</source> 
-            <translation>Do you want really restore the image of the hard drive?</translation> 
-        </message> 
+            <translation>本当にハード ドライブのイメージを復元しますか。</translation>
+    </message> 
         <message>
             <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source> 
-            <translation>On the hard drive exist a root or a home partition. You must need a live-CD.</translation> 
-        </message> 
+            <translation>ハード ドライブのルートまたはホーム パーティションが存在します。ライブ CD を必要がある必要があります。</translation>
+    </message> 
         <message>
             <source>The backup of the image was not successfully.</source> 
-            <translation>The backup of the image was not successfully.</translation> 
-        </message> 
+            <translation>イメージのバックアップに成功しました。</translation>
+    </message> 
         <message>
             <source>The backup of the image was successfully.</source> 
-            <translation>The backup of the image was successfully.</translation> 
-        </message> 
+            <translation>イメージのバックアップは正常にされました。</translation>
+    </message> 
         <message>
             <source>The clone of the hard drive was not successfully.</source> 
-            <translation>The clone of the hard drive was not successfully.</translation> 
-        </message> 
+            <translation>ハード ドライブのクローンが正常にできませんでした。</translation>
+    </message> 
         <message>
             <source>The clone of the hard drive was successfully.</source> 
-            <translation>The clone of the hard drive was successfully.</translation> 
-        </message> 
+            <translation>ハード ドライブの複製は正常にされました。</translation>
+    </message> 
         <message>
             <source>The restore from the image was not successfully.</source> 
-            <translation>The restore from the image was not successfully.</translation> 
-        </message> 
+            <translation>イメージからの復元は正常にでした。</translation>
+    </message> 
         <message>
             <source>The restore from the image was successfully.</source> 
-            <translation>The restore from the image was successfully.</translation> 
-        </message> 
+            <translation>イメージからの復元は正常にされました。</translation>
+    </message> 
         <message>
             <source>You have selected a folder. You must select a fsa.gz file.</source> 
-            <translation>You have selected a folder. You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>あなたは、フォルダを選択しています。あなたはfsa.gzファイルを選択する必要があります。</translation>
+    </message> 
         <message>
             <source>You have selected a folder. You must select a gz.fsa file.</source> 
-            <translation>You have selected a folder. You must select a gz.fsa file.</translation> 
-        </message> 
+            <translation>あなたは、フォルダを選択しています。あなたはgz.fsaファイルを選択する必要があります。</translation>
+    </message> 
         <message>
             <source>You must select a gz.fsa file or an img.fsa file.</source> 
-            <translation>You must select a gz.fsa file or an img.fsa file.</translation> 
-        </message> 
+            <translation>あなたはgz.fsaファイルまたはimg.fsaファイルを選択する必要があります。</translation>
+    </message> 
         <message>
             <source>already restored</source> 
             <translation>すでにリストア</translation> 
@@ -637,8 +617,8 @@ CDが必要
     </message> 
         <message>
             <source>Clone Harddrive</source> 
-            <translation>Clone Harddrive</translation> 
-        </message> 
+            <translation>クローンハードディスクドライブ</translation>
+    </message> 
         <message>
             <source>No</source> 
             <translation>いいえ</translation> 
@@ -649,32 +629,32 @@ CDが必要
         </message> 
         <message>
             <source>Restore Harddrive Image</source> 
-            <translation>Restore Harddrive Image</translation> 
-        </message> 
+            <translation>ハード ディスク ドライブ イメージを復元します。</translation>
+    </message> 
         <message>
             <source>Save Harddrive Image</source> 
-            <translation>Save Harddrive Image</translation> 
-        </message> 
+            <translation>ハード ディスク イメージを保存します。</translation>
+    </message> 
         <message>
             <source>The selected hard drive is too small.</source> 
-            <translation>The selected hard drive is too small.</translation> 
-        </message> 
+            <translation>選択したハードドライブが小さすぎます。</translation>
+    </message> 
         <message>
             <source>Yes</source> 
             <translation>はい</translation> 
         </message> 
         <message>
             <source>You must select a folder.</source> 
-            <translation>You must select a folder.</translation> 
-        </message> 
+            <translation>フォルダーを選択する必要があります。</translation>
+    </message> 
         <message>
             <source>You must select a fsa.gz file.</source> 
-            <translation>You must select a fsa.gz file.</translation> 
-        </message> 
+            <translation>あなたはfsa.gzファイルを選択する必要があります。</translation>
+    </message> 
         <message>
             <source>You must select a hard drive.</source> 
-            <translation>You must select a hard drive.</translation> 
-        </message> 
+            <translation>あなたは、ハードドライブを選択する必要があります。</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone|Festplatte klonen</name> 
@@ -738,8 +718,8 @@ CDが必要
         <name>DialogClone_net</name> 
         <message>
             <source>Can not find a shared directory. The program is terminated.</source> 
-            <translation>Can not find a shared directory. The program is terminated.</translation> 
-        </message> 
+            <translation>共有ディレクトリを見つけることができません。プログラムが終了します。</translation>
+    </message> 
         <message>
             <source>could not be integrated. The program is aborted</source> 
             <translation>could not be integrated. The program is aborted</translation> 
