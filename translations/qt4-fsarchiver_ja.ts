@@ -629,11 +629,11 @@ con fsArchiver</translation>
         </message> 
         <message>
             <source>Restore Harddrive Image</source> 
-            <translation>ハード ディスク ドライブ イメージを復元します。</translation>
+            <translation>ハード ディスク ドライブ イメージを復元します</translation>
     </message> 
         <message>
             <source>Save Harddrive Image</source> 
-            <translation>ハード ディスク イメージを保存します。</translation>
+            <translation>ハード ディスク イメージを保存します</translation>
     </message> 
         <message>
             <source>The selected hard drive is too small.</source> 
@@ -816,8 +816,8 @@ con fsArchiver</translation>
         <name>DialogClone_net|Der Netzwerkrechner</name> 
         <message>
             <source>The network computer </source> 
-            <translation>Il computer di rete</translation> 
-        </message> 
+            <translation>ネットワーク コンピューター </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogClone_net|Die Sichern des Abbildes war erfolgreich.</name> 
@@ -995,15 +995,8 @@ con fsArchiver</translation>
         <name>DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte</name> 
         <message>
             <source> Do you want really clone the hard drive? All dates on  </source> 
-            <translation> あなたが
-したいですか
-本当にハード
-ドライブ
-のクローンを作成する
-？
-上の
-すべての日付</translation> 
-        </message> 
+            <translation> 本当にハード ドライブのクローンを作成しますか。すべての日付  </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR</name> 
@@ -1285,12 +1278,12 @@ backup. key:</translation>
         <name>DialogDIR| Dateien,</name> 
         <message>
             <source>Files, </source> 
-            <translation>ファイル、</translation> 
-        </message> 
+            <translation>ファイル、 </translation>
+    </message> 
         <message>
             <source>files, </source> 
-            <translation>ファイル、</translation> 
-        </message> 
+            <translation>ファイル、 </translation>
+    </message> 
         <message>
             <source> files,</source> 
             <translation> files,</translation> 
@@ -1307,8 +1300,8 @@ backup. key:</translation>
         <name>DialogDIR|Die Partitionsdatei</name> 
         <message>
             <source>The partition file </source> 
-            <translation>Il file della partizione</translation> 
-        </message> 
+            <translation>パーティション ファイル </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein</name> 
@@ -1409,12 +1402,12 @@ backup. key:</translation>
         <name>DialogDIR| Links und</name> 
         <message>
             <source>links and </source> 
-            <translation>リンクウント</translation> 
-        </message> 
+            <translation>リンクウント </translation>
+    </message> 
         <message>
             <source> links and </source> 
-            <translation>  link e</translation> 
-        </message> 
+            <translation> リンクと </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich</name> 
@@ -1527,15 +1520,15 @@ Die Dateiendung muss .fsa sein</name>
         <name>DialogDIR| spezielle Daten wurden gesichert.</name> 
         <message>
             <source> specials have been backed.</source> 
-            <translation>dati specifico è stato eseguito il backup</translation> 
-        </message> 
+            <translation> スペシャルは、バックアップされています。</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| spezielle Daten wurden wieder hergestellt.</name> 
         <message>
             <source> specials have been restored.</source> 
-            <translation>dati specifici è stato restaurato</translation> 
-        </message> 
+            <translation> スペシャルが復元されています。</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR| Verzeichnisse,</name> 
@@ -1566,8 +1559,8 @@ Die Dateiendung muss .fsa sein</name>
         <name>DialogDIR| Verzeichnisse und</name> 
         <message>
             <source> directories, and </source> 
-            <translation> directory, e</translation> 
-        </message> 
+            <translation> ディレクトリと </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogDIR|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Verzeichnisse beenden?</name> 
@@ -1594,12 +1587,8 @@ Die Dateiendung muss .fsa sein</name>
         <name>DialogMBR| Byte. Der verborgene Bereich von der Festplatte</name> 
         <message>
             <source> bytes. The hidden area of the disk </source> 
-            <translation> バイト
-。
-ディスク
-の
-隠し領域</translation> 
-        </message> 
+            <translation> バイト数です。ディスクの隠し領域 </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR| Byte. Wollen Sie fortfahren?</name> 
@@ -1734,8 +1723,8 @@ Die Dateiendung muss .fsa sein</name>
         </message> 
         <message>
             <source>The MBR has not been backeed.</source> 
-            <translation>MBRがサポートされていません</translation> 
-        </message> 
+            <translation>MBRはバックアップされていません。</translation>
+    </message> 
         <message>
             <source>The MBR is not restored.</source> 
             <translation>The MBR is not restored.</translation> 
@@ -1850,8 +1839,8 @@ Die Dateiendung muss .fsa sein</name>
         <name>DialogMBR|,  die gesicherte Festplatte ist aber</name> 
         <message>
             <source>, the saved hard drive is </source> 
-            <translation>, Il disco rigido salvato è</translation> 
-        </message> 
+            <translation>、保存されているハード ディスク ドライブが </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Die GUID Partitionstabelle wurde erfolgreich wieder hergestellt.</name> 
@@ -1883,15 +1872,16 @@ Die Dateiendung muss .fsa sein</name>
         <message>
             <source>The partition table was not restored.
 </source> 
-            <translation>パーティションテーブルが復元されていない。</translation> 
-        </message> 
+            <translation>パーティション テーブルは復元されませんでした。
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR| hat eine Größe von</name> 
         <message>
             <source> has a size of </source> 
-            <translation> のサイズを有する</translation> 
-        </message> 
+            <translation> のサイズを有する </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Hinweis</name> 
@@ -1968,15 +1958,15 @@ Die Dateiendung muss .fsa sein</name>
         <name>DialogMBR|Sie haben eventuell eine falsche Datei ausgewählt. Der wiederherzustellende verborgene Bereich hat eine Größe von</name> 
         <message>
             <source>You may have a wrong file selected. Restore the hidden field has a size of </source> 
-            <translation>Si può avere un file sbagliato selezionato. Ripristinare il campo nascosto ha una dimensione di</translation> 
-        </message> 
+            <translation>選択した間違ったファイルを有することができます。隠されたフィールドを復元することはサイズがあります </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Sie haben eventuell eine falsche Festplatte ausgewählt. Die wiederherzustellende Festplatte ist</name> 
         <message>
             <source>You may have the wrong disk is selected. The restore disk is </source> 
-            <translation>Si può avere sia selezionato il disco sbagliato. Il disco di ripristino è</translation> 
-        </message> 
+            <translation>間違っている必要がありますディスクが選択されています。復元ディスクが </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Sie müssen die MBR/GPT Sicherungsdatei auswählen.</name> 
@@ -1991,9 +1981,8 @@ Die Dateiendung muss .fsa sein</name>
         <name>DialogMBR|Sie müssen ein Verzeichnis auswählen</name> 
         <message>
             <source>You must select a directory</source> 
-            <translation>あなたは、ファイルを選択している。あなたは、ディレクトリを選択する必要があります
-</translation> 
-        </message> 
+            <translation>あなたはディレクトリを選択する必要があります</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogMBR|Sie müssen eine GPT Sicherungsdatei auswählen.</name> 
@@ -2501,8 +2490,8 @@ backup. key:</translation>
         <name>DialogNet| Dateien,</name> 
         <message>
             <source>files </source> 
-            <translation>ファイル</translation> 
-        </message> 
+            <translation>ファイル </translation>
+    </message> 
         <message>
             <source> files</source> 
             <translation> files</translation> 
@@ -2512,8 +2501,8 @@ backup. key:</translation>
         <name>DialogNet|Der Netzwerkrechner</name> 
         <message>
             <source>The network computer </source> 
-            <translation>Il computer di rete</translation> 
-        </message> 
+            <translation>ネットワーク コンピューター </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?</name> 
@@ -2558,8 +2547,9 @@ backup. key:</translation>
         <message>
             <source>The partition is encrypted. Please enter the key
 </source> 
-            <translation>La partizione è crittografato. Si prega di inserire la chiave</translation> 
-        </message> 
+            <translation>パーティションは暗号化されます。キーを入力してください。
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Die Partition wurde erfolgreich gesichert.</name> 
@@ -2583,16 +2573,17 @@ backup. key:</translation>
         <name>DialogNet|Die Partitionsdatei</name> 
         <message>
             <source>The partition file </source> 
-            <translation>Il file della partizione</translation> 
-        </message> 
+            <translation>パーティション ファイル </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein</name> 
         <message>
             <source>The key length must be between 6 and 64 characters
 </source> 
-            <translation>La lunghezza della chiave deve essere compresa tra 6 e 64 caratteri.</translation> 
-        </message> 
+            <translation>キーの長さが 6 文字から 64 文字の間にある必要があります。
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Die Sicherung der Partition wurde vom Benutzer abgebrochen!</name> 
@@ -2637,8 +2628,8 @@ backup. key:</translation>
         <name>DialogNet|Die wiederherzustellende Partition</name> 
         <message>
             <source>Partition to restore the </source> 
-            <translation>Partizione per ripristinare il</translation> 
-        </message> 
+            <translation>パーティションを復元 </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</name> 
@@ -2714,8 +2705,9 @@ backup. key:</translation>
         <message>
             <source>can not be unmounted. The program is terminated
 </source> 
-            <translation>アンマウントすることはできません。プログラムを終了する</translation> 
-        </message> 
+            <translation>マウントすることができません。プログラムを終了します。
+</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| konnte nicht eingebunden werden. Das Programm wird abgebrochen</name> 
@@ -2730,8 +2722,8 @@ backup. key:</translation>
         <name>DialogNet| Links und</name> 
         <message>
             <source> links and </source> 
-            <translation>  link e</translation> 
-        </message> 
+            <translation> リンクと </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich</name> 
@@ -2755,8 +2747,8 @@ backup. key:</translation>
         <name>DialogNet| Links</name> 
         <message>
             <source> links </source> 
-            <translation> links</translation> 
-        </message> 
+            <translation> リンク </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet|Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis gefunden.</name> 
@@ -2878,8 +2870,8 @@ FSA</translation>
         <name>DialogNet| spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</name> 
         <message>
             <source> specials and the Partition Boot Record have been restored.</source> 
-            <translation>dati specifici e il settore di avvio della partizione è stata restaurata</translation> 
-        </message> 
+            <translation> スペシャルとパーティションブートレコードが復元されました。</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| spezielle Daten wurden gesichert.</name> 
@@ -2892,15 +2884,15 @@ FSA</translation>
         <name>DialogNet| spezielle Daten wurden wieder hergestellt.</name> 
         <message>
             <source> specials have been restored.</source> 
-            <translation>dati specifici è stato restaurato</translation> 
-        </message> 
+            <translation> スペシャルが復元されています。</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| stimmt nicht mit der gesicherten</name> 
         <message>
             <source> does not coincide with the saved  </source> 
-            <translation>non corrisponde al salvati</translation> 
-        </message> 
+            <translation> 救われたと一致しません。  </translation>
+    </message> 
     </context> 
     <context>
         <name>DialogNet| überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</name> 
@@ -2982,15 +2974,8 @@ exitコマンド
         <name>DialogSetting|Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.</name> 
         <message>
             <source>The settings have been saved. Be restarted, the program modified the language setting.</source> 
-            <translation>設定が保存されました
-。
-言語設定
-を変更
-して
-、
-プログラム
-を再起動する必要があります</translation> 
-        </message> 
+            <translation>設定が保存されました。変更した言語設定のためのプログラムを再起動する必要があります。ソース.</translation>
+    </message> 
     </context> 
     <context>
         <name>DialogSetting|Englisch</name> 
@@ -3338,9 +3323,8 @@ chiave di riserva</translation>
         </message> 
         <message>
             <source>Back partition</source> 
-            <translation>Si prega di scegliere tra backup di scrivere la partizione.
-</translation> 
-        </message> 
+            <translation>バックアップパーティション</translation>
+    </message> 
         <message>
             <source>Cancel</source> 
             <translation>キャンセル</translation> 
@@ -3948,8 +3932,8 @@ Backup / restore:</source>
         </message> 
         <message>
             <source>Only the boot loader area to restore</source> 
-            <translation>L'area boot loader non è stato ripristinato.</translation> 
-        </message> 
+            <translation>復元するブート ローダーの領域のみ</translation>
+    </message> 
         <message>
             <source>Restore partition table</source> 
             <translation>Ripristinare tabella delle partizioni</translation> 
@@ -4546,17 +4530,15 @@ backup. key:</translation>
         <name>MWindow|Belegung der Partition:</name> 
         <message>
             <source>Assignment of the partition: </source> 
-            <translation>パーティション
-の割り当て
-：</translation> 
-        </message> 
+            <translation>パーティションの割り当て: </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Betriebsystem:</name> 
         <message>
             <source>Operating system: </source> 
-            <translation>オペレーティングシステム：</translation> 
-        </message> 
+            <translation>オペレーティング システム： </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Bezeichnung:</name> 
@@ -4588,9 +4570,8 @@ backup. key:</translation>
         <name>MWindow|Bitte wählen Sie die zu sichernde Partition aus.</name> 
         <message>
             <source>Please select the partition to be</source> 
-            <translation>Si prega di selezionare la partizione da scrivere indietro.
-</translation> 
-        </message> 
+            <translation>パーティションを選択してください。</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Bitte wählen Sie die zurück zu schreibende Partition aus.</name> 
@@ -4621,8 +4602,8 @@ backup. key:</translation>
         <name>MWindow| Dateien,</name> 
         <message>
             <source> files, </source> 
-            <translation> files,</translation> 
-        </message> 
+            <translation> ファイル、 </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?</name> 
@@ -4641,8 +4622,8 @@ backup. key:</translation>
         </message> 
         <message>
             <source>The partition </source> 
-            <translation> パーティション</translation> 
-        </message> 
+            <translation>パーティション </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!</name> 
@@ -4752,22 +4733,22 @@ backup. key:</translation>
         <name>MWindow|Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</name> 
         <message>
             <source>Restore the home partition is mounted and can not be written back. Please use a live CD.</source> 
-            <translation>La partizione casa restaurata è montata e non può da ristrutturare. Si prega di utilizzare un Live CD</translation> 
-        </message> 
+            <translation>復元されたホームパーティションがマウントされ、復元することはできません。ライブCDを使用してください</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Die wiederherzustellende Partition</name> 
         <message>
             <source>Partition to restore the </source> 
-            <translation>Partizione per ripristinare il</translation> 
-        </message> 
+            <translation>復元するパーティション、 </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD</name> 
         <message>
             <source>Restore the system partition is mounted and can not be written back. Please use a live CD.</source> 
-            <translation>La partizione casa restaurata è montata e non può da ristrutturare. Si prega di utilizzare un Live CD</translation> 
-        </message> 
+            <translation>復元されたホームパーティションがマウントされ、復元することはできません。ライブCDを使用してください</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</name> 
@@ -4808,14 +4789,8 @@ backup. key:</translation>
         <name>MWindow|Es wurde kein Schlüssel für die Entschlüsselung angegeben.</name> 
         <message>
             <source>There was no key to decrypt specified.</source> 
-            <translation> 指定された
-復号化する
-にキー
-がありませんでした
-。
-
-</translation> 
-        </message> 
+            <translation>鍵がない指定した復号化します。</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Hinweis</name> 
@@ -4862,15 +4837,15 @@ backup. key:</translation>
         <name>MWindow|Kompression:</name> 
         <message>
             <source>Compression: </source> 
-            <translation>圧縮：</translation> 
-        </message> 
+            <translation>圧縮： </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow| Links und</name> 
         <message>
             <source> links and </source> 
-            <translation>  link e</translation> 
-        </message> 
+            <translation> リンクと </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow| Links wurden nicht korrekt gesichert. Die Sicherung der Partition war nur teilweise erfolgreich.</name> 
@@ -4892,8 +4867,8 @@ backup. key:</translation>
         <name>MWindow| Links</name> 
         <message>
             <source> links </source> 
-            <translation>  link e</translation> 
-        </message> 
+            <translation> リンク </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Nein</name> 
@@ -4922,23 +4897,22 @@ backup. key:</translation>
         <name>MWindow|Partitionsart:</name> 
         <message>
             <source>Partition type: </source> 
-            <translation>Il tipo di partizione non è supportato. Forse la partizione è criptato?
-</translation> 
-        </message> 
+            <translation>パーティションの種類: </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Partitionsgröße:</name> 
         <message>
             <source>Partition size: </source> 
-            <translation>サイズ</translation> 
-        </message> 
+            <translation>パーティションのサイズ: </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Partitionsname:</name> 
         <message>
             <source>Partition  name: </source> 
-            <translation>Nome</translation> 
-        </message> 
+            <translation>パーティション  名前： </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Sichern und Wiederherstellen
@@ -4992,9 +4966,8 @@ backup. key:</source>
         <name>MWindow|Sicherungsdateiname:</name> 
         <message>
             <source>Backup file name: </source> 
-            <translation>バックアップファイル
-名：</translation> 
-        </message> 
+            <translation>バックアップファイルに名前を付けます： </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Sicherungsverzeichnis</name> 
@@ -5013,8 +4986,9 @@ backup. key:</source>
         <message>
             <source>You have entered an incorrect password.
 </source> 
-            <translation>あなたが間違ったパスワードを入力しました。</translation> 
-        </message> 
+            <translation>あなたが間違ったパスワードを入力しました。
+</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei auswählen</name> 
@@ -5077,15 +5051,15 @@ The files should end with. fsa be</source>
         <name>MWindow| spezielle Daten wurden wieder hergestellt.</name> 
         <message>
             <source> specials have been restored.</source> 
-            <translation>dati specifici è stato restaurato</translation> 
-        </message> 
+            <translation> スペシャルが復元されています。</translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow| stimmt nicht mit der gesicherten</name> 
         <message>
             <source> does not coincide with the saved  </source> 
-            <translation>non corrisponde al salvati</translation> 
-        </message> 
+            <translation> 保存と一致しません  </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow| überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</name> 
@@ -5098,8 +5072,8 @@ The files should end with. fsa be</source>
         <name>MWindow|ungefähre Sicherungsdateigröße:</name> 
         <message>
             <source>Approximate image file sizes: </source> 
-            <translation>Immagine Dimensioni file approssimative:</translation> 
-        </message> 
+            <translation>近似画像のファイルサイズ：: </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow| Verzeichnisse und</name> 
@@ -5119,8 +5093,8 @@ The files should end with. fsa be</source>
         <name>MWindow|weitere Hinweise:</name> 
         <message>
             <source>Other notes: </source> 
-            <translation>詳細情報：</translation> 
-        </message> 
+            <translation>詳細情報： </translation>
+    </message> 
     </context> 
     <context>
         <name>MWindow|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</name> 
@@ -5151,8 +5125,8 @@ home</translation>
         <name>MWindow|zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis)</name> 
         <message>
             <source>to be protected/secured partition: / (root system directory) </source> 
-            <translation>essere protetto partizione/assicurato: / (directory di sistema root)</translation> 
-        </message> 
+            <translation>保護されるべき/確保パーティション：/（ルートシステムディレクトリ） </translation>
+    </message> 
     </context> 
     <context>
         <name>NetEin</name> 
