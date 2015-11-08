@@ -736,7 +736,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben.
 </comment>
-        <translation>Ha introducido una contraseña incorrecta.</translation>
+        <translation>Ha introducido una contraseña incorrecta.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="521"></location>
@@ -873,7 +874,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Vorsicht: Wollen Sie wirklich die GUID Partitionstabelle zurückschreiben?
 </comment>
-        <translation>Precaución: Si de verdad quieres volver a escribir la tabla de particiones GUID?</translation>
+        <translation>¿PRECAUCIÓN: Si usted realmente quiere a escribir de nuevo la tabla de particiones GUID?
+</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="195"></location>
@@ -4276,8 +4278,7 @@ Versión 0.6.17-4, 01 de junio 2013</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="46"></location>
         <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
-        <translation>
-Se elimina Directory en el que la partición se copia de seguridad o desde el archivo de recuperación.</translation>
+        <translation>Se elimina Directory en el que la partición se copia de seguridad o desde el archivo de recuperación.</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="52"></location>
