@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
- * 
- * Copyright (C) 2008-2015 Francois Dupoux.  All rights reserved.
+ *
+ * Copyright (C) 2008-2016 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -21,7 +21,7 @@
 struct s_dico;
 struct s_strlist;
 
-int btrfs_mkfs(struct s_dico *d, char *partition, char *fsoptions);
+int btrfs_mkfs(struct s_dico *d, char *partition, char *fsoptions, char *mkfslabel, char *mkfsuuid);
 int btrfs_getinfo(struct s_dico *d, char *devname);
 int btrfs_mount(char *partition, char *mntbuf, char *fsbuf, int flags, char *mntinfo);
 int btrfs_umount(char *partition, char *mntbuf);
@@ -180,6 +180,3 @@ struct btrfs_super_block
 } __attribute__ ((__packed__));
 
 #endif // __FS_BTRFS_H__
-
-
-

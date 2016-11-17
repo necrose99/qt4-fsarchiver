@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -38,11 +38,12 @@ QStringList filters;
         connect( bt_end, SIGNAL( clicked() ), this, SLOT(close()));
         connect( bt_save, SIGNAL( clicked() ), this, SLOT(mbr()));
         connect( bt_dummy, SIGNAL( clicked() ), this, SLOT(disk_art()));
-        dirModel = new QDirModel;
+        dirModel = new QFileSystemModel;
    	selModel = new QItemSelectionModel(dirModel);
    	treeView->setModel(dirModel);
    	treeView->setSelectionModel(selModel);
    	QModelIndex cwdIndex = dirModel->index(QDir::rootPath());
+        dirModel->setRootPath(QDir::rootPath());
    	treeView->setRootIndex(cwdIndex);
    	disk_exist();
         if (dialog_auswertung == 4){
@@ -66,12 +67,11 @@ QString befehl;
 QString homepath = QDir::homePath();
 int i = 0;
 int j = 0;
-int pos;
-QString filename = homepath + "/.config/qt4-fsarchiver/disk.txt";
+QString filename = homepath + "/.config/qt5-fsarchiver/disk.txt";
 QFile file(filename);
 QStringList disk;
 QString disk_;
-        befehl = "fdisk -l 1> " + homepath + "/.config/qt4-fsarchiver/disk.txt";
+        befehl = "fdisk -l 1> " + homepath + "/.config/qt5-fsarchiver/disk.txt";
         i = system (befehl.toAscii().data());
         if( file.open(QIODevice::ReadOnly|QIODevice::Text)) {
             QTextStream ds(&file);
@@ -298,8 +298,8 @@ QString hidden_size_;
         // fdisk -lu , mit diesem Befehl Startsektor von sda1 ermitteln.
         // derzeit für Ubuntu:  Startsektor sda1 = 63*512 = 32256 
 	// Sektornummer in Datei abspeichern
-        Dateiname = homepath + "/.config/qt4-fsarchiver/sektornummer.txt";
-        befehl = "fdisk -lu | grep " + partition + "1 > " + homepath + "/.config/qt4-fsarchiver/sektornummer.txt";
+        Dateiname = homepath + "/.config/qt5-fsarchiver/sektornummer.txt";
+        befehl = "fdisk -lu | grep " + partition + "1 > " + homepath + "/.config/qt5-fsarchiver/sektornummer.txt";
         i = system (befehl.toAscii().data());
         QFile file(Dateiname);
         QFileInfo info(Dateiname); 
@@ -330,7 +330,7 @@ qDebug() << "befehl" << befehl << size_;
                sektor_ = dummy[1].toInt(); //Festplatte hat keinen Bootsektor
             }
        //Datei löschen
-    //   befehl = "rm "  + homepath + "/.config/qt4-fsarchiver/sektornummer.txt";;
+    //   befehl = "rm "  + homepath + "/.config/qt5-fsarchiver/sektornummer.txt";;
        system (befehl.toAscii().data()); 
        if (sektor_ < 2 && efiflag == 0) {
 	    QMessageBox::about(this, tr("Note", "Hinweis"), tr("The end of hidden area of the 1st Partition could not be read. Only 512 bytes are saved.", "Das Ende des verborgenen Bereiches der 1. Partition konnte nicht ausgelesen werden. Es werden nur 512 Bytes gesichert.\n"));
@@ -348,7 +348,6 @@ QString Dateiname;
 QString partition;
 QString befehl;
 QStringList Ubuntu_;
-string part_art;
 int i = 0;
         i = cmb_disk->currentIndex();
         partition = disk_name[i];
@@ -375,9 +374,9 @@ int DialogMBR::folder_einlesen() {
    QString partition;
    QString Festplatte;
    int ret = 1; 
-   int pos;
-   int pos1;
-   int pos2;
+   int pos = 0;
+   int pos1 = 0;
+   int pos2 = 0;
    int i = 0;
    QModelIndex index = treeView->currentIndex();
    QModelIndexList indexes = selModel->selectedIndexes();
@@ -474,13 +473,11 @@ int DialogMBR::is_gpt(QString partition_efi)
 {
       QString homepath = QDir::homePath();
       QString text;
-      QString befehl = "gdisk -l " + partition_efi +  " 1> " +  homepath + "/.config/qt4-fsarchiver/efi.txt";
-      //QString befehl = "sgdisk -p " + partition_efi +  " 1> " +  homepath + "/.config/qt4-fsarchiver/efi.txt";
+      QString befehl = "gdisk -l " + partition_efi +  " 1> " +  homepath + "/.config/qt5-fsarchiver/efi.txt";
+      //QString befehl = "sgdisk -p " + partition_efi +  " 1> " +  homepath + "/.config/qt5-fsarchiver/efi.txt";
       system (befehl.toAscii().data());
-      QString filename = homepath + "/.config/qt4-fsarchiver/efi.txt";
+      QString filename = homepath + "/.config/qt5-fsarchiver/efi.txt";
       QFile file(filename);
-      int pos, pos1,i,j;
-      int line = 0;
       if( file.open(QIODevice::ReadOnly|QIODevice::Text)) { 
 	QTextStream ds(&file);
         while (!ds.atEnd()){
@@ -495,6 +492,7 @@ int DialogMBR::is_gpt(QString partition_efi)
    	file.close();
   return 0;
 }
+
 
 
 

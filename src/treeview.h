@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,6 +17,8 @@
 #ifndef TREEVIEW_H
 #define TREEVIEW_H
 #include <QtGui>
+#include <QFileSystemModel>
+#include <QMessageBox>
 #include <QDialog>
 #include "ui_treeview.h"
 
@@ -31,7 +33,7 @@ public:
         QString folder_treeview_holen();
 
 private:
-	QDirModel *dirModel;
+	QFileSystemModel *dirModel;
     	QItemSelectionModel *selModel;       
 	
 private slots:	
@@ -40,6 +42,7 @@ private slots:
 };
 
 #endif
+
 
 
 

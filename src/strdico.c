@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
- * 
- * Copyright (C) 2008-2015 Francois Dupoux.  All rights reserved.
+ *
+ * Copyright (C) 2008-2016 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -133,8 +133,9 @@ int strdico_parse_string(cstrdico *d, const char *strdefs)
         }
         
         if ((res=strdico_set_value(d, key, value))!=0)
+        {   free(bakdefs);
             return res;
-        
+        }
         result=strtok_r(NULL, delims, &saveptr);
     }
     
@@ -215,11 +216,13 @@ int strdico_set_value(cstrdico *d, const char *key, const char *value)
     memset(lnew, 0, sizeof(cstrdicoitem));
     if ((lnew->key=malloc(keylen+1))==NULL)
     {   errprintf("malloc(%d) failed: out of memory\n", keylen+1);
+        free(lnew);
         return -FSAERR_ENOMEM;
     }
     snprintf(lnew->key, keylen+1, "%s", key);
     if ((lnew->value=malloc(vallen+1))==NULL)
     {   errprintf("malloc(%d) failed: out of memory\n", vallen+1);
+        free (lnew);
         return -FSAERR_ENOMEM;
     }
     snprintf(lnew->value, vallen+1, "%s", value);
@@ -295,6 +298,3 @@ int strdico_print(cstrdico *d)
     
     return FSAERR_SUCCESS;
 }
-
-
-

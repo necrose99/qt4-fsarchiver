@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
- * 
- * Copyright (C) 2008-2015 Francois Dupoux.  All rights reserved.
+ *
+ * Copyright (C) 2008-2016 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -32,11 +32,14 @@ struct s_filesys
     int (*mount)(char *partition, char *mntbuf, char *fsname, int flags, char *mntinfo);
     int (*umount)(char *partition, char *mntbuf);
     int (*getinfo)(struct s_dico *d, char *devname);
-    int (*mkfs)(struct s_dico *d, char *partition, char *fsoptions);
+    int (*mkfs)(struct s_dico *d, char *partition, char *fsoptions, char *mkfslabel, char *mkfsuuid);
     int (*test)(char *partition);
     int (*reqmntopt)(char *partition, struct s_strlist *reqopt, struct s_strlist *badopt);
+    bool support_for_xattr;
+    bool support_for_acls;
     bool winattr;
     bool savesymtargettype; // we have to know the type of the target to recreate a symlink on ntfs
+    bool stable; // say if the fsarchiver support for this filesystem is considered stable or not
 };
 
 extern cfilesys filesys[];
@@ -51,6 +54,3 @@ char *format_prog_version(u64 version, char *bufdat, int buflen);
 int generic_umount(char *mntbuf);
 
 #endif // __FILESYS_H__
-
-
-

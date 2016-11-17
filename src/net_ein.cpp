@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,7 +17,6 @@
 #include <QtGui> 
 #include "net_ein.h"
 #include "net.h"
-#include "clone_net.h"
 #include "mainWindow.h"
 #include <iostream>
 
@@ -37,10 +36,14 @@ connect( pushButton_net, SIGNAL( clicked() ), this, SLOT(listWidget_show()));
 connect( pushButton_go, SIGNAL( clicked() ), this, SLOT(go()));
 connect( pushButton_end, SIGNAL( clicked() ), this, SLOT(end()));
 connect( chk_password, SIGNAL( clicked() ), this, SLOT(Kennwort()));
+// Vorsichtshalver ./qt4-fs-client löschen und neu anlegen, da eventuell nicht leer
+       rmDir(homepath + "/.qt5-fs-client");
+       QString befehl = "mkdir " + homepath + "/.qt5-fs-client 2>/dev/null" ;
+       system (befehl.toLatin1().data());
 // Ini-Datei auslesen
-   QFile file(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
+   QFile file(homepath + "/.config/qt5-fsarchiver/qt5-fsarchiver.conf");
    if (file.exists()) {
-        QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
+        QSettings setting("qt5-fsarchiver", "qt5-fsarchiver");
         setting.beginGroup("Basiseinstellungen");
         int auswertung = setting.value("Passwort").toInt();
         if (auswertung ==1){
@@ -79,16 +82,16 @@ QString befehl;
 QString homepath = QDir::homePath(); 
 QString hostname_;
 QStringList adresse_;
-QString adresse; 
+QString adresse = ""; 
 QString adresse_router;
-QString adresse_eigen;
-QString adresse_eigen_;
+QString adresse_eigen = "";
+QString adresse_eigen_ = "";
 int k = 0;
 int i = 0;
         // Routeradresse ermitteln
-        befehl = "route -n 1> " +  homepath + "/.config/qt4-fsarchiver/smbtree.txt";
-        system (befehl.toAscii().data());
-        QFile file(homepath + "/.config/qt4-fsarchiver/smbtree.txt");
+        befehl = "route -n 1> " +  homepath + "/.config/qt5-fsarchiver/smbtree.txt";
+        system (befehl.toLatin1().data());
+        QFile file(homepath + "/.config/qt5-fsarchiver/smbtree.txt");
         QTextStream ds1(&file);
         if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
      	     	adresse = ds1.readLine();
@@ -129,8 +132,8 @@ int i = 0;
        }
         //Zahl zwischen 3. und 4. Punkt ermitteln
         //route -n ermittelt die Routeradresse
-        befehl = "nmap -sP " + adresse_eigen + ".0/24 1> " +  homepath + "/.config/qt4-fsarchiver/smbtree.txt";
-        system (befehl.toAscii().data()); 
+        befehl = "nmap -sP " + adresse_eigen + ".0/24 1> " +  homepath + "/.config/qt5-fsarchiver/smbtree.txt";
+        system (befehl.toLatin1().data()); 
        	QTextStream ds(&file);
         if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
      	     adresse = ds.readLine();
@@ -163,7 +166,6 @@ int pos = 0;
 int pos1 = 0;
 int i = 0;
 int j;
-int m;
 QStringList adresse_;
 QString adresse_eigen;
 QString adresse2;
@@ -180,9 +182,9 @@ QString hostname_;
         adresse_eigen = adresse_[0];
  //smbtree: zuverlässige und schnelle Linux-Rechner Suche. Windows-Rechner werden aber nicht erkannt
 // -N verhindert die sudo-Abfrage
-        befehl = "smbtree -N 1> " +  homepath + "/.config/qt4-fsarchiver/smbtree.txt";
-	system (befehl.toAscii().data()); 
-        QFile file(homepath + "/.config/qt4-fsarchiver/smbtree.txt");
+        befehl = "smbtree -N 1> " +  homepath + "/.config/qt5-fsarchiver/smbtree.txt";
+	system (befehl.toLatin1().data()); 
+        QFile file(homepath + "/.config/qt5-fsarchiver/smbtree.txt");
     	QTextStream ds(&file);
         QString text = ds.readLine();
         if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
@@ -197,7 +199,7 @@ QString hostname_;
                 text = text.trimmed();
                 j = text.size();
 		        text = text.right(j-2);
-                if (pos1 == -1) {
+               // if (pos1 == -1) {
                      text = text.toLower();
                      text = IP(text); // IP ermitteln
                      adresse_ = text.split(" ");
@@ -207,14 +209,14 @@ QString hostname_;
                       i++;}
                    if (i > 99)
                       break;
-                }
+              //  }
              }} 
         } 
 	file.close();
 //Auswertung findsmb-qts Windows-Rechner werden erkannt
-        befehl = "findsmb-qt 1> " +  homepath + "/.config/qt4-fsarchiver/findsmb-qt.txt";
-	system (befehl.toAscii().data()); 
-        QFile file1(homepath + "/.config/qt4-fsarchiver/findsmb-qt.txt");
+        befehl = "findsmb-qt5 1> " +  homepath + "/.config/qt5-fsarchiver/findsmb-qt.txt";
+	system (befehl.toLatin1().data()); 
+        QFile file1(homepath + "/.config/qt5-fsarchiver/findsmb-qt.txt");
     	QTextStream ds1(&file1);
         QString adresse = ds1.readLine();
         QString adresse1; 
@@ -264,8 +266,8 @@ QString hostname_;
 	file1.close();
         // Dateien entfernen 
   	if (file1.exists()){
-     		befehl = "rm ~/.config/qt4-fsarchiver/findsmb-qt.txt";
-		system (befehl.toAscii().data());
+     		befehl = "rm ~/.config/qt5-fsarchiver/findsmb-qt.txt";
+		system (befehl.toLatin1().data());
        } 
         list_net_ssh(" ");
         //Ermitteln widget_net Belegung
@@ -313,7 +315,7 @@ int NetEin:: setting_save()
    QString homepath = QDir::homePath(); 
    Qt::CheckState state;
    state = chk_datesave->checkState();
-   QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
+   QSettings setting("qt5-fsarchiver", "qt5-fsarchiver");
    setting.beginGroup(comNet_name);
    user = txt_user->text();
    key = txt_key->text();
@@ -327,15 +329,15 @@ dummykey = key;
       }
    setting.endGroup();
   // Dateien entfernen 
-  filename = "~/.config/qt4-fsarchiver/ip.txt";
+  filename = "~/.config/qt5-fsarchiver/ip.txt";
 	if (f.exists()){
      		befehl = "rm " +filename;
-		system (befehl.toAscii().data());
+		system (befehl.toLatin1().data());
        }     
-       filename = "~/.config/qt4-fsarchiver/smbtree.txt";
+       filename = "~/.config/qt5-fsarchiver/smbtree.txt";
        if (f.exists()){
      		befehl = "rm " + filename;
-		system (befehl.toAscii().data());
+		system (befehl.toLatin1().data());
        } 
    return 0;
 } 
@@ -346,14 +348,14 @@ QString NetEin::hostname()
 QString befehl;
 QString text;
 QString homepath = QDir::homePath();
-	befehl = "hostname > " +  homepath + "/.config/qt4-fsarchiver/hostname.txt";
-	system (befehl.toAscii().data()); 
-        QFile file(homepath + "/.config/qt4-fsarchiver/hostname.txt");
+	befehl = "hostname > " +  homepath + "/.config/qt5-fsarchiver/hostname.txt";
+	system (befehl.toLatin1().data()); 
+        QFile file(homepath + "/.config/qt5-fsarchiver/hostname.txt");
     	QTextStream ds(&file);
         if (file.open(QIODevice::ReadWrite | QIODevice::Text)) 
             text = ds.readLine();
-        befehl = "rm " + homepath + "/.config/qt4-fsarchiver/hostname.txt";
-        system (befehl.toAscii().data());
+        befehl = "rm " + homepath + "/.config/qt5-fsarchiver/hostname.txt";
+        system (befehl.toLatin1().data());
         return text;
 }
         
@@ -361,16 +363,15 @@ QString NetEin:: IP(QString adresse)
 {
 QString befehl;
 int pos;
-int pos1;
 QString homepath = QDir::homePath();
-QFile file(homepath + "/.config/qt4-fsarchiver/ip.txt");
+QFile file(homepath + "/.config/qt5-fsarchiver/ip.txt");
 QTextStream ds(&file);
 QString text;
-	befehl = "nmblookup -R " + adresse + " 1> " +  homepath + "/.config/qt4-fsarchiver/ip.txt 2>/dev/null";
-	system (befehl.toAscii().data()); 
+	befehl = "nmblookup -R " + adresse + " 1> " +  homepath + "/.config/qt5-fsarchiver/ip.txt 2>/dev/null";
+	system (befehl.toLatin1().data()); 
         // IP-Adresse auslesen
         int i = 0;
-        // Anzahl Zeilen der Datei /.config/qt4-fsarchiver/ip.txt ermitteln
+        // Anzahl Zeilen der Datei /.config/qt5-fsarchiver/ip.txt ermitteln
         // Ausgabe nmblookup manchmal mit einer aber auch mit 2 Zeilen
         if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
      	     do {
@@ -410,7 +411,7 @@ QStringList comNet_;
     else
          comNet_name = "";
     // Prüfen ob Daten in setting
-   QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
+   QSettings setting("qt5-fsarchiver", "qt5-fsarchiver");
    setting.beginGroup(comNet_name);
    user = setting.value("Name").toString();
    key_ = setting.value("key").toString();
@@ -449,7 +450,7 @@ extern int dialog_auswertung;
 QString key;
 Qt::CheckState state;
 state = chk_datesave->checkState();
-QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
+QSettings setting("qt5-fsarchiver", "qt5-fsarchiver");
 setting.beginGroup(comNet_name);
      user = txt_user->text();
      key = txt_key->text();
@@ -488,8 +489,6 @@ setting.beginGroup(comNet_name);
 	save_net();
      if (dialog_auswertung == 7 && i == 0)
 	restore_net(); 
-     if (dialog_auswertung == 8 && i == 0)
-	save_clone();
      return 0;
 }
 
@@ -512,14 +511,6 @@ extern int dialog_auswertung;
         close();
 }
 
-void NetEin::save_clone () {
-extern int dialog_auswertung;
-        close();
-      	dialog_auswertung = 8;
-      	DialogClone_net *dialog2 = new DialogClone_net;
-        dialog2->show();
-}
-
 QString NetEin::crypt(QString key){
 FILE *lesen, *schreiben;
 char dateiname_eingabe[100], dateiname_ausgabe[100];
@@ -531,8 +522,8 @@ int j;
 int i;
 QString text;
 QString homepath = QDir::homePath();
-QFile file(homepath + "/.config/qt4-fsarchiver/crypt.txt");
-QFile file1(homepath + "/.config/qt4-fsarchiver/crypt1.txt");
+QFile file(homepath + "/.config/qt5-fsarchiver/crypt.txt");
+QFile file1(homepath + "/.config/qt5-fsarchiver/crypt1.txt");
 QTextStream ds(&file1);
 j = key.size();
 QTextStream stream(&file);
@@ -541,12 +532,12 @@ QTextStream stream(&file);
 	  stream << key << "\n";
           file.close(); 
        }
-homepath_ =  homepath.toAscii().data();
-suffix = "/.config/qt4-fsarchiver/crypt.txt";
+homepath_ =  homepath.toLatin1().data();
+suffix = "/.config/qt5-fsarchiver/crypt.txt";
 strcpy (dateiname_eingabe, homepath_);
 strcat (dateiname_eingabe, suffix);
 lesen=fopen(dateiname_eingabe,"r");
-suffix = "/.config/qt4-fsarchiver/crypt1.txt";
+suffix = "/.config/qt5-fsarchiver/crypt1.txt";
 strcpy (dateiname_ausgabe, homepath_);
 strcat (dateiname_ausgabe, suffix);
 schreiben=fopen(dateiname_ausgabe,"w");
@@ -606,8 +597,8 @@ int schluessel= -5;
 int j;
 int i;
 QString homepath = QDir::homePath();
-QFile file(homepath + "/.config/qt4-fsarchiver/crypt1.txt");
-QFile file1(homepath + "/.config/qt4-fsarchiver/crypt2.txt");
+QFile file(homepath + "/.config/qt5-fsarchiver/crypt1.txt");
+QFile file1(homepath + "/.config/qt5-fsarchiver/crypt2.txt");
 QTextStream ds(&file1);
 QTextStream ds1(&file);
 QString text;
@@ -619,12 +610,12 @@ if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
 j = file.size();
 if (j == 0) // Datei noch nicht vorhanden
     return "";
-homepath_ =  homepath.toAscii().data();
-suffix = "/.config/qt4-fsarchiver/crypt1.txt";
+homepath_ =  homepath.toLatin1().data();
+suffix = "/.config/qt5-fsarchiver/crypt1.txt";
 strcpy (dateiname_eingabe, homepath_);
 strcat (dateiname_eingabe, suffix);
 lesen=fopen(dateiname_eingabe,"r");
-suffix = "/.config/qt4-fsarchiver/crypt2.txt";
+suffix = "/.config/qt5-fsarchiver/crypt2.txt";
 strcpy (dateiname_ausgabe, homepath_);
 strcat (dateiname_ausgabe, suffix);
 schreiben=fopen(dateiname_ausgabe,"w");
@@ -685,6 +676,25 @@ int NetEin::questionMessage(QString frage)
 	else if (msg.clickedButton() == noButton)
     		return 2;
 }
+
+bool NetEin::rmDir(const QString &dirPath)
+{
+    QDir dir(dirPath);
+    if (!dir.exists())
+        return true;
+    foreach(const QFileInfo &info, dir.entryInfoList(QDir::Dirs | QDir::Files | QDir::NoDotAndDotDot)) {
+        if (info.isDir()) {
+            if (!rmDir(info.filePath()))
+                return false;
+        } else {
+            if (!dir.remove(info.fileName()))
+                return false;
+        }
+    }
+    QDir parentDir(QFileInfo(dirPath).path());
+    return parentDir.rmdir(QFileInfo(dirPath).fileName());
+}
+
 
 
 

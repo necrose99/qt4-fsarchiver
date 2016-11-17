@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
- * 
- * Copyright (C) 2008-2015 Francois Dupoux.  All rights reserved.
+ *
+ * Copyright (C) 2008-2016 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -51,6 +51,7 @@ bool get_stopfillqueue()
 	{   
 	    atomic_set(&g_stopfillqueue, false); 
 	}
+
 // how many secondary threads are running (compression/decompression and archio threads)
 atomic_t g_secthreads={ (0) };
 
@@ -99,6 +100,3 @@ int get_abort()
     
     return false;
 }
-
-
-

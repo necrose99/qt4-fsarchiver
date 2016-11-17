@@ -1,7 +1,7 @@
 /*
  * qt4-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -28,7 +28,7 @@ QString homepath = QDir::homePath();
         connect( cmd_cancel, SIGNAL( clicked() ), this, SLOT(close()));
         connect( pushButton_treeview, SIGNAL( clicked() ), this, SLOT(folder_einlesen()));
 
-	dirModel = new QDirModel;
+	dirModel = new QFileSystemModel;
    	selModel = new QItemSelectionModel(dirModel);
    	treeView->setModel(dirModel);
    	treeView->setSelectionModel(selModel);
@@ -53,6 +53,7 @@ QString TreeviewRead::folder_treeview_holen()
 void TreeviewRead::folder_einlesen_beenden() {
      close();
 }
+
 
 
 

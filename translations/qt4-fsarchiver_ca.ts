@@ -1,1815 +1,241 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<!--
- Loco xml export: Qt framework TS file
- Project: Qt4-fsarchiver
- Release: Working copy
- Locale: en_GB, English (UK)
- Exported by: Michael R. Lawrence
- Exported at: Sat, 25 Oct 2014 17:56:53 +0100 
--->
-<TS version="2.0" language="ca" sourcelanguage="en">
-  <context>
-    <name>clone_dialog</name>
-    <message>
-      <source>Directory in which the image is written</source>
-      <translation>Directori en el qual s'escriu la imatge</translation>
-    </message>
-    <message>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;ja salvat:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-      <source>already saved:</source>
-      <translation>ja salvat:</translation>
-    </message>
-    <message>
-      <source>Backup directory:</source>
-      <translation>Directori de còpia de seguretat:</translation>
-    </message>
-    <message>
-      <source>Cancel</source>
-      <translation>Cancel·la</translation>
-    </message>
-    <message>
-      <source>Clone hard disk</source>
-      <translation>Clonar disc dur</translation>
-    </message>
-    <message>
-      <source>Clone hard drive</source>
-      <translation>Clon de disc dur</translation>
-    </message>
-    <message>
-      <source>CommandLinkButton</source>
-      <translation>CommandLinkButton</translation>
-    </message>
-    <message>
-      <source>elapsed time:</source>
-      <translation>temps transcorregut:</translation>
-    </message>
-    <message>
-      <source>Exist harddrive:</source>
-      <translation>Existeixen harddrive:</translation>
-    </message>
-    <message>
-      <source>Exit</source>
-      <translation>Sortida</translation>
-    </message>
-    <message>
-      <source>f</source>
-      <translation>f</translation>
-    </message>
-    <message>
-      <source>hours:</source>
-      <translation>Horari:</translation>
-    </message>
-    <message>
-      <source>hours</source>
-      <translation>hores</translation>
-    </message>
-    <message>
-      <source>Image of a hard disk to create</source>
-      <translation>Imatge d'un disc dur per crear</translation>
-    </message>
-    <message>
-      <source>Image of a hard disk to create:</source>
-      <translation>Imatge d'un disc dur per crear:</translation>
-    </message>
-    <message>
-      <source>Image of a hard disk write back</source>
-      <translation>Imatge d'un disc dur escriure altra vegada</translation>
-    </message>
-    <message>
-      <source>MB</source>
-      <translation>MB</translation>
-    </message>
-    <message>
-      <source>MB/sec</source>
-      <translation>MB/seg</translation>
-    </message>
-    <message>
-      <source>minutes:</source>
-      <translation>minuts:</translation>
-    </message>
-    <message>
-      <source>minutes</source>
-      <translation>minuts</translation>
-    </message>
-    <message>
-      <source>New harddrive:</source>
-      <translation>Nou disc dur:</translation>
-    </message>
-    <message>
-      <source>Proposed action:</source>
-      <translation>Proposta d'actuació:</translation>
-    </message>
-    <message>
-      <source>remaining time:</source>
-      <translation>temps restant:</translation>
-    </message>
-    <message>
-      <source>Save / Restore MBR</source>
-      <translation>Estalviar / restaurar MBR</translation>
-    </message>
-    <message>
-      <source>Save / restore MBR</source>
-      <translation>Estalviar / restaurar MBR</translation>
-    </message>
-    <message>
-      <source>seconds:</source>
-      <translation>segons:</translation>
-    </message>
-    <message>
-      <source>seconds</source>
-      <translation>segons</translation>
-    </message>
-    <message>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Velocitat de transmissió:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-      <source>Transmission speed:</source>
-      <translation>Velocitat de transmissió:</translation>
-    </message>
-    <message>
-      <source>Transmission speed</source>
-      <translation>Velocitat de transmissió</translation>
-    </message>
-    <message>
-      <source>Use gzip</source>
-      <translation>Ús gzip</translation>
-    </message>
-  </context>
-  <context>
-    <name>clone_dialog_net</name>
-    <message>
-      <source>Image einer Festplatte zurückschreiben:</source>
-      <translation>Imatge einer Festplatte zurückschreiben:</translation>
-    </message>
-    <message>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;ja salvat:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-      <source>already saved:</source>
-      <translation>ja salvat:</translation>
-    </message>
-    <message>
-      <source>Cancel</source>
-      <translation>Cancel·la</translation>
-    </message>
-    <message>
-      <source>Clone hard drive</source>
-      <translation>Clon de disc dur</translation>
-    </message>
-    <message>
-      <source>elapsed time:</source>
-      <translation>temps transcorregut:</translation>
-    </message>
-    <message>
-      <source>Exist harddrive:</source>
-      <translation>Existeixen harddrive:</translation>
-    </message>
-    <message>
-      <source>Exist Image:</source>
-      <translation>Existeix la imatge:</translation>
-    </message>
-    <message>
-      <source>f</source>
-      <translation>f</translation>
-    </message>
-    <message>
-      <source>hours</source>
-      <translation>hores</translation>
-    </message>
-    <message>
-      <source>Image einer Festplatte erstellen:</source>
-      <translation>Imatge einer Festplatte erstellen:</translation>
-    </message>
-    <message>
-      <source>Image name:</source>
-      <translation>Nom de la imatge:</translation>
-    </message>
-    <message>
-      <source>l</source>
-      <translation>l</translation>
-    </message>
-    <message>
-      <source>MB</source>
-      <translation>MB</translation>
-    </message>
-    <message>
-      <source>minutes</source>
-      <translation>minuts</translation>
-    </message>
-    <message>
-      <source>Network computer  name:</source>
-      <translation>Nom de l'ordinador de xarxa:</translation>
-    </message>
-    <message>
-      <source>remaining time:</source>
-      <translation>temps restant:</translation>
-    </message>
-    <message>
-      <source>Save / restore MBR</source>
-      <translation>Estalviar / restaurar MBR</translation>
-    </message>
-    <message>
-      <source>seconds</source>
-      <translation>segons</translation>
-    </message>
-  </context>
-  <context>
-    <name>Dialog_Net</name>
-    <message>
-      <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
-      <translation>Directori en el qual la partició és recolzat fins o des de l'arxiu de recuperació és tret.</translation>
-    </message>
-    <message>
-      <source>Notes to the backup is written to a file.</source>
-      <translation>Notes a la còpia de seguretat s'escriu un fitxer.</translation>
-    </message>
-    <message>
-      <source>Number of processors
-cores to be used for fsarchiver:</source>
-      <translation>Nombre de nuclis de processadors per ser utilitzat per fsarchiver:</translation>
-    </message>
-    <message>
-      <source>PBR is first block of any bootable partition.</source>
-      <translation>PBR és el primer bloc de qualsevol partició bootable.</translation>
-    </message>
-    <message>
-      <source>Same backup files are overwritten without prior consultation.</source>
-      <translation>Mateixos arxius de còpia de seguretat estan sobreescrits sense consulta prèvia.</translation>
-    </message>
-    <message>
-      <source>Select the partition to be backed up or restored.</source>
-      <translation>Seleccionar la partició que pot recolzar o restaurat.</translation>
-    </message>
-    <message>
-      <source>Already saved
-files/directories:</source>
-      <translation>Ja desar fitxers/directoris:</translation>
-    </message>
-    <message>
-      <source>already saved 
-files/directories:</source>
-      <translation>ja desar fitxers/directoris:</translation>
-    </message>
-    <message>
-      <source>available backup overwrite</source>
-      <translation>disponible reserva sobreescriure</translation>
-    </message>
-    <message>
-      <source>Backup directory:</source>
-      <translation>Directori de còpia de seguretat:</translation>
-    </message>
-    <message>
-      <source>Backup/restore partition over network</source>
-      <translation>Reserva/restaurar particions des de xarxa</translation>
-    </message>
-    <message>
-      <source>Compression
-setting:</source>
-      <translation>Configuració de compressió:</translation>
-    </message>
-    <message>
-      <source>elapsed time:</source>
-      <translation>temps transcorregut:</translation>
-    </message>
-    <message>
-      <source>elapsed time:</source>
-      <translation>temps transcorregut:</translation>
-    </message>
-    <message>
-      <source>Encrypt 
-backup key</source>
-      <translation>Xifrar reserva clau</translation>
-    </message>
-    <message>
-      <source>Existing partitions:</source>
-      <translation>Particions existents:</translation>
-    </message>
-    <message>
-      <source>Exit</source>
-      <translation>Sortida</translation>
-    </message>
-    <message>
-      <source>minutes</source>
-      <translation>minuts</translation>
-    </message>
-    <message>
-      <source>n</source>
-      <translation>n</translation>
-    </message>
-    <message>
-      <source>Name the backup file:</source>
-      <translation>Nom del fitxer de còpia de seguretat:</translation>
-    </message>
-    <message>
-      <source>Network computer  name:</source>
-      <translation>Nom de l'ordinador de xarxa:</translation>
-    </message>
-    <message>
-      <source>Network computer  name:</source>
-      <translation>Nom de l'ordinador de xarxa:</translation>
-    </message>
-    <message>
-      <source>Notes to  the backup</source>
-      <translation>Notes a la còpia de seguretat</translation>
-    </message>
-    <message>
-      <source>Notes to  the backup</source>
-      <translation>Notes a la còpia de seguretat</translation>
-    </message>
-    <message>
-      <source>Number of backup
-files/directories:</source>
-      <translation>Nombre de fitxers/directoris de còpia de seguretat:</translation>
-    </message>
-    <message>
-      <source>On the number saved
-Files/directories:</source>
-      <translation>Sobre el nombre de desar fitxers/directoris:</translation>
-    </message>
-    <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1"&gt;&lt;style type="text/css"&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;temps transcorregut:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1"&gt;&lt;style type="text/css"&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;temps previst:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-      <source>Partition restore</source>
-      <translation>Restaura partició</translation>
-    </message>
-    <message>
-      <source>Partition save 
-with fsarchiver</source>
-      <translation>Partició estalviar amb fsarchiver</translation>
-    </message>
-    <message>
-      <source>Please select the folder.</source>
-      <translation>Si us plau, seleccioneu la carpeta.</translation>
-    </message>
-    <message>
-      <source>Please select a shared folder.</source>
-      <translation>Si us plau seleccioni una carpeta compartida.</translation>
-    </message>
-    <message>
-      <source>Please select the folder.</source>
-      <translation>Si us plau, seleccioneu la carpeta.</translation>
-    </message>
-    <message>
-      <source>Proposed action:</source>
-      <translation>Proposta d'actuació:</translation>
-    </message>
-    <message>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Protocol for network transmission:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Protocol per a transmissió de xarxa:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-      <source>Protocoll for network
-transmission:</source>
-      <translation>Protocoll per a transmissió de xarxa:</translation>
-    </message>
-    <message>
-      <source>remaining time</source>
-      <translation>temps restant</translation>
-    </message>
-    <message>
-      <source>remaining time</source>
-      <translation>temps restant</translation>
-    </message>
-    <message>
-      <source>Restore file name:</source>
-      <translation>Restaurar el nom d'arxiu:</translation>
-    </message>
-    <message>
-      <source>Restore partition 
-with fsarchiver</source>
-      <translation>Restaurar partició amb fsarchiver</translation>
-    </message>
-    <message>
-      <source>S</source>
-      <translation>S</translation>
-    </message>
-    <message>
-      <source>save partition</source>
-      <translation>salvar la partició</translation>
-    </message>
-    <message>
-      <source>Save PBR</source>
-      <translation>Estalviar PBR</translation>
-    </message>
-    <message>
-      <source>seconds</source>
-      <translation>segons</translation>
-    </message>
-    <message>
-      <source>Shared folders:</source>
-      <translation>Carpetes compartides:</translation>
-    </message>
-    <message>
-      <source>Start restore a partition.</source>
-      <translation>Inici restaurar una partició.</translation>
-    </message>
-    <message>
-      <source>Start the backup of a partition.</source>
-      <translation>Començar la còpia de seguretat d'una partició.</translation>
-    </message>
-    <message>
-      <source>Stock Split on DVD size</source>
-      <translation>Estoc Split a mida de DVD</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.</name>
-    <message>
-      <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
-      <translation>En el disc dur, existeix una arrel o una partici ├ │ /home. Ha de necessitar un live-CD.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|bereits gesichert</name>
-    <message>
-      <source>already saved</source>
-      <translation>ja salvat</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|bereits zurückgeschrieben</name>
-    <message>
-      <source>already restored</source>
-      <translation>ja restaurada</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Das Klonen der Festplatte war erfolgreich.</name>
-    <message>
-      <source>The clone of the hard drive was successfully.</source>
-      <translation>El clon de l'empenta dura era reeixidament.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Das Klonen der Festplatte war nicht erfolgreich.</name>
-    <message>
-      <source>The clone of the hard drive was not successfully.</source>
-      <translation>El clon del disc dur no era reeixidament.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Die gewählte Festplatte ist zu klein.</name>
-    <message>
-      <source>The selected hard drive is too small.</source>
-      <translation>El disc dur seleccionat és massa petit.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Die Sichern des Abbildes war erfolgreich.</name>
-    <message>
-      <source>The backup of the image was successfully.</source>
-      <translation>La còpia de seguretat de la imatge era reeixidament.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Die Sichern des Abbildes war nicht erfolgreich.</name>
-    <message>
-      <source>The backup of the image was not successfully.</source>
-      <translation>La còpia de seguretat de la imatge no era reeixidament.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Die Wiederherstellung des Abbildes war nicht erfolgreich.</name>
-    <message>
-      <source>The restore from the image was not successfully.</source>
-      <translation>La restauració de la imatge no era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The restore from the image was not successfully.</source>
-      <translation>La restauració de la imatge no era reeixidament.</translation>
-    </message>
-  </context>
-  <context>
+<TS version="2.0" language="ca_ES">
+<defaultcodec>UTF-8</defaultcodec>
+<context>
     <name>DialogClone</name>
     <message>
-      <source>Do you want really break clone, save or restore an image from the partition?</source>
-      <translation>Voleu que realment trencar clon, guardar o restaurar una imatge de la partició?</translation>
-    </message>
-    <message>
-      <source>Do you want really built a image from the hard drive?</source>
-      <translation>Voleu que realment construït una imatge des del disc dur?</translation>
-    </message>
-    <message>
-      <source>Do you want really clone the hard drive? All dates on</source>
-      <translation>Vol clonar realment l'empenta dura? Totes les dates en</translation>
-    </message>
-    <message>
-      <source>Do you want really restore the image of the hard drive?</source>
-      <translation>Voleu restaurar realment la imatge de l'empenta dura?</translation>
-    </message>
-    <message>
-      <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
-      <translation>En el disc dur, existeix una arrel o una partici ├ │ /home. Ha de necessitar un live-CD.</translation>
-    </message>
-    <message>
-      <source>The backup of the image was not successfully.</source>
-      <translation>La còpia de seguretat de la imatge no era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The backup of the image was successfully.</source>
-      <translation>La còpia de seguretat de la imatge era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The clone of the hard drive was not successfully.</source>
-      <translation>El clon del disc dur no era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The clone of the hard drive was successfully.</source>
-      <translation>El clon de l'empenta dura era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The restore from the image was not successfully.</source>
-      <translation>La restauració de la imatge no era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The restore from the image was successfully.</source>
-      <translation>La restauració de la imatge era reeixidament.</translation>
-    </message>
-    <message>
-      <source>You have selected a folder. You must select a fsa.gz file.</source>
-      <translation>Heu seleccionat una carpeta. Heu de seleccionar un arxiu de fsa.gz.</translation>
-    </message>
-    <message>
-      <source>You have selected a folder. You must select a gz.fsa file.</source>
-      <translation>Heu seleccionat una carpeta. Heu de seleccionar un arxiu de gz.fsa.</translation>
-    </message>
-    <message>
-      <source>You must select a gz.fsa file or an img.fsa file.</source>
-      <translation>Heu de seleccionar un fitxer de gz.fsa o un img.fsa.</translation>
-    </message>
-    <message>
-      <source>already restored</source>
-      <translation>ja restaurada</translation>
-    </message>
-    <message>
-      <source>already saved</source>
-      <translation>ja salvat</translation>
-    </message>
-    <message>
-      <source>alredy restored</source>
-      <translation>alredy restaurat</translation>
-    </message>
-    <message>
-      <source>alredy saved</source>
-      <translation>alredy salvat</translation>
-    </message>
-    <message>
-      <source>are deleted!</source>
-      <translation>s'esborren!</translation>
-    </message>
-    <message>
-      <source>Clone Harddrive</source>
-      <translation>Clon Harddrive</translation>
-    </message>
-    <message>
-      <source>No</source>
-      <translation>No</translation>
-    </message>
-    <message>
-      <source>Note</source>
-      <translation>Nota</translation>
-    </message>
-    <message>
-      <source>Restore Harddrive Image</source>
-      <translation>Restaurar la imatge de disc dur</translation>
-    </message>
-    <message>
-      <source>Save Harddrive Image</source>
-      <translation>Guardar imatge del disc dur</translation>
-    </message>
-    <message>
-      <source>The selected hard drive is too small.</source>
-      <translation>El disc dur seleccionat és massa petit.</translation>
-    </message>
-    <message>
-      <source>Yes</source>
-      <translation>Sí</translation>
-    </message>
-    <message>
-      <source>You must select a folder.</source>
-      <translation>Heu de seleccionar una carpeta.</translation>
-    </message>
-    <message>
-      <source>You must select a fsa.gz file.</source>
-      <translation>Heu de seleccionar un arxiu de fsa.gz.</translation>
-    </message>
-    <message>
-      <source>You must select a hard drive.</source>
-      <translation>Heu de seleccionar una empenta dura.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Festplatte klonen</name>
-    <message>
-      <source>Clone Harddrive</source>
-      <translation>Clon Harddrive</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Festplatten Abbild erstellen</name>
-    <message>
-      <source>Save Harddrive Image</source>
-      <translation>Guardar imatge del disc dur</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Festplatten Abbild zurückschreiben</name>
-    <message>
-      <source>Restore Harddrive Image</source>
-      <translation>Restaurar la imatge de disc dur</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Hinweis</name>
-    <message>
-      <source>Note</source>
-      <translation>Nota</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Ja</name>
-    <message>
-      <source>Yes</source>
-      <translation>Sí</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Nein</name>
-    <message>
-      <source>No</source>
-      <translation>No</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.</name>
-    <message>
-      <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
-      <translation>En el disc dur, existeix una arrel o una partici ├ │ /home. Ha de necessitar un live-CD.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Bitte wählen Sie den Dateinamen der Sicherung aus.</name>
-    <message>
-      <source>Please, select the filename of the backup.
-</source>
-      <translation>Si us plau, seleccioneu el nom del fitxer de la còpia de seguretat.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net</name>
-    <message>
-      <source>Can not find a shared directory. The program is terminated.</source>
-      <translation>No pot trobar un directori compartit. El programa s'acaba.</translation>
-    </message>
-    <message>
-      <source>could not be integrated. The program is aborted</source>
-      <translation>podria no ser integrat. El programa ha avortat</translation>
-    </message>
-    <message>
-      <source>Do you want really break save or restore an image from the partition?</source>
-      <translation>Voleu que realment trencar guardar o restaurar una imatge de la partició?</translation>
-    </message>
-    <message>
-      <source>Do you want really built a image from the hard drive?</source>
-      <translation>Voleu que realment construït una imatge des del disc dur?</translation>
-    </message>
-    <message>
-      <source>Do you want really restore the image of the hard drive?</source>
-      <translation>Voleu restaurar realment la imatge de l'empenta dura?</translation>
-    </message>
-    <message>
-      <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
-      <translation>En el disc dur, existeix una arrel o una partici ├ │ /home. Ha de necessitar un live-CD.</translation>
-    </message>
-    <message>
-      <source>Please, select the filename of the backup.</source>
-      <translation>Si us plau, seleccioneu el nom del fitxer de la còpia de seguretat.</translation>
-    </message>
-    <message>
-      <source>The backup of the image was not successfully.</source>
-      <translation>La còpia de seguretat de la imatge no era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The backup of the image was successfully.</source>
-      <translation>La còpia de seguretat de la imatge era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The restore from the image was not successfully.</source>
-      <translation>La restauració de la imatge no era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The restore from the image was successfully.</source>
-      <translation>La restauració de la imatge era reeixidament.</translation>
-    </message>
-    <message>
-      <source>You have selected a folder. You must select a fsa.gz file.</source>
-      <translation>Heu seleccionat una carpeta. Heu de seleccionar un arxiu de fsa.gz.</translation>
-    </message>
-    <message>
-      <source>No</source>
-      <translation>No</translation>
-    </message>
-    <message>
-      <source>Note</source>
-      <translation>Nota</translation>
-    </message>
-    <message>
-      <source>Restore Harddrive Image</source>
-      <translation>Restaurar la imatge de disc dur</translation>
-    </message>
-    <message>
-      <source>Save Harddrive Image</source>
-      <translation>Guardar imatge del disc dur</translation>
-    </message>
-    <message>
-      <source>The network computer</source>
-      <translation>La xarxa informàtica</translation>
-    </message>
-    <message>
-      <source>Yes</source>
-      <translation>Sí</translation>
-    </message>
-    <message>
-      <source>You must select a folder.</source>
-      <translation>Heu de seleccionar una carpeta.</translation>
-    </message>
-    <message>
-      <source>You must select a fsa.gz file.</source>
-      <translation>Heu de seleccionar un arxiu de fsa.gz.</translation>
-    </message>
-    <message>
-      <source>You must select a hard drive.</source>
-      <translation>Heu de seleccionar una empenta dura.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Die Wiederherstellung des Abbildes war nicht erfolgreich.</name>
-    <message>
-      <source>The restore from the image was not successfully.</source>
-      <translation>La restauració de la imatge no era reeixidament.</translation>
-    </message>
-    <message>
-      <source>The restore from the image was not successfully.</source>
-      <translation>La restauració de la imatge no era reeixidament.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Der Netzwerkrechner</name>
-    <message>
-      <source>The network computer </source>
-      <translation>La xarxa informàtica </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Die Sichern des Abbildes war erfolgreich.</name>
-    <message>
-      <source>The backup of the image was successfully.</source>
-      <translation>La còpia de seguretat de la imatge era reeixidament.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Die Sichern des Abbildes war nicht erfolgreich.</name>
-    <message>
-      <source>The backup of the image was not successfully.</source>
-      <translation>La còpia de seguretat de la imatge no era reeixidament.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.</name>
-    <message>
-      <source>Can not find a shared directory. The program is terminated.
-</source>
-      <translation>No pot trobar un directori compartit. El programa s'acaba.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Festplatten Abbild erstellen</name>
-    <message>
-      <source>Save Harddrive Image</source>
-      <translation>Guardar imatge del disc dur</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Festplatten Abbild zurückschreiben</name>
-    <message>
-      <source>Restore Harddrive Image</source>
-      <translation>Restaurar la imatge de disc dur</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Hinweis</name>
-    <message>
-      <source>Note</source>
-      <translation>Nota</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Ja</name>
-    <message>
-      <source>Yes</source>
-      <translation>Sí</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net| konnte nicht eingebunden werden. Das Programm wird abgebrochen</name>
-    <message>
-      <source> could not be integrated. The program is aborted
-</source>
-      <translation> podria no ser integrat. El programa ha avortat
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Nein</name>
-    <message>
-      <source>No</source>
-      <translation>No</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz Datei auswählen</name>
-    <message>
-      <source>You have selected a folder. You must select a fsa.gz file.
-</source>
-      <translation>Heu seleccionat una carpeta. Heu de seleccionar un arxiu de fsa.gz.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Sie müssen ein Verzeichnis auswählen.</name>
-    <message>
-      <source>You must select a folder.</source>
-      <translation>Heu de seleccionar una carpeta.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Sie müssen eine Festplatte auswählen.</name>
-    <message>
-      <source>You must select a hard drive.</source>
-      <translation>Heu de seleccionar una empenta dura.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Sie müssen eine fsa.gz Datei auswählen.</name>
-    <message>
-      <source>You must select a fsa.gz file.</source>
-      <translation>Heu de seleccionar un arxiu de fsa.gz.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name>
-    <message>
-      <source>Do you want really restore the image of the hard drive? </source>
-      <translation>Voleu restaurar realment la imatge de l'empenta dura? </translation>
-    </message>
-    <message>
-      <source> Do you want really restore the image of the hard drive? </source>
-      <translation> Voleu restaurar realment la imatge de l'empenta dura? </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone_net|Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</name>
-    <message>
-      <source>Do you want really break save or restore an image from the partition?</source>
-      <translation>Voleu que realment trencar guardar o restaurar una imatge de la partició?</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen</name>
-    <message>
-      <source>You have selected a folder. You must select a gz.fsa file.
-</source>
-      <translation>Heu seleccionat una carpeta. Heu de seleccionar un arxiu de gz.fsa.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Sie müssen ein Verzeichnis auswählen.</name>
-    <message>
-      <source>You must select a folder.</source>
-      <translation>Heu de seleccionar una carpeta.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Sie müssen eine Festplatte auswählen.</name>
-    <message>
-      <source>You must select a hard drive.</source>
-      <translation>Heu de seleccionar una empenta dura.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.</name>
-    <message>
-      <source>You must select a gz.fsa file or an img.fsa file.</source>
-      <translation>Heu de seleccionar un fitxer de gz.fsa o un img.fsa.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone| werden gelöscht!</name>
-    <message>
-      <source> are deleted!</source>
-      <translation> s'esborren!</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name>
-    <message>
-      <source>Do you want really restore the image of the hard drive?</source>
-      <translation>Voleu restaurar realment la imatge de l'empenta dura?</translation>
-    </message>
-    <message>
-      <source> Do you want really restore the image of the hard drive? </source>
-      <translation> Voleu restaurar realment la imatge de l'empenta dura? </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone|Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</name>
-    <message>
-      <source>Do you want really break clone, save or restore an image from the partition?</source>
-      <translation>Voleu que realment trencar clon, guardar o restaurar una imatge de la partició?</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte</name>
-    <message>
-      <source> Do you want really clone the hard drive? All dates on  </source>
-      <translation> Vol clonar realment l'empenta dura? Totes les dates en  </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR</name>
-    <message>
-      <source>already exists. The backup is not performed</source>
-      <translation>ja existeix. La còpia de seguretat no es realitza</translation>
-    </message>
-    <message>
-      <source>Do you want really break the save or restore from the folder?</source>
-      <translation>Voleu que realment trencar el salvar o restaurar des de la carpeta?</translation>
-    </message>
-    <message>
-      <source>Error in fsarchiver. The directory can not be restored!</source>
-      <translation>Error en fsarchiver. El directori no es poden recuperar!</translation>
-    </message>
-    <message>
-      <source>Error!  The restoring of the folder was only partially successful!</source>
-      <translation>Error!  La restauració de la carpeta només estava parcialment reeixida!</translation>
-    </message>
-    <message>
-      <source>Links were not backed properly. The backup of the directories was only partially successful</source>
-      <translation>Enllaços no van ser recolzats correctament. La còpia de seguretat dels directoris només va ser un èxit parcial</translation>
-    </message>
-    <message>
-      <source>links were not correctly restored. The restoring of the lists was only partially successful</source>
-      <translation>enllaços correctament no han estat restaurats. La restauració de les llistes era només un èxit parcial</translation>
-    </message>
-    <message>
-      <source>Please select the directory in which the to the directory or file to be saved is to be written.</source>
-      <translation>Si us plau seleccioneu el directori en el qual al directori o fitxer es desin s'escriurà.</translation>
-    </message>
-    <message>
-      <source>Please select the to be directory or file to be saved.</source>
-      <translation>Seleccioneu el directori o fitxer es desin.</translation>
-    </message>
-    <message>
-      <source>Select the directory in which the saved image will be recovered.</source>
-      <translation>Seleccioneu el directori en el qual es recuperaran en la imatge guardada.</translation>
-    </message>
-    <message>
-      <source>The backup of the directory was successful.</source>
-      <translation>La còpia de seguretat del directori va tenir èxit.</translation>
-    </message>
-    <message>
-      <source>The backup of the folder was aborted by the user!</source>
-      <translation>La còpia de seguretat de la carpeta va ser avortat per l'usuari!</translation>
-    </message>
-    <message>
-      <source>The key length must be between 6 and 64 characters</source>
-      <translation>La longitud de la clau ha de ser entre 6 i 64 caràcters</translation>
-    </message>
-    <message>
-      <source>The partition is encrypted. Please enter the Schlüsel</source>
-      <translation>La partició s'encripta. Si us plau introdueix el Schlüsel</translation>
-    </message>
-    <message>
-      <source>The partition is encrypted. Please enter the key</source>
-      <translation>La partició s'encripta. Si us plau, introdueixi la clau</translation>
-    </message>
-    <message>
-      <source>The restore of the folder was break by user!</source>
-      <translation>La restauració de la carpeta es va trencar per l'usuari!</translation>
-    </message>
-    <message>
-      <source>The restoring of the directory was successful.</source>
-      <translation>La restauració del directori va ser un èxit.</translation>
-    </message>
-    <message>
-      <source>There was no key for encryption specified.</source>
-      <translation>No hi havia cap clau d'encriptació especificat.</translation>
-    </message>
-    <message>
-      <source>You have chosen the wrong recovery file selected.
- The files should end with. fsa be</source>
-      <translation>Heu seleccionat el fitxer de recuperació equivocada seleccionat.
- Els arxius haurien d'acabar amb. ser FSA</translation>
-    </message>
-    <message>
-      <source>You have selected a directory. You need a backup file with the extension .fsa select</source>
-      <translation>Heu seleccionat un directori. Vostè necessita un fitxer de còpia de seguretat amb la selecció d'extensió .fsa</translation>
-    </message>
-    <message>
-      <source>You have selected a file. You must select a directory</source>
-      <translation>Heu seleccionat un arxiu. Heu de seleccionar un directori</translation>
-    </message>
-    <message>
-      <source>You have tried to restore a directory. The selected file can only restore partitions.</source>
-      <translation>Ha intentat restaurar un directori. El fitxer seleccionat només pot restaurar particions.</translation>
-    </message>
-    <message>
-      <source>back to write backup file</source>
-      <translation>tornar a escriure el fitxer de còpia de seguretat</translation>
-    </message>
-    <message>
-      <source>bzip2 fast</source>
-      <translation>bzip2 ràpid</translation>
-    </message>
-    <message>
-      <source>bzip2 good</source>
-      <translation>bzip2 bona</translation>
-    </message>
-    <message>
-      <source>Decrypt
-backup. key:</source>
-      <translation>Desxifrar la còpia de seguretat. clau:</translation>
-    </message>
-    <message>
-      <source>directories,</source>
-      <translation>directoris,</translation>
-    </message>
-    <message>
-      <source>directories,</source>
-      <translation>directoris,</translation>
-    </message>
-    <message>
-      <source>directories, and</source>
-      <translation>directoris, i</translation>
-    </message>
-    <message>
-      <source>Directory restore</source>
-      <translation>Restaurar directori</translation>
-    </message>
-    <message>
-      <source>Directory save</source>
-      <translation>Directori de guardar</translation>
-    </message>
-    <message>
-      <source>Do you want to exit the program really?</source>
-      <translation>Voleu sortir del programa realment?</translation>
-    </message>
-    <message>
-      <source>Encrypt
-backup. key:</source>
-      <translation>Xifrar còpia de seguretat. clau:</translation>
-    </message>
-    <message>
-      <source>files,</source>
-      <translation>arxius,</translation>
-    </message>
-    <message>
-      <source>files,</source>
-      <translation>arxius,</translation>
-    </message>
-    <message>
-      <source>Files,</source>
-      <translation>Arxius,</translation>
-    </message>
-    <message>
-      <source>gzip fast</source>
-      <translation>gzip ràpid</translation>
-    </message>
-    <message>
-      <source>gzip standard</source>
-      <translation>gzip estàndard</translation>
-    </message>
-    <message>
-      <source>Hinweis</source>
-      <translation>Nota</translation>
-    </message>
-    <message>
-      <source>links and</source>
-      <translation>enllaços i</translation>
-    </message>
-    <message>
-      <source>links and</source>
-      <translation>enllaços i</translation>
-    </message>
-    <message>
-      <source>links have been restored</source>
-      <translation>enllaços han estat restaurats</translation>
-    </message>
-    <message>
-      <source>links have been saved</source>
-      <translation>enllaços s'han desat</translation>
-    </message>
-    <message>
-      <source>Location (path) of the backup</source>
-      <translation>Localització (camí) de la còpia de seguretat</translation>
-    </message>
-    <message>
-      <source>Location (path) of the restore</source>
-      <translation>Localització (camí) de la restauració</translation>
-    </message>
-    <message>
-      <source>lzma best</source>
-      <translation>LZMA millor</translation>
-    </message>
-    <message>
-      <source>lzma fast</source>
-      <translation>LZMA ràpid</translation>
-    </message>
-    <message>
-      <source>lzma medium</source>
-      <translation>LZMA mitjà</translation>
-    </message>
-    <message>
-      <source>No</source>
-      <translation>No</translation>
-    </message>
-    <message>
-      <source>Note</source>
-      <translation>Nota</translation>
-    </message>
-    <message>
-      <source>Please select the existing backup file.</source>
-      <translation>Si us plau, seleccioneu el fitxer de còpia de seguretat existent.</translation>
-    </message>
-    <message>
-      <source>qzip best</source>
-      <translation>qzip millor</translation>
-    </message>
-    <message>
-      <source>specials have been backed.</source>
-      <translation>especials han estat recolzats.</translation>
-    </message>
-    <message>
-      <source>specials have been restored.</source>
-      <translation>especials han estat restaurats.</translation>
-    </message>
-    <message>
-      <source>The partition file</source>
-      <translation>El fitxer de partició</translation>
-    </message>
-    <message>
-      <source>There was no key to decrypt specified.</source>
-      <translation>No hi havia cap clau per desxifrar especificat.</translation>
-    </message>
-    <message>
-      <source>to saved Directory</source>
-      <translation>per salvar el directori</translation>
-    </message>
-    <message>
-      <source>Yes</source>
-      <translation>Sí</translation>
-    </message>
-    <message>
-      <source>You have entered an incorrect password.</source>
-      <translation>Que ha introduït una contrasenya incorrecta.</translation>
-    </message>
-    <message>
-      <source>You have entered an incorrect password.</source>
-      <translation>Que ha introduït una contrasenya incorrecta.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.</name>
-    <message>
-      <source>Select the directory in which the saved image will be recovered.</source>
-      <translation>Seleccioneu el directori en el qual es recuperaran en la imatge guardada.</translation>
-    </message>
-    <message>
-      <source>Select the directory in which the saved image will be recovered.
-</source>
-      <translation>Seleccioneu el directori en el qual es recuperaran en la imatge guardada.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.</name>
-    <message>
-      <source>Please select the to be directory or file to be saved.
-</source>
-      <translation>Seleccioneu el directori o fitxer es desin.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Bitte wählen Sie die vorhandene Sicherungsdatei aus.</name>
-    <message>
-      <source>Please select the existing backup file.
-</source>
-      <translation>Si us plau, seleccioneu el fitxer de còpia de seguretat existent.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| Dateien,</name>
-    <message>
-      <source>Files, </source>
-      <translation>Arxius, </translation>
-    </message>
-    <message>
-      <source>files, </source>
-      <translation>arxius, </translation>
-    </message>
-    <message>
-      <source> files,</source>
-      <translation> arxius,</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein</name>
-    <message>
-      <source>The partition is encrypted. Please enter the key</source>
-      <translation>La partició s'encripta. Si us plau, introdueixi la clau</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Die Partitionsdatei</name>
-    <message>
-      <source>The partition file </source>
-      <translation>El fitxer de partició </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein</name>
-    <message>
-      <source>The key length must be between 6 and 64 characters
-</source>
-      <translation>La longitud de la clau ha de ser entre 6 i 64 caràcters
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Die Sicherung des Verzeichnisses war erfolgreich.</name>
-    <message>
-      <source>The backup of the directory was successful.
-</source>
-      <translation>La còpia de seguretat del directori va tenir èxit.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!</name>
-    <message>
-      <source>The backup of the folder was aborted by the user!
-</source>
-      <translation>La còpia de seguretat de la carpeta va ser avortat per l'usuari!
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!</name>
-    <message>
-      <source>The restoration of the directory was canceled by the user!</source>
-      <translation>L'usuari s'ha cancel·lat la restauració del directori!</translation>
-    </message>
-    <message>
-      <source>The restore of the folder was break by user!
-</source>
-      <translation>La restauració de la carpeta es va trencar per l'usuari!
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Es wurde kein Schlüssel für die Entschlüsselung angegeben.</name>
-    <message>
-      <source>There was no key to decrypt specified.
-</source>
-      <translation>No hi havia cap clau per desxifrar especificat.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Es wurde kein Schlüssel für die Verschlüsselung angegeben.</name>
-    <message>
-      <source>There was no key for encryption specified.
-</source>
-      <translation>No hi havia cap clau d'encriptació especificat.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Fehler! Das Verzeichnis wurde nur teilweise wiederhergestellt.</name>
-    <message>
-      <source>Error!  The restoring of the folder was only partially successful!</source>
-      <translation>Error!  La restauració de la carpeta només estava parcialment reeixida!</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Fehler in fsarchiver. Das Verzeichnis kann nicht wiederhergestellt werden!!</name>
-    <message>
-      <source>Error in fsarchiver. The directory can not be restored!</source>
-      <translation>Error en fsarchiver. El directori no es poden recuperar!</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Hinweis</name>
-    <message>
-      <source>Note</source>
-      <translation>Nota</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| ist bereits vorhanden. Die Sicherung wird nicht durchgeführt</name>
-    <message>
-      <source>already exists. The backup is not performed
-</source>
-      <translation>ja existeix. La còpia de seguretat no es realitza
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Ja</name>
-    <message>
-      <source>Yes</source>
-      <translation>Sí</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| Links und</name>
-    <message>
-      <source>links and </source>
-      <translation>enllaços i </translation>
-    </message>
-    <message>
-      <source> links and </source>
-      <translation> enllaços i </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich</name>
-    <message>
-      <source> Links were not backed properly. The backup of the directories was only partially successful
-</source>
-      <translation> Enllaços no van ser recolzats correctament. La còpia de seguretat dels directoris només va ser un èxit parcial
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich</name>
-    <message>
-      <source> links were not correctly restored. The restoring of the lists was only partially successful</source>
-      <translation> enllaços correctament no han estat restaurats. La restauració de les llistes era només un èxit parcial</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Nein</name>
-    <message>
-      <source>No</source>
-      <translation>No</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Ort (Pfad) der Sicherung</name>
-    <message>
-      <source>Location (path) of the backup</source>
-      <translation>Localització (camí) de la còpia de seguretat</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Ort (Pfad) der Wiederherstellung</name>
-    <message>
-      <source>Location (path) of the restore</source>
-      <translation>Localització (camí) de la restauració</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Sicherung
-entschlüsseln. Schlüssel:</name>
-    <message>
-      <source>Decrypt
-backup. key:</source>
-      <translation>Desxifrar la còpia de seguretat. clau:</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Sicherung
-verschlüsseln. Schlüssel:</name>
-    <message>
-      <source>Encrypt
-backup. key:</source>
-      <translation>Xifrar còpia de seguretat. clau:</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Sie haben ein falsches Passwort eingegeben.</name>
-    <message>
-      <source>You have entered an incorrect password.</source>
-      <translation>Que ha introduït una contrasenya incorrecta.</translation>
-    </message>
-    <message>
-      <source>You have entered an incorrect password.
-</source>
-      <translation>Que ha introduït una contrasenya incorrecta.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen</name>
-    <message>
-      <source>You have selected a directory. You need a backup file with the extension .fsa select
-</source>
-      <translation>Heu seleccionat un directori. Vostè necessita un fitxer de còpia de seguretat amb la selecció d'extensió .fsa
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen</name>
-    <message>
-      <source>You have selected a file. You must select a directory
-</source>
-      <translation>Heu seleccionat un arxiu. Heu de seleccionar un directori
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
-Die Dateiendung muss .fsa sein</name>
-    <message>
-      <source>You have chosen the wrong recovery file selected.
- The files should end with. fsa be</source>
-      <translation>Heu seleccionat el fitxer de recuperació equivocada seleccionat.
- Els arxius haurien d'acabar amb. ser FSA</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Sie haben versucht ein Verzeichnis wiederherzustellen. Die gewählte Datei kann nur Partitionen wiederherstellen.</name>
-    <message>
-      <source>You have tried to restore a directory. The selected file can only restore partitions.
-</source>
-      <translation>Ha intentat restaurar un directori. El fitxer seleccionat només pot restaurar particions.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| spezielle Daten wurden gesichert.</name>
-    <message>
-      <source> specials have been backed.</source>
-      <translation> especials han estat recolzats.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| spezielle Daten wurden wieder hergestellt.</name>
-    <message>
-      <source> specials have been restored.</source>
-      <translation> especials han estat restaurats.</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| Verzeichnisse,</name>
-    <message>
-      <source>directories, </source>
-      <translation>directoris, </translation>
-    </message>
-    <message>
-      <source> directories, </source>
-      <translation> directoris, </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Verzeichnis sichern</name>
-    <message>
-      <source>Directory save</source>
-      <translation>Directori de guardar</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Verzeichnis zurückschreiben</name>
-    <message>
-      <source>Directory restore</source>
-      <translation>Restaurar directori</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR| Verzeichnisse und</name>
-    <message>
-      <source> directories, and </source>
-      <translation> directoris, i </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|Wollen Sie wirklich die Sicherung oder Wiederherstellung der Verzeichnisse beenden?</name>
-    <message>
-      <source>Do you want really break the save or restore from the folder?</source>
-      <translation>Voleu que realment trencar el salvar o restaurar des de la carpeta?</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|zu sicherndes Verzeichnis</name>
-    <message>
-      <source>to saved Directory</source>
-      <translation>per salvar el directori</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogDIR|zurück zu schreibende Sicherungsdatei</name>
-    <message>
-      <source>back to write backup file</source>
-      <translation>tornar a escriure el fitxer de còpia de seguretat</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogMBR| Byte. Der verborgene Bereich von der Festplatte</name>
-    <message>
-      <source> bytes. The hidden area of the disk </source>
-      <translation> bytes. La zona oculta del disc </translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogMBR| Byte. Wollen Sie fortfahren?</name>
-    <message>
-      <source> bytes. Are you sure?</source>
-      <translation> bytes. Esteu segur?</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogMBR</name>
-    <message>
-      <source>Caution: If you really want to to write back the MBR completely or partially?</source>
-      <translation>Precaució: Si realment voleu a escriure de nou el MBR completament o parcialment?</translation>
-    </message>
-    <message>
-      <source>Caution: If you really want to to write back the GUID partition table?</source>
-      <translation>Precaució: Si realment voleu a escriure de nou la taula de partició GUID?</translation>
-    </message>
-    <message>
-      <source>Caution: If you really want to to write back the secret field?</source>
-      <translation>Precaució: Si realment voleu a escriure de nou el camp secreta?</translation>
-    </message>
-    <message>
-      <source>Caution: If you really want to to write back the GUID partition table?</source>
-      <translation>Precaució: Si realment voleu a escriure de nou la taula de partició GUID?</translation>
-    </message>
-    <message>
-      <source>The Boot Loader section is successful return.</source>
-      <translation>La secció de carregador d'arrencada és exitós retorn.</translation>
-    </message>
-    <message>
-      <source>The end of hidden area of the 1st Partition could not be read. Only 512 bytes are saved.</source>
-      <translation>No es podria llegir al final de la zona oculta de la partició 1. Es guarden només 512 bytes.</translation>
-    </message>
-    <message>
-      <source>The GUID partition table is successful return.</source>
-      <translation>La taula de partició GUID és exitós retorn.</translation>
-    </message>
-    <message>
-      <source>The GUID partition table was not restored.</source>
-      <translation>La taula de partició GUID no va ser restaurat.</translation>
-    </message>
-    <message>
-      <source>You have selected a directory. You must select the MBR backup file</source>
-      <translation>Heu seleccionat un directori. Heu de seleccionar el fitxer de còpia de seguretat de MBR</translation>
-    </message>
-    <message>
-      <source>You have no MBR backup file selected. Name or size is not correct</source>
-      <translation>Teniu cap arxiu de reserva de MBR seleccionat. Nom o mida no és correcte</translation>
-    </message>
-    <message>
-      <source>You have no MBR/GPT backup file selected. Name or size is not correct</source>
-      <translation>Teniu cap arxiu de reserva de MBR/GPT seleccionat. Nom o mida no és correcte</translation>
-    </message>
-    <message>
-      <source>You have selected a directory. You must select the MBR/GPT backup file</source>
-      <translation>Heu seleccionat un directori. Heu de seleccionar el fitxer de còpia de seguretat de MBR/GPT</translation>
-    </message>
-    <message>
-      <source>You have selected a file. You must select a directory.</source>
-      <translation>Heu seleccionat un arxiu. Heu de seleccionar un directori.</translation>
-    </message>
-    <message>
-      <source>You may have a wrong file selected. Restore the hidden field has a size of</source>
-      <translation>Vostè pot tenir un fitxer equivocat seleccionat. Restaurar el camp ocult té una mida de</translation>
-    </message>
-    <message>
-      <source>You may have the wrong disk is selected. The restore disk is</source>
-      <translation>Vostè pot tenir el mal disc és seleccionat. És el disc de restaurar</translation>
-    </message>
-    <message>
-      <source>Are you sure?</source>
-      <translation>Esteu segur?</translation>
-    </message>
-    <message>
-      <source>bytes. Are you sure?</source>
-      <translation>bytes. Esteu segur?</translation>
-    </message>
-    <message>
-      <source>bytes. The hidden area of the disk</source>
-      <translation>bytes. La zona oculta del disc</translation>
-    </message>
-    <message>
-      <source>has a size of</source>
-      <translation>té una mida de</translation>
-    </message>
-    <message>
-      <source>MBR/GPT has not been backeed.</source>
-      <translation>MBR/GPT no ha estat backeed.</translation>
-    </message>
-    <message>
-      <source>MBR/GPT restore</source>
-      <translation>Restaurar MBR/GPT</translation>
-    </message>
-    <message>
-      <source>MBR/GPT save</source>
-      <translation>Desa MBR/GPT</translation>
-    </message>
-    <message>
-      <source>MBR/GPT was successfully backed up.</source>
-      <translation>MBR/GPT era reeixidament una còpia de seguretat.</translation>
-    </message>
-    <message>
-      <source>MBR restore</source>
-      <translation>Restaurar MBR</translation>
-    </message>
-    <message>
-      <source>MBR save</source>
-      <translation>MBR Desa</translation>
-    </message>
-    <message>
-      <source>No</source>
-      <translation>No</translation>
-    </message>
-    <message>
-      <source>Note</source>
-      <translation>Nota</translation>
-    </message>
-    <message>
-      <source>The boot loader area was not restored.</source>
-      <translation>La zona de carregador d'arrencada no va ser restaurat.</translation>
-    </message>
-    <message>
-      <source>The hidden area is successful return.</source>
-      <translation>La zona oculta és exitós retorn.</translation>
-    </message>
-    <message>
-        <location filename="../src/clone.cpp" line="71"/>
-        <location filename="../src/clone.cpp" line="350"/>
+        <location filename="../src/clone.cpp" line="79"/>
+        <location filename="../src/clone.cpp" line="516"/>
         <source>Clone Harddrive</source>
         <comment>Festplatte klonen</comment>
         <translation>Clon Harddrive</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="158"/>
-        <location filename="../src/clone.cpp" line="218"/>
+        <location filename="../src/clone.cpp" line="180"/>
+        <location filename="../src/clone.cpp" line="305"/>
+        <location filename="../src/clone.cpp" line="367"/>
         <source>already saved</source>
         <comment>bereits gesichert</comment>
         <translation>ja salvat</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="185"/>
-        <location filename="../src/clone.cpp" line="190"/>
-        <location filename="../src/clone.cpp" line="196"/>
-        <location filename="../src/clone.cpp" line="232"/>
-        <location filename="../src/clone.cpp" line="236"/>
-        <location filename="../src/clone.cpp" line="242"/>
-        <location filename="../src/clone.cpp" line="293"/>
-        <location filename="../src/clone.cpp" line="297"/>
-        <location filename="../src/clone.cpp" line="305"/>
-        <location filename="../src/clone.cpp" line="338"/>
-        <location filename="../src/clone.cpp" line="422"/>
-        <location filename="../src/clone.cpp" line="575"/>
-        <location filename="../src/clone.cpp" line="577"/>
-        <location filename="../src/clone.cpp" line="579"/>
-        <location filename="../src/clone.cpp" line="581"/>
-        <location filename="../src/clone.cpp" line="608"/>
-        <location filename="../src/clone.cpp" line="610"/>
+        <location filename="../src/clone.cpp" line="184"/>
+        <location filename="../src/clone.cpp" line="188"/>
+        <location filename="../src/clone.cpp" line="195"/>
+        <location filename="../src/clone.cpp" line="235"/>
+        <location filename="../src/clone.cpp" line="239"/>
+        <location filename="../src/clone.cpp" line="264"/>
+        <location filename="../src/clone.cpp" line="332"/>
+        <location filename="../src/clone.cpp" line="337"/>
+        <location filename="../src/clone.cpp" line="343"/>
+        <location filename="../src/clone.cpp" line="383"/>
+        <location filename="../src/clone.cpp" line="387"/>
+        <location filename="../src/clone.cpp" line="393"/>
+        <location filename="../src/clone.cpp" line="444"/>
+        <location filename="../src/clone.cpp" line="448"/>
+        <location filename="../src/clone.cpp" line="471"/>
+        <location filename="../src/clone.cpp" line="504"/>
+        <location filename="../src/clone.cpp" line="669"/>
+        <location filename="../src/clone.cpp" line="822"/>
+        <location filename="../src/clone.cpp" line="824"/>
+        <location filename="../src/clone.cpp" line="826"/>
+        <location filename="../src/clone.cpp" line="831"/>
+        <location filename="../src/clone.cpp" line="838"/>
+        <location filename="../src/clone.cpp" line="845"/>
+        <location filename="../src/clone.cpp" line="872"/>
+        <location filename="../src/clone.cpp" line="874"/>
+        <location filename="../src/clone.cpp" line="879"/>
+        <location filename="../src/clone.cpp" line="885"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Nota</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="185"/>
-        <location filename="../src/clone.cpp" line="232"/>
-        <location filename="../src/clone.cpp" line="293"/>
+        <location filename="../src/clone.cpp" line="332"/>
+        <location filename="../src/clone.cpp" line="444"/>
         <source>You must select a hard drive.</source>
         <comment>Sie müssen eine Festplatte auswählen.
 </comment>
         <translation>Heu de seleccionar una empenta dura.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="190"/>
+        <location filename="../src/clone.cpp" line="337"/>
         <source>The selected hard drive is too small.</source>
         <comment>Die gewählte Festplatte ist zu klein.
 </comment>
         <translation>El disc dur seleccionat és massa petit.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="196"/>
-        <location filename="../src/clone.cpp" line="242"/>
-        <location filename="../src/clone.cpp" line="305"/>
+        <location filename="../src/clone.cpp" line="195"/>
+        <location filename="../src/clone.cpp" line="264"/>
+        <location filename="../src/clone.cpp" line="343"/>
+        <location filename="../src/clone.cpp" line="393"/>
+        <location filename="../src/clone.cpp" line="471"/>
         <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
         <comment>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
 </comment>
         <translation>En el disc dur, existeix una arrel o una partici ├ │ /home. Ha de necessitar un live-CD.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="200"/>
+        <location filename="../src/clone.cpp" line="347"/>
         <source> Do you want really clone the hard drive? All dates on  </source>
         <comment> Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte </comment>
         <translation> Vol clonar realment l&apos;empenta dura? Totes les dates en  </translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="200"/>
+        <location filename="../src/clone.cpp" line="347"/>
         <source> are deleted!</source>
         <comment> werden gelöscht!</comment>
         <translation> s&apos;esborren!</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="236"/>
+        <location filename="../src/clone.cpp" line="188"/>
+        <location filename="../src/clone.cpp" line="387"/>
         <source>You must select a folder.</source>
         <comment>Sie müssen ein Verzeichnis auswählen.
 </comment>
         <translation>Heu de seleccionar una carpeta.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="252"/>
+        <location filename="../src/clone.cpp" line="403"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
         <translation>Voleu que realment construït una imatge des del disc dur?</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="279"/>
+        <location filename="../src/clone.cpp" line="230"/>
+        <location filename="../src/clone.cpp" line="430"/>
         <source>already restored</source>
         <comment>bereits zurückgeschrieben</comment>
         <translation>ja restaurada</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="297"/>
+        <location filename="../src/clone.cpp" line="184"/>
+        <location filename="../src/clone.cpp" line="383"/>
+        <source>You must select a partition.</source>
+        <comment>Sie müssen eine Partition auswählen.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="203"/>
+        <source> Do you want really built a image from a partition? </source>
+        <comment> Wollen Sie wirklich ein Abbild einer Partition erstellen? </comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="235"/>
+        <source>You must select a partition.</source>
+        <comment>Sie müssen eine Partitiom auswählen.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="239"/>
+        <source>You must select a part.fsa file or an part.fsa.gz file.</source>
+        <comment>Sie müssen eine part.fsa- oder eine part.fsa.gz-Datei auswählen.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="257"/>
+        <location filename="../src/clone.cpp" line="464"/>
+        <source>Partition to restore </source>
+        <comment>Die wiederherzustellende Partition </comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="258"/>
+        <location filename="../src/clone.cpp" line="465"/>
+        <source> does not coincide with the saved  </source>
+        <comment> stimmt nicht mit der gesicherten </comment>
+        <translation type="unfinished">no coincideix amb el salvat</translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="258"/>
+        <location filename="../src/clone.cpp" line="465"/>
+        <source> Do you want to continue restore?</source>
+        <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="273"/>
+        <source> Do you want really restore an image of a partition? </source>
+        <comment> Wollen Sie wirklich ein Abbild einer Partition zurückschreiben? </comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="448"/>
         <source>You must select a gz.fsa file or an img.fsa file.</source>
         <comment>Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.
 </comment>
         <translation>Heu de seleccionar un fitxer de gz.fsa o un img.fsa.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="314"/>
+        <location filename="../src/clone.cpp" line="480"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
         <translation> Voleu restaurar realment la imatge de l&apos;empenta dura? </translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="339"/>
+        <location filename="../src/clone.cpp" line="505"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>Sí</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="340"/>
+        <location filename="../src/clone.cpp" line="506"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>No</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="358"/>
+        <location filename="../src/clone.cpp" line="534"/>
         <source>Save Harddrive Image</source>
         <comment>Festplatten Abbild erstellen</comment>
         <translation>Guardar imatge del disc dur</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="367"/>
+        <location filename="../src/clone.cpp" line="522"/>
+        <location filename="../src/clone.cpp" line="539"/>
+        <location filename="../src/clone.cpp" line="558"/>
+        <source>Exist harddrive</source>
+        <comment>Existierende Festplatte</comment>
+        <translation>Existeixen harddrive:</translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="552"/>
         <source>Restore Harddrive Image</source>
         <comment>Festplatten Abbild zurückschreiben</comment>
         <translation>Restaurar la imatge de disc dur</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="423"/>
+        <location filename="../src/clone.cpp" line="574"/>
+        <source>Save Partition Image</source>
+        <comment>Image einer Partition erstellen</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="576"/>
+        <source>Save Partition Image</source>
+        <comment>Partition Abbild erstellen</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="587"/>
+        <source>Restore Partition Image</source>
+        <comment>Image einer Partition zurückschreiben</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="589"/>
+        <source>Restore Partition Image</source>
+        <comment>Partition Abbild zurückschreiben</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="670"/>
         <source>You have selected a folder. You must select a gz.fsa file.
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen
@@ -1818,49 +244,101 @@ Die Dateiendung muss .fsa sein</name>
 </translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="575"/>
+        <location filename="../src/clone.cpp" line="822"/>
         <source>The clone of the hard drive was successfully.</source>
         <comment>Das Klonen der Festplatte war erfolgreich.
 </comment>
         <translation>El clon de l&apos;empenta dura era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="577"/>
+        <location filename="../src/clone.cpp" line="824"/>
+        <source>Backing up the image of the hard disk was successful.</source>
+        <comment>Das Sichern des Abbildes der Festplatte war erfolgreich.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="826"/>
+        <source>Backing up the image of a partition was successful.</source>
+        <comment>Die Sichern des Abbildes der Partition war erfolgreich.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="838"/>
+        <source>Backing up the image of the hard disk was not successful.</source>
+        <comment>Die Sichern des Abbildes der Festplatte war nicht erfolgreich.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="845"/>
+        <source>Backing up the image of a partition was not successful.</source>
+        <comment>Die Sichern des Abbildes der Partition war nicht erfolgreich.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="872"/>
+        <source>The restore of the image of the hard disk was successful.</source>
+        <comment>Die Wiederherstellung des Abbildes der Festplatte war erfolgreich.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="874"/>
+        <source>The restore of the image of the partition was successful.</source>
+        <comment>Die Wiederherstellung des Abbildes der Partition war erfolgreich.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="879"/>
+        <source>The restore of the image of the hard disk was not successful.</source>
+        <comment>Die Wiederherstellung des Abbildes der Festplatte war nicht erfolgreich.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/clone.cpp" line="885"/>
+        <source>The restore of the image of the partition was not successful.</source>
+        <comment>Die Wiederherstellung des Abbildes der Partition war nicht erfolgreich.
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>The backup of the image was successfully.</source>
         <comment>Die Sichern des Abbildes war erfolgreich.
 </comment>
-        <translation>La còpia de seguretat de la imatge era reeixidament.</translation>
+        <translation type="obsolete">La còpia de seguretat de la imatge era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="579"/>
+        <location filename="../src/clone.cpp" line="831"/>
         <source>The clone of the hard drive was not successfully.</source>
         <comment>Das Klonen der Festplatte war nicht erfolgreich.
 </comment>
         <translation>El clon del disc dur no era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="581"/>
         <source>The backup of the image was not successfully.</source>
         <comment>Die Sichern des Abbildes war nicht erfolgreich.
 </comment>
-        <translation>La còpia de seguretat de la imatge no era reeixidament.</translation>
+        <translation type="obsolete">La còpia de seguretat de la imatge no era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="608"/>
         <source>The restore from the image was successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war erfolgreich.
 </comment>
-        <translation>La restauració de la imatge era reeixidament.</translation>
+        <translation type="obsolete">La restauració de la imatge era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="610"/>
         <source>The restore from the image was not successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war nicht erfolgreich.
 </comment>
-        <translation>La restauració de la imatge no era reeixidament.</translation>
+        <translation type="obsolete">La restauració de la imatge no era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone.cpp" line="677"/>
+        <location filename="../src/clone.cpp" line="953"/>
         <source>Do you want really break clone, save or restore an image from the partition?</source>
         <comment>Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</comment>
         <translation>Voleu que realment trencar clon, guardar o restaurar una imatge de la partició?</translation>
@@ -1869,360 +347,175 @@ Die Dateiendung muss .fsa sein</name>
 <context>
     <name>DialogClone_net</name>
     <message>
-        <location filename="../src/clone_net.cpp" line="71"/>
-        <location filename="../src/clone_net.cpp" line="353"/>
         <source>Save Harddrive Image</source>
         <comment>Festplatten Abbild erstellen</comment>
-        <translation>Guardar imatge del disc dur</translation>
+        <translation type="obsolete">Guardar imatge del disc dur</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="152"/>
-        <location filename="../src/clone_net.cpp" line="156"/>
-        <location filename="../src/clone_net.cpp" line="162"/>
-        <location filename="../src/clone_net.cpp" line="170"/>
-        <location filename="../src/clone_net.cpp" line="237"/>
-        <location filename="../src/clone_net.cpp" line="241"/>
-        <location filename="../src/clone_net.cpp" line="250"/>
-        <location filename="../src/clone_net.cpp" line="290"/>
-        <location filename="../src/clone_net.cpp" line="341"/>
-        <location filename="../src/clone_net.cpp" line="408"/>
-        <location filename="../src/clone_net.cpp" line="523"/>
-        <location filename="../src/clone_net.cpp" line="525"/>
-        <location filename="../src/clone_net.cpp" line="542"/>
-        <location filename="../src/clone_net.cpp" line="544"/>
-        <location filename="../src/clone_net.cpp" line="776"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-        <translation>Nota</translation>
+        <translation type="obsolete">Nota</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="152"/>
-        <location filename="../src/clone_net.cpp" line="237"/>
         <source>You must select a hard drive.</source>
         <comment>Sie müssen eine Festplatte auswählen.
 </comment>
-        <translation>Heu de seleccionar una empenta dura.</translation>
+        <translation type="obsolete">Heu de seleccionar una empenta dura.</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="156"/>
         <source>You must select a folder.</source>
         <comment>Sie müssen ein Verzeichnis auswählen.
 </comment>
-        <translation>Heu de seleccionar una carpeta.</translation>
+        <translation type="obsolete">Heu de seleccionar una carpeta.</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="163"/>
         <source>Please, select the filename of the backup.
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
-        <translation>Si us plau, seleccioneu el nom del fitxer de la còpia de seguretat.
+        <translation type="obsolete">Si us plau, seleccioneu el nom del fitxer de la còpia de seguretat.
 </translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="170"/>
-        <location filename="../src/clone_net.cpp" line="250"/>
         <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
         <comment>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
 </comment>
-        <translation>En el disc dur, existeix una arrel o una partici ├ │ /home. Ha de necessitar un live-CD.</translation>
+        <translation type="obsolete">En el disc dur, existeix una arrel o una partici ├ │ /home. Ha de necessitar un live-CD.</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="182"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-        <translation>Voleu que realment construït una imatge des del disc dur?</translation>
+        <translation type="obsolete">Voleu que realment construït una imatge des del disc dur?</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="241"/>
         <source>You must select a fsa.gz file.</source>
         <comment>Sie müssen eine fsa.gz Datei auswählen.
 </comment>
-        <translation>Heu de seleccionar un arxiu de fsa.gz.</translation>
+        <translation type="obsolete">Heu de seleccionar un arxiu de fsa.gz.</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="258"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
-        <translation> Voleu restaurar realment la imatge de l&apos;empenta dura? </translation>
+        <translation type="obsolete"> Voleu restaurar realment la imatge de l&apos;empenta dura? </translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="291"/>
         <source>Can not find a shared directory. The program is terminated.
 </source>
         <comment>Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.
 </comment>
-        <translation>No pot trobar un directori compartit. El programa s&apos;acaba.
+        <translation type="obsolete">No pot trobar un directori compartit. El programa s&apos;acaba.
 </translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="342"/>
         <source>Yes</source>
         <comment>Ja</comment>
-        <translation>Sí</translation>
+        <translation type="obsolete">Sí</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="343"/>
         <source>No</source>
         <comment>Nein</comment>
-        <translation>No</translation>
+        <translation type="obsolete">No</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="362"/>
         <source>Restore Harddrive Image</source>
         <comment>Festplatten Abbild zurückschreiben</comment>
-        <translation>Restaurar la imatge de disc dur</translation>
+        <translation type="obsolete">Restaurar la imatge de disc dur</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="409"/>
         <source>You have selected a folder. You must select a fsa.gz file.
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz Datei auswählen
 </comment>
-        <translation>Heu seleccionat una carpeta. Heu de seleccionar un arxiu de fsa.gz.
+        <translation type="obsolete">Heu seleccionat una carpeta. Heu de seleccionar un arxiu de fsa.gz.
 </translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="523"/>
         <source>The backup of the image was successfully.</source>
         <comment>Die Sichern des Abbildes war erfolgreich.
 </comment>
-        <translation>La còpia de seguretat de la imatge era reeixidament.</translation>
+        <translation type="obsolete">La còpia de seguretat de la imatge era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="525"/>
         <source>The backup of the image was not successfully.</source>
         <comment>Die Sichern des Abbildes war nicht erfolgreich.
 </comment>
-        <translation>La còpia de seguretat de la imatge no era reeixidament.</translation>
+        <translation type="obsolete">La còpia de seguretat de la imatge no era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="542"/>
         <source>The restore from the image was successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war erfolgreich.
 </comment>
-        <translation>La restauració de la imatge era reeixidament.</translation>
+        <translation type="obsolete">La restauració de la imatge era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="544"/>
         <source>The restore from the image was not successfully.</source>
         <comment>Die Wiederherstellung des Abbildes war nicht erfolgreich.
 </comment>
-        <translation>La restauració de la imatge no era reeixidament.</translation>
+        <translation type="obsolete">La restauració de la imatge no era reeixidament.</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="602"/>
         <source>Do you want really break save or restore an image from the partition?</source>
         <comment>Wollen Sie wirklich die Erstellung oder das Zurückschreiben eines Images der Festplatte beenden?</comment>
-        <translation>Voleu que realment trencar guardar o restaurar una imatge de la partició?</translation>
+        <translation type="obsolete">Voleu que realment trencar guardar o restaurar una imatge de la partició?</translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="777"/>
         <source>The network computer </source>
         <comment>Der Netzwerkrechner </comment>
-        <translation>L&apos;ordinador de la xarxa </translation>
+        <translation type="obsolete">La xarxa informàtica </translation>
     </message>
     <message>
-        <location filename="../src/clone_net.cpp" line="777"/>
         <source> could not be integrated. The program is aborted
 </source>
         <comment> konnte nicht eingebunden werden. Das Programm wird abgebrochen
 </comment>
-        <translation> podria no ser integrat. El programa ha avortat
+        <translation type="obsolete"> podria no ser integrat. El programa ha avortat
 </translation>
     </message>
-  </context>
-  <context>
-    <name>DialogMBR| Wollen Sie fortfahren?</name>
+</context>
+<context>
+    <name>DialogDIR</name>
     <message>
-      <source> Are you sure?</source>
-      <translation> Esteu segur?</translation>
-    </message>
-  </context>
-  <context>
-    <name>DialogNet</name>
-    <message>
-      <source>already exists. The backup is not performed</source>
-      <translation>ja existeix. La còpia de seguretat no es realitza</translation>
-    </message>
-    <message>
-      <source>can not be unmounted. The program is terminated</source>
-      <translation>no pot ser desmuntat. El programa s'acaba</translation>
-    </message>
-    <message>
-      <source>Can not find a shared directory with the Samba Protokoll.</source>
-      <translation>No pot trobar un directori compartit amb la Samba Protokoll.</translation>
-    </message>
-    <message>
-      <source>Can not find a shared directory. The program is terminated.</source>
-      <translation>No pot trobar un directori compartit. El programa s'acaba.</translation>
-    </message>
-    <message>
-      <source>Can not find a shared directory with the NFS Protokoll.</source>
-      <translation>No pot trobar un directori compartit amb el Protokoll NFS.</translation>
-    </message>
-    <message>
-      <source>cannot restore an archive to a partition which is mounted, unmount it first</source>
-      <translation>no pot restaurar un arxiu a una partició que està muntat, Desmunt primer</translation>
-    </message>
-    <message>
-      <source>could not be integrated. The program is aborted</source>
-      <translation>podria no ser integrat. El programa ha avortat</translation>
-    </message>
-    <message>
-      <source>Do you want really break the save or restore from the partition?</source>
-      <translation>Voleu que realment trencar el salvar o restaurar des de la partició?</translation>
-    </message>
-    <message>
-      <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
-      <translation>Si la partició actual btrfs s'ha de formatar? L'UUID nou es defineix aquí. Si decidiu &lt;&lt;no&gt;&gt;, l'UUID es conserva.</translation>
-    </message>
-    <message>
-      <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source>
-      <translation>Si no ha posat cap amunt d'autentificació SSH, vostè ara cal introduir la contrasenya a la terminal. Això continuïn ser mostrat? Vostè pot canviar això en la configuració bàsica.</translation>
-    </message>
-    <message>
-      <source>links were not recovered correctly. The recovery of the partition was only partly successful.</source>
-      <translation>enllaços no foren recuperats correctament. La recuperació de la partició només va ser parcialment reeixida.</translation>
-    </message>
-    <message>
-      <source>links were not saved properly. The backup of the partition was only partially successful</source>
-      <translation>enllaços no s'han desat correctament. La còpia de seguretat de la partició tan sols aconseguit parcialment</translation>
-    </message>
-    <message>
-      <source>Please, select the partition to be written back.</source>
-      <translation>Si us plau, seleccioneu la partició a ser escrit de nou.</translation>
-    </message>
-    <message>
-      <source>Should this continue to be displayed? You can change this in the basic settings.</source>
-      <translation>Això continuïn ser mostrat? Vostè pot canviar això en la configuració bàsica.</translation>
-    </message>
-    <message>
-      <source>specials and the Partition Boot Record have been restored.</source>
-      <translation>especials i el registre d'arrencada de partició han estat restaurats.</translation>
-    </message>
-    <message>
-      <source>specials and the Partition Boot Record have been restored
-.</source>
-      <translation>especials i el registre d'arrencada de partició han estat restaurats.</translation>
-    </message>
-    <message>
-      <source>specials and the Partition Boot Record have been restored
-.</source>
-      <translation>especials i el registre d'arrencada de partició han estat restaurats.</translation>
-    </message>
-    <message>
-      <source>The backup of the partition was aborted by the user!</source>
-      <translation>La còpia de seguretat de la partició va ser avortat per l'usuari!</translation>
-    </message>
-    <message>
-      <source>The backup of the partition was only partially successful.</source>
-      <translation>La còpia de seguretat de la partició només va ser un èxit parcial.</translation>
-    </message>
-    <message>
-      <source>The home partition to be saved is mounted. Do you want to do a live backup?</source>
-      <translation>Es munta la partici ├ │ /home de ser salvats. Voleu fer una reserva en directe?</translation>
-    </message>
-    <message>
-      <source>The key length must be between 6 and 64 characters</source>
-      <translation>La longitud de la clau ha de ser entre 6 i 64 caràcters</translation>
-    </message>
-    <message>
-      <source>The partition has been backed up successfully.</source>
-      <translation>La partició ha estat recolzat amb èxit.</translation>
-    </message>
-    <message>
-      <source>The partition is encrypted. Please enter the key</source>
-      <translation>La partició xifrada. Si us plau, introduïu la clau</translation>
-    </message>
-    <message>
-      <source>The partition type is not supported. Maybe the partition is encrypted?</source>
-      <translation>No es reconeix el tipus de partició. Podria ser que la partició estigués encriptada?</translation>
-    </message>
-    <message>
-      <source>The restore of the partition was break by user!</source>
-      <translation>La restauració de la partició ha estat interrompuda pel usuari!</translation>
-    </message>
-    <message>
-      <source>The restore of the partition was only partially successful.</source>
-      <translation>La restauració de la partició només ha estat parcial.</translation>
-    </message>
-    <message>
-      <source>The restored home partition is mounted and can not be restored. Please use a live CD</source>
-      <translation>La partició inicial a restaurar esta muntada i no es pot restaurar. Utilitzeu un live CD</translation>
-    </message>
-    <message>
-      <source>The SSH server is not reachable. Try again or with another network protocol.</source>
-      <translation>El servidor SSH no està disponible. Proveu altre cop o amb un altre protocol de xarxa.</translation>
-    </message>
-    <message>
-      <source>The system partition to be saved is mounted. Do you want to do a live backup?</source>
-      <translation>El sistema de particions a desar està muntat. Voleu fer una còpia de seguretat en calent?</translation>
-    </message>
-    <message>
-      <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR</source>
-      <translation>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR</translation>
-    </message>
-    <message>
-      <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source>
-      <translation>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</translation>
-    </message>
-    <message>
-      <source>To restore system partition is mounted and can not be restored. Please use a live CD</source>
-      <translation>To restore system partition is mounted and can not be restored. Please use a live CD</translation>
-    </message>
-    <message>
-      <source>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.</source>
-      <translation>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.</translation>
-    </message>
-    <message>
-      <source>You have chosen the wrong recovery file selected.
-The files should end with. fsa be</source>
-      <translation>You have chosen the wrong recovery file selected.
-The files should end with. fsa be</translation>
-    </message>
-    <message>
-        <location filename="../src/dir.cpp" line="89"/>
+        <location filename="../src/dir.cpp" line="91"/>
         <source>gzip fast</source>
         <translation>gzip ràpid</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="89"/>
+        <location filename="../src/dir.cpp" line="91"/>
         <source>gzip standard</source>
         <translation>gzip estàndard</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="89"/>
+        <location filename="../src/dir.cpp" line="91"/>
         <source>qzip best</source>
         <translation>qzip millor</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="89"/>
+        <location filename="../src/dir.cpp" line="91"/>
         <source>bzip2 fast</source>
         <translation>bzip2 ràpid</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="92"/>
+        <location filename="../src/dir.cpp" line="94"/>
         <source>bzip2 good</source>
         <translation>bzip2 bona</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="92"/>
+        <location filename="../src/dir.cpp" line="94"/>
         <source>lzma fast</source>
         <translation>lzma ràpid</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="92"/>
+        <location filename="../src/dir.cpp" line="94"/>
         <source>lzma medium</source>
         <translation>lzma mitjà</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="92"/>
+        <location filename="../src/dir.cpp" line="94"/>
         <source>lzma best</source>
         <translation>lzma millor</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="132"/>
+        <location filename="../src/dir.cpp" line="134"/>
         <source>Encrypt
 backup. key:</source>
         <comment>Sicherung
@@ -2231,25 +524,25 @@ verschlüsseln. Schlüssel:</comment>
 còpia de seguretat. clau:</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="133"/>
+        <location filename="../src/dir.cpp" line="135"/>
         <source>Directory save</source>
         <comment>Verzeichnis sichern</comment>
         <translation>Directori de guardar</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="134"/>
+        <location filename="../src/dir.cpp" line="136"/>
         <source>to saved Directory</source>
         <comment>zu sicherndes Verzeichnis</comment>
         <translation>per salvar el directori</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="135"/>
+        <location filename="../src/dir.cpp" line="137"/>
         <source>Location (path) of the backup</source>
         <comment>Ort (Pfad) der Sicherung</comment>
         <translation>Localització (camí) de la còpia de seguretat</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="148"/>
+        <location filename="../src/dir.cpp" line="150"/>
         <source>Decrypt
 backup. key:</source>
         <comment>Sicherung
@@ -2258,55 +551,55 @@ entschlüsseln. Schlüssel:</comment>
 còpia de seguretat. clau:</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="149"/>
+        <location filename="../src/dir.cpp" line="151"/>
         <source>Directory restore</source>
         <comment>Verzeichnis zurückschreiben</comment>
         <translation>Restaurar directori</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="150"/>
+        <location filename="../src/dir.cpp" line="152"/>
         <source>back to write backup file</source>
         <comment>zurück zu schreibende Sicherungsdatei</comment>
         <translation>tornar a escriure el fitxer de còpia de seguretat</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="151"/>
+        <location filename="../src/dir.cpp" line="153"/>
         <source>Location (path) of the restore</source>
         <comment>Ort (Pfad) der Wiederherstellung</comment>
         <translation>Localització (camí) de la restauració</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="202"/>
-        <location filename="../src/dir.cpp" line="208"/>
-        <location filename="../src/dir.cpp" line="214"/>
-        <location filename="../src/dir.cpp" line="220"/>
-        <location filename="../src/dir.cpp" line="250"/>
-        <location filename="../src/dir.cpp" line="268"/>
-        <location filename="../src/dir.cpp" line="290"/>
-        <location filename="../src/dir.cpp" line="297"/>
-        <location filename="../src/dir.cpp" line="303"/>
-        <location filename="../src/dir.cpp" line="309"/>
-        <location filename="../src/dir.cpp" line="316"/>
-        <location filename="../src/dir.cpp" line="330"/>
-        <location filename="../src/dir.cpp" line="339"/>
-        <location filename="../src/dir.cpp" line="346"/>
-        <location filename="../src/dir.cpp" line="438"/>
-        <location filename="../src/dir.cpp" line="443"/>
-        <location filename="../src/dir.cpp" line="457"/>
-        <location filename="../src/dir.cpp" line="491"/>
-        <location filename="../src/dir.cpp" line="495"/>
-        <location filename="../src/dir.cpp" line="508"/>
-        <location filename="../src/dir.cpp" line="514"/>
-        <location filename="../src/dir.cpp" line="520"/>
-        <location filename="../src/dir.cpp" line="524"/>
-        <location filename="../src/dir.cpp" line="528"/>
-        <location filename="../src/dir.cpp" line="673"/>
+        <location filename="../src/dir.cpp" line="204"/>
+        <location filename="../src/dir.cpp" line="210"/>
+        <location filename="../src/dir.cpp" line="216"/>
+        <location filename="../src/dir.cpp" line="222"/>
+        <location filename="../src/dir.cpp" line="252"/>
+        <location filename="../src/dir.cpp" line="270"/>
+        <location filename="../src/dir.cpp" line="292"/>
+        <location filename="../src/dir.cpp" line="299"/>
+        <location filename="../src/dir.cpp" line="305"/>
+        <location filename="../src/dir.cpp" line="311"/>
+        <location filename="../src/dir.cpp" line="318"/>
+        <location filename="../src/dir.cpp" line="332"/>
+        <location filename="../src/dir.cpp" line="341"/>
+        <location filename="../src/dir.cpp" line="348"/>
+        <location filename="../src/dir.cpp" line="440"/>
+        <location filename="../src/dir.cpp" line="445"/>
+        <location filename="../src/dir.cpp" line="459"/>
+        <location filename="../src/dir.cpp" line="493"/>
+        <location filename="../src/dir.cpp" line="497"/>
+        <location filename="../src/dir.cpp" line="510"/>
+        <location filename="../src/dir.cpp" line="516"/>
+        <location filename="../src/dir.cpp" line="522"/>
+        <location filename="../src/dir.cpp" line="526"/>
+        <location filename="../src/dir.cpp" line="530"/>
+        <location filename="../src/dir.cpp" line="675"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Nota</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="203"/>
+        <location filename="../src/dir.cpp" line="205"/>
         <source>There was no key for encryption specified.
 </source>
         <comment>Es wurde kein Schlüssel für die Verschlüsselung angegeben.
@@ -2315,15 +608,15 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="209"/>
+        <location filename="../src/dir.cpp" line="211"/>
         <source>Please select the directory in which the to the directory or file to be saved is to be written.
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.
 </comment>
-        <translation>Si us plau seleccioneu el directori en el qual al directori o fitxer es desin s&apos;escriurà.</translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="215"/>
+        <location filename="../src/dir.cpp" line="217"/>
         <source>Please select the to be directory or file to be saved.
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.
@@ -2332,7 +625,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="221"/>
+        <location filename="../src/dir.cpp" line="223"/>
         <source>You have selected a file. You must select a directory
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
@@ -2341,8 +634,8 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="251"/>
-        <location filename="../src/dir.cpp" line="340"/>
+        <location filename="../src/dir.cpp" line="253"/>
+        <location filename="../src/dir.cpp" line="342"/>
         <source>The key length must be between 6 and 64 characters
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
@@ -2351,13 +644,13 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="269"/>
+        <location filename="../src/dir.cpp" line="271"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
-        <translation>La partició fitxer</translation>
+        <translation>El fitxer de partició </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="270"/>
+        <location filename="../src/dir.cpp" line="272"/>
         <source>already exists. The backup is not performed
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
@@ -2366,7 +659,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="291"/>
+        <location filename="../src/dir.cpp" line="293"/>
         <source>There was no key to decrypt specified.
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
@@ -2375,7 +668,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="298"/>
+        <location filename="../src/dir.cpp" line="300"/>
         <source>Select the directory in which the saved image will be recovered.
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.
@@ -2384,7 +677,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="304"/>
+        <location filename="../src/dir.cpp" line="306"/>
         <source>Please select the existing backup file.
 </source>
         <comment>Bitte wählen Sie die vorhandene Sicherungsdatei aus.
@@ -2393,7 +686,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="310"/>
+        <location filename="../src/dir.cpp" line="312"/>
         <source>You have selected a directory. You need a backup file with the extension .fsa select
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen
@@ -2402,7 +695,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="317"/>
+        <location filename="../src/dir.cpp" line="319"/>
         <source>You have chosen the wrong recovery file selected.
  The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
@@ -2411,21 +704,21 @@ Die Dateiendung muss .fsa sein</comment>
  Els arxius haurien d&apos;acabar amb. ser FSA</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="331"/>
+        <location filename="../src/dir.cpp" line="333"/>
         <source>The partition is encrypted. Please enter the key</source>
         <comment>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
 </comment>
         <translation>La partició xifrada. Si us plau, introduïu la clau</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="346"/>
+        <location filename="../src/dir.cpp" line="348"/>
         <source>You have entered an incorrect password.</source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>Heu introduït una contrasenya incorrecta.</translation>
+        <translation>Que ha introduït una contrasenya incorrecta.</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="438"/>
+        <location filename="../src/dir.cpp" line="440"/>
         <source>The backup of the directory was successful.
 </source>
         <comment>Die Sicherung des Verzeichnisses war erfolgreich.
@@ -2434,32 +727,32 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="439"/>
-        <location filename="../src/dir.cpp" line="492"/>
+        <location filename="../src/dir.cpp" line="441"/>
+        <location filename="../src/dir.cpp" line="494"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation> arxius </translation>
+        <translation> arxius,</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="439"/>
+        <location filename="../src/dir.cpp" line="441"/>
         <source>  directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation>directoris,</translation>
+        <translation> directoris, </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="439"/>
+        <location filename="../src/dir.cpp" line="441"/>
         <source>  links and </source>
         <comment> Links und </comment>
         <translation> enllaços i </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="439"/>
+        <location filename="../src/dir.cpp" line="441"/>
         <source> specials have been backed.</source>
         <comment> spezielle Daten wurden gesichert.</comment>
-        <translation>les ofertes s&apos;han recolzat.</translation>
+        <translation> especials han estat recolzats.</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="444"/>
+        <location filename="../src/dir.cpp" line="446"/>
         <source>The backup of the folder was aborted by the user!
 </source>
         <comment>Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!
@@ -2468,20 +761,20 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="458"/>
+        <location filename="../src/dir.cpp" line="460"/>
         <source> Files, </source>
         <comment> Dateien, </comment>
         <translation>Arxius, </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="459"/>
-        <location filename="../src/dir.cpp" line="510"/>
+        <location filename="../src/dir.cpp" line="461"/>
+        <location filename="../src/dir.cpp" line="512"/>
         <source> directories, and </source>
         <comment> Verzeichnisse und </comment>
         <translation> directoris, i </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="460"/>
+        <location filename="../src/dir.cpp" line="462"/>
         <source> Links were not backed properly. The backup of the directories was only partially successful
 </source>
         <comment> Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich
@@ -2490,33 +783,33 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="491"/>
+        <location filename="../src/dir.cpp" line="493"/>
         <source>The restoring of the directory was successful.
 </source>
         <comment>Die Wiederherstellung des Verzeichnisses war erfolgreich.
 </comment>
-        <translation>La restauració del directori va ser un èxit.</translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="492"/>
+        <location filename="../src/dir.cpp" line="494"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation>directoris,</translation>
+        <translation> directoris, </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="492"/>
+        <location filename="../src/dir.cpp" line="494"/>
         <source> links and </source>
         <comment> Links und </comment>
         <translation> enllaços i </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="492"/>
+        <location filename="../src/dir.cpp" line="494"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
-        <translation>ofertes han estat restaurats.</translation>
+        <translation> especials han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="496"/>
+        <location filename="../src/dir.cpp" line="498"/>
         <source>The restore of the folder was break by user!
 </source>
         <comment>Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!
@@ -2525,20 +818,20 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="509"/>
+        <location filename="../src/dir.cpp" line="511"/>
         <source> files,</source>
         <comment> Dateien, </comment>
-        <translation> arxius </translation>
+        <translation> arxius,</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="511"/>
+        <location filename="../src/dir.cpp" line="513"/>
         <source> links were not correctly restored. The restoring of the lists was only partially successful</source>
         <comment> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich
 </comment>
         <translation> enllaços correctament no han estat restaurats. La restauració de les llistes era només un èxit parcial</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="514"/>
+        <location filename="../src/dir.cpp" line="516"/>
         <source>You have entered an incorrect password.
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben.
@@ -2547,7 +840,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="521"/>
+        <location filename="../src/dir.cpp" line="523"/>
         <source>You have tried to restore a directory. The selected file can only restore partitions.
 </source>
         <comment>Sie haben versucht ein Verzeichnis wiederherzustellen. Die gewählte Datei kann nur Partitionen wiederherstellen.
@@ -2556,33 +849,33 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="524"/>
+        <location filename="../src/dir.cpp" line="526"/>
         <source>Error in fsarchiver. The directory can not be restored!</source>
         <comment>Fehler in fsarchiver. Das Verzeichnis kann nicht wiederhergestellt werden!!
 </comment>
         <translation>Error en fsarchiver. El directori no es poden recuperar!</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="528"/>
+        <location filename="../src/dir.cpp" line="530"/>
         <source>Error!  The restoring of the folder was only partially successful!</source>
         <comment>Fehler! Das Verzeichnis wurde nur teilweise wiederhergestellt. 
 </comment>
         <translation>Error!  La restauració de la carpeta només estava parcialment reeixida!</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="674"/>
+        <location filename="../src/dir.cpp" line="676"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>Sí</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="675"/>
+        <location filename="../src/dir.cpp" line="677"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>No</translation>
     </message>
     <message>
-        <location filename="../src/dir.cpp" line="688"/>
+        <location filename="../src/dir.cpp" line="690"/>
         <source>Do you want really break the save or restore from the folder?</source>
         <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Verzeichnisse beenden?</comment>
         <translation>Voleu que realment trencar el salvar o restaurar des de la carpeta?</translation>
@@ -2591,13 +884,13 @@ Die Dateiendung muss .fsa sein</comment>
 <context>
     <name>DialogMBR</name>
     <message>
-        <location filename="../src/mbr.cpp" line="49"/>
+        <location filename="../src/mbr.cpp" line="50"/>
         <source>MBR/GPT save</source>
         <comment>MBR/GPT sichern</comment>
         <translation>Desa MBR/GPT</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="54"/>
+        <location filename="../src/mbr.cpp" line="55"/>
         <source>MBR/GPT restore</source>
         <comment>MBR/GPT zurückschreiben</comment>
         <translation>Restaurar MBR/GPT</translation>
@@ -2621,11 +914,11 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mbr.cpp" line="277"/>
         <location filename="../src/mbr.cpp" line="309"/>
         <location filename="../src/mbr.cpp" line="336"/>
-        <location filename="../src/mbr.cpp" line="394"/>
-        <location filename="../src/mbr.cpp" line="400"/>
-        <location filename="../src/mbr.cpp" line="406"/>
-        <location filename="../src/mbr.cpp" line="412"/>
-        <location filename="../src/mbr.cpp" line="445"/>
+        <location filename="../src/mbr.cpp" line="393"/>
+        <location filename="../src/mbr.cpp" line="399"/>
+        <location filename="../src/mbr.cpp" line="405"/>
+        <location filename="../src/mbr.cpp" line="411"/>
+        <location filename="../src/mbr.cpp" line="444"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Nota</translation>
@@ -2654,7 +947,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>MBR wurde erfolgreich gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="171"/>
@@ -2662,7 +955,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>MBR wurde nicht gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="173"/>
@@ -2670,7 +963,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>GPT wurde erfolgreich gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="175"/>
@@ -2678,7 +971,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>GPT wurde nicht gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="185"/>
@@ -2810,14 +1103,14 @@ Die Dateiendung muss .fsa sein</comment>
         <translation>No es podria llegir al final de la zona oculta de la partició 1. Es guarden només 512 bytes.</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="395"/>
+        <location filename="../src/mbr.cpp" line="394"/>
         <source>You must select a directory</source>
         <comment>Sie müssen ein Verzeichnis auswählen
 </comment>
         <translation>Heu de seleccionar un directori</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="401"/>
+        <location filename="../src/mbr.cpp" line="400"/>
         <source>You have selected a file. You must select a directory.
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
@@ -2826,7 +1119,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="407"/>
+        <location filename="../src/mbr.cpp" line="406"/>
         <source>You must choose the MBR/GPT file
 </source>
         <comment>Sie müssen die MBR/GPT Sicherungsdatei auswählen.
@@ -2835,7 +1128,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="413"/>
+        <location filename="../src/mbr.cpp" line="412"/>
         <source>You have selected a directory. You must select the MBR/GPT backup file
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR/GPT Sicherungsdatei auswählen
@@ -2844,55 +1137,55 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="422"/>
+        <location filename="../src/mbr.cpp" line="421"/>
         <source>You may have the wrong disk is selected. The restore disk is </source>
         <comment>Sie haben eventuell eine falsche Festplatte ausgewählt. Die wiederherzustellende Festplatte ist </comment>
-        <translation>Vostè pot tenir el mal disc és seleccionat. És el disc de restaurar </translation>
+        <translation>Vostè pot tenir el mal disc és seleccionat. És el disc de restaurar</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="422"/>
+        <location filename="../src/mbr.cpp" line="421"/>
         <source>, the saved hard drive is </source>
         <comment>,  die gesicherte Festplatte ist aber </comment>
         <translation>, és l&apos;empenta dura salvat </translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="422"/>
+        <location filename="../src/mbr.cpp" line="421"/>
         <source> Are you sure?</source>
         <comment> Wollen Sie fortfahren?</comment>
         <translation> Esteu segur?</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="430"/>
+        <location filename="../src/mbr.cpp" line="429"/>
         <source>You may have a wrong file selected. Restore the hidden field has a size of </source>
         <comment>Sie haben eventuell eine falsche Datei ausgewählt. Der wiederherzustellende verborgene Bereich hat eine Größe von</comment>
-        <translation>Vostè pot tenir un fitxer equivocat seleccionat. Restaurar el camp ocult té una mida de </translation>
+        <translation>Vostè pot tenir un fitxer equivocat seleccionat. Restaurar el camp ocult té una mida de</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="431"/>
+        <location filename="../src/mbr.cpp" line="430"/>
         <source> bytes. The hidden area of the disk </source>
         <comment> Byte. Der verborgene Bereich von der Festplatte </comment>
         <translation>bytes. La zona oculta del disc</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="431"/>
+        <location filename="../src/mbr.cpp" line="430"/>
         <source> has a size of </source>
         <comment> hat eine Größe von </comment>
-        <translation> té una mida de </translation>
+        <translation>té una mida de</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="431"/>
+        <location filename="../src/mbr.cpp" line="430"/>
         <source> bytes. Are you sure?</source>
         <comment> Byte. Wollen Sie fortfahren?</comment>
         <translation>bytes. Esteu segur?</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="446"/>
+        <location filename="../src/mbr.cpp" line="445"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>Sí</translation>
     </message>
     <message>
-        <location filename="../src/mbr.cpp" line="447"/>
+        <location filename="../src/mbr.cpp" line="446"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>No</translation>
@@ -2901,103 +1194,103 @@ Die Dateiendung muss .fsa sein</comment>
 <context>
     <name>DialogNet</name>
     <message>
-        <location filename="../src/net.cpp" line="129"/>
+        <location filename="../src/net.cpp" line="131"/>
         <source>lzo</source>
         <translation>lzo</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="130"/>
+        <location filename="../src/net.cpp" line="132"/>
         <source>gzip fast</source>
         <translation>gzip ràpid</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="131"/>
+        <location filename="../src/net.cpp" line="133"/>
         <source>gzip standard</source>
         <translation>gzip estàndard</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="132"/>
+        <location filename="../src/net.cpp" line="134"/>
         <source>qzip best</source>
         <translation>qzip millor</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="133"/>
+        <location filename="../src/net.cpp" line="135"/>
         <source>bzip2 fast</source>
         <translation>bzip2 ràpid</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="134"/>
+        <location filename="../src/net.cpp" line="136"/>
         <source>bzip2 good</source>
         <translation>bzip2 bona</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="135"/>
+        <location filename="../src/net.cpp" line="137"/>
         <source>lzma fast</source>
         <translation>lzma ràpid</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="136"/>
+        <location filename="../src/net.cpp" line="138"/>
         <source>lzma medium</source>
         <translation>lzma mitjà</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="137"/>
+        <location filename="../src/net.cpp" line="139"/>
         <source>lzma best</source>
         <translation>lzma millor</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="332"/>
-        <location filename="../src/net.cpp" line="374"/>
-        <location filename="../src/net.cpp" line="500"/>
-        <location filename="../src/net.cpp" line="506"/>
-        <location filename="../src/net.cpp" line="512"/>
-        <location filename="../src/net.cpp" line="519"/>
-        <location filename="../src/net.cpp" line="531"/>
-        <location filename="../src/net.cpp" line="550"/>
-        <location filename="../src/net.cpp" line="605"/>
-        <location filename="../src/net.cpp" line="649"/>
-        <location filename="../src/net.cpp" line="691"/>
+        <location filename="../src/net.cpp" line="334"/>
+        <location filename="../src/net.cpp" line="376"/>
+        <location filename="../src/net.cpp" line="502"/>
+        <location filename="../src/net.cpp" line="508"/>
+        <location filename="../src/net.cpp" line="514"/>
+        <location filename="../src/net.cpp" line="521"/>
+        <location filename="../src/net.cpp" line="533"/>
+        <location filename="../src/net.cpp" line="555"/>
+        <location filename="../src/net.cpp" line="610"/>
+        <location filename="../src/net.cpp" line="654"/>
         <location filename="../src/net.cpp" line="696"/>
-        <location filename="../src/net.cpp" line="714"/>
-        <location filename="../src/net.cpp" line="768"/>
-        <location filename="../src/net.cpp" line="774"/>
-        <location filename="../src/net.cpp" line="780"/>
-        <location filename="../src/net.cpp" line="786"/>
-        <location filename="../src/net.cpp" line="795"/>
-        <location filename="../src/net.cpp" line="803"/>
+        <location filename="../src/net.cpp" line="701"/>
+        <location filename="../src/net.cpp" line="719"/>
+        <location filename="../src/net.cpp" line="772"/>
+        <location filename="../src/net.cpp" line="778"/>
+        <location filename="../src/net.cpp" line="784"/>
+        <location filename="../src/net.cpp" line="790"/>
+        <location filename="../src/net.cpp" line="800"/>
         <location filename="../src/net.cpp" line="808"/>
-        <location filename="../src/net.cpp" line="830"/>
-        <location filename="../src/net.cpp" line="839"/>
-        <location filename="../src/net.cpp" line="846"/>
-        <location filename="../src/net.cpp" line="894"/>
-        <location filename="../src/net.cpp" line="919"/>
-        <location filename="../src/net.cpp" line="926"/>
-        <location filename="../src/net.cpp" line="938"/>
-        <location filename="../src/net.cpp" line="997"/>
-        <location filename="../src/net.cpp" line="1165"/>
-        <location filename="../src/net.cpp" line="1231"/>
-        <location filename="../src/net.cpp" line="1248"/>
-        <location filename="../src/net.cpp" line="1255"/>
-        <location filename="../src/net.cpp" line="1262"/>
-        <location filename="../src/net.cpp" line="1275"/>
-        <location filename="../src/net.cpp" line="1306"/>
-        <location filename="../src/net.cpp" line="1332"/>
-        <location filename="../src/net.cpp" line="1335"/>
-        <location filename="../src/net.cpp" line="1340"/>
-        <location filename="../src/net.cpp" line="1357"/>
-        <location filename="../src/net.cpp" line="1364"/>
+        <location filename="../src/net.cpp" line="813"/>
+        <location filename="../src/net.cpp" line="835"/>
+        <location filename="../src/net.cpp" line="844"/>
+        <location filename="../src/net.cpp" line="851"/>
+        <location filename="../src/net.cpp" line="899"/>
+        <location filename="../src/net.cpp" line="924"/>
+        <location filename="../src/net.cpp" line="931"/>
+        <location filename="../src/net.cpp" line="943"/>
+        <location filename="../src/net.cpp" line="1002"/>
+        <location filename="../src/net.cpp" line="1171"/>
+        <location filename="../src/net.cpp" line="1240"/>
+        <location filename="../src/net.cpp" line="1257"/>
+        <location filename="../src/net.cpp" line="1264"/>
+        <location filename="../src/net.cpp" line="1271"/>
+        <location filename="../src/net.cpp" line="1284"/>
+        <location filename="../src/net.cpp" line="1315"/>
+        <location filename="../src/net.cpp" line="1344"/>
+        <location filename="../src/net.cpp" line="1347"/>
+        <location filename="../src/net.cpp" line="1352"/>
         <location filename="../src/net.cpp" line="1370"/>
-        <location filename="../src/net.cpp" line="1374"/>
-        <location filename="../src/net.cpp" line="1538"/>
-        <location filename="../src/net.cpp" line="1671"/>
+        <location filename="../src/net.cpp" line="1377"/>
+        <location filename="../src/net.cpp" line="1383"/>
+        <location filename="../src/net.cpp" line="1387"/>
+        <location filename="../src/net.cpp" line="1550"/>
         <location filename="../src/net.cpp" line="1688"/>
-        <location filename="../src/net.cpp" line="1729"/>
+        <location filename="../src/net.cpp" line="1693"/>
+        <location filename="../src/net.cpp" line="1753"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Nota</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="333"/>
+        <location filename="../src/net.cpp" line="335"/>
         <source>Can not find a shared directory with the NFS Protokoll.
 </source>
         <comment>Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis gefunden.
@@ -3006,7 +1299,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="375"/>
+        <location filename="../src/net.cpp" line="377"/>
         <source>Can not find a shared directory with the Samba Protokoll.
 </source>
         <comment>Mit Samba wurde kein freigegebenes Verzeichnis gefunden.
@@ -3015,7 +1308,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="501"/>
+        <location filename="../src/net.cpp" line="503"/>
         <source>Please, select a folder.
 </source>
         <comment>Bitte wählen Sie einen Ordner aus.
@@ -3024,7 +1317,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="507"/>
+        <location filename="../src/net.cpp" line="509"/>
         <source>Please, select the partition to be saved.
 </source>
         <comment>Bitte wählen Sie die zu sichernde Partition aus.
@@ -3033,16 +1326,16 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="513"/>
+        <location filename="../src/net.cpp" line="515"/>
         <source>Please, select the directorie to be saved.
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis aus.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="520"/>
-        <location filename="../src/net.cpp" line="775"/>
+        <location filename="../src/net.cpp" line="522"/>
+        <location filename="../src/net.cpp" line="779"/>
         <source>Please, select the filename of the backup.
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
@@ -3051,7 +1344,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="532"/>
+        <location filename="../src/net.cpp" line="534"/>
         <source>You have selected a file. You must select a directory
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
@@ -3060,15 +1353,15 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="551"/>
-        <location filename="../src/net.cpp" line="1166"/>
+        <location filename="../src/net.cpp" line="556"/>
+        <location filename="../src/net.cpp" line="1172"/>
         <source>The network computer </source>
         <comment>Der Netzwerkrechner </comment>
-        <translation>L&apos;ordinador de la xarxa </translation>
+        <translation>La xarxa informàtica </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="551"/>
-        <location filename="../src/net.cpp" line="1166"/>
+        <location filename="../src/net.cpp" line="556"/>
+        <location filename="../src/net.cpp" line="1172"/>
         <source> could not be integrated. The program is aborted
 </source>
         <comment> konnte nicht eingebunden werden. Das Programm wird abgebrochen
@@ -3077,26 +1370,26 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="583"/>
+        <location filename="../src/net.cpp" line="588"/>
         <source>The system partition to be saved is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation>La partició del sistema per salvar està muntat. Voleu fer una còpia de seguretat en viu?</translation>
+        <translation>El sistema de particions a desar està muntat. Voleu fer una còpia de seguretat en calent?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="591"/>
+        <location filename="../src/net.cpp" line="596"/>
         <source>The home partition to be saved is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation>La partició d&apos;usuari (home per salvar-està muntat. Voleu fer una còpia de seguretat en viu?</translation>
+        <translation>Es munta la partici ├ │ /home de ser salvats. Voleu fer una reserva en directe?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="606"/>
+        <location filename="../src/net.cpp" line="611"/>
         <source>The partition </source>
         <comment>Die Partition </comment>
         <translation>La partició </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="607"/>
-        <location filename="../src/net.cpp" line="940"/>
+        <location filename="../src/net.cpp" line="612"/>
+        <location filename="../src/net.cpp" line="945"/>
         <source>can not be unmounted. The program is terminated
 </source>
         <comment> kann nicht ausgehängt werden. Das Programm wird abgebrochen
@@ -3105,9 +1398,9 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="650"/>
-        <location filename="../src/net.cpp" line="840"/>
-        <location filename="../src/net.cpp" line="998"/>
+        <location filename="../src/net.cpp" line="655"/>
+        <location filename="../src/net.cpp" line="845"/>
+        <location filename="../src/net.cpp" line="1003"/>
         <source>The key length must be between 6 and 64 characters
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
@@ -3116,14 +1409,14 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="692"/>
+        <location filename="../src/net.cpp" line="697"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
-        <translation>La partició fitxer</translation>
+        <translation>El fitxer de partició </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="692"/>
         <location filename="../src/net.cpp" line="697"/>
+        <location filename="../src/net.cpp" line="702"/>
         <source>already exists. The backup is not performed
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
@@ -3132,13 +1425,13 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="697"/>
+        <location filename="../src/net.cpp" line="702"/>
         <source>The directorie file </source>
         <comment>Die Verzeichnisdatei </comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="715"/>
+        <location filename="../src/net.cpp" line="720"/>
         <source>The backup was aborted by the user
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
@@ -3147,7 +1440,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="769"/>
+        <location filename="../src/net.cpp" line="773"/>
         <source>No key was given for the decryption
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
@@ -3156,7 +1449,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="781"/>
+        <location filename="../src/net.cpp" line="785"/>
         <source>Please, select the partition to be written back.
 </source>
         <comment>Bitte wählen Sie die zurück zu schreibende Partition aus.
@@ -3165,15 +1458,15 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="787"/>
+        <location filename="../src/net.cpp" line="791"/>
         <source>Please, select the directorie to be written back.
 </source>
         <comment>Bitte wählen Sie das zurück zu schreibende Verzeichnis aus.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="796"/>
+        <location filename="../src/net.cpp" line="801"/>
         <source>You have chosen the wrong recovery file selected.
 The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
@@ -3182,23 +1475,23 @@ Die Dateiendung muss .fsa sein</comment>
  Els arxius haurien d&apos;acabar amb. ser FSA</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="803"/>
+        <location filename="../src/net.cpp" line="808"/>
         <source>The file contains a partition backup. The file can not be restored as a directory.
 </source>
         <comment>Die Datei enthält eine Partitionssicherung. Die Datei kann nicht als Verzeichnis zurückgeschrieben werden. 
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="808"/>
+        <location filename="../src/net.cpp" line="813"/>
         <source>The file contains a directory backup. The file can not be restored as a partition.
 </source>
         <comment>Die Datei enthält eine Verzeichnissicherung. Die Datei kann nicht als Partition zurückgeschrieben werden. 
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="831"/>
+        <location filename="../src/net.cpp" line="836"/>
         <source>The partition is encrypted. Please enter the key
 </source>
         <comment>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
@@ -3207,33 +1500,33 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="846"/>
+        <location filename="../src/net.cpp" line="851"/>
         <source>They have entered a wrong password.
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>S&apos;han introduït una contrasenya equivocada.</translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="866"/>
+        <location filename="../src/net.cpp" line="871"/>
         <source>Partition to restore the </source>
         <comment>Die wiederherzustellende Partition </comment>
         <translation>La partició a restaurar l&apos; </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="867"/>
+        <location filename="../src/net.cpp" line="872"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
         <translation>no coincideix amb el salvat</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="867"/>
+        <location filename="../src/net.cpp" line="872"/>
         <source>Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
         <translation>Voleu continuar restaurar?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="895"/>
+        <location filename="../src/net.cpp" line="900"/>
         <source>The restore was canceled by user
 </source>
         <comment>Das Zurückschreiben wurde vom Benutzer abgebrochen
@@ -3242,13 +1535,13 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="907"/>
+        <location filename="../src/net.cpp" line="912"/>
         <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source>
         <comment>Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</comment>
-        <translation>Hi ha un fitxer amb el contingut de la partició d&apos;arrencada del sector presents. Vols dur a terme la restauració de la PBR?</translation>
+        <translation>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="920"/>
+        <location filename="../src/net.cpp" line="925"/>
         <source>To restore system partition is mounted and can not be restored. Please use a live CD
 </source>
         <comment>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
@@ -3257,7 +1550,7 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="927"/>
+        <location filename="../src/net.cpp" line="932"/>
         <source>The restored home partition is mounted and can not be restored. Please use a live CD
 </source>
         <comment>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
@@ -3266,25 +1559,25 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="939"/>
+        <location filename="../src/net.cpp" line="944"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
         <translation>La partició </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="952"/>
+        <location filename="../src/net.cpp" line="957"/>
         <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
         <comment>Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</comment>
-        <translation>Si l&apos;existent btrfs partició per a formatat? El nou UUID és definit aquí. Si escolliu &lt;cap&gt;, l&apos;UUID restes conservades.</translation>
+        <translation>Si la partició actual btrfs s&apos;ha de formatar? L&apos;UUID nou es defineix aquí. Si decidiu &lt;&lt;no&gt;&gt;, l&apos;UUID es conserva.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1031"/>
+        <location filename="../src/net.cpp" line="1036"/>
         <source>Save partition/directorie</source>
         <comment>Partition/Verzeichnis sichern</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1041"/>
+        <location filename="../src/net.cpp" line="1046"/>
         <source>Encrypt
 backup. key:</source>
         <comment>Sicherung
@@ -3293,13 +1586,13 @@ verschlüsseln. Schlüssel:</comment>
 còpia de seguretat. clau:</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1068"/>
+        <location filename="../src/net.cpp" line="1073"/>
         <source>Partition/directorie restore</source>
         <comment>Partition/Verzeichnis zurückschreiben</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1078"/>
+        <location filename="../src/net.cpp" line="1083"/>
         <source>Decrypt
 backup. key:</source>
         <comment>Sicherung
@@ -3308,75 +1601,75 @@ entschlüsseln. Schlüssel</comment>
 còpia de seguretat. clau:</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1232"/>
+        <location filename="../src/net.cpp" line="1241"/>
         <source>The partition/directorie has been backed up successfully.
 </source>
         <comment>Die Partition/das Verzeichnis wurde erfolgreich gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1233"/>
-        <location filename="../src/net.cpp" line="1276"/>
-        <location filename="../src/net.cpp" line="1277"/>
-        <location filename="../src/net.cpp" line="1332"/>
-        <location filename="../src/net.cpp" line="1336"/>
-        <location filename="../src/net.cpp" line="1358"/>
-        <location filename="../src/net.cpp" line="1359"/>
-        <location filename="../src/net.cpp" line="1365"/>
-        <location filename="../src/net.cpp" line="1366"/>
+        <location filename="../src/net.cpp" line="1242"/>
+        <location filename="../src/net.cpp" line="1285"/>
+        <location filename="../src/net.cpp" line="1286"/>
+        <location filename="../src/net.cpp" line="1344"/>
+        <location filename="../src/net.cpp" line="1348"/>
+        <location filename="../src/net.cpp" line="1371"/>
+        <location filename="../src/net.cpp" line="1372"/>
+        <location filename="../src/net.cpp" line="1378"/>
+        <location filename="../src/net.cpp" line="1379"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation> arxius </translation>
+        <translation> arxius,</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1233"/>
-        <location filename="../src/net.cpp" line="1276"/>
-        <location filename="../src/net.cpp" line="1277"/>
-        <location filename="../src/net.cpp" line="1332"/>
-        <location filename="../src/net.cpp" line="1336"/>
-        <location filename="../src/net.cpp" line="1358"/>
-        <location filename="../src/net.cpp" line="1365"/>
+        <location filename="../src/net.cpp" line="1242"/>
+        <location filename="../src/net.cpp" line="1285"/>
+        <location filename="../src/net.cpp" line="1286"/>
+        <location filename="../src/net.cpp" line="1344"/>
+        <location filename="../src/net.cpp" line="1348"/>
+        <location filename="../src/net.cpp" line="1371"/>
+        <location filename="../src/net.cpp" line="1378"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation>directoris,</translation>
+        <translation> directoris, </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1233"/>
-        <location filename="../src/net.cpp" line="1276"/>
-        <location filename="../src/net.cpp" line="1278"/>
-        <location filename="../src/net.cpp" line="1332"/>
-        <location filename="../src/net.cpp" line="1358"/>
-        <location filename="../src/net.cpp" line="1360"/>
-        <location filename="../src/net.cpp" line="1366"/>
+        <location filename="../src/net.cpp" line="1242"/>
+        <location filename="../src/net.cpp" line="1285"/>
+        <location filename="../src/net.cpp" line="1287"/>
+        <location filename="../src/net.cpp" line="1344"/>
+        <location filename="../src/net.cpp" line="1371"/>
+        <location filename="../src/net.cpp" line="1373"/>
+        <location filename="../src/net.cpp" line="1379"/>
         <source> links and </source>
         <comment> Links und </comment>
         <translation> enllaços i </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1233"/>
+        <location filename="../src/net.cpp" line="1242"/>
         <source> specials have been backed.</source>
         <comment> spezielle Daten wurden gesichert.</comment>
-        <translation>les ofertes s&apos;han recolzat.</translation>
+        <translation> especials han estat recolzats.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1249"/>
+        <location filename="../src/net.cpp" line="1258"/>
         <source>The backup of the partition/directorie was aborted by the user!
 </source>
         <comment>Die Sicherung der Partition/des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1256"/>
+        <location filename="../src/net.cpp" line="1265"/>
         <source>The partition type is not supported.
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1263"/>
+        <location filename="../src/net.cpp" line="1272"/>
         <source>The partition type is not supported. Maybe the partition is encrypted?
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
@@ -3385,23 +1678,23 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1276"/>
+        <location filename="../src/net.cpp" line="1285"/>
         <source>The backup of the partition/directorie was only partially successful.
 </source>
         <comment>Die Sicherung der Partition/des Verzeichnis war nur teilweise erfolgreich
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1276"/>
+        <location filename="../src/net.cpp" line="1285"/>
         <source> specials have been backed
 .</source>
         <comment> spezielle Daten wurden gesichert
 .</comment>
-        <translation>les ofertes s&apos;han recolzat.</translation>
+        <translation> especials han estat recolzats.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1278"/>
+        <location filename="../src/net.cpp" line="1287"/>
         <source> specials were not properly backed
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
@@ -3409,7 +1702,7 @@ còpia de seguretat. clau:</translation>
         <translation>ofertes no van ser adequadament recolzat.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1306"/>
+        <location filename="../src/net.cpp" line="1315"/>
         <source>cannot restore an archive to a partition which is mounted, unmount it first 
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
@@ -3418,21 +1711,21 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1332"/>
+        <location filename="../src/net.cpp" line="1344"/>
         <source>The partition/directorie is successful back.
 </source>
         <comment>Die Partition/das Verzeichnis wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1332"/>
+        <location filename="../src/net.cpp" line="1344"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
-        <translation>ofertes han estat restaurats.</translation>
+        <translation> especials han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1335"/>
+        <location filename="../src/net.cpp" line="1347"/>
         <source>The partition is successful back.
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
@@ -3441,51 +1734,51 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1336"/>
+        <location filename="../src/net.cpp" line="1348"/>
         <source> links </source>
         <comment> Links </comment>
         <translation> enllaços </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1336"/>
+        <location filename="../src/net.cpp" line="1348"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation>especials i la Partició de Boot Record d&apos;haver estat restaurada.</translation>
+        <translation>especials i el registre d&apos;arrencada de partició han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1341"/>
+        <location filename="../src/net.cpp" line="1353"/>
         <source>The restore of the partition/directorie was break by user!
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1358"/>
+        <location filename="../src/net.cpp" line="1371"/>
         <source>The restore of the partition/directorie was only partially successful.
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeichnisses war nur teilweise erfolgreich
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1358"/>
+        <location filename="../src/net.cpp" line="1371"/>
         <source> specials have been restored
 .</source>
         <comment> spezielle Daten wurden wiederhergestellt
 .</comment>
-        <translation>ofertes han estat restaurats.</translation>
+        <translation> especials han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1359"/>
-        <location filename="../src/net.cpp" line="1366"/>
+        <location filename="../src/net.cpp" line="1372"/>
+        <location filename="../src/net.cpp" line="1379"/>
         <source> directories and </source>
         <comment> Verzeichnisse und </comment>
         <translation>directoris i</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1361"/>
-        <location filename="../src/net.cpp" line="1366"/>
+        <location filename="../src/net.cpp" line="1374"/>
+        <location filename="../src/net.cpp" line="1379"/>
         <source> specials were not properly restored
 .</source>
         <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
@@ -3493,23 +1786,23 @@ còpia de seguretat. clau:</translation>
         <translation>ofertes no van ser degudament restaurada.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1365"/>
+        <location filename="../src/net.cpp" line="1378"/>
         <source>The restore of the partition/directorie was only partially successful.
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeicnisses war nur teilweise erfolgreich
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1366"/>
+        <location filename="../src/net.cpp" line="1379"/>
         <source> specials and the Partition Boot Record have been restored
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
 .</comment>
-        <translation>especials i la Partició de Boot Record d&apos;haver estat restaurada.</translation>
+        <translation>especials i el registre d&apos;arrencada de partició han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1371"/>
+        <location filename="../src/net.cpp" line="1384"/>
         <source>You tried to restore a partition. The selected file can only restore directories. Please restart the program.
 </source>
         <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
@@ -3518,7 +1811,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1374"/>
+        <location filename="../src/net.cpp" line="1387"/>
         <source>You have entered an incorrect password.
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
@@ -3527,32 +1820,32 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1539"/>
+        <location filename="../src/net.cpp" line="1551"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>Sí</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1540"/>
+        <location filename="../src/net.cpp" line="1552"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>No</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1553"/>
+        <location filename="../src/net.cpp" line="1565"/>
         <source>Do you want really break the save or restore from the partition?</source>
         <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</comment>
-        <translation>Vols realment trencar el estalviar o restauració de la partició?</translation>
+        <translation>Voleu que realment trencar el salvar o restaurar des de la partició?</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1656"/>
+        <location filename="../src/net.cpp" line="1673"/>
         <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source>
         <comment>Wenn Sie keine SSH-Authentifizierung eingerichtet haben, müssen Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern</comment>
-        <translation>Si no heu configurat SSH autenticació, ara heu d&apos;introduir la contrasenya en el terminal. Ha de continuar a mostrar-la? Podeu canviar aquesta configuració bàsica.</translation>
+        <translation>Si no ha posat cap amunt d&apos;autentificació SSH, vostè ara cal introduir la contrasenya a la terminal. Això continuïn ser mostrat? Vostè pot canviar això en la configuració bàsica.</translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1671"/>
-        <location filename="../src/net.cpp" line="1729"/>
+        <location filename="../src/net.cpp" line="1688"/>
+        <location filename="../src/net.cpp" line="1753"/>
         <source>The SSH server is not reachable. Try again or with another network protocol.
 </source>
         <comment>Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals oder mit einem anderen Netzwerkprotokoll.
@@ -3561,16 +1854,23 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1689"/>
+        <location filename="../src/net.cpp" line="1694"/>
+        <source>The backup or restore with ssh is not possible. Exit the program and restart it again in the terminal with root right.
+</source>
+        <comment> Die Sicherung oder Wiederherstellung mit ssh ist nicht möglich. Beenden Sie  das Programm und starten es erneut im Terminal mit Root-Rechten
+</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.
 </source>
         <comment>Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten Terminal müssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie das Passwort für den Zugriff auf den Server ein  und 3.verlassen Sie den Server mit dem Befehl exit.
 </comment>
-        <translation>Quan el primer contacte amb l&apos;ordinador amb ssh, heu de fer el següent: En un terminal introduir aquestes ordres: 1.A l&apos;obertura de la terminal heu de confirmar la clau RSA d&apos;empremta dactilar amb sí. 2.Introduïu la contrasenya per a l&apos;accés al servidor i 3.deixar el servidor amb l&apos;ordre de sortida.
+        <translation type="obsolete">Quan el primer contacte amb l&apos;ordinador amb ssh, heu de fer el següent: En un terminal introduir aquestes ordres: 1.A l&apos;obertura de la terminal heu de confirmar la clau RSA d&apos;empremta dactilar amb sí. 2.Introduïu la contrasenya per a l&apos;accés al servidor i 3.deixar el servidor amb l&apos;ordre de sortida.
 </translation>
     </message>
     <message>
-        <location filename="../src/net.cpp" line="1828"/>
+        <location filename="../src/net.cpp" line="1852"/>
         <source>Name</source>
         <translation>Nom</translation>
     </message>
@@ -3927,20 +2227,20 @@ còpia de seguretat. clau:</translation>
         <location filename="../src/ui/net.ui" line="93"/>
         <source>Proposed action:</source>
         <extracomment>vorgesehene Aktion:</extracomment>
-        <translation>Proposta d&apos;acció:</translation>
+        <translation>Proposta d&apos;actuació:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="111"/>
         <source>Save partition
  or directory</source>
-        <translation>Estalviar partició</translation>
+        <translation type="unfinished">Estalviar partició</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="125"/>
         <source>Restore partition 
  or directory</source>
         <extracomment>Partition mit fs-Archiver * zurückschreiben</extracomment>
-        <translation>Restaurar la partició</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="155"/>
@@ -4004,7 +2304,7 @@ fitxers/directoris:</translation>
         <location filename="../src/ui/net.ui" line="325"/>
         <location filename="../src/ui/net.ui" line="374"/>
         <source>seconds</source>
-        <translation>segons</translation>
+        <translation>ja salvat</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="339"/>
@@ -4099,7 +2399,7 @@ transmission:</source>
     <message>
         <location filename="../src/ui/net.ui" line="713"/>
         <source>Show hidden directories and files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Restaurar la partició</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="751"/>
@@ -4209,25 +2509,25 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/filedialog.cpp" line="41"/>
+        <location filename="../src/filedialog.cpp" line="42"/>
         <source>Partition restore</source>
         <comment>Partition zurückschreiben</comment>
         <translation>La partició a restaurar</translation>
     </message>
     <message>
-        <location filename="../src/filedialog.cpp" line="50"/>
+        <location filename="../src/filedialog.cpp" line="51"/>
         <source>Save partition</source>
         <comment>Partition sichern</comment>
         <translation>Estalviar partició</translation>
     </message>
     <message>
-        <location filename="../src/filedialog.cpp" line="68"/>
+        <location filename="../src/filedialog.cpp" line="67"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Nota</translation>
     </message>
     <message>
-        <location filename="../src/filedialog.cpp" line="69"/>
+        <location filename="../src/filedialog.cpp" line="68"/>
         <source>Instructions for partition were not recorded written to the file.
 </source>
         <comment>Die Hinweise zur Partition wurden nicht in eine Datei geschrieben.
@@ -4236,88 +2536,86 @@ p, li { white-space: pre-wrap; }
 </translation>
     </message>
     <message>
-        <location filename="../src/filedialog.cpp" line="94"/>
         <source>hello</source>
         <comment>hallo</comment>
-        <translation>hola</translation>
+        <translation type="obsolete">hola</translation>
     </message>
 </context>
 <context>
     <name>MWindow</name>
     <message>
-        <location filename="../src/mainWindow.cpp" line="188"/>
+        <location filename="../src/mainWindow.cpp" line="187"/>
         <source>lzo</source>
         <comment>lzo</comment>
         <translation>lzo</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="189"/>
+        <location filename="../src/mainWindow.cpp" line="188"/>
         <source>gzip fast</source>
         <comment>gzip fast</comment>
         <translation>gzip ràpid</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="190"/>
+        <location filename="../src/mainWindow.cpp" line="189"/>
         <source>gzip standard</source>
         <comment>gzip standard</comment>
         <translation>gzip estàndard</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="191"/>
+        <location filename="../src/mainWindow.cpp" line="190"/>
         <source>qzip best</source>
         <comment>qzip best</comment>
         <translation>qzip millor</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="192"/>
+        <location filename="../src/mainWindow.cpp" line="191"/>
         <source>bzip2 fast</source>
         <comment>bzip2 fast</comment>
         <translation>bzip2 ràpid</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="193"/>
+        <location filename="../src/mainWindow.cpp" line="192"/>
         <source>bzip2 good</source>
         <comment> bzip2 good</comment>
         <translation>bzip2 bona</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="194"/>
+        <location filename="../src/mainWindow.cpp" line="193"/>
         <source>lzma fast</source>
         <comment>lzma fast</comment>
         <translation>lzma ràpid</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="195"/>
+        <location filename="../src/mainWindow.cpp" line="194"/>
         <source>lzma medium</source>
         <comment>lzma medium</comment>
         <translation>lzma mitjà</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="196"/>
+        <location filename="../src/mainWindow.cpp" line="195"/>
         <source>lzma best</source>
         <comment>lzma best</comment>
         <translation>lzma millor</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="346"/>
-        <source>In the file /usr/share/doc/qt4-fsarchiver/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source>
-        <comment>In der Datei /usr/share/doc/qt4-fsarchiver/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</comment>
-        <translation>En el fitxer /usr/share/doc/qt4-fsarchiver/Readme són les instruccions incloses en l&apos;ús del programa. Ha de continuar a mostrar-la? Podeu canviar aquesta configuració bàsica.</translation>
+        <source>In the file /usr/share/doc/qt5-fsarchiver/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source>
+        <comment>In der Datei /usr/share/doc/qt5-fsarchiver/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</comment>
+        <translation type="obsolete">En el fitxer /usr/share/doc/qt5-fsarchiver/Readme són les instruccions incloses en l&apos;ús del programa. Ha de continuar a mostrar-la? Podeu canviar aquesta configuració bàsica.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="408"/>
+        <location filename="../src/mainWindow.cpp" line="410"/>
         <source>Backup File</source>
         <comment>Sicherungsdatei</comment>
         <translation>Fitxer De Còpia De Seguretat</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="409"/>
+        <location filename="../src/mainWindow.cpp" line="411"/>
         <source>Partition restore</source>
         <comment>Partition zurückschreiben</comment>
         <translation>La partició a restaurar</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="422"/>
+        <location filename="../src/mainWindow.cpp" line="424"/>
         <source>Decrypt
 backup. key:</source>
         <comment>Sicherung
@@ -4326,7 +2624,7 @@ entschlüsseln. Schlüssel</comment>
 còpia de seguretat. clau:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="440"/>
+        <location filename="../src/mainWindow.cpp" line="442"/>
         <source>Backup directory</source>
         <comment>Sicherungsverzeichnis</comment>
         <translation>Directori de còpia de seguretat</translation>
@@ -4337,7 +2635,12 @@ còpia de seguretat. clau:</translation>
         <translation type="obsolete">Estalviar partició</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="454"/>
+        <source>In the file /usr/share/doc/qt5-fsarchiver/doc/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source>
+        <comment>In der Datei /usr/share/doc/qt5-fsarchiver/doc/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</comment>
+        <translation type="obsolete">En el fitxer /usr/share/doc/qt5-fsarchiver/doc/Readme són les instruccions incloses en l&apos;ús del programa. Ha de continuar a mostrar-la? Podeu canviar aquesta configuració bàsica.</translation>
+    </message>
+    <message>
+        <location filename="../src/mainWindow.cpp" line="456"/>
         <source>Encrypt
 backup. key:</source>
         <comment>Sicherung
@@ -4346,49 +2649,49 @@ verschlüsseln. Schlüssel</comment>
 còpia de seguretat. clau:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="493"/>
-        <location filename="../src/mainWindow.cpp" line="499"/>
-        <location filename="../src/mainWindow.cpp" line="506"/>
-        <location filename="../src/mainWindow.cpp" line="519"/>
-        <location filename="../src/mainWindow.cpp" line="573"/>
-        <location filename="../src/mainWindow.cpp" line="613"/>
-        <location filename="../src/mainWindow.cpp" line="678"/>
-        <location filename="../src/mainWindow.cpp" line="694"/>
-        <location filename="../src/mainWindow.cpp" line="808"/>
-        <location filename="../src/mainWindow.cpp" line="814"/>
-        <location filename="../src/mainWindow.cpp" line="820"/>
-        <location filename="../src/mainWindow.cpp" line="831"/>
-        <location filename="../src/mainWindow.cpp" line="840"/>
-        <location filename="../src/mainWindow.cpp" line="858"/>
-        <location filename="../src/mainWindow.cpp" line="867"/>
-        <location filename="../src/mainWindow.cpp" line="874"/>
-        <location filename="../src/mainWindow.cpp" line="917"/>
-        <location filename="../src/mainWindow.cpp" line="941"/>
-        <location filename="../src/mainWindow.cpp" line="948"/>
-        <location filename="../src/mainWindow.cpp" line="960"/>
-        <location filename="../src/mainWindow.cpp" line="1008"/>
-        <location filename="../src/mainWindow.cpp" line="1092"/>
+        <location filename="../src/mainWindow.cpp" line="495"/>
+        <location filename="../src/mainWindow.cpp" line="501"/>
+        <location filename="../src/mainWindow.cpp" line="508"/>
+        <location filename="../src/mainWindow.cpp" line="521"/>
+        <location filename="../src/mainWindow.cpp" line="575"/>
+        <location filename="../src/mainWindow.cpp" line="615"/>
+        <location filename="../src/mainWindow.cpp" line="680"/>
+        <location filename="../src/mainWindow.cpp" line="696"/>
+        <location filename="../src/mainWindow.cpp" line="810"/>
+        <location filename="../src/mainWindow.cpp" line="816"/>
+        <location filename="../src/mainWindow.cpp" line="822"/>
+        <location filename="../src/mainWindow.cpp" line="834"/>
+        <location filename="../src/mainWindow.cpp" line="843"/>
+        <location filename="../src/mainWindow.cpp" line="861"/>
+        <location filename="../src/mainWindow.cpp" line="870"/>
+        <location filename="../src/mainWindow.cpp" line="877"/>
+        <location filename="../src/mainWindow.cpp" line="920"/>
+        <location filename="../src/mainWindow.cpp" line="944"/>
+        <location filename="../src/mainWindow.cpp" line="951"/>
+        <location filename="../src/mainWindow.cpp" line="963"/>
+        <location filename="../src/mainWindow.cpp" line="1011"/>
+        <location filename="../src/mainWindow.cpp" line="1093"/>
         <location filename="../src/mainWindow.cpp" line="1171"/>
-        <location filename="../src/mainWindow.cpp" line="1349"/>
-        <location filename="../src/mainWindow.cpp" line="1370"/>
-        <location filename="../src/mainWindow.cpp" line="1377"/>
-        <location filename="../src/mainWindow.cpp" line="1384"/>
-        <location filename="../src/mainWindow.cpp" line="1388"/>
-        <location filename="../src/mainWindow.cpp" line="1401"/>
-        <location filename="../src/mainWindow.cpp" line="1423"/>
-        <location filename="../src/mainWindow.cpp" line="1450"/>
-        <location filename="../src/mainWindow.cpp" line="1454"/>
-        <location filename="../src/mainWindow.cpp" line="1459"/>
-        <location filename="../src/mainWindow.cpp" line="1476"/>
-        <location filename="../src/mainWindow.cpp" line="1485"/>
-        <location filename="../src/mainWindow.cpp" line="1496"/>
-        <location filename="../src/mainWindow.cpp" line="1499"/>
+        <location filename="../src/mainWindow.cpp" line="1350"/>
+        <location filename="../src/mainWindow.cpp" line="1371"/>
+        <location filename="../src/mainWindow.cpp" line="1378"/>
+        <location filename="../src/mainWindow.cpp" line="1385"/>
+        <location filename="../src/mainWindow.cpp" line="1389"/>
+        <location filename="../src/mainWindow.cpp" line="1402"/>
+        <location filename="../src/mainWindow.cpp" line="1424"/>
+        <location filename="../src/mainWindow.cpp" line="1453"/>
+        <location filename="../src/mainWindow.cpp" line="1457"/>
+        <location filename="../src/mainWindow.cpp" line="1462"/>
+        <location filename="../src/mainWindow.cpp" line="1480"/>
+        <location filename="../src/mainWindow.cpp" line="1489"/>
+        <location filename="../src/mainWindow.cpp" line="1500"/>
+        <location filename="../src/mainWindow.cpp" line="1503"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Nota</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="494"/>
+        <location filename="../src/mainWindow.cpp" line="496"/>
         <source>Please select from the backup directory.
 </source>
         <comment>Bitte wählen Sie das Sicherungsverzeichnis aus.
@@ -4397,15 +2700,15 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="500"/>
+        <location filename="../src/mainWindow.cpp" line="502"/>
         <source>Please select the partition to be</source>
         <comment>Bitte wählen Sie die zu sichernde Partition aus.
 </comment>
         <translation>Si us plau seleccioneu la partició per a</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="507"/>
-        <location filename="../src/mainWindow.cpp" line="815"/>
+        <location filename="../src/mainWindow.cpp" line="509"/>
+        <location filename="../src/mainWindow.cpp" line="817"/>
         <source>Please select the file name of the backup.
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
@@ -4414,7 +2717,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="520"/>
+        <location filename="../src/mainWindow.cpp" line="522"/>
         <source>You have selected a file. You must select a directory
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
@@ -4423,25 +2726,25 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="548"/>
+        <location filename="../src/mainWindow.cpp" line="550"/>
         <source>To back up the system partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
         <translation>Còpia de seguretat de la partició amb el sistema està muntat. Voleu fer una còpia de seguretat en viu?</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="556"/>
+        <location filename="../src/mainWindow.cpp" line="558"/>
         <source>To back up home partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
         <translation>Per tornar a pujar a casa la partició es munta. Voleu fer una còpia de seguretat en viu?</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="574"/>
+        <location filename="../src/mainWindow.cpp" line="576"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
         <translation>La partició </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="574"/>
+        <location filename="../src/mainWindow.cpp" line="576"/>
         <source>can not be unmounted. The program is terminated
 </source>
         <comment> kann nicht ausgehängt werden. Das Programm wird abgebrochen
@@ -4450,8 +2753,8 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="614"/>
-        <location filename="../src/mainWindow.cpp" line="868"/>
+        <location filename="../src/mainWindow.cpp" line="616"/>
+        <location filename="../src/mainWindow.cpp" line="871"/>
         <source>The key length must be between 6 and 64 characters
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
@@ -4460,13 +2763,13 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="679"/>
+        <location filename="../src/mainWindow.cpp" line="681"/>
         <source>The partition file</source>
         <comment>Die Partitionsdatei</comment>
-        <translation>La partició fitxer</translation>
+        <translation>El fitxer de partició </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="679"/>
+        <location filename="../src/mainWindow.cpp" line="681"/>
         <source> already exists. The backup is not performed
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
@@ -4475,7 +2778,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="695"/>
+        <location filename="../src/mainWindow.cpp" line="697"/>
         <source>The backup was aborted by the user
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
@@ -4484,20 +2787,20 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="711"/>
+        <location filename="../src/mainWindow.cpp" line="713"/>
         <source>The backup is performed</source>
         <comment>Die Sicherung wird durchgeführt</comment>
         <translation>La còpia de seguretat es realitza</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="809"/>
+        <location filename="../src/mainWindow.cpp" line="811"/>
         <source>There was no key to decrypt specified.</source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>No hi ha cap clau per desencriptar especificat.</translation>
+        <translation>No hi havia cap clau per desxifrar especificat.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="821"/>
+        <location filename="../src/mainWindow.cpp" line="823"/>
         <source>Please select from the writing back to partition.
 </source>
         <comment>Bitte wählen Sie die zurück zu schreibende Partition aus.
@@ -4506,7 +2809,7 @@ còpia de seguretat. clau:</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="832"/>
+        <location filename="../src/mainWindow.cpp" line="835"/>
         <source>You have chosen the wrong recovery file selected. 
 The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
@@ -4515,7 +2818,7 @@ Die Dateiendung muss .fsa sein</comment>
  Els arxius haurien d&apos;acabar amb. ser FSA</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="841"/>
+        <location filename="../src/mainWindow.cpp" line="844"/>
         <source>You have selected a directory. You must select a file
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei auswählen
@@ -4524,110 +2827,120 @@ Die Dateiendung muss .fsa sein</comment>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="859"/>
+        <location filename="../src/mainWindow.cpp" line="862"/>
         <source>The partition is encrypted. Please enter the key</source>
         <comment>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
 </comment>
         <translation>La partició xifrada. Si us plau, introduïu la clau</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="874"/>
+        <location filename="../src/mainWindow.cpp" line="877"/>
         <source>You have entered an incorrect password.</source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>Heu introduït una contrasenya incorrecta.</translation>
+        <translation>Que ha introduït una contrasenya incorrecta.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="892"/>
+        <location filename="../src/mainWindow.cpp" line="895"/>
         <source>Partition to restore the </source>
         <comment>Die wiederherzustellende Partition </comment>
         <translation>La partició a restaurar l&apos; </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="893"/>
+        <location filename="../src/mainWindow.cpp" line="896"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
         <translation>no coincideix amb el salvat</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="893"/>
+        <location filename="../src/mainWindow.cpp" line="896"/>
         <source>Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
         <translation>Voleu continuar restaurar?</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="918"/>
+        <location filename="../src/mainWindow.cpp" line="921"/>
         <source>The restore was aborted by the user</source>
         <comment>Das Zurückschreiben wurde vom Benutzer abgebrochen
 </comment>
         <translation>La restauració va ser avortat per l&apos;usuari</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="930"/>
+        <location filename="../src/mainWindow.cpp" line="933"/>
         <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source>
         <comment>Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</comment>
-        <translation>Hi ha un fitxer amb el contingut de la partició d&apos;arrencada del sector presents. Vols dur a terme la restauració de la PBR?</translation>
+        <translation>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="942"/>
+        <location filename="../src/mainWindow.cpp" line="945"/>
         <source>Restore the system partition is mounted and can not be written back. Please use a live CD.</source>
         <comment>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
         <translation>Restaurar la partició amb el sistema està muntat i no pot ser escrit de nou. Si us plau, utilitzeu un live CD.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="949"/>
+        <location filename="../src/mainWindow.cpp" line="952"/>
         <source>Restore the home partition is mounted and can not be written back. Please use a live CD.</source>
         <comment>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
         <translation>Restaurar la casa de la partició es munta i no pot ser escrit de nou. Si us plau, utilitzeu un live CD.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="961"/>
+        <location filename="../src/mainWindow.cpp" line="964"/>
         <source>The partition </source>
         <comment>Die Partition </comment>
         <translation>La partició </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="961"/>
+        <location filename="../src/mainWindow.cpp" line="964"/>
         <source> can not be unmounted. The program is terminated</source>
         <comment> kann nicht ausgehängt werden. Das Programm wird abgebrochen
 </comment>
-        <translation> no es pot desmuntar. El programa s&apos;acaba</translation>
+        <translation>no pot ser desmuntat. El programa s&apos;acaba</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="971"/>
+        <location filename="../src/mainWindow.cpp" line="974"/>
         <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
         <comment>Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</comment>
-        <translation>Si l&apos;existent btrfs partició per a formatat? El nou UUID és definit aquí. Si escolliu &lt;cap&gt;, l&apos;UUID restes conservades.</translation>
+        <translation>Si la partició actual btrfs s&apos;ha de formatar? L&apos;UUID nou es defineix aquí. Si decidiu &lt;&lt;no&gt;&gt;, l&apos;UUID es conserva.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1009"/>
+        <location filename="../src/mainWindow.cpp" line="1012"/>
         <source>The key length must be between 6 and 64 characters.</source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein.
 </comment>
-        <translation>La longitud de la clau ha de ser d&apos;entre 6 i 64 caràcters.</translation>
+        <translation>La longitud de la clau ha de ser entre 6 i 64 caràcters</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1024"/>
+        <location filename="../src/mainWindow.cpp" line="1027"/>
         <source>The restoring is performed</source>
         <comment>Die Wiederherstellung wird durchgeführt</comment>
         <translation>La restauració es realitza</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1084"/>
-        <source>qt4-fsarchiver</source>
-        <translation>qt4-fsarchiver</translation>
+        <source>qt5-fsarchiver</source>
+        <translation type="obsolete">qt5-fsarchiver</translation>
+    </message>
+    <message>
+        <location filename="../src/mainWindow.cpp" line="348"/>
+        <source>In the file /usr/share/doc/qt4-fsarchiver/doc/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source>
+        <comment>In der Datei /usr/share/doc/qt4-fsarchiver/doc/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</comment>
+        <translation type="unfinished">En el fitxer /usr/share/doc/qt5-fsarchiver/doc/Readme són les instruccions incloses en l&apos;ús del programa. Ha de continuar a mostrar-la? Podeu canviar aquesta configuració bàsica. {4-?}</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1085"/>
+        <source>qt4-fsarchiver</source>
+        <translation type="unfinished">qt5-fsarchiver {4-?}</translation>
+    </message>
+    <message>
+        <location filename="../src/mainWindow.cpp" line="1086"/>
         <source>Backup and restore partitions, directory and MBR
-Version 0.6.19-15, August 1, 2015</source>
-        <comment>Sichern und Wiederherstellen von Partitionen, Verzeichnissen und MBR Version 0.6.19-15, 1. August 2015</comment>
+Version 0.8.0-5, November 2, 2016</source>
+        <comment>Sichern und Wiederherstellen von Partitionen, Verzeichnissen und MBR Version 0.8.0-5, 2. November 2016</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1093"/>
+        <location filename="../src/mainWindow.cpp" line="1094"/>
         <source>The program must be run with root privileges. The program is terminated.
 </source>
         <comment>Das Programm muss mit Root-Rechten gestartet werden. Das Programm wird beendet.
@@ -4648,7 +2961,7 @@ Version 0.6.19-15, August 1, 2015</source>
         <translation>No</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1350"/>
+        <location filename="../src/mainWindow.cpp" line="1351"/>
         <source>The partition has been backed up successfully.
 </source>
         <comment>Die Partition wurde erfolgreich gesichert.
@@ -4657,52 +2970,52 @@ Version 0.6.19-15, August 1, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1351"/>
-        <location filename="../src/mainWindow.cpp" line="1403"/>
-        <location filename="../src/mainWindow.cpp" line="1405"/>
-        <location filename="../src/mainWindow.cpp" line="1451"/>
-        <location filename="../src/mainWindow.cpp" line="1455"/>
-        <location filename="../src/mainWindow.cpp" line="1478"/>
-        <location filename="../src/mainWindow.cpp" line="1480"/>
-        <location filename="../src/mainWindow.cpp" line="1487"/>
-        <location filename="../src/mainWindow.cpp" line="1490"/>
+        <location filename="../src/mainWindow.cpp" line="1352"/>
+        <location filename="../src/mainWindow.cpp" line="1404"/>
+        <location filename="../src/mainWindow.cpp" line="1406"/>
+        <location filename="../src/mainWindow.cpp" line="1454"/>
+        <location filename="../src/mainWindow.cpp" line="1458"/>
+        <location filename="../src/mainWindow.cpp" line="1482"/>
+        <location filename="../src/mainWindow.cpp" line="1484"/>
+        <location filename="../src/mainWindow.cpp" line="1491"/>
+        <location filename="../src/mainWindow.cpp" line="1494"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation> arxius </translation>
+        <translation> arxius,</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1351"/>
-        <location filename="../src/mainWindow.cpp" line="1403"/>
-        <location filename="../src/mainWindow.cpp" line="1405"/>
-        <location filename="../src/mainWindow.cpp" line="1451"/>
-        <location filename="../src/mainWindow.cpp" line="1455"/>
-        <location filename="../src/mainWindow.cpp" line="1478"/>
-        <location filename="../src/mainWindow.cpp" line="1487"/>
+        <location filename="../src/mainWindow.cpp" line="1352"/>
+        <location filename="../src/mainWindow.cpp" line="1404"/>
+        <location filename="../src/mainWindow.cpp" line="1406"/>
+        <location filename="../src/mainWindow.cpp" line="1454"/>
+        <location filename="../src/mainWindow.cpp" line="1458"/>
+        <location filename="../src/mainWindow.cpp" line="1482"/>
+        <location filename="../src/mainWindow.cpp" line="1491"/>
         <source> directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation>directoris,</translation>
+        <translation> directoris, </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1351"/>
-        <location filename="../src/mainWindow.cpp" line="1403"/>
-        <location filename="../src/mainWindow.cpp" line="1406"/>
-        <location filename="../src/mainWindow.cpp" line="1451"/>
-        <location filename="../src/mainWindow.cpp" line="1478"/>
-        <location filename="../src/mainWindow.cpp" line="1481"/>
-        <location filename="../src/mainWindow.cpp" line="1488"/>
-        <location filename="../src/mainWindow.cpp" line="1491"/>
+        <location filename="../src/mainWindow.cpp" line="1352"/>
+        <location filename="../src/mainWindow.cpp" line="1404"/>
+        <location filename="../src/mainWindow.cpp" line="1407"/>
+        <location filename="../src/mainWindow.cpp" line="1454"/>
+        <location filename="../src/mainWindow.cpp" line="1482"/>
+        <location filename="../src/mainWindow.cpp" line="1485"/>
+        <location filename="../src/mainWindow.cpp" line="1492"/>
+        <location filename="../src/mainWindow.cpp" line="1495"/>
         <source> links and </source>
         <comment> Links und </comment>
         <translation> enllaços i </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1352"/>
+        <location filename="../src/mainWindow.cpp" line="1353"/>
         <source> specials have been backed.</source>
         <comment> spezielle Daten wurden gesichert.</comment>
-        <translation>les ofertes s&apos;han recolzat.</translation>
+        <translation> especials han estat recolzats.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1371"/>
+        <location filename="../src/mainWindow.cpp" line="1372"/>
         <source>The backup of the partition was aborted by the user!
 </source>
         <comment>Die Sicherung der Partition  wurde vom Benutzer abgebrochen!
@@ -4711,15 +3024,15 @@ Version 0.6.19-15, August 1, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1378"/>
+        <location filename="../src/mainWindow.cpp" line="1379"/>
         <source>The partition type is not supported.
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1385"/>
+        <location filename="../src/mainWindow.cpp" line="1386"/>
         <source>The partition type is not supported. Maybe the partition is encrypted?
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
@@ -4728,7 +3041,7 @@ Version 0.6.19-15, August 1, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1389"/>
+        <location filename="../src/mainWindow.cpp" line="1390"/>
         <source>Error saving partition. File too large. Use is FAT-partition?
 </source>
         <comment>Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?
@@ -4737,23 +3050,23 @@ Version 0.6.19-15, August 1, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1402"/>
+        <location filename="../src/mainWindow.cpp" line="1403"/>
         <source>The backup of the partition was only partially successful.
 </source>
         <comment>Die Sicherung der Partition war nur teilweise erfolgreich
 </comment>
-        <translation>La còpia de seguretat de la partició només va ser un èxit parcial.</translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1404"/>
+        <location filename="../src/mainWindow.cpp" line="1405"/>
         <source> specials have been backed
 .</source>
         <comment> spezielle Daten wurden gesichert
 .</comment>
-        <translation>les ofertes s&apos;han recolzat.</translation>
+        <translation> especials han estat recolzats.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1407"/>
+        <location filename="../src/mainWindow.cpp" line="1408"/>
         <source> specials were not properly backed
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
@@ -4761,7 +3074,7 @@ Version 0.6.19-15, August 1, 2015</source>
         <translation>ofertes no van ser adequadament recolzat.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1423"/>
+        <location filename="../src/mainWindow.cpp" line="1424"/>
         <source>cannot restore an archive to a partition which is mounted, unmount it first 
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
@@ -4770,8 +3083,8 @@ Version 0.6.19-15, August 1, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1450"/>
-        <location filename="../src/mainWindow.cpp" line="1454"/>
+        <location filename="../src/mainWindow.cpp" line="1453"/>
+        <location filename="../src/mainWindow.cpp" line="1457"/>
         <source>The partition is successful back.
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
@@ -4780,58 +3093,58 @@ Version 0.6.19-15, August 1, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1451"/>
+        <location filename="../src/mainWindow.cpp" line="1454"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
-        <translation>ofertes han estat restaurats.</translation>
+        <translation> especials han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1455"/>
+        <location filename="../src/mainWindow.cpp" line="1458"/>
         <source> links </source>
         <comment> Links </comment>
         <translation> enllaços </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1455"/>
+        <location filename="../src/mainWindow.cpp" line="1458"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation>especials i la Partició de Boot Record d&apos;haver estat restaurada.</translation>
+        <translation>especials i el registre d&apos;arrencada de partició han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1460"/>
+        <location filename="../src/mainWindow.cpp" line="1463"/>
         <source>The restore of the partition was break by user!
 </source>
         <comment>Die Wiederherstellung der Partition  wurde vom Benutzer abgebrochen!
 </comment>
-        <translation>La restauració de la partició es va trencar per l&apos;usuari!</translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1477"/>
-        <location filename="../src/mainWindow.cpp" line="1486"/>
+        <location filename="../src/mainWindow.cpp" line="1481"/>
+        <location filename="../src/mainWindow.cpp" line="1490"/>
         <source>The restore of the partition was only partially successful.
 </source>
         <comment>Die Wiederherstellung der Partition war nur teilweise erfolgreich
 </comment>
-        <translation>La restauració de la partició només va ser un èxit parcial.</translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1479"/>
+        <location filename="../src/mainWindow.cpp" line="1483"/>
         <source> specials have been restored
 .</source>
         <comment> spezielle Daten wurden wiederhergestellt
 .</comment>
-        <translation>ofertes han estat restaurats.</translation>
+        <translation> especials han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1480"/>
-        <location filename="../src/mainWindow.cpp" line="1490"/>
+        <location filename="../src/mainWindow.cpp" line="1484"/>
+        <location filename="../src/mainWindow.cpp" line="1494"/>
         <source> directories and </source>
         <comment> Verzeichnisse und </comment>
         <translation>directoris i</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1482"/>
-        <location filename="../src/mainWindow.cpp" line="1492"/>
+        <location filename="../src/mainWindow.cpp" line="1486"/>
+        <location filename="../src/mainWindow.cpp" line="1496"/>
         <source> specials were not properly restored
 .</source>
         <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
@@ -4839,15 +3152,15 @@ Version 0.6.19-15, August 1, 2015</source>
         <translation>ofertes no van ser degudament restaurada.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1489"/>
+        <location filename="../src/mainWindow.cpp" line="1493"/>
         <source> specials and the Partition Boot Record have been restored
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
 .</comment>
-        <translation>especials i la Partició de Boot Record d&apos;haver estat restaurada.</translation>
+        <translation>especials i el registre d&apos;arrencada de partició han estat restaurats.</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1496"/>
+        <location filename="../src/mainWindow.cpp" line="1500"/>
         <source>You have tried restore a partition. The selected file can only restore directories. Please restart the program.
 </source>
         <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
@@ -4856,7 +3169,7 @@ Version 0.6.19-15, August 1, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1499"/>
+        <location filename="../src/mainWindow.cpp" line="1503"/>
         <source>You have entered an incorrect password.
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben.
@@ -4865,107 +3178,107 @@ Version 0.6.19-15, August 1, 2015</source>
 </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1605"/>
+        <location filename="../src/mainWindow.cpp" line="1609"/>
         <source>Backup file name: </source>
         <comment>Sicherungsdateiname: </comment>
         <translation>Còpia de seguretat nom del fitxer:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1606"/>
+        <location filename="../src/mainWindow.cpp" line="1610"/>
         <source>Partition  name: </source>
         <comment>Partitionsname: </comment>
         <translation>Partició nom:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1607"/>
+        <location filename="../src/mainWindow.cpp" line="1611"/>
         <source>Partition type: </source>
         <comment>Partitionsart: </comment>
         <translation>Tipus de partició: </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1608"/>
+        <location filename="../src/mainWindow.cpp" line="1612"/>
         <source>UUID: </source>
         <translation>UUID:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1608"/>
+        <location filename="../src/mainWindow.cpp" line="1612"/>
         <source>Description: </source>
         <comment>Bezeichnung: </comment>
         <translation>Descripció: </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1609"/>
+        <location filename="../src/mainWindow.cpp" line="1613"/>
         <source>Partition size: </source>
         <comment>Partitionsgröße: </comment>
         <translation>Mida de la partició: </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1609"/>
-        <location filename="../src/mainWindow.cpp" line="1610"/>
+        <location filename="../src/mainWindow.cpp" line="1613"/>
+        <location filename="../src/mainWindow.cpp" line="1614"/>
         <source>Assignment of the partition: </source>
         <comment>Belegung der Partition: </comment>
         <translation>Cessió de la partició: </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1610"/>
+        <location filename="../src/mainWindow.cpp" line="1614"/>
         <source>Compression: </source>
         <comment>Kompression: </comment>
         <translation>De compressió: </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1611"/>
+        <location filename="../src/mainWindow.cpp" line="1615"/>
         <source>Approximate image file sizes: </source>
         <comment>ungefähre Sicherungsdateigröße: </comment>
         <translation>Aproximada de la imatge les mides d&apos;arxiu:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1611"/>
+        <location filename="../src/mainWindow.cpp" line="1615"/>
         <source>Other notes: </source>
         <comment>weitere Hinweise:</comment>
         <translation>Altres notes:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1612"/>
+        <location filename="../src/mainWindow.cpp" line="1616"/>
         <source>to be protected/secured partition: / (root system directory) </source>
         <comment>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </comment>
         <translation>ser protegits/assegurat partició: / (root directori de sistema)</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1617"/>
-        <location filename="../src/mainWindow.cpp" line="1623"/>
+        <location filename="../src/mainWindow.cpp" line="1621"/>
+        <location filename="../src/mainWindow.cpp" line="1627"/>
         <source>Operating system: </source>
         <comment>Betriebsystem: </comment>
         <translation>Sistema operatiu: </translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1617"/>
-        <location filename="../src/mainWindow.cpp" line="1623"/>
+        <location filename="../src/mainWindow.cpp" line="1621"/>
+        <location filename="../src/mainWindow.cpp" line="1627"/>
         <source>Kernel: </source>
         <translation>Nucli:</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1619"/>
+        <location filename="../src/mainWindow.cpp" line="1623"/>
         <source>to be protected/secured partition: /home</source>
         <comment>zu sichernde/gesicherte Partition: /home</comment>
         <translation>ser protegits/assegurat partició: /home</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1640"/>
+        <location filename="../src/mainWindow.cpp" line="1644"/>
         <source> MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1651"/>
+        <location filename="../src/mainWindow.cpp" line="1655"/>
         <source> TB</source>
         <translation>TB</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1662"/>
+        <location filename="../src/mainWindow.cpp" line="1666"/>
         <source> GB</source>
         <translation>GB</translation>
     </message>
     <message>
-        <location filename="../src/mainWindow.cpp" line="1853"/>
+        <location filename="../src/mainWindow.cpp" line="1855"/>
         <source>Do you really want to break the save or restore from the partition?</source>
         <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</comment>
         <translation>Do you really want to break the salvar o recuperar de la partició?</translation>
@@ -5057,7 +3370,7 @@ fitxers/directoris:</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="260"/>
         <location filename="../src/ui/fsarchiverMain.ui" line="309"/>
         <source>seconds</source>
-        <translation>segons</translation>
+        <translation>ja salvat</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="274"/>
@@ -5136,89 +3449,7 @@ còpia de seguretat de la clau</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="559"/>
         <source>Proposed action:</source>
         <extracomment>vorgesehene Aktion:</extracomment>
-        <translation>Proposta d&apos;acció:</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="577"/>
-        <source>Partition save 
-with fsarchiver</source>
-        <extracomment>Partition mit * fsArchiver sichern:</extracomment>
-        <translation>Partició estalviar 
-amb fsarchiver</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="594"/>
-        <source>Restore partition
-with fsarchiver</source>
-        <extracomment>Partition mit fs-Archiver * zurückschreiben</extracomment>
-        <translation>Restaurar la partició 
-amb fsarchiver</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="609"/>
-        <source>Show hidden directories and files</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="663"/>
-        <source>Actions</source>
-        <translation>Accions</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="681"/>
-        <source>Settings</source>
-        <translation>Configuració</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="687"/>
-        <source>Information</source>
-        <translation>Informació</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="704"/>
-        <location filename="../src/ui/fsarchiverMain.ui" line="731"/>
-        <source>Basic Settings</source>
-        <translation>Configuració Bàsica</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="713"/>
-        <source>Backup partition</source>
-        <translation>Còpia de seguretat partició</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="722"/>
-        <source>Restore partition</source>
-        <translation>Restaurar la partició</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="740"/>
-        <source>Information fsarchiver</source>
-        <translation>Informació fsarchiver</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="749"/>
-        <source>Save MBR/GPT</source>
-        <translation>Estalviar MBR/GPT</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="758"/>
-        <source>Restore MBR/GPT</source>
-        <translation>Restaurar el MBR/GPT</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="767"/>
-        <source>Restore directory </source>
-        <translation>Restaurar directori</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="776"/>
-        <source>Save directory </source>
-        <translation>Directori on desar</translation>
-    </message>
-    <message>
-        <location filename="../src/ui/fsarchiverMain.ui" line="785"/>
-        <source>Exit program</source>
-        <translation>La sortida del programa</translation>
+        <translation>Proposta d&apos;actuació:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="794"/>
@@ -5229,6 +3460,88 @@ amb fsarchiver</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="803"/>
         <source>Restore a partition/directorie on network</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="577"/>
+        <source>Partition save 
+with fsarchiver</source>
+        <extracomment>Partition mit * fsArchiver sichern:</extracomment>
+        <translation type="unfinished">Partició estalviar 
+amb fsarchiver</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="594"/>
+        <source>Restore partition
+with fsarchiver</source>
+        <extracomment>Partition mit fs-Archiver * zurückschreiben</extracomment>
+        <translation type="unfinished">Restaurar la partició 
+amb fsarchiver</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="609"/>
+        <source>Show hidden directories and files</source>
+        <translation>Restaurar la partició</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="663"/>
+        <source>Actions</source>
+        <translation type="unfinished">Accions</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="681"/>
+        <source>Settings</source>
+        <translation type="unfinished">Configuració</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="687"/>
+        <source>Information</source>
+        <translation type="unfinished">Informació</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="704"/>
+        <location filename="../src/ui/fsarchiverMain.ui" line="731"/>
+        <source>Basic Settings</source>
+        <translation>Configuració Bàsica</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="713"/>
+        <source>Backup partition</source>
+        <translation type="unfinished">Còpia de seguretat partició</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="722"/>
+        <source>Restore partition</source>
+        <translation type="unfinished">Restaurar la partició</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="740"/>
+        <source>Information fsarchiver</source>
+        <translation type="unfinished">Informació fsarchiver</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="749"/>
+        <source>Save MBR/GPT</source>
+        <translation type="unfinished">Estalviar MBR/GPT</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="758"/>
+        <source>Restore MBR/GPT</source>
+        <translation type="unfinished">Restaurar el MBR/GPT</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="767"/>
+        <source>Restore directory </source>
+        <translation type="unfinished">Restaurar directori</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="776"/>
+        <source>Save directory </source>
+        <translation type="unfinished">Directori on desar</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/fsarchiverMain.ui" line="785"/>
+        <source>Exit program</source>
+        <translation type="unfinished">La sortida del programa</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="812"/>
@@ -5248,7 +3561,7 @@ amb fsarchiver</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="835"/>
         <source>Clone HD, HD-Image built and restore</source>
-        <translation>Clon HD, HD-Imatge construir i restaurar</translation>
+        <translation type="unfinished">Clon HD, HD-Imatge construir i restaurar</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="840"/>
@@ -5264,17 +3577,17 @@ amb fsarchiver</translation>
 <context>
     <name>NetEin</name>
     <message>
-        <location filename="../src/net_ein.cpp" line="273"/>
-        <location filename="../src/net_ein.cpp" line="458"/>
-        <location filename="../src/net_ein.cpp" line="464"/>
-        <location filename="../src/net_ein.cpp" line="470"/>
-        <location filename="../src/net_ein.cpp" line="679"/>
+        <location filename="../src/net_ein.cpp" line="275"/>
+        <location filename="../src/net_ein.cpp" line="459"/>
+        <location filename="../src/net_ein.cpp" line="465"/>
+        <location filename="../src/net_ein.cpp" line="471"/>
+        <location filename="../src/net_ein.cpp" line="670"/>
         <source>Note</source>
         <comment>Hinweis</comment>
         <translation>Nota</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="274"/>
+        <location filename="../src/net_ein.cpp" line="276"/>
         <source>There is currently no available network computer.
 </source>
         <comment>Es ist derzeit kein Netzwerkrechner.
@@ -5283,7 +3596,7 @@ amb fsarchiver</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="459"/>
+        <location filename="../src/net_ein.cpp" line="460"/>
         <source>You must select the computer on which the backup data to be written
 </source>
         <comment>Sie müssen den Rechner auswählen, auf den die Sicherungsdaten geschrieben werden sollen
@@ -5292,7 +3605,7 @@ amb fsarchiver</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="465"/>
+        <location filename="../src/net_ein.cpp" line="466"/>
         <source>You must select your computer from which the backup data to be written back
 </source>
         <comment>Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück geschrieben werden sollen
@@ -5301,7 +3614,7 @@ amb fsarchiver</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="471"/>
+        <location filename="../src/net_ein.cpp" line="472"/>
         <source>You must enter the user name. Can not otherwise be accessible to network computers
 </source>
         <comment>Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf Netzrechner zugegriffen werden
@@ -5310,19 +3623,19 @@ amb fsarchiver</translation>
 </translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="475"/>
+        <location filename="../src/net_ein.cpp" line="476"/>
         <source>Is it true that you have entered a key? (NFS dont need a key)</source>
         <comment>Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</comment>
         <translation>Is it true that you have entered a key? (NFS dont need a key)</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="680"/>
+        <location filename="../src/net_ein.cpp" line="671"/>
         <source>Yes</source>
         <comment>Ja</comment>
         <translation>Sí</translation>
     </message>
     <message>
-        <location filename="../src/net_ein.cpp" line="681"/>
+        <location filename="../src/net_ein.cpp" line="672"/>
         <source>No</source>
         <comment>Nein</comment>
         <translation>No</translation>
@@ -5337,230 +3650,231 @@ amb fsarchiver</translation>
         <translation>Clon de disc dur</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="26"/>
+        <location filename="../src/ui/clone_dialog.ui" line="630"/>
+        <source>p</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/clone_dialog.ui" line="656"/>
         <source>Exit</source>
         <extracomment>Abbrechen</extracomment>
         <translation>Sortida</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="39"/>
         <source>Save / Restore MBR</source>
         <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>Estalviar / restaurar MBR</translation>
+        <translation type="obsolete">Estalviar / restaurar MBR</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="65"/>
+        <location filename="../src/ui/clone_dialog.ui" line="39"/>
         <source>Exist harddrive:</source>
         <extracomment>MBR Sicherungsverzeichnis:</extracomment>
         <translation>Existeixen harddrive:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="112"/>
+        <location filename="../src/ui/clone_dialog.ui" line="86"/>
         <source>New harddrive:</source>
         <extracomment>MBR Sicherungsverzeichnis:</extracomment>
         <translation>Nou disc dur:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="125"/>
-        <location filename="../src/ui/clone_dialog.ui" line="138"/>
+        <location filename="../src/ui/clone_dialog.ui" line="99"/>
+        <location filename="../src/ui/clone_dialog.ui" line="112"/>
+        <location filename="../src/ui/clone_dialog.ui" line="669"/>
+        <location filename="../src/ui/clone_dialog.ui" line="682"/>
+        <location filename="../src/ui/clone_dialog.ui" line="695"/>
         <source>CommandLinkButton</source>
         <translation>CommandLinkButton</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="166"/>
-        <location filename="../src/ui/clone_dialog.ui" line="231"/>
+        <location filename="../src/ui/clone_dialog.ui" line="140"/>
+        <location filename="../src/ui/clone_dialog.ui" line="205"/>
         <source>seconds</source>
         <translation>segons</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="192"/>
-        <location filename="../src/ui/clone_dialog.ui" line="257"/>
+        <location filename="../src/ui/clone_dialog.ui" line="166"/>
+        <location filename="../src/ui/clone_dialog.ui" line="231"/>
         <source>minutes</source>
         <translation>minuts</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="218"/>
+        <location filename="../src/ui/clone_dialog.ui" line="192"/>
         <source>elapsed time:</source>
         <translation>temps transcorregut:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="283"/>
+        <location filename="../src/ui/clone_dialog.ui" line="257"/>
         <source>remaining time:</source>
         <translation>temps restant:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="384"/>
+        <location filename="../src/ui/clone_dialog.ui" line="358"/>
         <source>already saved:</source>
         <translation>ja salvat</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="400"/>
+        <location filename="../src/ui/clone_dialog.ui" line="374"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
+        <location filename="../src/ui/clone_dialog.ui" line="387"/>
         <location filename="../src/ui/clone_dialog.ui" line="413"/>
-        <location filename="../src/ui/clone_dialog.ui" line="439"/>
         <source>hours</source>
         <translation>hores</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="465"/>
+        <location filename="../src/ui/clone_dialog.ui" line="439"/>
         <source>Transmission speed:</source>
         <translation>Velocitat de transmissió</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="491"/>
+        <location filename="../src/ui/clone_dialog.ui" line="465"/>
         <source>MB/sec</source>
         <translation>MB/seg</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="505"/>
+        <location filename="../src/ui/clone_dialog.ui" line="479"/>
         <source>f</source>
         <translation>f</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="518"/>
+        <location filename="../src/ui/clone_dialog.ui" line="492"/>
         <source>Directory in which the image is written</source>
         <translation>Directori en el qual s&apos;escriu la imatge</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="524"/>
+        <location filename="../src/ui/clone_dialog.ui" line="498"/>
         <source>Backup directory:</source>
         <translation>Directori de còpia de seguretat</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="552"/>
+        <location filename="../src/ui/clone_dialog.ui" line="526"/>
         <source>Image of a hard disk write back</source>
         <extracomment>sdc</extracomment>
-        <translation>Imatge d&apos;un disc dur escriure altra vegada</translation>
+        <translation type="unfinished">Imatge d&apos;un disc dur escriure altra vegada</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="565"/>
+        <location filename="../src/ui/clone_dialog.ui" line="539"/>
         <source>Clone hard disk</source>
         <extracomment>sda</extracomment>
-        <translation>Clonar disc dur</translation>
+        <translation type="unfinished">Clonar disc dur</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog.ui" line="584"/>
+        <location filename="../src/ui/clone_dialog.ui" line="558"/>
         <source>Proposed action:</source>
         <extracomment>vorgesehene Aktion:</extracomment>
-        <translation>Proposta d&apos;acció:</translation>
+        <translation>Proposta d&apos;actuació:</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/clone_dialog.ui" line="577"/>
+        <source>Image of a hard disk to create</source>
+        <extracomment>sdb</extracomment>
+        <translation type="unfinished">Imatge d&apos;un disc dur per crear:</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/clone_dialog.ui" line="590"/>
+        <source>Image of a partition to create</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="603"/>
-        <source>Image of a hard disk to create</source>
-        <extracomment>sdb</extracomment>
-        <translation>Imatge d&apos;un disc dur per crear:</translation>
+        <source>Image of a partition write back</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="616"/>
         <source>Use gzip</source>
         <translation>Ús gzip</translation>
     </message>
+    <message>
+        <location filename="../src/ui/clone_dialog.ui" line="643"/>
+        <source>Save/Restore</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>clone_dialog_net</name>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="14"/>
         <source>Clone hard drive</source>
         <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>Clon de disc dur</translation>
+        <translation type="obsolete">Clon de disc dur</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="26"/>
         <source>Cancel</source>
         <extracomment>Abbrechen</extracomment>
-        <translation>Cancel·la</translation>
+        <translation type="obsolete">Cancel·la</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="39"/>
         <source>Save / restore MBR</source>
         <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>Desa / restaurar el MBR</translation>
+        <translation type="obsolete">Estalviar / restaurar MBR</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="52"/>
         <source>Exist harddrive:</source>
         <extracomment>MBR Sicherungsverzeichnis:</extracomment>
-        <translation>Existeixen harddrive:</translation>
+        <translation type="obsolete">Existeixen harddrive:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="65"/>
         <source>Image einer Festplatte erstellen:</source>
         <extracomment>sdb</extracomment>
-        <translation>Imatge einer Festplatte erstellen:</translation>
+        <translation type="obsolete">Imatge einer Festplatte erstellen:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="78"/>
         <source>Image einer Festplatte zurückschreiben:</source>
         <extracomment>sdc</extracomment>
-        <translation>Imatge einer Festplatte zurückschreiben:</translation>
+        <translation type="obsolete">Imatge einer Festplatte zurückschreiben:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="123"/>
-        <location filename="../src/ui/clone_dialog_net.ui" line="188"/>
         <source>seconds</source>
-        <translation>segons</translation>
+        <translation type="obsolete">segons</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="149"/>
-        <location filename="../src/ui/clone_dialog_net.ui" line="214"/>
         <source>minutes</source>
-        <translation>minuts</translation>
+        <translation type="obsolete">minuts</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="175"/>
         <source>elapsed time:</source>
-        <translation>temps transcorregut:</translation>
+        <translation type="obsolete">temps transcorregut:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="240"/>
         <source>remaining time:</source>
-        <translation>temps restant:</translation>
+        <translation type="obsolete">temps restant:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="338"/>
         <source>already saved:</source>
-        <translation>ja salvat</translation>
+        <translation type="obsolete">ja salvat</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="351"/>
         <source>MB</source>
-        <translation>MB</translation>
+        <translation type="obsolete">MB</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="364"/>
-        <location filename="../src/ui/clone_dialog_net.ui" line="387"/>
         <source>hours</source>
-        <translation>hores</translation>
+        <translation type="obsolete">hores</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="411"/>
         <source>f</source>
-        <translation>f</translation>
+        <translation type="obsolete">f</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="434"/>
         <source>Image name:</source>
         <extracomment>Name der Sicherungsdatei:</extracomment>
-        <translation>Nom de la imatge:</translation>
+        <translation type="obsolete">Nom de la imatge:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="467"/>
         <source>Network computer  name:</source>
         <extracomment>Netzrechnername:</extracomment>
-        <translation>Nom de l&apos;ordinador de xarxa:</translation>
+        <translation type="obsolete">Nom de l&apos;ordinador de xarxa:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="480"/>
         <source>Exist Image:</source>
-        <translation>Existeix la imatge:</translation>
+        <translation type="obsolete">Existeix la imatge:</translation>
     </message>
     <message>
-        <location filename="../src/ui/clone_dialog_net.ui" line="493"/>
         <source>l</source>
-        <translation>l</translation>
+        <translation type="obsolete">l</translation>
     </message>
 </context>
 <context>
@@ -5744,7 +4058,7 @@ còpia de seguretat de la clau</translation>
         <location filename="../src/ui/mbr_dialog.ui" line="74"/>
         <source>Save / restore MBR</source>
         <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>Desa / restaurar el MBR</translation>
+        <translation>Estalviar / restaurar MBR</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="100"/>
@@ -5884,12 +4198,17 @@ de tornada a l&apos;original de la ubicació</translation>
         <location filename="../src/ui/setting.ui" line="293"/>
         <source>Show  Note about the programm qt4-fsarchiver</source>
         <extracomment>Hinweise zum Gebrauch des Programms anzeigen</extracomment>
-        <translation>Show  Note about the programm qt4-fsarchiver</translation>
+        <translation type="unfinished">Show  Note about the programm qt5-fsarchiver {4-?}</translation>
+    </message>
+    <message>
+        <source>Show  Note about the programm qt5-fsarchiver</source>
+        <extracomment>Hinweise zum Gebrauch des Programms anzeigen</extracomment>
+        <translation type="obsolete">Show  Note about the programm qt5-fsarchiver</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="306"/>
         <source>Show hidden directories and files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Restaurar la partició</translation>
     </message>
 </context>
 <context>

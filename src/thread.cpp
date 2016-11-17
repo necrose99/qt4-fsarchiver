@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -37,7 +37,7 @@ void Thread::run() {
 if (qdummy == "0") {
   //Zurücksetzen der bekannten oder unbekannten Fehlermeldung
   werte_uebergeben(1,4);
-  dialog_auswertung = fsarchiver_aufruf(anzahl,parameter[0].toAscii().data(),parameter[1].toAscii().data(),parameter[2].toAscii().data(),parameter[3].toAscii().data(),parameter[4].toAscii().data (),parameter[5].toAscii().data(),parameter[6].toAscii().data(),parameter[7].toAscii().data(),parameter[8].toAscii().data(),parameter[9].toAscii().data(),parameter[10].toAscii().data(),parameter[11].toAscii().data(),parameter[12].toAscii().data(),parameter[13].toAscii().data(),parameter[14].toAscii().data());
+  dialog_auswertung = fsarchiver_aufruf(anzahl,parameter[0].toAscii().data(),parameter[1].toAscii().data(),parameter[2].toAscii().data(),parameter[3].toAscii().data(),parameter[4].toAscii().data(),parameter[5].toAscii().data(),parameter[6].toAscii().data(),parameter[7].toAscii().data(),parameter[8].toAscii().data(),parameter[9].toAscii().data(),parameter[10].toAscii().data(),parameter[11].toAscii().data(),parameter[12].toAscii().data(),parameter[13].toAscii().data(),parameter[14].toAscii().data());
 
    if (dialog_auswertung != 0){
      //verhindert das Blockieren des Programmes Abfrage in der while Schleife in dir.cpp und mainwindow.cpp
@@ -54,6 +54,7 @@ if (qdummy != "0" && pos > -1) {  //thread Festplatte klonen, Image erstellen
 }
 
  
+
 
 
 

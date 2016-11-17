@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,14 +17,14 @@
 #ifndef FILEDIALOG_H
 #define FILEDIALOG_H
 #include "ui_filedialog.h"
+#include <QMessageBox>
 
 class FileDialog: public QDialog, private Ui::FileDialog {
   Q_OBJECT
   public:
     FileDialog(QWidget *parent = 0);
-    QString werte_holen_(int auswahl);
-    void werte_uebergeben(QString wert); 
-       
+    void werte_uebergeben(QString wert);
+        
   protected slots:
     void folder_einlesen();
     void file_save();
@@ -36,6 +36,7 @@ class FileDialog: public QDialog, private Ui::FileDialog {
 };
 
 #endif // FILEDIALOG_H
+
 
 
 

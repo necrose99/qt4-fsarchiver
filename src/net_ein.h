@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,6 +17,8 @@
 #ifndef NET_Ein_H
 #define NET_Ein_H
 #include <QtGui>
+#include <QFileSystemModel>
+#include <QMessageBox>
 #include <QDialog>
 #include "ui_net_ein.h"
 
@@ -35,14 +37,14 @@ public:
         QString Namen_holen(); 
 	QString user_holen(); 
 	QString key_holen(); 
-     
+        bool rmDir(const QString &dirPath);
+
 public slots:
         
         
 protected slots:
         void save_net ();
    	void restore_net ();
-        void save_clone ();
         QString hostname();
         QString IP(QString adresse);
         void listWidget_show();
@@ -54,7 +56,7 @@ protected slots:
         int questionMessage(QString frage);
 
 private:
-	QDirModel *dirModel;
+	QFileSystemModel *dirModel;
 	
 private slots:
 	int end();
@@ -62,6 +64,7 @@ private slots:
 };
 
 #endif
+
 
 
 

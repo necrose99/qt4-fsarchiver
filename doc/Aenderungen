@@ -1,6 +1,33 @@
 ==================================================================================================
 * qt4-fsarchiver: Grafische Oberfläche für fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
+* qt5-fsarchiver-0.8.0-5 2. November, 2016.
+    - Sichern und Wiederherstellen von vfat-Partitionen ist möglich.
+* qt4-fsarchiver-0.8.0-3 31. Oktober, 2016.
+    - Korrektur bei der Schlussmeldung.
+* qt4-fsarchiver-0.8.0-0 15 Oktober, 2016.
+    - Anpassung an die Version 0.8.0 von fsarchiver
+    - Die Änderungen von fsarchiver sind in der Datei Change erläutert.
+* qt4-fsarchiver-6.19-21 August 2016
+    - Mit ssh über das Netzwerk sichern und zurückschreiben ist wieder möglich möglich.
+    - Je nach Betriebssystem muss das Programm in einem Terminal mit Root-Rechten gestartet werden.
+    - kleinere Verbesserungen.
+* qt4-fsarchiver-6.19-20 30. Juni 2016
+    - Anzeige der zurückzuschreibenden fsa-Datei über das Netzwerk wieder vorhanden.
+    - Mit ssh über das Netzwerk sichern und zurückschreiben ist vorläufig nicht mehr möglich.
+    - kleinere Verbesserungen.
+* qt4-fsarchiver-6.19-19 1. Juni 2016
+    - qt4-fsarchiver wurde ind die Qt5 Entwicklungumgebung übersetzt.
+    - Umbenennung von qt4-fsarchiver in qt5-fsarchiver.
+    - kleinere Verbesserungen.
+* qt4-fsarchiver-6.19-18 5. Mai 2016
+    - kleinere Verbesserungen.
+* qt4-fsarchiver-6.19-17 5. Mai 2016
+    - Russische Übersetzung korrigiert.
+    - kleinere Verbesserungen.
+* qt4-fsarchiver-6.19-16 15. Dezember 2015
+    - Imagebildung von Partitionen hinzugefügt.
+    - kleinere Verbesserungen.
 * qt4-fsarchiver-6.19-15 1. August 2015
     - Starter von sudo nach gksu geändert.
     - Starter für Gnome, KDE, Unity, Mate, Cinnamon, Xfce und  Lxde hinzugefügt.

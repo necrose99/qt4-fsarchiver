@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -62,15 +62,17 @@ DialogDIR::DialogDIR(QWidget *parent)
         connect( pushButton_break, SIGNAL( clicked() ), this, SLOT( esc_end() ) ); 
         connect( chk_hidden, SIGNAL( clicked() ), this, SLOT(chkhidden()));
         timer = new QTimer(this);
-        dirModel = new QDirModel;
+        dirModel = new QFileSystemModel;
    	selModel = new QItemSelectionModel(dirModel);
-        dirModel1 = new QDirModel;
+        dirModel1 = new QFileSystemModel;
    	selModel1 = new QItemSelectionModel(dirModel1);
    	QModelIndex cwdIndex = dirModel->index(QDir::rootPath());
+        dirModel->setRootPath(QDir::rootPath());
         treeView_dir->setModel(dirModel);
    	treeView_dir->setSelectionModel(selModel);
    	treeView_dir->setRootIndex(cwdIndex);
 	QModelIndex cwdIndex1 = dirModel1->index(QDir::rootPath());
+        dirModel1->setRootPath(QDir::rootPath());
         treeView_path->setModel(dirModel1);
    	treeView_path->setSelectionModel(selModel1);
    	treeView_path->setRootIndex(cwdIndex1);
@@ -94,9 +96,9 @@ DialogDIR::DialogDIR(QWidget *parent)
         items.clear();
         // Ini-Datei auslesen
         QString homepath = QDir::homePath();
-        QFile file(homepath + "/.config/qt4-fsarchiver/qt4-fsarchiver.conf");
+        QFile file(homepath + "/.config/qt5-fsarchiver/qt5-fsarchiver.conf");
         if (file.exists()) {
-   	   QSettings setting("qt4-fsarchiver", "qt4-fsarchiver");
+   	   QSettings setting("qt5-fsarchiver", "qt5-fsarchiver");
            setting.beginGroup("Basiseinstellungen");
            int auswertung = setting.value("Kompression").toInt();
            cmb_zip -> setCurrentIndex(auswertung); 
@@ -323,7 +325,7 @@ Qt::CheckState state1;
         	parameter[0] = "fsarchiver";
        		parameter[1] = "archinfo";
 		parameter[2] = folder_dir;
-        	fsarchiver_aufruf(3,parameter[0].toAscii().data(),parameter[1].toAscii().data(),parameter[2].toAscii().data(),parameter[3].toAscii().data());
+        	fsarchiver_aufruf(3,parameter[0].toLatin1().data(),parameter[1].toLatin1().data(),parameter[2].toLatin1().data(),parameter[3].toLatin1().data());
         if (werte_holen(4) == 103){
                  chk_key->setChecked(Qt::Checked);
                  lineKey->setEnabled(true);
@@ -341,7 +343,7 @@ Qt::CheckState state1;
                 	return 0 ; 
                	}
                 parameter[4] = folder_dir;
-                int retour = fsarchiver_aufruf(5,parameter[0].toAscii().data(),parameter[1].toAscii().data(),parameter[2].toAscii().data(),parameter[3].toAscii().data(),parameter[4].toAscii().data (),parameter[5].toAscii().data());
+                int retour = fsarchiver_aufruf(5,parameter[0].toLatin1().data(),parameter[1].toLatin1().data(),parameter[2].toLatin1().data(),parameter[3].toLatin1().data(),parameter[4].toAscii().data(),parameter[5].toLatin1().data());
                 if ( werte_holen(4) == 103 && retour != 0){
                            QMessageBox::about(this, tr("Note", "Hinweis"), tr("You have entered an incorrect password.", "Sie haben ein falsches Passwort eingegeben. \n"));
            		   lineKey->setText ("");
@@ -494,7 +496,7 @@ void DialogDIR::thread2Ready()  {
    if (flag_end_dir == 1) {
         QMessageBox::about(this, tr("Note", "Hinweis"),
          tr("The restore of the folder was break by user!\n", "Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!\n") );
-	meldung == 0;
+	meldung = 0;
         }
    if (meldung == 100) {
        // Anzahl nicht korrekt gesicherte Dateien ausgeben
@@ -690,7 +692,7 @@ QString befehl;
         {
         flag_end_dir= 1;
      	befehl = "rm "  + SicherungsFolderFileName_dir;
-        system (befehl.toAscii().data());
+        system (befehl.toLatin1().data());
         if (window.bit_version() == "64")
 		{ 
       		thread1.terminate();
@@ -700,9 +702,9 @@ QString befehl;
         if (window.bit_version() == "32")
         	{
 		befehl = "kill -15 " + pid1_dir;  //fsarchiver abbrechen
-     		system (befehl.toAscii().data());
+     		system (befehl.toLatin1().data());
     		befehl = "kill -15 " + pid_dir;  //fsarchiver abbrechen
-    		system (befehl.toAscii().data());
+    		system (befehl.toLatin1().data());
                 close();
                 }
         }
@@ -718,9 +720,9 @@ QString befehl;
 	if (window.bit_version() == "32")
         	{
 		befehl = "kill -15 " + pid1_dir;  //fsarchiver abbrechen
-     		system (befehl.toAscii().data());
+     		system (befehl.toLatin1().data());
     		befehl = "kill -15 " + pid_dir;  //fsarchiver abbrechen
-    		system (befehl.toAscii().data());
+    		system (befehl.toLatin1().data());
                 close();
                 }
         }
@@ -755,6 +757,7 @@ void DialogDIR::chkhidden(){
        	dirModel->setNameFilters(filters); 
        	}
 }
+
 
 
 

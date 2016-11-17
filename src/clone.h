@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,9 +17,12 @@
 #ifndef CLONE_H
 #define CLONE_H
 #include <QtGui>
+#include <QFileSystemModel> 
+
 #include <string.h>
 #include "ui_clone_dialog.h"
 #include <qthread.h>
+
 #include "thread.h"
 using namespace std;
 
@@ -54,9 +57,15 @@ public slots:
         void read_write_hd();
 	void read_write_hd_1();
 	void keyPressEvent(QKeyEvent *event) ;
-                
+        int do_image_partition();
+        int restore_image_partition(); 
+        void rdbutton_partition_image_save();
+        void rdbutton_partition_image_restore();
+        void addWidget();
+        void listWidget_auslesen();
+                       
 private:
-    QDirModel *dirModel;
+    QFileSystemModel *dirModel;
     QItemSelectionModel *selModel;
     QLabel *questionLabel;
     int mountpoint(QString partition);
@@ -74,6 +83,7 @@ private slots:
    void thread2Ready();
 };
 #endif
+
 
 
 

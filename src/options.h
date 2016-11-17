@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
- * 
- * Copyright (C) 2008-2015 Francois Dupoux.  All rights reserved.
+ *
+ * Copyright (C) 2008-2016 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -27,6 +27,7 @@ typedef struct s_options coptions;
 struct s_options
 {   bool     overwrite;
     bool     allowsaverw;
+    bool     experimental;
     bool     dontcheckmountopts;
     int      verboselevel;
     int      debuglevel;
@@ -50,6 +51,3 @@ int options_destroy();
 int options_select_compress_level(int opt);
 
 #endif // __OPTIONS_H__
-
-
-

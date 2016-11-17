@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -24,6 +24,7 @@
 #include <fstream>
 #include <sstream>
 #include "mainWindow.h"
+
 using namespace std;
 extern int dialog_auswertung;
 QString wort;
@@ -57,23 +58,25 @@ void FileDialog::folder_einlesen() {
 void FileDialog::file_save()
 {
         extern QString folder_file_;
-        QString text;
       	QString filename = folder_file_;
         if (filename.isEmpty())
    		return;
 	QFile file(filename);
-        //if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) 
         if (!file.open(QIODevice::ReadWrite | QIODevice::Text)) 
            {
              QMessageBox::about(this,tr("Note", "Hinweis"),
               tr("Instructions for partition were not recorded written to the file.\n", "Die Hinweise zur Partition wurden nicht in eine Datei geschrieben.\n"));
             }
-        text = textEdit->toPlainText().toAscii();
-	file.write((textEdit->toPlainText()).toAscii());
+        textEdit->toPlainText().toUtf8();
+    	file.write((textEdit->toPlainText()).toUtf8());
   }
 
 void FileDialog::file_read()
 {
+        QSettings setting("qt5-fsarchiver", "qt5-fsarchiver");
+        setting.beginGroup("Basiseinstellungen");
+        int auswertung = setting.value("Sprache").toInt();
+        setting.endGroup();
 	extern QString folder_file_;	
 	QString filename = folder_file_;
         int pos = filename.indexOf("fsa");
@@ -83,21 +86,13 @@ void FileDialog::file_read()
                 if (!filename.isEmpty()) {
       		QFile file(filename);
         	if (file.open(QIODevice::ReadOnly | QIODevice::Text)) 
-               {
-               textEdit->setPlainText(file.readAll());
-               }
+                    textEdit->setPlainText(file.readAll());
  	  }
   }
 
-
-QString FileDialog::werte_holen_(int auswahl) {
-return  tr("hello", "hallo");
-}
-
 void FileDialog::werte_uebergeben(QString wert) {
-	wort = wert;
+       	wort = wert;
 }
-
 
 
 

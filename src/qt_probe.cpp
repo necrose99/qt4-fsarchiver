@@ -1,7 +1,7 @@
 /*
  * fsarchiver: Filesystem Archiver
  * 
- * Copyright (C) 2008-2015 Francois Dupoux.  All rights reserved.
+ * Copyright (C) 2008-2016 Francois Dupoux.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -80,8 +80,7 @@ int qt_probe()
             if (blkdev[i].devtype==BLKDEV_FILESYSDEV)
             {
 		partition[i][0] = partlist_getinfo(temp, sizeof(temp), &blkdev[i], 0), strlen(partlist_getinfo(temp, sizeof(temp), &blkdev[i], 0));
-                // qDebug() << " partition[i][0]" << partition[i][0] << partition[i][1]  << partition[i][3] ;
-                if (partition[i][0] != "" && partition[i][0] != "ramzswap0" && partition[i][0] != "" && partition[i][0] != "loop0" && partition[i][0] != "" && partition[i][0] != "zram0"){
+              if (partition[i][0] != "" && partition[i][0] != "ram0" && partition[i][0] != "ram1" && partition[i][0] != "ram2" && partition[i][0] != "ram3" && partition[i][0] != "ram4" && partition[i][0] != "ram5" && partition[i][0] != "ram6" && partition[i][0] != "ram7" && partition[i][0] != "ram8" && partition[i][0] != "ram9" && partition[i][0] != "ram10" && partition[i][0] != "ram11" && partition[i][0] != "ram12" && partition[i][0] != "ram13" && partition[i][0] != "ram14" && partition[i][0] != "ram15"  && partition[i][0] != "ramzswap0" && partition[i][0] != "loop0" && partition[i][0] != "zram0"){
                    j = j + 1;
                 //Daten in ein Array übernehmen vielleicht für einen bessere Formatierung im Listfeld
                   //Device
@@ -105,6 +104,7 @@ int qt_probe()
     return 0;
 
 }
+
 
 
 

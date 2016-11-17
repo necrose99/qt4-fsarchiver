@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,8 +17,11 @@
 #ifndef MBR_H
 #define MBR_H
 #include <QtGui>
+#include <QFileSystemModel> 
+#include <QMessageBox>
 #include <string.h>
 #include "ui_mbr_dialog.h"
+
 using namespace std;
 
 class DialogMBR : public QWidget, private Ui::mbr_dialog
@@ -39,12 +42,13 @@ public slots:
         void disk_art();
 
 private:
-    QDirModel *dirModel;
+    QFileSystemModel *dirModel;
     QItemSelectionModel *selModel;
     QLabel *questionLabel;
     string mtab_einlesen(string partition_if_home);
 };
 #endif
+
 
 
 

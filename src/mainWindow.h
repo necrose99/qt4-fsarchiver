@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,6 +17,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include <QtGui>
+#include <QFileSystemModel> 
+
 #include <string.h>
 #include "ui_fsarchiverMain.h"
 #include "thread.h"
@@ -89,7 +91,7 @@ protected slots:
    void clone_save_net();
      
 private:
-    QDirModel *dirModel;
+    QFileSystemModel *dirModel;
     QItemSelectionModel *selModel;
     QLabel *questionLabel;
     Thread thread1;
@@ -105,6 +107,7 @@ private slots:
      
 };
 #endif
+
 
 
 

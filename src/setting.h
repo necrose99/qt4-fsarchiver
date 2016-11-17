@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,6 +17,7 @@
 #ifndef SETTING_H
 #define SETTING_H
 #include <QtGui>
+#include <QMessageBox>
 #include <QDialog>
 #include "ui_setting.h"
 
@@ -34,6 +35,7 @@ private slots:
 };
 
 #endif
+
 
 
 

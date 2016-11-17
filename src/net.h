@@ -1,7 +1,7 @@
 /*
- * qt4-fsarchiver: Filesystem Archiver
+ * qt5-fsarchiver: Filesystem Archiver
  * 
-* Copyright (C) 2008-2015 Dieter Baum.  All rights reserved.
+* Copyright (C) 2008-2016 Dieter Baum.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,6 +17,8 @@
 #ifndef NET_H
 #define NET_H
 #include <QtGui>
+#include <QFileSystemModel> 
+#include <QMessageBox>
 #include "ui_net.h"
 #include "thread.h"
 using namespace std;
@@ -55,7 +57,7 @@ protected slots:
 	void addItems(const QString &name, const QStringList& iconMap);
         void button_toParent();
         void treeWidget_auslesen();
-        void folder_free_mounten();
+        int folder_free_mounten();
         void save_partitions();
         void save_directories();
         void chkhidden();
@@ -67,7 +69,7 @@ private:
         QTimer *timer; 
         QIcon folderIcon;
         QIcon fileIcon;	
-        QDirModel *dirModel;
+        QFileSystemModel *dirModel;
         QItemSelectionModel *selModel;	
 	
 private slots:
@@ -90,6 +92,7 @@ private slots:
 };
 
 #endif
+
 
 
 

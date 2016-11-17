@@ -1,6 +1,43 @@
 ==================================================================================================
 * qt4-fsarchiver: Graphical interface for fsarchiver fsarchiver [http://wiki.ubuntuusers.de/qt4-fsarchiver] 
 ==================================================================================================
+*  qt5-fsarchiver-0.8.0-5 November 2, 2016.
+     - Backing up and restoring vfat partitions is possible.
+*  qt4-fsarchiver-0.8.0-3 October 31, 2016.
+     - Correction for the message at the end.
+*  qt4-fsarchiver-0.8.0-0 October 15, 2016.
+     - Adjustment Version 0.8.0 fsarchiver 
+     - Implemented FAT filesystem support for EFI system partitions
+     - Allow user to specify new filesystem label or UUID during restfs
+     - Fixed more errors and warnings reported by cppcheck
+     - Updated man page and description of the commands and options
+     - Support for sparse inode chunks on XFS v5
+     - Avoid internationalization when running commands so mkfs output can be parsed properly
+     - Added micro-seconds to timestamp used in the name of the temporary directory
+     - Fixed memory leaks on failure scenarios and protect against buffer overflows in scanf
+     - Fixed possible failure to restore ext4 filesystems when mkfs running in interactive mode
+     - Fixed compilation errors with the musl libc library
+     - Test support for extended attributes and ACLs instead of checking mount options
+*  qt4-fsarchiver-6.19-21 August 1, 2016.
+     - With ssh backup and restore over the network and restore is possible again
+     - Depending on the operating system, the program must be started in a terminal with root privileges.
+     - Minor improvements.
+*  qt4-fsarchiver-6.19-20 June 30, 2016.
+     - Displaying restore the fsa file over the network again available.
+     - With ssh backup and restore over the network there is not longer possible.
+     - Minor improvements.
+*  qt4-fsarchiver-6.19-19 June 1, 2016.
+     - qt4-fsarchiver was translated from Qt4 to QT5.
+     - New name of the program: qt5-fsarchiver.
+     - Minor improvements.
+* qt4-fsarchiver-6.19-18 May 11, 2016
+    - Minor improvements.
+* qt4-fsarchiver-6.19-17 May 5, 2016
+    - corrected Russian translation.
+    - Minor improvements.
+* qt4-fsarchiver-6.19-16 December 15, 2015
+     - Image formation of partitions added.
+     - Minor improvements.
 * qt4-fsarchiver-6.19-15 August 1, 2015 
     -Starter changed from sudo to gksu.
     -Added starter for Gnome, KDE, Unity, Mate, Cinnamon, Xfce und  Lxde.
