@@ -60,6 +60,6 @@ pkg_postinst() {
 	elog "  sys-fs/ntfs3g[ntfsprogs]"
 	elog "  sys-fs/reiser4progs"
 	elog "  sys-fs/reiserfsprogs"
-	elog "  sys-fs/sshfs-fuse"
+	elog "  net-fs/sshfs"
 	elog "  sys-fs/xfsprogs"
 }
