@@ -101,7 +101,7 @@
         <location filename="../src/clone.cpp" line="403"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-        <translation>Apakah Anda ingin benar-benar dibangun sebuah gambar dari hard drive?</translation>
+        <translation> Apakah Anda ingin benar-benar membangun sebuah gambar dari hard drive? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="230"/>
@@ -116,34 +116,34 @@
         <source>You must select a partition.</source>
         <comment>Sie müssen eine Partition auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Anda harus memilih sebuah partisi.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="203"/>
         <source> Do you want really built a image from a partition? </source>
         <comment> Wollen Sie wirklich ein Abbild einer Partition erstellen? </comment>
-        <translation type="unfinished"></translation>
+        <translation> Apakah anda benar-benar ingin membuat gambar dari partisi? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="235"/>
         <source>You must select a partition.</source>
         <comment>Sie müssen eine Partitiom auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Anda harus memilih sebuah partisi.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="239"/>
         <source>You must select a part.fsa file or an part.fsa.gz file.</source>
         <comment>Sie müssen eine part.fsa- oder eine part.fsa.gz-Datei auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Anda harus memilih file part.fsa atau file part.fsa.gz.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="257"/>
         <location filename="../src/clone.cpp" line="464"/>
         <source>Partition to restore </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation type="unfinished"></translation>
+        <translation>Partisi untuk mengembalikan </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="258"/>
@@ -163,7 +163,7 @@
         <location filename="../src/clone.cpp" line="273"/>
         <source> Do you want really restore an image of a partition? </source>
         <comment> Wollen Sie wirklich ein Abbild einer Partition zurückschreiben? </comment>
-        <translation type="unfinished"></translation>
+        <translation> Apakah anda benar-benar ingin mengembalikan gambar dari sebuah partisi? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="448"/>
@@ -202,7 +202,7 @@
         <location filename="../src/clone.cpp" line="558"/>
         <source>Exist harddrive</source>
         <comment>Existierende Festplatte</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ada harddrive</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="552"/>
@@ -520,7 +520,7 @@
 backup. key:</source>
         <comment>Sicherung
 verschlüsseln. Schlüssel:</comment>
-        <translation>Encrypt
+        <translation>Enkripsi
 backup. key:</translation>
     </message>
     <message>
@@ -547,7 +547,7 @@ backup. key:</translation>
 backup. key:</source>
         <comment>Sicherung
 entschlüsseln. Schlüssel:</comment>
-        <translation>Decrypt
+        <translation>Dekripsi
 backup. key:</translation>
     </message>
     <message>
@@ -737,13 +737,13 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="441"/>
         <source>  directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation> Direktori, </translation>
+        <translation>  direktori, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
         <source>  links and </source>
         <comment> Links und </comment>
-        <translation> link dan </translation>
+        <translation>  link dan </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
@@ -764,7 +764,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="460"/>
         <source> Files, </source>
         <comment> Dateien, </comment>
-        <translation>File, </translation>
+        <translation> File, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="461"/>
@@ -788,7 +788,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Wiederherstellung des Verzeichnisses war erfolgreich.
 </comment>
-        <translation></translation>
+        <translation>Proses pengembalian direktori berhasil.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="494"/>
@@ -821,7 +822,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="511"/>
         <source> files,</source>
         <comment> Dateien, </comment>
-        <translation> files, </translation>
+        <translation> files,</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="513"/>
@@ -1164,7 +1165,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mbr.cpp" line="430"/>
         <source> bytes. The hidden area of the disk </source>
         <comment> Byte. Der verborgene Bereich von der Festplatte </comment>
-        <translation>byte. Daerah tersembunyi dari disk</translation>
+        <translation> byte. Daerah tersembunyi dari disk </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="430"/>
@@ -1562,7 +1563,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="944"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
-        <translation>The partition </translation>
+        <translation>The partition</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="957"/>
@@ -2736,7 +2737,7 @@ backup. key:</translation>
         <location filename="../src/mainWindow.cpp" line="576"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
-        <translation>The partition </translation>
+        <translation>Partisi</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="576"/>
@@ -2761,7 +2762,7 @@ backup. key:</translation>
         <location filename="../src/mainWindow.cpp" line="681"/>
         <source>The partition file</source>
         <comment>Die Partitionsdatei</comment>
-        <translation>File partisi </translation>
+        <translation>File partisi</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="681"/>
@@ -2769,7 +2770,7 @@ backup. key:</translation>
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
 </comment>
-        <translation>sudah ada. Backup tidak dilakukan
+        <translation> sudah ada. Backup tidak dilakukan
 </translation>
     </message>
     <message>
@@ -3205,7 +3206,7 @@ Version 0.8.0-5, November 2, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1613"/>
         <source>Partition size: </source>
         <comment>Partitionsgröße: </comment>
-        <translation>Partition size: </translation>
+        <translation>Ukuran partisi: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1613"/>
@@ -3218,7 +3219,7 @@ Version 0.8.0-5, November 2, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1614"/>
         <source>Compression: </source>
         <comment>Kompression: </comment>
-        <translation>Compression: </translation>
+        <translation>Kompressi: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1615"/>
@@ -3230,7 +3231,7 @@ Version 0.8.0-5, November 2, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1615"/>
         <source>Other notes: </source>
         <comment>weitere Hinweise:</comment>
-        <translation>Other notes: </translation>
+        <translation>Catatan lain: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1616"/>
@@ -3243,7 +3244,7 @@ Version 0.8.0-5, November 2, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1627"/>
         <source>Operating system: </source>
         <comment>Betriebsystem: </comment>
-        <translation>Operating system: </translation>
+        <translation>Sistem Operasi: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1621"/>
