@@ -150,14 +150,14 @@
         <location filename="../src/clone.cpp" line="465"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation type="unfinished"> does not coincide with the saved  </translation>
+        <translation> tidak sesuai dengan yang tersimpan  </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="258"/>
         <location filename="../src/clone.cpp" line="465"/>
         <source> Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
-        <translation type="unfinished"></translation>
+        <translation> Apakah anda ingin untuk melanjutkan pengembalian?</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="273"/>
@@ -214,25 +214,25 @@
         <location filename="../src/clone.cpp" line="574"/>
         <source>Save Partition Image</source>
         <comment>Image einer Partition erstellen</comment>
-        <translation type="unfinished"></translation>
+        <translation>Menyimpan gambar partisi</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="576"/>
         <source>Save Partition Image</source>
         <comment>Partition Abbild erstellen</comment>
-        <translation type="unfinished"></translation>
+        <translation>Menyimpan gambar partisi</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="587"/>
         <source>Restore Partition Image</source>
         <comment>Image einer Partition zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mengembalikan gambar partisi</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="589"/>
         <source>Restore Partition Image</source>
         <comment>Partition Abbild zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mengembalikan gambar partisi</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="670"/>
@@ -1512,7 +1512,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="871"/>
         <source>Partition to restore the </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation>Partition to restore the </translation>
+        <translation>Partisi untuk mengembalikan </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="872"/>
