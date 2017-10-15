@@ -1301,7 +1301,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis gefunden.
 </comment>
-        <translation>Can not find a shared directory with the NFS Protokoll.
+        <translation>NFS protokolliga jagatud kataloogi ei leitud.
 </translation>
     </message>
     <message>
@@ -1443,7 +1443,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
 </comment>
-        <translation>The backup was aborted by the user
+        <translation>Kasutaja katkestas varundamise
 </translation>
     </message>
     <message>
@@ -1452,7 +1452,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>No key was given for the decryption
+        <translation>Dekrüpteerimiseks võtit ei antud
 </translation>
     </message>
     <message>
@@ -1461,7 +1461,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie die zurück zu schreibende Partition aus.
 </comment>
-        <translation>Please, select the partition to be written back.
+        <translation>Palun vali taastatav partitsioon.
 </translation>
     </message>
     <message>
@@ -1470,7 +1470,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie das zurück zu schreibende Verzeichnis aus.
 </comment>
-        <translation></translation>
+        <translation>Palun vali taastatav kataloog.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="801"/>
@@ -1487,7 +1488,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Datei enthält eine Partitionssicherung. Die Datei kann nicht als Verzeichnis zurückgeschrieben werden. 
 </comment>
-        <translation></translation>
+        <translation>Failis on varukoopia partitsioonist. Sellest failist ei saa kataloogi taastada.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="813"/>
@@ -1495,7 +1497,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Datei enthält eine Verzeichnissicherung. Die Datei kann nicht als Partition zurückgeschrieben werden. 
 </comment>
-        <translation></translation>
+        <translation>Failis on varukoopia kataloogist. Seda faili ei saa kasutada partitsiooni taastamiseks.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="836"/>
@@ -1503,7 +1506,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
 </comment>
-        <translation>The partition is encrypted. Please enter the key
+        <translation>Partitsioon on krüpteeritud. Palun sisesta võti
 </translation>
     </message>
     <message>
@@ -1512,25 +1515,26 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation></translation>
+        <translation>Sisestatud on vale parool.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="871"/>
         <source>Partition to restore the </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation>Partition to restore the </translation>
+        <translation>Taastatav partitsioon </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="872"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation> does not coincide with the saved  </translation>
+        <translation> ei vasta salvestatule  </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="872"/>
         <source>Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
-        <translation>Do you want to continue restore?</translation>
+        <translation>Kas soovid taastamist jätkata?</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="900"/>
@@ -1538,7 +1542,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Das Zurückschreiben wurde vom Benutzer abgebrochen
 </comment>
-        <translation>The restore was canceled by user
+        <translation>Kasutaja tühistas taastamise
 </translation>
     </message>
     <message>
