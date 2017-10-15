@@ -262,49 +262,49 @@
         <source>Backing up the image of a partition was successful.</source>
         <comment>Die Sichern des Abbildes der Partition war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Partitsiooni tõmmiseks varundamine oli edukas.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="838"/>
         <source>Backing up the image of the hard disk was not successful.</source>
         <comment>Die Sichern des Abbildes der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Kõvaketta tõmmiseks varundamine nurjus.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="845"/>
         <source>Backing up the image of a partition was not successful.</source>
         <comment>Die Sichern des Abbildes der Partition war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Partitsiooni tõmmiseks varundamine nurjus.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="872"/>
         <source>The restore of the image of the hard disk was successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Festplatte war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Kõvaketta taastamine tõmmisest oli edukas.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="874"/>
         <source>The restore of the image of the partition was successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Partition war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Partitsiooni taastamine tõmmisest oli edukas.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="879"/>
         <source>The restore of the image of the hard disk was not successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Kõvaketta taastamine tõmmisest nurjus.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="885"/>
         <source>The restore of the image of the partition was not successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Partition war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Partitsiooni taastamine tõmmisest nurjus.</translation>
     </message>
     <message>
         <source>The backup of the image was successfully.</source>
@@ -1099,7 +1099,7 @@ Die Dateiendung muss .fsa sein</comment>
         <source>Mistake. The partition table can not be read. The program is terminated</source>
         <comment>Fehler. Die Partitionstabelle kann nicht ausgelesen werden. Das Programm wird abgebrochen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Viga. Partitsioonitabelit ei saa lugeda. Programmi töö lõpetatud</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="336"/>
@@ -1435,7 +1435,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="702"/>
         <source>The directorie file </source>
         <comment>Die Verzeichnisdatei </comment>
-        <translation type="unfinished"></translation>
+        <translation>Kataloogide fail </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="720"/>
@@ -1596,7 +1596,7 @@ backup. key:</translation>
         <location filename="../src/net.cpp" line="1073"/>
         <source>Partition/directorie restore</source>
         <comment>Partition/Verzeichnis zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>Partitsiooni või kataloogide taastamine</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1083"/>
@@ -1866,7 +1866,8 @@ backup. key:</translation>
 </source>
         <comment> Die Sicherung oder Wiederherstellung mit ssh ist nicht möglich. Beenden Sie  das Programm und starten es erneut im Terminal mit Root-Rechten
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>SSH abil varundamine või taastamine ei ole võimalik. Käivita programm uuesti juurkasutaja õigustes.
+</translation>
     </message>
     <message>
         <source>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.
@@ -1918,7 +1919,7 @@ backup. key:</translation>
         <location filename="../src/setting.cpp" line="33"/>
         <source>Chinese</source>
         <comment>Chinesisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>hiina</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
@@ -1936,175 +1937,175 @@ backup. key:</translation>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Arabic</source>
         <comment>Arabisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>araabia</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Catalan</source>
         <comment>Katalanisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>katalaani</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Danish</source>
         <comment>Dänisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>taani</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>French</source>
         <comment>Französisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>prantsuse</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Czech</source>
         <comment>Tschechisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>tšehhi</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Greek</source>
         <comment>Griechisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>kreeka</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Finnish</source>
         <comment>Finnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>soome</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hindi</source>
         <comment>Hindi</comment>
-        <translation type="unfinished"></translation>
+        <translation>hindi</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hungarian</source>
         <comment>Ungarisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ungari</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Armenian</source>
         <comment>Armenisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>armeenia</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Estonian</source>
         <comment>Estnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>eesti</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hebrew</source>
         <comment>Hebräisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>heebrea</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Indonesian</source>
         <comment>Indonesisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>indoneesia</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Korean</source>
         <comment>Koreanisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>korea</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Norwegian</source>
         <comment>Norwegisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>norra</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Polish</source>
         <comment>Polnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>poola</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Romanian</source>
         <comment>Rumänisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>rumeenia</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Latvian</source>
         <comment>Lettisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>läti</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Lithuanian</source>
         <comment>Litauisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>leedu</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Portuguese</source>
         <comment>Portugisisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>portugali</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Persian</source>
         <comment>Persisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>pärsia</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Slovak</source>
         <comment>Slowakisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>slovaki</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Serbian</source>
         <comment>Serbisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>serbia</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Swedish</source>
         <comment>Schwedisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>rootsi</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Turkish</source>
         <comment>Türkisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>türgi</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Ukrainian</source>
         <comment>Ukrainisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ukraina</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Urdu</source>
         <comment>Urdu</comment>
-        <translation type="unfinished"></translation>
+        <translation>urdu</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Thai</source>
         <comment>Thailändisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>tai</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Vietnamese</source>
         <comment>Vietnamesich</comment>
-        <translation type="unfinished"></translation>
+        <translation>vietnami</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="42"/>
@@ -2223,7 +2224,7 @@ backup. key:</translation>
         <location filename="../src/ui/net.ui" line="74"/>
         <source>Existing partitions/directories:</source>
         <extracomment>vorhandene Partitionen:</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Olemasolevad partitsioonid/kataloogid:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="93"/>
@@ -2243,7 +2244,8 @@ backup. key:</translation>
         <source>Restore partition 
  or directory</source>
         <extracomment>Partition mit fs-Archiver * zurückschreiben</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Taasta partitsioon
+või kataloog</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="155"/>
@@ -2282,7 +2284,7 @@ backup. key:</translation>
         <location filename="../src/ui/net.ui" line="246"/>
         <source>Partition/directorie restore</source>
         <extracomment>Partition wiederherstellen</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Partitsiooni/kataoogi taastamine</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="278"/>
@@ -2407,12 +2409,12 @@ transmission:</source>
     <message>
         <location filename="../src/ui/net.ui" line="751"/>
         <source>Show partitions</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuva partitsioonid</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="764"/>
         <source>Show directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuva kataloogid</translation>
     </message>
 </context>
 <context>
@@ -2509,7 +2511,11 @@ transmission:</source>
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/filedialog.cpp" line="42"/>
@@ -2940,7 +2946,8 @@ Die Dateiendung muss .fsa sein</comment>
         <source>Backup and restore partitions, directory and MBR
 Version 0.8.0-5, November 2, 2016</source>
         <comment>Sichern und Wiederherstellen von Partitionen, Verzeichnissen und MBR Version 0.8.0-5, 2. November 2016</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kataloogide, partitsioonide ja MBRi varundamine ja taastamine
+Versioon 0.8.0-5, 02. november 2016</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1094"/>
@@ -3457,12 +3464,12 @@ backup key</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="794"/>
         <source>Save a partition/directorie on network</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta partitsioon/kataloogid võrku</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="803"/>
         <source>Restore a partition/directorie on network</source>
-        <translation type="unfinished"></translation>
+        <translation>Taasta partitsioon/kataloogid võrgust</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="577"/>
@@ -3569,12 +3576,12 @@ fsarchiveriga</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="840"/>
         <source>Save directories on network</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta kataloogid võrku</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="845"/>
         <source>Restore directories from network</source>
-        <translation type="unfinished"></translation>
+        <translation>Taasta kataloogid võrgust</translation>
     </message>
 </context>
 <context>
@@ -3655,7 +3662,7 @@ fsarchiveriga</translation>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="630"/>
         <source>p</source>
-        <translation type="unfinished"></translation>
+        <translation>p</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="656"/>
@@ -3779,12 +3786,12 @@ fsarchiveriga</translation>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="590"/>
         <source>Image of a partition to create</source>
-        <translation type="unfinished"></translation>
+        <translation>Partitsiooni tõmmise loomine</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="603"/>
         <source>Image of a partition write back</source>
-        <translation type="unfinished"></translation>
+        <translation>Partitsiooni tõmmisest taastamine</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="616"/>
@@ -3794,7 +3801,7 @@ fsarchiveriga</translation>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="643"/>
         <source>Save/Restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Varunda/taasta</translation>
     </message>
 </context>
 <context>
@@ -4016,7 +4023,7 @@ backup key</translation>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="504"/>
         <source>show hidden directories/files</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuva peidetud kataloogid/failid</translation>
     </message>
 </context>
 <context>
@@ -4086,7 +4093,8 @@ Backup / restore:</translation>
         <location filename="../src/ui/mbr_dialog.ui" line="140"/>
         <source>Existing
 harddrive:</source>
-        <translation type="unfinished"></translation>
+        <translation>Olemasolev
+kõvaketas:</translation>
     </message>
 </context>
 <context>
@@ -4154,7 +4162,7 @@ back to the original location</translation>
     <message>
         <location filename="../src/ui/setting.ui" line="179"/>
         <source>Show passwords</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuva paroolid</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="192"/>
