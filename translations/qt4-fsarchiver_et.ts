@@ -1549,7 +1549,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="912"/>
         <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source>
         <comment>Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</comment>
-        <translation>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</translation>
+        <translation>Fail partitsiooni alglaadekirje sisuga on olemas. Kas soovid taastada partitsiooni alglaadekirje?</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="925"/>
@@ -1557,7 +1557,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>To restore system partition is mounted and can not be restored. Please use a live CD
+        <translation>Süsteemi partitsiooni ei saa hetkel taastada, sest ta on ühendatud ja kasutusel. Palun kasuta LiveCD-d
 </translation>
     </message>
     <message>
@@ -1566,7 +1566,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>The restored home partition is mounted and can not be restored. Please use a live CD
+        <translation>Kodupartitsiooni ei saa hetkel taastada, sest ta on ühendatud ja kasutusel. Palun kasuta LiveCD-d
 </translation>
     </message>
     <message>
@@ -1593,8 +1593,8 @@ Die Dateiendung muss .fsa sein</comment>
 backup. key:</source>
         <comment>Sicherung
 verschlüsseln. Schlüssel:</comment>
-        <translation>Encrypt
-backup. key:</translation>
+        <translation>Krüpteeri
+varukoopia. Võti:</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1073"/>
@@ -1608,8 +1608,8 @@ backup. key:</translation>
 backup. key:</source>
         <comment>Sicherung
 entschlüsseln. Schlüssel</comment>
-        <translation>Decrypt
-backup. key:</translation>
+        <translation>Dekrüpti
+varukoopia. Võti:</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1241"/>
@@ -1617,7 +1617,8 @@ backup. key:</translation>
 </source>
         <comment>Die Partition/das Verzeichnis wurde erfolgreich gesichert.
 </comment>
-        <translation></translation>
+        <translation>Partitsioon/kataloog edukalt varundatud.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1242"/>
@@ -1669,7 +1670,8 @@ backup. key:</translation>
 </source>
         <comment>Die Sicherung der Partition/des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation></translation>
+        <translation>Kasutaja katkestas partitsiooni/kataloogi varundamise!
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1265"/>
@@ -1677,7 +1679,8 @@ backup. key:</translation>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt
 </comment>
-        <translation></translation>
+        <translation>Partitsiooni tüübi tugi puudub.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1272"/>
@@ -1685,7 +1688,7 @@ backup. key:</translation>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
 </comment>
-        <translation>The partition type is not supported. Maybe the partition is encrypted?
+        <translation>Partitsiooni tüübi tugi puudub. Võib-olla on partitsioon krüpteeritud?
 </translation>
     </message>
     <message>
@@ -1694,7 +1697,8 @@ backup. key:</translation>
 </source>
         <comment>Die Sicherung der Partition/des Verzeichnis war nur teilweise erfolgreich
 </comment>
-        <translation></translation>
+        <translation>Partitsiooni/kataloogi varundamine oli edukas ainult osaliselt.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1285"/>
@@ -1718,7 +1722,7 @@ backup. key:</translation>
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
 </comment>
-        <translation>cannot restore an archive to a partition which is mounted, unmount it first 
+        <translation>Partitsioon, mida taastada, on ühendatud. Palun ühenda ta esmalt lahti 
 </translation>
     </message>
     <message>
@@ -1727,7 +1731,8 @@ backup. key:</translation>
 </source>
         <comment>Die Partition/das Verzeichnis wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation></translation>
+        <translation>Partitsioon/kataloog taastati edukalt.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1344"/>
@@ -1741,7 +1746,7 @@ backup. key:</translation>
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>The partition is successful back.
+        <translation>Partitsioon taastati edukalt.
 </translation>
     </message>
     <message>
@@ -1762,7 +1767,8 @@ backup. key:</translation>
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation></translation>
+        <translation>Kasutaja katkestas partitsiooni/kataloogi taastamise!
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1371"/>
@@ -1770,7 +1776,8 @@ backup. key:</translation>
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeichnisses war nur teilweise erfolgreich
 </comment>
-        <translation></translation>
+        <translation>Partitsiooni/kataloogi taastamine oli edukas ainult osaliselt.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1371"/>
@@ -1785,7 +1792,7 @@ backup. key:</translation>
         <location filename="../src/net.cpp" line="1379"/>
         <source> directories and </source>
         <comment> Verzeichnisse und </comment>
-        <translation> directories and </translation>
+        <translation> kataloogi ja </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1374"/>
@@ -1802,7 +1809,8 @@ backup. key:</translation>
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeicnisses war nur teilweise erfolgreich
 </comment>
-        <translation></translation>
+        <translation>Partitsiooni/kataloogi taastamine oli edukas ainult osaliselt.
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1379"/>
