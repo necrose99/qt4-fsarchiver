@@ -1826,7 +1826,7 @@ varukoopia. Võti:</translation>
 </source>
         <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
 </comment>
-        <translation>You tried to restore a partition. The selected file can only restore directories. Please restart the program.
+        <translation>Sa proovisid taastada partitsiooni, kuid valitud failist saab taastada ainult katalooge. Palun käivita programm uuesti.
 </translation>
     </message>
     <message>
@@ -1869,7 +1869,7 @@ varukoopia. Võti:</translation>
 </source>
         <comment>Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals oder mit einem anderen Netzwerkprotokoll.
 </comment>
-        <translation>The SSH server is not reachable. Try again or with another network protocol.
+        <translation>SSH server ei vasta. Proovi uuesti või kasuta teist võrguprotokolli.
 </translation>
     </message>
     <message>
@@ -2199,7 +2199,7 @@ varukoopia. Võti:</translation>
         <source>The settings have been saved. Be restarted, the program modified the language setting.</source>
         <comment>Die Einstellungen wurden gespeichert. Bei geänderter Spracheinstellung muss das Programm neu gestartet werden.
 </comment>
-        <translation>The settings have been saved. Be restarted, the program modified the language setting.</translation>
+        <translation>Seaded on salvestatud. Kui muutsid keeleseadeid, pead programmi taaskäivitama.</translation>
     </message>
 </context>
 <context>
@@ -2307,15 +2307,15 @@ või kataloog</translation>
         <location filename="../src/ui/net.ui" line="288"/>
         <source>On the number saved
 Files/directories:</source>
-        <translation>On the number saved
-Files/directories:</translation>
+        <translation>Faile/katalooge
+varundatud:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="303"/>
         <source>already saved 
 files/directories:</source>
-        <translation>already saved 
-files/directories:</translation>
+        <translation>faile katalooge
+juba varundatud:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="325"/>
@@ -2349,15 +2349,15 @@ files/directories:</translation>
         <location filename="../src/ui/net.ui" line="504"/>
         <source>Number of processors
 cores for to be used fsarchiver:</source>
-        <translation>Number of processors
-cores for to be used fsarchiver:</translation>
+        <translation>fsarchiveri poolt kasutatavate
+protsessori tuumade arv:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="528"/>
         <source>Compression
 setting:</source>
-        <translation>Compression
-setting:</translation>
+        <translation>Pakkimise
+sätted:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="542"/>
