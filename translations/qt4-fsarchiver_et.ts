@@ -2405,7 +2405,7 @@ backup key</translation>
     <message>
         <location filename="../src/ui/net.ui" line="627"/>
         <source>Backup restore to the Origin</source>
-        <translation>Backup restore to the Origin</translation>
+        <translation>Lähtekohta tagasi</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="651"/>
@@ -2441,7 +2441,7 @@ transmission:</source>
         <location filename="../src/ui/net_ein.ui" line="26"/>
         <source>Username:</source>
         <extracomment>Benutzername:</extracomment>
-        <translation>Username:</translation>
+        <translation>Kasutajanimi:</translation>
     </message>
     <message>
         <location filename="../src/ui/net_ein.ui" line="39"/>
@@ -2452,25 +2452,25 @@ transmission:</source>
     <message>
         <location filename="../src/ui/net_ein.ui" line="52"/>
         <source>Username and password are stored.</source>
-        <translation>Username and password are stored.</translation>
+        <translation>Kasutajanimi ja parool on salvestatud.</translation>
     </message>
     <message>
         <location filename="../src/ui/net_ein.ui" line="55"/>
         <source>Save data</source>
         <extracomment>Daten speichern</extracomment>
-        <translation>Save data</translation>
+        <translation>Salvesta andmed</translation>
     </message>
     <message>
         <location filename="../src/ui/net_ein.ui" line="94"/>
         <source>Next</source>
         <extracomment>Weiter</extracomment>
-        <translation>Next</translation>
+        <translation>Edasi</translation>
     </message>
     <message>
         <location filename="../src/ui/net_ein.ui" line="117"/>
         <source>Achievable network computer:</source>
         <extracomment>Im Netz erreichbare Rechner:</extracomment>
-        <translation>Achievable network computer:</translation>
+        <translation>Võrgust leitud arvutid:</translation>
     </message>
     <message>
         <location filename="../src/ui/net_ein.ui" line="130"/>
@@ -2481,7 +2481,7 @@ transmission:</source>
         <location filename="../src/ui/net_ein.ui" line="143"/>
         <source>Show Password</source>
         <extracomment>Kennwort anzeigen</extracomment>
-        <translation>Show Password</translation>
+        <translation>Kuva parool</translation>
     </message>
     <message>
         <location filename="../src/ui/net_ein.ui" line="156"/>
@@ -2496,7 +2496,7 @@ transmission:</source>
         <location filename="../src/ui/filedialog.ui" line="14"/>
         <source>Description of the backup</source>
         <extracomment>Beschreibung der Sicherung</extracomment>
-        <translation>Description of the backup</translation>
+        <translation>Varukoopia kirjeldus</translation>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="26"/>
@@ -2514,7 +2514,7 @@ transmission:</source>
         <location filename="../src/ui/filedialog.ui" line="52"/>
         <source>Back partition</source>
         <extracomment>Partition sichern</extracomment>
-        <translation>Back partition</translation>
+        <translation>Varunda partistsioon</translation>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="80"/>
@@ -2553,7 +2553,7 @@ p, li { white-space: pre-wrap; }
 </source>
         <comment>Die Hinweise zur Partition wurden nicht in eine Datei geschrieben.
 </comment>
-        <translation>Instructions for partition were not recorded written to the file.
+        <translation>Partitsiooni informatsiooni ei salvestatud faili.
 </translation>
     </message>
     <message>
@@ -2641,8 +2641,8 @@ p, li { white-space: pre-wrap; }
 backup. key:</source>
         <comment>Sicherung
 entschlüsseln. Schlüssel</comment>
-        <translation>Decrypt
-backup. key:</translation>
+        <translation>Dekrüpti
+varukoopia. Võti:</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="442"/>
@@ -2666,8 +2666,8 @@ backup. key:</translation>
 backup. key:</source>
         <comment>Sicherung
 verschlüsseln. Schlüssel</comment>
-        <translation>Encrypt
-backup. key:</translation>
+        <translation>Krüpteeri
+varukoopia. Võti:</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="495"/>
@@ -2717,7 +2717,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie das Sicherungsverzeichnis aus.
 </comment>
-        <translation>Please select from the backup directory.
+        <translation>Palun vali varundatav kataloog.
 </translation>
     </message>
     <message>
@@ -2725,7 +2725,7 @@ backup. key:</translation>
         <source>Please select the partition to be</source>
         <comment>Bitte wählen Sie die zu sichernde Partition aus.
 </comment>
-        <translation>Please select the partition to be</translation>
+        <translation>Palun vali varundatav partitsioon</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="509"/>
@@ -2734,7 +2734,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
-        <translation>Please select the file name of the backup.
+        <translation>Palun vali varukoopia faili nimi.
 </translation>
     </message>
     <message>
@@ -2750,13 +2750,13 @@ backup. key:</translation>
         <location filename="../src/mainWindow.cpp" line="550"/>
         <source>To back up the system partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation>To back up the system partition is mounted. Do you want to do a live backup?</translation>
+        <translation>Varundatav süsteemipartitsioon on ühendatud. Kas sa soovid varundada ühendatud partitsiooni?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="558"/>
         <source>To back up home partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation>To back up home partition is mounted. Do you want to do a live backup?</translation>
+        <translation>Varundatav kodukataloog on ühendatud. Kas sa soovid varundada ühendatud partitsiooni?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="576"/>
@@ -2770,7 +2770,7 @@ backup. key:</translation>
 </source>
         <comment> kann nicht ausgehängt werden. Das Programm wird abgebrochen
 </comment>
-        <translation>can not be unmounted. The program is terminated
+        <translation>ei ole lahtiühendatav. Programmi töö on lõpetatud
 </translation>
     </message>
     <message>
@@ -2804,14 +2804,14 @@ backup. key:</translation>
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
 </comment>
-        <translation>The backup was aborted by the user
+        <translation>Kasutaja katkestas varundamise
 </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="713"/>
         <source>The backup is performed</source>
         <comment>Die Sicherung wird durchgeführt</comment>
-        <translation>The backup is performed</translation>
+        <translation>Toimub varundamine</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="811"/>
@@ -2826,7 +2826,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie die zurück zu schreibende Partition aus.
 </comment>
-        <translation>Please select from the writing back to partition.
+        <translation>Palun vali partitsioon, millele taastada varukoopiast.
 </translation>
     </message>
     <message>
@@ -2844,7 +2844,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei auswählen
 </comment>
-        <translation>You have selected a directory. You must select a file
+        <translation>Oled valinud kataloogi,
+kuid pead valima faili.
 </translation>
     </message>
     <message>
@@ -2865,52 +2866,52 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mainWindow.cpp" line="895"/>
         <source>Partition to restore the </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation>Partition to restore the </translation>
+        <translation>Taastatav partitsioon </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="896"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation> does not coincide with the saved  </translation>
+        <translation> ei vasta salvestatud  </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="896"/>
         <source>Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
-        <translation>Do you want to continue restore?</translation>
+        <translation>Kas soovid taastamist jätkata?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="921"/>
         <source>The restore was aborted by the user</source>
         <comment>Das Zurückschreiben wurde vom Benutzer abgebrochen
 </comment>
-        <translation>The restore was aborted by the user</translation>
+        <translation>Kasutaja katkestas taastamise</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="933"/>
         <source>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</source>
         <comment>Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</comment>
-        <translation>There is a file with the contents of the partition boot sector present. Do you want to perform the restoration of the PBR?</translation>
+        <translation>Fail partitsiooni alglaadekirje sisuga on olemas. Kas soovid taastada partitsiooni alglaadekirje?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="945"/>
         <source>Restore the system partition is mounted and can not be written back. Please use a live CD.</source>
         <comment>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>Restore the system partition is mounted and can not be written back. Please use a live CD.</translation>
+        <translation>Süsteemipartitsioon on ühendatud ja seda ei saa taastada. Palun kasuta live-CD&apos;d.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="952"/>
         <source>Restore the home partition is mounted and can not be written back. Please use a live CD.</source>
         <comment>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>Restore the home partition is mounted and can not be written back. Please use a live CD.</translation>
+        <translation>Kodupartitsioon on ühendatud ja seda ei saa taastada. Palun kasuta live-CD&apos;d.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="964"/>
         <source>The partition </source>
         <comment>Die Partition </comment>
-        <translation>The partition </translation>
+        <translation>Partitsioon </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="964"/>
@@ -2936,7 +2937,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mainWindow.cpp" line="1027"/>
         <source>The restoring is performed</source>
         <comment>Die Wiederherstellung wird durchgeführt</comment>
-        <translation>The restoring is performed</translation>
+        <translation>Toimub taastamine</translation>
     </message>
     <message>
         <source>qt5-fsarchiver</source>
@@ -2967,7 +2968,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Das Programm muss mit Root-Rechten gestartet werden. Das Programm wird beendet.
 </comment>
-        <translation>The program must be run with root privileges. The program is terminated.
+        <translation>Programmi peab käivitama juurkasutaja privileegidega. Programmi töö lõpetatud.
 </translation>
     </message>
     <message>
@@ -2988,7 +2989,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Die Partition wurde erfolgreich gesichert.
 </comment>
-        <translation>The partition has been backed up successfully.
+        <translation>Partitsiooni varundamine lõppes edukalt.
 </translation>
     </message>
     <message>
@@ -3042,7 +3043,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Die Sicherung der Partition  wurde vom Benutzer abgebrochen!
 </comment>
-        <translation>The backup of the partition was aborted by the user!
+        <translation>Kasutaja katkestas partitsiooni varundamise!
 </translation>
     </message>
     <message>
@@ -3051,7 +3052,8 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt.
 </comment>
-        <translation></translation>
+        <translation>Partitsiooni tüübi tugi puudub.
+</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1386"/>
@@ -3059,7 +3061,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
 </comment>
-        <translation>The partition type is not supported. Maybe the partition is encrypted?
+        <translation>Partitsiooni tüübi tugi puudub. Võib-olla on partitsioon krüpteeritud?
 </translation>
     </message>
     <message>
@@ -3068,7 +3070,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?
 </comment>
-        <translation>Error saving partition. File too large. Use is FAT-partition?
+        <translation>Viga partitsiooni salvestamisel: fail on liiga suur. Kas salvestad FAT failisüsteemile?
 </translation>
     </message>
     <message>
@@ -3077,7 +3079,8 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Die Sicherung der Partition war nur teilweise erfolgreich
 </comment>
-        <translation></translation>
+        <translation>Partitsiooni varundamine oli ainult osaliselt edukas.
+</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1405"/>
@@ -3101,7 +3104,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
 </comment>
-        <translation>cannot restore an archive to a partition which is mounted, unmount it first 
+        <translation>Partitsioon, mida taastada, on ühendatud. Palun ühenda ta esmalt lahti 
 </translation>
     </message>
     <message>
@@ -3111,7 +3114,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>The partition is successful back.
+        <translation>Partitsioon taastati edukalt.
 </translation>
     </message>
     <message>
@@ -3138,7 +3141,8 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Die Wiederherstellung der Partition  wurde vom Benutzer abgebrochen!
 </comment>
-        <translation></translation>
+        <translation>Kasutaja katkestas partitsiooni taastamise!
+</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1481"/>
@@ -3147,7 +3151,8 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Die Wiederherstellung der Partition war nur teilweise erfolgreich
 </comment>
-        <translation></translation>
+        <translation>Partitsiooni taastamine oli ainult osaliselt edukas.
+</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1483"/>
@@ -3162,7 +3167,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
         <location filename="../src/mainWindow.cpp" line="1494"/>
         <source> directories and </source>
         <comment> Verzeichnisse und </comment>
-        <translation> directories and </translation>
+        <translation> kataloogi ja </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1486"/>
@@ -3187,7 +3192,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
 </source>
         <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
 </comment>
-        <translation>You have tried restore a partition. The selected file can only restore directories. Please restart the program.
+        <translation>Proovisid taastada partitsiooni. Valitud failist saab taastada ainult katalooge. Palun käivita programm uuesti.
 </translation>
     </message>
     <message>
@@ -3232,14 +3237,14 @@ Versioon 0.8.0-5, 02. november 2016</translation>
         <location filename="../src/mainWindow.cpp" line="1613"/>
         <source>Partition size: </source>
         <comment>Partitionsgröße: </comment>
-        <translation>Partition size: </translation>
+        <translation>Partitsiooni suurus: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1613"/>
         <location filename="../src/mainWindow.cpp" line="1614"/>
         <source>Assignment of the partition: </source>
         <comment>Belegung der Partition: </comment>
-        <translation>Assignment of the partition: </translation>
+        <translation>Partitsiooni valimine: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1614"/>
@@ -3251,26 +3256,26 @@ Versioon 0.8.0-5, 02. november 2016</translation>
         <location filename="../src/mainWindow.cpp" line="1615"/>
         <source>Approximate image file sizes: </source>
         <comment>ungefähre Sicherungsdateigröße: </comment>
-        <translation>Approximate image file sizes: </translation>
+        <translation>Tõmmisefailide ligikaudsed suurused: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1615"/>
         <source>Other notes: </source>
         <comment>weitere Hinweise:</comment>
-        <translation>Other notes: </translation>
+        <translation>Muud märkmed: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1616"/>
         <source>to be protected/secured partition: / (root system directory) </source>
         <comment>zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis) </comment>
-        <translation>to be protected/secured partition: / (root system directory) </translation>
+        <translation>kaitstud/turvatud partitsioon: / (süsteemi juurkataloog) </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1621"/>
         <location filename="../src/mainWindow.cpp" line="1627"/>
         <source>Operating system: </source>
         <comment>Betriebsystem: </comment>
-        <translation>Operating system: </translation>
+        <translation>Operatsioonisüsteem: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1621"/>
@@ -3282,7 +3287,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
         <location filename="../src/mainWindow.cpp" line="1623"/>
         <source>to be protected/secured partition: /home</source>
         <comment>zu sichernde/gesicherte Partition: /home</comment>
-        <translation>to be protected/secured partition: /home</translation>
+        <translation>kaitstud/turvatud partitsioon: /home</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1644"/>
@@ -3303,7 +3308,7 @@ Versioon 0.8.0-5, 02. november 2016</translation>
         <location filename="../src/mainWindow.cpp" line="1855"/>
         <source>Do you really want to break the save or restore from the partition?</source>
         <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</comment>
-        <translation>Do you really want to break the save or restore from the partition?</translation>
+        <translation>Kas soovid tõesti katkestada partitsiooni varundamise või taastamise?</translation>
     </message>
 </context>
 <context>
@@ -3378,15 +3383,15 @@ Versioon 0.8.0-5, 02. november 2016</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="223"/>
         <source>On the number saved
 Files/directories:</source>
-        <translation>On the number saved
-Files/directories:</translation>
+        <translation>Faile/katalooge
+varundatud:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="238"/>
         <source>already saved 
 files/directories:</source>
-        <translation>already saved 
-files/directories:</translation>
+        <translation>faile/katalooge
+juba varundatud:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="260"/>
@@ -3409,15 +3414,15 @@ files/directories:</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="403"/>
         <source>Number of processors
 cores for to be used fsarchiver:</source>
-        <translation>Number of processors
-cores for to be used fsarchiver:</translation>
+        <translation>fsarchiveri poolt kasutatavate
+protsessori tuumade arv:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="427"/>
         <source>Compression
 setting:</source>
-        <translation>Compression
-setting:</translation>
+        <translation>Pakkimise
+sätted:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="441"/>
@@ -3442,7 +3447,7 @@ setting:</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="483"/>
         <source>Stock Split on size:</source>
-        <translation>Stock Split on size:</translation>
+        <translation>Varukoopia faili jagamise suurus:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="499"/>
@@ -3523,7 +3528,7 @@ fsarchiveriga</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="704"/>
         <location filename="../src/ui/fsarchiverMain.ui" line="731"/>
         <source>Basic Settings</source>
-        <translation>Basic Settings</translation>
+        <translation>Baassätted</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="713"/>
@@ -3568,7 +3573,7 @@ fsarchiveriga</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="812"/>
         <source>breakprocess</source>
-        <translation>breakprocess</translation>
+        <translation>Katkesta protsess</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="821"/>
@@ -3578,7 +3583,7 @@ fsarchiveriga</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="826"/>
         <source>HD-Image save/restore on network</source>
-        <translation>HD-Image save/restore on network</translation>
+        <translation>Kõvaketta tõmmise varundamine ja taastamine võrgust</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="835"/>
@@ -3614,7 +3619,7 @@ fsarchiveriga</translation>
 </source>
         <comment>Es ist derzeit kein Netzwerkrechner.
 </comment>
-        <translation>There is currently no available network computer.
+        <translation>Arvuti ei ole hetkel võrgust kasutatav.
 </translation>
     </message>
     <message>
@@ -3623,7 +3628,8 @@ fsarchiveriga</translation>
 </source>
         <comment>Sie müssen den Rechner auswählen, auf den die Sicherungsdaten geschrieben werden sollen
 </comment>
-        <translation>You must select the computer on which the backup data to be written
+        <translation>Pead valima arvuti, milles 
+varundatavad andmed salvestatakse
 </translation>
     </message>
     <message>
@@ -3632,7 +3638,8 @@ fsarchiveriga</translation>
 </source>
         <comment>Sie müssen den Rechner auswählen, von dem die Sicherungsdaten zurück geschrieben werden sollen
 </comment>
-        <translation>You must select your computer from which the backup data to be written back
+        <translation>Pead valima arvuti, millest 
+varundatud andmed loetakse
 </translation>
     </message>
     <message>
@@ -3641,14 +3648,15 @@ fsarchiveriga</translation>
 </source>
         <comment>Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf Netzrechner zugegriffen werden
 </comment>
-        <translation>You must enter the user name. Can not otherwise be accessible to network computers
+        <translation>Pead sisestama kasutajanime. Muidu 
+ei saa võrgus olevaid arvuteid kasutada
 </translation>
     </message>
     <message>
         <location filename="../src/net_ein.cpp" line="476"/>
         <source>Is it true that you have entered a key? (NFS dont need a key)</source>
         <comment>Ist das richtig, dass Sie keinen Schlüssel eingegeben haben? (NFS benötigt keinen Schlüssel)</comment>
-        <translation>Is it true that you have entered a key? (NFS dont need a key)</translation>
+        <translation>Oled sisestanud parooli. Kas see on õige? (NFS ei vaja parooli.)</translation>
     </message>
     <message>
         <location filename="../src/net_ein.cpp" line="671"/>
@@ -3706,7 +3714,7 @@ fsarchiveriga</translation>
         <location filename="../src/ui/clone_dialog.ui" line="682"/>
         <location filename="../src/ui/clone_dialog.ui" line="695"/>
         <source>CommandLinkButton</source>
-        <translation>CommandLinkButton</translation>
+        <translation>CommanLinkButton</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="140"/>
@@ -3754,7 +3762,7 @@ fsarchiveriga</translation>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="465"/>
         <source>MB/sec</source>
-        <translation>MB/sec</translation>
+        <translation>MB/sek</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="479"/>
@@ -3908,7 +3916,7 @@ fsarchiveriga</translation>
         <extracomment>Verzeichnis sichern/zurückschreiben
 ----------
 Verzeichnis sichern/zurückschreiben</extracomment>
-        <translation>Save/restore directory</translation>
+        <translation>Kataloogi varundamine/taastamine</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="26"/>
@@ -3919,45 +3927,45 @@ Verzeichnis sichern/zurückschreiben</extracomment>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="39"/>
         <source>Start the backup or the restore of a folder.</source>
-        <translation>Start the backup or the restore of a folder.</translation>
+        <translation>Alusta kataloogi varundamist või taastamist.</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="68"/>
         <source>Select the folder to be backed up or restored.</source>
-        <translation>Select the folder to be backed up or restored.</translation>
+        <translation>Vali kataloog, mida varundada või taastada.</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="71"/>
         <source>Saved directory</source>
         <extracomment>zu sicherndes Verzeichnis:</extracomment>
-        <translation>Saved directory</translation>
+        <translation>Varundatav kataloog</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="97"/>
         <source>Directory in which the folder is backed up or from the recovery file is removed.</source>
-        <translation>Directory in which the folder is backed up or from the recovery file is removed.</translation>
+        <translation>Kataloog, kuhu salvestatakse varukoopiate faile, on kustutatud.</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="100"/>
         <source>Location (path) of backup:</source>
         <extracomment>Ort (Pfad) der Sicherung:</extracomment>
-        <translation>Location (path) of backup:</translation>
+        <translation>Varukoopiate asukoht (otsingurada):</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="128"/>
         <source>On the number of
 captive Files/directories:</source>
         <extracomment>Anzahl der zu sichernden Dateien/Verzeichnisse:</extracomment>
-        <translation>On the number of
-captive Files/directories:</translation>
+        <translation>Varundatavaid faile/
+katalooge kokku:</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="155"/>
         <source>Already backed
 Files/directories:</source>
         <extracomment>bereits gesicherte Datein/Verzeichnisse:</extracomment>
-        <translation>Already backed
-Files/directories:</translation>
+        <translation>Juba varundatud
+faile/katalooge:</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="198"/>
@@ -3987,28 +3995,28 @@ Sekunden</extracomment>
         <location filename="../src/ui/dir_dialog.ui" line="263"/>
         <source>remaining  time:</source>
         <extracomment>noch zu erwartende Zeit:</extracomment>
-        <translation>remaining  time:</translation>
+        <translation>aega jäänud:</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="395"/>
         <source>Number of processor cores
 for to be used fsarchiver:</source>
         <extracomment>Anzahl der Prozessorkerne, die für fsarchiver verwendet werden sollen:</extracomment>
-        <translation>Number of processor cores
-for to be used fsarchiver:</translation>
+        <translation>fsarchiveri kasutatavete
+protsessori tuumade arv:</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="424"/>
         <source>Compression setting:</source>
         <extracomment>Kompressioneinstellung:</extracomment>
-        <translation>Compression setting:</translation>
+        <translation>Pakkimise sätted:</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="447"/>
         <source>Encrypt
 backup key</source>
-        <translation>Encrypt
-backup key</translation>
+        <translation>Krüpteeri
+varukoopia. Võti:</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="471"/>
@@ -4019,18 +4027,18 @@ backup key</translation>
         <location filename="../src/ui/dir_dialog.ui" line="474"/>
         <source>Overwrite existing backup</source>
         <extracomment>vorhandene Sicherung überschreiben</extracomment>
-        <translation>Overwrite existing backup</translation>
+        <translation>Kirjuta olemasolev varukoopia üle</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="487"/>
         <source>The directory will be written back to the original path</source>
-        <translation>The directory will be written back to the original path</translation>
+        <translation>Kataloog taastatakse algsele otsingurajale</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="490"/>
         <source>Backup restore to the Origin</source>
         <extracomment>Sicherung an den Ursprungsort zurückschreiben</extracomment>
-        <translation>Backup restore to the Origin</translation>
+        <translation>Taasta varukoopiast algesesse asukohta</translation>
     </message>
     <message>
         <location filename="../src/ui/dir_dialog.ui" line="504"/>
@@ -4044,31 +4052,31 @@ backup key</translation>
         <location filename="../src/ui/mbr_dialog.ui" line="14"/>
         <source>Save / Restore MBR/GPT</source>
         <extracomment>MBR sichern/zurückschreiben</extracomment>
-        <translation>Save / Restore MBR/GPT</translation>
+        <translation>Varunda/taasta MBR/GPT</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="27"/>
         <source>Only the boot loader area to restore</source>
         <extracomment>nur den Bootloaderbereich wieder herstellen</extracomment>
-        <translation>Only the boot loader area to restore</translation>
+        <translation>Taasta ainult alglaade kirje</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="32"/>
         <source>Bootloader area and restore the partition table</source>
         <extracomment>Bootloaderbereich und die Partitionstabelle wieder herstellen</extracomment>
-        <translation>Bootloader area and restore the partition table</translation>
+        <translation>Taasta alglaade kirje ja partitsioonitabel</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="37"/>
         <source>Restore partition table</source>
         <extracomment>Partitionstabelle wiederherstellen</extracomment>
-        <translation>Restore partition table</translation>
+        <translation>Taasta partitsioonitabel</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="42"/>
         <source>Secretly area to restore. (Without Boot Loader and without partition table).</source>
         <extracomment>Verborgenen Bereich  wieder herstellen. (Ohne  Bootloader und ohne Partitionstabelle).</extracomment>
-        <translation>Secretly area to restore. (Without Boot Loader and without partition table).</translation>
+        <translation>Taasta peidetud ala (alglaade kirje ja partitsioonitabelita).</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="61"/>
@@ -4085,21 +4093,21 @@ backup key</translation>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="100"/>
         <source>Directory in which the MBR/GPT is written.</source>
-        <translation>Directory in which the MBR/GPT is written.</translation>
+        <translation>Kataloog, kuhu varundada MBR/GPT.</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="103"/>
         <source>MBR/GPT backup directory:</source>
         <extracomment>MBR Sicherungsverzeichnis:</extracomment>
-        <translation>MBR/GPT backup directory:</translation>
+        <translation>MBR/GPT varikoopia kataloog:</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="116"/>
         <source>MBR of that drive this
 Backup / restore:</source>
         <extracomment>MBR von dieser dieser Festplatte sichern / wiederherstellen:</extracomment>
-        <translation>MBR of that drive this
-Backup / restore:</translation>
+        <translation>Varunda/taasta selle
+kõvaketta MBR:</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="140"/>
@@ -4114,7 +4122,7 @@ kõvaketas:</translation>
     <message>
         <location filename="../src/ui/setting.ui" line="14"/>
         <source>Basic settings</source>
-        <translation>Basic settings</translation>
+        <translation>Baassätted</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="41"/>
@@ -4122,9 +4130,9 @@ kõvaketas:</translation>
 cores, for fsarchiver
 should be used:</source>
         <extracomment>Anzahl Prozessorenkerne, * die für fsarchiver * verwendet werden sollen:</extracomment>
-        <translation>Number of processors
-cores, for fsarchiver
-should be used:</translation>
+        <translation>Protsessori tuumade
+arv, mida fsarchiver
+tohib kasutada:</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="66"/>
@@ -4137,39 +4145,39 @@ compression:</translation>
     <message>
         <location filename="../src/ui/setting.ui" line="90"/>
         <source>Language:</source>
-        <translation>Language:</translation>
+        <translation>Keel:</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="113"/>
         <source>Existing files by default override</source>
         <extracomment>vorhandene Dateien * standardmäßig überschreiben</extracomment>
-        <translation>Existing files by default override</translation>
+        <translation>Olemasolevate failide luba küsimata ülekirjutamine</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="126"/>
         <source>Backup note enable by default</source>
         <extracomment>Hinweise zur Sicherung * standardmäßig aktivieren</extracomment>
-        <translation>Backup note enable by default</translation>
+        <translation>Luba varukoopiatele märkmete lisamine</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="139"/>
         <source>Directories by default write 
 back to the original location</source>
         <extracomment>Verzeichnisse * standardmäßig an * den ursprünglichen * Ort zurückschreiben</extracomment>
-        <translation>Directories by default write 
-back to the original location</translation>
+        <translation>Kataloogid, mida algses
+asukohas taastada</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="153"/>
         <source>Enable encryption by default</source>
         <extracomment>Verschlüsselung * standardmäßig aktivieren</extracomment>
-        <translation>Enable encryption by default</translation>
+        <translation>Luba vaikimisi krüpteerimine</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="166"/>
         <source>Archive file size divided on DVD</source>
         <extracomment>Archiv-Datei auf DVD * Größe aufteilen</extracomment>
-        <translation>Archive file size divided on DVD</translation>
+        <translation>Varukoopia fail jagatakse DVD-le mahtuvaks</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="179"/>
@@ -4180,13 +4188,13 @@ back to the original location</translation>
         <location filename="../src/ui/setting.ui" line="192"/>
         <source>Network input data save</source>
         <extracomment>Netzwerkeingabedaten * speichern</extracomment>
-        <translation>Network input data save</translation>
+        <translation>Salvesta võrguga seonduvad sätted</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="205"/>
         <source>Save Settings</source>
         <extracomment>Einstellungen speichern</extracomment>
-        <translation>Save Settings</translation>
+        <translation>Salvesta sätted</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="218"/>
@@ -4198,7 +4206,7 @@ back to the original location</translation>
         <location filename="../src/ui/setting.ui" line="231"/>
         <source>Safe PBR by default</source>
         <extracomment>PBR standradmäßig sichern</extracomment>
-        <translation>Safe PBR by default</translation>
+        <translation>Alglaadekirje vaikimisi varundamine</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="254"/>
@@ -4209,13 +4217,13 @@ back to the original location</translation>
         <location filename="../src/ui/setting.ui" line="267"/>
         <source>Show Note for accessing network computer</source>
         <extracomment>Hinweis  für den Zugriff auf Netzwerkrechner anzeigen</extracomment>
-        <translation>Show Note for accessing network computer</translation>
+        <translation>Kuva võrguarvutite kasutamise teade</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="280"/>
         <source>Show  Note to mount the network computer</source>
         <extracomment>Hinweis über das Mounten des Netzwerkrechners anzeigen</extracomment>
-        <translation>Show  Note to mount the network computer</translation>
+        <translation>Kuva võrguarvutite ühendamise teade</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="293"/>
@@ -4240,7 +4248,7 @@ back to the original location</translation>
         <location filename="../src/ui/treeview.ui" line="14"/>
         <source>Select restore file</source>
         <extracomment>Wiederherstellungsdatei auswählen</extracomment>
-        <translation>Select restore file</translation>
+        <translation>Vali taastatav fail</translation>
     </message>
     <message>
         <location filename="../src/ui/treeview.ui" line="41"/>
@@ -4252,13 +4260,13 @@ back to the original location</translation>
         <location filename="../src/ui/treeview.ui" line="60"/>
         <source>Next</source>
         <extracomment>Mit der Wiederherstellung fortfahren</extracomment>
-        <translation>Next</translation>
+        <translation>Edasi</translation>
     </message>
     <message>
         <location filename="../src/ui/treeview.ui" line="92"/>
         <source>Existing restore files:</source>
         <extracomment>Vorhandene Wiederherstellungsdateien:</extracomment>
-        <translation>Existing restore files:</translation>
+        <translation>Taastatavad failid, mis on juba olemas:</translation>
     </message>
     <message>
         <location filename="../src/ui/treeview.ui" line="105"/>
