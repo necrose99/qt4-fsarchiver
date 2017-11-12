@@ -101,7 +101,7 @@
         <location filename="../src/clone.cpp" line="403"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-        <translation>Du vil virkelig bygget et billede fra harddisken?</translation>
+        <translation> Vil du virkelig bygge et image fra harddisken? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="230"/>
@@ -731,19 +731,19 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="494"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation> filer,</translation>
+        <translation> filer, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
         <source>  directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation> mapper, </translation>
+        <translation>  mapper, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
         <source>  links and </source>
         <comment> Links und </comment>
-        <translation> links og </translation>
+        <translation>  links og </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
@@ -764,7 +764,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="460"/>
         <source> Files, </source>
         <comment> Dateien, </comment>
-        <translation>Filer, </translation>
+        <translation> Filer, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="461"/>
@@ -1164,7 +1164,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mbr.cpp" line="430"/>
         <source> bytes. The hidden area of the disk </source>
         <comment> Byte. Der verborgene Bereich von der Festplatte </comment>
-        <translation>byte. Det skjulte område af disken</translation>
+        <translation> byte. Det skjulte område af disken </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="430"/>
@@ -1176,7 +1176,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mbr.cpp" line="430"/>
         <source> bytes. Are you sure?</source>
         <comment> Byte. Wollen Sie fortfahren?</comment>
-        <translation>byte. Er du sikker?</translation>
+        <translation> byte. Er du sikker?</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="445"/>
@@ -1562,13 +1562,13 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="944"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
-        <translation>The partition </translation>
+        <translation>Partitionen</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="957"/>
         <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
         <comment>Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</comment>
-        <translation>Hvis de eksisterende btrfs partition for at være formateret? Den nye UUID er defineret her. Hvis du vælger &lt;no&gt;, UUID er stadig bevaret.&lt;/no&gt;</translation>
+        <translation>Hvis den eksisterende btrfs partition formateres? Den nye UUID er defineret her. Hvis du vælger &lt;nej&gt;, forbliver UUID uændret.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1036"/>
@@ -1620,7 +1620,7 @@ backup. key:</translation>
         <location filename="../src/net.cpp" line="1379"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation> filer,</translation>
+        <translation> filer, </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1242"/>
@@ -1699,7 +1699,7 @@ backup. key:</translation>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
 </comment>
-        <translation>specials were not properly backed.</translation>
+        <translation> specielle data blev ikke sikkerhedskopieret korrekt.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1315"/>
@@ -1743,7 +1743,7 @@ backup. key:</translation>
         <location filename="../src/net.cpp" line="1348"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation>tilbud og Partition Boot Record er blevet restaureret.</translation>
+        <translation> specielle og Partition Boot Record er blevet gendannet.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1353"/>
@@ -1783,7 +1783,7 @@ backup. key:</translation>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
 </comment>
-        <translation>specials were not properly restored.</translation>
+        <translation> specielle blev ikke gendannet korrekt.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1378"/>
@@ -1799,7 +1799,7 @@ backup. key:</translation>
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
 .</comment>
-        <translation>tilbud og Partition Boot Record er blevet restaureret.</translation>
+        <translation> specielle og Partition Boot Record er blevet gendannet.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1384"/>
@@ -2486,7 +2486,7 @@ transmission:</source>
         <location filename="../src/ui/filedialog.ui" line="39"/>
         <source>Description of the backup:</source>
         <extracomment>Beschreibung der Sicherung:</extracomment>
-        <translation>Description of the backup</translation>
+        <translation>Beskrivelse af sikkerhedskopien:</translation>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="52"/>
@@ -2622,7 +2622,7 @@ backup. key:</translation>
         <location filename="../src/mainWindow.cpp" line="442"/>
         <source>Backup directory</source>
         <comment>Sicherungsverzeichnis</comment>
-        <translation>Sikkerhedskopimappen:</translation>
+        <translation>Sikkerhedskopimappen</translation>
     </message>
     <message>
         <source>Save partition</source>
@@ -2736,7 +2736,7 @@ backup. key:</translation>
         <location filename="../src/mainWindow.cpp" line="576"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
-        <translation>The partition </translation>
+        <translation>Partitionen</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="576"/>
@@ -2761,7 +2761,7 @@ backup. key:</translation>
         <location filename="../src/mainWindow.cpp" line="681"/>
         <source>The partition file</source>
         <comment>Die Partitionsdatei</comment>
-        <translation>Partitionsfilen </translation>
+        <translation>Partitionsfilen</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="681"/>
@@ -2769,7 +2769,7 @@ backup. key:</translation>
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
 </comment>
-        <translation>der findes allerede. Sikkerhedskopien er ikke udført
+        <translation> findes allerede. Sikkerhedskopien er ikke udført
 </translation>
     </message>
     <message>
@@ -2891,20 +2891,20 @@ Die Dateiendung muss .fsa sein</comment>
         <source> can not be unmounted. The program is terminated</source>
         <comment> kann nicht ausgehängt werden. Das Programm wird abgebrochen
 </comment>
-        <translation>kan ikke være afmonteret. Programmet afsluttes</translation>
+        <translation> kan ikke være afmonteret. Programmet afsluttes</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="974"/>
         <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
         <comment>Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</comment>
-        <translation>Hvis de eksisterende btrfs partition for at være formateret? Den nye UUID er defineret her. Hvis du vælger &lt;no&gt;, UUID er stadig bevaret.&lt;/no&gt;</translation>
+        <translation>Hvis den eksisterende btrfs partition formateres? Den nye UUID er defineret her. Hvis du vælger &lt;nej&gt;, forbliver UUID uændret.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1012"/>
         <source>The key length must be between 6 and 64 characters.</source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein.
 </comment>
-        <translation>Den centrale længde skal være mellem 6 og 64 tegn</translation>
+        <translation>Nøglen skal være mellem 6 og 64 tegn.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1027"/>
@@ -2976,7 +2976,7 @@ Version 0.8.0-5, November 2, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1494"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation> filer,</translation>
+        <translation> filer, </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1352"/>
@@ -3066,7 +3066,7 @@ Version 0.8.0-5, November 2, 2016</source>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
 </comment>
-        <translation>specials were not properly backed.</translation>
+        <translation> specielle data blev ikke sikkerhedskopieret korrekt.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1424"/>
@@ -3103,7 +3103,7 @@ Version 0.8.0-5, November 2, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1458"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation>tilbud og Partition Boot Record er blevet restaureret.</translation>
+        <translation> specielle og Partition Boot Record er blevet gendannet.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1463"/>
@@ -3144,7 +3144,7 @@ Version 0.8.0-5, November 2, 2016</source>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
 </comment>
-        <translation>specials were not properly restored.</translation>
+        <translation> specielle blev ikke gendannet korrekt.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1493"/>
@@ -3152,7 +3152,7 @@ Version 0.8.0-5, November 2, 2016</source>
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
 .</comment>
-        <translation>tilbud og Partition Boot Record er blevet restaureret.</translation>
+        <translation> specielle og Partition Boot Record er blevet gendannet.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1500"/>
@@ -3193,7 +3193,7 @@ Version 0.8.0-5, November 2, 2016</source>
     <message>
         <location filename="../src/mainWindow.cpp" line="1612"/>
         <source>UUID: </source>
-        <translation>UUID:</translation>
+        <translation>UUID: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1612"/>
@@ -3249,7 +3249,7 @@ Version 0.8.0-5, November 2, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1621"/>
         <location filename="../src/mainWindow.cpp" line="1627"/>
         <source>Kernel: </source>
-        <translation>Kernel:</translation>
+        <translation>Kernel: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1623"/>
@@ -3260,17 +3260,17 @@ Version 0.8.0-5, November 2, 2016</source>
     <message>
         <location filename="../src/mainWindow.cpp" line="1644"/>
         <source> MB</source>
-        <translation>MB</translation>
+        <translation> MB</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1655"/>
         <source> TB</source>
-        <translation>TB</translation>
+        <translation> TB</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1666"/>
         <source> GB</source>
-        <translation>GB</translation>
+        <translation> GB</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1855"/>
@@ -3284,7 +3284,7 @@ Version 0.8.0-5, November 2, 2016</source>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="14"/>
         <source>Save/restore partition </source>
-        <translation>Save/restore partition</translation>
+        <translation>Gem/gendan partition </translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="27"/>
@@ -3376,7 +3376,7 @@ files/directories:</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="288"/>
         <source>remaining time:</source>
-        <translation>resterende tid</translation>
+        <translation>resterende tid:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="403"/>
@@ -3395,7 +3395,7 @@ setting:</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="441"/>
         <source>Notes to the backup is written to a file</source>
-        <translation>Bemærkninger til sikkerhedskopien er skrevet til en fil.</translation>
+        <translation>Bemærkninger til sikkerhedskopien er skrevet til en fil</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="444"/>
@@ -3405,7 +3405,7 @@ setting:</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="467"/>
         <source>Same backup files are overwritten without prior consultation</source>
-        <translation>Samme backup filer overskrives uden forudgående høring.</translation>
+        <translation>Samme backup filer overskrives uden forudgående høring</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="470"/>
@@ -3427,7 +3427,7 @@ backup key</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="513"/>
         <source>PBR is first block of any bootable partition</source>
-        <translation>PBR er første blok af enhver bootbar partition.</translation>
+        <translation>PBR er første blok af enhver bootbar partition</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="516"/>
@@ -3546,7 +3546,7 @@ with fsarchiver</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="821"/>
         <source>Clone Drive HD-Image save/restore </source>
-        <translation>Clone Drive HD-Image save/restore</translation>
+        <translation>Klon Drive HD-Image gen/gendan </translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="826"/>
@@ -3701,12 +3701,12 @@ with fsarchiver</translation>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="257"/>
         <source>remaining time:</source>
-        <translation>resterende tid</translation>
+        <translation>resterende tid:</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="358"/>
         <source>already saved:</source>
-        <translation>allerede gemt</translation>
+        <translation>allerede gemt:</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="374"/>
@@ -3722,7 +3722,7 @@ with fsarchiver</translation>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="439"/>
         <source>Transmission speed:</source>
-        <translation>Datatransmission hastighed</translation>
+        <translation>Datatransmission hastighed:</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="465"/>
