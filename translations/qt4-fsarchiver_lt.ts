@@ -101,7 +101,7 @@
         <location filename="../src/clone.cpp" line="403"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-        <translation>Ar norite tikrai pastatytas vaizdas iš kietojo disko?</translation>
+        <translation> Ar norite tikrai sukurti vaizdą iš kietojo disko? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="230"/>
@@ -731,7 +731,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="494"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation> failus,</translation>
+        <translation type="unfinished"> failus, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
@@ -1164,7 +1164,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mbr.cpp" line="430"/>
         <source> bytes. The hidden area of the disk </source>
         <comment> Byte. Der verborgene Bereich von der Festplatte </comment>
-        <translation>baitų. Paslėpti plotas diską</translation>
+        <translation type="unfinished"> baitų. Paslėpti plotas diską </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="430"/>
@@ -1562,7 +1562,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="944"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
-        <translation>The partition </translation>
+        <translation type="unfinished">The partition</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="957"/>
@@ -3193,7 +3193,7 @@ Version 0.8.0-5, November 2, 2016</source>
     <message>
         <location filename="../src/mainWindow.cpp" line="1612"/>
         <source>UUID: </source>
-        <translation>UUID:</translation>
+        <translation>UUID: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1612"/>
@@ -3249,7 +3249,7 @@ Version 0.8.0-5, November 2, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1621"/>
         <location filename="../src/mainWindow.cpp" line="1627"/>
         <source>Kernel: </source>
-        <translation>Kernel:</translation>
+        <translation>Kernel: </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1623"/>
@@ -3376,7 +3376,7 @@ files/directories:</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="288"/>
         <source>remaining time:</source>
-        <translation>likęs laikas</translation>
+        <translation>likęs laikas:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="403"/>
