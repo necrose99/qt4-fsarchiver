@@ -41,7 +41,7 @@
     </message>
     <message>
       <source>Exist harddrive:</source>
-      <translation>Exist harddrive:</translation>
+      <translation>Finnes harddisk:</translation>
     </message>
     <message>
       <source>Exit</source>
@@ -61,11 +61,11 @@
     </message>
     <message>
       <source>Image of a hard disk to create</source>
-      <translation>Image of a hard disk to create</translation>
+      <translation>Avbildning av harddisken å opprette</translation>
     </message>
     <message>
       <source>Image of a hard disk to create:</source>
-      <translation>Image of a hard disk to create:</translation>
+      <translation>Avbildning av harddisk å opprette:</translation>
     </message>
     <message>
       <source>Image of a hard disk write back</source>
@@ -101,42 +101,42 @@
     </message>
     <message>
       <source>Save / Restore MBR</source>
-      <translation>Save / Restore MBR</translation>
+      <translation>Lagre/gjenopprett MBR</translation>
     </message>
     <message>
       <source>Save / restore MBR</source>
-      <translation>Save / restore MBR</translation>
+      <translation>Lagre/gjenopprett MBR</translation>
     </message>
     <message>
       <source>seconds:</source>
-      <translation>seconds:</translation>
+      <translation>sekunder:</translation>
     </message>
     <message>
       <source>seconds</source>
-      <translation>seconds</translation>
+      <translation>sekunder</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission speed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Overføringshastighet:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>Transmission speed:</source>
-      <translation>Transmission speed:</translation>
+      <translation>Overføringshastighet:</translation>
     </message>
     <message>
       <source>Transmission speed</source>
-      <translation>Transmission speed</translation>
+      <translation>Overføringshastighet</translation>
     </message>
     <message>
       <source>Use gzip</source>
-      <translation>Use gzip</translation>
+      <translation>Bruk gzip</translation>
     </message>
   </context>
   <context>
     <name>clone_dialog_net</name>
     <message>
       <source>Image einer Festplatte zurückschreiben:</source>
-      <translation>Image einer Festplatte zurückschreiben:</translation>
+      <translation type="unfinished">Image einer Festplatte zurückschreiben:</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -144,27 +144,27 @@
     </message>
     <message>
       <source>already saved:</source>
-      <translation>already saved:</translation>
+      <translation>allerede lagret:</translation>
     </message>
     <message>
       <source>Cancel</source>
-      <translation>Cancel</translation>
+      <translation>Avbryt</translation>
     </message>
     <message>
       <source>Clone hard drive</source>
-      <translation>Clone hard drive</translation>
+      <translation>Klon harddisk</translation>
     </message>
     <message>
       <source>elapsed time:</source>
-      <translation>elapsed time:</translation>
+      <translation>forløpt tid:</translation>
     </message>
     <message>
       <source>Exist harddrive:</source>
-      <translation>Exist harddrive:</translation>
+      <translation type="unfinished">Finnes harddisk:</translation>
     </message>
     <message>
       <source>Exist Image:</source>
-      <translation>Exist Image:</translation>
+      <translation type="unfinished">Finnes avbildning:</translation>
     </message>
     <message>
       <source>f</source>
@@ -172,7 +172,7 @@
     </message>
     <message>
       <source>hours</source>
-      <translation>hours</translation>
+      <translation>timer</translation>
     </message>
     <message>
       <source>Image einer Festplatte erstellen:</source>
@@ -196,19 +196,19 @@
     </message>
     <message>
       <source>Network computer  name:</source>
-      <translation>Network computer  name:</translation>
+      <translation type="unfinished">Nettverksdata-navn:</translation>
     </message>
     <message>
       <source>remaining time:</source>
-      <translation>remaining time:</translation>
+      <translation>gjenværende tid:</translation>
     </message>
     <message>
       <source>Save / restore MBR</source>
-      <translation>Save / restore MBR</translation>
+      <translation>Lagre/gjenopprett MBR</translation>
     </message>
     <message>
       <source>seconds</source>
-      <translation>seconds</translation>
+      <translation>sekunder</translation>
     </message>
   </context>
   <context>
