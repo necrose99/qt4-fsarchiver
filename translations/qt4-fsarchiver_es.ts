@@ -3548,8 +3548,7 @@ Versión 0.6.17-4, 01 de junio 2013</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="46"/>
         <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
-        <translation>
-Se elimina Directory en el que la partición se copia de seguridad o desde el archivo de recuperación.</translation>
+        <translation>Se elimina Directory en el que la partición se copia de seguridad o desde el archivo de recuperación.</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="52"/>
