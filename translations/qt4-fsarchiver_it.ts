@@ -2167,8 +2167,7 @@ backup. chiave:</translation>
         <location filename="../src/ui/net.ui" line="14"/>
         <source>Backup/restore partition over network</source>
         <extracomment>Partitionen über ein Netzwerk sichern/zurückschreiben</extracomment>
-        <translation>
-Backup / ripristino partizione su rete</translation>
+        <translation>Backup / ripristino partizione su rete</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="26"/>
@@ -3469,8 +3468,7 @@ con fsArchiver</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="609"/>
         <source>Show hidden directories and files</source>
-        <translation>
-Mostra directory e file nascosti</translation>
+        <translation>Mostra directory e file nascosti</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="663"/>
@@ -4148,8 +4146,7 @@ compression:</source>
         <location filename="../src/ui/setting.ui" line="126"/>
         <source>Backup note enable by default</source>
         <extracomment>Hinweise zur Sicherung * standardmäßig aktivieren</extracomment>
-        <translation>
-Nota Backup abilitazione di default</translation>
+        <translation>Nota Backup abilitazione di default</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="139"/>
