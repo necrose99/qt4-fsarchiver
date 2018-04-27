@@ -2478,7 +2478,7 @@ backup. key:</translation>
     <message>
       <source>The SSH server is not reachable. Try again or with another network protocol.
 </source>
-      <translation>The SSH server is not reachable. Try again or with another network protocol.
+      <translation>SSH-tjeneren kan ikke nås. Prøv igjen eller med en annen nettverksprotokoll.
 </translation>
     </message>
   </context>
@@ -2486,7 +2486,7 @@ backup. key:</translation>
     <name>DialogNet|Die Partition</name>
     <message>
       <source>The partition</source>
-      <translation>The partition</translation>
+      <translation>Partisjonen</translation>
     </message>
     <message>
       <source>The partition</source>
