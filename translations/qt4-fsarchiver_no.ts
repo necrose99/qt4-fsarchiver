@@ -9,7 +9,7 @@
         <location filename="../src/clone.cpp" line="516"/>
         <source>Clone Harddrive</source>
         <comment>Festplatte klonen</comment>
-        <translation>Klone harddisk</translation>
+        <translation>Klon harddisk</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="180"/>
