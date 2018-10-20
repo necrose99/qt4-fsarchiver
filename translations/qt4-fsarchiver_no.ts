@@ -116,7 +116,7 @@
         <source>You must select a partition.</source>
         <comment>Sie müssen eine Partition auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Du må velge en partisjon.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="203"/>
@@ -129,21 +129,21 @@
         <source>You must select a partition.</source>
         <comment>Sie müssen eine Partitiom auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Du må velge en partisjon.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="239"/>
         <source>You must select a part.fsa file or an part.fsa.gz file.</source>
         <comment>Sie müssen eine part.fsa- oder eine part.fsa.gz-Datei auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Du må velge ei part.fsa-fil eller ei part.fsa.gz-fil.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="257"/>
         <location filename="../src/clone.cpp" line="464"/>
         <source>Partition to restore </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Partisjon å gjenopprette </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="258"/>
@@ -157,7 +157,7 @@
         <location filename="../src/clone.cpp" line="465"/>
         <source> Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> Ønsker du å fortsette gjenopprettingen?</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="273"/>
@@ -202,7 +202,7 @@
         <location filename="../src/clone.cpp" line="558"/>
         <source>Exist harddrive</source>
         <comment>Existierende Festplatte</comment>
-        <translation type="unfinished"></translation>
+        <translation>Eksisterende harddisk</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="552"/>
@@ -214,25 +214,25 @@
         <location filename="../src/clone.cpp" line="574"/>
         <source>Save Partition Image</source>
         <comment>Image einer Partition erstellen</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lagre partisjonsavbildning</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="576"/>
         <source>Save Partition Image</source>
         <comment>Partition Abbild erstellen</comment>
-        <translation type="unfinished"></translation>
+        <translation>Lagre partisjonsavbildning</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="587"/>
         <source>Restore Partition Image</source>
         <comment>Image einer Partition zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Gjenopprett partisjonsavbildning</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="589"/>
         <source>Restore Partition Image</source>
         <comment>Partition Abbild zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>Gjenopprett partisjonsavbildning</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="670"/>
