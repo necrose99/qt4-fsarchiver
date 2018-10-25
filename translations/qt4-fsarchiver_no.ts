@@ -122,7 +122,7 @@
         <location filename="../src/clone.cpp" line="203"/>
         <source> Do you want really built a image from a partition? </source>
         <comment> Wollen Sie wirklich ein Abbild einer Partition erstellen? </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> Ønsker du et ferdigbygd avtrykk fra en partisjon? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="235"/>
@@ -163,7 +163,7 @@
         <location filename="../src/clone.cpp" line="273"/>
         <source> Do you want really restore an image of a partition? </source>
         <comment> Wollen Sie wirklich ein Abbild einer Partition zurückschreiben? </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> Ønsker du virkelig å gjenopprette avtrykk fra en partisjon? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="448"/>
@@ -255,35 +255,35 @@
         <source>Backing up the image of the hard disk was successful.</source>
         <comment>Das Sichern des Abbildes der Festplatte war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Avtrykk fra harddisk sikkerhetskopiert.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="826"/>
         <source>Backing up the image of a partition was successful.</source>
         <comment>Die Sichern des Abbildes der Partition war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Sikkerhetskopiering av partisjonsavtrykk utført.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="838"/>
         <source>Backing up the image of the hard disk was not successful.</source>
         <comment>Die Sichern des Abbildes der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kunne ikke sikkerhetskopiere avtrykket av harddisken.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="845"/>
         <source>Backing up the image of a partition was not successful.</source>
         <comment>Die Sichern des Abbildes der Partition war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kunne ikke sikkerhetskopiere sikkerhetskopiere avtrykket av en partisjon.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="872"/>
         <source>The restore of the image of the hard disk was successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Festplatte war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Avtrykk av harddisk gjenopprettet.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="874"/>
@@ -2399,7 +2399,7 @@ transmission:</source>
     <message>
         <location filename="../src/ui/net.ui" line="751"/>
         <source>Show partitions</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis partisjoner</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="764"/>
@@ -3786,7 +3786,7 @@ med fsarchiver</translation>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="643"/>
         <source>Save/Restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Lagre/gjenopprett</translation>
     </message>
 </context>
 <context>
@@ -4078,7 +4078,8 @@ Backup / restore:</translation>
         <location filename="../src/ui/mbr_dialog.ui" line="140"/>
         <source>Existing
 harddrive:</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksisterende
+harddisk:</translation>
     </message>
 </context>
 <context>
@@ -4146,7 +4147,7 @@ tilbake til den opprinnelige plasseringen</translation>
     <message>
         <location filename="../src/ui/setting.ui" line="179"/>
         <source>Show passwords</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis passord</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="192"/>
