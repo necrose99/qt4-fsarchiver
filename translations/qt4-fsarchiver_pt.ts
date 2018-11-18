@@ -170,7 +170,7 @@
         <source>You must select a gz.fsa file or an img.fsa file.</source>
         <comment>Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.
 </comment>
-        <translation>Você deve selecionar um arquivo de gz.fsa ou um img.fsa.</translation>
+        <translation>Você deve selecionar um ficheiro de gz.fsa ou um img.fsa.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="480"/>
@@ -240,7 +240,7 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen
 </comment>
-        <translation>Seleccionou uma pasta. Você deve selecionar um arquivo de gz.fsa.
+        <translation>Seleccionou uma pasta. Você deve selecionar um ficheiro de gz.fsa.
 </translation>
     </message>
     <message>
@@ -560,7 +560,7 @@ backup. key:</translation>
         <location filename="../src/dir.cpp" line="152"/>
         <source>back to write backup file</source>
         <comment>zurück zu schreibende Sicherungsdatei</comment>
-        <translation>volta a escrever o arquivo de backup</translation>
+        <translation>volta a escrever o ficheiro de backup</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="153"/>
@@ -613,7 +613,8 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.
 </comment>
-        <translation>Por favor, selecione o diretório em que o para o diretório ou arquivo a ser salvo, está a ser escrito.</translation>
+        <translation>Por favor, selecione o diretório em que o para o diretório ou ficheiro a ser salvo, será escrito.
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="217"/>
@@ -621,7 +622,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.
 </comment>
-        <translation>Por favor, selecione o diretório ou arquivo a ser salvo.
+        <translation>Por favor, selecione o diretório ou ficheiro a ser gravado.
 </translation>
     </message>
     <message>
@@ -630,7 +631,7 @@ backup. key:</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>Você selecionou um arquivo. Você deve selecionar um diretório
+        <translation>Você selecionou um ficheiro. Você deve selecionar um diretório
 </translation>
     </message>
     <message>
@@ -647,7 +648,7 @@ backup. key:</translation>
         <location filename="../src/dir.cpp" line="271"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
-        <translation>O arquivo de partição </translation>
+        <translation>O ficheiro de partição </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="272"/>
@@ -682,7 +683,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie die vorhandene Sicherungsdatei aus.
 </comment>
-        <translation>Por favor, selecione o arquivo de backup existente.
+        <translation>Por favor, selecione o ficheiro de backup existente.
 </translation>
     </message>
     <message>
@@ -691,7 +692,7 @@ backup. key:</translation>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen
 </comment>
-        <translation>Você selecionou um diretório. Você precisa de um arquivo de backup com o extensão .fsa seleto
+        <translation>Você selecionou um diretório. Você precisa de um ficheiro de backup com o extensão .fsa seleto
 </translation>
     </message>
     <message>
@@ -700,8 +701,8 @@ backup. key:</translation>
  The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Você selecionou o arquivo errado recuperação seleccionado.
- Os arquivos devem terminar com. FSA ser</translation>
+        <translation>Você selecionou o ficheiro errado recuperação seleccionado.
+ Os ficheiros devem terminar com .fsa ser</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="333"/>
@@ -715,7 +716,7 @@ Die Dateiendung muss .fsa sein</comment>
         <source>You have entered an incorrect password.</source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>Você digitou uma senha incorreta.</translation>
+        <translation>Você digitou uma palavra-passe incorreta.</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="440"/>
@@ -836,7 +837,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben.
 </comment>
-        <translation>Você digitou uma senha incorreta.
+        <translation>Você digitou uma palavra-passe incorreta.
 </translation>
     </message>
     <message>
@@ -845,7 +846,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben versucht ein Verzeichnis wiederherzustellen. Die gewählte Datei kann nur Partitionen wiederherstellen.
 </comment>
-        <translation>Você tentou restaurar um diretório. O arquivo selecionado só pode restaurar partições.
+        <translation>Você tentou restaurar um diretório. O ficheiro selecionado só pode restaurar partições.
 </translation>
     </message>
     <message>
@@ -929,7 +930,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie müssen eine MBR Sicherungsdatei auswählen.
 </comment>
-        <translation>Você deve escolher o arquivo MBR
+        <translation>Você deve escolher o ficheiro MBR
 </translation>
     </message>
     <message>
@@ -938,7 +939,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie müssen eine GPT Sicherungsdatei auswählen.
 </comment>
-        <translation>Você deve escolher o arquivo GPT
+        <translation>Você deve escolher o ficheiro GPT
 </translation>
     </message>
     <message>
@@ -1115,7 +1116,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>Você selecionou um arquivo. Você deve selecionar um diretório
+        <translation>Você selecionou um ficheiro. Você deve selecionar um diretório
 </translation>
     </message>
     <message>
@@ -1124,7 +1125,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie müssen die MBR/GPT Sicherungsdatei auswählen.
 </comment>
-        <translation>Você deve escolher o arquivo MBR/GPT
+        <translation>Você deve escolher o ficheiro MBR/GPT
 </translation>
     </message>
     <message>
@@ -1133,7 +1134,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR/GPT Sicherungsdatei auswählen
 </comment>
-        <translation>Você selecionou um diretório. Você deve selecionar o arquivo de backup de MBR/GPT
+        <translation>Você selecionou um diretório. Você deve selecionar o ficheiro de backup de MBR/GPT
 </translation>
     </message>
     <message>
@@ -1158,7 +1159,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mbr.cpp" line="429"/>
         <source>You may have a wrong file selected. Restore the hidden field has a size of </source>
         <comment>Sie haben eventuell eine falsche Datei ausgewählt. Der wiederherzustellende verborgene Bereich hat eine Größe von</comment>
-        <translation>Você pode ter um arquivo errado selecionado. Restaurar o campo oculto tem um tamanho de </translation>
+        <translation>Você pode ter um ficheiro errado selecionado. Restaurar o campo oculto tem um tamanho de </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="430"/>
@@ -1340,7 +1341,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
-        <translation>Por favor, selecione o nome do arquivo do backup.
+        <translation>Por favor, selecione o nome do ficheiro do backup.
 </translation>
     </message>
     <message>
@@ -1349,7 +1350,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>Você selecionou um arquivo. Você deve selecionar um diretório
+        <translation>Você selecionou um ficheiro. Você deve selecionar um diretório
 </translation>
     </message>
     <message>
@@ -1412,7 +1413,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="697"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
-        <translation>O arquivo de partição </translation>
+        <translation>O ficheiro de partição </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="697"/>
@@ -1471,8 +1472,8 @@ Die Dateiendung muss .fsa sein</comment>
 The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Você selecionou o arquivo errado recuperação seleccionado.
- Os arquivos devem terminar com. FSA ser</translation>
+        <translation>Você selecionou o ficheiro errado recuperação seleccionado.
+ Os ficheiros devem terminar com .fsa ser</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="808"/>
@@ -1816,7 +1817,7 @@ backup. key:</translation>
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>Você digitou uma senha incorreta.
+        <translation>Você digitou uma palavra-passe incorreta.
 </translation>
     </message>
     <message>
@@ -1841,7 +1842,7 @@ backup. key:</translation>
         <location filename="../src/net.cpp" line="1673"/>
         <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source>
         <comment>Wenn Sie keine SSH-Authentifizierung eingerichtet haben, müssen Sie nun das Passwort in dem Terminal eingeben. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern</comment>
-        <translation>Se você não configurou autenticação SSH, agora você deve digitar a senha no terminal. Isto deve continuar a ser exibido? Você pode alterar isso nas configurações básicas.</translation>
+        <translation>Se você não configurou autenticação SSH, agora você deve digitar a palavra-passe no terminal. Isto deve continuar a ser exibido? Você pode alterar isso nas configurações básicas.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1688"/>
@@ -2200,7 +2201,7 @@ backup. key:</translation>
         <location filename="../src/ui/net.ui" line="39"/>
         <source>Restore file name:</source>
         <extracomment>Name der Sicherungsdatei:</extracomment>
-        <translation>Restaure o nome do arquivo:</translation>
+        <translation>Restaure o nome do ficheiro:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="58"/>
@@ -2257,7 +2258,7 @@ backup. key:</translation>
         <location filename="../src/ui/net.ui" line="217"/>
         <source>Name the backup file:</source>
         <extracomment>Dateiname der Sicherung:</extracomment>
-        <translation>Nome do arquivo de backup:</translation>
+        <translation>Nome do ficheiro de backup:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="230"/>
@@ -2315,7 +2316,7 @@ files/directories:</translation>
     <message>
         <location filename="../src/ui/net.ui" line="440"/>
         <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
-        <translation>Diretório em que a partição é apoiada acima ou a partir do arquivo de recuperação é removido.</translation>
+        <translation>Diretório em que a partição é apoiada acima ou do ficheiro de recuperação é removido.</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="443"/>
@@ -2340,7 +2341,7 @@ setting:</translation>
     <message>
         <location filename="../src/ui/net.ui" line="542"/>
         <source>Notes to the backup is written to a file.</source>
-        <translation>Notas para o backup é gravado em um arquivo.</translation>
+        <translation>Notas para o backup está gravado num ficheiro.</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="545"/>
@@ -2722,7 +2723,7 @@ backup. key:</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>Você selecionou um arquivo. Você deve selecionar um diretório
+        <translation>Você selecionou um ficheiro. Você deve selecionar um diretório
 </translation>
     </message>
     <message>
@@ -2766,7 +2767,7 @@ backup. key:</translation>
         <location filename="../src/mainWindow.cpp" line="681"/>
         <source>The partition file</source>
         <comment>Die Partitionsdatei</comment>
-        <translation>O arquivo de partição </translation>
+        <translation>O ficheiro de partição</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="681"/>
@@ -2814,8 +2815,8 @@ backup. key:</translation>
 The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>Você selecionou o arquivo errado recuperação seleccionado.
- Os arquivos devem terminar com. FSA ser</translation>
+        <translation>Você selecionou o ficheiro errado recuperação seleccionado.
+ Os ficheiros devem terminar com .fsa ser</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="844"/>
@@ -2838,7 +2839,7 @@ Die Dateiendung muss .fsa sein</comment>
         <source>You have entered an incorrect password.</source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>Você digitou uma senha incorreta.</translation>
+        <translation>Você digitou uma palavra-passe incorreta.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="895"/>
@@ -3174,7 +3175,7 @@ Version 0.8.0-5, November 2, 2016</source>
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben.
 </comment>
-        <translation>Você digitou uma senha incorreta.
+        <translation>Você digitou uma palavra-passe incorreta.
 </translation>
     </message>
     <message>
@@ -3304,7 +3305,7 @@ Version 0.8.0-5, November 2, 2016</source>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="46"/>
         <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
-        <translation>Diretório em que a partição é apoiada acima ou a partir do arquivo de recuperação é removido.</translation>
+        <translation>Diretório em que a partição é apoiada acima ou do ficheiro de recuperação é removido.</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="52"/>
@@ -3345,7 +3346,7 @@ Version 0.8.0-5, November 2, 2016</source>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="181"/>
         <source>Name the backup file:</source>
-        <translation>Nome do arquivo de backup:</translation>
+        <translation>Nome do ficheiro de backup:</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="213"/>
@@ -3400,7 +3401,7 @@ setting:</translation>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="441"/>
         <source>Notes to the backup is written to a file</source>
-        <translation>Notas para o backup é gravado em um arquivo.</translation>
+        <translation>Notas para o backup é gravado num ficheiro.</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="444"/>
