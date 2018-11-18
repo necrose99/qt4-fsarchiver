@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<!--
- Loco xml export: Qt framework TS file
- Project: Qt4-fsarchiver
- Release: Working copy
- Locale: en_GB, English (UK)
- Exported by: Michael R. Lawrence
- Exported at: Sat, 25 Oct 2014 17:56:53 +0100 
--->
 <TS version="2.0" language="pt-PT" sourcelanguage="en">
   <context>
     <name>clone_dialog</name>
@@ -223,11 +215,11 @@
     <name>Dialog_Net</name>
     <message>
       <source>Directory in which the partition is backed up or from the recovery file is removed.</source>
-      <translation>Diretório em que a partição é apoiada acima ou a partir do arquivo de recuperação é removido.</translation>
+      <translation>Diretório em que a partição é apoiada acima ou a partir do ficheiro de recuperação é removido.</translation>
     </message>
     <message>
       <source>Notes to the backup is written to a file.</source>
-      <translation>Notas para o backup é gravado em um arquivo.</translation>
+      <translation>Notas para o backup é gravado num ficheiro.</translation>
     </message>
     <message>
       <source>Number of processors
@@ -304,7 +296,7 @@ backup key</source>
     </message>
     <message>
       <source>Name the backup file:</source>
-      <translation>Nome do arquivo de backup:</translation>
+      <translation>Nome do ficheiro de backup:</translation>
     </message>
     <message>
       <source>Network computer  name:</source>
@@ -333,28 +325,28 @@ Files/directories:</source>
       <translation>O número de salvos arquivos/diretórios:</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1"&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;tempo decorrido:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;tempo decorrido:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1"&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;hora prevista:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;hora prevista:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>Partition restore</source>
@@ -400,7 +392,7 @@ transmission:</source>
     </message>
     <message>
       <source>Restore file name:</source>
-      <translation>Restaure o nome do arquivo:</translation>
+      <translation>Restaure o nome do ficheiro:</translation>
     </message>
     <message>
       <source>Restore partition 
@@ -555,15 +547,15 @@ with fsarchiver</source>
     </message>
     <message>
       <source>You have selected a folder. You must select a fsa.gz file.</source>
-      <translation>Seleccionou uma pasta. Você deve selecionar um arquivo de fsa.gz.</translation>
+      <translation>Seleccionou uma pasta. Você deve selecionar um ficheiro de fsa.gz.</translation>
     </message>
     <message>
       <source>You have selected a folder. You must select a gz.fsa file.</source>
-      <translation>Seleccionou uma pasta. Você deve selecionar um arquivo de gz.fsa.</translation>
+      <translation>Seleccionou uma pasta. Você deve selecionar um ficheiro de gz.fsa.</translation>
     </message>
     <message>
       <source>You must select a gz.fsa file or an img.fsa file.</source>
-      <translation>Você deve selecionar um arquivo de gz.fsa ou um img.fsa.</translation>
+      <translation>Você deve selecionar um ficheiro de gz.fsa ou um img.fsa.</translation>
     </message>
     <message>
       <source>already restored</source>
@@ -619,7 +611,7 @@ with fsarchiver</source>
     </message>
     <message>
       <source>You must select a fsa.gz file.</source>
-      <translation>Você deve selecionar um arquivo de fsa.gz.</translation>
+      <translation>Você deve selecionar um ficheiro de fsa.gz.</translation>
     </message>
     <message>
       <source>You must select a hard drive.</source>
@@ -680,7 +672,7 @@ with fsarchiver</source>
     <message>
       <source>Please, select the filename of the backup.
 </source>
-      <translation>Por favor, selecione o nome do arquivo do backup.
+      <translation>Por favor, selecione o nome do ficheiro do backup.
 </translation>
     </message>
   </context>
@@ -712,7 +704,7 @@ with fsarchiver</source>
     </message>
     <message>
       <source>Please, select the filename of the backup.</source>
-      <translation>Por favor, selecione o nome do arquivo do backup.</translation>
+      <translation>Por favor, selecione o nome do ficheiro do backup.</translation>
     </message>
     <message>
       <source>The backup of the image was not successfully.</source>
@@ -732,7 +724,7 @@ with fsarchiver</source>
     </message>
     <message>
       <source>You have selected a folder. You must select a fsa.gz file.</source>
-      <translation>Seleccionou uma pasta. Você deve selecionar um arquivo de fsa.gz.</translation>
+      <translation>Seleccionou uma pasta. Você deve selecionar um ficheiro de fsa.gz.</translation>
     </message>
     <message>
       <source>No</source>
@@ -764,7 +756,7 @@ with fsarchiver</source>
     </message>
     <message>
       <source>You must select a fsa.gz file.</source>
-      <translation>Você deve selecionar um arquivo de fsa.gz.</translation>
+      <translation>Você deve selecionar um ficheiro de fsa.gz.</translation>
     </message>
     <message>
       <source>You must select a hard drive.</source>
@@ -861,7 +853,7 @@ with fsarchiver</source>
     <message>
       <source>You have selected a folder. You must select a fsa.gz file.
 </source>
-      <translation>Seleccionou uma pasta. Você deve selecionar um arquivo de fsa.gz.
+      <translation>Seleccionou uma pasta. Você deve selecionar um ficheiro de fsa.gz.
 </translation>
     </message>
   </context>
@@ -883,7 +875,7 @@ with fsarchiver</source>
     <name>DialogClone_net|Sie müssen eine fsa.gz Datei auswählen.</name>
     <message>
       <source>You must select a fsa.gz file.</source>
-      <translation>Você deve selecionar um arquivo de fsa.gz.</translation>
+      <translation>Você deve selecionar um ficheiro de fsa.gz.</translation>
     </message>
   </context>
   <context>
@@ -909,7 +901,7 @@ with fsarchiver</source>
     <message>
       <source>You have selected a folder. You must select a gz.fsa file.
 </source>
-      <translation>Seleccionou uma pasta. Você deve selecionar um arquivo de gz.fsa.
+      <translation>Seleccionou uma pasta. Você deve selecionar um ficheiro de gz.fsa.
 </translation>
     </message>
   </context>
@@ -931,7 +923,7 @@ with fsarchiver</source>
     <name>DialogClone|Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.</name>
     <message>
       <source>You must select a gz.fsa file or an img.fsa file.</source>
-      <translation>Você deve selecionar um arquivo de gz.fsa ou um img.fsa.</translation>
+      <translation>Você deve selecionar um ficheiro de gz.fsa ou um img.fsa.</translation>
     </message>
   </context>
   <context>
@@ -994,11 +986,11 @@ with fsarchiver</source>
     </message>
     <message>
       <source>Please select the directory in which the to the directory or file to be saved is to be written.</source>
-      <translation>Por favor, selecione o diretório em que o para o diretório ou arquivo a ser salvo, está a ser escrito.</translation>
+      <translation>Por favor, selecione o diretório em que o para o diretório ou ficheiro a ser salvo, está a ser escrito.</translation>
     </message>
     <message>
       <source>Please select the to be directory or file to be saved.</source>
-      <translation>Por favor, selecione o diretório ou arquivo a ser salvo.</translation>
+      <translation>Por favor, selecione o diretório ou ficheiro a ser salvo.</translation>
     </message>
     <message>
       <source>Select the directory in which the saved image will be recovered.</source>
@@ -1039,24 +1031,24 @@ with fsarchiver</source>
     <message>
       <source>You have chosen the wrong recovery file selected.
  The files should end with. fsa be</source>
-      <translation>Você selecionou o arquivo errado recuperação seleccionado.
- Os arquivos devem terminar com. FSA ser</translation>
+      <translation>Você selecionou o ficheiro errado recuperação seleccionado.
+ Os ficheiros devem terminar com .fsa ser</translation>
     </message>
     <message>
       <source>You have selected a directory. You need a backup file with the extension .fsa select</source>
-      <translation>Você selecionou um diretório. Você precisa de um arquivo de backup com o extensão .fsa seleto</translation>
+      <translation>Você selecionou um diretório. Você precisa de um ficheiro de backup com o extensão .fsa seleto</translation>
     </message>
     <message>
       <source>You have selected a file. You must select a directory</source>
-      <translation>Você selecionou um arquivo. Você deve selecionar um diretório</translation>
+      <translation>Você selecionou um ficheiro. Você deve selecionar um diretório</translation>
     </message>
     <message>
       <source>You have tried to restore a directory. The selected file can only restore partitions.</source>
-      <translation>Você tentou restaurar um diretório. O arquivo selecionado só pode restaurar partições.</translation>
+      <translation>Você tentou restaurar um diretório. O ficheiro selecionado só pode restaurar partições.</translation>
     </message>
     <message>
       <source>back to write backup file</source>
-      <translation>volta a escrever o arquivo de backup</translation>
+      <translation>volta a escrever o ficheiro de backup</translation>
     </message>
     <message>
       <source>bzip2 fast</source>
@@ -1170,7 +1162,7 @@ backup. key:</source>
     </message>
     <message>
       <source>Please select the existing backup file.</source>
-      <translation>Por favor, selecione o arquivo de backup existente.</translation>
+      <translation>Por favor, selecione o ficheiro de backup existente.</translation>
     </message>
     <message>
       <source>qzip best</source>
@@ -1186,7 +1178,7 @@ backup. key:</source>
     </message>
     <message>
       <source>The partition file</source>
-      <translation>O arquivo de partição</translation>
+      <translation>O ficheiro de partição</translation>
     </message>
     <message>
       <source>There was no key to decrypt specified.</source>
@@ -1227,7 +1219,7 @@ backup. key:</source>
     <message>
       <source>Please select the to be directory or file to be saved.
 </source>
-      <translation>Por favor, selecione o diretório ou arquivo a ser salvo.
+      <translation>Por favor, selecione o diretório ou ficheiro a ser salvo.
 </translation>
     </message>
   </context>
@@ -1236,7 +1228,7 @@ backup. key:</source>
     <message>
       <source>Please select the existing backup file.
 </source>
-      <translation>Por favor, selecione o arquivo de backup existente.
+      <translation>Por favor, selecione o ficheiro de backup existente.
 </translation>
     </message>
   </context>
@@ -1266,7 +1258,7 @@ backup. key:</source>
     <name>DialogDIR|Die Partitionsdatei</name>
     <message>
       <source>The partition file </source>
-      <translation>O arquivo de partição </translation>
+      <translation>O ficheiro de partição </translation>
     </message>
   </context>
   <context>
@@ -1448,7 +1440,7 @@ backup. key:</source>
     <message>
       <source>You have selected a directory. You need a backup file with the extension .fsa select
 </source>
-      <translation>Você selecionou um diretório. Você precisa de um arquivo de backup com o extensão .fsa seleto
+      <translation>Você selecionou um diretório. Você precisa de um ficheiro de backup com o extensão .fsa seleto
 </translation>
     </message>
   </context>
@@ -1457,7 +1449,7 @@ backup. key:</source>
     <message>
       <source>You have selected a file. You must select a directory
 </source>
-      <translation>Você selecionou um arquivo. Você deve selecionar um diretório
+      <translation>Você selecionou um ficheiro. Você deve selecionar um diretório
 </translation>
     </message>
   </context>
@@ -1467,8 +1459,8 @@ Die Dateiendung muss .fsa sein</name>
     <message>
       <source>You have chosen the wrong recovery file selected.
  The files should end with. fsa be</source>
-      <translation>Você selecionou o arquivo errado recuperação seleccionado.
- Os arquivos devem terminar com. FSA ser</translation>
+      <translation>Você selecionou o ficheiro errado recuperação seleccionado.
+ Os ficheiros devem terminar com .fsa ser</translation>
     </message>
   </context>
   <context>
@@ -1476,7 +1468,7 @@ Die Dateiendung muss .fsa sein</name>
     <message>
       <source>You have tried to restore a directory. The selected file can only restore partitions.
 </source>
-      <translation>Você tentou restaurar um diretório. O arquivo selecionado só pode restaurar partições.
+      <translation>Você tentou restaurar um diretório. O ficheiro selecionado só pode restaurar partições.
 </translation>
     </message>
   </context>
@@ -1544,7 +1536,7 @@ Die Dateiendung muss .fsa sein</name>
     <name>DialogDIR|zurück zu schreibende Sicherungsdatei</name>
     <message>
       <source>back to write backup file</source>
-      <translation>volta a escrever o arquivo de backup</translation>
+      <translation>volta a escrever o ficheiro de backup</translation>
     </message>
   </context>
   <context>
@@ -1597,27 +1589,27 @@ Die Dateiendung muss .fsa sein</name>
     </message>
     <message>
       <source>You have selected a directory. You must select the MBR backup file</source>
-      <translation>Você selecionou um diretório. Você deve selecionar o arquivo de backup do MBR</translation>
+      <translation>Você selecionou um diretório. Você deve selecionar o ficheiro de backup do MBR</translation>
     </message>
     <message>
       <source>You have no MBR backup file selected. Name or size is not correct</source>
-      <translation>Você não tem nenhum arquivo de backup de MBR selecionado. Nome ou tamanho não é correto</translation>
+      <translation>Você não tem nenhum ficheiro de backup de MBR selecionado. Nome ou tamanho não é correto</translation>
     </message>
     <message>
       <source>You have no MBR/GPT backup file selected. Name or size is not correct</source>
-      <translation>Você não tem nenhum arquivo de backup de MBR/GPT selecionado. Nome ou tamanho não é correto</translation>
+      <translation>Você não tem nenhum ficheiro de backup de MBR/GPT selecionado. Nome ou tamanho não é correto</translation>
     </message>
     <message>
       <source>You have selected a directory. You must select the MBR/GPT backup file</source>
-      <translation>Você selecionou um diretório. Você deve selecionar o arquivo de backup de MBR/GPT</translation>
+      <translation>Você selecionou um diretório. Você deve selecionar o ficheiro de backup de MBR/GPT</translation>
     </message>
     <message>
       <source>You have selected a file. You must select a directory.</source>
-      <translation>Você selecionou um arquivo. Você deve selecionar um diretório.</translation>
+      <translation>Você selecionou um ficheiro. Você deve selecionar um diretório.</translation>
     </message>
     <message>
       <source>You may have a wrong file selected. Restore the hidden field has a size of</source>
-      <translation>Você pode ter um arquivo errado selecionado. Restaurar o campo oculto tem um tamanho de</translation>
+      <translation>Você pode ter um ficheiro errado selecionado. Restaurar o campo oculto tem um tamanho de</translation>
     </message>
     <message>
       <source>You may have the wrong disk is selected. The restore disk is</source>
@@ -1721,15 +1713,15 @@ Die Dateiendung muss .fsa sein</name>
     </message>
     <message>
       <source>You must choose the GPT file</source>
-      <translation>Você deve escolher o arquivo GPT</translation>
+      <translation>Você deve escolher o ficheiro GPT</translation>
     </message>
     <message>
       <source>You must choose the MBR file</source>
-      <translation>Você deve escolher o arquivo MBR</translation>
+      <translation>Você deve escolher o ficheiro MBR</translation>
     </message>
     <message>
       <source>You must choose the MBR/GPT file</source>
-      <translation>Você deve escolher o arquivo MBR/GPT</translation>
+      <translation>Você deve escolher o ficheiro MBR/GPT</translation>
     </message>
     <message>
       <source>You must select a directory</source>
@@ -1903,7 +1895,7 @@ Die Dateiendung muss .fsa sein</name>
     <message>
       <source>You have selected a directory. You must select the MBR/GPT backup file
 </source>
-      <translation>Você selecionou um diretório. Você deve selecionar o arquivo de backup de MBR/GPT
+      <translation>Você selecionou um diretório. Você deve selecionar o ficheiro de backup de MBR/GPT
 </translation>
     </message>
   </context>
@@ -1912,7 +1904,7 @@ Die Dateiendung muss .fsa sein</name>
     <message>
       <source>You have selected a file. You must select a directory.
 </source>
-      <translation>Você selecionou um arquivo. Você deve selecionar um diretório.
+      <translation>Você selecionou um ficheiro. Você deve selecionar um diretório.
 </translation>
     </message>
   </context>
@@ -1920,7 +1912,7 @@ Die Dateiendung muss .fsa sein</name>
     <name>DialogMBR|Sie haben eventuell eine falsche Datei ausgewählt. Der wiederherzustellende verborgene Bereich hat eine Größe von</name>
     <message>
       <source>You may have a wrong file selected. Restore the hidden field has a size of </source>
-      <translation>Você pode ter um arquivo errado selecionado. Restaurar o campo oculto tem um tamanho de </translation>
+      <translation>Você pode ter um ficheiro errado selecionado. Restaurar o campo oculto tem um tamanho de </translation>
     </message>
   </context>
   <context>
@@ -1935,7 +1927,7 @@ Die Dateiendung muss .fsa sein</name>
     <message>
       <source>You must choose the MBR/GPT file
 </source>
-      <translation>Você deve escolher o arquivo MBR/GPT
+      <translation>Você deve escolher o ficheiro MBR/GPT
 </translation>
     </message>
   </context>
@@ -1951,7 +1943,7 @@ Die Dateiendung muss .fsa sein</name>
     <message>
       <source>You must choose the GPT file
 </source>
-      <translation>Você deve escolher o arquivo GPT
+      <translation>Você deve escolher o ficheiro GPT
 </translation>
     </message>
   </context>
@@ -1960,7 +1952,7 @@ Die Dateiendung muss .fsa sein</name>
     <message>
       <source>You must choose the MBR file
 </source>
-      <translation>Você deve escolher o arquivo MBR
+      <translation>Você deve escolher o ficheiro MBR
 </translation>
     </message>
   </context>
@@ -2022,7 +2014,7 @@ Die Dateiendung muss .fsa sein</name>
     </message>
     <message>
       <source>cannot restore an archive to a partition which is mounted, unmount it first</source>
-      <translation>Não pode restaurar um arquivo para uma partição que é montada, desmontá-lo primeiro</translation>
+      <translation>Não pode restaurar um ficheiro para uma partição que é montada, desmontá-lo primeiro</translation>
     </message>
     <message>
       <source>could not be integrated. The program is aborted</source>
@@ -3243,28 +3235,28 @@ backup key</translation>
       <translation>referência</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>Partition restore</source>
@@ -3574,8 +3566,8 @@ with fsarchiver</source>
 with fsarchiver</translation>
     </message>
     <message>
-      <source>Password for network's view</source>
-      <translation>Password for network's view</translation>
+      <source>Password for network&apos;s view</source>
+      <translation>Password for network&apos;s view</translation>
     </message>
     <message>
       <source>Proposed action:</source>
@@ -5132,8 +5124,8 @@ should be used:</translation>
       <translation>Network protocol:</translation>
     </message>
     <message>
-      <source>Password for network's view</source>
-      <translation>Password for network's view</translation>
+      <source>Password for network&apos;s view</source>
+      <translation>Password for network&apos;s view</translation>
     </message>
     <message>
       <source>Safe PBR by default</source>
