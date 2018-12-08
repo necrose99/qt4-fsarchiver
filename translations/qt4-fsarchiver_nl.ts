@@ -75,7 +75,7 @@
         <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
         <comment>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
 </comment>
-        <translation>Op de harde schijf bestaan ​​een wortel of een home partitie. Je moet een live-cd nodig.</translation>
+        <translation>Op de harde schijf bestaan een wortel of een home partitie. Je moet een live-CD nodig.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="347"/>
