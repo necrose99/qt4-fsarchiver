@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<!--
- Loco xml export: Qt framework TS file
- Project: Qt4-fsarchiver
- Release: Working copy
- Locale: en_GB, English (UK)
- Exported by: Michael R. Lawrence
- Exported at: Sat, 25 Oct 2014 17:56:53 +0100 
--->
 <TS version="2.0" language="es-MX" sourcelanguage="en">
   <context>
     <name>clone_dialog</name>
@@ -293,7 +285,7 @@ tecla de copia de seguridad</translation>
     </message>
     <message>
       <source>Existing partitions:</source>
-      <translation>particiones almacenados</translation>
+      <translation>Particiones existentes:</translation>
     </message>
     <message>
       <source>Exit</source>
@@ -309,7 +301,7 @@ tecla de copia de seguridad</translation>
     </message>
     <message>
       <source>Name the backup file:</source>
-      <translation>Nombre del archivo de copia de seguridad</translation>
+      <translation>Nombre del archivo de copia de seguridad:</translation>
     </message>
     <message>
       <source>Network computer  name:</source>
@@ -340,28 +332,28 @@ Files/directories:</source>
  Archivos/directorios:</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;tiempo transcurrido:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;tiempo transcurrido:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;tiempo estimado:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;tiempo estimado:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>Partition restore</source>
@@ -436,7 +428,7 @@ with fsarchiver</source>
     </message>
     <message>
       <source>Start restore a partition.</source>
-      <translation>Restaurar la tabla de particiones</translation>
+      <translation>Restaurar la tabla de particiones.</translation>
     </message>
     <message>
       <source>Start the backup of a partition.</source>
@@ -2043,7 +2035,7 @@ Die Dateiendung muss .fsa sein</name>
     </message>
     <message>
       <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
-      <translation>&lt;p&gt;&lt;span id="result_box" lang="es" tabindex="-1"&gt;&lt;span class="hps"&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class="hps"&gt;btrfs&lt;/span&gt; &lt;span class="hps"&gt;existente&lt;/span&gt; &lt;span class="hps"&gt;que desea formatear&lt;/span&gt;? &lt;span class="hps"&gt;El nuevo&lt;/span&gt; &lt;span class="hps"&gt;UUID&lt;/span&gt; &lt;span class="hps"&gt;se define&lt;/span&gt; &lt;span class="hps"&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class="hps"&gt;Si decide&lt;/span&gt; &lt;span class="hps"&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class="hps"&gt;el UUID&lt;/span&gt; &lt;span class="hps"&gt;queda&lt;/span&gt; &lt;span class="hps"&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation>
+      <translation>&lt;p&gt;&lt;span id=&quot;result_box&quot; lang=&quot;es&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;hps&quot;&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;btrfs&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;existente&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;que desea formatear&lt;/span&gt;? &lt;span class=&quot;hps&quot;&gt;El nuevo&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;se define&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class=&quot;hps&quot;&gt;Si decide&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;el UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;queda&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation>
     </message>
     <message>
       <source>If you have not set up SSH authentication, you must now enter the password in the terminal. Should this continue to be displayed? You can change this in the basic settings.</source>
@@ -2795,7 +2787,7 @@ The files should end with. fsa be</source>
     <name>DialogNet|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</name>
     <message>
       <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
-      <translation>&lt;p&gt;&lt;span id="result_box" lang="es" tabindex="-1"&gt;&lt;span class="hps"&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class="hps"&gt;btrfs&lt;/span&gt; &lt;span class="hps"&gt;existente&lt;/span&gt; &lt;span class="hps"&gt;que desea formatear&lt;/span&gt;? &lt;span class="hps"&gt;El nuevo&lt;/span&gt; &lt;span class="hps"&gt;UUID&lt;/span&gt; &lt;span class="hps"&gt;se define&lt;/span&gt; &lt;span class="hps"&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class="hps"&gt;Si decide&lt;/span&gt; &lt;span class="hps"&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class="hps"&gt;el UUID&lt;/span&gt; &lt;span class="hps"&gt;queda&lt;/span&gt; &lt;span class="hps"&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation>
+      <translation>&lt;p&gt;&lt;span id=&quot;result_box&quot; lang=&quot;es&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;hps&quot;&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;btrfs&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;existente&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;que desea formatear&lt;/span&gt;? &lt;span class=&quot;hps&quot;&gt;El nuevo&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;se define&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class=&quot;hps&quot;&gt;Si decide&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;el UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;queda&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation>
     </message>
   </context>
   <context>
@@ -3242,26 +3234,26 @@ de copia de seguridad</translation>
       <translation>referencia</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;div class="asset-name"&gt;p, li { white-space: pre-wrap; } (FileDialog|)&lt;/div&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;div class=&quot;asset-name&quot;&gt;p, li { white-space: pre-wrap; } (FileDialog|)&lt;/div&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;nav class="actions asset-actions"&gt;&lt;/nav&gt;</translation>
+&lt;nav class=&quot;actions asset-actions&quot;&gt;&lt;/nav&gt;</translation>
     </message>
     <message>
       <source>Partition restore</source>
@@ -3569,7 +3561,7 @@ with fsarchiver</source>
       <translation>guardar partición</translation>
     </message>
     <message>
-      <source>Password for network's view</source>
+      <source>Password for network&apos;s view</source>
       <translation>Contraseña de vista del red</translation>
     </message>
     <message>
@@ -3963,7 +3955,7 @@ Versión 0.6.19-7, 2 de septiembre 2014</translation>
     </message>
     <message>
       <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
-      <translation>&lt;p&gt;&lt;span id="result_box" lang="es" tabindex="-1"&gt;&lt;span class="hps"&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class="hps"&gt;btrfs&lt;/span&gt; &lt;span class="hps"&gt;existente&lt;/span&gt; &lt;span class="hps"&gt;que desea formatear&lt;/span&gt;? &lt;span class="hps"&gt;El nuevo&lt;/span&gt; &lt;span class="hps"&gt;UUID&lt;/span&gt; &lt;span class="hps"&gt;se define&lt;/span&gt; &lt;span class="hps"&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class="hps"&gt;Si decide&lt;/span&gt; &lt;span class="hps"&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class="hps"&gt;el UUID&lt;/span&gt; &lt;span class="hps"&gt;queda&lt;/span&gt; &lt;span class="hps"&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation>
+      <translation>&lt;p&gt;&lt;span id=&quot;result_box&quot; lang=&quot;es&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;hps&quot;&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;btrfs&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;existente&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;que desea formatear&lt;/span&gt;? &lt;span class=&quot;hps&quot;&gt;El nuevo&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;se define&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class=&quot;hps&quot;&gt;Si decide&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;el UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;queda&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation>
     </message>
     <message>
       <source>In the file /usr/share/doc/qt4-fsarchiver/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source>
@@ -4058,7 +4050,7 @@ Versión 0.6.19-7, 2 de septiembre 2014</translation>
     </message>
     <message>
       <source>To back up home partition is mounted. Do you want to do a live backup?</source>
-      <translation>Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation>
+      <translation>Para la copia de seguridad se monta la partición En Casa &quot;home.&quot; ¿Quieres hacer una copia de seguridad en vivo?</translation>
     </message>
     <message>
       <source>To back up the system partition is mounted. Do you want to do a live backup?</source>
@@ -4066,7 +4058,7 @@ Versión 0.6.19-7, 2 de septiembre 2014</translation>
     </message>
     <message>
       <source>to be protected/secured partition: / (root system directory)</source>
-      <translation>a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation>
+      <translation>a ser protegido / partición asegurado: (directorio &quot;root&quot;raíz del sistema) /</translation>
     </message>
     <message>
       <source>You have chosen the wrong recovery file selected. 
@@ -4590,7 +4582,7 @@ backup. key:</source>
     <name>MWindow|Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</name>
     <message>
       <source>To back up home partition is mounted. Do you want to do a live backup?</source>
-      <translation>Para la copia de seguridad se monta la partición En Casa "home." ¿Quieres hacer una copia de seguridad en vivo?</translation>
+      <translation>Para la copia de seguridad se monta la partición En Casa &quot;home.&quot; ¿Quieres hacer una copia de seguridad en vivo?</translation>
     </message>
   </context>
   <context>
@@ -4847,7 +4839,7 @@ Los archivos deben terminar al FSA.</translation>
     <name>MWindow|Soll die vorhandene btrfs-Partition formatiert werden? Die UUID wird dabei neu festgelegt. Wenn Sie  nein wählen, bleibt die UUID erhalten.</name>
     <message>
       <source>If the existing btrfs partition to be formatted? The new UUID is defined here. If you choose &lt;no&gt;, the UUID remains preserved.</source>
-      <translation>&lt;p&gt;&lt;span id="result_box" lang="es" tabindex="-1"&gt;&lt;span class="hps"&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class="hps"&gt;btrfs&lt;/span&gt; &lt;span class="hps"&gt;existente&lt;/span&gt; &lt;span class="hps"&gt;que desea formatear&lt;/span&gt;? &lt;span class="hps"&gt;El nuevo&lt;/span&gt; &lt;span class="hps"&gt;UUID&lt;/span&gt; &lt;span class="hps"&gt;se define&lt;/span&gt; &lt;span class="hps"&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class="hps"&gt;Si decide&lt;/span&gt; &lt;span class="hps"&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class="hps"&gt;el UUID&lt;/span&gt; &lt;span class="hps"&gt;queda&lt;/span&gt; &lt;span class="hps"&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation>
+      <translation>&lt;p&gt;&lt;span id=&quot;result_box&quot; lang=&quot;es&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;hps&quot;&gt;Si la partici&amp;oacute;n&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;btrfs&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;existente&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;que desea formatear&lt;/span&gt;? &lt;span class=&quot;hps&quot;&gt;El nuevo&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;se define&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;aqu&amp;iacute;&lt;/span&gt;. &lt;span class=&quot;hps&quot;&gt;Si decide&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;&amp;lt;no&amp;gt;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;el UUID&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;queda&lt;/span&gt; &lt;span class=&quot;hps&quot;&gt;preservada.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</translation>
     </message>
   </context>
   <context>
@@ -4932,7 +4924,7 @@ Los archivos deben terminar al FSA.</translation>
     <name>MWindow|zu sichernde / gesicherte Partition: / (Wurzel-Systemverzeichnis)</name>
     <message>
       <source>to be protected/secured partition: / (root system directory) </source>
-      <translation>a ser protegido / partición asegurado: (directorio "root"raíz del sistema) /</translation>
+      <translation>a ser protegido / partición asegurado: (directorio &quot;root&quot;raíz del sistema) /</translation>
     </message>
   </context>
   <context>
@@ -5131,7 +5123,7 @@ Se debe utilizar:</translation>
       <translation>Protocolo de red:</translation>
     </message>
     <message>
-      <source>Password for network's view</source>
+      <source>Password for network&apos;s view</source>
       <translation>Contraseña de vista del red</translation>
     </message>
     <message>
