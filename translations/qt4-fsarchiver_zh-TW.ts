@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<!--
- Loco xml export: Qt framework TS file
- Project: Qt4-fsarchiver
- Release: Working copy
- Locale: en_GB, English (UK)
- Exported by: Michael R. Lawrence
- Exported at: Sat, 25 Oct 2014 17:56:53 +0100 
--->
 <TS version="2.0" language="zh-TW" sourcelanguage="en">
   <context>
     <name>clone_dialog</name>
     <message>
       <source>Directory in which the image is written</source>
-      <translation>映像保存目录</translation>
+      <translation>圖像保存目錄</translation>
     </message>
     <message>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;already saved:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -21,11 +13,11 @@
     </message>
     <message>
       <source>already saved:</source>
-      <translation>已经备份：</translation>
+      <translation>已經備份：</translation>
     </message>
     <message>
       <source>Backup directory:</source>
-      <translation>备份文件保存位置：</translation>
+      <translation>備份檔案保存位置：</translation>
     </message>
     <message>
       <source>Cancel</source>
@@ -33,11 +25,11 @@
     </message>
     <message>
       <source>Clone hard disk</source>
-      <translation>克隆硬盘</translation>
+      <translation>克隆硬碟</translation>
     </message>
     <message>
       <source>Clone hard drive</source>
-      <translation>克隆硬盘</translation>
+      <translation>克隆硬碟</translation>
     </message>
     <message>
       <source>CommandLinkButton</source>
@@ -45,11 +37,11 @@
     </message>
     <message>
       <source>elapsed time:</source>
-      <translation>已用时间：</translation>
+      <translation>經過時間：</translation>
     </message>
     <message>
       <source>Exist harddrive:</source>
-      <translation>现有磁盘：</translation>
+      <translation>現有硬碟：</translation>
     </message>
     <message>
       <source>Exit</source>
@@ -61,15 +53,15 @@
     </message>
     <message>
       <source>hours:</source>
-      <translation>上班時間:</translation>
+      <translation>小時:</translation>
     </message>
     <message>
       <source>hours</source>
-      <translation>时</translation>
+      <translation>時</translation>
     </message>
     <message>
       <source>Image of a hard disk to create</source>
-      <translation>备份整个硬盘</translation>
+      <translation>備份整個硬碟</translation>
     </message>
     <message>
       <source>Image of a hard disk to create:</source>
@@ -77,7 +69,7 @@
     </message>
     <message>
       <source>Image of a hard disk write back</source>
-      <translation>恢复硬盘</translation>
+      <translation>恢復硬碟</translation>
     </message>
     <message>
       <source>MB</source>
@@ -89,7 +81,7 @@
     </message>
     <message>
       <source>minutes:</source>
-      <translation>分鐘數:</translation>
+      <translation>分鐘:</translation>
     </message>
     <message>
       <source>minutes</source>
@@ -97,11 +89,11 @@
     </message>
     <message>
       <source>New harddrive:</source>
-      <translation>新硬盘：</translation>
+      <translation>新硬碟：</translation>
     </message>
     <message>
       <source>Proposed action:</source>
-      <translation>设置：</translation>
+      <translation>建議採取的行動:</translation>
     </message>
     <message>
       <source>remaining time:</source>
@@ -333,28 +325,28 @@ Files/directories:</source>
       <translation>要备份的文件/目录数：</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1"&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;elapsed time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;執行時間：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;執行時間：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1"&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;expected time:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;預計的時間：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;預計的時間：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>Partition restore</source>
@@ -615,7 +607,7 @@ with fsarchiver</source>
     </message>
     <message>
       <source>You must select a folder.</source>
-      <translation>请选择目录</translation>
+      <translation>請選擇目錄。</translation>
     </message>
     <message>
       <source>You must select a fsa.gz file.</source>
@@ -785,7 +777,7 @@ with fsarchiver</source>
     <name>DialogClone_net|Der Netzwerkrechner</name>
     <message>
       <source>The network computer </source>
-      <translation>網路電腦</translation>
+      <translation>網路電腦 </translation>
     </message>
   </context>
   <context>
@@ -886,11 +878,11 @@ with fsarchiver</source>
     <name>DialogClone_net| Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben?</name>
     <message>
       <source>Do you want really restore the image of the hard drive? </source>
-      <translation>你想真正還原圖像的硬碟嗎？</translation>
+      <translation>你想真正還原圖像的硬碟嗎？ </translation>
     </message>
     <message>
       <source> Do you want really restore the image of the hard drive? </source>
-      <translation>你想真正還原圖像的硬碟嗎？</translation>
+      <translation> 你想真正還原圖像的硬碟嗎？ </translation>
     </message>
   </context>
   <context>
@@ -944,7 +936,7 @@ with fsarchiver</source>
     </message>
     <message>
       <source> Do you want really restore the image of the hard drive? </source>
-      <translation>你想真正還原圖像的硬碟嗎？</translation>
+      <translation> 你想真正還原圖像的硬碟嗎? </translation>
     </message>
   </context>
   <context>
@@ -958,7 +950,7 @@ with fsarchiver</source>
     <name>DialogClone| Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte</name>
     <message>
       <source> Do you want really clone the hard drive? All dates on  </source>
-      <translation>你想真的克隆硬碟嗎？所有的日期</translation>
+      <translation> 你想真的克隆硬碟嗎？所有的日期  </translation>
     </message>
   </context>
   <context>
@@ -1235,11 +1227,11 @@ backup. key:</source>
     <name>DialogDIR| Dateien,</name>
     <message>
       <source>Files, </source>
-      <translation>檔，</translation>
+      <translation>檔， </translation>
     </message>
     <message>
       <source>files, </source>
-      <translation>檔，</translation>
+      <translation>檔， </translation>
     </message>
     <message>
       <source> files,</source>
@@ -1257,7 +1249,7 @@ backup. key:</source>
     <name>DialogDIR|Die Partitionsdatei</name>
     <message>
       <source>The partition file </source>
-      <translation>分區檔</translation>
+      <translation>分區檔 </translation>
     </message>
   </context>
   <context>
@@ -1352,11 +1344,11 @@ backup. key:</source>
     <name>DialogDIR| Links und</name>
     <message>
       <source>links and </source>
-      <translation>連結和</translation>
+      <translation>連結和 </translation>
     </message>
     <message>
       <source> links and </source>
-      <translation>連結和</translation>
+      <translation> 連結和 </translation>
     </message>
   </context>
   <context>
@@ -1476,11 +1468,11 @@ Die Dateiendung muss .fsa sein</name>
     <name>DialogDIR| Verzeichnisse,</name>
     <message>
       <source>directories, </source>
-      <translation>目錄</translation>
+      <translation>目錄 </translation>
     </message>
     <message>
       <source> directories, </source>
-      <translation>目錄</translation>
+      <translation> 目錄 </translation>
     </message>
   </context>
   <context>
@@ -1501,7 +1493,7 @@ Die Dateiendung muss .fsa sein</name>
     <name>DialogDIR| Verzeichnisse und</name>
     <message>
       <source> directories, and </source>
-      <translation>目錄，和</translation>
+      <translation> 目錄，和 </translation>
     </message>
   </context>
   <context>
@@ -1529,7 +1521,7 @@ Die Dateiendung muss .fsa sein</name>
     <name>DialogMBR| Byte. Der verborgene Bereich von der Festplatte</name>
     <message>
       <source> bytes. The hidden area of the disk </source>
-      <translation>位元組為單位）。磁片的隱藏的區域</translation>
+      <translation> 位元組為單位）。磁片的隱藏的區域 </translation>
     </message>
   </context>
   <context>
@@ -1773,7 +1765,7 @@ Die Dateiendung muss .fsa sein</name>
     <name>DialogMBR|,  die gesicherte Festplatte ist aber</name>
     <message>
       <source>, the saved hard drive is </source>
-      <translation>保存硬碟</translation>
+      <translation>，保存硬碟 </translation>
     </message>
   </context>
   <context>
@@ -1811,7 +1803,7 @@ Die Dateiendung muss .fsa sein</name>
     <name>DialogMBR| hat eine Größe von</name>
     <message>
       <source> has a size of </source>
-      <translation>有的大小</translation>
+      <translation> 擁有的大小 </translation>
     </message>
   </context>
   <context>
@@ -1885,14 +1877,14 @@ Die Dateiendung muss .fsa sein</name>
     <name>DialogMBR|Sie haben eventuell eine falsche Datei ausgewählt. Der wiederherzustellende verborgene Bereich hat eine Größe von</name>
     <message>
       <source>You may have a wrong file selected. Restore the hidden field has a size of </source>
-      <translation>你可能有一個錯誤的檔選擇。還原隱藏的欄位的大小為</translation>
+      <translation>你可能有一個錯誤的檔選擇。還原隱藏的欄位的大小為 </translation>
     </message>
   </context>
   <context>
     <name>DialogMBR|Sie haben eventuell eine falsche Festplatte ausgewählt. Die wiederherzustellende Festplatte ist</name>
     <message>
       <source>You may have the wrong disk is selected. The restore disk is </source>
-      <translation>你可能打錯選擇磁片。恢復磁片</translation>
+      <translation>你可能打錯選擇磁片。恢復磁片 </translation>
     </message>
   </context>
   <context>
@@ -3192,28 +3184,28 @@ backup key</source>
       <translation>注意</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+      <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <source>Partition restore</source>
@@ -3511,7 +3503,7 @@ with fsarchiver</source>
       <translation>备份分区</translation>
     </message>
     <message>
-      <source>Password for network's view</source>
+      <source>Password for network&apos;s view</source>
       <translation>显示密码</translation>
     </message>
     <message>
@@ -5054,7 +5046,7 @@ should be used:</source>
       <translation>网络协议：</translation>
     </message>
     <message>
-      <source>Password for network's view</source>
+      <source>Password for network&apos;s view</source>
       <translation>显示密码</translation>
     </message>
     <message>
@@ -5107,7 +5099,7 @@ compression:</source>
     </message>
     <message>
       <source>Shared folders and files:</source>
-      <translation>Shared folders and files:</translation>
+      <translation>共用資料夾和檔案:</translation>
     </message>
   </context>
 </TS>
