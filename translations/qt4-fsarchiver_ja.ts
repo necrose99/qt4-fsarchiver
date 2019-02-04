@@ -16,7 +16,7 @@
         <location filename="../src/clone.cpp" line="367"/>
         <source>already saved</source>
         <comment>bereits gesichert</comment>
-        <translation> すでに保存</translation>
+        <translation>既に保存</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="184"/>
@@ -63,7 +63,7 @@
         <source>The selected hard drive is too small.</source>
         <comment>Die gewählte Festplatte ist zu klein.
 </comment>
-        <translation> 選択したハードドライブ が小さすぎます。</translation>
+        <translation>選択したハード ドライブが小さすぎます。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="195"/>
@@ -74,13 +74,13 @@
         <source>On the hard drive exist a root or a home partition. You must need a live-CD.</source>
         <comment>Auf der Festplatte ist eine root- oder home Partition. Sie müssen eine Live-CD benutzen.
 </comment>
-        <translation type="unfinished">Sul disco rigido esiste una radice o di una partizione casa. È necessario bisogno di un live-CD.</translation>
+        <translation type="unfinished">ハード ドライブのルートまたはホーム パーティションが存在します。ライブ CD を必要がある必要があります。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="347"/>
         <source> Do you want really clone the hard drive? All dates on  </source>
         <comment> Wollen Sie wirklich die Festplatte klonen? Alle Daten auf der Festplatte </comment>
-        <translation>本当にハード ドライブのクローンを作成しますか。すべての日付</translation>
+        <translation> 本当にハード ドライブのクローンを作成しますか。すべての日付  </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="347"/>
@@ -100,14 +100,14 @@
         <location filename="../src/clone.cpp" line="403"/>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-        <translation>か本当に内蔵ハード ドライブから画像？</translation>
+        <translation> か本当に内蔵ハード ドライブから画像? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="230"/>
         <location filename="../src/clone.cpp" line="430"/>
         <source>already restored</source>
         <comment>bereits zurückgeschrieben</comment>
-        <translation> すでにリストア</translation>
+        <translation>既に復元</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="184"/>
@@ -115,73 +115,73 @@
         <source>You must select a partition.</source>
         <comment>Sie müssen eine Partition auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションを選択する必要があります。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="203"/>
         <source> Do you want really built a image from a partition? </source>
         <comment> Wollen Sie wirklich ein Abbild einer Partition erstellen? </comment>
-        <translation type="unfinished"></translation>
+        <translation> あなたは本当にパーティションからイメージを構築したいですか？ </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="235"/>
         <source>You must select a partition.</source>
         <comment>Sie müssen eine Partitiom auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションを選択する必要があります。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="239"/>
         <source>You must select a part.fsa file or an part.fsa.gz file.</source>
         <comment>Sie müssen eine part.fsa- oder eine part.fsa.gz-Datei auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Part.fsa ファイルまたは part.fsa.gz ファイルを選択する必要があります。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="257"/>
         <location filename="../src/clone.cpp" line="464"/>
         <source>Partition to restore </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation type="unfinished"></translation>
+        <translation>復元するパーティション </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="258"/>
         <location filename="../src/clone.cpp" line="465"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation type="unfinished">non corrisponde al salvati</translation>
+        <translation> 救われたと一致しません。  </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="258"/>
         <location filename="../src/clone.cpp" line="465"/>
         <source> Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
-        <translation type="unfinished"></translation>
+        <translation> リストアを続行しますか?</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="273"/>
         <source> Do you want really restore an image of a partition? </source>
         <comment> Wollen Sie wirklich ein Abbild einer Partition zurückschreiben? </comment>
-        <translation type="unfinished"></translation>
+        <translation> 実際にパーティションのイメージを復元しますか。 </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="448"/>
         <source>You must select a gz.fsa file or an img.fsa file.</source>
         <comment>Sie müssen eine gz.fsa- oder eine img.fsa-Datei auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Gz.fsa ファイルまたは img.fsa ファイルを選択する必要があります。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="480"/>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
-        <translation>あなたは本当にハードドライブからイメージを構築したいですか？</translation>
+        <translation> 本当にハード ドライブのイメージを復元しますか? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="505"/>
         <source>Yes</source>
         <comment>Ja</comment>
-        <translation type="unfinished">hai</translation>
+        <translation>うん</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="506"/>
@@ -195,43 +195,43 @@
         <location filename="../src/clone.cpp" line="558"/>
         <source>Exist harddrive</source>
         <comment>Existierende Festplatte</comment>
-        <translation type="unfinished"></translation>
+        <translation>既存のハードディスク</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="534"/>
         <source>Save Harddrive Image</source>
         <comment>Festplatten Abbild erstellen</comment>
-        <translation>保存ハードドライブイメージ</translation>
+        <translation>ハード ディスク イメージを保存します</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="552"/>
         <source>Restore Harddrive Image</source>
         <comment>Festplatten Abbild zurückschreiben</comment>
-        <translation>ハードドライブイメージを復元</translation>
+        <translation>ハード ディスク ドライブ イメージを復元します</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="574"/>
         <source>Save Partition Image</source>
         <comment>Image einer Partition erstellen</comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション イメージを保存します</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="576"/>
         <source>Save Partition Image</source>
         <comment>Partition Abbild erstellen</comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション イメージを保存します</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="587"/>
         <source>Restore Partition Image</source>
         <comment>Image einer Partition zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションのイメージを復元します</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="589"/>
         <source>Restore Partition Image</source>
         <comment>Partition Abbild zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションのイメージを復元します</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="670"/>
@@ -239,7 +239,7 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine gz.fsa Datei auswählen
 </comment>
-        <translation type="unfinished">あなたは、フォルダを選択している。あなたはgz.fsaファイルを選択する必要があります。.
+        <translation type="unfinished">フォルダーを選択しました。Gz.fsa ファイルを選択する必要があります。
 </translation>
     </message>
     <message>
@@ -254,56 +254,56 @@
         <source>Backing up the image of the hard disk was successful.</source>
         <comment>Das Sichern des Abbildes der Festplatte war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>ハード ディスクのイメージ バックアップに成功しました。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="826"/>
         <source>Backing up the image of a partition was successful.</source>
         <comment>Die Sichern des Abbildes der Partition war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションのイメージ バックアップに成功しました。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="838"/>
         <source>Backing up the image of the hard disk was not successful.</source>
         <comment>Die Sichern des Abbildes der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>ハード ディスクのイメージ バックアップは成功しませんでした。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="845"/>
         <source>Backing up the image of a partition was not successful.</source>
         <comment>Die Sichern des Abbildes der Partition war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションのイメージ バックアップは成功しませんでした。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="872"/>
         <source>The restore of the image of the hard disk was successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Festplatte war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>ハード ディスク イメージの復元に成功しました。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="874"/>
         <source>The restore of the image of the partition was successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Partition war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションのイメージの復元に成功しました。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="879"/>
         <source>The restore of the image of the hard disk was not successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>ハード ディスク イメージの復元に失敗しました。</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="885"/>
         <source>The restore of the image of the partition was not successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Partition war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションのイメージの復元に失敗しました。</translation>
     </message>
     <message>
         <source>The backup of the image was successfully.</source>
@@ -316,7 +316,7 @@
         <source>The clone of the hard drive was not successfully.</source>
         <comment>Das Klonen der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>ハード ドライブのクローンが正常にできませんでした。</translation>
     </message>
     <message>
         <source>The backup of the image was not successfully.</source>
@@ -334,7 +334,7 @@
         <location filename="../src/clone.cpp" line="953"/>
         <source>Do you want really break clone, save or restore an image from the partition?</source>
         <comment>Wollen Sie wirklich das Klonen der Festplatte, die Erstellung oder die Wiederherstellung eines Images der Festplatte beenden?</comment>
-        <translation type="unfinished"></translation>
+        <translation>本当にクローンを破る、保存またはパーティションからイメージを復元しますか?</translation>
     </message>
 </context>
 <context>
@@ -366,7 +366,7 @@
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
-        <translation type="vanished">Please, select the filename of the backup.
+        <translation>バックアップのファイル名を選択してください。
 </translation>
     </message>
     <message>
@@ -378,7 +378,7 @@
     <message>
         <source> Do you want really built a image from the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte erstellen? </comment>
-        <translation type="vanished">か本当に内蔵ハード ドライブから画像？</translation>
+        <translation> か本当に内蔵ハード ドライブから画像? </translation>
     </message>
     <message>
         <source>You must select a fsa.gz file.</source>
@@ -389,14 +389,14 @@
     <message>
         <source> Do you want really restore the image of the hard drive? </source>
         <comment> Wollen Sie wirklich ein Abbild der Festplatte zurückschreiben? </comment>
-        <translation type="vanished">あなたは本当にハードドライブからイメージを構築したいですか？</translation>
+        <translation> 本当にハード ドライブのイメージを復元しますか。 </translation>
     </message>
     <message>
         <source>Can not find a shared directory. The program is terminated.
 </source>
         <comment>Es wurde kein freigegebenes Verzeichnis gefunden. Das Programm kann nicht fortgesetzt werden.
 </comment>
-        <translation type="vanished">Can not find a shared directory. The program is terminated.
+        <translation>共有ディレクトリを見つけることができません。プログラムは終了します。
 </translation>
     </message>
     <message>
@@ -419,7 +419,7 @@
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine fsa.gz Datei auswählen
 </comment>
-        <translation type="vanished">You have selected a folder. You must select a fsa.gz file.
+        <translation>フォルダーを選択しました。Fsa.gz ファイルを選択する必要があります。
 </translation>
     </message>
     <message>
@@ -454,14 +454,14 @@
     <message>
         <source>The network computer </source>
         <comment>Der Netzwerkrechner </comment>
-        <translation type="vanished">Il computer di rete</translation>
+        <translation>ネットワーク コンピューター </translation>
     </message>
     <message>
         <source> could not be integrated. The program is aborted
 </source>
         <comment> konnte nicht eingebunden werden. Das Programm wird abgebrochen
 </comment>
-        <translation type="vanished"> could not be integrated. The program is aborted
+        <translation> 統合されていない可能性があります。プログラムを中止します。
 </translation>
     </message>
 </context>
@@ -470,7 +470,7 @@
     <message>
         <location filename="../src/dir.cpp" line="91"/>
         <source>gzip fast</source>
-        <translation type="unfinished">gzip veloce</translation>
+        <translation>高速 gzip</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="91"/>
@@ -490,7 +490,7 @@
     <message>
         <location filename="../src/dir.cpp" line="94"/>
         <source>bzip2 good</source>
-        <translation type="unfinished">bzip2 buono</translation>
+        <translation>bzip2 良い</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="94"/>
@@ -500,12 +500,12 @@
     <message>
         <location filename="../src/dir.cpp" line="94"/>
         <source>lzma medium</source>
-        <translation type="unfinished">lzma medium</translation>
+        <translation>lzma 媒体</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="94"/>
         <source>lzma best</source>
-        <translation type="unfinished">lzma best</translation>
+        <translation>lzma 最高</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="134"/>
@@ -513,26 +513,25 @@
 backup. key:</source>
         <comment>Sicherung
 verschlüsseln. Schlüssel:</comment>
-        <translation>Encrypt
-backup. key:</translation>
+        <translation>バックアップを暗号化します。キー:</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="135"/>
         <source>Directory save</source>
         <comment>Verzeichnis sichern</comment>
-        <translation type="unfinished"></translation>
+        <translation>保存ディレクトリ</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="136"/>
         <source>to saved Directory</source>
         <comment>zu sicherndes Verzeichnis</comment>
-        <translation type="unfinished"></translation>
+        <translation>保存ディレクトリ</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="137"/>
         <source>Location (path) of the backup</source>
         <comment>Ort (Pfad) der Sicherung</comment>
-        <translation type="unfinished"></translation>
+        <translation>場所 バックアップ （パス ） ：</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="150"/>
@@ -540,14 +539,13 @@ backup. key:</translation>
 backup. key:</source>
         <comment>Sicherung
 entschlüsseln. Schlüssel:</comment>
-        <translation>Decrypt
-backup. key:</translation>
+        <translation>バックアップの暗号化を解除します。キー:</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="151"/>
         <source>Directory restore</source>
         <comment>Verzeichnis zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>ディレクトリの復元</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="152"/>
@@ -589,7 +587,7 @@ backup. key:</translation>
         <location filename="../src/dir.cpp" line="675"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-        <translation type="unfinished">Riferimento</translation>
+        <translation>注:</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="205"/>
@@ -597,7 +595,7 @@ backup. key:</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Verschlüsselung angegeben.
 </comment>
-        <translation type="unfinished">.
+        <translation>指定した暗号化のためのキーはありませんでした。
 </translation>
     </message>
     <message>
@@ -606,7 +604,8 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das zu sichernde Verzeichnis bzw die zu sichernde Datei geschrieben werden soll.
 </comment>
-        <translation>ディレクトリを選択してください、ディレクトリまたはファイルを保存するのには書き込まれます。</translation>
+        <translation>ディレクトリを選択してください、ディレクトリまたはファイルを保存するのには書き込まれます。
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="217"/>
@@ -614,7 +613,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis bzw. die zu sichernde Datei aus.
 </comment>
-        <translation type="unfinished">.
+        <translation>選択してください、ディレクトリまたはファイルを保存することにします。
 </translation>
     </message>
     <message>
@@ -623,7 +622,7 @@ backup. key:</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>You have selected a file. You must select a directory
+        <translation>ファイルを選択しました。ディレクトリを選択する必要があります。
 </translation>
     </message>
     <message>
@@ -633,14 +632,14 @@ backup. key:</translation>
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
 </comment>
-        <translation>The key length must be between 6 and 64 characters
+        <translation>キーの長さが 6 文字から 64 文字の間にある必要があります。
 </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="271"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
-        <translation>パーティションファイル</translation>
+        <translation>パーティションファイル </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="272"/>
@@ -648,7 +647,7 @@ backup. key:</translation>
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
 </comment>
-        <translation>already exists. The backup is not performed
+        <translation>既に存在します。バックアップは実行されません。
 </translation>
     </message>
     <message>
@@ -657,7 +656,7 @@ backup. key:</translation>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>There was no key to decrypt specified.
+        <translation>鍵がない指定した復号化します。
 </translation>
     </message>
     <message>
@@ -666,7 +665,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie das Verzeichnis aus, in das das das gesicherte Verzeichnis zurück geschrieben werden soll.
 </comment>
-        <translation>Select the directory in which the saved image will be recovered.
+        <translation>保存されたイメージが回復されるディレクトリを選択します。
 </translation>
     </message>
     <message>
@@ -675,7 +674,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie die vorhandene Sicherungsdatei aus.
 </comment>
-        <translation>Please select the existing backup file.
+        <translation>既存のバックアップ ファイルを選択してください。
 </translation>
     </message>
     <message>
@@ -684,7 +683,7 @@ backup. key:</translation>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Sicherungsdatei mit der Dateiendung .fsa auswählen
 </comment>
-        <translation>You have selected a directory. You need a backup file with the extension .fsa select
+        <translation>ディレクトリを選択しました。バックアップファイルの拡張子 .fsa をオンする必要があります。
 </translation>
     </message>
     <message>
@@ -693,8 +692,7 @@ backup. key:</translation>
  The files should end with. fsa be</source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation>You have chosen the wrong recovery file selected.
- The files should end with. fsa be</translation>
+        <translation>回復ファイルを選択しましたファイル拡張子は.fsaでなければなりません</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="333"/>
@@ -716,7 +714,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Sicherung des Verzeichnisses war erfolgreich.
 </comment>
-        <translation>The backup of the directory was successful.
+        <translation>ディレクトリのバックアップに成功しました。
 </translation>
     </message>
     <message>
@@ -724,25 +722,25 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="494"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation>ファイル</translation>
+        <translation> ファイル、 </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
         <source>  directories, </source>
         <comment> Verzeichnisse, </comment>
-        <translation> ディレクトリ, </translation>
+        <translation>  ディレクトリ, </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
         <source>  links and </source>
         <comment> Links und </comment>
-        <translation>  link e</translation>
+        <translation>  リンクと </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="441"/>
         <source> specials have been backed.</source>
         <comment> spezielle Daten wurden gesichert.</comment>
-        <translation>specials have been backed.</translation>
+        <translation> 特別なデータが保存されました。</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="446"/>
@@ -750,21 +748,21 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Sicherung des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation>The backup of the folder was aborted by the user!
+        <translation>フォルダーのバックアップは、ユーザーによって中止されました!
 </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="460"/>
         <source> Files, </source>
         <comment> Dateien, </comment>
-        <translation>ファイル、</translation>
+        <translation> ファイル、 </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="461"/>
         <location filename="../src/dir.cpp" line="512"/>
         <source> directories, and </source>
         <comment> Verzeichnisse und </comment>
-        <translation> directory, e</translation>
+        <translation> ディレクトリ、そして </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="462"/>
@@ -772,7 +770,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment> Links wurden nicht korrekt gesichert. Die Sicherung der Verzeichnisse war nur teilweise erfolgreich
 </comment>
-        <translation> Links were not backed properly. The backup of the directories was only partially successful
+        <translation> リンクは正しくバックアップされませんでした。ディレクトリのバックアップが部分的に成功しただけ
 </translation>
     </message>
     <message>
@@ -781,7 +779,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Wiederherstellung des Verzeichnisses war erfolgreich.
 </comment>
-        <translation>ディレクトリの復元に成功しました。</translation>
+        <translation>ディレクトリの復元に成功しました。
+</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="494"/>
@@ -793,13 +792,13 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/dir.cpp" line="494"/>
         <source> links and </source>
         <comment> Links und </comment>
-        <translation>  link e</translation>
+        <translation> リンク そして </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="494"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
-        <translation>具体的なデータが書き戻されています。</translation>
+        <translation> 具体的なデータが書き戻されています。</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="498"/>
@@ -807,21 +806,21 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Wiederherstellung des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation>The restore of the folder was break by user!
+        <translation>ディレクトリの復元はユーザーによって中止されました！
 </translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="511"/>
         <source> files,</source>
         <comment> Dateien, </comment>
-        <translation>ファイル</translation>
+        <translation> ファイル</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="513"/>
         <source> links were not correctly restored. The restoring of the lists was only partially successful</source>
         <comment> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich
 </comment>
-        <translation>collegamenti non sono stati ripristinati correttamente. Il ripristino degli elenchi è stato un successo solo parziale</translation>
+        <translation> リンクが正しく復元されませんでした。ディレクトリの復元は部分的にしか成功しませんでした</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="516"/>
@@ -829,7 +828,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben.
 </comment>
-        <translation>You have entered an incorrect password.
+        <translation>誤ったパスワードを入力しました。
 </translation>
     </message>
     <message>
@@ -838,7 +837,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben versucht ein Verzeichnis wiederherzustellen. Die gewählte Datei kann nur Partitionen wiederherstellen.
 </comment>
-        <translation>You have tried to restore a directory. The selected file can only restore partitions.
+        <translation>ディレクトリを復元しようとしました。選択したファイルのみのパーティションを復元できます。
 </translation>
     </message>
     <message>
@@ -922,7 +921,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie müssen eine MBR Sicherungsdatei auswählen.
 </comment>
-        <translation>You must choose the MBR file
+        <translation>MBR ファイルを選択する必要があります。
 </translation>
     </message>
     <message>
@@ -931,7 +930,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie müssen eine GPT Sicherungsdatei auswählen.
 </comment>
-        <translation>You must choose the GPT file
+        <translation>GPT ファイルを選択する必要があります。
 </translation>
     </message>
     <message>
@@ -940,7 +939,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>MBR wurde erfolgreich gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>MBR のバックアップに成功しました。
+</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="171"/>
@@ -948,7 +948,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>MBR wurde nicht gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>MBR / GPTはバックアップされませんでした
+</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="173"/>
@@ -956,7 +957,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>GPT wurde erfolgreich gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>GPT は正常にバックアップされました。
+</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="175"/>
@@ -964,7 +966,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>GPT wurde nicht gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>GPT は、backeed されていません。
+</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="185"/>
@@ -972,7 +975,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Vorsicht: Wollen Sie wirklich die GUID Partitionstabelle zurückschreiben?
 </comment>
-        <translation>Caution: If you really want to to write back the GUID partition table?
+        <translation>注意: あなたが本当に場合に GUID パーティション テーブルを書き込むですか?
 </translation>
     </message>
     <message>
@@ -981,7 +984,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die GUID Partitionstabelle wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>The GUID partition table is successful return.
+        <translation>GUIDパーティションテーブルは正常に復元されました。
 </translation>
     </message>
     <message>
@@ -990,7 +993,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die GUID Partitionstabelle wurde nicht wieder hergestellt.
 </comment>
-        <translation>The GUID partition table was not restored.
+        <translation>GUID パーティション テーブルは復元されませんでした。
 </translation>
     </message>
     <message>
@@ -999,7 +1002,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Vorsicht: Wollen Sie wirklich den MBR komplett beziehungsweise teilweise zurückschreiben?
 </comment>
-        <translation>Caution: If you really want to to write back the MBR completely or partially?
+        <translation>注意: あなたは本当に完全にまたは部分的に MBR を書き戻すしたい場合ですか?
 </translation>
     </message>
     <message>
@@ -1008,7 +1011,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Der Bootloaderbereich wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>The Boot Loader section is successful return.
+        <translation>ブートローダ領域は正常に復元されました。
 </translation>
     </message>
     <message>
@@ -1017,7 +1020,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Der Bootloaderbereich wurde nicht wieder hergestellt.
 </comment>
-        <translation>The boot loader area was not restored.
+        <translation>ブート ローダーの領域は復元されませんでした。
 </translation>
     </message>
     <message>
@@ -1025,7 +1028,7 @@ Die Dateiendung muss .fsa sein</comment>
         <source>The partition table is successful return.</source>
         <comment>Die Partitionstabelle wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>パーティションテーブルは正常に復元されました</translation>
+        <translation>パーティションテーブルは正常に復元されました。</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="237"/>
@@ -1033,7 +1036,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Partitionstabelle wurde nicht wieder hergestellt.
 </comment>
-        <translation>The partition table was not restored.
+        <translation>パーティション テーブルは復元されませんでした。
 </translation>
     </message>
     <message>
@@ -1042,7 +1045,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Der MBR wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>The MBR is successful return.
+        <translation>MBRは正常に復元されました。
 </translation>
     </message>
     <message>
@@ -1051,7 +1054,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Der MBR wurde nicht wieder hergestellt.
 </comment>
-        <translation>The MBR is not restored.
+        <translation>MBR は復元されません。
 </translation>
     </message>
     <message>
@@ -1060,7 +1063,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Vorsicht: Wollen Sie wirklich den verborgenen Bereich zurückschreiben? 
 </comment>
-        <translation>Caution: If you really want to to write back the secret field?
+        <translation>注意: あなたは本当に秘密のフィールドを書き込むたい場合ですか?
 </translation>
     </message>
     <message>
@@ -1069,7 +1072,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Der verborgene Bereich wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>The hidden area is successful return.
+        <translation>隠れた領域は正常に復元されました。
 </translation>
     </message>
     <message>
@@ -1078,7 +1081,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Der verborgene Bereich wurde nicht wieder hergestellt.
 </comment>
-        <translation>The hidden area was not restored.
+        <translation>非表示の領域が復元されませんでした。
 </translation>
     </message>
     <message>
@@ -1086,7 +1089,7 @@ Die Dateiendung muss .fsa sein</comment>
         <source>Mistake. The partition table can not be read. The program is terminated</source>
         <comment>Fehler. Die Partitionstabelle kann nicht ausgelesen werden. Das Programm wird abgebrochen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>間違い。パーティション テーブルを読み取ることができませんでした。プログラムを終了します。</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="336"/>
@@ -1100,7 +1103,7 @@ Die Dateiendung muss .fsa sein</comment>
         <source>You must select a directory</source>
         <comment>Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>You must select a directory</translation>
+        <translation>ディレクトリを選択する必要があります。</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="400"/>
@@ -1117,7 +1120,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie müssen die MBR/GPT Sicherungsdatei auswählen.
 </comment>
-        <translation>You must choose the MBR/GPT file
+        <translation>MBR/GPT ファイルを選択する必要があります。
 </translation>
     </message>
     <message>
@@ -1126,50 +1129,50 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen die MBR/GPT Sicherungsdatei auswählen
 </comment>
-        <translation>You have selected a directory. You must select the MBR/GPT backup file
+        <translation>ディレクトリを選択しました。MBR/GPT のバックアップ ファイルを選択する必要があります。
 </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="421"/>
         <source>You may have the wrong disk is selected. The restore disk is </source>
         <comment>Sie haben eventuell eine falsche Festplatte ausgewählt. Die wiederherzustellende Festplatte ist </comment>
-        <translation>Si può avere sia selezionato il disco sbagliato. Il disco di ripristino è</translation>
+        <translation>間違っている必要がありますディスクが選択されています。復元ディスクが </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="421"/>
         <source>, the saved hard drive is </source>
         <comment>,  die gesicherte Festplatte ist aber </comment>
-        <translation>, Il disco rigido salvato è</translation>
+        <translation>、保存されているハード ディスク ドライブが </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="421"/>
         <source> Are you sure?</source>
         <comment> Wollen Sie fortfahren?</comment>
-        <translation>Sei sicuro?</translation>
+        <translation> 確かですか。</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="429"/>
         <source>You may have a wrong file selected. Restore the hidden field has a size of </source>
         <comment>Sie haben eventuell eine falsche Datei ausgewählt. Der wiederherzustellende verborgene Bereich hat eine Größe von</comment>
-        <translation>Si può avere un file sbagliato selezionato. Ripristinare il campo nascosto ha una dimensione di</translation>
+        <translation>間違ったファイルを選択するがあります。復元の隠しフィールドのサイズがあります。 </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="430"/>
         <source> bytes. The hidden area of the disk </source>
         <comment> Byte. Der verborgene Bereich von der Festplatte </comment>
-        <translation>バイト数です。ディスクの隠された領域</translation>
+        <translation> バイト数です。ディスクの隠し領域 </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="430"/>
         <source> has a size of </source>
         <comment> hat eine Größe von </comment>
-        <translation> のサイズを有する</translation>
+        <translation> サイズは、します。 </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="430"/>
         <source> bytes. Are you sure?</source>
         <comment> Byte. Wollen Sie fortfahren?</comment>
-        <translation>バイト数です。確かですか。</translation>
+        <translation> バイト数です。確かですか。</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="445"/>
@@ -1224,12 +1227,12 @@ Die Dateiendung muss .fsa sein</comment>
     <message>
         <location filename="../src/net.cpp" line="138"/>
         <source>lzma medium</source>
-        <translation>lzma medium</translation>
+        <translation>lzma 媒体</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="139"/>
         <source>lzma best</source>
-        <translation>lzma best</translation>
+        <translation>lzma 最高</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="334"/>
@@ -1288,7 +1291,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Mit dem NFS Protokoll wurde kein freigegebenes Verzeichnis gefunden.
 </comment>
-        <translation>Can not find a shared directory with the NFS Protokoll.
+        <translation>NFSプロトコルと共有ディレクトリが見つかりませんでした。
 </translation>
     </message>
     <message>
@@ -1297,7 +1300,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Mit Samba wurde kein freigegebenes Verzeichnis gefunden.
 </comment>
-        <translation>Can not find a shared directory with the Samba Protokoll.
+        <translation>Sambaプロトコルと共有ディレクトリが見つかりません。
 </translation>
     </message>
     <message>
@@ -1306,7 +1309,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie einen Ordner aus.
 </comment>
-        <translation>Please, select a folder.
+        <translation>フォルダーを選択してください。
 </translation>
     </message>
     <message>
@@ -1315,7 +1318,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie die zu sichernde Partition aus.
 </comment>
-        <translation>Please, select the partition to be saved.
+        <translation>保存するパーティションを選択してください。
 </translation>
     </message>
     <message>
@@ -1324,7 +1327,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie das zu sichernde Verzeichnis aus.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>保存する directorie を選択してください。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="522"/>
@@ -1333,7 +1337,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
-        <translation>Please, select the filename of the backup.
+        <translation>バックアップのファイル名を選択してください。
 </translation>
     </message>
     <message>
@@ -1342,7 +1346,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>You have selected a file. You must select a directory
+        <translation>ファイルを選択しました。ディレクトリを選択する必要があります。
 </translation>
     </message>
     <message>
@@ -1350,7 +1354,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="1172"/>
         <source>The network computer </source>
         <comment>Der Netzwerkrechner </comment>
-        <translation>Il computer di rete</translation>
+        <translation>ネットワーク コンピューター </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="556"/>
@@ -1359,14 +1363,14 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment> konnte nicht eingebunden werden. Das Programm wird abgebrochen
 </comment>
-        <translation> could not be integrated. The program is aborted
+        <translation> 統合されていない可能性があります。プログラムを中止します。
 </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="588"/>
         <source>The system partition to be saved is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation>The system partition to be saved is mounted. Do you want to do a live backup?</translation>
+        <translation>保存するシステム パーティションがマウントされます。ライブ ・ バックアップを実行しますか。</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="596"/>
@@ -1378,7 +1382,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="611"/>
         <source>The partition </source>
         <comment>Die Partition </comment>
-        <translation> パーティション</translation>
+        <translation>パーティション </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="612"/>
@@ -1387,7 +1391,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment> kann nicht ausgehängt werden. Das Programm wird abgebrochen
 </comment>
-        <translation>can not be unmounted. The program is terminated
+        <translation>マウントすることができません。プログラムを終了します。
 </translation>
     </message>
     <message>
@@ -1398,14 +1402,14 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
 </comment>
-        <translation>The key length must be between 6 and 64 characters
+        <translation>キーの長さが 6 文字から 64 文字の間にある必要があります。
 </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="697"/>
         <source>The partition file </source>
         <comment>Die Partitionsdatei </comment>
-        <translation>パーティションファイル</translation>
+        <translation>パーティションファイル </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="697"/>
@@ -1414,14 +1418,14 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
 </comment>
-        <translation>already exists. The backup is not performed
+        <translation>既に存在します。バックアップは実行されません。
 </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="702"/>
         <source>The directorie file </source>
         <comment>Die Verzeichnisdatei </comment>
-        <translation type="unfinished"></translation>
+        <translation>ディレクトリファイル </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="720"/>
@@ -1429,7 +1433,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
 </comment>
-        <translation>The backup was aborted by the user
+        <translation>バックアップがユーザーによって中止されました
 </translation>
     </message>
     <message>
@@ -1438,7 +1442,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>No key was given for the decryption
+        <translation>復号化のキーが指定されていません
 </translation>
     </message>
     <message>
@@ -1447,7 +1451,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie die zurück zu schreibende Partition aus.
 </comment>
-        <translation>Please, select the partition to be written back.
+        <translation>書き戻されるパーティションを選択してください。
 </translation>
     </message>
     <message>
@@ -1456,7 +1460,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Bitte wählen Sie das zurück zu schreibende Verzeichnis aus.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>バックアップするパーティションを選択してください
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="801"/>
@@ -1473,7 +1478,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Datei enthält eine Partitionssicherung. Die Datei kann nicht als Verzeichnis zurückgeschrieben werden. 
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>ファイルには、パーティションのバックアップが含まれています。ファイルをディレクトリとして復元されませんすることができます。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="813"/>
@@ -1481,7 +1487,8 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Datei enthält eine Verzeichnissicherung. Die Datei kann nicht als Partition zurückgeschrieben werden. 
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>ファイルには、ディレクトリのバックアップが含まれています。ファイルをパーティションとして復元されませんすることができます。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="836"/>
@@ -1489,7 +1496,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Partition ist verschlüsselt. Bitte geben Sie den Schlüssel ein
 </comment>
-        <translation>The partition is encrypted. Please enter the key
+        <translation>パーティションは暗号化されます。キーを入力してください。
 </translation>
     </message>
     <message>
@@ -1498,19 +1505,20 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>They have entered a wrong password.</translation>
+        <translation>彼らは、間違ったパスワードを入力しました。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="871"/>
         <source>Partition to restore the </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation>Partizione per ripristinare il</translation>
+        <translation>復元するパーティション、 </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="872"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation>non corrisponde al salvati</translation>
+        <translation> 救われたと一致しません。  </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="872"/>
@@ -1524,7 +1532,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Das Zurückschreiben wurde vom Benutzer abgebrochen
 </comment>
-        <translation>The restore was canceled by user
+        <translation>復元はユーザーによって取り消されました
 </translation>
     </message>
     <message>
@@ -1539,7 +1547,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>To restore system partition is mounted and can not be restored. Please use a live CD
+        <translation>システムを復元するには、パーティションがマウントされているし、復元できません。ライブ CD を使用してください。
 </translation>
     </message>
     <message>
@@ -1548,14 +1556,14 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>The restored home partition is mounted and can not be restored. Please use a live CD
+        <translation>復元されたホーム パーティションがマウントされているし、復元できません。ライブ CD を使用してください。
 </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="944"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
-        <translation> パーティション</translation>
+        <translation>パーティション</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="957"/>
@@ -1567,7 +1575,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="1036"/>
         <source>Save partition/directorie</source>
         <comment>Partition/Verzeichnis sichern</comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリを保存</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1046"/>
@@ -1575,14 +1583,14 @@ Die Dateiendung muss .fsa sein</comment>
 backup. key:</source>
         <comment>Sicherung
 verschlüsseln. Schlüssel:</comment>
-        <translation>Encrypt
-backup. key:</translation>
+        <translation>暗号化
+バックアップ。キー：</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1073"/>
         <source>Partition/directorie restore</source>
         <comment>Partition/Verzeichnis zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>復元するパーティション</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1083"/>
@@ -1590,8 +1598,8 @@ backup. key:</translation>
 backup. key:</source>
         <comment>Sicherung
 entschlüsseln. Schlüssel</comment>
-        <translation>Decrypt
-backup. key:</translation>
+        <translation>復号化する
+バックアップ。キー：</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1241"/>
@@ -1599,7 +1607,8 @@ backup. key:</translation>
 </source>
         <comment>Die Partition/das Verzeichnis wurde erfolgreich gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリは正常にバックアップされました。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1242"/>
@@ -1613,7 +1622,7 @@ backup. key:</translation>
         <location filename="../src/net.cpp" line="1379"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation>ファイル</translation>
+        <translation> ファイル </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1242"/>
@@ -1637,13 +1646,13 @@ backup. key:</translation>
         <location filename="../src/net.cpp" line="1379"/>
         <source> links and </source>
         <comment> Links und </comment>
-        <translation>  link e</translation>
+        <translation> リンク そして </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1242"/>
         <source> specials have been backed.</source>
         <comment> spezielle Daten wurden gesichert.</comment>
-        <translation>specials have been backed.</translation>
+        <translation> 特別なデータが保存されました。</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1258"/>
@@ -1651,7 +1660,8 @@ backup. key:</translation>
 </source>
         <comment>Die Sicherung der Partition/des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリは正常にバックアップされました。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1265"/>
@@ -1659,7 +1669,8 @@ backup. key:</translation>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションの種類はサポートされていません。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1272"/>
@@ -1667,7 +1678,7 @@ backup. key:</translation>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
 </comment>
-        <translation>The partition type is not supported. Maybe the partition is encrypted?
+        <translation>パーティションの種類はサポートされていません。たぶんパーティションは暗号化されますか。
 </translation>
     </message>
     <message>
@@ -1676,7 +1687,8 @@ backup. key:</translation>
 </source>
         <comment>Die Sicherung der Partition/des Verzeichnis war nur teilweise erfolgreich
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリのバックアップは部分的にしか成功していません
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1285"/>
@@ -1684,7 +1696,7 @@ backup. key:</translation>
 .</source>
         <comment> spezielle Daten wurden gesichert
 .</comment>
-        <translation>specials have been backed.</translation>
+        <translation> 特別なデータが保存されました。</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1287"/>
@@ -1692,7 +1704,7 @@ backup. key:</translation>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
 </comment>
-        <translation>specials were not properly backed.</translation>
+        <translation> 特別なデータは正しくバックアップされませんでした</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1315"/>
@@ -1700,7 +1712,7 @@ backup. key:</translation>
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
 </comment>
-        <translation>cannot restore an archive to a partition which is mounted, unmount it first 
+        <translation>アーカイブをマウントされているパーティションに復元、最初それをアンマウントできません。 
 </translation>
     </message>
     <message>
@@ -1709,13 +1721,14 @@ backup. key:</translation>
 </source>
         <comment>Die Partition/das Verzeichnis wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリは正常に復元されました。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1344"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
-        <translation>具体的なデータが書き戻されています。</translation>
+        <translation> 具体的なデータが書き戻されています。</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1347"/>
@@ -1723,20 +1736,20 @@ backup. key:</translation>
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>The partition is successful back.
+        <translation>パーティションは正常に復元されました。
 </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1348"/>
         <source> links </source>
         <comment> Links </comment>
-        <translation>  link e</translation>
+        <translation> リンク </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1348"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation>specials and the Partition Boot Record have been restored.</translation>
+        <translation> 特別なデータとパーティションのブートセクタが復元されました</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1353"/>
@@ -1744,7 +1757,8 @@ backup. key:</translation>
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeichnisses wurde vom Benutzer abgebrochen!
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリの復元はユーザーによって中止されました。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1371"/>
@@ -1752,7 +1766,8 @@ backup. key:</translation>
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeichnisses war nur teilweise erfolgreich
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリの復元は部分的にしか成功しませんでした。
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1371"/>
@@ -1760,14 +1775,14 @@ backup. key:</translation>
 .</source>
         <comment> spezielle Daten wurden wiederhergestellt
 .</comment>
-        <translation>具体的なデータが書き戻されています。</translation>
+        <translation> 具体的なデータが書き戻されています。</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1372"/>
         <location filename="../src/net.cpp" line="1379"/>
         <source> directories and </source>
         <comment> Verzeichnisse und </comment>
-        <translation>   directories, </translation>
+        <translation> ディレクトリ、そして </translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1374"/>
@@ -1776,7 +1791,7 @@ backup. key:</translation>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
 </comment>
-        <translation>specials were not properly restored.</translation>
+        <translation> 特別なデータが正しく復元されませんでした</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1378"/>
@@ -1784,7 +1799,8 @@ backup. key:</translation>
 </source>
         <comment>Die Wiederherstellung der Partition/des Verzeicnisses war nur teilweise erfolgreich
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリのバックアップは部分的にしか成功していません
+</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1379"/>
@@ -1792,7 +1808,7 @@ backup. key:</translation>
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
 .</comment>
-        <translation>specials and the Partition Boot Record have been restored.</translation>
+        <translation> 特別なデータとパーティションのブートセクタが復元されました</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1384"/>
@@ -1800,7 +1816,7 @@ backup. key:</translation>
 </source>
         <comment>Sie haben versucht eine Partition wiederherzustellen. Die gewählte Datei kann nur Verzeichnisse wiederherstellen. Bitte starten Sie das Programm neu.
 </comment>
-        <translation>You tried to restore a partition. The selected file can only restore directories. Please restart the program.
+        <translation>パーティションを復元しようとすると。選択したファイルはのみディレクトリを復元できます。プログラムを再起動してください。
 </translation>
     </message>
     <message>
@@ -1809,7 +1825,7 @@ backup. key:</translation>
 </source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>You have entered an incorrect password.
+        <translation>誤ったパスワードを入力しました。
 </translation>
     </message>
     <message>
@@ -1843,7 +1859,7 @@ backup. key:</translation>
 </source>
         <comment>Der SSH-Server ist nicht erreichbar. Versuchen Sie es nochmals oder mit einem anderen Netzwerkprotokoll.
 </comment>
-        <translation>The SSH server is not reachable. Try again or with another network protocol.
+        <translation>SSH サーバーは到達できません。もう一度、別のネットワーク プロトコルをみてください。
 </translation>
     </message>
     <message>
@@ -1852,14 +1868,15 @@ backup. key:</translation>
 </source>
         <comment> Die Sicherung oder Wiederherstellung mit ssh ist nicht möglich. Beenden Sie  das Programm und starten es erneut im Terminal mit Root-Rechten
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>バックアップまたは復元の ssh は不可能です。プログラムを終了し、右ルートのターミナルでそれを再び再起動します。
+</translation>
     </message>
     <message>
         <source>When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.
 </source>
         <comment>Wenn Sie noch nicht erfolgreich per ssh auf den Rechner(Server) zugegriffen haben, müssen Sie nun folgendes tun: 1.In dem geöffneten Terminal müssen Sie den RSA key fingerprint mit yes bestätigen. 2.Geben Sie das Passwort für den Zugriff auf den Server ein  und 3.verlassen Sie den Server mit dem Befehl exit.
 </comment>
-        <translation type="vanished">When you first contact the computer with ssh, you must do the following:  In a terminal enter these commands: 1.In the open terminal you must confirm the RSA key fingerprint with yes. 2.Enter the password for accessing the server and 3.leave the server with the command exit.
+        <translation>最初に連絡するときにコンピューター ssh、次を行う必要があります: ターミナルでこれらのコマンドを入力します: 1. オープンでターミナルはい RSA 鍵の指紋を確認する必要があります。2. サーバーにアクセスするためのパスワードを入力、3. exit コマンドでサーバーのまま。
 </translation>
     </message>
     <message>
@@ -1904,7 +1921,7 @@ backup. key:</translation>
         <location filename="../src/setting.cpp" line="33"/>
         <source>Chinese</source>
         <comment>Chinesisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>中国語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
@@ -1922,175 +1939,175 @@ backup. key:</translation>
         <location filename="../src/setting.cpp" line="34"/>
         <source>French</source>
         <comment>Französisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>フランス語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Arabic</source>
         <comment>Arabisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>アラビア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Catalan</source>
         <comment>Katalanisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>カタロニア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Czech</source>
         <comment>Tschechisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>チェコ語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Danish</source>
         <comment>Dänisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>デンマーク語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Greek</source>
         <comment>Griechisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ギリシャ語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Estonian</source>
         <comment>Estnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>エストニア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Finnish</source>
         <comment>Finnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>フィンランド語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hebrew</source>
         <comment>Hebräisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ヘブライ語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hindi</source>
         <comment>Hindi</comment>
-        <translation type="unfinished"></translation>
+        <translation>ヒンディー語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hungarian</source>
         <comment>Ungarisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ハンガリー語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Armenian</source>
         <comment>Armenisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>アルメニア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Indonesian</source>
         <comment>Indonesisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>インドネシア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Latvian</source>
         <comment>Lettisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ラトビア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Lithuanian</source>
         <comment>Litauisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>リトアニア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Korean</source>
         <comment>Koreanisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>韓国語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Norwegian</source>
         <comment>Norwegisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ノルウェー語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Polish</source>
         <comment>Polnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ポーランド語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Portuguese</source>
         <comment>Portugisisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ポルトガル語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Persian</source>
         <comment>Persisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ペルシャ語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Romanian</source>
         <comment>Rumänisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ルーマニア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Slovak</source>
         <comment>Slowakisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>スロバキア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Serbian</source>
         <comment>Serbisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>セルビア語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Swedish</source>
         <comment>Schwedisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>スウェーデン語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Thai</source>
         <comment>Thailändisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>タイ語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Turkish</source>
         <comment>Türkisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>トルコ語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Ukrainian</source>
         <comment>Ukrainisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>ウクライナ語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Urdu</source>
         <comment>Urdu</comment>
-        <translation type="unfinished"></translation>
+        <translation>ウルドゥ語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Vietnamese</source>
         <comment>Vietnamesich</comment>
-        <translation type="unfinished"></translation>
+        <translation>ベトナム語</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="42"/>
@@ -2138,13 +2155,13 @@ backup. key:</translation>
         <location filename="../src/setting.cpp" line="45"/>
         <source>lzma medium</source>
         <comment>lzma medium</comment>
-        <translation>lzma medium</translation>
+        <translation>LZMA培地</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="45"/>
         <source>lzma best</source>
         <comment>lzma best</comment>
-        <translation>lzma best</translation>
+        <translation>lzma 最高</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="48"/>
@@ -2215,7 +2232,7 @@ backup. key:</translation>
         <location filename="../build/ui_net.h" line="399"/>
         <source>Existing partitions/directories:</source>
         <extracomment>vorhandene Partitionen:</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>既存のパーティション/ディレクトリ:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="93"/>
@@ -2240,7 +2257,7 @@ backup. key:</translation>
         <location filename="../build/ui_net.h" line="401"/>
         <source>&amp;Save partition
  or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>パーティションまたはディレクトリを保存・</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="125"/>
@@ -2248,7 +2265,7 @@ backup. key:</translation>
         <source>&amp;Restore partition 
  or directory</source>
         <extracomment>Partition mit fs-Archiver * zurückschreiben</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>・ パーティションまたはディレクトリを復元</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="155"/>
@@ -2260,14 +2277,14 @@ backup. key:</translation>
         <location filename="../src/ui/net.ui" line="168"/>
         <location filename="../build/ui_net.h" line="407"/>
         <source>Start the backup of a partition.</source>
-        <translation> パーティションの バックアップを開始します。</translation>
+        <translation>パーティションのバックアップを開始します。</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="171"/>
         <location filename="../build/ui_net.h" line="409"/>
         <source>Save partition/directorie</source>
         <extracomment>Partition sichern</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリを保存</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="217"/>
@@ -2294,7 +2311,7 @@ backup. key:</translation>
         <location filename="../build/ui_net.h" line="416"/>
         <source>Partition/directorie restore</source>
         <extracomment>Partition wiederherstellen</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>パーティション/ディレクトリの復元</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="278"/>
@@ -2307,16 +2324,14 @@ backup. key:</translation>
         <location filename="../build/ui_net.h" line="418"/>
         <source>On the number saved
 Files/directories:</source>
-        <translation>On the number saved
-Files/directories:</translation>
+        <translation>ファイル/ディレクトリを保存する数。</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="303"/>
         <location filename="../build/ui_net.h" line="420"/>
         <source>already saved 
 files/directories:</source>
-        <translation>already saved 
-files/directories:</translation>
+        <translation>既に保存されているファイル/ディレクトリ:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="325"/>
@@ -2358,22 +2373,20 @@ files/directories:</translation>
         <location filename="../build/ui_net.h" line="433"/>
         <source>Number of processors
 cores for to be used fsarchiver:</source>
-        <translation>Number of processors
-cores for to be used fsarchiver:</translation>
+        <translation>プロセッサの数に使用される fsarchiver コアします。</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="528"/>
         <location filename="../build/ui_net.h" line="435"/>
         <source>Compression
 setting:</source>
-        <translation>Compression
-setting:</translation>
+        <translation>圧縮設定:</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="542"/>
         <location filename="../build/ui_net.h" line="438"/>
         <source>Notes to the backup is written to a file.</source>
-        <translation>圧縮：</translation>
+        <translation>ノートのバックアップには、ファイルに書き込まれます。</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="545"/>
@@ -2391,7 +2404,7 @@ setting:</translation>
         <location filename="../src/ui/net.ui" line="571"/>
         <location filename="../build/ui_net.h" line="444"/>
         <source>available backup overwrite</source>
-        <translation>available backup overwrite</translation>
+        <translation>利用可能なバックアップの上書き</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="584"/>
@@ -2404,8 +2417,8 @@ setting:</translation>
         <location filename="../build/ui_net.h" line="446"/>
         <source>Encrypt 
 backup key</source>
-        <translation>Encrypt 
-backup key</translation>
+        <translation>暗号化
+バックアップ。キー</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="611"/>
@@ -2431,26 +2444,26 @@ backup key</translation>
         <location filename="../build/ui_net.h" line="453"/>
         <source>Protocoll for network
 transmission:</source>
-        <translation>Protocoll for network
-transmission:</translation>
+        <translation>ネットワーク伝送の
+プロトコル</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="713"/>
         <location filename="../build/ui_net.h" line="457"/>
         <source>Show hidden directories and files</source>
-        <translation type="unfinished">パーティションを復元</translation>
+        <translation>パーティションを復元</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="751"/>
         <location filename="../build/ui_net.h" line="459"/>
         <source>Show &amp;partitions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">見せ &amp;仕切り</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="764"/>
         <location filename="../build/ui_net.h" line="460"/>
         <source>Show &amp;directories</source>
-        <translation type="unfinished"></translation>
+        <translation>見せる &amp;ディレクトリ</translation>
     </message>
 </context>
 <context>
@@ -2474,7 +2487,7 @@ transmission:</translation>
         <location filename="../build/ui_net_ein.h" line="110"/>
         <source>Password:</source>
         <extracomment>Kennwort:</extracomment>
-        <translation>パスワード</translation>
+        <translation>パスワード:</translation>
     </message>
     <message>
         <location filename="../src/ui/net_ein.ui" line="52"/>
@@ -2545,14 +2558,14 @@ transmission:</translation>
         <location filename="../build/ui_filedialog.h" line="64"/>
         <source>Description of the backup:</source>
         <extracomment>Beschreibung der Sicherung:</extracomment>
-        <translation>記載なし</translation>
+        <translation>記載なし:</translation>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="52"/>
         <location filename="../build/ui_filedialog.h" line="65"/>
         <source>Back partition</source>
         <extracomment>Partition sichern</extracomment>
-        <translation>Back partition</translation>
+        <translation>パーティションをバックアップします。</translation>
     </message>
     <message>
         <location filename="../src/ui/filedialog.ui" line="80"/>
@@ -2562,13 +2575,17 @@ transmission:</translation>
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Ubuntu&apos;; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Ubuntu&apos;; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/filedialog.cpp" line="42"/>
         <source>Partition restore</source>
         <comment>Partition zurückschreiben</comment>
-        <translation>Partition restore</translation>
+        <translation>パーティションの復元</translation>
     </message>
     <message>
         <location filename="../src/filedialog.cpp" line="51"/>
@@ -2588,7 +2605,7 @@ p, li { white-space: pre-wrap; }
 </source>
         <comment>Die Hinweise zur Partition wurden nicht in eine Datei geschrieben.
 </comment>
-        <translation>Instructions for partition were not recorded written to the file.
+        <translation>パーティションについては、ファイルに書かれた記録されていません。
 </translation>
     </message>
     <message>
@@ -2603,7 +2620,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/mainWindow.cpp" line="187"/>
         <source>lzo</source>
         <comment>lzo</comment>
-        <translation>lzo</translation>
+        <translation>LZO</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="188"/>
@@ -2645,13 +2662,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/mainWindow.cpp" line="194"/>
         <source>lzma medium</source>
         <comment>lzma medium</comment>
-        <translation>lzma medium</translation>
+        <translation>LZMA培地</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="195"/>
         <source>lzma best</source>
         <comment>lzma best</comment>
-        <translation>lzma best</translation>
+        <translation>LZMA 最高</translation>
     </message>
     <message>
         <source>In the file /usr/share/doc/qt5-fsarchiver/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source>
@@ -2668,7 +2685,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/mainWindow.cpp" line="411"/>
         <source>Partition restore</source>
         <comment>Partition zurückschreiben</comment>
-        <translation>Partition restore</translation>
+        <translation>パーティションの復元</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="424"/>
@@ -2676,8 +2693,8 @@ p, li { white-space: pre-wrap; }
 backup. key:</source>
         <comment>Sicherung
 entschlüsseln. Schlüssel</comment>
-        <translation>Decrypt
-backup. key:</translation>
+        <translation>復号化する
+バックアップ。キー：</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="442"/>
@@ -2696,8 +2713,7 @@ backup. key:</translation>
 backup. key:</source>
         <comment>Sicherung
 verschlüsseln. Schlüssel</comment>
-        <translation>Encrypt
-backup. key:</translation>
+        <translation>バックアップを暗号化します。キー:</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="495"/>
@@ -2747,7 +2763,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie das Sicherungsverzeichnis aus.
 </comment>
-        <translation>Please select from the backup directory.
+        <translation>バックアップ ディレクトリから選択してください。
 </translation>
     </message>
     <message>
@@ -2755,7 +2771,7 @@ backup. key:</translation>
         <source>Please select the partition to be</source>
         <comment>Bitte wählen Sie die zu sichernde Partition aus.
 </comment>
-        <translation>Please select the partition to be</translation>
+        <translation>バックアップするパーティションを選択してください。</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="509"/>
@@ -2764,7 +2780,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie den Dateinamen der Sicherung aus.
 </comment>
-        <translation>Please select the file name of the backup.
+        <translation>バックアップのファイル名を選択してください。
 </translation>
     </message>
     <message>
@@ -2773,26 +2789,26 @@ backup. key:</translation>
 </source>
         <comment>Sie haben eine Datei ausgewählt. Sie müssen ein Verzeichnis auswählen
 </comment>
-        <translation>You have selected a file. You must select a directory
+        <translation>ファイルを選択しました。ディレクトリを選択する必要があります。
 </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="550"/>
         <source>To back up the system partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Systempartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation>To back up the system partition is mounted. Do you want to do a live backup?</translation>
+        <translation>システム パーティションをバックアップするには、マウントされます。ライブ ・ バックアップを実行しますか。</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="558"/>
         <source>To back up home partition is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation>To back up home partition is mounted. Do you want to do a live backup?</translation>
+        <translation>Home パーティションをバックアップするには、マウントされます。ライブ ・ バックアップを実行しますか。</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="576"/>
         <source>The partition</source>
         <comment>Die Partition </comment>
-        <translation> パーティション</translation>
+        <translation>パーティション</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="576"/>
@@ -2800,7 +2816,7 @@ backup. key:</translation>
 </source>
         <comment> kann nicht ausgehängt werden. Das Programm wird abgebrochen
 </comment>
-        <translation>can not be unmounted. The program is terminated
+        <translation>マウントすることができません。プログラムを終了します。
 </translation>
     </message>
     <message>
@@ -2810,7 +2826,7 @@ backup. key:</translation>
 </source>
         <comment>Die Schlüssellänge muss zwischen 6 und 64 Zeichen sein
 </comment>
-        <translation>The key length must be between 6 and 64 characters
+        <translation>キーの長さが 6 文字から 64 文字の間にある必要があります。
 </translation>
     </message>
     <message>
@@ -2825,7 +2841,7 @@ backup. key:</translation>
 </source>
         <comment> ist bereits vorhanden. Die Sicherung wird nicht durchgeführt
 </comment>
-        <translation>already exists. The backup is not performed
+        <translation> 既に存在します。バックアップは実行されません。
 </translation>
     </message>
     <message>
@@ -2834,21 +2850,21 @@ backup. key:</translation>
 </source>
         <comment>Die Sicherung wurde vom Benutzer abgebrochen
 </comment>
-        <translation>The backup was aborted by the user
+        <translation>バックアップがユーザーによって中止されました
 </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="713"/>
         <source>The backup is performed</source>
         <comment>Die Sicherung wird durchgeführt</comment>
-        <translation>The backup is performed</translation>
+        <translation>バックアップを実行します。</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="811"/>
         <source>There was no key to decrypt specified.</source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>There was no key to decrypt specified.</translation>
+        <translation>鍵がない指定した復号化します。</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="823"/>
@@ -2856,7 +2872,7 @@ backup. key:</translation>
 </source>
         <comment>Bitte wählen Sie die zurück zu schreibende Partition aus.
 </comment>
-        <translation>Please select from the writing back to partition.
+        <translation>書き戻すパーティションを選択してください。
 </translation>
     </message>
     <message>
@@ -2874,7 +2890,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei auswählen
 </comment>
-        <translation>You have selected a directory. You must select a file
+        <translation>ディレクトリを選択しました。ファイルを選択する必要があります。
 </translation>
     </message>
     <message>
@@ -2895,13 +2911,13 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mainWindow.cpp" line="895"/>
         <source>Partition to restore the </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation>Partizione per ripristinare il</translation>
+        <translation>復元するパーティション、 </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="896"/>
         <source> does not coincide with the saved  </source>
         <comment> stimmt nicht mit der gesicherten </comment>
-        <translation>non corrisponde al salvati</translation>
+        <translation> 救われたと一致しません。  </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="896"/>
@@ -2927,20 +2943,20 @@ Die Dateiendung muss .fsa sein</comment>
         <source>Restore the system partition is mounted and can not be written back. Please use a live CD.</source>
         <comment>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>La partizione casa restaurata è montata e non può da ristrutturare. Si prega di utilizzare un Live CD</translation>
+        <translation>復元システム パーティションはマウントされ、再び書き込むことはできません。ライブ CD を使用してください。</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="952"/>
         <source>Restore the home partition is mounted and can not be written back. Please use a live CD.</source>
         <comment>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>La partizione casa restaurata è montata e non può da ristrutturare. Si prega di utilizzare un Live CD</translation>
+        <translation>復元対象のホームパーティションはマウントされているため復元できません。ライブCDを使用してください</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="964"/>
         <source>The partition </source>
         <comment>Die Partition </comment>
-        <translation> パーティション</translation>
+        <translation>パーティション </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="964"/>
@@ -2977,14 +2993,14 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/mainWindow.cpp" line="348"/>
         <source>In the file /usr/share/doc/qt5-fsarchiver/doc/Readme are instructions included on the use of the program. Should this continue to be displayed? You can change this in the basic settings.</source>
         <comment>In der Datei /usr/share/doc/qt5-fsarchiver/doc/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</comment>
-        <translation type="unfinished"></translation>
+        <translation>ファイル/usr/share/doc/qt5-fsarchiver/doc/Readme は、プログラムの使用に含まれている指示。これはする必要があります表示する続行しますか。これは、基本設定で変更できます。</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1086"/>
         <source>Backup and restore partitions, directory and MBR
 Version 0.8.0-3, October 31, 2016</source>
         <comment>Sichern und Wiederherstellen von Partitionen, Verzeichnissen und MBR Version 0.8.0-3, 31. Oktober 2016</comment>
-        <translation type="unfinished"></translation>
+        <translation>バックアップと復元のパーティション、ディレクトリおよび MBR バージョン 0.8.0-3、2016 年 10 月 31 日</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1094"/>
@@ -2992,7 +3008,7 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Das Programm muss mit Root-Rechten gestartet werden. Das Programm wird beendet.
 </comment>
-        <translation>The program must be run with root privileges. The program is terminated.
+        <translation>プログラムは root 権限で実行する必要があります。プログラムは終了します。
 </translation>
     </message>
     <message>
@@ -3013,7 +3029,7 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Die Partition wurde erfolgreich gesichert.
 </comment>
-        <translation>The partition has been backed up successfully.
+        <translation>パーティションは正常にバックアップされています。
 </translation>
     </message>
     <message>
@@ -3028,7 +3044,7 @@ Version 0.8.0-3, October 31, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1494"/>
         <source> files, </source>
         <comment> Dateien, </comment>
-        <translation>ファイル</translation>
+        <translation> ファイル </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1352"/>
@@ -3053,7 +3069,7 @@ Version 0.8.0-3, October 31, 2016</source>
         <location filename="../src/mainWindow.cpp" line="1495"/>
         <source> links and </source>
         <comment> Links und </comment>
-        <translation>  link e</translation>
+        <translation> リンク そして </translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1353"/>
@@ -3067,7 +3083,7 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Die Sicherung der Partition  wurde vom Benutzer abgebrochen!
 </comment>
-        <translation>The backup of the partition was aborted by the user!
+        <translation>パーティションのバックアップは、ユーザーによって中止されました!
 </translation>
     </message>
     <message>
@@ -3076,7 +3092,8 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>パーティションの種類はサポートされていません。
+</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1386"/>
@@ -3084,7 +3101,7 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
 </comment>
-        <translation>The partition type is not supported. Maybe the partition is encrypted?
+        <translation>パーティションの種類はサポートされていません。たぶんパーティションは暗号化されますか。
 </translation>
     </message>
     <message>
@@ -3093,7 +3110,7 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?
 </comment>
-        <translation>Error saving partition. File too large. Use is FAT-partition?
+        <translation>パーティションの保存エラー。ファイルが大きすぎます。使用は、FAT パーティションですか。
 </translation>
     </message>
     <message>
@@ -3102,7 +3119,8 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Die Sicherung der Partition war nur teilweise erfolgreich
 </comment>
-        <translation>パーティションのバックアップは一部成功しましたのみ。</translation>
+        <translation>パーティションのバックアップのみ一部成功しました。
+</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1405"/>
@@ -3118,7 +3136,7 @@ Version 0.8.0-3, October 31, 2016</source>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
 </comment>
-        <translation>specials were not properly backed.</translation>
+        <translation> 特別なデータは正しくバックアップされませんでした</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1424"/>
@@ -3126,7 +3144,7 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Die Partition die wiederhergestellt werden soll, ist eingehängt. Sie muss zunächst ausgehängt werden!
 </comment>
-        <translation>cannot restore an archive to a partition which is mounted, unmount it first 
+        <translation>アーカイブをマウントされているパーティションに復元、最初それをアンマウントできません。 
 </translation>
     </message>
     <message>
@@ -3136,7 +3154,7 @@ Version 0.8.0-3, October 31, 2016</source>
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>The partition is successful back.
+        <translation>パーティションは正常に復元されました。
 </translation>
     </message>
     <message>
@@ -3557,43 +3575,43 @@ with fsarchiver</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="663"/>
         <location filename="../build/ui_fsarchiverMain.h" line="560"/>
         <source>&amp;Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;行動</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="681"/>
         <location filename="../build/ui_fsarchiverMain.h" line="561"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;設定</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="687"/>
         <location filename="../build/ui_fsarchiverMain.h" line="562"/>
         <source>&amp;Information</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;情報</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="693"/>
         <location filename="../build/ui_fsarchiverMain.h" line="563"/>
         <source>&amp;Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;戻る</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="731"/>
         <location filename="../build/ui_fsarchiverMain.h" line="478"/>
         <source>&amp;Basic Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;基本設定</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="740"/>
         <location filename="../build/ui_fsarchiverMain.h" line="479"/>
         <source>&amp;Information fsarchiver</source>
-        <translation type="unfinished"></translation>
+        <translation>情報 FSArchiver</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="785"/>
         <location filename="../build/ui_fsarchiverMain.h" line="484"/>
         <source>&amp;Exit program</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;出口プログラム</translation>
     </message>
     <message>
         <source>Actions</source>
@@ -3661,13 +3679,13 @@ with fsarchiver</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="794"/>
         <location filename="../build/ui_fsarchiverMain.h" line="485"/>
         <source>Save a partition/directorie on network</source>
-        <translation type="unfinished"></translation>
+        <translation>ネットワーク上にパーティション/ディレクトリを保存する</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="803"/>
         <location filename="../build/ui_fsarchiverMain.h" line="486"/>
         <source>Restore a partition/directorie on network</source>
-        <translation type="unfinished"></translation>
+        <translation>ネットワーク上のパーティション/ディレクトリを復元する</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="812"/>
@@ -3697,13 +3715,13 @@ with fsarchiver</translation>
         <location filename="../src/ui/fsarchiverMain.ui" line="840"/>
         <location filename="../build/ui_fsarchiverMain.h" line="491"/>
         <source>Save directories on network</source>
-        <translation type="unfinished"></translation>
+        <translation>ネットワーク上のディレクトリを保存します</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="845"/>
         <location filename="../build/ui_fsarchiverMain.h" line="492"/>
         <source>Restore directories from network</source>
-        <translation type="unfinished"></translation>
+        <translation>ディレクトリをネットワークから復元する</translation>
     </message>
 </context>
 <context>
@@ -3787,45 +3805,45 @@ with fsarchiver</translation>
         <location filename="../build/ui_clone_dialog.h" line="322"/>
         <source>&amp;Image of a hard disk write back</source>
         <extracomment>sdc</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ハードディスクの書き戻し</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="539"/>
         <location filename="../build/ui_clone_dialog.h" line="323"/>
         <source>&amp;Clone hard disk</source>
         <extracomment>sda</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;クローン のハードドライブ</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="577"/>
         <location filename="../build/ui_clone_dialog.h" line="325"/>
         <source>Image &amp;of a hard disk to create</source>
         <extracomment>sdb</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>画像 &amp;作成するハードディスク</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="590"/>
         <location filename="../build/ui_clone_dialog.h" line="326"/>
         <source>Image of &amp;a partition to create</source>
-        <translation type="unfinished"></translation>
+        <translation>画像の &amp; 作成するパーティション</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="603"/>
         <location filename="../build/ui_clone_dialog.h" line="327"/>
         <source>Image of a &amp;partition write back</source>
-        <translation type="unfinished"></translation>
+        <translation>イメージ、&amp; バックアップ パーティションの書き込み</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="630"/>
         <location filename="../build/ui_clone_dialog.h" line="329"/>
         <source>p</source>
-        <translation type="unfinished"></translation>
+        <translation>p</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="643"/>
         <location filename="../build/ui_clone_dialog.h" line="330"/>
         <source>Save/Restore</source>
-        <translation type="unfinished"></translation>
+        <translation>保存/復元</translation>
     </message>
     <message>
         <location filename="../src/ui/clone_dialog.ui" line="656"/>
@@ -4211,7 +4229,7 @@ backup key</translation>
         <location filename="../src/ui/dir_dialog.ui" line="504"/>
         <location filename="../build/ui_dir_dialog.h" line="245"/>
         <source>show hidden directories/files</source>
-        <translation type="unfinished"></translation>
+        <translation>隠しディレクトリ/ファイルを表示します</translation>
     </message>
 </context>
 <context>
@@ -4292,7 +4310,7 @@ Backup / restore:</translation>
         <location filename="../build/ui_mbr_dialog.h" line="109"/>
         <source>&amp;Existing
 harddrive:</source>
-        <translation type="unfinished"></translation>
+        <translation>・既存ハード ディスク ドライブ:</translation>
     </message>
 </context>
 <context>
@@ -4370,7 +4388,7 @@ back to the original location</translation>
         <location filename="../src/ui/setting.ui" line="179"/>
         <location filename="../build/ui_setting.h" line="161"/>
         <source>Show passwords</source>
-        <translation type="unfinished"></translation>
+        <translation>パスワードを表示します</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="192"/>
