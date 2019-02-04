@@ -119,13 +119,13 @@
         <source>You must select a partition.</source>
         <comment>Sie müssen eine Partition auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Debe seleccionar una partición.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="203"/>
         <source> Do you want really built a image from a partition? </source>
         <comment> Wollen Sie wirklich ein Abbild einer Partition erstellen? </comment>
-        <translation type="unfinished"></translation>
+        <translation> ¿Quieres realmente construir una imagen desde una partición? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="230"/>
@@ -139,21 +139,21 @@
         <source>You must select a partition.</source>
         <comment>Sie müssen eine Partitiom auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Debe seleccionar una partición.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="239"/>
         <source>You must select a part.fsa file or an part.fsa.gz file.</source>
         <comment>Sie müssen eine part.fsa- oder eine part.fsa.gz-Datei auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Debe seleccionar un archivo de part.fsa o un part.fsa.gz.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="257"/>
         <location filename="../src/clone.cpp" line="464"/>
         <source>Partition to restore </source>
         <comment>Die wiederherzustellende Partition </comment>
-        <translation type="unfinished"></translation>
+        <translation>Partición a restaurar </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="258"/>
@@ -173,7 +173,7 @@
         <location filename="../src/clone.cpp" line="273"/>
         <source> Do you want really restore an image of a partition? </source>
         <comment> Wollen Sie wirklich ein Abbild einer Partition zurückschreiben? </comment>
-        <translation type="unfinished"></translation>
+        <translation> ¿Desea realmente restaurar la imagen de una partición? </translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="448"/>
@@ -224,25 +224,25 @@
         <location filename="../src/clone.cpp" line="574"/>
         <source>Save Partition Image</source>
         <comment>Image einer Partition erstellen</comment>
-        <translation type="unfinished"></translation>
+        <translation>Guardar imagen de la partición</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="576"/>
         <source>Save Partition Image</source>
         <comment>Partition Abbild erstellen</comment>
-        <translation type="unfinished"></translation>
+        <translation>Guardar imagen de la partición</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="587"/>
         <source>Restore Partition Image</source>
         <comment>Image einer Partition zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar la imagen de la partición</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="589"/>
         <source>Restore Partition Image</source>
         <comment>Partition Abbild zurückschreiben</comment>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar la imagen de la partición</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="670"/>
@@ -265,56 +265,56 @@
         <source>Backing up the image of the hard disk was successful.</source>
         <comment>Das Sichern des Abbildes der Festplatte war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La copia de seguridad de la imagen del disco duro se ha realizado con éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="826"/>
         <source>Backing up the image of a partition was successful.</source>
         <comment>Die Sichern des Abbildes der Partition war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La copia de seguridad de la imagen de una partición se ha realizado correctamente.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="838"/>
         <source>Backing up the image of the hard disk was not successful.</source>
         <comment>Die Sichern des Abbildes der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La copia de seguridad de la imagen del disco duro se ha realizado con éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="845"/>
         <source>Backing up the image of a partition was not successful.</source>
         <comment>Die Sichern des Abbildes der Partition war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La copia de seguridad de la imagen de una partición no tuvo éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="872"/>
         <source>The restore of the image of the hard disk was successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Festplatte war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La restauración de la imagen del disco duro se ha realizado con éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="874"/>
         <source>The restore of the image of the partition was successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Partition war erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La restauración de la imagen de la partición se ha realizado con éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="879"/>
         <source>The restore of the image of the hard disk was not successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Festplatte war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La restauración de la imagen del disco duro no ha tenido éxito.</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="885"/>
         <source>The restore of the image of the partition was not successful.</source>
         <comment>Die Wiederherstellung des Abbildes der Partition war nicht erfolgreich.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La restauración de la imagen de la partición no ha tenido éxito.</translation>
     </message>
     <message>
         <source>The backup of the image was successfully.</source>
@@ -1101,7 +1101,7 @@ Los archivos deben terminar al FSA.</translation>
         <source>Mistake. The partition table can not be read. The program is terminated</source>
         <comment>Fehler. Die Partitionstabelle kann nicht ausgelesen werden. Das Programm wird abgebrochen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>Un error. La tabla de particiones no se puede leer. Se cancela el programa</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="336"/>
@@ -1617,7 +1617,8 @@ Los archivos deben terminar al FSA.</translation>
 </source>
         <comment> Die Sicherung oder Wiederherstellung mit ssh ist nicht möglich. Beenden Sie  das Programm und starten es erneut im Terminal mit Root-Rechten
 </comment>
-        <translation type="unfinished"></translation>
+        <translation>La copia de seguridad o restauración con ssh no es posible. Salga del programa y reinícielo de nuevo en el terminal con el derecho de root.
+</translation>
     </message>
     <message>
         <source>Save partition</source>
@@ -2039,115 +2040,115 @@ clave de copia de seguridad:</translation>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Arabic</source>
         <comment>Arabisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Árabe</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Catalan</source>
         <comment>Katalanisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Catalán</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Danish</source>
         <comment>Dänisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Danés</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>French</source>
         <comment>Französisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Francés</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="34"/>
         <source>Czech</source>
         <comment>Tschechisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Checo</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Greek</source>
         <comment>Griechisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Griego</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Finnish</source>
         <comment>Finnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Finlandés</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hindi</source>
         <comment>Hindi</comment>
-        <translation type="unfinished"></translation>
+        <translation>Hindi</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hungarian</source>
         <comment>Ungarisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Húngaro</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Armenian</source>
         <comment>Armenisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Armenio</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Estonian</source>
         <comment>Estnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Estonio</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Hebrew</source>
         <comment>Hebräisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Hebreo</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="35"/>
         <source>Indonesian</source>
         <comment>Indonesisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Indonesio</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Korean</source>
         <comment>Koreanisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Coreano</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Norwegian</source>
         <comment>Norwegisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Noruego</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Polish</source>
         <comment>Polnisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Polaco</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Romanian</source>
         <comment>Rumänisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rumano</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Latvian</source>
         <comment>Lettisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Letón</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Lithuanian</source>
         <comment>Litauisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Lituano</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="36"/>
@@ -2159,55 +2160,55 @@ clave de copia de seguridad:</translation>
         <location filename="../src/setting.cpp" line="36"/>
         <source>Persian</source>
         <comment>Persisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Persa</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Slovak</source>
         <comment>Slowakisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Eslovaco</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Serbian</source>
         <comment>Serbisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Serbio</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Swedish</source>
         <comment>Schwedisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Sueco</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Turkish</source>
         <comment>Türkisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Turco</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Ukrainian</source>
         <comment>Ukrainisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ucraniano</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Urdu</source>
         <comment>Urdu</comment>
-        <translation type="unfinished"></translation>
+        <translation>Urdu</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Thai</source>
         <comment>Thailändisch</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tailandés</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="37"/>
         <source>Vietnamese</source>
         <comment>Vietnamesich</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vietnamita</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="42"/>
